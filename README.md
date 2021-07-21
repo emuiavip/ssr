@@ -30,4 +30,4 @@ iOS：[没有美区AppleID的翻墙教程](https://github.com/Alvin9999/new-pac/
 
 ------
 
-有问题可以发邮件至海外邮箱[emuiavip@gmail.com](
+有问题可以发邮件至海外邮箱[emuiavip@gmail.com]
