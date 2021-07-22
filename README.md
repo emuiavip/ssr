@@ -2,8 +2,7 @@
 
 ### 翻墙后推荐网站：
 
-google.com(谷歌；搜索类） dongtaiwang.com(动态网；新闻及网址导航类） youtube.com(油管；视频类） ntdtv.com(新唐人；视频新闻娱乐类） epochtimes.com（大纪元；新闻类） aboluowang.com(阿波罗新闻网；新闻类） bannedbook.org（禁书网；书籍类） soundofhope.org（希望之声国际广播电台） zh-cn.shenyun.com（神韵；文化艺术类） tuidang.org（三退保平安）
-
+google.com(谷歌；搜索类） youtube.com(油管；视频类） 
 ------
 
 **一般情况下2天更新1次。为了让每个人都能获得一定的带宽资源，节点进行了限速500kb/s。禁止使用节点进行BT下载、滥发垃圾邮件、DDOS攻击！BT下载会导致服务器被投诉版权而被封！如果不能看到最新的节点信息，把浏览器缓存清理一下。**
