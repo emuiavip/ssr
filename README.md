@@ -8,21 +8,25 @@
 
 **SSR：**
 https://pub-api-1.bianyuan.xyz/sub?target=ssr&url=https%3A%2F%2Fraw.githubusercontent.com%2Femuiavip%2Fssr%2Fmain%2Fssr&insert=false
+
 短连接：
 https://suo.yt/niYEjHA
 
 **v2ray：**
 https://pub-api-1.bianyuan.xyz/sub?target=v2ray&url=https%3A%2F%2Fraw.githubusercontent.com%2Femuiavip%2Fssr%2Fmain%2Fv2ray&insert=false
+
 短连接：
 https://suo.yt/9d3yOQn
 
 **QuantumultX：**
 https://pub-api-1.bianyuan.xyz/sub?target=quanx&url=https%3A%2F%2Fraw.githubusercontent.com%2Femuiavip%2Fssr%2Fmain%2Fssr&insert=false
+
 短连接：
 https://suo.yt/fyR2dnQ
 
 **trojan：**
 https://pub-api-1.bianyuan.xyz/sub?target=clashr&url=https%3A%2F%2Fraw.githubusercontent.com%2Femuiavip%2Fssr%2Fmain%2Ftrojan&insert=false
+
 短连接：
 https://suo.yt/hTFA240
 
