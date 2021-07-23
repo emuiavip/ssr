@@ -4,6 +4,30 @@
 
 ------
 
+**订阅地址：**
+
+**SSR：**
+https://pub-api-1.bianyuan.xyz/sub?target=ssr&url=https%3A%2F%2Fraw.githubusercontent.com%2Femuiavip%2Fssr%2Fmain%2Fssr&insert=false
+短连接：
+https://suo.yt/niYEjHA
+
+**v2ray：**
+https://pub-api-1.bianyuan.xyz/sub?target=v2ray&url=https%3A%2F%2Fraw.githubusercontent.com%2Femuiavip%2Fssr%2Fmain%2Fv2ray&insert=false
+短连接：
+https://suo.yt/9d3yOQn
+
+**QuantumultX：**
+https://pub-api-1.bianyuan.xyz/sub?target=quanx&url=https%3A%2F%2Fraw.githubusercontent.com%2Femuiavip%2Fssr%2Fmain%2Fssr&insert=false
+短连接：
+https://suo.yt/fyR2dnQ
+
+**trojan：**
+https://pub-api-1.bianyuan.xyz/sub?target=clashr&url=https%3A%2F%2Fraw.githubusercontent.com%2Femuiavip%2Fssr%2Fmain%2Ftrojan&insert=false
+短连接：
+https://suo.yt/hTFA240
+
+------
+
 **SSR客户端下载：**
 
 第一次电脑系统使用SSR/SS客户端时，如果提示你需要安装NET Framework 4.0，网上搜一下这个东西，安装一下即可。NET Framework 4.0是SSR/SS的运行库，没有这个SSR/SS客户端无法正常运行。有的电脑系统可能会自带NET Framework 4.0。
