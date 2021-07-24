@@ -27,5 +27,31 @@ iOS：[没有美区AppleID的翻墙教程](https://github.com/Alvin9999/new-pac/
 [全平台SS/SSR客户端下载汇总](http://www.mediafire.com/folder/sfqz8bmodqdx5/shadowsocks相关客户端)
 
 ------
+使用教程
+------
+Clash 使用教程
+Windows | Mac | Android
+
+Shadowsocks 使用教程
+Windows | macOS | iOS | Android | Linux
+
+ShadowsockR 使用教程
+Windows | macOS | iOS | Android | Linux
+
+V2ray 使用教程
+Windows | Android
+
+QV2ray 使用教程
+TODO:Windows
+
+其它教程
+Proxy SwitchyOmega设置教程
+Chrome | Firefox
+
+Proxifier 设置教程
+
+设置自定义 DNS 服务器
+
+------
 
 有问题可以发邮件至海外邮箱[emuiavip@gmail.com]
