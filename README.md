@@ -27,30 +27,37 @@ iOS：[没有美区AppleID的翻墙教程](https://github.com/Alvin9999/new-pac/
 [全平台SS/SSR客户端下载汇总](http://www.mediafire.com/folder/sfqz8bmodqdx5/shadowsocks相关客户端)
 
 ------
-使用教程
-------
-Clash 使用教程
-Windows | Mac | Android
+### 使用教程
 
-Shadowsocks 使用教程
-Windows | macOS | iOS | Android | Linux
+#### Clash 使用教程
 
-ShadowsockR 使用教程
-Windows | macOS | iOS | Android | Linux
+[Windows](https://github.com/selierlin/Share-SSR-V2ray/blob/master/Clash/Clash_Windows.md) | [Mac](https://github.com/selierlin/Share-SSR-V2ray/blob/master/Clash/Clash_Mac.md) | [Android](https://github.com/selierlin/Share-SSR-V2ray/blob/master/Clash/Clash_Android.md)
 
-V2ray 使用教程
-Windows | Android
+#### Shadowsocks 使用教程
 
-QV2ray 使用教程
-TODO:Windows
+[Windows](https://github.com/selierlin/Share-SSR-V2ray/blob/master/SS/2-windows-setup-guide-cn.md) | [macOS](https://github.com/selierlin/Share-SSR-V2ray/blob/master/SS/3-macos-setup-guide-cn.md) | [iOS](https://github.com/selierlin/Share-SSR-V2ray/blob/master/SS/4-ios-setup-guide-cn.md) | [Android](https://github.com/selierlin/Share-SSR-V2ray/blob/master/SS/5-android-setup-guide-cn.md) | [Linux](https://github.com/selierlin/Share-SSR-V2ray/blob/master/SS/6-linux-setup-guide-cn.md)
 
-其它教程
-Proxy SwitchyOmega设置教程
-Chrome | Firefox
+#### ShadowsockR 使用教程
 
-Proxifier 设置教程
+[Windows](https://github.com/selierlin/Share-SSR-V2ray/blob/master/SSR/11-windows-setup-guide-cn.md) | [macOS](https://github.com/selierlin/Share-SSR-V2ray/blob/master/SSR/12-macos-setup-guide-cn.md) | [iOS](https://github.com/selierlin/Share-SSR-V2ray/blob/master/SSR/13-ios-setup-guide-cn.md) | [Android](https://github.com/selierlin/Share-SSR-V2ray/blob/master/SSR/14-android-setup-guide-cn.md) | [Linux](https://github.com/selierlin/Share-SSR-V2ray/blob/master/SSR/15-linux-setup-guide-cn.md)
 
-设置自定义 DNS 服务器
+#### V2ray 使用教程
+
+[Windows](https://github.com/selierlin/Share-SSR-V2ray/blob/master/V2ray/V2rayN_Windows.md) | [Android](https://github.com/selierlin/Share-SSR-V2ray/blob/master/V2ray/V2ray_Android.md)
+
+#### QV2ray 使用教程
+
+[TODO:Windows](https://github.com/selierlin/Share-SSR-V2ray/blob/master/QV2ray/QV2ray_Windows.md)
+
+#### 其它教程
+
+##### Proxy SwitchyOmega设置教程
+
+[Chrome](https://github.com/selierlin/Share-SSR-V2ray/blob/master/Other/7-2-chrome-setup-guide-cn.md) | [Firefox](https://github.com/selierlin/Share-SSR-V2ray/blob/master/Other/7-1-firefox-setup-guide-cn.md)
+
+[Proxifier 设置教程](https://github.com/selierlin/Share-SSR-V2ray/blob/master/Other/8-proxifier-settings.md)
+
+[设置自定义 DNS 服务器](https://github.com/selierlin/Share-SSR-V2ray/blob/master/Other/9-dns-setup-guide-cn.md)
 
 ------
 
