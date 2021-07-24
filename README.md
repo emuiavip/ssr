@@ -24,7 +24,7 @@ Linux 客户端 [下载地址](http://www.mediafire.com/folder/xag0zy318a5tt/Lin
 
 iOS：[没有美区AppleID的翻墙教程](https://github.com/Alvin9999/new-pac/wiki/苹果手机翻墙软件) [iOS注册美区Apple ID教程](https://github.com/emuiavip/ssr/wiki/%E7%BE%8E%E5%8C%BAApple-ID%E6%B3%A8%E5%86%8C%E6%95%99%E7%A8%8B%EF%BC%81%E4%B8%A4%E5%88%86%E9%92%9F%E5%88%9B%E5%BB%BA%E7%BE%8E%E5%8C%BA%E8%B4%A6%E5%8F%B7%EF%BC%81)
 
-[全平台SS/SSR客户端下载汇总](http://www.mediafire.com/folder/sfqz8bmodqdx5/shadowsocks相关客户端)
+[全平台SS/SSR客户端下载汇总](https://github.com/emuiavip/ssr/blob/node/tools.md)
 
 ------
 ### 使用教程
