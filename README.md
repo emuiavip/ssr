@@ -8,7 +8,7 @@
 
 ------
 
-**SSR客户端下载：**
+**全工具全平台客户端下载：**
 
 第一次电脑系统使用SSR/SS客户端时，如果提示你需要安装NET Framework 4.0，网上搜一下这个东西，安装一下即可。NET Framework 4.0是SSR/SS的运行库，没有这个SSR/SS客户端无法正常运行。有的电脑系统可能会自带NET Framework 4.0。
 
@@ -24,7 +24,7 @@ Linux 客户端 [下载地址](http://www.mediafire.com/folder/xag0zy318a5tt/Lin
 
 iOS：[没有美区AppleID的翻墙教程](https://github.com/Alvin9999/new-pac/wiki/苹果手机翻墙软件) [iOS注册美区Apple ID教程](https://github.com/emuiavip/ssr/wiki/%E7%BE%8E%E5%8C%BAApple-ID%E6%B3%A8%E5%86%8C%E6%95%99%E7%A8%8B%EF%BC%81%E4%B8%A4%E5%88%86%E9%92%9F%E5%88%9B%E5%BB%BA%E7%BE%8E%E5%8C%BA%E8%B4%A6%E5%8F%B7%EF%BC%81)
 
-[全平台SS/SSR客户端下载汇总](https://github.com/emuiavip/ssr/blob/node/tools.md)
+[收集有多种平台的工具及官网](https://github.com/emuiavip/ssr/blob/node/tools.md)
 
 ------
 ### 使用教程
