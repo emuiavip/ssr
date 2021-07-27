@@ -8,7 +8,7 @@
 
 ## 每日公益节点订阅分享
 
-Telegram (https://t.me/Msskymu)
+Telegram (https://t.me/Mshare_T)
 
 牧舍交流群组：@Mshare_T
 
