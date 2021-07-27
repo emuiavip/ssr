@@ -4,31 +4,24 @@
 
 ------
 
-**订阅地址：**
+所有分享的节点可能无法保证让你享受极速上网，但可以保证让你不失联。
+局部网友可能无法使用，可以尝试多切换其他的节点。
 
-**SSR：**
-https://pub-api-1.bianyuan.xyz/sub?target=ssr&url=https%3A%2F%2Fraw.githubusercontent.com%2Femuiavip%2Fssr%2Fmain%2Fssr&insert=false
+#没有任何节点经得起万人分享
 
-短连接：
-https://suo.yt/niYEjHA
+如果追求高品质翻墙生活，请前往 牧舍 | 频道 (https://t.me/Msskymu) 不定时进行节点、机场资源分享等等！
+#站外交易与牧舍频道组无关，请减防上当受骗！
 
-**v2ray：**
-https://pub-api-1.bianyuan.xyz/sub?target=v2ray&url=https%3A%2F%2Fraw.githubusercontent.com%2Femuiavip%2Fssr%2Fmain%2Fv2ray&insert=false
+--------------------------------------------------------
 
-短连接：
-https://suo.yt/9d3yOQn
+机场公益节点订阅分享
 
-**QuantumultX：**
-https://pub-api-1.bianyuan.xyz/sub?target=quanx&url=https%3A%2F%2Fraw.githubusercontent.com%2Femuiavip%2Fssr%2Fmain%2Fssr&insert=false
+Telegram (https://t.me/Msskymu)
+牧舍交流群组：@Mshare_T
+机场资源白嫖频道： @Msskymu
+业务合作： @Tmushe
+不定时进行节点、机场资源分享等等！
 
-短连接：
-https://suo.yt/fyR2dnQ
-
-**trojan：**
-https://pub-api-1.bianyuan.xyz/sub?target=clashr&url=https%3A%2F%2Fraw.githubusercontent.com%2Femuiavip%2Fssr%2Fmain%2Ftrojan&insert=false
-
-短连接：
-https://suo.yt/hTFA240
 
 
 ------
