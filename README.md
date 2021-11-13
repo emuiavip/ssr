@@ -14,8 +14,6 @@ Telegram (https://t.me/Mshare_T)
 
 机场资源白嫖频道： @Msskymu
 
-业务合作： @Tmushe
-
 不定时进行节点、机场资源分享等等！
 
 
