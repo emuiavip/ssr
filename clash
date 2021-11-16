@@ -6,6 +6,7 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: ↓加入Telegram交流群永久免费防失联↓, server: 185.76.8.218, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: ↓想要更多福利 请关注群组↓, server: in.52jjyun.top, port: 80, type: vmess, uuid: 69e8f906-ec15-4fd5-838a-a198a2cbf441, alterId: 10, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /jjyun, ws-headers: {Host: in.52jjyun.top}}
   - {name: 🇧🇪 比利时_001 关注Tg交流群_@Mshare_T, server: 194.110.115.84, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
   - {name: 🇧🇪 比利时_002 关注Tg交流群_@Mshare_T, server: 194.110.115.84, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
   - {name: 🇧🇪 比利时_003 关注Tg交流群_@Mshare_T, server: 194.110.115.84, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
@@ -121,6 +122,8 @@ proxies:
   - {name: 🇳🇴 挪威_015 关注Tg交流群_@Mshare_T, server: 91.219.215.53, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
   - {name: 🇳🇴 挪威_016 关注Tg交流群_@Mshare_T, server: 91.219.215.53, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
   - {name: 🇳🇴 挪威_017 关注Tg交流群_@Mshare_T, server: 91.219.215.53, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: 新西兰_001 关注Tg交流群_@Mshare_T, server: 107.150.94.12, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 新西兰_002 关注Tg交流群_@Mshare_T, server: 107.150.94.12, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
   - {name: 新西兰_003 Tg交流群 @Mshare_T, server: 107.150.94.12, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
   - {name: 🇷🇴 罗马尼亚_001 关注Tg交流群_@Mshare_T, server: 89.37.95.16, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 🇷🇴 罗马尼亚_002 关注Tg交流群_@Mshare_T, server: 89.37.95.16, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
@@ -129,8 +132,14 @@ proxies:
   - {name: 🇷🇴 罗马尼亚_005 关注Tg交流群_@Mshare_T, server: 89.37.95.16, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
   - {name: 🇷🇴 罗马尼亚_006 关注Tg交流群_@Mshare_T, server: 91.219.215.53, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
   - {name: 🇷🇺 俄罗斯_001 关注Tg交流群_@Mshare_T, server: ru.node.qchwnd.moe, port: 12802, type: trojan, password: e438cc34-21de-497f-89a5-4e181cf50d72, sni: ru.node.qchwnd.moe, skip-cert-verify: false}
+  - {name: 🇸🇪 瑞典_001 关注Tg交流群_@Mshare_T, server: 185.76.9.56, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇸🇪 瑞典_002 关注Tg交流群_@Mshare_T, server: 185.76.9.56, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 🇸🇪 瑞典_003 关注Tg交流群_@Mshare_T, server: 185.76.9.56, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: 🇸🇪 瑞典_004 关注Tg交流群_@Mshare_T, server: 185.76.9.56, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 🇸🇪 瑞典_005 关注Tg交流群_@Mshare_T, server: 185.76.9.56, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
+  - {name: 🇸🇪 瑞典_006 关注Tg交流群_@Mshare_T, server: 185.76.9.56, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
   - {name: 🇸🇪 瑞典_007 关注Tg交流群_@Mshare_T, server: 185.76.9.56, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇸🇬 新加坡_007 关注Tg交流群_@Mshare_T, server: in.52jjyun.top, port: 80, type: vmess, uuid: 69e8f906-ec15-4fd5-838a-a198a2cbf441, alterId: 10, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /jjyun, ws-headers: {Host: in.52jjyun.top}}
+  - {name: 🇸🇪 瑞典_008 关注Tg交流群_@Mshare_T, server: 185.76.9.56, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
   - {name: 🇸🇬 新加坡_014 关注Tg交流群_@Mshare_T, server: azhk4.zz123.xyz, port: 15724, type: vmess, uuid: 32b2dd7f-c643-3ab3-a6de-334c3ded5b65, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: t.me/vpnhat}}
   - {name: 🇸🇬 新加坡_015 关注Tg交流群_@Mshare_T, server: azhk4.zz123.xyz, port: 15724, type: vmess, uuid: 90f7fe29-8608-3fca-af75-732a2a5b2242, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: t.me/vpnhat}}
   - {name: 🇸🇬 新加坡_016 关注Tg交流群_@Mshare_T, server: azhk4.zz123.xyz, port: 15724, type: vmess, uuid: 036ad9ba-fd5b-346f-bf1f-9966f4428cf5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: t.me/vpnhat}}
@@ -216,7 +225,6 @@ proxy-groups:
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
-      - 🇸🇬 新加坡_007 关注Tg交流群_@Mshare_T
       - 🇸🇬 新加坡_014 关注Tg交流群_@Mshare_T
       - 🇸🇬 新加坡_015 关注Tg交流群_@Mshare_T
       - 🇸🇬 新加坡_016 关注Tg交流群_@Mshare_T
@@ -282,6 +290,7 @@ proxy-groups:
     type: select
     proxies:
       - ↓加入Telegram交流群永久免费防失联↓
+      - ↓想要更多福利 请关注群组↓
       - 🇧🇪 比利时_001 关注Tg交流群_@Mshare_T
       - 🇧🇪 比利时_002 关注Tg交流群_@Mshare_T
       - 🇧🇪 比利时_003 关注Tg交流群_@Mshare_T
@@ -397,6 +406,8 @@ proxy-groups:
       - 🇳🇴 挪威_015 关注Tg交流群_@Mshare_T
       - 🇳🇴 挪威_016 关注Tg交流群_@Mshare_T
       - 🇳🇴 挪威_017 关注Tg交流群_@Mshare_T
+      - 新西兰_001 关注Tg交流群_@Mshare_T
+      - 新西兰_002 关注Tg交流群_@Mshare_T
       - 新西兰_003 Tg交流群 @Mshare_T
       - 🇷🇴 罗马尼亚_001 关注Tg交流群_@Mshare_T
       - 🇷🇴 罗马尼亚_002 关注Tg交流群_@Mshare_T
@@ -405,8 +416,14 @@ proxy-groups:
       - 🇷🇴 罗马尼亚_005 关注Tg交流群_@Mshare_T
       - 🇷🇴 罗马尼亚_006 关注Tg交流群_@Mshare_T
       - 🇷🇺 俄罗斯_001 关注Tg交流群_@Mshare_T
+      - 🇸🇪 瑞典_001 关注Tg交流群_@Mshare_T
+      - 🇸🇪 瑞典_002 关注Tg交流群_@Mshare_T
+      - 🇸🇪 瑞典_003 关注Tg交流群_@Mshare_T
+      - 🇸🇪 瑞典_004 关注Tg交流群_@Mshare_T
+      - 🇸🇪 瑞典_005 关注Tg交流群_@Mshare_T
+      - 🇸🇪 瑞典_006 关注Tg交流群_@Mshare_T
       - 🇸🇪 瑞典_007 关注Tg交流群_@Mshare_T
-      - 🇸🇬 新加坡_007 关注Tg交流群_@Mshare_T
+      - 🇸🇪 瑞典_008 关注Tg交流群_@Mshare_T
       - 🇸🇬 新加坡_014 关注Tg交流群_@Mshare_T
       - 🇸🇬 新加坡_015 关注Tg交流群_@Mshare_T
       - 🇸🇬 新加坡_016 关注Tg交流群_@Mshare_T
