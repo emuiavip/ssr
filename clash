@@ -57,11 +57,6 @@ proxies:
   - {name: 🇨🇭 瑞士_033 Tg交流群 @Mshare_T, server: 156.146.62.45, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
   - {name: 🇨🇭 瑞士_034 Tg交流群 @Mshare_T, server: 156.146.62.45, port: 32971, type: ss, cipher: aes-256-gcm, password: vwS65ZXyZg85ApwZ2bBh6zFZ}
   - {name: 🇨🇭 瑞士_035 Tg交流群 @Mshare_T, server: 156.146.62.45, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj}
-  - {name: 台灣_001 关注Tg交流群_@Mshare_T, server: tw.node.qchwnd.moe, port: 19213, type: trojan, password: e438cc34-21de-497f-89a5-4e181cf50d72, sni: tw.node.qchwnd.moe, skip-cert-verify: false}
-  - {name: 台灣_002 关注Tg交流群_@Mshare_T, server: cm-jm.okvpn.xyz, port: 20000, type: vmess, uuid: 70034773-c778-499b-bad9-52b9d953bb6d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 台灣_003 关注Tg交流群_@Mshare_T, server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: 70034773-c778-499b-bad9-52b9d953bb6d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 台灣_004 关注Tg交流群_@Mshare_T, server: cm-jm.okvpn.xyz, port: 20047, type: vmess, uuid: 70034773-c778-499b-bad9-52b9d953bb6d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 台灣_005 关注Tg交流群_@Mshare_T, server: ct.cnhost.top, port: 16616, type: vmess, uuid: 083761a3-00b3-461a-8d82-43eb67d429aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ct.cnhost.top}}
   - {name: 🇩🇪 德国_001 Tg交流群 @Mshare_T, server: 82.102.16.102, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
   - {name: 🇩🇪 德国_002 Tg交流群 @Mshare_T, server: 156.146.33.74, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
   - {name: 🇩🇪 德国_003 Tg交流群 @Mshare_T, server: 156.146.33.66, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
@@ -188,6 +183,9 @@ proxies:
   - {name: 🇯🇵 日本_005 关注Tg交流群_@Mshare_T, server: azhk4.zz123.xyz, port: 14083, type: vmess, uuid: 036ad9ba-fd5b-346f-bf1f-9966f4428cf5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: t.me/vpnhat}}
   - {name: 🇯🇵 日本_006 关注Tg交流群_@Mshare_T, server: azhk4.zz123.xyz, port: 14083, type: vmess, uuid: 32b2dd7f-c643-3ab3-a6de-334c3ded5b65, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: t.me/vpnhat}}
   - {name: 🇯🇵 日本_007 关注Tg交流群_@Mshare_T, server: azhk4.zz123.xyz, port: 14083, type: vmess, uuid: 90f7fe29-8608-3fca-af75-732a2a5b2242, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇰🇷 韩国_001 关注Tg交流群_@Mshare_T, server: cu.cnhost.top, port: 16619, type: vmess, uuid: 083761a3-00b3-461a-8d82-43eb67d429aa, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu.cnhost.top}}
+  - {name: 🇰🇷 韩国_002 关注Tg交流群_@Mshare_T, server: gtm.gkd.world, port: 16619, type: vmess, uuid: 083761a3-00b3-461a-8d82-43eb67d429aa, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: gtm.gkd.world}}
+  - {name: 🇰🇷 韩国_003 关注Tg交流群_@Mshare_T, server: cm.cnhost.top, port: 16619, type: vmess, uuid: 083761a3-00b3-461a-8d82-43eb67d429aa, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm.cnhost.top}}
   - {name: 🇱🇺 卢森堡_001 关注Tg交流群_@Mshare_T, server: 520yyds.zhqt.xyz, port: 50090, type: vmess, uuid: e71f0963-e272-41c9-ad1c-2c1d214cffeb, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-3.joker007.top}}
   - {name: 🇲🇾 马来西亚_001 关注Tg交流群_@Mshare_T, server: cu.cnhost.top, port: 26623, type: vmess, uuid: 083761a3-00b3-461a-8d82-43eb67d429aa, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu.cnhost.top}}
   - {name: 🇲🇾 马来西亚_002 关注Tg交流群_@Mshare_T, server: cm.cnhost.top, port: 26623, type: vmess, uuid: 083761a3-00b3-461a-8d82-43eb67d429aa, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm.cnhost.top}}
@@ -288,6 +286,11 @@ proxies:
   - {name: 🇹🇷 土耳其_003 关注Tg交流群_@Mshare_T, server: 107.150.94.14, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
   - {name: 🇹🇷 土耳其_004 关注Tg交流群_@Mshare_T, server: cm.cnhost.top, port: 16630, type: vmess, uuid: 083761a3-00b3-461a-8d82-43eb67d429aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm.cnhost.top}}
   - {name: 🇹🇷 土耳其_005 关注Tg交流群_@Mshare_T, server: 185.219.133.108, port: 6616, type: vmess, uuid: 083761a3-00b3-461a-8d82-43eb67d429aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 185.219.133.108}}
+  - {name: 台灣_001 关注Tg交流群_@Mshare_T, server: tw.node.qchwnd.moe, port: 19213, type: trojan, password: e438cc34-21de-497f-89a5-4e181cf50d72, sni: tw.node.qchwnd.moe, skip-cert-verify: false}
+  - {name: 台灣_002 关注Tg交流群_@Mshare_T, server: cm-jm.okvpn.xyz, port: 20000, type: vmess, uuid: 70034773-c778-499b-bad9-52b9d953bb6d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 台灣_003 关注Tg交流群_@Mshare_T, server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: 70034773-c778-499b-bad9-52b9d953bb6d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 台灣_004 关注Tg交流群_@Mshare_T, server: cm-jm.okvpn.xyz, port: 20047, type: vmess, uuid: 70034773-c778-499b-bad9-52b9d953bb6d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 台灣_005 关注Tg交流群_@Mshare_T, server: ct.cnhost.top, port: 16616, type: vmess, uuid: 083761a3-00b3-461a-8d82-43eb67d429aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ct.cnhost.top}}
   - {name: 🇺🇸 美国_001 关注Tg交流群_@Mshare_T, server: 156.146.33.74, port: 39171, type: ss, cipher: aes-256-gcm, password: z4pM2gA9QEEC6NRmqTQubm6Z}
   - {name: 🇺🇸 美国_002 关注Tg交流群_@Mshare_T, server: usdsl.52jjyun.top, port: 80, type: vmess, uuid: bc29ccc1-e656-476b-a9bd-b8340feb2e91, alterId: 10, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /jjyun, ws-headers: {Host: usdsl.52jjyun.top}}
   - {name: 🇺🇸 美国_003 关注Tg交流群_@Mshare_T, server: ct.cnhost.top, port: 16632, type: vmess, uuid: 083761a3-00b3-461a-8d82-43eb67d429aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ct.cnhost.top}}
@@ -337,11 +340,6 @@ proxies:
   - {name: 🇺🇸 美国_050 关注Tg交流群_@Mshare_T, server: 45.79.65.237.ipssh.net, port: 16666, type: vmess, uuid: 083761a3-00b3-461a-8d82-43eb67d429aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 45.79.65.237.ipssh.net}}
   - {name: 🇺🇸 美国_051 关注Tg交流群_@Mshare_T, server: 001.us.na.pop.smallairport.net, port: 22356, type: vmess, uuid: ff2d2dae-13ef-482f-bb15-2cd03acb6e3c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 001.us.na.pop.smallairport.net}}
   - {name: 🇺🇸 美国_052 关注Tg交流群_@Mshare_T, server: 001.us.na.pop.smallairport.net, port: 22356, type: vmess, uuid: 1a8cd12f-5687-4d63-a80a-97ac423ecb5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 001.us.na.pop.smallairport.net}}
-  - {name: 🇰🇷 韩国_001 关注Tg交流群_@Mshare_T, server: cu.cnhost.top, port: 16619, type: vmess, uuid: 083761a3-00b3-461a-8d82-43eb67d429aa, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu.cnhost.top}}
-  - {name: 🇰🇷 韩国_002 关注Tg交流群_@Mshare_T, server: gtm.gkd.world, port: 16619, type: vmess, uuid: 083761a3-00b3-461a-8d82-43eb67d429aa, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: gtm.gkd.world}}
-  - {name: 🇰🇷 韩国_003 关注Tg交流群_@Mshare_T, server: cm.cnhost.top, port: 16619, type: vmess, uuid: 083761a3-00b3-461a-8d82-43eb67d429aa, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm.cnhost.top}}
-  - {name: 🇮🇱 以色列_001 关注Tg交流群_@Mshare_T, server: cu.cnhost.top, port: 16629, type: vmess, uuid: 083761a3-00b3-461a-8d82-43eb67d429aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu.cnhost.top}}
-  - {name: 🇮🇱 以色列_002 关注Tg交流群_@Mshare_T, server: cm.cnhost.top, port: 16629, type: vmess, uuid: 083761a3-00b3-461a-8d82-43eb67d429aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm.cnhost.top}}
 proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
@@ -619,11 +617,6 @@ proxy-groups:
       - 🇨🇭 瑞士_033 Tg交流群 @Mshare_T
       - 🇨🇭 瑞士_034 Tg交流群 @Mshare_T
       - 🇨🇭 瑞士_035 Tg交流群 @Mshare_T
-      - 台灣_001 关注Tg交流群_@Mshare_T
-      - 台灣_002 关注Tg交流群_@Mshare_T
-      - 台灣_003 关注Tg交流群_@Mshare_T
-      - 台灣_004 关注Tg交流群_@Mshare_T
-      - 台灣_005 关注Tg交流群_@Mshare_T
       - 🇩🇪 德国_001 Tg交流群 @Mshare_T
       - 🇩🇪 德国_002 Tg交流群 @Mshare_T
       - 🇩🇪 德国_003 Tg交流群 @Mshare_T
@@ -750,6 +743,9 @@ proxy-groups:
       - 🇯🇵 日本_005 关注Tg交流群_@Mshare_T
       - 🇯🇵 日本_006 关注Tg交流群_@Mshare_T
       - 🇯🇵 日本_007 关注Tg交流群_@Mshare_T
+      - 🇰🇷 韩国_001 关注Tg交流群_@Mshare_T
+      - 🇰🇷 韩国_002 关注Tg交流群_@Mshare_T
+      - 🇰🇷 韩国_003 关注Tg交流群_@Mshare_T
       - 🇱🇺 卢森堡_001 关注Tg交流群_@Mshare_T
       - 🇲🇾 马来西亚_001 关注Tg交流群_@Mshare_T
       - 🇲🇾 马来西亚_002 关注Tg交流群_@Mshare_T
@@ -850,6 +846,11 @@ proxy-groups:
       - 🇹🇷 土耳其_003 关注Tg交流群_@Mshare_T
       - 🇹🇷 土耳其_004 关注Tg交流群_@Mshare_T
       - 🇹🇷 土耳其_005 关注Tg交流群_@Mshare_T
+      - 台灣_001 关注Tg交流群_@Mshare_T
+      - 台灣_002 关注Tg交流群_@Mshare_T
+      - 台灣_003 关注Tg交流群_@Mshare_T
+      - 台灣_004 关注Tg交流群_@Mshare_T
+      - 台灣_005 关注Tg交流群_@Mshare_T
       - 🇺🇸 美国_001 关注Tg交流群_@Mshare_T
       - 🇺🇸 美国_002 关注Tg交流群_@Mshare_T
       - 🇺🇸 美国_003 关注Tg交流群_@Mshare_T
@@ -899,11 +900,6 @@ proxy-groups:
       - 🇺🇸 美国_050 关注Tg交流群_@Mshare_T
       - 🇺🇸 美国_051 关注Tg交流群_@Mshare_T
       - 🇺🇸 美国_052 关注Tg交流群_@Mshare_T
-      - 🇰🇷 韩国_001 关注Tg交流群_@Mshare_T
-      - 🇰🇷 韩国_002 关注Tg交流群_@Mshare_T
-      - 🇰🇷 韩国_003 关注Tg交流群_@Mshare_T
-      - 🇮🇱 以色列_001 关注Tg交流群_@Mshare_T
-      - 🇮🇱 以色列_002 关注Tg交流群_@Mshare_T
   - name: 🍎 苹果服务
     type: select
     proxies:
