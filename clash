@@ -28,10 +28,17 @@ proxies:
   - {name: 🇨🇦 加拿大_026 关注Tg交流群_@Mshare_T, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 🇩🇪 德国_001 关注Tg交流群_@Mshare_T, server: 161.97.64.169, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: czXXqP8K5Uya}
   - {name: 🇫🇷 法国_002 关注Tg交流群_@Mshare_T, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇭🇰 香港_001 关注Tg交流群_@Mshare_T, server: 001.hk.ap.pop.smallairport.net, port: 22356, type: vmess, uuid: 47afb711-0c52-46e4-8dfc-72bacf2d1b91, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 001.hk.ap.pop.smallairport.net}}
+  - {name: 🇭🇰 香港_002 关注Tg交流群_@Mshare_T, server: ngzyd-1.okex-tradebot.xyz, port: 30000, type: vmess, uuid: 5b1c6bd2-64a5-403b-bba0-2afcae87e510, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: 🇭🇰 香港_003 关注Tg交流群_@Mshare_T, server: ngzyd-1.okex-tradebot.xyz, port: 30002, type: vmess, uuid: 5b1c6bd2-64a5-403b-bba0-2afcae87e510, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: 🇯🇵 日本_001 关注Tg交流群_@Mshare_T, server: ngzyd-1.okex-tradebot.xyz, port: 30006, type: vmess, uuid: 5b1c6bd2-64a5-403b-bba0-2afcae87e510, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: 🇯🇵 日本_002 关注Tg交流群_@Mshare_T, server: 183.232.157.72, port: 10001, type: vmess, uuid: 47afb711-0c52-46e4-8dfc-72bacf2d1b91, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 183.232.157.72}}
   - {name: 🇳🇱 荷兰_001 关注Tg交流群_@Mshare_T, server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
   - {name: 🇳🇴 挪威_001 关注Tg交流群_@Mshare_T, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 🇳🇴 挪威_002 关注Tg交流群_@Mshare_T, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: 🇸🇬 新加坡_001 关注Tg交流群_@Mshare_T, server: 81.90.189.18, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 新加坡_002 关注Tg交流群_@Mshare_T, server: ngzyd-1.okex-tradebot.xyz, port: 30004, type: vmess, uuid: 5b1c6bd2-64a5-403b-bba0-2afcae87e510, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: 台灣_001 关注Tg交流群_@Mshare_T, server: ngzyd-1.okex-tradebot.xyz, port: 30012, type: vmess, uuid: 5b1c6bd2-64a5-403b-bba0-2afcae87e510, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
   - {name: 🇺🇸 美国_001 关注Tg交流群_@Mshare_T, server: 107.148.200.229, port: 10022, type: vmess, uuid: 6e6ce89a-42d5-11ec-ac9d-00163c0ad178, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇺🇸 美国_002 关注Tg交流群_@Mshare_T, server: 64.32.13.3, port: 443, type: vmess, uuid: 4dc574eb-94e8-439e-aad6-4d74df1a38c5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.12001759.xyz}}
   - {name: 🇺🇸 美国_003 关注Tg交流群_@Mshare_T, server: 38.91.100.27, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
@@ -41,15 +48,19 @@ proxies:
   - {name: 🇺🇸 美国_007 关注Tg交流群_@Mshare_T, server: 38.68.134.85, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 🇺🇸 美国_008 关注Tg交流群_@Mshare_T, server: 38.114.114.68, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇺🇸 美国_009 关注Tg交流群_@Mshare_T, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_010 关注Tg交流群_@Mshare_T, server: ngzyd-1.okex-tradebot.xyz, port: 30008, type: vmess, uuid: 5b1c6bd2-64a5-403b-bba0-2afcae87e510, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
 proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - DIRECT
+      - 🇭🇰 香港_001 关注Tg交流群_@Mshare_T
+      - 🇭🇰 香港_002 关注Tg交流群_@Mshare_T
+      - 🇭🇰 香港_003 关注Tg交流群_@Mshare_T
   - name: 🇯🇵 日本节点
     type: select
     proxies:
-      - DIRECT
+      - 🇯🇵 日本_001 关注Tg交流群_@Mshare_T
+      - 🇯🇵 日本_002 关注Tg交流群_@Mshare_T
   - name: 🇺🇲 美国节点
     type: select
     proxies:
@@ -62,14 +73,16 @@ proxy-groups:
       - 🇺🇸 美国_007 关注Tg交流群_@Mshare_T
       - 🇺🇸 美国_008 关注Tg交流群_@Mshare_T
       - 🇺🇸 美国_009 关注Tg交流群_@Mshare_T
+      - 🇺🇸 美国_010 关注Tg交流群_@Mshare_T
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
-      - DIRECT
+      - 台灣_001 关注Tg交流群_@Mshare_T
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
       - 🇸🇬 新加坡_001 关注Tg交流群_@Mshare_T
+      - 🇸🇬 新加坡_002 关注Tg交流群_@Mshare_T
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
@@ -127,10 +140,17 @@ proxy-groups:
       - 🇨🇦 加拿大_026 关注Tg交流群_@Mshare_T
       - 🇩🇪 德国_001 关注Tg交流群_@Mshare_T
       - 🇫🇷 法国_002 关注Tg交流群_@Mshare_T
+      - 🇭🇰 香港_001 关注Tg交流群_@Mshare_T
+      - 🇭🇰 香港_002 关注Tg交流群_@Mshare_T
+      - 🇭🇰 香港_003 关注Tg交流群_@Mshare_T
+      - 🇯🇵 日本_001 关注Tg交流群_@Mshare_T
+      - 🇯🇵 日本_002 关注Tg交流群_@Mshare_T
       - 🇳🇱 荷兰_001 关注Tg交流群_@Mshare_T
       - 🇳🇴 挪威_001 关注Tg交流群_@Mshare_T
       - 🇳🇴 挪威_002 关注Tg交流群_@Mshare_T
       - 🇸🇬 新加坡_001 关注Tg交流群_@Mshare_T
+      - 🇸🇬 新加坡_002 关注Tg交流群_@Mshare_T
+      - 台灣_001 关注Tg交流群_@Mshare_T
       - 🇺🇸 美国_001 关注Tg交流群_@Mshare_T
       - 🇺🇸 美国_002 关注Tg交流群_@Mshare_T
       - 🇺🇸 美国_003 关注Tg交流群_@Mshare_T
@@ -140,6 +160,7 @@ proxy-groups:
       - 🇺🇸 美国_007 关注Tg交流群_@Mshare_T
       - 🇺🇸 美国_008 关注Tg交流群_@Mshare_T
       - 🇺🇸 美国_009 关注Tg交流群_@Mshare_T
+      - 🇺🇸 美国_010 关注Tg交流群_@Mshare_T
   - name: 📲 聊天软件
     type: select
     proxies:
