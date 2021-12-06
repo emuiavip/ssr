@@ -5,114 +5,112 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🇸🇬 # 获取最新节点请订阅节点", server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: "# 关注群组不迷路", server: 134.195.196.3, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: "🇸🇬 # 节点失效请更新节点订阅", server: 192.74.254.167, port: 500, type: vmess, uuid: 764e808a-115e-11ec-a88f-00163c9f4934, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: ·TG群 @Mshare_T, server: 107.148.200.229, port: 10022, type: vmess, uuid: 6e6ce89a-42d5-11ec-ac9d-00163c0ad178, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇦 加拿大 001, server: 71.19.249.109, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QBLw4rLXQ6ebxpWwSKDL}
-  - {name: 🇨🇦 加拿大 002, server: 134.195.196.3, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大 003, server: 134.195.198.252, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 004, server: 134.195.196.154, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 005, server: 134.195.198.252, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 006, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 007, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大 008, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大 009, server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇨🇦 加拿大 010, server: 134.195.198.252, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 011, server: 134.195.198.252, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 012, server: 134.195.196.154, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 013, server: 134.195.196.3, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 014, server: 134.195.196.33, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大 015, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 016, server: 134.195.198.250, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 017, server: 134.195.198.252, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 018, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇨🇦 加拿大 019, server: 20.151.113.120, port: 1426, type: vmess, uuid: e0f591b2-69a2-4e92-a0f3-d39a2f70b768, alterId: 66, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 德国 001, server: 146.0.36.23, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇩🇪 德国 002, server: 172.105.251.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇩🇪 德国 003, server: 146.0.36.23, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇪🇸 西班牙 001, server: 172.107.233.234, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇫🇷 法国 001, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇫🇷 法国 002, server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇬🇧 英国 001, server: 217.197.161.109, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇬🇧 英国 002, server: 172.99.190.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇭🇰 香港 001, server: 183.232.157.72, port: 10002, type: vmess, uuid: 4e873e7e-dc0f-4a3b-b8cd-405fc4db1eb5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 183.232.157.72}}
-  - {name: 🇭🇰 香港 002, server: 715hk.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 715hk.fans8.xyz}}
-  - {name: 🇭🇰 香港 003, server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 004, server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
-  - {name: 🇭🇰 香港 005, server: 183.232.157.72, port: 10002, type: vmess, uuid: 4e873e7e-dc0f-4a3b-b8cd-405fc4db1eb5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 183.232.157.72}}
-  - {name: 🇭🇰 香港 006, server: ngzyd-1.okex-tradebot.xyz, port: 30002, type: vmess, uuid: a9164688-19ad-4e8c-b658-924919fff370, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
-  - {name: 🇭🇰 香港 007, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇭🇰 香港 008, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇭🇰 香港 009, server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
-  - {name: 🇯🇵 日本 001, server: 183.232.157.72, port: 10001, type: vmess, uuid: 4e873e7e-dc0f-4a3b-b8cd-405fc4db1eb5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 183.232.157.72}}
-  - {name: 🇯🇵 日本 002, server: cm2.cheapv2.xyz, port: 28802, type: vmess, uuid: 44b7192f-7539-3cde-a0a7-2d4d1361cadf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: cm2.cheapv2.xyz}}
-  - {name: 🇰🇷 韩国 001, server: kr2.futi.online, port: 2053, type: vmess, uuid: fec5fd62-56e7-431a-99b3-c1f76c5cbe8d, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: kr2.futi.online}}
-  - {name: 🇰🇷 韩国 002, server: cu-cs.okvpn.xyz, port: 30022, type: vmess, uuid: a637de21-40e1-4881-a309-1d10fcc2b5ae, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: 🇰🇷 韩国 003, server: cm.cheapv2.xyz, port: 26602, type: vmess, uuid: 44b7192f-7539-3cde-a0a7-2d4d1361cadf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: cm.cheapv2.xyz}}
-  - {name: 🇲🇾 马来西亚 001, server: ngzyd-1.okex-tradebot.xyz, port: 30014, type: vmess, uuid: a9164688-19ad-4e8c-b658-924919fff370, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
-  - {name: 🇳🇴 挪威 001, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: 🇳🇴 挪威 001 2, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇳🇴 挪威 002, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇳🇴 挪威 003, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇳🇴 挪威 004, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇳🇴 挪威 005, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇷🇺 俄罗斯 001, server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
-  - {name: 🇷🇺 俄罗斯 002, server: t4.ssrsub.com, port: 8443, type: trojan, password: 0e13b5a9-cb62-44cd-b28e-47f137624694, sni: t4.ssrsub.com, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 001, server: 217.197.161.166, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇸🇬 新加坡 002, server: ngzyd-1.okex-tradebot.xyz, port: 30004, type: vmess, uuid: a9164688-19ad-4e8c-b658-924919fff370, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
-  - {name: 🇸🇬 新加坡 003, server: 217.197.161.166, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇹🇼 台湾 001, server: ngzyd-1.okex-tradebot.xyz, port: 30012, type: vmess, uuid: a9164688-19ad-4e8c-b658-924919fff370, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
-  - {name: 🇹🇼 台湾 002, server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇹🇼 台湾 003, server: 139.227.161.129, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 001, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
-  - {name: 🇺🇸 美国 002, server: 142.202.48.78, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇸 美国 003, server: 142.202.48.58, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 004, server: 134.195.196.214, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 005, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 006, server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇸 美国 007, server: 134.195.196.3, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 008, server: 134.195.196.3, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 009, server: 134.195.196.52, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国 010, server: 38.75.136.45, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国 011, server: 167.88.63.61, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 012, server: 167.88.63.61, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 013, server: 167.88.63.61, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 014, server: 38.75.137.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国 015, server: 167.88.61.130, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 016, server: 167.88.63.61, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国 017, server: 38.68.134.191, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 018, server: 167.88.61.130, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 019, server: 38.75.136.45, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇸 美国 020, server: 38.75.136.45, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 021, server: 38.75.137.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 022, server: cu.cheapv2.xyz, port: 23308, type: vmess, uuid: 44b7192f-7539-3cde-a0a7-2d4d1361cadf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}}
-  - {name: 🇺🇸 美国 023, server: 167.88.61.130, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国 024, server: 142.202.48.83, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 美国 025, server: 167.88.63.89, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 026, server: 198.200.51.34, port: 10911, type: vmess, uuid: 53e483d4-1ea9-11ec-ad60-00163cc87418, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 027, server: 38.75.137.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: TG群 @Mshare_T, server: 134.195.198.252, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大 001, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大 002, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 002 2, server: 134.195.196.3, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大 003, server: 198.57.27.238, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 003 2, server: 134.195.198.252, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 004, server: 198.57.27.152, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大 005, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 005 2, server: 134.195.198.252, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 006, server: 198.57.27.152, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大 006 2, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 007, server: 198.57.27.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 008, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大 009, server: 134.195.196.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 009 2, server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 加拿大 010, server: 198.41.212.234, port: 2082, type: vmess, uuid: 68188cc4-0e87-4da8-cd67-7c6dbcaccf6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /media/, ws-headers: {Host: download.jianguoyun.com}}
+  - {name: 🇨🇦 加拿大 010 2, server: 134.195.198.252, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 011, server: 134.195.196.68, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 012, server: 134.195.196.68, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大 013, server: 134.195.196.199, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大 013 2, server: 134.195.196.3, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 014, server: 134.195.196.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大 015, server: 134.195.196.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 016, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 017, server: 134.195.198.252, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 018, server: 134.195.196.3, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大 019, server: 134.195.196.3, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大 020, server: 198.57.27.191, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大 021, server: 198.57.27.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 022, server: 198.57.27.191, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 023, server: 198.57.27.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 加拿大 024, server: 198.57.27.191, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 025, server: 198.57.27.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 026, server: 198.57.27.152, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大 027, server: 198.57.27.152, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大 028, server: 198.57.27.152, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大 029, server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大 030, server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 031, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 033, server: 134.195.196.154, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇩🇪 德国 001, server: 93.186.201.124, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 德国 002, server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇩🇪 德国 003, server: 141.95.0.23, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 德国 004, server: 193.108.118.2, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇩🇪 德国 005, server: 141.95.0.23, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 德国 006, server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇩🇪 德国 007, server: 93.186.201.124, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 德国 008, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 🇩🇪 德国 009, server: 146.0.36.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇭🇰 香港 002, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇯🇵 日本 001, server: 172.105.251.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇰🇷 韩国 001, server: 5.fbplay.net, port: 10100, type: ss, cipher: aes-256-gcm, password: a78172b3}
+  - {name: 🇰🇷 韩国 002, server: 301.fbplay.net, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 🇰🇷 韩国 003, server: 302.fbplay.net, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 🇰🇷 韩国 004, server: 305.fbplay.net, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 🇳🇴 挪威 001, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇳🇴 挪威 001 2, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
+  - {name: 🇬🇧 英国 001, server: 153.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 🇬🇧 英国 002, server: 145.239.7.164, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 英国 003, server: 145.239.7.164, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇬🇧 英国 004, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇬🇧 英国 005, server: 145.239.7.164, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇬🇧 英国 006, server: 145.239.7.164, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇬🇧 英国 007, server: 145.239.7.164, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇬🇧 英国 008, server: 145.239.7.164, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇬🇧 英国 009, server: 132.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 🇺🇸 美国 001, server: 38.68.134.202, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国 0010, server: 38.107.226.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国 002, server: 38.68.134.191, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 003, server: 167.88.61.130, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 004, server: 167.88.61.130, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国 005, server: 167.88.63.61, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国 006, server: 167.88.63.61, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 007, server: 167.88.63.28, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国 008, server: 38.68.134.202, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 美国 009, server: 38.68.134.202, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 011, server: 142.202.48.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 012, server: 172.99.190.186, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国 013, server: 167.88.61.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 014, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 015, server: 38.68.134.202, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 016, server: 167.88.61.130, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国 017, server: 38.68.134.202, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 美国 018, server: 38.68.134.202, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国 019, server: 167.88.61.130, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国 020, server: 38.68.134.190, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 021, server: 167.88.63.28, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国 022, server: 38.68.134.190, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国 023, server: 38.68.134.190, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 024, server: 142.202.48.55, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
 proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - 🇭🇰 香港 001
       - 🇭🇰 香港 002
-      - 🇭🇰 香港 003
-      - 🇭🇰 香港 004
-      - 🇭🇰 香港 005
-      - 🇭🇰 香港 006
-      - 🇭🇰 香港 007
-      - 🇭🇰 香港 008
-      - 🇭🇰 香港 009
   - name: 🇯🇵 日本节点
     type: select
     proxies:
       - 🇯🇵 日本 001
-      - 🇯🇵 日本 002
   - name: 🇺🇲 美国节点
     type: select
     proxies:
       - 🇺🇸 美国 001
+      - 🇺🇸 美国 0010
       - 🇺🇸 美国 002
       - 🇺🇸 美国 003
       - 🇺🇸 美国 004
@@ -121,7 +119,6 @@ proxy-groups:
       - 🇺🇸 美国 007
       - 🇺🇸 美国 008
       - 🇺🇸 美国 009
-      - 🇺🇸 美国 010
       - 🇺🇸 美国 011
       - 🇺🇸 美国 012
       - 🇺🇸 美国 013
@@ -136,57 +133,81 @@ proxy-groups:
       - 🇺🇸 美国 022
       - 🇺🇸 美国 023
       - 🇺🇸 美国 024
-      - 🇺🇸 美国 025
-      - 🇺🇸 美国 026
-      - 🇺🇸 美国 027
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
-      - 🇹🇼 台湾 001
-      - 🇹🇼 台湾 002
-      - 🇹🇼 台湾 003
+      - DIRECT
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
-      - 🇸🇬 新加坡 001
-      - 🇸🇬 新加坡 002
-      - 🇸🇬 新加坡 003
+      - DIRECT
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
       - 🇰🇷 韩国 001
       - 🇰🇷 韩国 002
       - 🇰🇷 韩国 003
+      - 🇰🇷 韩国 004
   - name: 🌍 其他地区
     type: select
     proxies:
       - 🇨🇦 加拿大 001
       - 🇨🇦 加拿大 002
+      - 🇨🇦 加拿大 002 2
       - 🇨🇦 加拿大 003
+      - 🇨🇦 加拿大 003 2
       - 🇨🇦 加拿大 004
       - 🇨🇦 加拿大 005
+      - 🇨🇦 加拿大 005 2
       - 🇨🇦 加拿大 006
+      - 🇨🇦 加拿大 006 2
       - 🇨🇦 加拿大 007
       - 🇨🇦 加拿大 008
       - 🇨🇦 加拿大 009
+      - 🇨🇦 加拿大 009 2
       - 🇨🇦 加拿大 010
+      - 🇨🇦 加拿大 010 2
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
       - 🇨🇦 加拿大 013
+      - 🇨🇦 加拿大 013 2
       - 🇨🇦 加拿大 014
       - 🇨🇦 加拿大 015
       - 🇨🇦 加拿大 016
       - 🇨🇦 加拿大 017
       - 🇨🇦 加拿大 018
       - 🇨🇦 加拿大 019
+      - 🇨🇦 加拿大 020
+      - 🇨🇦 加拿大 021
+      - 🇨🇦 加拿大 022
+      - 🇨🇦 加拿大 023
+      - 🇨🇦 加拿大 024
+      - 🇨🇦 加拿大 025
+      - 🇨🇦 加拿大 026
+      - 🇨🇦 加拿大 027
+      - 🇨🇦 加拿大 028
+      - 🇨🇦 加拿大 029
+      - 🇨🇦 加拿大 030
+      - 🇨🇦 加拿大 031
+      - 🇨🇦 加拿大 033
       - 🇩🇪 德国 001
       - 🇩🇪 德国 002
       - 🇩🇪 德国 003
+      - 🇩🇪 德国 004
+      - 🇩🇪 德国 005
+      - 🇩🇪 德国 006
+      - 🇩🇪 德国 007
+      - 🇩🇪 德国 008
+      - 🇩🇪 德国 009
       - 🇬🇧 英国 001
       - 🇬🇧 英国 002
-      - 🇲🇾 马来西亚 001
-      - 🇷🇺 俄罗斯 001
-      - 🇷🇺 俄罗斯 002
+      - 🇬🇧 英国 003
+      - 🇬🇧 英国 004
+      - 🇬🇧 英国 005
+      - 🇬🇧 英国 006
+      - 🇬🇧 英国 007
+      - 🇬🇧 英国 008
+      - 🇬🇧 英国 009
   - name: ♻️ 专线节点
     type: select
     proxies:
@@ -194,66 +215,76 @@ proxy-groups:
   - name: ♻️ 手动切换
     type: select
     proxies:
-      - "🇸🇬 # 获取最新节点请订阅节点"
+      - "# 关注群组不迷路"
       - "🇸🇬 # 节点失效请更新节点订阅"
-      - ·TG群 @Mshare_T
+      - TG群 @Mshare_T
       - 🇨🇦 加拿大 001
       - 🇨🇦 加拿大 002
+      - 🇨🇦 加拿大 002 2
       - 🇨🇦 加拿大 003
+      - 🇨🇦 加拿大 003 2
       - 🇨🇦 加拿大 004
       - 🇨🇦 加拿大 005
+      - 🇨🇦 加拿大 005 2
       - 🇨🇦 加拿大 006
+      - 🇨🇦 加拿大 006 2
       - 🇨🇦 加拿大 007
       - 🇨🇦 加拿大 008
       - 🇨🇦 加拿大 009
+      - 🇨🇦 加拿大 009 2
       - 🇨🇦 加拿大 010
+      - 🇨🇦 加拿大 010 2
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
       - 🇨🇦 加拿大 013
+      - 🇨🇦 加拿大 013 2
       - 🇨🇦 加拿大 014
       - 🇨🇦 加拿大 015
       - 🇨🇦 加拿大 016
       - 🇨🇦 加拿大 017
       - 🇨🇦 加拿大 018
       - 🇨🇦 加拿大 019
+      - 🇨🇦 加拿大 020
+      - 🇨🇦 加拿大 021
+      - 🇨🇦 加拿大 022
+      - 🇨🇦 加拿大 023
+      - 🇨🇦 加拿大 024
+      - 🇨🇦 加拿大 025
+      - 🇨🇦 加拿大 026
+      - 🇨🇦 加拿大 027
+      - 🇨🇦 加拿大 028
+      - 🇨🇦 加拿大 029
+      - 🇨🇦 加拿大 030
+      - 🇨🇦 加拿大 031
+      - 🇨🇦 加拿大 033
       - 🇩🇪 德国 001
       - 🇩🇪 德国 002
       - 🇩🇪 德国 003
-      - 🇪🇸 西班牙 001
-      - 🇫🇷 法国 001
-      - 🇫🇷 法国 002
-      - 🇬🇧 英国 001
-      - 🇬🇧 英国 002
-      - 🇭🇰 香港 001
+      - 🇩🇪 德国 004
+      - 🇩🇪 德国 005
+      - 🇩🇪 德国 006
+      - 🇩🇪 德国 007
+      - 🇩🇪 德国 008
+      - 🇩🇪 德国 009
       - 🇭🇰 香港 002
-      - 🇭🇰 香港 003
-      - 🇭🇰 香港 004
-      - 🇭🇰 香港 005
-      - 🇭🇰 香港 006
-      - 🇭🇰 香港 007
-      - 🇭🇰 香港 008
-      - 🇭🇰 香港 009
       - 🇯🇵 日本 001
-      - 🇯🇵 日本 002
       - 🇰🇷 韩国 001
       - 🇰🇷 韩国 002
       - 🇰🇷 韩国 003
-      - 🇲🇾 马来西亚 001
+      - 🇰🇷 韩国 004
       - 🇳🇴 挪威 001
       - 🇳🇴 挪威 001 2
-      - 🇳🇴 挪威 002
-      - 🇳🇴 挪威 003
-      - 🇳🇴 挪威 004
-      - 🇳🇴 挪威 005
-      - 🇷🇺 俄罗斯 001
-      - 🇷🇺 俄罗斯 002
-      - 🇸🇬 新加坡 001
-      - 🇸🇬 新加坡 002
-      - 🇸🇬 新加坡 003
-      - 🇹🇼 台湾 001
-      - 🇹🇼 台湾 002
-      - 🇹🇼 台湾 003
+      - 🇬🇧 英国 001
+      - 🇬🇧 英国 002
+      - 🇬🇧 英国 003
+      - 🇬🇧 英国 004
+      - 🇬🇧 英国 005
+      - 🇬🇧 英国 006
+      - 🇬🇧 英国 007
+      - 🇬🇧 英国 008
+      - 🇬🇧 英国 009
       - 🇺🇸 美国 001
+      - 🇺🇸 美国 0010
       - 🇺🇸 美国 002
       - 🇺🇸 美国 003
       - 🇺🇸 美国 004
@@ -262,7 +293,6 @@ proxy-groups:
       - 🇺🇸 美国 007
       - 🇺🇸 美国 008
       - 🇺🇸 美国 009
-      - 🇺🇸 美国 010
       - 🇺🇸 美国 011
       - 🇺🇸 美国 012
       - 🇺🇸 美国 013
@@ -277,9 +307,6 @@ proxy-groups:
       - 🇺🇸 美国 022
       - 🇺🇸 美国 023
       - 🇺🇸 美国 024
-      - 🇺🇸 美国 025
-      - 🇺🇸 美国 026
-      - 🇺🇸 美国 027
   - name: 📲 聊天软件
     type: select
     proxies:
