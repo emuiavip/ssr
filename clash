@@ -8,117 +8,94 @@ proxies:
   - {name: "# 关注群组不迷路", server: 1.1.1.1, port: 10086, type: ss, cipher: aes-256-gcm, password: "@Mshare_T"}
   - {name: "🇸🇬 # 节点失效请更新节点订阅", server: 1.1.1.1, port: 10086, type: ss, cipher: aes-256-gcm, password: "@Mshare_T"}
   - {name: "# 牧舍TG群 @Mshare_T", server: 1.1.1.1, port: 10086, type: ss, cipher: aes-256-gcm, password: "@Mshare_T"}
-  - {name: 🇧🇷 巴西 001, server: 177.54.150.39, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 布维岛 001, server: 46.29.219.246, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 001, server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 🇨🇦 加拿大 001 2, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大 002, server: shcn2-05.iplc188.com, port: 10004, type: vmess, uuid: 00231314-0d96-4dfc-bac8-cb52a989fd10, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇦 加拿大 002 2, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 003, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 004, server: 134.195.196.107, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇩🇪 德国 001, server: 146.0.36.23, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇩🇪 德国 002, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 🇩🇪 德国 003, server: 146.0.36.23, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇩🇪 德国 004, server: 146.0.36.23, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇩🇪 德国 005, server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇩🇪 德国 006, server: zhuzhu12.com, port: 46101, type: vmess, uuid: f48e28a2-6187-3ff5-a900-084fa313de08, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: 🇪🇸 西班牙 001, server: 172.107.233.234, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇪🇸 西班牙 002, server: 172.107.233.234, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇪🇸 西班牙 003, server: 172.107.233.234, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇫🇷 法国 002, server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇭🇰 香港 001, server: shcn2-05.iplc188.com, port: 10005, type: vmess, uuid: 00231314-0d96-4dfc-bac8-cb52a989fd10, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 002, server: 812hk1.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 🇭🇰 香港 003, server: hkbgp-100m01.nb1.fr, port: 443, type: vmess, uuid: 00231314-0d96-4dfc-bac8-cb52a989fd10, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /clientarea, ws-headers: {Host: hkbgp-100m01.nb1.fr}}
-  - {name: 🇭🇰 香港 004, server: cmhk04.xc188.net, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /clientarea, ws-headers: {Host: cmhk04.xc188.net}}
-  - {name: 🇭🇰 香港 005, server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇭🇰 香港 006, server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
-  - {name: 🇭🇰 香港 007, server: shcn2-05.iplc188.com, port: 10001, type: vmess, uuid: 00231314-0d96-4dfc-bac8-cb52a989fd10, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 010, server: shcn2-05.iplc188.com, port: 10001, type: vmess, uuid: 00231314-0d96-4dfc-bac8-cb52a989fd10, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 011, server: 1.zhuzhu12.com, port: 80, type: vmess, uuid: f48e28a2-6187-3ff5-a900-084fa313de08, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
-  - {name: 🇭🇰 香港 012, server: 5.zhuzhu12.com, port: 80, type: vmess, uuid: f48e28a2-6187-3ff5-a900-084fa313de08, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
-  - {name: 🇮🇳 印度 001, server: zhuzhu12.com, port: 13959, type: vmess, uuid: f48e28a2-6187-3ff5-a900-084fa313de08, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: 🇮🇳 印度 002, server: zhuzhu12.com, port: 13959, type: vmess, uuid: dd627432-9996-3673-809e-599d953c45fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 🇨🇦 加拿大 001, server: 134.195.196.184, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇦 加拿大 002, server: 134.195.196.184, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇨🇦 加拿大 003, server: 134.195.196.184, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大 004, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇩🇪 德国 001, server: zhuzhu12.com, port: 46101, type: vmess, uuid: f48e28a2-6187-3ff5-a900-084fa313de08, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 🇩🇪 德国 002, server: 193.108.118.182, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇩🇪 德国 003, server: 104.19.101.3, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /gdo93qerwtyuo, ws-headers: {Host: e.fovi.tk}}
+  - {name: 🇩🇪 德国 004, server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇪🇬 埃及 001, server: 188.214.122.138, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg}
+  - {name: 🇫🇷 法国 001, server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国 002, server: 62.210.140.163, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇭🇰 香港 001, server: 52.184.18.190, port: 80, type: vmess, uuid: 939e9c85-1589-4f64-b9c4-5b1048a27582, alterId: 4, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /baipiaofuli, ws-headers: {Host: vali-dns.cp31.ott.cibntv.net}}
+  - {name: 🇭🇰 香港 002, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇭🇰 香港 003, server: guangzou-yd-jy-03.pucdn.me, port: 62005, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-06.pucdn.me}}
+  - {name: 🇭🇰 香港 004, server: guangzou-yd-jy-03.pucdn.me, port: 62006, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-07.pucdn.me}}
+  - {name: 🇭🇰 香港 005, server: guangzou-yd-jy-03.pucdn.me, port: 62007, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-08.pucdn.me}}
+  - {name: 🇭🇰 香港 006, server: guangzou-yd-jy-03.pucdn.me, port: 62008, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-09.pucdn.me}}
+  - {name: 🇭🇰 香港 007, server: global-transit-02-sg.pucdn.me, port: 62009, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-10.pucdn.me}}
+  - {name: 🇭🇰 香港 008, server: global-transit-02-sg.pucdn.me, port: 62012, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-13.pucdn.me}}
+  - {name: 🇭🇰 香港 009, server: hkf1.dior.bar, port: 80, type: vmess, uuid: 4a7e6325-c8d5-4735-b06d-7bded1751317, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hkf1.dior.bar}}
+  - {name: 🇮🇳 印度 001, server: global-transit-02-sg.pucdn.me, port: 49994, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-do-in-04.pucdn.me}}
+  - {name: 🇮🇳 印度 002, server: global-transit-02-sg.pucdn.me, port: 49993, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-do-in-03.pucdn.me}}
+  - {name: 🇮🇳 印度 003, server: 172.105.42.94, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇮🇳 印度 004, server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: 🇯🇵 日本 001, server: zhuzhu12.com, port: 14083, type: vmess, uuid: c7805113-7bd9-3d10-91d6-ea46c4adfab4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: 🇯🇵 日本 002, server: 85.208.110.138, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇯🇵 日本 003, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 🇯🇵 日本 004, server: n23.emovpn.xyz, port: 44334, type: ss, cipher: chacha20-ietf-poly1305, password: 6a1965f9-4fbb-4cdc-a4a6-ad14efa9b749}
-  - {name: 🇯🇵 日本 005, server: n22.emovpn.xyz, port: 44333, type: ss, cipher: chacha20-ietf-poly1305, password: 6a1965f9-4fbb-4cdc-a4a6-ad14efa9b749}
-  - {name: 🇯🇵 日本 006, server: 45.76.49.99, port: 81, type: vmess, uuid: fe68beaf-3492-4b78-ac34-e28da841a8ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 45.76.49.99}}
-  - {name: 🇯🇵 日本 007, server: 183.232.157.72, port: 10001, type: vmess, uuid: 9ef393d4-901d-42f6-a099-c721adce4080, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 183.232.157.72}}
-  - {name: 🇯🇵 日本 008, server: 183.240.181.14, port: 10001, type: vmess, uuid: 9ef393d4-901d-42f6-a099-c721adce4080, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 183.240.181.14}}
-  - {name: 🇰🇷 韩国 001, server: 120.232.174.86, port: 10037, type: vmess, uuid: f7bbc91b-d541-3fbb-aeb9-279261476126, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 120.232.174.86}}
-  - {name: 🇰🇷 韩国 002, server: kr2.futi.online, port: 2053, type: vmess, uuid: fec5fd62-56e7-431a-99b3-c1f76c5cbe8d, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: kr2.futi.online}}
-  - {name: 🇰🇷 韩国 003, server: cu-cs.okvpn.xyz, port: 30022, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: 🇰🇷 韩国 004, server: cm-jm.okvpn.xyz, port: 20006, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 🇰🇷 韩国 005, server: 141.164.57.134, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇰🇷 韩国 006, server: 141.164.57.134, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇲🇽 墨西哥 001, server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
-  - {name: 🇳🇱 荷兰 001, server: cu-cs.okvpn.xyz, port: 30020, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: 🇳🇴 挪威 001, server: 46.29.219.246, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇳🇴 挪威 002, server: 46.29.218.146, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇳🇴 挪威 003, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: 🇳🇴 挪威 004, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇵🇹 葡萄牙 001, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: 🇷🇺 俄罗斯 001, server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
-  - {name: 🇸🇬 新加坡 001, server: 112.33.32.148, port: 10002, type: vmess, uuid: 00231314-0d96-4dfc-bac8-cb52a989fd10, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 002, server: 112.33.32.148, port: 10002, type: vmess, uuid: 00231314-0d96-4dfc-bac8-cb52a989fd10, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 002, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 🇯🇵 日本 003, server: 85.208.108.18, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇯🇵 日本 004, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇯🇵 日本 005, server: 033.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 1d02ebd0-a7c8-43b1-ba74-dd5b421e2295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 033.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇯🇵 日本 006, server: global-transit-hk-v2.pucdn.me, port: 40012, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-12.pucdn.me}}
+  - {name: 🇯🇵 日本 007, server: global-transit-hk-v2.pucdn.me, port: 40011, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-11.pucdn.me}}
+  - {name: 🇯🇵 日本 008, server: global-transit-hk-v2.pucdn.me, port: 40010, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-10.pucdn.me}}
+  - {name: 🇯🇵 日本 009, server: global-transit-hk-v2.pucdn.me, port: 40009, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-09.pucdn.me}}
+  - {name: 🇯🇵 日本 010, server: global-transit-hk-v2.pucdn.me, port: 40008, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-08.pucdn.me}}
+  - {name: 🇯🇵 日本 011, server: global-transit-hk-v2.pucdn.me, port: 40006, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-06.pucdn.me}}
+  - {name: 🇯🇵 日本 012, server: guangzou-yd-jy-03.pucdn.me, port: 40004, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-04.pucdn.me}}
+  - {name: 🇯🇵 日本 013, server: guangzou-yd-jy-03.pucdn.me, port: 40003, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-03.pucdn.me}}
+  - {name: 🇯🇵 日本 014, server: guangzou-yd-jy-03.pucdn.me, port: 40002, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-02.pucdn.me}}
+  - {name: 🇯🇵 日本 015, server: guangzou-yd-jy-03.pucdn.me, port: 40001, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-01.pucdn.me}}
+  - {name: 🇰🇷 韩国 001, server: cm-jm.okvpn.xyz, port: 20006, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 🇰🇷 韩国 002, server: cu-cs.okvpn.xyz, port: 30022, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+  - {name: 🇰🇷 韩国 003, server: krn.meimei1314.xyz, port: 18080, type: vmess, uuid: c064c19b-866f-3624-ab9b-35bdfad536b4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /lisa, ws-headers: {Host: www.amazon.com}}
+  - {name: 🇰🇷 韩国 004, server: 139.227.161.129, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国 005, server: 139.227.161.129, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国 006, server: 139.227.161.129, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国 007, server: zhuzhu12.com, port: 13125, type: vmess, uuid: dd627432-9996-3673-809e-599d953c45fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 🇲🇾 马来西亚 001, server: gzcm3.meimei1314.xyz, port: 45110, type: vmess, uuid: c064c19b-866f-3624-ab9b-35bdfad536b4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.amazon.com}}
+  - {name: 🇳🇴 挪威 001, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇷🇺 俄罗斯 001, server: 194.87.106.63, port: 80, type: vmess, uuid: 7b64955f-f642-4d7d-bdcf-e8351a149a9f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 194.87.106.63}}
+  - {name: 🇸🇬 新加坡 001, server: zhuzhu12.com, port: 12819, type: vmess, uuid: f48e28a2-6187-3ff5-a900-084fa313de08, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 🇸🇬 新加坡 002, server: zhuzhu12.com, port: 12819, type: vmess, uuid: dd627432-9996-3673-809e-599d953c45fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
   - {name: 🇸🇬 新加坡 003, server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: ycgyg.com}}
-  - {name: 🇸🇬 新加坡 004, server: zhuzhu12.com, port: 15724, type: vmess, uuid: f48e28a2-6187-3ff5-a900-084fa313de08, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: 🇸🇬 新加坡 005, server: zhuzhu12.com, port: 15724, type: vmess, uuid: dd627432-9996-3673-809e-599d953c45fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: 🇸🇬 新加坡 006, server: zhuzhu12.com, port: 12819, type: vmess, uuid: dd627432-9996-3673-809e-599d953c45fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: 🇸🇬 新加坡 007, server: zhuzhu12.com, port: 12819, type: vmess, uuid: f48e28a2-6187-3ff5-a900-084fa313de08, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: 🇸🇬 新加坡 008, server: v5.emovpn.xyz, port: 80, type: vmess, uuid: 6a1965f9-4fbb-4cdc-a4a6-ad14efa9b749, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇸🇬 新加坡 009, server: ngzyd-1.okex-tradebot.xyz, port: 30004, type: vmess, uuid: 0b4069c9-7f09-4144-9800-ffbf24982ac8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
-  - {name: 台灣 001, server: 112.33.32.148, port: 10003, type: vmess, uuid: 00231314-0d96-4dfc-bac8-cb52a989fd10, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 台灣 002, server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 乌克兰 001, server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
-  - {name: 乌克兰 002, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: 🇸🇬 新加坡 004, server: 178.128.100.135, port: 80, type: vmess, uuid: 774c72eb-0520-3bd0-a67b-634c5210fde9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /y34a, ws-headers: {Host: 178.128.100.135}}
+  - {name: 🇸🇬 新加坡 005, server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 🇸🇬 新加坡 006, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇸🇬 新加坡 007, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇸🇬 新加坡 008, server: global-transit-02-sg.pucdn.me, port: 61001, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-02.pucdn.me}}
+  - {name: 🇸🇬 新加坡 009, server: global-transit-02-sg.pucdn.me, port: 61002, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-03.pucdn.me}}
+  - {name: 🇸🇬 新加坡 010, server: global-transit-02-sg.pucdn.me, port: 61003, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-04.pucdn.me}}
+  - {name: 🇸🇬 新加坡 011, server: global-transit-02-sg.pucdn.me, port: 61004, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-05.pucdn.me}}
+  - {name: 🇸🇬 新加坡 012, server: global-transit-02-sg.pucdn.me, port: 61007, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-08.pucdn.me}}
+  - {name: 🇸🇬 新加坡 013, server: global-transit-02-sg.pucdn.me, port: 61006, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-07.pucdn.me}}
+  - {name: 🇸🇬 新加坡 014, server: zhuzhu12.com, port: 22164, type: vmess, uuid: dd627432-9996-3673-809e-599d953c45fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 🇸🇬 新加坡 015, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 台灣 001, server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
   - {name: 🇺🇸 美国 001, server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 🇺🇸 美国 002, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: 🇺🇸 美国 003, server: zhuzhu12.com, port: 14718, type: vmess, uuid: dd627432-9996-3673-809e-599d953c45fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: 🇺🇸 美国 004, server: zhuzhu12.com, port: 14718, type: vmess, uuid: f48e28a2-6187-3ff5-a900-084fa313de08, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: 🇺🇸 美国 005, server: 120.232.174.86, port: 10036, type: vmess, uuid: f7bbc91b-d541-3fbb-aeb9-279261476126, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 120.232.174.86}}
-  - {name: 🇺🇸 美国 006, server: zhuzhu12.com, port: 10156, type: vmess, uuid: f48e28a2-6187-3ff5-a900-084fa313de08, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: 🇺🇸 美国 007, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 008, server: 167.88.63.89, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 009, server: 38.114.114.69, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 010, server: 38.114.114.69, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国 011, server: 167.88.63.89, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 012, server: 167.88.63.89, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 013, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
-  - {name: 🇺🇸 美国 014, server: 142.202.48.17, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国 015, server: 154.31.41.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: chuch3go.com}}
-  - {name: 🇺🇸 美国 016, server: 167.88.63.89, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 017, server: 167.88.63.89, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇸 美国 018, server: 142.202.48.17, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 019, server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 020, server: 167.88.63.89, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 021, server: 142.202.48.17, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国 022, server: 172.107.233.234, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 023, server: 167.88.63.89, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 024, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 025, server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国 026, server: 167.88.62.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 027, server: 142.202.48.17, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 028, server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国 029, server: 167.88.63.89, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 030, server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 031, server: 167.88.63.89, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国 032, server: n25.emovpn.xyz, port: 44334, type: ss, cipher: chacha20-ietf-poly1305, password: 6a1965f9-4fbb-4cdc-a4a6-ad14efa9b749}
-  - {name: 🇺🇸 美国 033, server: 167.88.62.34, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇸 美国 034, server: n21.emovpn.xyz, port: 44334, type: ss, cipher: chacha20-ietf-poly1305, password: 6a1965f9-4fbb-4cdc-a4a6-ad14efa9b749}
-  - {name: 🇺🇸 美国 035, server: 38.114.114.69, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 036, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 037, server: 38.68.134.37, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 038, server: 142.202.48.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国 039, server: 142.202.48.17, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 040, server: 142.202.48.17, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 041, server: 38.114.114.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国 042, server: shcn2-05.iplc188.com, port: 10006, type: vmess, uuid: 00231314-0d96-4dfc-bac8-cb52a989fd10, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 043, server: 142.202.48.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 044, server: 142.202.48.17, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 045, server: 38.114.114.69, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 046, server: ngzyd-1.okex-tradebot.xyz, port: 30008, type: vmess, uuid: 0b4069c9-7f09-4144-9800-ffbf24982ac8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: 🇺🇸 美国 002, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 003, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 004, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 005, server: 040.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 1d02ebd0-a7c8-43b1-ba74-dd5b421e2295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 040.NA.POP.BIGAIRPORT.NET}}
+  - {name: 🇺🇸 美国 006, server: 030.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 1d02ebd0-a7c8-43b1-ba74-dd5b421e2295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 030.NA.POP.BIGAIRPORT.NET}}
+  - {name: 🇺🇸 美国 007, server: 029.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 1d02ebd0-a7c8-43b1-ba74-dd5b421e2295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 029.NA.POP.BIGAIRPORT.NET}}
+  - {name: 🇺🇸 美国 008, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
+  - {name: 🇺🇸 美国 009, server: 142.202.48.34, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 美国 010, server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 🇺🇸 美国 011, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇺🇸 美国 012, server: l1-do-ua-01.pucdn.me, port: 10080, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /pucloud, ws-headers: {Host: l1-do-ua-01.pucdn.me}}
+  - {name: 🇺🇸 美国 013, server: l1-do-ua-02.pucdn.me, port: 10080, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /pucloud, ws-headers: {Host: l1-do-ua-02.pucdn.me}}
+  - {name: 🇺🇸 美国 014, server: l1-do-ua-03.pucdn.me, port: 10080, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /pucloud, ws-headers: {Host: l1-do-ua-03.pucdn.me}}
+  - {name: 🇺🇸 美国 015, server: l1-do-ua-04.pucdn.me, port: 10080, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /pucloud, ws-headers: {Host: l1-do-ua-04.pucdn.me}}
+  - {name: 🇺🇸 美国 016, server: 108.61.220.149, port: 4689, type: vmess, uuid: ac104d92-5809-11ec-a1a3-560003b9b5c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /nW5USgje/, ws-headers: {Host: 108.61.220.149}}
+  - {name: 🇺🇸 美国 017, server: usml.jjyun.ren, port: 80, type: vmess, uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /jjyunml, ws-headers: {Host: usml.jjyun.ren}}
+  - {name: 🇺🇸 美国 018, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 019, server: xllhexxx.xyz, port: 46436, type: vmess, uuid: 56857807-6ca9-4e39-8482-b951608efe69, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /1145141919, ws-headers: {Host: xllhexxx.xyz}}
+  - {name: 🇺🇸 美国 020, server: shcn2.meimei1314.xyz, port: 14162, type: vmess, uuid: c064c19b-866f-3624-ab9b-35bdfad536b4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.amazon.com}}
+  - {name: 🇺🇸 美国 021, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇺🇸 美国 023, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}}
+  - {name: 🇺🇸 美国 024, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
 proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
@@ -130,9 +107,8 @@ proxy-groups:
       - 🇭🇰 香港 005
       - 🇭🇰 香港 006
       - 🇭🇰 香港 007
-      - 🇭🇰 香港 010
-      - 🇭🇰 香港 011
-      - 🇭🇰 香港 012
+      - 🇭🇰 香港 008
+      - 🇭🇰 香港 009
   - name: 🇯🇵 日本节点
     type: select
     proxies:
@@ -144,6 +120,13 @@ proxy-groups:
       - 🇯🇵 日本 006
       - 🇯🇵 日本 007
       - 🇯🇵 日本 008
+      - 🇯🇵 日本 009
+      - 🇯🇵 日本 010
+      - 🇯🇵 日本 011
+      - 🇯🇵 日本 012
+      - 🇯🇵 日本 013
+      - 🇯🇵 日本 014
+      - 🇯🇵 日本 015
   - name: 🇺🇲 美国节点
     type: select
     proxies:
@@ -168,36 +151,12 @@ proxy-groups:
       - 🇺🇸 美国 019
       - 🇺🇸 美国 020
       - 🇺🇸 美国 021
-      - 🇺🇸 美国 022
       - 🇺🇸 美国 023
       - 🇺🇸 美国 024
-      - 🇺🇸 美国 025
-      - 🇺🇸 美国 026
-      - 🇺🇸 美国 027
-      - 🇺🇸 美国 028
-      - 🇺🇸 美国 029
-      - 🇺🇸 美国 030
-      - 🇺🇸 美国 031
-      - 🇺🇸 美国 032
-      - 🇺🇸 美国 033
-      - 🇺🇸 美国 034
-      - 🇺🇸 美国 035
-      - 🇺🇸 美国 036
-      - 🇺🇸 美国 037
-      - 🇺🇸 美国 038
-      - 🇺🇸 美国 039
-      - 🇺🇸 美国 040
-      - 🇺🇸 美国 041
-      - 🇺🇸 美国 042
-      - 🇺🇸 美国 043
-      - 🇺🇸 美国 044
-      - 🇺🇸 美国 045
-      - 🇺🇸 美国 046
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
       - 台灣 001
-      - 台灣 002
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
@@ -210,6 +169,12 @@ proxy-groups:
       - 🇸🇬 新加坡 007
       - 🇸🇬 新加坡 008
       - 🇸🇬 新加坡 009
+      - 🇸🇬 新加坡 010
+      - 🇸🇬 新加坡 011
+      - 🇸🇬 新加坡 012
+      - 🇸🇬 新加坡 013
+      - 🇸🇬 新加坡 014
+      - 🇸🇬 新加坡 015
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
@@ -219,24 +184,23 @@ proxy-groups:
       - 🇰🇷 韩国 004
       - 🇰🇷 韩国 005
       - 🇰🇷 韩国 006
+      - 🇰🇷 韩国 007
   - name: 🌍 其他地区
     type: select
     proxies:
-      - 🇧🇷 巴西 001
       - 🇨🇦 加拿大 001
-      - 🇨🇦 加拿大 001 2
       - 🇨🇦 加拿大 002
-      - 🇨🇦 加拿大 002 2
       - 🇨🇦 加拿大 003
       - 🇨🇦 加拿大 004
       - 🇩🇪 德国 001
       - 🇩🇪 德国 002
       - 🇩🇪 德国 003
       - 🇩🇪 德国 004
-      - 🇩🇪 德国 005
-      - 🇩🇪 德国 006
       - 🇮🇳 印度 001
       - 🇮🇳 印度 002
+      - 🇮🇳 印度 003
+      - 🇮🇳 印度 004
+      - 🇲🇾 马来西亚 001
       - 🇷🇺 俄罗斯 001
   - name: ♻️ 专线节点
     type: select
@@ -248,23 +212,16 @@ proxy-groups:
       - "# 关注群组不迷路"
       - "🇸🇬 # 节点失效请更新节点订阅"
       - "# 牧舍TG群 @Mshare_T"
-      - 🇧🇷 巴西 001
-      - 布维岛 001
       - 🇨🇦 加拿大 001
-      - 🇨🇦 加拿大 001 2
       - 🇨🇦 加拿大 002
-      - 🇨🇦 加拿大 002 2
       - 🇨🇦 加拿大 003
       - 🇨🇦 加拿大 004
       - 🇩🇪 德国 001
       - 🇩🇪 德国 002
       - 🇩🇪 德国 003
       - 🇩🇪 德国 004
-      - 🇩🇪 德国 005
-      - 🇩🇪 德国 006
-      - 🇪🇸 西班牙 001
-      - 🇪🇸 西班牙 002
-      - 🇪🇸 西班牙 003
+      - 🇪🇬 埃及 001
+      - 🇫🇷 法国 001
       - 🇫🇷 法国 002
       - 🇭🇰 香港 001
       - 🇭🇰 香港 002
@@ -273,11 +230,12 @@ proxy-groups:
       - 🇭🇰 香港 005
       - 🇭🇰 香港 006
       - 🇭🇰 香港 007
-      - 🇭🇰 香港 010
-      - 🇭🇰 香港 011
-      - 🇭🇰 香港 012
+      - 🇭🇰 香港 008
+      - 🇭🇰 香港 009
       - 🇮🇳 印度 001
       - 🇮🇳 印度 002
+      - 🇮🇳 印度 003
+      - 🇮🇳 印度 004
       - 🇯🇵 日本 001
       - 🇯🇵 日本 002
       - 🇯🇵 日本 003
@@ -286,19 +244,22 @@ proxy-groups:
       - 🇯🇵 日本 006
       - 🇯🇵 日本 007
       - 🇯🇵 日本 008
+      - 🇯🇵 日本 009
+      - 🇯🇵 日本 010
+      - 🇯🇵 日本 011
+      - 🇯🇵 日本 012
+      - 🇯🇵 日本 013
+      - 🇯🇵 日本 014
+      - 🇯🇵 日本 015
       - 🇰🇷 韩国 001
       - 🇰🇷 韩国 002
       - 🇰🇷 韩国 003
       - 🇰🇷 韩国 004
       - 🇰🇷 韩国 005
       - 🇰🇷 韩国 006
-      - 🇲🇽 墨西哥 001
-      - 🇳🇱 荷兰 001
+      - 🇰🇷 韩国 007
+      - 🇲🇾 马来西亚 001
       - 🇳🇴 挪威 001
-      - 🇳🇴 挪威 002
-      - 🇳🇴 挪威 003
-      - 🇳🇴 挪威 004
-      - 🇵🇹 葡萄牙 001
       - 🇷🇺 俄罗斯 001
       - 🇸🇬 新加坡 001
       - 🇸🇬 新加坡 002
@@ -309,10 +270,13 @@ proxy-groups:
       - 🇸🇬 新加坡 007
       - 🇸🇬 新加坡 008
       - 🇸🇬 新加坡 009
+      - 🇸🇬 新加坡 010
+      - 🇸🇬 新加坡 011
+      - 🇸🇬 新加坡 012
+      - 🇸🇬 新加坡 013
+      - 🇸🇬 新加坡 014
+      - 🇸🇬 新加坡 015
       - 台灣 001
-      - 台灣 002
-      - 乌克兰 001
-      - 乌克兰 002
       - 🇺🇸 美国 001
       - 🇺🇸 美国 002
       - 🇺🇸 美国 003
@@ -334,31 +298,8 @@ proxy-groups:
       - 🇺🇸 美国 019
       - 🇺🇸 美国 020
       - 🇺🇸 美国 021
-      - 🇺🇸 美国 022
       - 🇺🇸 美国 023
       - 🇺🇸 美国 024
-      - 🇺🇸 美国 025
-      - 🇺🇸 美国 026
-      - 🇺🇸 美国 027
-      - 🇺🇸 美国 028
-      - 🇺🇸 美国 029
-      - 🇺🇸 美国 030
-      - 🇺🇸 美国 031
-      - 🇺🇸 美国 032
-      - 🇺🇸 美国 033
-      - 🇺🇸 美国 034
-      - 🇺🇸 美国 035
-      - 🇺🇸 美国 036
-      - 🇺🇸 美国 037
-      - 🇺🇸 美国 038
-      - 🇺🇸 美国 039
-      - 🇺🇸 美国 040
-      - 🇺🇸 美国 041
-      - 🇺🇸 美国 042
-      - 🇺🇸 美国 043
-      - 🇺🇸 美国 044
-      - 🇺🇸 美国 045
-      - 🇺🇸 美国 046
   - name: 📲 聊天软件
     type: select
     proxies:
