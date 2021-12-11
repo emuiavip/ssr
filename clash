@@ -8,14 +8,20 @@ proxies:
   - {name: "# 关注群组不迷路", server: 1.1.1.1, port: 10086, type: ss, cipher: aes-256-gcm, password: "@Mshare_T"}
   - {name: "🇸🇬 # 节点失效请更新节点订阅", server: 1.1.1.1, port: 10086, type: ss, cipher: aes-256-gcm, password: "@Mshare_T"}
   - {name: "# 牧舍TG群 @Mshare_T", server: 1.1.1.1, port: 10086, type: ss, cipher: aes-256-gcm, password: "@Mshare_T"}
+  - {name: 🇦🇺 澳大利亚 001, server: 4.72vpn.xyz, port: 10000, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
   - {name: 🇨🇦 加拿大 001, server: 134.195.196.184, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: 🇨🇦 加拿大 002, server: 134.195.196.184, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
   - {name: 🇨🇦 加拿大 003, server: 134.195.196.184, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇨🇦 加拿大 004, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 005, server: 3.72vpn.xyz, port: 10000, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
   - {name: 🇩🇪 德国 001, server: zhuzhu12.com, port: 46101, type: vmess, uuid: f48e28a2-6187-3ff5-a900-084fa313de08, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
   - {name: 🇩🇪 德国 002, server: 193.108.118.182, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 🇩🇪 德国 003, server: 104.19.101.3, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /gdo93qerwtyuo, ws-headers: {Host: e.fovi.tk}}
   - {name: 🇩🇪 德国 004, server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇩🇪 德国 005, server: 193.108.118.182, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇩🇪 德国 006, server: hzcm.rokishi.cyou, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
+  - {name: 🇩🇪 德国 007, server: hk.azure.elaina.link, port: 443, type: vmess, uuid: d360a89a-3618-4573-91c9-3c3d7cd5df68, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /JJkuv3, ws-headers: {Host: hk.azure.elaina.link}}
+  - {name: 🇩🇪 德国 008, server: hzcm.rokishi.cyou, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
   - {name: 🇪🇬 埃及 001, server: 188.214.122.138, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg}
   - {name: 🇫🇷 法国 001, server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇫🇷 法国 002, server: 62.210.140.163, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
@@ -28,10 +34,27 @@ proxies:
   - {name: 🇭🇰 香港 007, server: global-transit-02-sg.pucdn.me, port: 62009, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-10.pucdn.me}}
   - {name: 🇭🇰 香港 008, server: global-transit-02-sg.pucdn.me, port: 62012, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-13.pucdn.me}}
   - {name: 🇭🇰 香港 009, server: hkf1.dior.bar, port: 80, type: vmess, uuid: 4a7e6325-c8d5-4735-b06d-7bded1751317, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hkf1.dior.bar}}
+  - {name: 🇭🇰 香港 010, server: 10.72vpn.xyz, port: 10000, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇭🇰 香港 011, server: 1.72vpn.xyz, port: 10000, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇭🇰 香港 012, server: az.72vpn.xyz, port: 10210, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇭🇰 香港 013, server: az.72vpn.xyz, port: 10204, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇭🇰 香港 014, server: az.72vpn.xyz, port: 10201, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇭🇰 香港 015, server: aws-bj.w72.xyz, port: 10304, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇭🇰 香港 016, server: aws-bj.w72.xyz, port: 10302, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇭🇰 香港 017, server: aws-bj.w72.xyz, port: 10301, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇭🇰 香港 018, server: aws.72vpn.xyz, port: 10110, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇭🇰 香港 019, server: aws.72vpn.xyz, port: 10101, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
   - {name: 🇮🇳 印度 001, server: global-transit-02-sg.pucdn.me, port: 49994, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-do-in-04.pucdn.me}}
   - {name: 🇮🇳 印度 002, server: global-transit-02-sg.pucdn.me, port: 49993, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-do-in-03.pucdn.me}}
   - {name: 🇮🇳 印度 003, server: 172.105.42.94, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: 🇮🇳 印度 004, server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇮🇳 印度 005, server: az.72vpn.xyz, port: 10224, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇮🇳 印度 006, server: az.72vpn.xyz, port: 10223, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇮🇳 印度 007, server: 23.72vpn.xyz, port: 10000, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇮🇳 印度 008, server: 6.72vpn.xyz, port: 10000, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇮🇳 印度 009, server: aws-bj.w72.xyz, port: 10323, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇮🇳 印度 010, server: aws-bj.w72.xyz, port: 10324, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇮🇳 印度 011, server: aws.72vpn.xyz, port: 10124, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
   - {name: 🇯🇵 日本 001, server: zhuzhu12.com, port: 14083, type: vmess, uuid: c7805113-7bd9-3d10-91d6-ea46c4adfab4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
   - {name: 🇯🇵 日本 002, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
   - {name: 🇯🇵 日本 003, server: 85.208.108.18, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
@@ -47,6 +70,16 @@ proxies:
   - {name: 🇯🇵 日本 013, server: guangzou-yd-jy-03.pucdn.me, port: 40003, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-03.pucdn.me}}
   - {name: 🇯🇵 日本 014, server: guangzou-yd-jy-03.pucdn.me, port: 40002, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-02.pucdn.me}}
   - {name: 🇯🇵 日本 015, server: guangzou-yd-jy-03.pucdn.me, port: 40001, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-01.pucdn.me}}
+  - {name: 🇯🇵 日本 016, server: 28.72vpn.xyz, port: 10000, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇯🇵 日本 017, server: 27.72vpn.xyz, port: 10000, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇯🇵 日本 018, server: az.72vpn.xyz, port: 10228, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇯🇵 日本 019, server: aws.72vpn.xyz, port: 10128, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇯🇵 日本 020, server: aws.72vpn.xyz, port: 10127, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇯🇵 日本 021, server: aws.72vpn.xyz, port: 10106, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇯🇵 日本 022, server: aws.72vpn.xyz, port: 10105, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇯🇵 日本 024, server: aws-bj.w72.xyz, port: 10328, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇯🇵 日本 025, server: aws-bj.w72.xyz, port: 10310, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇯🇵 日本 026, server: aws-bj.w72.xyz, port: 10306, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
   - {name: 🇰🇷 韩国 001, server: cm-jm.okvpn.xyz, port: 20006, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
   - {name: 🇰🇷 韩国 002, server: cu-cs.okvpn.xyz, port: 30022, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
   - {name: 🇰🇷 韩国 003, server: krn.meimei1314.xyz, port: 18080, type: vmess, uuid: c064c19b-866f-3624-ab9b-35bdfad536b4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /lisa, ws-headers: {Host: www.amazon.com}}
@@ -54,9 +87,13 @@ proxies:
   - {name: 🇰🇷 韩国 005, server: 139.227.161.129, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇰🇷 韩国 006, server: 139.227.161.129, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇰🇷 韩国 007, server: zhuzhu12.com, port: 13125, type: vmess, uuid: dd627432-9996-3673-809e-599d953c45fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 🇰🇷 韩国 008, server: aws-bj.w72.xyz, port: 10325, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇰🇷 韩国 009, server: aws.72vpn.xyz, port: 10125, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
   - {name: 🇲🇾 马来西亚 001, server: gzcm3.meimei1314.xyz, port: 45110, type: vmess, uuid: c064c19b-866f-3624-ab9b-35bdfad536b4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.amazon.com}}
   - {name: 🇳🇴 挪威 001, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 🇷🇺 俄罗斯 001, server: 194.87.106.63, port: 80, type: vmess, uuid: 7b64955f-f642-4d7d-bdcf-e8351a149a9f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 194.87.106.63}}
+  - {name: 🇷🇺 俄罗斯 002, server: aws.72vpn.xyz, port: 10116, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇷🇺 俄罗斯 003, server: aws-bj.w72.xyz, port: 10303, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
   - {name: 🇸🇬 新加坡 001, server: zhuzhu12.com, port: 12819, type: vmess, uuid: f48e28a2-6187-3ff5-a900-084fa313de08, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
   - {name: 🇸🇬 新加坡 002, server: zhuzhu12.com, port: 12819, type: vmess, uuid: dd627432-9996-3673-809e-599d953c45fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
   - {name: 🇸🇬 新加坡 003, server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: ycgyg.com}}
@@ -72,6 +109,19 @@ proxies:
   - {name: 🇸🇬 新加坡 013, server: global-transit-02-sg.pucdn.me, port: 61006, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-07.pucdn.me}}
   - {name: 🇸🇬 新加坡 014, server: zhuzhu12.com, port: 22164, type: vmess, uuid: dd627432-9996-3673-809e-599d953c45fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
   - {name: 🇸🇬 新加坡 015, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇸🇬 新加坡 016, server: az.72vpn.xyz, port: 10230, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇸🇬 新加坡 017, server: az.72vpn.xyz, port: 10229, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇸🇬 新加坡 018, server: az.72vpn.xyz, port: 10205, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇸🇬 新加坡 019, server: az.72vpn.xyz, port: 10203, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇸🇬 新加坡 020, server: aws.72vpn.xyz, port: 10130, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇸🇬 新加坡 021, server: aws.72vpn.xyz, port: 10103, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇸🇬 新加坡 022, server: aws.72vpn.xyz, port: 10129, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇸🇬 新加坡 023, server: aws-bj.w72.xyz, port: 10330, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇸🇬 新加坡 024, server: aws-bj.w72.xyz, port: 10329, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇸🇬 新加坡 025, server: 15.72vpn.xyz, port: 10000, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇸🇬 新加坡 026, server: 2.72vpn.xyz, port: 10000, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇸🇬 新加坡 027, server: 30.72vpn.xyz, port: 10000, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇸🇬 新加坡 028, server: 5.72vpn.xyz, port: 10000, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
   - {name: 台灣 001, server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
   - {name: 🇺🇸 美国 001, server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
   - {name: 🇺🇸 美国 002, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
@@ -96,6 +146,14 @@ proxies:
   - {name: 🇺🇸 美国 021, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
   - {name: 🇺🇸 美国 023, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}}
   - {name: 🇺🇸 美国 024, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇺🇸 美国 025, server: 18.72vpn.xyz, port: 10000, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇺🇸 美国 026, server: 17.72vpn.xyz, port: 10000, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇺🇸 美国 027, server: 16.72vpn.xyz, port: 40000, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇺🇸 美国 028, server: aws-bj.w72.xyz, port: 10315, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇺🇸 美国 029, server: aws-bj.w72.xyz, port: 10318, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇺🇸 美国 030, server: aws.72vpn.xyz, port: 10118, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇺🇸 美国 031, server: az.72vpn.xyz, port: 10206, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇺🇸 美国 032, server: az.72vpn.xyz, port: 10218, type: vmess, uuid: 97e16620-0d5a-44e2-9468-86e5cdfb6295, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
 proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
@@ -109,6 +167,16 @@ proxy-groups:
       - 🇭🇰 香港 007
       - 🇭🇰 香港 008
       - 🇭🇰 香港 009
+      - 🇭🇰 香港 010
+      - 🇭🇰 香港 011
+      - 🇭🇰 香港 012
+      - 🇭🇰 香港 013
+      - 🇭🇰 香港 014
+      - 🇭🇰 香港 015
+      - 🇭🇰 香港 016
+      - 🇭🇰 香港 017
+      - 🇭🇰 香港 018
+      - 🇭🇰 香港 019
   - name: 🇯🇵 日本节点
     type: select
     proxies:
@@ -127,6 +195,16 @@ proxy-groups:
       - 🇯🇵 日本 013
       - 🇯🇵 日本 014
       - 🇯🇵 日本 015
+      - 🇯🇵 日本 016
+      - 🇯🇵 日本 017
+      - 🇯🇵 日本 018
+      - 🇯🇵 日本 019
+      - 🇯🇵 日本 020
+      - 🇯🇵 日本 021
+      - 🇯🇵 日本 022
+      - 🇯🇵 日本 024
+      - 🇯🇵 日本 025
+      - 🇯🇵 日本 026
   - name: 🇺🇲 美国节点
     type: select
     proxies:
@@ -153,6 +231,14 @@ proxy-groups:
       - 🇺🇸 美国 021
       - 🇺🇸 美国 023
       - 🇺🇸 美国 024
+      - 🇺🇸 美国 025
+      - 🇺🇸 美国 026
+      - 🇺🇸 美国 027
+      - 🇺🇸 美国 028
+      - 🇺🇸 美国 029
+      - 🇺🇸 美国 030
+      - 🇺🇸 美国 031
+      - 🇺🇸 美国 032
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
@@ -175,6 +261,19 @@ proxy-groups:
       - 🇸🇬 新加坡 013
       - 🇸🇬 新加坡 014
       - 🇸🇬 新加坡 015
+      - 🇸🇬 新加坡 016
+      - 🇸🇬 新加坡 017
+      - 🇸🇬 新加坡 018
+      - 🇸🇬 新加坡 019
+      - 🇸🇬 新加坡 020
+      - 🇸🇬 新加坡 021
+      - 🇸🇬 新加坡 022
+      - 🇸🇬 新加坡 023
+      - 🇸🇬 新加坡 024
+      - 🇸🇬 新加坡 025
+      - 🇸🇬 新加坡 026
+      - 🇸🇬 新加坡 027
+      - 🇸🇬 新加坡 028
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
@@ -185,23 +284,40 @@ proxy-groups:
       - 🇰🇷 韩国 005
       - 🇰🇷 韩国 006
       - 🇰🇷 韩国 007
+      - 🇰🇷 韩国 008
+      - 🇰🇷 韩国 009
   - name: 🌍 其他地区
     type: select
     proxies:
+      - 🇦🇺 澳大利亚 001
       - 🇨🇦 加拿大 001
       - 🇨🇦 加拿大 002
       - 🇨🇦 加拿大 003
       - 🇨🇦 加拿大 004
+      - 🇨🇦 加拿大 005
       - 🇩🇪 德国 001
       - 🇩🇪 德国 002
       - 🇩🇪 德国 003
       - 🇩🇪 德国 004
+      - 🇩🇪 德国 005
+      - 🇩🇪 德国 006
+      - 🇩🇪 德国 007
+      - 🇩🇪 德国 008
       - 🇮🇳 印度 001
       - 🇮🇳 印度 002
       - 🇮🇳 印度 003
       - 🇮🇳 印度 004
+      - 🇮🇳 印度 005
+      - 🇮🇳 印度 006
+      - 🇮🇳 印度 007
+      - 🇮🇳 印度 008
+      - 🇮🇳 印度 009
+      - 🇮🇳 印度 010
+      - 🇮🇳 印度 011
       - 🇲🇾 马来西亚 001
       - 🇷🇺 俄罗斯 001
+      - 🇷🇺 俄罗斯 002
+      - 🇷🇺 俄罗斯 003
   - name: ♻️ 专线节点
     type: select
     proxies:
@@ -212,14 +328,20 @@ proxy-groups:
       - "# 关注群组不迷路"
       - "🇸🇬 # 节点失效请更新节点订阅"
       - "# 牧舍TG群 @Mshare_T"
+      - 🇦🇺 澳大利亚 001
       - 🇨🇦 加拿大 001
       - 🇨🇦 加拿大 002
       - 🇨🇦 加拿大 003
       - 🇨🇦 加拿大 004
+      - 🇨🇦 加拿大 005
       - 🇩🇪 德国 001
       - 🇩🇪 德国 002
       - 🇩🇪 德国 003
       - 🇩🇪 德国 004
+      - 🇩🇪 德国 005
+      - 🇩🇪 德国 006
+      - 🇩🇪 德国 007
+      - 🇩🇪 德国 008
       - 🇪🇬 埃及 001
       - 🇫🇷 法国 001
       - 🇫🇷 法国 002
@@ -232,10 +354,27 @@ proxy-groups:
       - 🇭🇰 香港 007
       - 🇭🇰 香港 008
       - 🇭🇰 香港 009
+      - 🇭🇰 香港 010
+      - 🇭🇰 香港 011
+      - 🇭🇰 香港 012
+      - 🇭🇰 香港 013
+      - 🇭🇰 香港 014
+      - 🇭🇰 香港 015
+      - 🇭🇰 香港 016
+      - 🇭🇰 香港 017
+      - 🇭🇰 香港 018
+      - 🇭🇰 香港 019
       - 🇮🇳 印度 001
       - 🇮🇳 印度 002
       - 🇮🇳 印度 003
       - 🇮🇳 印度 004
+      - 🇮🇳 印度 005
+      - 🇮🇳 印度 006
+      - 🇮🇳 印度 007
+      - 🇮🇳 印度 008
+      - 🇮🇳 印度 009
+      - 🇮🇳 印度 010
+      - 🇮🇳 印度 011
       - 🇯🇵 日本 001
       - 🇯🇵 日本 002
       - 🇯🇵 日本 003
@@ -251,6 +390,16 @@ proxy-groups:
       - 🇯🇵 日本 013
       - 🇯🇵 日本 014
       - 🇯🇵 日本 015
+      - 🇯🇵 日本 016
+      - 🇯🇵 日本 017
+      - 🇯🇵 日本 018
+      - 🇯🇵 日本 019
+      - 🇯🇵 日本 020
+      - 🇯🇵 日本 021
+      - 🇯🇵 日本 022
+      - 🇯🇵 日本 024
+      - 🇯🇵 日本 025
+      - 🇯🇵 日本 026
       - 🇰🇷 韩国 001
       - 🇰🇷 韩国 002
       - 🇰🇷 韩国 003
@@ -258,9 +407,13 @@ proxy-groups:
       - 🇰🇷 韩国 005
       - 🇰🇷 韩国 006
       - 🇰🇷 韩国 007
+      - 🇰🇷 韩国 008
+      - 🇰🇷 韩国 009
       - 🇲🇾 马来西亚 001
       - 🇳🇴 挪威 001
       - 🇷🇺 俄罗斯 001
+      - 🇷🇺 俄罗斯 002
+      - 🇷🇺 俄罗斯 003
       - 🇸🇬 新加坡 001
       - 🇸🇬 新加坡 002
       - 🇸🇬 新加坡 003
@@ -276,6 +429,19 @@ proxy-groups:
       - 🇸🇬 新加坡 013
       - 🇸🇬 新加坡 014
       - 🇸🇬 新加坡 015
+      - 🇸🇬 新加坡 016
+      - 🇸🇬 新加坡 017
+      - 🇸🇬 新加坡 018
+      - 🇸🇬 新加坡 019
+      - 🇸🇬 新加坡 020
+      - 🇸🇬 新加坡 021
+      - 🇸🇬 新加坡 022
+      - 🇸🇬 新加坡 023
+      - 🇸🇬 新加坡 024
+      - 🇸🇬 新加坡 025
+      - 🇸🇬 新加坡 026
+      - 🇸🇬 新加坡 027
+      - 🇸🇬 新加坡 028
       - 台灣 001
       - 🇺🇸 美国 001
       - 🇺🇸 美国 002
@@ -300,6 +466,14 @@ proxy-groups:
       - 🇺🇸 美国 021
       - 🇺🇸 美国 023
       - 🇺🇸 美国 024
+      - 🇺🇸 美国 025
+      - 🇺🇸 美国 026
+      - 🇺🇸 美国 027
+      - 🇺🇸 美国 028
+      - 🇺🇸 美国 029
+      - 🇺🇸 美国 030
+      - 🇺🇸 美国 031
+      - 🇺🇸 美国 032
   - name: 📲 聊天软件
     type: select
     proxies:
