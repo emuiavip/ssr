@@ -5,161 +5,251 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "# 关注群组不迷路", server: 1.1.1.1, port: 10086, type: ss, cipher: aes-256-gcm, password: "@Mshare_T"}
-  - {name: "🇸🇬 # 节点失效请更新节点订阅", server: 1.1.1.1, port: 10086, type: ss, cipher: aes-256-gcm, password: "@Mshare_T"}
+  - {name: "# 关注群组不迷路", server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: 4dd2df6e-633d-3a49-80a6-18c4de28c7db, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1116yn.fans8.xyz}}
+  - {name: "🇸🇬 # 节点失效请更新节点订阅", server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: "# 牧舍TG群 @Mshare_T", server: 1.1.1.1, port: 10086, type: ss, cipher: aes-256-gcm, password: "@Mshare_T"}
+  - {name: 🇦🇺 澳大利亚 001, server: 192.53.168.189, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇦🇺 澳大利亚 002, server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: 🇦🇺 澳大利亚 003, server: 192.53.168.189, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 🇧🇪 比利时 001, server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
-  - {name: 🇨🇦 加拿大 001, server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: 🇨🇦 加拿大 001, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 🇨🇦 加拿大 002, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大 003, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇨🇦 加拿大 004, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 005, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇨🇦 加拿大 006, server: v3.ssrsub.com, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}}
-  - {name: 🇨🇦 加拿大 007, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 008, server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
-  - {name: 🇨🇦 加拿大 009, server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
-  - {name: 🇨🇦 加拿大 010, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 011, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大 012, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇩🇪 德国 001, server: 93.186.201.124, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇩🇪 德国 002, server: 93.186.201.124, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇩🇪 德国 003, server: 93.186.201.124, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇩🇪 德国 004, server: 93.186.201.124, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇩🇪 德国 005, server: 93.186.201.124, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇩🇪 德国 006, server: 93.186.201.124, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇩🇪 德国 007, server: 93.186.201.124, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇩🇪 德国 008, server: 93.186.201.124, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇩🇪 德国 009, server: 93.186.201.124, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇫🇷 法国 001, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇫🇷 法国 002, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 003, server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: 🇨🇦 加拿大 004, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 005, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大 006, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 007, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 008, server: 183.232.163.3, port: 3434, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇨🇦 加拿大 009, server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1116yn.fans8.xyz}}
+  - {name: 🇨🇦 加拿大 010, server: 183.232.163.3, port: 3434, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
+  - {name: 🇹🇼 台湾 001, server: 1211tw.fans8.xyz, port: 80, type: vmess, uuid: 4dd2df6e-633d-3a49-80a6-18c4de28c7db, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1211tw.fans8.xyz}}
+  - {name: 🇹🇼 台湾 002, server: gdyd.xxcv.cc, port: 25602, type: trojan, password: d3906374-c5ea-36b6-8da2-530b098381d9, sni: gdyd.xxcv.cc, skip-cert-verify: false}
+  - {name: 🇹🇼 台湾 003, server: szyd.xxcv.cc, port: 25602, type: trojan, password: d3906374-c5ea-36b6-8da2-530b098381d9, sni: szyd.xxcv.cc, skip-cert-verify: false}
+  - {name: 🇹🇼 台湾 004, server: global-sakura-tw-a-01.yingyun-resolve.com, port: 101, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-hinet-tw-01.yingyun-resolve.com}}
+  - {name: 🇹🇼 台湾 005, server: global-sakura-tw-a-01.yingyun-resolve.com, port: 102, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-hinet-tw-02.yingyun-resolve.com}}
+  - {name: 🇹🇼 台湾 006, server: global-sakura-tw-a-01.yingyun-resolve.com, port: 103, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-hinet-tw-03.yingyun-resolve.com}}
+  - {name: 🇹🇼 台湾 007, server: global-sakura-tw-a-01.yingyun-resolve.com, port: 104, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-hinet-tw-04.yingyun-resolve.com}}
+  - {name: 🇹🇼 台湾 008, server: global-sakura-tw-a-01.yingyun-resolve.com, port: 105, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-hinet-tw-05.yingyun-resolve.com}}
+  - {name: 🇹🇼 台湾 009, server: global-sakura-tw-a-01.yingyun-resolve.com, port: 106, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-hinet-tw-06.yingyun-resolve.com}}
+  - {name: 🇹🇼 台湾 010, server: global-sakura-tw-a-01.yingyun-resolve.com, port: 107, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-hinet-tw-07.yingyun-resolve.com}}
+  - {name: 🇹🇼 台湾 011, server: guangzou-yd-jy-03.pucdn.me, port: 21102, type: vmess, uuid: 28260fd2-636c-3a55-a10d-3e43b85af320, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-tw-02.pucdn.me}}
+  - {name: 🇹🇼 台湾 012, server: v11.88host.buzz, port: 18120, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇹🇼 台湾 013, server: v13.88host.buzz, port: 18119, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇹🇼 台湾 014, server: v12.88host.buzz, port: 18118, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇹🇼 台湾 015, server: 183.232.226.142, port: 21102, type: vmess, uuid: 28260fd2-636c-3a55-a10d-3e43b85af320, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-tw-02.pucdn.me}}
+  - {name: 🇹🇼 台湾 016, server: 183.232.226.152, port: 21106, type: vmess, uuid: 28260fd2-636c-3a55-a10d-3e43b85af320, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-tw-06.pucdn.me}}
+  - {name: 🇫🇷 法国 001, server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 🇫🇷 法国 002, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
   - {name: 🇫🇷 法国 003, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 🇫🇷 法国 004, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇫🇷 法国 005, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇫🇷 法国 006, server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 🇫🇷 法国 005, server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇫🇷 法国 006, server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 🇫🇷 法国 007, server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇫🇷 法国 008, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇫🇷 法国 009, server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇫🇷 法国 010, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 🇫🇷 法国 011, server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇫🇷 法国 012, server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇬🇧 英国 001, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇬🇧 英国 002, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇬🇧 英国 003, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇬🇧 英国 004, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇭🇰 香港 001, server: guangzou-yd-jy-03.pucdn.me, port: 62008, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-09.pucdn.me}}
-  - {name: 🇭🇰 香港 002, server: global-transit-02-sg.pucdn.me, port: 62012, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-13.pucdn.me}}
-  - {name: 🇭🇰 香港 003, server: guangzou-yd-jy-03.pucdn.me, port: 62005, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-06.pucdn.me}}
-  - {name: 🇭🇰 香港 004, server: guangzou-yd-jy-03.pucdn.me, port: 62005, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: youtube-aweikeji}}
-  - {name: 🇭🇰 香港 005, server: global-transit-02-sg.pucdn.me, port: 62009, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: youtube-aweikeji}}
-  - {name: 🇭🇰 香港 006, server: mf-aws-hk-11.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-11.xncloud.xyz}}
-  - {name: 🇭🇰 香港 007, server: mf-az-hk-01.xncloud.xyz, port: 80, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-az-hk-01.xncloud.xyz}}
-  - {name: 🇭🇰 香港 008, server: mf-aws-hk-07.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-07.xncloud.xyz}}
-  - {name: 🇭🇰 香港 009, server: mf-aws-hk-04.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-04.xncloud.xyz}}
-  - {name: 🇭🇰 香港 010, server: 1.zhuzhu12.com, port: 80, type: vmess, uuid: d92988cf-6fac-3be1-af06-e48a7f975649, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
-  - {name: 🇭🇰 香港 011, server: 3.zhuzhu12.com, port: 80, type: vmess, uuid: d92988cf-6fac-3be1-af06-e48a7f975649, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
-  - {name: 🇭🇰 香港 012, server: ahyd.foom.cc, port: 43434, type: vmess, uuid: 54af432a-5960-4a12-9287-388efa8f382f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: a.189.cn}}
-  - {name: 🇭🇰 香港 013, server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
-  - {name: 🇭🇰 香港 014, server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
-  - {name: 🇭🇰 香港 015, server: 156.234.95.72, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
-  - {name: 🇮🇱 以色列 001, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: 🇮🇱 以色列 002, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: 🇮🇳 印度 001, server: mf-az-yd-04.xncloud.xyz, port: 80, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-az-yd-04.xncloud.xyz}}
-  - {name: 🇮🇳 印度 001 2, server: global-transit-02-sg.pucdn.me, port: 49994, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-do-in-04.pucdn.me}}
-  - {name: 🇮🇳 印度 002, server: mf-az-yd-04.xncloud.xyz, port: 80, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-az-yd-04.xncloud.xyz}}
-  - {name: 🇮🇳 印度 002 2, server: global-transit-02-sg.pucdn.me, port: 49993, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-do-in-03.pucdn.me}}
-  - {name: 🇮🇳 印度 003, server: mf-az-yd-01.xncloud.xyz, port: 80, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-az-yd-01.xncloud.xyz}}
-  - {name: 🇮🇳 印度 004, server: 192.46.210.73, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇮🇳 印度 005, server: 192.46.210.73, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇯🇵 日本 001, server: mf-az-jp-02.xncloud.xyz, port: 80, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-az-jp-02.xncloud.xyz}}
-  - {name: 🇯🇵 日本 002, server: mf-aws-jp-09.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-09.xncloud.xyz}}
-  - {name: 🇯🇵 日本 003, server: mf-aws-jp-08.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-08.xncloud.xyz}}
-  - {name: 🇯🇵 日本 004, server: mf-aws-jp-01.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-01.xncloud.xyz}}
-  - {name: 🇯🇵 日本 006, server: global-transit-hk-v2.pucdn.me, port: 40012, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-12.pucdn.me}}
-  - {name: 🇯🇵 日本 007, server: global-transit-hk-v2.pucdn.me, port: 40011, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-11.pucdn.me}}
-  - {name: 🇯🇵 日本 008, server: global-transit-hk-v2.pucdn.me, port: 40010, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-10.pucdn.me}}
-  - {name: 🇯🇵 日本 009, server: global-transit-hk-v2.pucdn.me, port: 40009, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-09.pucdn.me}}
-  - {name: 🇯🇵 日本 010, server: global-transit-hk-v2.pucdn.me, port: 40008, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-08.pucdn.me}}
-  - {name: 🇯🇵 日本 011, server: global-transit-hk-v2.pucdn.me, port: 40006, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-06.pucdn.me}}
-  - {name: 🇯🇵 日本 012, server: guangzou-yd-jy-03.pucdn.me, port: 40004, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-04.pucdn.me}}
-  - {name: 🇯🇵 日本 013, server: guangzou-yd-jy-03.pucdn.me, port: 40003, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-03.pucdn.me}}
-  - {name: 🇯🇵 日本 014, server: guangzou-yd-jy-03.pucdn.me, port: 40002, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-02.pucdn.me}}
-  - {name: 🇯🇵 日本 015, server: guangzou-yd-jy-03.pucdn.me, port: 40001, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-01.pucdn.me}}
-  - {name: 🇯🇵 日本 016, server: 139.162.80.175, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇯🇵 日本 017, server: 172.105.232.147, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇰🇷 韩国 001, server: mf-aws-kr-07.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-07.xncloud.xyz}}
-  - {name: 🇰🇷 韩国 002, server: mf-aws-kr-07.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-07.xncloud.xyz}}
-  - {name: 🇰🇷 韩国 003, server: mf-aws-kr-04.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-04.xncloud.xyz}}
-  - {name: 🇰🇷 韩国 004, server: 139.227.161.129, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇳🇴 挪威 001, server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国 008, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇬🇧 英国 001, server: mf-az-uk-01.xncloud.xyz, port: 80, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-az-uk-01.xncloud.xyz}}
+  - {name: 🇬🇧 英国 002, server: mf-az-uk-01.xncloud.xyz, port: 80, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-az-uk-01.xncloud.xyz}}
+  - {name: 🇬🇧 英国 003, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇬🇧 英国 004, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇭🇰 香港 001, server: 1.zhuzhu12.com, port: 80, type: vmess, uuid: d92988cf-6fac-3be1-af06-e48a7f975649, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
+  - {name: 🇭🇰 香港 002, server: 1211hk8.fans8.xyz, port: 80, type: vmess, uuid: 4dd2df6e-633d-3a49-80a6-18c4de28c7db, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1211hk8.fans8.xyz}}
+  - {name: 🇭🇰 香港 003, server: 1214hk.fans8.xyz, port: 80, type: vmess, uuid: 4dd2df6e-633d-3a49-80a6-18c4de28c7db, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1214hk.fans8.xyz}}
+  - {name: 🇭🇰 香港 004, server: 1211hk1.fans8.xyz, port: 80, type: vmess, uuid: 4dd2df6e-633d-3a49-80a6-18c4de28c7db, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1211hk1.fans8.xyz}}
+  - {name: 🇭🇰 香港 005, server: 1211hk5.fans8.xyz, port: 80, type: vmess, uuid: 4dd2df6e-633d-3a49-80a6-18c4de28c7db, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1211hk5.fans8.xyz}}
+  - {name: 🇭🇰 香港 006, server: v12.88host.buzz, port: 18006, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}}
+  - {name: 🇭🇰 香港 007, server: v13.88host.buzz, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}}
+  - {name: 🇭🇰 香港 008, server: v12.88host.buzz, port: 18009, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}}
+  - {name: 🇭🇰 香港 009, server: v11.88host.buzz, port: 18008, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}}
+  - {name: 🇭🇰 香港 010, server: mf-aws-hk-15.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-15.xncloud.xyz}}
+  - {name: 🇭🇰 香港 011, server: mf-aws-hk-15.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-15.xncloud.xyz}}
+  - {name: 🇭🇰 香港 012, server: mf-aws-hk-14.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-14.xncloud.xyz}}
+  - {name: 🇭🇰 香港 013, server: mf-aws-hk-14.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-14.xncloud.xyz}}
+  - {name: 🇭🇰 香港 014, server: mf-aws-hk-13.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-13.xncloud.xyz}}
+  - {name: 🇭🇰 香港 015, server: mf-aws-hk-13.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-13.xncloud.xyz}}
+  - {name: 🇭🇰 香港 016, server: mf-aws-hk-12.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-12.xncloud.xyz}}
+  - {name: 🇭🇰 香港 017, server: mf-aws-hk-12.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-12.xncloud.xyz}}
+  - {name: 🇭🇰 香港 018, server: mf-aws-hk-11.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-11.xncloud.xyz}}
+  - {name: 🇭🇰 香港 019, server: mf-aws-hk-11.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-11.xncloud.xyz}}
+  - {name: 🇭🇰 香港 020, server: mf-aws-hk-10.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-10.xncloud.xyz}}
+  - {name: 🇭🇰 香港 021, server: mf-aws-hk-10.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-10.xncloud.xyz}}
+  - {name: 🇭🇰 香港 022, server: mf-aws-hk-09.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-09.xncloud.xyz}}
+  - {name: 🇭🇰 香港 023, server: mf-aws-hk-09.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-09.xncloud.xyz}}
+  - {name: 🇭🇰 香港 024, server: mf-aws-hk-08.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-08.xncloud.xyz}}
+  - {name: 🇭🇰 香港 025, server: mf-aws-hk-08.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-08.xncloud.xyz}}
+  - {name: 🇭🇰 香港 026, server: mf-aws-hk-07.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-07.xncloud.xyz}}
+  - {name: 🇭🇰 香港 027, server: mf-aws-hk-07.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-07.xncloud.xyz}}
+  - {name: 🇭🇰 香港 028, server: mf-aws-hk-06.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-06.xncloud.xyz}}
+  - {name: 🇭🇰 香港 029, server: mf-aws-hk-06.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-06.xncloud.xyz}}
+  - {name: 🇭🇰 香港 030, server: mf-aws-hk-05.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-05.xncloud.xyz}}
+  - {name: 🇭🇰 香港 031, server: mf-aws-hk-05.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-05.xncloud.xyz}}
+  - {name: 🇭🇰 香港 032, server: mf-aws-hk-04.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-04.xncloud.xyz}}
+  - {name: 🇭🇰 香港 033, server: mf-aws-hk-04.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-04.xncloud.xyz}}
+  - {name: 🇭🇰 香港 034, server: mf-aws-hk-03.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-03.xncloud.xyz}}
+  - {name: 🇭🇰 香港 035, server: mf-aws-hk-03.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-03.xncloud.xyz}}
+  - {name: 🇭🇰 香港 036, server: mf-aws-hk-01.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-01.xncloud.xyz}}
+  - {name: 🇭🇰 香港 037, server: mf-aws-hk-01.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-01.xncloud.xyz}}
+  - {name: 🇭🇰 香港 038, server: v2ray-free-aga-hk-01.yingyun-resolve.com, port: 599, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /yingyun, ws-headers: {Host: v2ray-free-aga-hk-01.yingyun-resolve.com}}
+  - {name: 🇭🇰 香港 039, server: v2ray-free-aga-hk-02.yingyun-resolve.com, port: 599, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /yingyun, ws-headers: {Host: v2ray-free-aga-hk-02.yingyun-resolve.com}}
+  - {name: 🇭🇰 香港 040, server: v2ray-free-aga-hk-03.yingyun-resolve.com, port: 599, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /yingyun, ws-headers: {Host: v2ray-free-aga-hk-03.yingyun-resolve.com}}
+  - {name: 🇭🇰 香港 041, server: v2ray-free-aga-hk-04.yingyun-resolve.com, port: 599, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /yingyun, ws-headers: {Host: v2ray-free-aga-hk-04.yingyun-resolve.com}}
+  - {name: 🇭🇰 香港 042, server: global-sakura-hk-a-01.yingyun-resolve.com, port: 108, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-hkt-hk-01.yingyun-resolve.com}}
+  - {name: 🇭🇰 香港 043, server: global-sakura-hk-a-01.yingyun-resolve.com, port: 109, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-hkt-hk-02.yingyun-resolve.com}}
+  - {name: 🇭🇰 香港 044, server: global-sakura-hk-a-01.yingyun-resolve.com, port: 110, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-hkt-hk-03.yingyun-resolve.com}}
+  - {name: 🇭🇰 香港 045, server: global-sakura-hk-a-01.yingyun-resolve.com, port: 114, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-hkt-hk-07.yingyun-resolve.com}}
+  - {name: 🇭🇰 香港 046, server: global-sakura-hk-a-01.yingyun-resolve.com, port: 111, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-hkt-hk-04.yingyun-resolve.com}}
+  - {name: 🇭🇰 香港 047, server: global-sakura-hk-a-01.yingyun-resolve.com, port: 115, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-hkt-hk-08.yingyun-resolve.com}}
+  - {name: 🇭🇰 香港 048, server: global-sakura-hk-a-01.yingyun-resolve.com, port: 116, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-hkt-hk-09.yingyun-resolve.com}}
+  - {name: 🇭🇰 香港 049, server: global-sakura-hk-a-01.yingyun-resolve.com, port: 117, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-hkt-hk-10.yingyun-resolve.com}}
+  - {name: 🇭🇰 香港 050, server: global-sakura-hk-b-01.yingyun-resolve.com, port: 118, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-hkt-hk-11.yingyun-resolve.com}}
+  - {name: 🇭🇰 香港 051, server: gdyd.xxcv.cc, port: 25601, type: trojan, password: d3906374-c5ea-36b6-8da2-530b098381d9, sni: gdyd.xxcv.cc, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 052, server: szyd.xxcv.cc, port: 25601, type: trojan, password: d3906374-c5ea-36b6-8da2-530b098381d9, sni: szyd.xxcv.cc, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 001, server: 172.104.82.126, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇯🇵 日本 002, server: v11.88host.buzz, port: 18003, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}}
+  - {name: 🇯🇵 日本 003, server: v12.88host.buzz, port: 18004, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}}
+  - {name: 🇯🇵 日本 004, server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 172.104.98.216}}
+  - {name: 🇯🇵 日本 005, server: mf-aws-jp-01.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-01.xncloud.xyz}}
+  - {name: 🇯🇵 日本 006, server: mf-aws-jp-01.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-01.xncloud.xyz}}
+  - {name: 🇯🇵 日本 007, server: mf-aws-jp-02.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-02.xncloud.xyz}}
+  - {name: 🇯🇵 日本 008, server: mf-aws-jp-10.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-10.xncloud.xyz}}
+  - {name: 🇯🇵 日本 009, server: mf-aws-jp-10.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-10.xncloud.xyz}}
+  - {name: 🇯🇵 日本 010, server: mf-aws-jp-09.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-09.xncloud.xyz}}
+  - {name: 🇯🇵 日本 011, server: mf-aws-jp-09.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-09.xncloud.xyz}}
+  - {name: 🇯🇵 日本 012, server: mf-aws-jp-08.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-08.xncloud.xyz}}
+  - {name: 🇯🇵 日本 013, server: mf-aws-jp-08.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-08.xncloud.xyz}}
+  - {name: 🇯🇵 日本 014, server: mf-aws-jp-07.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-07.xncloud.xyz}}
+  - {name: 🇯🇵 日本 015, server: mf-aws-jp-07.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-07.xncloud.xyz}}
+  - {name: 🇯🇵 日本 016, server: mf-aws-jp-06.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-06.xncloud.xyz}}
+  - {name: 🇯🇵 日本 017, server: mf-aws-jp-05.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-05.xncloud.xyz}}
+  - {name: 🇯🇵 日本 018, server: mf-aws-jp-05.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-05.xncloud.xyz}}
+  - {name: 🇯🇵 日本 019, server: mf-aws-jp-04.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-04.xncloud.xyz}}
+  - {name: 🇯🇵 日本 020, server: mf-aws-jp-04.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-04.xncloud.xyz}}
+  - {name: 🇯🇵 日本 021, server: mf-aws-jp-03.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-03.xncloud.xyz}}
+  - {name: 🇯🇵 日本 022, server: mf-aws-jp-03.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-03.xncloud.xyz}}
+  - {name: 🇯🇵 日本 023, server: mf-aws-jp-02.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-02.xncloud.xyz}}
+  - {name: 🇯🇵 日本 024, server: global-sakura-jp-c-02.yingyun-resolve.com, port: 126, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-idcf-jp-02.yingyun-resolve.com}}
+  - {name: 🇯🇵 日本 025, server: global-sakura-jp-c-02.yingyun-resolve.com, port: 125, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-idcf-jp-01.yingyun-resolve.com}}
+  - {name: 🇯🇵 日本 026, server: global-sakura-jp-a-01.yingyun-resolve.com, port: 2110, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-sakura-jp-10.yingyun-resolve.com}}
+  - {name: 🇯🇵 日本 027, server: global-sakura-jp-a-01.yingyun-resolve.com, port: 2109, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-sakura-jp-09.yingyun-resolve.com}}
+  - {name: 🇯🇵 日本 028, server: global-sakura-jp-a-01.yingyun-resolve.com, port: 2108, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-sakura-jp-08.yingyun-resolve.com}}
+  - {name: 🇯🇵 日本 029, server: global-sakura-jp-a-01.yingyun-resolve.com, port: 2107, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-sakura-jp-07.yingyun-resolve.com}}
+  - {name: 🇯🇵 日本 030, server: global-sakura-jp-a-01.yingyun-resolve.com, port: 2106, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-sakura-jp-06.yingyun-resolve.com}}
+  - {name: 🇯🇵 日本 031, server: global-sakura-jp-a-01.yingyun-resolve.com, port: 2105, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-sakura-jp-05.yingyun-resolve.com}}
+  - {name: 🇯🇵 日本 032, server: global-sakura-jp-a-01.yingyun-resolve.com, port: 2104, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-sakura-jp-01.yingyun-resolve.com}}
+  - {name: 🇯🇵 日本 033, server: global-sakura-jp-a-01.yingyun-resolve.com, port: 2103, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-sakura-jp-03.yingyun-resolve.com}}
+  - {name: 🇯🇵 日本 034, server: global-sakura-jp-a-01.yingyun-resolve.com, port: 2102, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-sakura-jp-02.yingyun-resolve.com}}
+  - {name: 🇯🇵 日本 035, server: global-sakura-jp-a-01.yingyun-resolve.com, port: 2101, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-sakura-jp-01.yingyun-resolve.com}}
+  - {name: 🇰🇷 韩国 001, server: mf-aws-kr-01.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-01.xncloud.xyz}}
+  - {name: 🇰🇷 韩国 002, server: mf-aws-kr-01.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-01.xncloud.xyz}}
+  - {name: 🇰🇷 韩国 003, server: mf-aws-kr-02.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-02.xncloud.xyz}}
+  - {name: 🇰🇷 韩国 004, server: mf-aws-kr-02.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-02.xncloud.xyz}}
+  - {name: 🇰🇷 韩国 005, server: mf-aws-kr-03.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-03.xncloud.xyz}}
+  - {name: 🇰🇷 韩国 006, server: mf-aws-kr-03.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-03.xncloud.xyz}}
+  - {name: 🇰🇷 韩国 007, server: mf-aws-kr-04.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-04.xncloud.xyz}}
+  - {name: 🇰🇷 韩国 008, server: mf-aws-kr-04.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-04.xncloud.xyz}}
+  - {name: 🇰🇷 韩国 009, server: mf-aws-kr-05.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-05.xncloud.xyz}}
+  - {name: 🇰🇷 韩国 010, server: mf-aws-kr-05.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-05.xncloud.xyz}}
+  - {name: 🇰🇷 韩国 011, server: mf-aws-kr-06.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-06.xncloud.xyz}}
+  - {name: 🇰🇷 韩国 012, server: mf-aws-kr-06.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-06.xncloud.xyz}}
+  - {name: 🇰🇷 韩国 013, server: mf-aws-kr-07.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-07.xncloud.xyz}}
+  - {name: 🇰🇷 韩国 014, server: mf-aws-kr-07.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-07.xncloud.xyz}}
+  - {name: 🇰🇷 韩国 015, server: mf-aws-kr-08.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-08.xncloud.xyz}}
+  - {name: 🇰🇷 韩国 016, server: mf-aws-kr-09.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-09.xncloud.xyz}}
+  - {name: 🇰🇷 韩国 017, server: mf-aws-kr-09.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-09.xncloud.xyz}}
+  - {name: 🇰🇷 韩国 018, server: mf-aws-kr-10.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-10.xncloud.xyz}}
+  - {name: 🇰🇷 韩国 019, server: mf-aws-kr-10.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-10.xncloud.xyz}}
+  - {name: 🇰🇷 韩国 020, server: 156.234.95.72, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
+  - {name: 🇰🇷 韩国 021, server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
+  - {name: 🇰🇷 韩国 022, server: mf-aws-kr-06.xncloud.xyz, port: 18000, type: vmess, uuid: 8de5831e-0bd4-39eb-89f5-ade805c85931, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-06.xncloud.xyz}}
+  - {name: 🇳🇴 挪威 001, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇳🇴 挪威 002, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: 🇳🇴 挪威 003, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇳🇴 挪威 004, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇳🇴 挪威 005, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇳🇴 挪威 006, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇳🇴 挪威 007, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇳🇴 挪威 008, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇳🇴 挪威 009, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇳🇴 挪威 004, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇳🇴 挪威 005, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇳🇴 挪威 006, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇳🇴 挪威 007, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: 🇵🇹 葡萄牙 001, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
   - {name: 🇵🇹 葡萄牙 002, server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: 🇷🇺 俄罗斯 001, server: mf-justhost-ru-01.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-justhost-ru-01.xncloud.xyz}}
-  - {name: 🇷🇺 俄罗斯 002, server: 520yyds.zhqt.xyz, port: 30003, type: vmess, uuid: 51e6c70d-72b0-4c3e-ac78-cbbee09afdc8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 001, server: mf-aws-sg-15.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-15.xncloud.xyz}}
-  - {name: 🇸🇬 新加坡 001 2, server: global-transit-02-sg.pucdn.me, port: 61003, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-04.pucdn.me}}
-  - {name: 🇸🇬 新加坡 002, server: mf-aws-sg-14.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-14.xncloud.xyz}}
+  - {name: 🇷🇺 俄罗斯 001, server: 915ru1.fans8.xyz, port: 80, type: vmess, uuid: 4dd2df6e-633d-3a49-80a6-18c4de28c7db, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 915ru1.fans8.xyz}}
+  - {name: 🇷🇺 俄罗斯 002, server: mf-justhost-ru-01.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-justhost-ru-01.xncloud.xyz}}
+  - {name: 🇷🇺 俄罗斯 003, server: mf-justhost-ru-01.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-justhost-ru-01.xncloud.xyz}}
+  - {name: 🇷🇺 俄罗斯 004, server: mf-justhost-ru-02.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-justhost-ru-02.xncloud.xyz}}
+  - {name: 🇷🇺 俄罗斯 005, server: mf-justhost-ru-02.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-justhost-ru-02.xncloud.xyz}}
+  - {name: 🇷🇺 俄罗斯 006, server: szyd.xxcv.cc, port: 25600, type: trojan, password: d3906374-c5ea-36b6-8da2-530b098381d9, sni: szyd.xxcv.cc, skip-cert-verify: false}
+  - {name: 🇷🇺 俄罗斯 007, server: gdyd.xxcv.cc, port: 25600, type: trojan, password: d3906374-c5ea-36b6-8da2-530b098381d9, sni: gdyd.xxcv.cc, skip-cert-verify: false}
+  - {name: 🇷🇺 俄罗斯 008, server: ru.xxcv.cc, port: 8443, type: trojan, password: d3906374-c5ea-36b6-8da2-530b098381d9, sni: ru.xxcv.cc, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 001, server: mf-aws-sg-05.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-05.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 002, server: mf-aws-sg-06.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-06.xncloud.xyz}}
   - {name: 🇸🇬 新加坡 003, server: mf-aws-sg-14.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-14.xncloud.xyz}}
-  - {name: 🇸🇬 新加坡 004, server: mf-aws-sg-13.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-13.xncloud.xyz}}
-  - {name: 🇸🇬 新加坡 005, server: mf-aws-sg-13.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-13.xncloud.xyz}}
-  - {name: 🇸🇬 新加坡 006, server: mf-aws-sg-12.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-12.xncloud.xyz}}
-  - {name: 🇸🇬 新加坡 007, server: mf-aws-sg-11.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-11.xncloud.xyz}}
-  - {name: 🇸🇬 新加坡 008, server: mf-aws-sg-11.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-11.xncloud.xyz}}
-  - {name: 🇸🇬 新加坡 009, server: mf-aws-sg-10.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-10.xncloud.xyz}}
-  - {name: 🇸🇬 新加坡 010, server: mf-aws-sg-10.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-10.xncloud.xyz}}
-  - {name: 🇸🇬 新加坡 011, server: mf-aws-sg-09.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-09.xncloud.xyz}}
-  - {name: 🇸🇬 新加坡 012, server: mf-aws-sg-07.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-07.xncloud.xyz}}
-  - {name: 🇸🇬 新加坡 013, server: mf-aws-sg-06.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-06.xncloud.xyz}}
-  - {name: 🇸🇬 新加坡 014, server: mf-aws-sg-05.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-05.xncloud.xyz}}
-  - {name: 🇸🇬 新加坡 015, server: mf-aws-sg-07.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-07.xncloud.xyz}}
-  - {name: 🇸🇬 新加坡 016, server: mf-aws-sg-05.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-05.xncloud.xyz}}
-  - {name: 🇸🇬 新加坡 017, server: mf-aws-sg-04.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-04.xncloud.xyz}}
-  - {name: 🇸🇬 新加坡 018, server: mf-aws-sg-03.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-03.xncloud.xyz}}
-  - {name: 🇸🇬 新加坡 019, server: 520yyds.zhqt.xyz, port: 30002, type: vmess, uuid: 51e6c70d-72b0-4c3e-ac78-cbbee09afdc8, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: sg1.zhqt.xyz}}
-  - {name: 🇸🇬 新加坡 020, server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
-  - {name: 🇹🇼 台湾 001, server: 120.197.88.216, port: 20002, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 🇹🇼 台湾 002, server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 🇹🇼 台湾 003, server: guangzou-yd-jy-03.pucdn.me, port: 21102, type: vmess, uuid: 28260fd2-636c-3a55-a10d-3e43b85af320, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-tw-02.pucdn.me}}
-  - {name: 🇹🇼 台湾 004, server: 223.167.159.117, port: 63057, type: vmess, uuid: 3e37cfb1-477d-39a7-bdf5-d9bc49d15f6f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls, ws-headers: {Host: 223.167.159.117}}
-  - {name: 🇹🇼 台湾 005, server: guangzhou-lw-03.pucdn.me, port: 21106, type: vmess, uuid: 28260fd2-636c-3a55-a10d-3e43b85af320, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-tw-06.pucdn.me}}
-  - {name: 乌克兰 001, server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
-  - {name: 🇺🇸 美国 001, server: global-transit-02-sg.pucdn.me, port: 62009, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-10.pucdn.me}}
-  - {name: 🇺🇸 美国 002, server: pr1.mooncloud.bike, port: 8443, type: vmess, uuid: e5b6a7b0-1b39-40da-b1f8-605ad083da98, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pr1.mooncloud.bike}}
-  - {name: 🇺🇸 美国 003, server: inapus.mooncloud.bike, port: 10099, type: vmess, uuid: e5b6a7b0-1b39-40da-b1f8-605ad083da98, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: inapus.mooncloud.bike}}
-  - {name: 🇺🇸 美国 004, server: inapus.mooncloud.bike, port: 443, type: vmess, uuid: e5b6a7b0-1b39-40da-b1f8-605ad083da98, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: inapus.mooncloud.bike}}
-  - {name: 🇺🇸 美国 005, server: 20.187.92.138, port: 42013, type: vmess, uuid: e5b6a7b0-1b39-40da-b1f8-605ad083da98, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 20.187.92.138}}
-  - {name: 🇺🇸 美国 006, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 🇸🇬 新加坡 004, server: mf-aws-sg-15.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-15.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 005, server: mf-aws-sg-14.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-14.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 006, server: mf-aws-sg-14.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-14.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 007, server: mf-aws-sg-13.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-13.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 008, server: mf-aws-sg-13.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-13.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 009, server: mf-aws-sg-12.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-12.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 010, server: mf-aws-sg-12.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-12.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 011, server: mf-aws-sg-11.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-11.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 012, server: mf-aws-sg-11.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-11.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 013, server: mf-aws-sg-10.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-10.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 014, server: mf-aws-sg-10.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-10.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 015, server: mf-aws-sg-09.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-09.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 016, server: mf-aws-sg-09.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-09.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 017, server: mf-aws-sg-08.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-08.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 018, server: mf-aws-sg-08.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-08.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 019, server: mf-aws-sg-07.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-07.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 020, server: mf-aws-sg-07.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-07.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 021, server: mf-aws-sg-06.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-06.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 022, server: mf-aws-sg-05.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-05.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 023, server: mf-aws-sg-05.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-05.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 024, server: mf-aws-sg-04.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-04.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 025, server: mf-aws-sg-04.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-04.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 026, server: mf-aws-sg-03.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-03.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 027, server: mf-aws-sg-02.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-02.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 028, server: mf-aws-sg-02.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-02.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 029, server: mf-aws-sg-01.xncloud.xyz, port: 18000, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-01.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 030, server: mf-aws-sg-01.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-01.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 031, server: mf-aws-sg-04.xncloud.xyz, port: 18000, type: vmess, uuid: 8de5831e-0bd4-39eb-89f5-ade805c85931, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-04.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 032, server: global-sakura-sg-a-01.yingyun-resolve.com, port: 119, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-aws-sg-02.yingyun-resolve.com}}
+  - {name: 🇸🇬 新加坡 033, server: global-sakura-sg-a-01.yingyun-resolve.com, port: 118, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: v2ray-v1-aws-sg-01.yingyun-resolve.com}}
+  - {name: 🇸🇬 新加坡 034, server: v2ray-free-aga-sg-02.yingyun-resolve.com, port: 599, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /yingyun, ws-headers: {Host: v2ray-free-aga-sg-02.yingyun-resolve.com}}
+  - {name: 🇸🇬 新加坡 035, server: mf-aws-sg-15.xncloud.xyz, port: 18000, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-15.xncloud.xyz}}
+  - {name: 🇸🇬 新加坡 036, server: v11.88host.buzz, port: 18015, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}}
+  - {name: 🇺🇸 美国 001, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇺🇸 美国 002, server: v11.88host.buzz, port: 18121, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}}
+  - {name: 🇺🇸 美国 003, server: mf-do-ua-07.xncloud.xyz, port: 80, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-07.xncloud.xyz}}
+  - {name: 🇺🇸 美国 004, server: mf-do-ua-06.xncloud.xyz, port: 80, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-06.xncloud.xyz}}
+  - {name: 🇺🇸 美国 005, server: mf-do-ua-05.xncloud.xyz, port: 80, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-05.xncloud.xyz}}
+  - {name: 🇺🇸 美国 006, server: mf-do-ua-04.xncloud.xyz, port: 80, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-04.xncloud.xyz}}
   - {name: 🇺🇸 美国 007, server: mf-do-ua-01.xncloud.xyz, port: 80, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-01.xncloud.xyz}}
   - {name: 🇺🇸 美国 008, server: mf-do-ua-03.xncloud.xyz, port: 80, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-03.xncloud.xyz}}
-  - {name: 🇺🇸 美国 009, server: mf-do-ua-05.xncloud.xyz, port: 80, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-05.xncloud.xyz}}
-  - {name: 🇺🇸 美国 010, server: mf-do-ua-06.xncloud.xyz, port: 80, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-06.xncloud.xyz}}
-  - {name: 🇺🇸 美国 011, server: mf-do-ua-07.xncloud.xyz, port: 80, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-07.xncloud.xyz}}
+  - {name: 🇺🇸 美国 009, server: mf-do-ua-08.xncloud.xyz, port: 80, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-08.xncloud.xyz}}
+  - {name: 🇺🇸 美国 010, server: mf-do-ua-05.xncloud.xyz, port: 80, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-05.xncloud.xyz}}
+  - {name: 🇺🇸 美国 011, server: mf-do-ua-04.xncloud.xyz, port: 80, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-04.xncloud.xyz}}
   - {name: 🇺🇸 美国 012, server: mf-do-ua-09.xncloud.xyz, port: 80, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-09.xncloud.xyz}}
   - {name: 🇺🇸 美国 013, server: mf-do-ua-10.xncloud.xyz, port: 80, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-10.xncloud.xyz}}
-  - {name: 🇺🇸 美国 014, server: mf-do-ua-10.xncloud.xyz, port: 80, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-10.xncloud.xyz}}
-  - {name: 🇺🇸 美国 015, server: 139.227.161.129, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 016, server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 🇺🇸 美国 017, server: 120.197.88.216, port: 20004, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 🇺🇸 美国 018, server: global-transit-02-sg.pucdn.me, port: 62009, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vvv, ws-headers: {Host: global-transit-02-sg.pucdn.me}}
-  - {name: 🇺🇸 美国 019, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: 🇺🇸 美国 020, server: 192.46.210.73, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 021, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
-  - {name: 🇺🇸 美国 022, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: 🇺🇸 美国 023, server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: 🇺🇸 美国 024, server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
-  - {name: 🇺🇸 美国 025, server: 45.58.150.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
-  - {name: 🇺🇸 美国 026, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 🇺🇸 美国 027, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 🇺🇸 美国 028, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: 🇺🇸 美国 029, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: 🇺🇸 美国 030, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}}
+  - {name: 🇺🇸 美国 014, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇺🇸 美国 015, server: 183.232.163.3, port: 3939, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
+  - {name: 🇺🇸 美国 015 2, server: 139.227.161.129, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 016, server: 183.232.163.3, port: 1717, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}}
+  - {name: 🇺🇸 美国 017, server: 183.232.163.3, port: 5959, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: youtube-awekeji}}
+  - {name: 🇺🇸 美国 018, server: mf-do-ua-01.xncloud.xyz, port: 80, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-01.xncloud.xyz}}
+  - {name: 🇺🇸 美国 019, server: mf-do-ua-01.xncloud.xyz, port: 80, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-01.xncloud.xyz}}
+  - {name: 🇺🇸 美国 020, server: mf-do-ua-02.xncloud.xyz, port: 80, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-02.xncloud.xyz}}
+  - {name: 🇺🇸 美国 021, server: mf-do-ua-02.xncloud.xyz, port: 80, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-02.xncloud.xyz}}
+  - {name: 🇺🇸 美国 022, server: mf-do-ua-03.xncloud.xyz, port: 80, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-03.xncloud.xyz}}
+  - {name: 🇺🇸 美国 023, server: mf-do-ua-03.xncloud.xyz, port: 80, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-03.xncloud.xyz}}
+  - {name: 🇺🇸 美国 024, server: mf-do-ua-06.xncloud.xyz, port: 80, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-06.xncloud.xyz}}
+  - {name: 🇺🇸 美国 025, server: mf-do-ua-07.xncloud.xyz, port: 80, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-07.xncloud.xyz}}
+  - {name: 🇺🇸 美国 026, server: mf-do-ua-08.xncloud.xyz, port: 80, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-08.xncloud.xyz}}
+  - {name: 🇺🇸 美国 027, server: mf-do-ua-09.xncloud.xyz, port: 80, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-09.xncloud.xyz}}
+  - {name: 🇺🇸 美国 028, server: mf-do-ua-09.xncloud.xyz, port: 80, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-09.xncloud.xyz}}
+  - {name: 🇺🇸 美国 029, server: mf-do-ua-10.xncloud.xyz, port: 80, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-10.xncloud.xyz}}
+  - {name: 🇺🇸 美国 030, server: mf-do-ua-10.xncloud.xyz, port: 80, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-10.xncloud.xyz}}
+  - {name: 🇺🇸 美国 031, server: mf-do-ua-02.xncloud.xyz, port: 80, type: vmess, uuid: 8de5831e-0bd4-39eb-89f5-ade805c85931, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-02.xncloud.xyz}}
+  - {name: 🇺🇸 美国 032, server: mf-do-ua-04.xncloud.xyz, port: 80, type: vmess, uuid: 8de5831e-0bd4-39eb-89f5-ade805c85931, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-04.xncloud.xyz}}
+  - {name: 🇺🇸 美国 033, server: global-sakura-us-a-01.yingyun-resolve.com, port: 123, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /yingyun, ws-headers: {Host: v2ray-v1-ntt-us-01.yingyun-resolve.com}}
+  - {name: 🇺🇸 美国 034, server: global-sakura-us-a-01.yingyun-resolve.com, port: 124, type: vmess, uuid: a6315932-5743-3c77-88d5-e03df4d05bed, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /yingyun, ws-headers: {Host: v2ray-v1-ntt-us-02.yingyun-resolve.com}}
+  - {name: 🇺🇸 美国 035, server: 183.232.163.3, port: 4141, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇺🇸 美国 036, server: 183.232.163.3, port: 4343, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇺🇸 美国 037, server: 183.232.163.3, port: 4949, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
 proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
@@ -179,6 +269,43 @@ proxy-groups:
       - 🇭🇰 香港 013
       - 🇭🇰 香港 014
       - 🇭🇰 香港 015
+      - 🇭🇰 香港 016
+      - 🇭🇰 香港 017
+      - 🇭🇰 香港 018
+      - 🇭🇰 香港 019
+      - 🇭🇰 香港 020
+      - 🇭🇰 香港 021
+      - 🇭🇰 香港 022
+      - 🇭🇰 香港 023
+      - 🇭🇰 香港 024
+      - 🇭🇰 香港 025
+      - 🇭🇰 香港 026
+      - 🇭🇰 香港 027
+      - 🇭🇰 香港 028
+      - 🇭🇰 香港 029
+      - 🇭🇰 香港 030
+      - 🇭🇰 香港 031
+      - 🇭🇰 香港 032
+      - 🇭🇰 香港 033
+      - 🇭🇰 香港 034
+      - 🇭🇰 香港 035
+      - 🇭🇰 香港 036
+      - 🇭🇰 香港 037
+      - 🇭🇰 香港 038
+      - 🇭🇰 香港 039
+      - 🇭🇰 香港 040
+      - 🇭🇰 香港 041
+      - 🇭🇰 香港 042
+      - 🇭🇰 香港 043
+      - 🇭🇰 香港 044
+      - 🇭🇰 香港 045
+      - 🇭🇰 香港 046
+      - 🇭🇰 香港 047
+      - 🇭🇰 香港 048
+      - 🇭🇰 香港 049
+      - 🇭🇰 香港 050
+      - 🇭🇰 香港 051
+      - 🇭🇰 香港 052
   - name: 🇯🇵 日本节点
     type: select
     proxies:
@@ -186,6 +313,7 @@ proxy-groups:
       - 🇯🇵 日本 002
       - 🇯🇵 日本 003
       - 🇯🇵 日本 004
+      - 🇯🇵 日本 005
       - 🇯🇵 日本 006
       - 🇯🇵 日本 007
       - 🇯🇵 日本 008
@@ -198,6 +326,24 @@ proxy-groups:
       - 🇯🇵 日本 015
       - 🇯🇵 日本 016
       - 🇯🇵 日本 017
+      - 🇯🇵 日本 018
+      - 🇯🇵 日本 019
+      - 🇯🇵 日本 020
+      - 🇯🇵 日本 021
+      - 🇯🇵 日本 022
+      - 🇯🇵 日本 023
+      - 🇯🇵 日本 024
+      - 🇯🇵 日本 025
+      - 🇯🇵 日本 026
+      - 🇯🇵 日本 027
+      - 🇯🇵 日本 028
+      - 🇯🇵 日本 029
+      - 🇯🇵 日本 030
+      - 🇯🇵 日本 031
+      - 🇯🇵 日本 032
+      - 🇯🇵 日本 033
+      - 🇯🇵 日本 034
+      - 🇯🇵 日本 035
   - name: 🇺🇲 美国节点
     type: select
     proxies:
@@ -216,6 +362,7 @@ proxy-groups:
       - 🇺🇸 美国 013
       - 🇺🇸 美国 014
       - 🇺🇸 美国 015
+      - 🇺🇸 美国 015 2
       - 🇺🇸 美国 016
       - 🇺🇸 美国 017
       - 🇺🇸 美国 018
@@ -231,6 +378,13 @@ proxy-groups:
       - 🇺🇸 美国 028
       - 🇺🇸 美国 029
       - 🇺🇸 美国 030
+      - 🇺🇸 美国 031
+      - 🇺🇸 美国 032
+      - 🇺🇸 美国 033
+      - 🇺🇸 美国 034
+      - 🇺🇸 美国 035
+      - 🇺🇸 美国 036
+      - 🇺🇸 美国 037
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
@@ -239,11 +393,21 @@ proxy-groups:
       - 🇹🇼 台湾 003
       - 🇹🇼 台湾 004
       - 🇹🇼 台湾 005
+      - 🇹🇼 台湾 006
+      - 🇹🇼 台湾 007
+      - 🇹🇼 台湾 008
+      - 🇹🇼 台湾 009
+      - 🇹🇼 台湾 010
+      - 🇹🇼 台湾 011
+      - 🇹🇼 台湾 012
+      - 🇹🇼 台湾 013
+      - 🇹🇼 台湾 014
+      - 🇹🇼 台湾 015
+      - 🇹🇼 台湾 016
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
       - 🇸🇬 新加坡 001
-      - 🇸🇬 新加坡 001 2
       - 🇸🇬 新加坡 002
       - 🇸🇬 新加坡 003
       - 🇸🇬 新加坡 004
@@ -263,6 +427,22 @@ proxy-groups:
       - 🇸🇬 新加坡 018
       - 🇸🇬 新加坡 019
       - 🇸🇬 新加坡 020
+      - 🇸🇬 新加坡 021
+      - 🇸🇬 新加坡 022
+      - 🇸🇬 新加坡 023
+      - 🇸🇬 新加坡 024
+      - 🇸🇬 新加坡 025
+      - 🇸🇬 新加坡 026
+      - 🇸🇬 新加坡 027
+      - 🇸🇬 新加坡 028
+      - 🇸🇬 新加坡 029
+      - 🇸🇬 新加坡 030
+      - 🇸🇬 新加坡 031
+      - 🇸🇬 新加坡 032
+      - 🇸🇬 新加坡 033
+      - 🇸🇬 新加坡 034
+      - 🇸🇬 新加坡 035
+      - 🇸🇬 新加坡 036
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
@@ -270,9 +450,30 @@ proxy-groups:
       - 🇰🇷 韩国 002
       - 🇰🇷 韩国 003
       - 🇰🇷 韩国 004
+      - 🇰🇷 韩国 005
+      - 🇰🇷 韩国 006
+      - 🇰🇷 韩国 007
+      - 🇰🇷 韩国 008
+      - 🇰🇷 韩国 009
+      - 🇰🇷 韩国 010
+      - 🇰🇷 韩国 011
+      - 🇰🇷 韩国 012
+      - 🇰🇷 韩国 013
+      - 🇰🇷 韩国 014
+      - 🇰🇷 韩国 015
+      - 🇰🇷 韩国 016
+      - 🇰🇷 韩国 017
+      - 🇰🇷 韩国 018
+      - 🇰🇷 韩国 019
+      - 🇰🇷 韩国 020
+      - 🇰🇷 韩国 021
+      - 🇰🇷 韩国 022
   - name: 🌍 其他地区
     type: select
     proxies:
+      - 🇦🇺 澳大利亚 001
+      - 🇦🇺 澳大利亚 002
+      - 🇦🇺 澳大利亚 003
       - 🇨🇦 加拿大 001
       - 🇨🇦 加拿大 002
       - 🇨🇦 加拿大 003
@@ -283,30 +484,18 @@ proxy-groups:
       - 🇨🇦 加拿大 008
       - 🇨🇦 加拿大 009
       - 🇨🇦 加拿大 010
-      - 🇨🇦 加拿大 011
-      - 🇨🇦 加拿大 012
-      - 🇩🇪 德国 001
-      - 🇩🇪 德国 002
-      - 🇩🇪 德国 003
-      - 🇩🇪 德国 004
-      - 🇩🇪 德国 005
-      - 🇩🇪 德国 006
-      - 🇩🇪 德国 007
-      - 🇩🇪 德国 008
-      - 🇩🇪 德国 009
       - 🇬🇧 英国 001
       - 🇬🇧 英国 002
       - 🇬🇧 英国 003
       - 🇬🇧 英国 004
-      - 🇮🇳 印度 001
-      - 🇮🇳 印度 001 2
-      - 🇮🇳 印度 002
-      - 🇮🇳 印度 002 2
-      - 🇮🇳 印度 003
-      - 🇮🇳 印度 004
-      - 🇮🇳 印度 005
       - 🇷🇺 俄罗斯 001
       - 🇷🇺 俄罗斯 002
+      - 🇷🇺 俄罗斯 003
+      - 🇷🇺 俄罗斯 004
+      - 🇷🇺 俄罗斯 005
+      - 🇷🇺 俄罗斯 006
+      - 🇷🇺 俄罗斯 007
+      - 🇷🇺 俄罗斯 008
   - name: ♻️ 专线节点
     type: select
     proxies:
@@ -317,6 +506,9 @@ proxy-groups:
       - "# 关注群组不迷路"
       - "🇸🇬 # 节点失效请更新节点订阅"
       - "# 牧舍TG群 @Mshare_T"
+      - 🇦🇺 澳大利亚 001
+      - 🇦🇺 澳大利亚 002
+      - 🇦🇺 澳大利亚 003
       - 🇧🇪 比利时 001
       - 🇨🇦 加拿大 001
       - 🇨🇦 加拿大 002
@@ -328,17 +520,22 @@ proxy-groups:
       - 🇨🇦 加拿大 008
       - 🇨🇦 加拿大 009
       - 🇨🇦 加拿大 010
-      - 🇨🇦 加拿大 011
-      - 🇨🇦 加拿大 012
-      - 🇩🇪 德国 001
-      - 🇩🇪 德国 002
-      - 🇩🇪 德国 003
-      - 🇩🇪 德国 004
-      - 🇩🇪 德国 005
-      - 🇩🇪 德国 006
-      - 🇩🇪 德国 007
-      - 🇩🇪 德国 008
-      - 🇩🇪 德国 009
+      - 🇹🇼 台湾 001
+      - 🇹🇼 台湾 002
+      - 🇹🇼 台湾 003
+      - 🇹🇼 台湾 004
+      - 🇹🇼 台湾 005
+      - 🇹🇼 台湾 006
+      - 🇹🇼 台湾 007
+      - 🇹🇼 台湾 008
+      - 🇹🇼 台湾 009
+      - 🇹🇼 台湾 010
+      - 🇹🇼 台湾 011
+      - 🇹🇼 台湾 012
+      - 🇹🇼 台湾 013
+      - 🇹🇼 台湾 014
+      - 🇹🇼 台湾 015
+      - 🇹🇼 台湾 016
       - 🇫🇷 法国 001
       - 🇫🇷 法国 002
       - 🇫🇷 法国 003
@@ -347,10 +544,6 @@ proxy-groups:
       - 🇫🇷 法国 006
       - 🇫🇷 法国 007
       - 🇫🇷 法国 008
-      - 🇫🇷 法国 009
-      - 🇫🇷 法国 010
-      - 🇫🇷 法国 011
-      - 🇫🇷 法国 012
       - 🇬🇧 英国 001
       - 🇬🇧 英国 002
       - 🇬🇧 英国 003
@@ -370,19 +563,48 @@ proxy-groups:
       - 🇭🇰 香港 013
       - 🇭🇰 香港 014
       - 🇭🇰 香港 015
-      - 🇮🇱 以色列 001
-      - 🇮🇱 以色列 002
-      - 🇮🇳 印度 001
-      - 🇮🇳 印度 001 2
-      - 🇮🇳 印度 002
-      - 🇮🇳 印度 002 2
-      - 🇮🇳 印度 003
-      - 🇮🇳 印度 004
-      - 🇮🇳 印度 005
+      - 🇭🇰 香港 016
+      - 🇭🇰 香港 017
+      - 🇭🇰 香港 018
+      - 🇭🇰 香港 019
+      - 🇭🇰 香港 020
+      - 🇭🇰 香港 021
+      - 🇭🇰 香港 022
+      - 🇭🇰 香港 023
+      - 🇭🇰 香港 024
+      - 🇭🇰 香港 025
+      - 🇭🇰 香港 026
+      - 🇭🇰 香港 027
+      - 🇭🇰 香港 028
+      - 🇭🇰 香港 029
+      - 🇭🇰 香港 030
+      - 🇭🇰 香港 031
+      - 🇭🇰 香港 032
+      - 🇭🇰 香港 033
+      - 🇭🇰 香港 034
+      - 🇭🇰 香港 035
+      - 🇭🇰 香港 036
+      - 🇭🇰 香港 037
+      - 🇭🇰 香港 038
+      - 🇭🇰 香港 039
+      - 🇭🇰 香港 040
+      - 🇭🇰 香港 041
+      - 🇭🇰 香港 042
+      - 🇭🇰 香港 043
+      - 🇭🇰 香港 044
+      - 🇭🇰 香港 045
+      - 🇭🇰 香港 046
+      - 🇭🇰 香港 047
+      - 🇭🇰 香港 048
+      - 🇭🇰 香港 049
+      - 🇭🇰 香港 050
+      - 🇭🇰 香港 051
+      - 🇭🇰 香港 052
       - 🇯🇵 日本 001
       - 🇯🇵 日本 002
       - 🇯🇵 日本 003
       - 🇯🇵 日本 004
+      - 🇯🇵 日本 005
       - 🇯🇵 日本 006
       - 🇯🇵 日本 007
       - 🇯🇵 日本 008
@@ -395,10 +617,46 @@ proxy-groups:
       - 🇯🇵 日本 015
       - 🇯🇵 日本 016
       - 🇯🇵 日本 017
+      - 🇯🇵 日本 018
+      - 🇯🇵 日本 019
+      - 🇯🇵 日本 020
+      - 🇯🇵 日本 021
+      - 🇯🇵 日本 022
+      - 🇯🇵 日本 023
+      - 🇯🇵 日本 024
+      - 🇯🇵 日本 025
+      - 🇯🇵 日本 026
+      - 🇯🇵 日本 027
+      - 🇯🇵 日本 028
+      - 🇯🇵 日本 029
+      - 🇯🇵 日本 030
+      - 🇯🇵 日本 031
+      - 🇯🇵 日本 032
+      - 🇯🇵 日本 033
+      - 🇯🇵 日本 034
+      - 🇯🇵 日本 035
       - 🇰🇷 韩国 001
       - 🇰🇷 韩国 002
       - 🇰🇷 韩国 003
       - 🇰🇷 韩国 004
+      - 🇰🇷 韩国 005
+      - 🇰🇷 韩国 006
+      - 🇰🇷 韩国 007
+      - 🇰🇷 韩国 008
+      - 🇰🇷 韩国 009
+      - 🇰🇷 韩国 010
+      - 🇰🇷 韩国 011
+      - 🇰🇷 韩国 012
+      - 🇰🇷 韩国 013
+      - 🇰🇷 韩国 014
+      - 🇰🇷 韩国 015
+      - 🇰🇷 韩国 016
+      - 🇰🇷 韩国 017
+      - 🇰🇷 韩国 018
+      - 🇰🇷 韩国 019
+      - 🇰🇷 韩国 020
+      - 🇰🇷 韩国 021
+      - 🇰🇷 韩国 022
       - 🇳🇴 挪威 001
       - 🇳🇴 挪威 002
       - 🇳🇴 挪威 003
@@ -406,14 +664,17 @@ proxy-groups:
       - 🇳🇴 挪威 005
       - 🇳🇴 挪威 006
       - 🇳🇴 挪威 007
-      - 🇳🇴 挪威 008
-      - 🇳🇴 挪威 009
       - 🇵🇹 葡萄牙 001
       - 🇵🇹 葡萄牙 002
       - 🇷🇺 俄罗斯 001
       - 🇷🇺 俄罗斯 002
+      - 🇷🇺 俄罗斯 003
+      - 🇷🇺 俄罗斯 004
+      - 🇷🇺 俄罗斯 005
+      - 🇷🇺 俄罗斯 006
+      - 🇷🇺 俄罗斯 007
+      - 🇷🇺 俄罗斯 008
       - 🇸🇬 新加坡 001
-      - 🇸🇬 新加坡 001 2
       - 🇸🇬 新加坡 002
       - 🇸🇬 新加坡 003
       - 🇸🇬 新加坡 004
@@ -433,12 +694,22 @@ proxy-groups:
       - 🇸🇬 新加坡 018
       - 🇸🇬 新加坡 019
       - 🇸🇬 新加坡 020
-      - 🇹🇼 台湾 001
-      - 🇹🇼 台湾 002
-      - 🇹🇼 台湾 003
-      - 🇹🇼 台湾 004
-      - 🇹🇼 台湾 005
-      - 乌克兰 001
+      - 🇸🇬 新加坡 021
+      - 🇸🇬 新加坡 022
+      - 🇸🇬 新加坡 023
+      - 🇸🇬 新加坡 024
+      - 🇸🇬 新加坡 025
+      - 🇸🇬 新加坡 026
+      - 🇸🇬 新加坡 027
+      - 🇸🇬 新加坡 028
+      - 🇸🇬 新加坡 029
+      - 🇸🇬 新加坡 030
+      - 🇸🇬 新加坡 031
+      - 🇸🇬 新加坡 032
+      - 🇸🇬 新加坡 033
+      - 🇸🇬 新加坡 034
+      - 🇸🇬 新加坡 035
+      - 🇸🇬 新加坡 036
       - 🇺🇸 美国 001
       - 🇺🇸 美国 002
       - 🇺🇸 美国 003
@@ -454,6 +725,7 @@ proxy-groups:
       - 🇺🇸 美国 013
       - 🇺🇸 美国 014
       - 🇺🇸 美国 015
+      - 🇺🇸 美国 015 2
       - 🇺🇸 美国 016
       - 🇺🇸 美国 017
       - 🇺🇸 美国 018
@@ -469,6 +741,13 @@ proxy-groups:
       - 🇺🇸 美国 028
       - 🇺🇸 美国 029
       - 🇺🇸 美国 030
+      - 🇺🇸 美国 031
+      - 🇺🇸 美国 032
+      - 🇺🇸 美国 033
+      - 🇺🇸 美国 034
+      - 🇺🇸 美国 035
+      - 🇺🇸 美国 036
+      - 🇺🇸 美国 037
   - name: 📲 聊天软件
     type: select
     proxies:
