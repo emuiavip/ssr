@@ -5,13 +5,14 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: "# 牧舍TG群 @Mshare_T", server: 1.1.1.1, port: 10086, type: ss, cipher: aes-256-gcm, password: "@Mshare_T"}
+  - {name: 🇨🇦 加拿大 001, server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
+  - {name: 🇨🇦 加拿大 002, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 🇨🇦 加拿大 003, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 加拿大 004, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大 005, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 🇨🇦 加拿大 006, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 007, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大 008, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 009, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 013, server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
-  - {name: 🇹🇼 台湾 002, server: 00.cn1.rocketdns.xyz, port: 65018, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
+  - {name: 🇹🇼 台湾 001, server: 00.cn1.rocketdns.xyz, port: 65018, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
   - {name: 🇩🇰 丹麦 001, server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
   - {name: 🇫🇷 法国 001, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 🇫🇷 法国 002, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
@@ -21,15 +22,15 @@ proxies:
   - {name: 🇫🇷 法国 006, server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 🇫🇷 法国 007, server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
   - {name: 🇫🇷 法国 008, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇫🇷 法国 011, server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇫🇷 法国 028, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 🇫🇷 法国 009, server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇫🇷 法国 009 2, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
   - {name: 🇬🇧 英国 002, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 🇬🇧 英国 003, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: 🇬🇧 英国 004, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇭🇰 香港 001, server: 00.cn1.rocketdns.xyz, port: 65000, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
   - {name: 🇭🇰 香港 002, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇭🇰 香港 005, server: 00.cn1.rocketdns.xyz, port: 65003, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
-  - {name: 🇭🇰 香港 006, server: 00.cn2.rocketdns.xyz, port: 65001, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
-  - {name: 🇭🇰 香港 007, server: 00.cn1.rocketdns.xyz, port: 65000, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
+  - {name: 🇭🇰 香港 003, server: 00.cn2.rocketdns.xyz, port: 65001, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
+  - {name: 🇭🇰 香港 004, server: 00.cn1.rocketdns.xyz, port: 65003, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
   - {name: 🇮🇳 印度 001, server: 192.46.210.73, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 🇮🇳 印度 002, server: 192.46.210.73, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇮🇳 印度 003, server: 172.105.41.63, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
@@ -37,38 +38,38 @@ proxies:
   - {name: 🇮🇳 印度 005, server: 192.46.210.73, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: 🇮🇳 印度 006, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
   - {name: 🇯🇵 日本 001, server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 172.104.98.216}}
+  - {name: 🇳🇴 挪威 001, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
   - {name: 🇳🇴 挪威 002, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: 🇳🇴 挪威 003, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 🇳🇴 挪威 004, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇳🇴 挪威 005, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 🇳🇴 挪威 006, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 🇳🇴 挪威 007, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇳🇴 挪威 008, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 🇳🇴 挪威 009, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇳🇴 挪威 010, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇳🇴 挪威 011, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 🇳🇴 挪威 012, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇳🇴 挪威 014, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇳🇴 挪威 016, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇳🇴 挪威 018, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇳🇴 挪威 019, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
   - {name: 🇵🇹 葡萄牙 001, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
   - {name: 🇷🇺 俄罗斯 001, server: 00.cn2.rocketdns.xyz, port: 65019, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
   - {name: 🇷🇺 俄罗斯 002, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
   - {name: 🇸🇬 新加坡 004, server: 00.cn2.rocketdns.xyz, port: 65016, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
   - {name: 🇸🇬 新加坡 005, server: 00.cn1.rocketdns.xyz, port: 65017, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
-  - {name: 乌克兰 002, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: 乌克兰 001, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
   - {name: 🇺🇸 美国 001, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: 🇺🇸 美国 008, server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
-  - {name: 🇺🇸 美国 014, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: 🇺🇸 美国 020, server: mf-do-ua-02.xncloud.xyz, port: 80, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-02.xncloud.xyz}}
-  - {name: 🇺🇸 美国 021, server: mf-do-ua-02.xncloud.xyz, port: 80, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-02.xncloud.xyz}}
-  - {name: 🇺🇸 美国 062, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
+  - {name: 🇺🇸 美国 002, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
+  - {name: 🇺🇸 美国 003, server: mf-do-ua-02.xncloud.xyz, port: 80, type: vmess, uuid: 05927be3-4d24-39b1-9ddb-ef7ed7965d03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-02.xncloud.xyz}}
+  - {name: 🇺🇸 美国 004, server: mf-do-ua-02.xncloud.xyz, port: 80, type: vmess, uuid: ea77f328-a7b4-377d-831f-9bada63b7936, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-02.xncloud.xyz}}
+  - {name: 🇺🇸 美国 005, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇺🇸 美国 006, server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
 proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
+      - 🇭🇰 香港 001
       - 🇭🇰 香港 002
-      - 🇭🇰 香港 005
-      - 🇭🇰 香港 006
-      - 🇭🇰 香港 007
+      - 🇭🇰 香港 003
+      - 🇭🇰 香港 004
   - name: 🇯🇵 日本节点
     type: select
     proxies:
@@ -77,15 +78,15 @@ proxy-groups:
     type: select
     proxies:
       - 🇺🇸 美国 001
-      - 🇺🇸 美国 008
-      - 🇺🇸 美国 014
-      - 🇺🇸 美国 020
-      - 🇺🇸 美国 021
-      - 🇺🇸 美国 062
+      - 🇺🇸 美国 002
+      - 🇺🇸 美国 003
+      - 🇺🇸 美国 004
+      - 🇺🇸 美国 005
+      - 🇺🇸 美国 006
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
-      - 🇹🇼 台湾 002
+      - 🇹🇼 台湾 001
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
@@ -98,12 +99,12 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
+      - 🇨🇦 加拿大 001
+      - 🇨🇦 加拿大 002
       - 🇨🇦 加拿大 003
+      - 🇨🇦 加拿大 004
+      - 🇨🇦 加拿大 005
       - 🇨🇦 加拿大 006
-      - 🇨🇦 加拿大 007
-      - 🇨🇦 加拿大 008
-      - 🇨🇦 加拿大 009
-      - 🇨🇦 加拿大 013
       - 🇬🇧 英国 002
       - 🇬🇧 英国 003
       - 🇬🇧 英国 004
@@ -122,13 +123,14 @@ proxy-groups:
   - name: ♻️ 手动切换
     type: select
     proxies:
+      - "# 牧舍TG群 @Mshare_T"
+      - 🇨🇦 加拿大 001
+      - 🇨🇦 加拿大 002
       - 🇨🇦 加拿大 003
+      - 🇨🇦 加拿大 004
+      - 🇨🇦 加拿大 005
       - 🇨🇦 加拿大 006
-      - 🇨🇦 加拿大 007
-      - 🇨🇦 加拿大 008
-      - 🇨🇦 加拿大 009
-      - 🇨🇦 加拿大 013
-      - 🇹🇼 台湾 002
+      - 🇹🇼 台湾 001
       - 🇩🇰 丹麦 001
       - 🇫🇷 法国 001
       - 🇫🇷 法国 002
@@ -138,15 +140,15 @@ proxy-groups:
       - 🇫🇷 法国 006
       - 🇫🇷 法国 007
       - 🇫🇷 法国 008
-      - 🇫🇷 法国 011
-      - 🇫🇷 法国 028
+      - 🇫🇷 法国 009
+      - 🇫🇷 法国 009 2
       - 🇬🇧 英国 002
       - 🇬🇧 英国 003
       - 🇬🇧 英国 004
+      - 🇭🇰 香港 001
       - 🇭🇰 香港 002
-      - 🇭🇰 香港 005
-      - 🇭🇰 香港 006
-      - 🇭🇰 香港 007
+      - 🇭🇰 香港 003
+      - 🇭🇰 香港 004
       - 🇮🇳 印度 001
       - 🇮🇳 印度 002
       - 🇮🇳 印度 003
@@ -154,30 +156,30 @@ proxy-groups:
       - 🇮🇳 印度 005
       - 🇮🇳 印度 006
       - 🇯🇵 日本 001
+      - 🇳🇴 挪威 001
       - 🇳🇴 挪威 002
       - 🇳🇴 挪威 003
       - 🇳🇴 挪威 004
       - 🇳🇴 挪威 005
       - 🇳🇴 挪威 006
       - 🇳🇴 挪威 007
+      - 🇳🇴 挪威 008
       - 🇳🇴 挪威 009
+      - 🇳🇴 挪威 010
+      - 🇳🇴 挪威 011
       - 🇳🇴 挪威 012
-      - 🇳🇴 挪威 014
-      - 🇳🇴 挪威 016
-      - 🇳🇴 挪威 018
-      - 🇳🇴 挪威 019
       - 🇵🇹 葡萄牙 001
       - 🇷🇺 俄罗斯 001
       - 🇷🇺 俄罗斯 002
       - 🇸🇬 新加坡 004
       - 🇸🇬 新加坡 005
-      - 乌克兰 002
+      - 乌克兰 001
       - 🇺🇸 美国 001
-      - 🇺🇸 美国 008
-      - 🇺🇸 美国 014
-      - 🇺🇸 美国 020
-      - 🇺🇸 美国 021
-      - 🇺🇸 美国 062
+      - 🇺🇸 美国 002
+      - 🇺🇸 美国 003
+      - 🇺🇸 美国 004
+      - 🇺🇸 美国 005
+      - 🇺🇸 美国 006
   - name: 📲 聊天软件
     type: select
     proxies:
