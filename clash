@@ -5,361 +5,135 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🇸🇬 # 节点失效请更新订阅 随缘更新", server: 169.239.129.33, port: 12501, type: vmess, uuid: b85b6cbb-ec13-41c6-ba97-52ad48d63c5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 169.239.129.33}}}
-  - {name: "# 牧舍TG群 @Mshare_T", server: 192.168.0.1, port: 10086, type: ss, cipher: aes-256-gcm, password: "@Mshare_T"}
-  - {name: 🇦🇺 澳大利亚 001, server: 172.105.180.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇦🇺 澳大利亚 002, server: 172.105.180.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇦🇺 澳大利亚 003, server: 172.105.180.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇦🇺 澳大利亚 004, server: 172.105.180.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇦🇺 澳大利亚 005, server: 172.105.180.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇦🇺 澳大利亚 006, server: 172.105.180.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇦🇺 澳大利亚 007, server: 172.105.180.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇦🇺 澳大利亚 008, server: 172.105.180.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇦🇺 澳大利亚 009, server: 172.105.180.227, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇦🇺 澳大利亚 010, server: 172.105.180.227, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇦🇺 澳大利亚 011, server: 172.105.180.227, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇦🇺 澳大利亚 012, server: 172.105.180.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇦🇺 澳大利亚 013, server: au05.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇦🇺 澳大利亚 014, server: au04.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇦🇺 澳大利亚 015, server: au03.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇦🇺 澳大利亚 016, server: au02.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇦🇺 澳大利亚 017, server: au01.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇦🇺 澳大利亚 018, server: mc.xiaohouzi.club, port: 29352, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇨🇦 加拿大 001, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 002, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 003, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大 004, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 005, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 006, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 007, server: ca02.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇨🇦 加拿大 008, server: ca01.xiaohouzi.club, port: 10051, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇨🇦 加拿大 009, server: mc.xiaohouzi.club, port: 27812, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇨🇦 加拿大 010, server: mc.xiaohouzi.club, port: 27811, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇩🇪 德国 001, server: agem.xiaohouzi.club, port: 10051, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇩🇪 德国 002, server: bgp.xiaohouzi.club, port: 22346, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇫🇷 法国 001, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇫🇷 法国 002, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇫🇷 法国 003, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇫🇷 法国 004, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇫🇷 法国 005, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇫🇷 法国 006, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇫🇷 法国 007, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇫🇷 法国 008, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇫🇷 法国 009, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇫🇷 法国 010, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇫🇷 法国 011, server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇫🇷 法国 012, server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇫🇷 法国 013, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇫🇷 法国 014, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 🇫🇷 法国 015, server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇫🇷 法国 016, server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇫🇷 法国 017, server: sh.xiaohouzi.club, port: 24873, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇫🇷 法国 018, server: vufr01.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇬🇧 英国 001, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇬🇧 英国 002, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇬🇧 英国 003, server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇬🇧 英国 004, server: 172.99.190.87, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇬🇧 英国 005, server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇬🇧 英国 006, server: 172.99.190.87, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇬🇧 英国 007, server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇬🇧 英国 008, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇬🇧 英国 009, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇬🇧 英国 010, server: uk.xiaohouzi.club, port: 10051, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 002, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇭🇰 香港 003, server: 118.107.244.112, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇭🇰 香港 004, server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇭🇰 香港 005, server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇭🇰 香港 006, server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇭🇰 香港 007, server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇭🇰 香港 008, server: ddnshkt02.xiaohouzi.club, port: 10073, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 009, server: nh-hgc.xiaohouzi.club, port: 10064, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 010, server: azhk095.xiaohouzi.club, port: 10051, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 011, server: azhk093.xiaohouzi.club, port: 10051, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 012, server: azhk092.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 013, server: azhk03.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 014, server: a90.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 015, server: a89.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 016, server: azhk003.xiaohouzi.club, port: 10051, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 017, server: hk-azure01.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 018, server: aws-hk06.xiaohouzi.club, port: 10051, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 019, server: aws-hk04.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 020, server: aws-hk03.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 021, server: aws-hk01.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 022, server: sh.xiaohouzi.club, port: 24915, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 023, server: sh.xiaohouzi.club, port: 25241, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 024, server: sh.xiaohouzi.club, port: 25240, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 025, server: sh.xiaohouzi.club, port: 25236, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 026, server: sh.xiaohouzi.club, port: 25235, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 027, server: sh.xiaohouzi.club, port: 25234, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 028, server: sh.xiaohouzi.club, port: 25233, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 029, server: sh.xiaohouzi.club, port: 25231, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 030, server: sh.xiaohouzi.club, port: 17901, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 031, server: sh.xiaohouzi.club, port: 24912, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 032, server: mc.xiaohouzi.club, port: 29239, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 034, server: mc.xiaohouzi.club, port: 27821, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 035, server: mc.xiaohouzi.club, port: 27820, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇭🇰 香港 036, server: mc.xiaohouzi.club, port: 30002, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇮🇩 印度尼西亚 001, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
-  - {name: 🇯🇵 日本 001, server: aws-jpn02.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇯🇵 日本 002, server: awshk06.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇯🇵 日本 003, server: j12.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇯🇵 日本 004, server: aj2.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇯🇵 日本 005, server: j1.xiaohouzi.club, port: 10051, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇯🇵 日本 006, server: bgp.xiaohouzi.club, port: 28530, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇯🇵 日本 007, server: bgp.xiaohouzi.club, port: 28529, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇯🇵 日本 008, server: bgp.xiaohouzi.club, port: 28519, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇯🇵 日本 009, server: 118.wgong.xyz, port: 52218, type: vmess, uuid: 02fc90d6-4940-3031-9d2c-eb75013beff3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国 001, server: vnr05.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇰🇷 韩国 002, server: k13.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇰🇷 韩国 003, server: k12.xiaohouzi.club, port: 10051, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇰🇷 韩国 004, server: k11.xiaohouzi.club, port: 10051, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇰🇷 韩国 005, server: k8.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇰🇷 韩国 007, server: ak7.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇰🇷 韩国 008, server: ak4.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇰🇷 韩国 009, server: bgp.xiaohouzi.club, port: 28523, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇰🇷 韩国 010, server: bgp.xiaohouzi.club, port: 28521, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇰🇷 韩国 011, server: bgp.xiaohouzi.club, port: 28522, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇰🇷 韩国 012, server: bgp.xiaohouzi.club, port: 28518, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇰🇷 韩国 013, server: bgp.xiaohouzi.club, port: 28516, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇰🇷 韩国 014, server: mc.xiaohouzi.club, port: 28325, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇰🇷 韩国 015, server: mc.xiaohouzi.club, port: 28324, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇰🇷 韩国 016, server: mc.xiaohouzi.club, port: 28323, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇰🇷 韩国 017, server: mc.xiaohouzi.club, port: 28322, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇰🇷 韩国 018, server: mc.xiaohouzi.club, port: 28321, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇳🇴 挪威 001, server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇳🇴 挪威 002, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇳🇴 挪威 003, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇳🇴 挪威 004, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇳🇴 挪威 005, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇳🇴 挪威 006, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇳🇴 挪威 007, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇷🇺 俄罗斯 001, server: 82.202.220.242, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
-  - {name: 🇷🇺 俄罗斯 002, server: v2-r03.xiaohouzi.club, port: 10053, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇷🇺 俄罗斯 003, server: v2-r02.xiaohouzi.club, port: 10051, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇷🇺 俄罗斯 004, server: v2-r01.xiaohouzi.club, port: 10051, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇷🇺 俄罗斯 005, server: freexiaohouzi.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇷🇺 俄罗斯 006, server: sh.xiaohouzi.club, port: 23221, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇸🇬 新加坡 001, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇸🇬 新加坡 002, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇸🇬 新加坡 003, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇸🇬 新加坡 004, server: vusig05.xiaohouzi.club, port: 10051, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇸🇬 新加坡 005, server: vusig04.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇸🇬 新加坡 006, server: vusig03.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇸🇬 新加坡 007, server: vusig02.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇸🇬 新加坡 008, server: vusig01.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇸🇬 新加坡 009, server: sh.xiaohouzi.club, port: 24924, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇸🇬 新加坡 010, server: sh.xiaohouzi.club, port: 24923, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇹🇼 +台灣+001, server: 188.214.106.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
-  - {name: 🇺🇸 美国 001, server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇺🇸 美国 002, server: 38.143.66.71, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 003, server: 169.197.142.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 004, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
-  - {name: 🇺🇸 美国 005, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}}
-  - {name: 🇺🇸 美国 006, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}}
-  - {name: 🇺🇸 美国 007, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}}
-  - {name: 🇺🇸 美国 008, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}}
-  - {name: 🇺🇸 美国 009, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}}
-  - {name: 🇺🇸 美国 010, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}}
-  - {name: 🇺🇸 美国 011, server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
-  - {name: 🇺🇸 美国 012, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: 🇺🇸 美国 013, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 014, server: 38.75.136.93, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 美国 015, server: 38.75.136.93, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 美国 016, server: 38.143.66.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 美国 017, server: 38.143.66.71, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇺🇸 美国 018, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}}
-  - {name: 🇺🇸 美国 019, server: 169.197.142.39, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 美国 020, server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 美国 022, server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇺🇸 美国 023, server: 167.88.61.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 024, server: 167.88.61.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 美国 025, server: us06.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇺🇸 美国 026, server: us04.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇺🇸 美国 027, server: ado-us01.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇺🇸 美国 028, server: vv05.xiaohouzi.club, port: 10052, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇺🇸 美国 029, server: vv04.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇺🇸 美国 030, server: vv03.xiaohouzi.club, port: 10051, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇺🇸 美国 031, server: vv01.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇺🇸 美国 032, server: vv02.xiaohouzi.club, port: 10050, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇺🇸 美国 033, server: mc.xiaohouzi.club, port: 22704, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇺🇸 美国 034, server: mc.xiaohouzi.club, port: 22703, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇺🇸 美国 035, server: mc.xiaohouzi.club, port: 22702, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
-  - {name: 🇺🇸 美国 036, server: mc.xiaohouzi.club, port: 27816, type: vmess, uuid: b455941f-8e1a-31f4-8f44-922982b15eb4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.ibm.com}}}
+  - {name: 🇦🇺 _AU_澳大利亚, server: 45.76.127.189, port: 443, type: vmess, uuid: 7fc6764a-6cba-4599-95d7-ac7617b7db0a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: govacaxixo.watchdoctor.xyz}}}
+  - {name: 🇨🇦 _CA_加拿大, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 _CA_加拿大 2, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 _CA_加拿大 3, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 _CA_加拿大 4, server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 _CA_加拿大 5, server: 134.195.196.200, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 _CA_加拿大 6, server: 134.195.196.200, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 _CA_加拿大 7, server: 134.195.196.193, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 _CA_加拿大 8, server: 134.195.196.200, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 _CA_加拿大 9, server: 134.195.196.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 _CA_加拿大 10, server: 134.195.196.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 _CA_加拿大 11, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 _CA_加拿大 12, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚, server: gy.xqcloud.net, port: 31007, type: ss, cipher: chacha20-ietf-poly1305, password: 082e09b9-35a1-45af-914c-76bd6562228d}
+  - {name: 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚 2, server: gy.xqcloud.net, port: 31008, type: ss, cipher: chacha20-ietf-poly1305, password: 082e09b9-35a1-45af-914c-76bd6562228d}
+  - {name: 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚 3, server: gy.xqcloud.net, port: 32004, type: ss, cipher: chacha20-ietf-poly1305, password: 082e09b9-35a1-45af-914c-76bd6562228d}
+  - {name: 🇰🇷 _CN_中国->🇰🇷_KR_韩国, server: gy.xqcloud.net, port: 32008, type: ss, cipher: chacha20-ietf-poly1305, password: 082e09b9-35a1-45af-914c-76bd6562228d}
+  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡, server: gy.xqcloud.net, port: 31011, type: ss, cipher: chacha20-ietf-poly1305, password: 082e09b9-35a1-45af-914c-76bd6562228d}
+  - {name: 🇹🇼 _CN_中国->🇹🇼_TW_台湾, server: gy.xqcloud.net, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 082e09b9-35a1-45af-914c-76bd6562228d}
+  - {name: 🇫🇷 _FR_法国, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇫🇷 _FR_法国 2, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 _FR_法国 3, server: 149.202.82.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇫🇷 _FR_法国 4, server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇫🇷 _FR_法国 5, server: 149.202.82.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 _FR_法国 6, server: 149.202.82.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇫🇷 _FR_法国 7, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇫🇷 _FR_法国 8, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 _FR_法国 9, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇫🇷 _FR_法国 10, server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇫🇷 _FR_法国 11, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 🇬🇧 _GB_英国, server: 172.99.190.205, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇬🇧 _GB_英国 2, server: 172.99.190.188, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇬🇧 _GB_英国 3, server: 172.99.190.205, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 _GB_英国 4, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇬🇧 _GB_英国 5, server: 172.99.190.205, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 _GB_英国 6, server: 172.99.190.205, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇬🇧 _GB_英国 7, server: 172.99.190.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇬🇧 _GB_英国 8, server: 172.99.190.205, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇬🇧 _GB_英国 9, server: 172.99.190.188, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 _GB_英国 10, server: 172.99.190.188, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇬🇧 _GB_英国 11, server: 172.99.190.205, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇬🇧 _GB_英国 12, server: 172.99.190.188, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇬🇧 _GB_英国 13, server: 172.99.190.188, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 _GB_英国 14, server: 172.99.190.188, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇬🇧 _GB_英国 15, server: 172.99.190.205, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇬🇧 _GB_英国 16, server: 172.99.190.205, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇬🇧 _GB_英国 17, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇬🇧 _GB_英国 18, server: 172.99.190.205, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 _GB_英国 19, server: 172.99.190.205, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇷🇺 _RU_俄罗斯联邦, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: govacaxixo.watchdoctor.xyz}}}
+  - {name: 🇺🇸 _US_美国, server: 169.197.142.238, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 _US_美国 2, server: 169.197.142.238, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 _US_美国 3, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 _US_美国 4, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 _US_美国 5, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 _US_美国 6, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 _US_美国 7, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
+  - {name: 🇺🇸 _US_美国 8, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}}
 proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - 🇭🇰 香港 002
-      - 🇭🇰 香港 003
-      - 🇭🇰 香港 004
-      - 🇭🇰 香港 005
-      - 🇭🇰 香港 006
-      - 🇭🇰 香港 007
-      - 🇭🇰 香港 008
-      - 🇭🇰 香港 009
-      - 🇭🇰 香港 010
-      - 🇭🇰 香港 011
-      - 🇭🇰 香港 012
-      - 🇭🇰 香港 013
-      - 🇭🇰 香港 014
-      - 🇭🇰 香港 015
-      - 🇭🇰 香港 016
-      - 🇭🇰 香港 017
-      - 🇭🇰 香港 018
-      - 🇭🇰 香港 019
-      - 🇭🇰 香港 020
-      - 🇭🇰 香港 021
-      - 🇭🇰 香港 022
-      - 🇭🇰 香港 023
-      - 🇭🇰 香港 024
-      - 🇭🇰 香港 025
-      - 🇭🇰 香港 026
-      - 🇭🇰 香港 027
-      - 🇭🇰 香港 028
-      - 🇭🇰 香港 029
-      - 🇭🇰 香港 030
-      - 🇭🇰 香港 031
-      - 🇭🇰 香港 032
-      - 🇭🇰 香港 034
-      - 🇭🇰 香港 035
-      - 🇭🇰 香港 036
+      - DIRECT
   - name: 🇯🇵 日本节点
     type: select
     proxies:
-      - 🇯🇵 日本 001
-      - 🇯🇵 日本 002
-      - 🇯🇵 日本 003
-      - 🇯🇵 日本 004
-      - 🇯🇵 日本 005
-      - 🇯🇵 日本 006
-      - 🇯🇵 日本 007
-      - 🇯🇵 日本 008
-      - 🇯🇵 日本 009
+      - DIRECT
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - 🇺🇸 美国 001
-      - 🇺🇸 美国 002
-      - 🇺🇸 美国 003
-      - 🇺🇸 美国 004
-      - 🇺🇸 美国 005
-      - 🇺🇸 美国 006
-      - 🇺🇸 美国 007
-      - 🇺🇸 美国 008
-      - 🇺🇸 美国 009
-      - 🇺🇸 美国 010
-      - 🇺🇸 美国 011
-      - 🇺🇸 美国 012
-      - 🇺🇸 美国 013
-      - 🇺🇸 美国 014
-      - 🇺🇸 美国 015
-      - 🇺🇸 美国 016
-      - 🇺🇸 美国 017
-      - 🇺🇸 美国 018
-      - 🇺🇸 美国 019
-      - 🇺🇸 美国 020
-      - 🇺🇸 美国 022
-      - 🇺🇸 美国 023
-      - 🇺🇸 美国 024
-      - 🇺🇸 美国 025
-      - 🇺🇸 美国 026
-      - 🇺🇸 美国 027
-      - 🇺🇸 美国 028
-      - 🇺🇸 美国 029
-      - 🇺🇸 美国 030
-      - 🇺🇸 美国 031
-      - 🇺🇸 美国 032
-      - 🇺🇸 美国 033
-      - 🇺🇸 美国 034
-      - 🇺🇸 美国 035
-      - 🇺🇸 美国 036
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
-      - 🇹🇼 +台灣+001
+      - 🇹🇼 _CN_中国->🇹🇼_TW_台湾
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
-      - 🇸🇬 新加坡 001
-      - 🇸🇬 新加坡 002
-      - 🇸🇬 新加坡 003
-      - 🇸🇬 新加坡 004
-      - 🇸🇬 新加坡 005
-      - 🇸🇬 新加坡 006
-      - 🇸🇬 新加坡 007
-      - 🇸🇬 新加坡 008
-      - 🇸🇬 新加坡 009
-      - 🇸🇬 新加坡 010
+      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
-      - 🇰🇷 韩国 001
-      - 🇰🇷 韩国 002
-      - 🇰🇷 韩国 003
-      - 🇰🇷 韩国 004
-      - 🇰🇷 韩国 005
-      - 🇰🇷 韩国 007
-      - 🇰🇷 韩国 008
-      - 🇰🇷 韩国 009
-      - 🇰🇷 韩国 010
-      - 🇰🇷 韩国 011
-      - 🇰🇷 韩国 012
-      - 🇰🇷 韩国 013
-      - 🇰🇷 韩国 014
-      - 🇰🇷 韩国 015
-      - 🇰🇷 韩国 016
-      - 🇰🇷 韩国 017
-      - 🇰🇷 韩国 018
+      - 🇰🇷 _CN_中国->🇰🇷_KR_韩国
   - name: 🌍 其他地区
     type: select
     proxies:
-      - 🇦🇺 澳大利亚 001
-      - 🇦🇺 澳大利亚 002
-      - 🇦🇺 澳大利亚 003
-      - 🇦🇺 澳大利亚 004
-      - 🇦🇺 澳大利亚 005
-      - 🇦🇺 澳大利亚 006
-      - 🇦🇺 澳大利亚 007
-      - 🇦🇺 澳大利亚 008
-      - 🇦🇺 澳大利亚 009
-      - 🇦🇺 澳大利亚 010
-      - 🇦🇺 澳大利亚 011
-      - 🇦🇺 澳大利亚 012
-      - 🇦🇺 澳大利亚 013
-      - 🇦🇺 澳大利亚 014
-      - 🇦🇺 澳大利亚 015
-      - 🇦🇺 澳大利亚 016
-      - 🇦🇺 澳大利亚 017
-      - 🇦🇺 澳大利亚 018
-      - 🇨🇦 加拿大 001
-      - 🇨🇦 加拿大 002
-      - 🇨🇦 加拿大 003
-      - 🇨🇦 加拿大 004
-      - 🇨🇦 加拿大 005
-      - 🇨🇦 加拿大 006
-      - 🇨🇦 加拿大 007
-      - 🇨🇦 加拿大 008
-      - 🇨🇦 加拿大 009
-      - 🇨🇦 加拿大 010
-      - 🇩🇪 德国 001
-      - 🇩🇪 德国 002
-      - 🇬🇧 英国 001
-      - 🇬🇧 英国 002
-      - 🇬🇧 英国 003
-      - 🇬🇧 英国 004
-      - 🇬🇧 英国 005
-      - 🇬🇧 英国 006
-      - 🇬🇧 英国 007
-      - 🇬🇧 英国 008
-      - 🇬🇧 英国 009
-      - 🇬🇧 英国 010
-      - 🇮🇩 印度尼西亚 001
-      - 🇷🇺 俄罗斯 001
-      - 🇷🇺 俄罗斯 002
-      - 🇷🇺 俄罗斯 003
-      - 🇷🇺 俄罗斯 004
-      - 🇷🇺 俄罗斯 005
-      - 🇷🇺 俄罗斯 006
+      - 🇦🇺 _AU_澳大利亚
+      - 🇨🇦 _CA_加拿大
+      - 🇨🇦 _CA_加拿大 2
+      - 🇨🇦 _CA_加拿大 3
+      - 🇨🇦 _CA_加拿大 4
+      - 🇨🇦 _CA_加拿大 5
+      - 🇨🇦 _CA_加拿大 6
+      - 🇨🇦 _CA_加拿大 7
+      - 🇨🇦 _CA_加拿大 8
+      - 🇨🇦 _CA_加拿大 9
+      - 🇨🇦 _CA_加拿大 10
+      - 🇨🇦 _CA_加拿大 11
+      - 🇨🇦 _CA_加拿大 12
+      - 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚
+      - 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚 2
+      - 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚 3
+      - 🇬🇧 _GB_英国
+      - 🇬🇧 _GB_英国 2
+      - 🇬🇧 _GB_英国 3
+      - 🇬🇧 _GB_英国 4
+      - 🇬🇧 _GB_英国 5
+      - 🇬🇧 _GB_英国 6
+      - 🇬🇧 _GB_英国 7
+      - 🇬🇧 _GB_英国 8
+      - 🇬🇧 _GB_英国 9
+      - 🇬🇧 _GB_英国 10
+      - 🇬🇧 _GB_英国 11
+      - 🇬🇧 _GB_英国 12
+      - 🇬🇧 _GB_英国 13
+      - 🇬🇧 _GB_英国 14
+      - 🇬🇧 _GB_英国 15
+      - 🇬🇧 _GB_英国 16
+      - 🇬🇧 _GB_英国 17
+      - 🇬🇧 _GB_英国 18
+      - 🇬🇧 _GB_英国 19
+      - 🇷🇺 _RU_俄罗斯联邦
   - name: ♻️ 专线节点
     type: select
     proxies:
@@ -367,186 +141,64 @@ proxy-groups:
   - name: ♻️ 手动切换
     type: select
     proxies:
-      - "🇸🇬 # 节点失效请更新订阅 随缘更新"
-      - "# 牧舍TG群 @Mshare_T"
-      - 🇦🇺 澳大利亚 001
-      - 🇦🇺 澳大利亚 002
-      - 🇦🇺 澳大利亚 003
-      - 🇦🇺 澳大利亚 004
-      - 🇦🇺 澳大利亚 005
-      - 🇦🇺 澳大利亚 006
-      - 🇦🇺 澳大利亚 007
-      - 🇦🇺 澳大利亚 008
-      - 🇦🇺 澳大利亚 009
-      - 🇦🇺 澳大利亚 010
-      - 🇦🇺 澳大利亚 011
-      - 🇦🇺 澳大利亚 012
-      - 🇦🇺 澳大利亚 013
-      - 🇦🇺 澳大利亚 014
-      - 🇦🇺 澳大利亚 015
-      - 🇦🇺 澳大利亚 016
-      - 🇦🇺 澳大利亚 017
-      - 🇦🇺 澳大利亚 018
-      - 🇨🇦 加拿大 001
-      - 🇨🇦 加拿大 002
-      - 🇨🇦 加拿大 003
-      - 🇨🇦 加拿大 004
-      - 🇨🇦 加拿大 005
-      - 🇨🇦 加拿大 006
-      - 🇨🇦 加拿大 007
-      - 🇨🇦 加拿大 008
-      - 🇨🇦 加拿大 009
-      - 🇨🇦 加拿大 010
-      - 🇩🇪 德国 001
-      - 🇩🇪 德国 002
-      - 🇫🇷 法国 001
-      - 🇫🇷 法国 002
-      - 🇫🇷 法国 003
-      - 🇫🇷 法国 004
-      - 🇫🇷 法国 005
-      - 🇫🇷 法国 006
-      - 🇫🇷 法国 007
-      - 🇫🇷 法国 008
-      - 🇫🇷 法国 009
-      - 🇫🇷 法国 010
-      - 🇫🇷 法国 011
-      - 🇫🇷 法国 012
-      - 🇫🇷 法国 013
-      - 🇫🇷 法国 014
-      - 🇫🇷 法国 015
-      - 🇫🇷 法国 016
-      - 🇫🇷 法国 017
-      - 🇫🇷 法国 018
-      - 🇬🇧 英国 001
-      - 🇬🇧 英国 002
-      - 🇬🇧 英国 003
-      - 🇬🇧 英国 004
-      - 🇬🇧 英国 005
-      - 🇬🇧 英国 006
-      - 🇬🇧 英国 007
-      - 🇬🇧 英国 008
-      - 🇬🇧 英国 009
-      - 🇬🇧 英国 010
-      - 🇭🇰 香港 002
-      - 🇭🇰 香港 003
-      - 🇭🇰 香港 004
-      - 🇭🇰 香港 005
-      - 🇭🇰 香港 006
-      - 🇭🇰 香港 007
-      - 🇭🇰 香港 008
-      - 🇭🇰 香港 009
-      - 🇭🇰 香港 010
-      - 🇭🇰 香港 011
-      - 🇭🇰 香港 012
-      - 🇭🇰 香港 013
-      - 🇭🇰 香港 014
-      - 🇭🇰 香港 015
-      - 🇭🇰 香港 016
-      - 🇭🇰 香港 017
-      - 🇭🇰 香港 018
-      - 🇭🇰 香港 019
-      - 🇭🇰 香港 020
-      - 🇭🇰 香港 021
-      - 🇭🇰 香港 022
-      - 🇭🇰 香港 023
-      - 🇭🇰 香港 024
-      - 🇭🇰 香港 025
-      - 🇭🇰 香港 026
-      - 🇭🇰 香港 027
-      - 🇭🇰 香港 028
-      - 🇭🇰 香港 029
-      - 🇭🇰 香港 030
-      - 🇭🇰 香港 031
-      - 🇭🇰 香港 032
-      - 🇭🇰 香港 034
-      - 🇭🇰 香港 035
-      - 🇭🇰 香港 036
-      - 🇮🇩 印度尼西亚 001
-      - 🇯🇵 日本 001
-      - 🇯🇵 日本 002
-      - 🇯🇵 日本 003
-      - 🇯🇵 日本 004
-      - 🇯🇵 日本 005
-      - 🇯🇵 日本 006
-      - 🇯🇵 日本 007
-      - 🇯🇵 日本 008
-      - 🇯🇵 日本 009
-      - 🇰🇷 韩国 001
-      - 🇰🇷 韩国 002
-      - 🇰🇷 韩国 003
-      - 🇰🇷 韩国 004
-      - 🇰🇷 韩国 005
-      - 🇰🇷 韩国 007
-      - 🇰🇷 韩国 008
-      - 🇰🇷 韩国 009
-      - 🇰🇷 韩国 010
-      - 🇰🇷 韩国 011
-      - 🇰🇷 韩国 012
-      - 🇰🇷 韩国 013
-      - 🇰🇷 韩国 014
-      - 🇰🇷 韩国 015
-      - 🇰🇷 韩国 016
-      - 🇰🇷 韩国 017
-      - 🇰🇷 韩国 018
-      - 🇳🇴 挪威 001
-      - 🇳🇴 挪威 002
-      - 🇳🇴 挪威 003
-      - 🇳🇴 挪威 004
-      - 🇳🇴 挪威 005
-      - 🇳🇴 挪威 006
-      - 🇳🇴 挪威 007
-      - 🇷🇺 俄罗斯 001
-      - 🇷🇺 俄罗斯 002
-      - 🇷🇺 俄罗斯 003
-      - 🇷🇺 俄罗斯 004
-      - 🇷🇺 俄罗斯 005
-      - 🇷🇺 俄罗斯 006
-      - 🇸🇬 新加坡 001
-      - 🇸🇬 新加坡 002
-      - 🇸🇬 新加坡 003
-      - 🇸🇬 新加坡 004
-      - 🇸🇬 新加坡 005
-      - 🇸🇬 新加坡 006
-      - 🇸🇬 新加坡 007
-      - 🇸🇬 新加坡 008
-      - 🇸🇬 新加坡 009
-      - 🇸🇬 新加坡 010
-      - 🇹🇼 +台灣+001
-      - 🇺🇸 美国 001
-      - 🇺🇸 美国 002
-      - 🇺🇸 美国 003
-      - 🇺🇸 美国 004
-      - 🇺🇸 美国 005
-      - 🇺🇸 美国 006
-      - 🇺🇸 美国 007
-      - 🇺🇸 美国 008
-      - 🇺🇸 美国 009
-      - 🇺🇸 美国 010
-      - 🇺🇸 美国 011
-      - 🇺🇸 美国 012
-      - 🇺🇸 美国 013
-      - 🇺🇸 美国 014
-      - 🇺🇸 美国 015
-      - 🇺🇸 美国 016
-      - 🇺🇸 美国 017
-      - 🇺🇸 美国 018
-      - 🇺🇸 美国 019
-      - 🇺🇸 美国 020
-      - 🇺🇸 美国 022
-      - 🇺🇸 美国 023
-      - 🇺🇸 美国 024
-      - 🇺🇸 美国 025
-      - 🇺🇸 美国 026
-      - 🇺🇸 美国 027
-      - 🇺🇸 美国 028
-      - 🇺🇸 美国 029
-      - 🇺🇸 美国 030
-      - 🇺🇸 美国 031
-      - 🇺🇸 美国 032
-      - 🇺🇸 美国 033
-      - 🇺🇸 美国 034
-      - 🇺🇸 美国 035
-      - 🇺🇸 美国 036
+      - 🇦🇺 _AU_澳大利亚
+      - 🇨🇦 _CA_加拿大
+      - 🇨🇦 _CA_加拿大 2
+      - 🇨🇦 _CA_加拿大 3
+      - 🇨🇦 _CA_加拿大 4
+      - 🇨🇦 _CA_加拿大 5
+      - 🇨🇦 _CA_加拿大 6
+      - 🇨🇦 _CA_加拿大 7
+      - 🇨🇦 _CA_加拿大 8
+      - 🇨🇦 _CA_加拿大 9
+      - 🇨🇦 _CA_加拿大 10
+      - 🇨🇦 _CA_加拿大 11
+      - 🇨🇦 _CA_加拿大 12
+      - 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚
+      - 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚 2
+      - 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚 3
+      - 🇰🇷 _CN_中国->🇰🇷_KR_韩国
+      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡
+      - 🇹🇼 _CN_中国->🇹🇼_TW_台湾
+      - 🇫🇷 _FR_法国
+      - 🇫🇷 _FR_法国 2
+      - 🇫🇷 _FR_法国 3
+      - 🇫🇷 _FR_法国 4
+      - 🇫🇷 _FR_法国 5
+      - 🇫🇷 _FR_法国 6
+      - 🇫🇷 _FR_法国 7
+      - 🇫🇷 _FR_法国 8
+      - 🇫🇷 _FR_法国 9
+      - 🇫🇷 _FR_法国 10
+      - 🇫🇷 _FR_法国 11
+      - 🇬🇧 _GB_英国
+      - 🇬🇧 _GB_英国 2
+      - 🇬🇧 _GB_英国 3
+      - 🇬🇧 _GB_英国 4
+      - 🇬🇧 _GB_英国 5
+      - 🇬🇧 _GB_英国 6
+      - 🇬🇧 _GB_英国 7
+      - 🇬🇧 _GB_英国 8
+      - 🇬🇧 _GB_英国 9
+      - 🇬🇧 _GB_英国 10
+      - 🇬🇧 _GB_英国 11
+      - 🇬🇧 _GB_英国 12
+      - 🇬🇧 _GB_英国 13
+      - 🇬🇧 _GB_英国 14
+      - 🇬🇧 _GB_英国 15
+      - 🇬🇧 _GB_英国 16
+      - 🇬🇧 _GB_英国 17
+      - 🇬🇧 _GB_英国 18
+      - 🇬🇧 _GB_英国 19
+      - 🇷🇺 _RU_俄罗斯联邦
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
   - name: 📲 聊天软件
     type: select
     proxies:
