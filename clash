@@ -63,15 +63,120 @@ proxies:
   - {name: 🇺🇸 _US_美国 6, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇺🇸 _US_美国 7, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
   - {name: 🇺🇸 _US_美国 8, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}}
+  - {name: 🇩🇪 德国_TG@nodesharing_101, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: govacaxixo.watchdoctor.xyz, network: ws, ws-opts: {path: /ray, headers: {Host: govacaxixo.watchdoctor.xyz}}}
+  - {name: 🇫🇷 法国_TG@nodesharing_55, server: 149.202.82.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇫🇷 法国_TG@nodesharing_65, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇫🇷 法国_TG@nodesharing_68, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇫🇷 法国_TG@nodesharing_91, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇰🇷 韩国_TG@nodesharing_15, server: 13.124.30.68, port: 52783, type: ss, cipher: chacha20-ietf-poly1305, password: 3b07447e-94cf-4d72-96c6-d0a539098049}
+  - {name: 🇰🇷 韩国_TG@nodesharing_17, server: 13.124.30.68, port: 52783, type: ss, cipher: chacha20-ietf-poly1305, password: 0eee7abb-23db-405a-9a97-720fdc01633f}
+  - {name: 🇰🇷 韩国_TG@nodesharing_52, server: ka.pbaplink.xyz, port: 48500, type: trojan, password: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6, skip-cert-verify: false}
+  - {name: 🇨🇦 加拿大_TG@nodesharing_104, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大_TG@nodesharing_109, server: 134.195.196.147, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大_TG@nodesharing_116, server: 134.195.196.200, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 加拿大_TG@nodesharing_119, server: 134.195.196.200, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇨🇦 加拿大_TG@nodesharing_121, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大_TG@nodesharing_128, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 加拿大_TG@nodesharing_132, server: 134.195.196.200, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇨🇦 加拿大_TG@nodesharing_58, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大_TG@nodesharing_60, server: 134.195.196.200, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 加拿大_TG@nodesharing_63, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大_TG@nodesharing_92, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国_TG@nodesharing_103, server: j2.pbaplink.xyz, port: 2082, type: vmess, uuid: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: j2.pbaplink.xyz}}}
+  - {name: 🇺🇸 美国_TG@nodesharing_127, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国_TG@nodesharing_50, server: k11.pbaplink.xyz, port: 48500, type: trojan, password: 8ffefc4e-296d-4ad1-9878-3e5815f8b24c, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_TG@nodesharing_83, server: 173.255.225.7, port: 11416, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_TG@nodesharing_96, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 美国_TG@nodesharing_98, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇯🇵 日本_TG@nodesharing_11, server: 18.183.255.104, port: 14541, type: ss, cipher: aes-256-gcm, password: 0eee7abb-23db-405a-9a97-720fdc01633f}
+  - {name: 🇯🇵 日本_TG@nodesharing_28, server: jp-group-a-direct.node001.xyz, port: 8880, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: new.vip.weibo.cn}}}
+  - {name: 🇯🇵 日本_TG@nodesharing_8, server: 18.183.255.104, port: 14541, type: ss, cipher: aes-256-gcm, password: 3b07447e-94cf-4d72-96c6-d0a539098049}
+  - {name: 🇯🇵 日本_TG@nodesharing_9, server: 18.183.227.133, port: 10000, type: vmess, uuid: b3e84e6e-dbc2-4c79-879f-811bc6c1cd96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港_TG@nodesharing_1, server: 16.163.148.47, port: 38957, type: ss, cipher: aes-256-gcm, password: 3b07447e-94cf-4d72-96c6-d0a539098049}
+  - {name: 🇭🇰 香港_TG@nodesharing_2, server: 16.163.192.29, port: 37528, type: ss, cipher: aes-256-gcm, password: 3b07447e-94cf-4d72-96c6-d0a539098049}
+  - {name: 🇭🇰 香港_TG@nodesharing_22, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 27795, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}}}
+  - {name: 🇭🇰 香港_TG@nodesharing_3, server: 18.166.193.83, port: 38297, type: ss, cipher: chacha20-ietf-poly1305, password: 3b07447e-94cf-4d72-96c6-d0a539098049}
+  - {name: 🇭🇰 香港_TG@nodesharing_4, server: 18.166.193.83, port: 38297, type: ss, cipher: chacha20-ietf-poly1305, password: 0eee7abb-23db-405a-9a97-720fdc01633f}
+  - {name: 🇭🇰 香港_TG@nodesharing_44, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 61690, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}}}
+  - {name: 🇭🇰 香港_TG@nodesharing_70, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 55899, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}}}
+  - {name: 🇭🇰 香港_TG@nodesharing_72, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 63379, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}}}
+  - {name: 🇭🇰 香港_TG@nodesharing_78, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 54975, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}}}
+  - {name: 🇭🇰 香港_TG@nodesharing_81, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 44171, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}}}
+  - {name: 🇸🇬 新加坡_TG@nodesharing_100, server: azhk.relay.qchwnd.moe, port: 10217, type: trojan, password: 8ffefc4e-296d-4ad1-9878-3e5815f8b24c, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡_TG@nodesharing_13, server: 18.140.70.52, port: 10000, type: vmess, uuid: b3e84e6e-dbc2-4c79-879f-811bc6c1cd96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡_TG@nodesharing_77, server: azhk.relay.qchwnd.moe, port: 10215, type: trojan, password: 8ffefc4e-296d-4ad1-9878-3e5815f8b24c, skip-cert-verify: false}
+  - {name: 🇮🇩 印度尼西亚_TG@nodesharing_32, server: 108.136.163.50, port: 58973, type: ss, cipher: chacha20-ietf-poly1305, password: 3b07447e-94cf-4d72-96c6-d0a539098049}
+  - {name: 🇮🇩 印度尼西亚_TG@nodesharing_51, server: 108.136.163.50, port: 58973, type: ss, cipher: chacha20-ietf-poly1305, password: 0eee7abb-23db-405a-9a97-720fdc01633f}
+  - {name: 🇬🇧 英国_TG@nodesharing_108, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇬🇧 英国_TG@nodesharing_85, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇬🇧 英国_TG@nodesharing_99, server: 172.99.190.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇳 中国_TG@nodesharing_10, server: 101.230.149.27, port: 1113, type: vmess, uuid: aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_TG@nodesharing_106, server: in02.dns2333.xyz, port: 64081, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hkt2-cdn.tencent.best}}}
+  - {name: 🇨🇳 中国_TG@nodesharing_107, server: in01.dns2333.xyz, port: 64071, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: biteb-ru01.myn1des.com, network: ws, ws-opts: {path: /, headers: {Host: biteb-ru01.myn1des.com}}}
+  - {name: 🇨🇳 中国_TG@nodesharing_112, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 97ab5d71-96b7-4ab1-b77b-093685658d7f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 1.ezydfdd.com, network: ws, ws-opts: {path: /qwe, headers: {Host: 1.ezydfdd.com}}}
+  - {name: 🇨🇳 中国_TG@nodesharing_113, server: in02.dns2333.xyz, port: 64071, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: biteb-ru01.myn1des.com, network: ws, ws-opts: {path: /, headers: {Host: biteb-ru01.myn1des.com}}}
+  - {name: 🇨🇳 中国_TG@nodesharing_118, server: in02.dns2333.xyz, port: 64021, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: uk01-cdn.airport-v2.com}}}
+  - {name: 🇨🇳 中国_TG@nodesharing_120, server: in02.dns2333.xyz, port: 64077, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: pl01-cdn.myn0des.com}}}
+  - {name: 🇨🇳 中国_TG@nodesharing_122, server: in02.dns2333.xyz, port: 64082, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hkt3-cdn.tencent.best}}}
+  - {name: 🇨🇳 中国_TG@nodesharing_125, server: gdcm2.relay.qchwnd.moe, port: 10222, type: trojan, password: 8ffefc4e-296d-4ad1-9878-3e5815f8b24c, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_TG@nodesharing_16, server: china-zj-hz-1.forwardserver.xyz, port: 37588, type: vmess, uuid: b3e84e6e-dbc2-4c79-879f-811bc6c1cd96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_TG@nodesharing_18, server: gy.xqcloud.net, port: 32010, type: ss, cipher: chacha20-ietf-poly1305, password: 082e09b9-35a1-45af-914c-76bd6562228d}
+  - {name: 🇨🇳 中国_TG@nodesharing_20, server: 101.230.149.27, port: 1111, type: vmess, uuid: aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_TG@nodesharing_21, server: 101.230.149.27, port: 1112, type: vmess, uuid: aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_TG@nodesharing_23, server: in02.dns2333.xyz, port: 64078, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hk-balancer.airport-v2.com, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}}
+  - {name: 🇨🇳 中国_TG@nodesharing_24, server: centralchina1.cloudlink123.com, port: 37002, type: ss, cipher: aes-128-gcm, password: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6}
+  - {name: 🇨🇳 中国_TG@nodesharing_25, server: in02.dns2333.xyz, port: 64088, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /biteb, headers: {Host: cdn.bootcdn.net}}}
+  - {name: 🇨🇳 中国_TG@nodesharing_26, server: china-zj-hz-1.forwardserver.xyz, port: 41634, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_TG@nodesharing_27, server: gy.xqcloud.net, port: 32011, type: ss, cipher: chacha20-ietf-poly1305, password: 082e09b9-35a1-45af-914c-76bd6562228d}
+  - {name: 🇨🇳 中国_TG@nodesharing_29, server: in01.dns2333.xyz, port: 64088, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /biteb, headers: {Host: cdn.bootcdn.net}}}
+  - {name: 🇨🇳 中国_TG@nodesharing_31, server: china-zj-hz-1.forwardserver.xyz, port: 37313, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_TG@nodesharing_33, server: gy.xqcloud.net, port: 32001, type: ss, cipher: chacha20-ietf-poly1305, password: 082e09b9-35a1-45af-914c-76bd6562228d}
+  - {name: 🇨🇳 中国_TG@nodesharing_35, server: zjcm.relay.qchwnd.moe, port: 10204, type: trojan, password: 8ffefc4e-296d-4ad1-9878-3e5815f8b24c, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_TG@nodesharing_36, server: centralchina1.cloudlink123.com, port: 37006, type: ss, cipher: aes-128-gcm, password: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6}
+  - {name: 🇨🇳 中国_TG@nodesharing_37, server: zjcm.relay.qchwnd.moe, port: 10200, type: trojan, password: 8ffefc4e-296d-4ad1-9878-3e5815f8b24c, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_TG@nodesharing_38, server: zjcm.relay.qchwnd.moe, port: 10202, type: trojan, password: 8ffefc4e-296d-4ad1-9878-3e5815f8b24c, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_TG@nodesharing_40, server: in02.dns2333.xyz, port: 64087, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg-balancer.tencent.best, network: ws, ws-opts: {path: /biteb, headers: {Host: sg-balancer.tencent.best}}}
+  - {name: 🇨🇳 中国_TG@nodesharing_42, server: in04.dns2333.xyz, port: 64078, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hk-balancer.airport-v2.com, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}}
+  - {name: 🇨🇳 中国_TG@nodesharing_45, server: centralchina1.cloudlink123.com, port: 37005, type: ss, cipher: aes-128-gcm, password: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6}
+  - {name: 🇨🇳 中国_TG@nodesharing_47, server: china-zj-hz-1.forwardserver.xyz, port: 43841, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_TG@nodesharing_54, server: centralchina1.cloudlink123.com, port: 37009, type: ss, cipher: aes-128-gcm, password: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6}
+  - {name: 🇨🇳 中国_TG@nodesharing_56, server: centralchina1.cloudlink123.com, port: 37010, type: ss, cipher: aes-128-gcm, password: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6}
+  - {name: 🇨🇳 中国_TG@nodesharing_6, server: china-zj-hz-1.forwardserver.xyz, port: 39464, type: vmess, uuid: b3e84e6e-dbc2-4c79-879f-811bc6c1cd96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_TG@nodesharing_61, server: 120.233.10.62, port: 52203, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_TG@nodesharing_67, server: gy.xqcloud.net, port: 31009, type: ss, cipher: chacha20-ietf-poly1305, password: 082e09b9-35a1-45af-914c-76bd6562228d}
+  - {name: 🇨🇳 中国_TG@nodesharing_75, server: in02.dns2333.xyz, port: 64086, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: jp-balancer.myn1des.com, network: ws, ws-opts: {path: /biteb, headers: {Host: jp-balancer.myn1des.com}}}
+  - {name: 🇨🇳 中国_TG@nodesharing_80, server: in01.dns2333.xyz, port: 64078, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hk-balancer.airport-v2.com, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}}
+  - {name: 🇨🇳 中国_TG@nodesharing_82, server: zjcm.relay.qchwnd.moe, port: 10205, type: trojan, password: 8ffefc4e-296d-4ad1-9878-3e5815f8b24c, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_TG@nodesharing_84, server: zjcm.relay.qchwnd.moe, port: 10214, type: trojan, password: 8ffefc4e-296d-4ad1-9878-3e5815f8b24c, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_TG@nodesharing_86, server: in01.dns2333.xyz, port: 64014, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: biteb-us01.covid19.rip, network: ws, ws-opts: {path: /biteb, headers: {Host: biteb-us01.covid19.rip}}}
+  - {name: 🇨🇳 中国_TG@nodesharing_87, server: zjcm.relay.qchwnd.moe, port: 10206, type: trojan, password: 8ffefc4e-296d-4ad1-9878-3e5815f8b24c, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_TG@nodesharing_88, server: gdcm2.relay.qchwnd.moe, port: 10221, type: trojan, password: 8ffefc4e-296d-4ad1-9878-3e5815f8b24c, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_TG@nodesharing_89, server: in04.dns2333.xyz, port: 64014, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: biteb-us01.covid19.rip, network: ws, ws-opts: {path: /biteb, headers: {Host: biteb-us01.covid19.rip}}}
+  - {name: 🇨🇳 中国_TG@nodesharing_90, server: in02.dns2333.xyz, port: 64014, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: biteb-us01.covid19.rip, network: ws, ws-opts: {path: /biteb, headers: {Host: biteb-us01.covid19.rip}}}
+  - {name: 🇨🇳 中国_TG@nodesharing_93, server: zjcm.relay.qchwnd.moe, port: 10208, type: trojan, password: 8ffefc4e-296d-4ad1-9878-3e5815f8b24c, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_TG@nodesharing_94, server: in04.dns2333.xyz, port: 64071, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: biteb-ru01.myn1des.com, network: ws, ws-opts: {path: /, headers: {Host: biteb-ru01.myn1des.com}}}
+  - {name: 🇨🇳 中国_TG@nodesharing_97, server: in02.dns2333.xyz, port: 64084, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: de01-cdn.airport-v2.com}}}
 proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - DIRECT
+      - 🇭🇰 香港_TG@nodesharing_1
+      - 🇭🇰 香港_TG@nodesharing_2
+      - 🇭🇰 香港_TG@nodesharing_22
+      - 🇭🇰 香港_TG@nodesharing_3
+      - 🇭🇰 香港_TG@nodesharing_4
+      - 🇭🇰 香港_TG@nodesharing_44
+      - 🇭🇰 香港_TG@nodesharing_70
+      - 🇭🇰 香港_TG@nodesharing_72
+      - 🇭🇰 香港_TG@nodesharing_78
+      - 🇭🇰 香港_TG@nodesharing_81
   - name: 🇯🇵 日本节点
     type: select
     proxies:
-      - DIRECT
+      - 🇯🇵 日本_TG@nodesharing_11
+      - 🇯🇵 日本_TG@nodesharing_28
+      - 🇯🇵 日本_TG@nodesharing_8
+      - 🇯🇵 日本_TG@nodesharing_9
   - name: 🇺🇲 美国节点
     type: select
     proxies:
@@ -83,6 +188,12 @@ proxy-groups:
       - 🇺🇸 _US_美国 6
       - 🇺🇸 _US_美国 7
       - 🇺🇸 _US_美国 8
+      - 🇺🇸 美国_TG@nodesharing_103
+      - 🇺🇸 美国_TG@nodesharing_127
+      - 🇺🇸 美国_TG@nodesharing_50
+      - 🇺🇸 美国_TG@nodesharing_83
+      - 🇺🇸 美国_TG@nodesharing_96
+      - 🇺🇸 美国_TG@nodesharing_98
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
@@ -91,10 +202,16 @@ proxy-groups:
     type: select
     proxies:
       - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡
+      - 🇸🇬 新加坡_TG@nodesharing_100
+      - 🇸🇬 新加坡_TG@nodesharing_13
+      - 🇸🇬 新加坡_TG@nodesharing_77
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
       - 🇰🇷 _CN_中国->🇰🇷_KR_韩国
+      - 🇰🇷 韩国_TG@nodesharing_15
+      - 🇰🇷 韩国_TG@nodesharing_17
+      - 🇰🇷 韩国_TG@nodesharing_52
   - name: 🌍 其他地区
     type: select
     proxies:
@@ -134,6 +251,23 @@ proxy-groups:
       - 🇬🇧 _GB_英国 18
       - 🇬🇧 _GB_英国 19
       - 🇷🇺 _RU_俄罗斯联邦
+      - 🇩🇪 德国_TG@nodesharing_101
+      - 🇨🇦 加拿大_TG@nodesharing_104
+      - 🇨🇦 加拿大_TG@nodesharing_109
+      - 🇨🇦 加拿大_TG@nodesharing_116
+      - 🇨🇦 加拿大_TG@nodesharing_119
+      - 🇨🇦 加拿大_TG@nodesharing_121
+      - 🇨🇦 加拿大_TG@nodesharing_128
+      - 🇨🇦 加拿大_TG@nodesharing_132
+      - 🇨🇦 加拿大_TG@nodesharing_58
+      - 🇨🇦 加拿大_TG@nodesharing_60
+      - 🇨🇦 加拿大_TG@nodesharing_63
+      - 🇨🇦 加拿大_TG@nodesharing_92
+      - 🇮🇩 印度尼西亚_TG@nodesharing_32
+      - 🇮🇩 印度尼西亚_TG@nodesharing_51
+      - 🇬🇧 英国_TG@nodesharing_108
+      - 🇬🇧 英国_TG@nodesharing_85
+      - 🇬🇧 英国_TG@nodesharing_99
   - name: ♻️ 专线节点
     type: select
     proxies:
@@ -199,6 +333,99 @@ proxy-groups:
       - 🇺🇸 _US_美国 6
       - 🇺🇸 _US_美国 7
       - 🇺🇸 _US_美国 8
+      - 🇩🇪 德国_TG@nodesharing_101
+      - 🇫🇷 法国_TG@nodesharing_55
+      - 🇫🇷 法国_TG@nodesharing_65
+      - 🇫🇷 法国_TG@nodesharing_68
+      - 🇫🇷 法国_TG@nodesharing_91
+      - 🇰🇷 韩国_TG@nodesharing_15
+      - 🇰🇷 韩国_TG@nodesharing_17
+      - 🇰🇷 韩国_TG@nodesharing_52
+      - 🇨🇦 加拿大_TG@nodesharing_104
+      - 🇨🇦 加拿大_TG@nodesharing_109
+      - 🇨🇦 加拿大_TG@nodesharing_116
+      - 🇨🇦 加拿大_TG@nodesharing_119
+      - 🇨🇦 加拿大_TG@nodesharing_121
+      - 🇨🇦 加拿大_TG@nodesharing_128
+      - 🇨🇦 加拿大_TG@nodesharing_132
+      - 🇨🇦 加拿大_TG@nodesharing_58
+      - 🇨🇦 加拿大_TG@nodesharing_60
+      - 🇨🇦 加拿大_TG@nodesharing_63
+      - 🇨🇦 加拿大_TG@nodesharing_92
+      - 🇺🇸 美国_TG@nodesharing_103
+      - 🇺🇸 美国_TG@nodesharing_127
+      - 🇺🇸 美国_TG@nodesharing_50
+      - 🇺🇸 美国_TG@nodesharing_83
+      - 🇺🇸 美国_TG@nodesharing_96
+      - 🇺🇸 美国_TG@nodesharing_98
+      - 🇯🇵 日本_TG@nodesharing_11
+      - 🇯🇵 日本_TG@nodesharing_28
+      - 🇯🇵 日本_TG@nodesharing_8
+      - 🇯🇵 日本_TG@nodesharing_9
+      - 🇭🇰 香港_TG@nodesharing_1
+      - 🇭🇰 香港_TG@nodesharing_2
+      - 🇭🇰 香港_TG@nodesharing_22
+      - 🇭🇰 香港_TG@nodesharing_3
+      - 🇭🇰 香港_TG@nodesharing_4
+      - 🇭🇰 香港_TG@nodesharing_44
+      - 🇭🇰 香港_TG@nodesharing_70
+      - 🇭🇰 香港_TG@nodesharing_72
+      - 🇭🇰 香港_TG@nodesharing_78
+      - 🇭🇰 香港_TG@nodesharing_81
+      - 🇸🇬 新加坡_TG@nodesharing_100
+      - 🇸🇬 新加坡_TG@nodesharing_13
+      - 🇸🇬 新加坡_TG@nodesharing_77
+      - 🇮🇩 印度尼西亚_TG@nodesharing_32
+      - 🇮🇩 印度尼西亚_TG@nodesharing_51
+      - 🇬🇧 英国_TG@nodesharing_108
+      - 🇬🇧 英国_TG@nodesharing_85
+      - 🇬🇧 英国_TG@nodesharing_99
+      - 🇨🇳 中国_TG@nodesharing_10
+      - 🇨🇳 中国_TG@nodesharing_106
+      - 🇨🇳 中国_TG@nodesharing_107
+      - 🇨🇳 中国_TG@nodesharing_112
+      - 🇨🇳 中国_TG@nodesharing_113
+      - 🇨🇳 中国_TG@nodesharing_118
+      - 🇨🇳 中国_TG@nodesharing_120
+      - 🇨🇳 中国_TG@nodesharing_122
+      - 🇨🇳 中国_TG@nodesharing_125
+      - 🇨🇳 中国_TG@nodesharing_16
+      - 🇨🇳 中国_TG@nodesharing_18
+      - 🇨🇳 中国_TG@nodesharing_20
+      - 🇨🇳 中国_TG@nodesharing_21
+      - 🇨🇳 中国_TG@nodesharing_23
+      - 🇨🇳 中国_TG@nodesharing_24
+      - 🇨🇳 中国_TG@nodesharing_25
+      - 🇨🇳 中国_TG@nodesharing_26
+      - 🇨🇳 中国_TG@nodesharing_27
+      - 🇨🇳 中国_TG@nodesharing_29
+      - 🇨🇳 中国_TG@nodesharing_31
+      - 🇨🇳 中国_TG@nodesharing_33
+      - 🇨🇳 中国_TG@nodesharing_35
+      - 🇨🇳 中国_TG@nodesharing_36
+      - 🇨🇳 中国_TG@nodesharing_37
+      - 🇨🇳 中国_TG@nodesharing_38
+      - 🇨🇳 中国_TG@nodesharing_40
+      - 🇨🇳 中国_TG@nodesharing_42
+      - 🇨🇳 中国_TG@nodesharing_45
+      - 🇨🇳 中国_TG@nodesharing_47
+      - 🇨🇳 中国_TG@nodesharing_54
+      - 🇨🇳 中国_TG@nodesharing_56
+      - 🇨🇳 中国_TG@nodesharing_6
+      - 🇨🇳 中国_TG@nodesharing_61
+      - 🇨🇳 中国_TG@nodesharing_67
+      - 🇨🇳 中国_TG@nodesharing_75
+      - 🇨🇳 中国_TG@nodesharing_80
+      - 🇨🇳 中国_TG@nodesharing_82
+      - 🇨🇳 中国_TG@nodesharing_84
+      - 🇨🇳 中国_TG@nodesharing_86
+      - 🇨🇳 中国_TG@nodesharing_87
+      - 🇨🇳 中国_TG@nodesharing_88
+      - 🇨🇳 中国_TG@nodesharing_89
+      - 🇨🇳 中国_TG@nodesharing_90
+      - 🇨🇳 中国_TG@nodesharing_93
+      - 🇨🇳 中国_TG@nodesharing_94
+      - 🇨🇳 中国_TG@nodesharing_97
   - name: 📲 聊天软件
     type: select
     proxies:
