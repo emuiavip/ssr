@@ -22,9 +22,9 @@ proxies:
   - {name: 🇸🇬 新加坡 3, server: sg3.hneko.online, port: 443, type: vmess, uuid: 39bba7d4-bc00-489b-bfa1-d7fcb4974f09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: sg3.hneko.online}}, udp: true}
   - {name: 🇸🇬 新加坡 4, server: sg4.hneko.online, port: 443, type: trojan, password: 39bba7d4-bc00-489b-bfa1-d7fcb4974f09, sni: sg4.hneko.online, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国 1, server: us11.hneko.online, port: 443, type: trojan, password: 39bba7d4-bc00-489b-bfa1-d7fcb4974f09, sni: us11.hneko.online, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 2, server: us22.hneko.online, port: 443, type: trojan, password: 39bba7d4-bc00-489b-bfa1-d7fcb4974f09, sni: us22.hneko.online, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 2, server: us11.hneko.online, port: 4433, type: trojan, password: 39bba7d4-bc00-489b-bfa1-d7fcb4974f09, sni: us11.hneko.online, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国 3, server: us33.hneko.online, port: 443, type: trojan, password: 39bba7d4-bc00-489b-bfa1-d7fcb4974f09, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 4, server: us44.hneko.online, port: 443, type: trojan, password: 39bba7d4-bc00-489b-bfa1-d7fcb4974f09, sni: us44.hneko.online, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 4, server: us33.hneko.online, port: 4433, type: trojan, password: 39bba7d4-bc00-489b-bfa1-d7fcb4974f09, sni: us33.hneko.online, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国 5, server: us5.hneko.online, port: 443, type: vmess, uuid: 39bba7d4-bc00-489b-bfa1-d7fcb4974f09, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: us5.hneko.online}}, udp: true}
   - {name: 🇺🇸 美国 6, server: us66.hneko.online, port: 443, type: vmess, uuid: 39bba7d4-bc00-489b-bfa1-d7fcb4974f09, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: us66.hneko.online}}, udp: true}
   - {name: 🇺🇸 美国 7, server: us7.hneko.online, port: 443, type: vmess, uuid: 39bba7d4-bc00-489b-bfa1-d7fcb4974f09, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: us7.hneko.online}}, udp: true}
@@ -10534,5 +10534,3 @@ rules:
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
-
-
