@@ -5,435 +5,263 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 广东省佛山市 移动, server: 183.232.170.32, port: 20005, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.64.106.104, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 8abe9496-5e24-4e49-b566-dcf86116017d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /i99LgvSaslbsPLLQQ7j6Z, headers: {Host: de5.irteh.fun}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM 2, server: 104.31.16.46, port: 2082, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca5.tehme100.fun}}, udp: true}
-  - {name: 湖北省 移动(全省通用), server: cdn.node.user-sub.pddns-usersdk.com, port: 13003, type: vmess, uuid: 5f9f4df4-5398-35d1-9a6a-44a8a575832d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c511eccb8a69, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 172.67.211.43, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 4, server: 172.67.193.109, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 5, server: 141.101.115.89, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 6, server: 172.64.129.7, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房, server: 45.199.138.151, port: 49232, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 7, server: 172.64.172.109, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇦🇺 澳大利亚 Melbourne Girls College, server: wi.saintink.eu.org, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vuk2.0bad.com/chat, headers: {Host: sub2.saintink.eu.org}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare公司CDN节点(shopify), server: 23.227.39.111, port: 443, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 8, server: 172.64.193.102, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 9, server: cfcdn2.sanfencdn.net, port: 443, type: vmess, uuid: 8216e1fd-7f67-440d-9a63-51d0f6c38b10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us2.sanfencdn1.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 10, server: 198.41.214.55, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇩🇪 德国 Cloudinnovation数据中心, server: amszxc.66666654.xyz, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 11, server: 172.67.10.121, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk2.scproxy.top}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 12, server: 172.67.115.6, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 13, server: 172.64.109.235, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 14, server: 172.67.237.176, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM 3, server: mci.bamarambash.monster, port: 443, type: vmess, uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /b8767a6a-1c30-11ee-ba76-9ee097a90b8b, headers: {Host: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 15, server: 162.159.254.44, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 2, server: dongtaiwang3.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心, server: 64.32.4.51, port: 43136, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 中国 阿里云, server: cdn.chigua.tk, port: 80, type: vmess, uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /2TokGE9A/, headers: {Host: us6.cachexy.cf}}, udp: true}
-  - {name: 🇬🇧 英国 伦敦Linode数据中心, server: vuk1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vuk1.0bad.com}}, udp: true}
-  - {name: 🇺🇸 美国 阿里云, server: cdn.anycast.eu.org, port: 80, type: vmess, uuid: e3a37909-487c-4748-8ba4-945290267018, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: e3a37909, headers: {Host: dd2.1808.cf}}, udp: true}
-  - {name: 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点, server: 173.245.49.236, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 16, server: 172.67.144.240, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 17, server: 141.101.123.243, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 18, server: 162.159.130.198, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 19, server: cf3.992688.xyz, port: 8080, type: vmess, uuid: d3ded505-f89d-4070-dafa-8288ffbabd32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vceu3.vpn66.eu.org}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 20, server: 172.67.25.87, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 21, server: 172.64.166.10, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 22, server: 141.101.123.143, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 23, server: 172.67.7.186, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 24, server: 172.67.8.33, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 25, server: 162.159.242.155, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 26, server: 172.64.92.42, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 27, server: 172.64.165.188, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 28, server: 172.67.198.131, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 29, server: 172.64.194.98, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 3, server: Shopify.com, port: 2086, type: vmess, uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: Fr.cloudflare.quest}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 30, server: 172.64.85.189, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 31, server: 162.159.133.130, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 32, server: 141.101.122.190, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 33, server: 172.67.244.14, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 34, server: 162.159.240.102, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 35, server: 172.67.197.57, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 36, server: 172.67.37.107, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 37, server: 172.67.103.86, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 38, server: 172.64.175.26, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 39, server: 172.67.204.73, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 40, server: 172.67.238.152, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 41, server: bluehost.com, port: 443, type: vmess, uuid: 12eed507-9a58-4ca5-f7af-2871e9aae684, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /19544, headers: {Host: cdntr2.digisport.shop}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 42, server: 172.64.90.210, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 43, server: 172.67.51.202, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 44, server: 172.67.128.37, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 45, server: 172.67.220.154, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 46, server: 162.159.255.119, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 47, server: 172.67.48.155, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇨🇳 广东省深圳市 移动, server: 120.241.47.40, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM 4, server: ns1.v2-vip.fun, port: 8880, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 48, server: 172.64.96.134, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 4, server: dongtaiwang2.com, port: 443, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 49, server: 172.64.229.116, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /XQ2WCa29jfDMGBcbnQ, headers: {Host: netherlands.yj2022.gq}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 50, server: 172.67.237.73, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 51, server: cf1.992688.xyz, port: 8080, type: vmess, uuid: e6e14e13-359d-4f07-d60a-92533c5c025a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 52, server: 104.18.64.251, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /GdtYWlsLmNvbSJ9LCJjb3V, headers: {Host: newyork.yj2022.gq}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 53, server: 172.67.65.210, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 54, server: 162.159.138.46, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 55, server: 172.64.134.52, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 56, server: 172.67.212.128, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 57, server: 172.67.194.234, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 58, server: 172.67.196.199, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 59, server: 162.159.135.251, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 60, server: cf2.992688.xyz, port: 8080, type: vmess, uuid: 0ea60ebb-632d-4226-893a-cccc2053dbf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: haxus3.vpn66.eu.org}}, udp: true}
-  - {name: 🇺🇸 美国 洛杉矶, server: arvancloud.ir-Uc.snappfood.SO.ddns001.net, port: 443, type: vmess, uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /1c5854ba-1b44-11ee-a146-8213fd3be4b9, headers: {Host: 1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster}}, udp: true}
-  - {name: 🇳🇱 荷兰 北荷兰省阿姆斯特丹Sharktech数据中心, server: 45.58.186.90, port: 51140, type: vmess, uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国 V2CROSS.COM, server: vus5.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vus5.0bad.com}}, udp: true}
-  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心 2, server: 64.32.4.51, port: 43136, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点 2, server: 173.245.49.236, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 5, server: dongtaiwang2.com, port: 443, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 6, server: dongtaiwang3.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: d.freeh1.xyz, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 7, server: Shopify.com, port: 2086, type: vmess, uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: Fr.cloudflare.quest}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 61, server: cfyd.starsea.vip, port: 443, type: vmess, uuid: 3238151a-f634-4dcb-be84-7fc096e3674a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: dallas.starsea.vip, network: ws, ws-opts: {path: /, headers: {Host: dallas.starsea.vip}}, udp: true}
-  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心 3, server: 64.32.21.246, port: 44313, type: vmess, uuid: 57f93e92-ebb9-4f16-9bdc-8225d2010995, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM 5, server: ns1.v2-vip.fun, port: 8880, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fr7.tehme100.fun}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM 6, server: mci.bamarambash.monster, port: 443, type: vmess, uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /b8767a6a-1c30-11ee-ba76-9ee097a90b8b, headers: {Host: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster}}, udp: true}
-  - {name: 🇺🇸 美国 洛杉矶 2, server: arvancloud.ir-Uc.snappfood.SO.ddns001.net, port: 443, type: vmess, uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /1c5854ba-1b44-11ee-a146-8213fd3be4b9, headers: {Host: 1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 62, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 63, server: cf1.992688.xyz, port: 8080, type: vmess, uuid: e6e14e13-359d-4f07-d60a-92533c5c025a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM 7, server: 104.31.16.46, port: 2082, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca5.tehme100.fun}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 64, server: 172.67.48.155, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM 8, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 8abe9496-5e24-4e49-b566-dcf86116017d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /i99LgvSaslbsPLLQQ7j6Z, headers: {Host: de5.irteh.fun}}, udp: true}
-  - {name: 🇺🇸 美国 阿里云 2, server: cdn.anycast.eu.org, port: 80, type: vmess, uuid: e3a37909-487c-4748-8ba4-945290267018, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: e3a37909, headers: {Host: dd2.1808.cf}}, udp: true}
-  - {name: 🇨🇳 广东省广州市 电信, server: s-g03.xingyunwu.top, port: 50040, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 广东省广州市 电信 2, server: t-wn02.xingyunwu.top, port: 50054, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 广东省广州市 电信 3, server: u-s01.xingyunwu.top, port: 50028, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 广东省广州市 电信 4, server: u-s03.xingyunwu.top, port: 50032, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 广东省广州市 电信 5, server: k-r03.xingyunwu.top, port: 50024, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 TG群@Tmxios, server: mysql.accessconnect.cc, port: 6001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 枭木iOS大本营, server: mysql.accessconnect.cc, port: 6002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 03, server: mysql.accessconnect.cc, port: 6003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 04, server: mysql.accessconnect.cc, port: 6004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 05, server: mysql.accessconnect.cc, port: 6005, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 06, server: mysql.accessconnect.cc, port: 6006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 07, server: mysql.accessconnect.cc, port: 6007, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 08, server: mysql.accessconnect.cc, port: 6008, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 09, server: mysql.accessconnect.cc, port: 6009, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 10, server: mysql.accessconnect.cc, port: 6010, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 11, server: mysql.accessconnect.cc, port: 6011, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 12, server: mysql.accessconnect.cc, port: 6012, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 13, server: mysql.accessconnect.cc, port: 6013, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 14, server: mysql.accessconnect.cc, port: 6014, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 15, server: mysql.accessconnect.cc, port: 6015, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 16, server: mysql.accessconnect.cc, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 17, server: mysql.accessconnect.cc, port: 6017, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 18, server: mysql.accessconnect.cc, port: 6018, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 19, server: mysql.accessconnect.cc, port: 6019, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 20, server: mysql.accessconnect.cc, port: 6020, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 21, server: mysql.accessconnect.cc, port: 6021, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 22, server: mysql.accessconnect.cc, port: 6022, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 23, server: mysql.accessconnect.cc, port: 3725, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 24, server: mysql.accessconnect.cc, port: 3726, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 25, server: sql.accessconnect.cc, port: 2101, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 26, server: sql.accessconnect.cc, port: 2102, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 27, server: sql.accessconnect.cc, port: 2103, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 28, server: sql.accessconnect.cc, port: 2104, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 29, server: sql.accessconnect.cc, port: 2105, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 30, server: sql.accessconnect.cc, port: 2106, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 31, server: sql.accessconnect.cc, port: 2107, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 32, server: sql.accessconnect.cc, port: 2108, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 33, server: sql.accessconnect.cc, port: 2109, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 34, server: sql.accessconnect.cc, port: 2110, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 35, server: sql.accessconnect.cc, port: 2111, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇨🇳 Taiwan 01, server: sql.accessconnect.cc, port: 1111, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇨🇳 Taiwan 02, server: sql.accessconnect.cc, port: 1112, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇨🇳 Taiwan 03, server: sql.accessconnect.cc, port: 1113, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇨🇳 Taiwan 04, server: sql.accessconnect.cc, port: 1114, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇨🇳 Taiwan 05, server: sql.accessconnect.cc, port: 1115, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇨🇳 Taiwan 06, server: sql.accessconnect.cc, port: 1116, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇨🇳 Taiwan 07, server: oracle.accessconnect.cc, port: 11130, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇯🇵 Japan 01, server: sql.accessconnect.cc, port: 2601, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇯🇵 Japan 02, server: sql.accessconnect.cc, port: 2602, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇯🇵 Japan 03, server: sql.accessconnect.cc, port: 2604, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇯🇵 Japan 04, server: sql.accessconnect.cc, port: 2605, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇯🇵 Japan 05, server: sql.accessconnect.cc, port: 1097, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇸🇬 Singapore 01, server: mysql.accessconnect.cc, port: 3201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇸🇬 Singapore 02, server: mysql.accessconnect.cc, port: 3202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇸🇬 Singapore 03, server: mysql.accessconnect.cc, port: 3203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇸🇬 Singapore 04, server: mysql.accessconnect.cc, port: 3204, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇸🇬 Singapore 05, server: mysql.accessconnect.cc, port: 3209, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇸🇬 Singapore 06, server: mysql.accessconnect.cc, port: 3210, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇸🇬 Singapore 07, server: mysql.accessconnect.cc, port: 3211, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇸🇬 Singapore 08, server: mysql.accessconnect.cc, port: 3212, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇸🇬 Singapore 09, server: sql.accessconnect.cc, port: 2201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇸🇬 Singapore 10, server: sql.accessconnect.cc, port: 2202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇸🇬 Singapore 11, server: sql.accessconnect.cc, port: 2203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇸🇬 Singapore 12, server: sql.accessconnect.cc, port: 2002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇸🇬 Singapore 13, server: sql.accessconnect.cc, port: 2003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 广东省佛山市 移动
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 湖北省 移动(全省通用)
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 CloudFlare节点 5
-      - 🇺🇸 美国 CloudFlare节点 6
-      - 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房
-      - 🇺🇸 美国 CloudFlare节点 7
-      - 🇦🇺 澳大利亚 Melbourne Girls College
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
-      - 🇺🇸 美国 CloudFlare节点 8
-      - 🇺🇸 美国 CloudFlare节点 9
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇩🇪 德国 Cloudinnovation数据中心
-      - 🇺🇸 美国 CloudFlare节点 11
-      - 🇺🇸 美国 CloudFlare节点 12
-      - 🇺🇸 美国 CloudFlare节点 13
-      - 🇺🇸 美国 CloudFlare节点 14
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 CloudFlare节点 15
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 2
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇨🇳 中国 阿里云
-      - 🇬🇧 英国 伦敦Linode数据中心
-      - 🇺🇸 美国 阿里云
-      - 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 16
-      - 🇺🇸 美国 CloudFlare节点 17
-      - 🇺🇸 美国 CloudFlare节点 18
-      - 🇺🇸 美国 CloudFlare节点 19
-      - 🇺🇸 美国 CloudFlare节点 20
-      - 🇺🇸 美国 CloudFlare节点 21
-      - 🇺🇸 美国 CloudFlare节点 22
-      - 🇺🇸 美国 CloudFlare节点 23
-      - 🇺🇸 美国 CloudFlare节点 24
-      - 🇺🇸 美国 CloudFlare节点 25
-      - 🇺🇸 美国 CloudFlare节点 26
-      - 🇺🇸 美国 CloudFlare节点 27
-      - 🇺🇸 美国 CloudFlare节点 28
-      - 🇺🇸 美国 CloudFlare节点 29
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 3
-      - 🇺🇸 美国 CloudFlare节点 30
-      - 🇺🇸 美国 CloudFlare节点 31
-      - 🇺🇸 美国 CloudFlare节点 32
-      - 🇺🇸 美国 CloudFlare节点 33
-      - 🇺🇸 美国 CloudFlare节点 34
-      - 🇺🇸 美国 CloudFlare节点 35
-      - 🇺🇸 美国 CloudFlare节点 36
-      - 🇺🇸 美国 CloudFlare节点 37
-      - 🇺🇸 美国 CloudFlare节点 38
-      - 🇺🇸 美国 CloudFlare节点 39
-      - 🇺🇸 美国 CloudFlare节点 40
-      - 🇺🇸 美国 CloudFlare节点 41
-      - 🇺🇸 美国 CloudFlare节点 42
-      - 🇺🇸 美国 CloudFlare节点 43
-      - 🇺🇸 美国 CloudFlare节点 44
-      - 🇺🇸 美国 CloudFlare节点 45
-      - 🇺🇸 美国 CloudFlare节点 46
-      - 🇺🇸 美国 CloudFlare节点 47
-      - 🇨🇳 广东省深圳市 移动
-      - 🇺🇸 美国 V2CROSS.COM 4
-      - 🇺🇸 美国 CloudFlare节点 48
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 4
-      - 🇺🇸 美国 CloudFlare节点 49
-      - 🇺🇸 美国 CloudFlare节点 50
-      - 🇺🇸 美国 CloudFlare节点 51
-      - 🇺🇸 美国 CloudFlare节点 52
-      - 🇺🇸 美国 CloudFlare节点 53
-      - 🇺🇸 美国 CloudFlare节点 54
-      - 🇺🇸 美国 CloudFlare节点 55
-      - 🇺🇸 美国 CloudFlare节点 56
-      - 🇺🇸 美国 CloudFlare节点 57
-      - 🇺🇸 美国 CloudFlare节点 58
-      - 🇺🇸 美国 CloudFlare节点 59
-      - 🇺🇸 美国 CloudFlare节点 60
-      - 🇺🇸 美国 洛杉矶
-      - 🇳🇱 荷兰 北荷兰省阿姆斯特丹Sharktech数据中心
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心 2
-      - 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 5
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 6
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 7
-      - 🇺🇸 美国 CloudFlare节点 61
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心 3
-      - 🇺🇸 美国 V2CROSS.COM 5
-      - 🇺🇸 美国 V2CROSS.COM 6
-      - 🇺🇸 美国 洛杉矶 2
-      - 🇺🇸 美国 CloudFlare节点 62
-      - 🇺🇸 美国 CloudFlare节点 63
-      - 🇺🇸 美国 V2CROSS.COM 7
-      - 🇺🇸 美国 CloudFlare节点 64
-      - 🇺🇸 美国 V2CROSS.COM 8
-      - 🇺🇸 美国 阿里云 2
-      - 🇨🇳 广东省广州市 电信
-      - 🇨🇳 广东省广州市 电信 2
-      - 🇨🇳 广东省广州市 电信 3
-      - 🇨🇳 广东省广州市 电信 4
-      - 🇨🇳 广东省广州市 电信 5
+      - 🇭🇰 Hong Kong 01
+      - 🇭🇰 Hong Kong 02
+      - 🇭🇰 Hong Kong 03
+      - 🇭🇰 Hong Kong 04
+      - 🇭🇰 Hong Kong 05
+      - 🇭🇰 Hong Kong 06
+      - 🇭🇰 Hong Kong 07
+      - 🇭🇰 Hong Kong 08
+      - 🇭🇰 Hong Kong 09
+      - 🇭🇰 Hong Kong 10
+      - 🇭🇰 Hong Kong 11
+      - 🇭🇰 Hong Kong 12
+      - 🇭🇰 Hong Kong 13
+      - 🇭🇰 Hong Kong 14
+      - 🇭🇰 Hong Kong 15
+      - 🇭🇰 Hong Kong 16
+      - 🇭🇰 Hong Kong 17
+      - 🇭🇰 Hong Kong 18
+      - 🇭🇰 Hong Kong 19
+      - 🇭🇰 Hong Kong 20
+      - 🇭🇰 Hong Kong 21
+      - 🇭🇰 Hong Kong 22
+      - 🇭🇰 Hong Kong 23
+      - 🇭🇰 Hong Kong 24
+      - 🇭🇰 Hong Kong 25
+      - 🇭🇰 Hong Kong 26
+      - 🇭🇰 Hong Kong 27
+      - 🇭🇰 Hong Kong 28
+      - 🇭🇰 Hong Kong 29
+      - 🇭🇰 Hong Kong 30
+      - 🇭🇰 Hong Kong 31
+      - 🇭🇰 Hong Kong 32
+      - 🇭🇰 Hong Kong 33
+      - 🇭🇰 Hong Kong 34
+      - 🇭🇰 Hong Kong 35
+      - 🇨🇳 Taiwan 01
+      - 🇨🇳 Taiwan 02
+      - 🇨🇳 Taiwan 03
+      - 🇨🇳 Taiwan 04
+      - 🇨🇳 Taiwan 05
+      - 🇨🇳 Taiwan 06
+      - 🇨🇳 Taiwan 07
+      - 🇯🇵 Japan 01��쥪�
+      - 🇯🇵 Japan 02��쥪�
+      - 🇯🇵 Japan 03��쥪�
+      - 🇯🇵 Japan 04��쥪�
+      - 🇯🇵 Japan 05��쥪�
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 03
+      - 🇸🇬 Singapore 04
+      - 🇸🇬 Singapore 05
+      - 🇸🇬 Singapore 06
+      - 🇸🇬 Singapore 07
+      - 🇸🇬 Singapore 08
+      - 🇸🇬 Singapore 09
+      - 🇸🇬 Singapore 10
+      - 🇸🇬 Singapore 11
+      - 🇸🇬 Singapore 12
+      - 🇸🇬 Singapore 13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 广东省佛山市 移动
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 湖北省 移动(全省通用)
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 CloudFlare节点 5
-      - 🇺🇸 美国 CloudFlare节点 6
-      - 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房
-      - 🇺🇸 美国 CloudFlare节点 7
-      - 🇦🇺 澳大利亚 Melbourne Girls College
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
-      - 🇺🇸 美国 CloudFlare节点 8
-      - 🇺🇸 美国 CloudFlare节点 9
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇩🇪 德国 Cloudinnovation数据中心
-      - 🇺🇸 美国 CloudFlare节点 11
-      - 🇺🇸 美国 CloudFlare节点 12
-      - 🇺🇸 美国 CloudFlare节点 13
-      - 🇺🇸 美国 CloudFlare节点 14
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 CloudFlare节点 15
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 2
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇨🇳 中国 阿里云
-      - 🇬🇧 英国 伦敦Linode数据中心
-      - 🇺🇸 美国 阿里云
-      - 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 16
-      - 🇺🇸 美国 CloudFlare节点 17
-      - 🇺🇸 美国 CloudFlare节点 18
-      - 🇺🇸 美国 CloudFlare节点 19
-      - 🇺🇸 美国 CloudFlare节点 20
-      - 🇺🇸 美国 CloudFlare节点 21
-      - 🇺🇸 美国 CloudFlare节点 22
-      - 🇺🇸 美国 CloudFlare节点 23
-      - 🇺🇸 美国 CloudFlare节点 24
-      - 🇺🇸 美国 CloudFlare节点 25
-      - 🇺🇸 美国 CloudFlare节点 26
-      - 🇺🇸 美国 CloudFlare节点 27
-      - 🇺🇸 美国 CloudFlare节点 28
-      - 🇺🇸 美国 CloudFlare节点 29
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 3
-      - 🇺🇸 美国 CloudFlare节点 30
-      - 🇺🇸 美国 CloudFlare节点 31
-      - 🇺🇸 美国 CloudFlare节点 32
-      - 🇺🇸 美国 CloudFlare节点 33
-      - 🇺🇸 美国 CloudFlare节点 34
-      - 🇺🇸 美国 CloudFlare节点 35
-      - 🇺🇸 美国 CloudFlare节点 36
-      - 🇺🇸 美国 CloudFlare节点 37
-      - 🇺🇸 美国 CloudFlare节点 38
-      - 🇺🇸 美国 CloudFlare节点 39
-      - 🇺🇸 美国 CloudFlare节点 40
-      - 🇺🇸 美国 CloudFlare节点 41
-      - 🇺🇸 美国 CloudFlare节点 42
-      - 🇺🇸 美国 CloudFlare节点 43
-      - 🇺🇸 美国 CloudFlare节点 44
-      - 🇺🇸 美国 CloudFlare节点 45
-      - 🇺🇸 美国 CloudFlare节点 46
-      - 🇺🇸 美国 CloudFlare节点 47
-      - 🇨🇳 广东省深圳市 移动
-      - 🇺🇸 美国 V2CROSS.COM 4
-      - 🇺🇸 美国 CloudFlare节点 48
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 4
-      - 🇺🇸 美国 CloudFlare节点 49
-      - 🇺🇸 美国 CloudFlare节点 50
-      - 🇺🇸 美国 CloudFlare节点 51
-      - 🇺🇸 美国 CloudFlare节点 52
-      - 🇺🇸 美国 CloudFlare节点 53
-      - 🇺🇸 美国 CloudFlare节点 54
-      - 🇺🇸 美国 CloudFlare节点 55
-      - 🇺🇸 美国 CloudFlare节点 56
-      - 🇺🇸 美国 CloudFlare节点 57
-      - 🇺🇸 美国 CloudFlare节点 58
-      - 🇺🇸 美国 CloudFlare节点 59
-      - 🇺🇸 美国 CloudFlare节点 60
-      - 🇺🇸 美国 洛杉矶
-      - 🇳🇱 荷兰 北荷兰省阿姆斯特丹Sharktech数据中心
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心 2
-      - 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 5
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 6
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 7
-      - 🇺🇸 美国 CloudFlare节点 61
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心 3
-      - 🇺🇸 美国 V2CROSS.COM 5
-      - 🇺🇸 美国 V2CROSS.COM 6
-      - 🇺🇸 美国 洛杉矶 2
-      - 🇺🇸 美国 CloudFlare节点 62
-      - 🇺🇸 美国 CloudFlare节点 63
-      - 🇺🇸 美国 V2CROSS.COM 7
-      - 🇺🇸 美国 CloudFlare节点 64
-      - 🇺🇸 美国 V2CROSS.COM 8
-      - 🇺🇸 美国 阿里云 2
-      - 🇨🇳 广东省广州市 电信
-      - 🇨🇳 广东省广州市 电信 2
-      - 🇨🇳 广东省广州市 电信 3
-      - 🇨🇳 广东省广州市 电信 4
-      - 🇨🇳 广东省广州市 电信 5
+      - 🇭🇰 Hong Kong 01
+      - 🇭🇰 Hong Kong 02
+      - 🇭🇰 Hong Kong 03
+      - 🇭🇰 Hong Kong 04
+      - 🇭🇰 Hong Kong 05
+      - 🇭🇰 Hong Kong 06
+      - 🇭🇰 Hong Kong 07
+      - 🇭🇰 Hong Kong 08
+      - 🇭🇰 Hong Kong 09
+      - 🇭🇰 Hong Kong 10
+      - 🇭🇰 Hong Kong 11
+      - 🇭🇰 Hong Kong 12
+      - 🇭🇰 Hong Kong 13
+      - 🇭🇰 Hong Kong 14
+      - 🇭🇰 Hong Kong 15
+      - 🇭🇰 Hong Kong 16
+      - 🇭🇰 Hong Kong 17
+      - 🇭🇰 Hong Kong 18
+      - 🇭🇰 Hong Kong 19
+      - 🇭🇰 Hong Kong 20
+      - 🇭🇰 Hong Kong 21
+      - 🇭🇰 Hong Kong 22
+      - 🇭🇰 Hong Kong 23
+      - 🇭🇰 Hong Kong 24
+      - 🇭🇰 Hong Kong 25
+      - 🇭🇰 Hong Kong 26
+      - 🇭🇰 Hong Kong 27
+      - 🇭🇰 Hong Kong 28
+      - 🇭🇰 Hong Kong 29
+      - 🇭🇰 Hong Kong 30
+      - 🇭🇰 Hong Kong 31
+      - 🇭🇰 Hong Kong 32
+      - 🇭🇰 Hong Kong 33
+      - 🇭🇰 Hong Kong 34
+      - 🇭🇰 Hong Kong 35
+      - 🇨🇳 Taiwan 01
+      - 🇨🇳 Taiwan 02
+      - 🇨🇳 Taiwan 03
+      - 🇨🇳 Taiwan 04
+      - 🇨🇳 Taiwan 05
+      - 🇨🇳 Taiwan 06
+      - 🇨🇳 Taiwan 07
+      - 🇯🇵 Japan 01��쥪�
+      - 🇯🇵 Japan 02��쥪�
+      - 🇯🇵 Japan 03��쥪�
+      - 🇯🇵 Japan 04��쥪�
+      - 🇯🇵 Japan 05��쥪�
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 03
+      - 🇸🇬 Singapore 04
+      - 🇸🇬 Singapore 05
+      - 🇸🇬 Singapore 06
+      - 🇸🇬 Singapore 07
+      - 🇸🇬 Singapore 08
+      - 🇸🇬 Singapore 09
+      - 🇸🇬 Singapore 10
+      - 🇸🇬 Singapore 11
+      - 🇸🇬 Singapore 12
+      - 🇸🇬 Singapore 13
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 广东省佛山市 移动
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 湖北省 移动(全省通用)
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 CloudFlare节点 5
-      - 🇺🇸 美国 CloudFlare节点 6
-      - 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房
-      - 🇺🇸 美国 CloudFlare节点 7
-      - 🇦🇺 澳大利亚 Melbourne Girls College
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
-      - 🇺🇸 美国 CloudFlare节点 8
-      - 🇺🇸 美国 CloudFlare节点 9
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇩🇪 德国 Cloudinnovation数据中心
-      - 🇺🇸 美国 CloudFlare节点 11
-      - 🇺🇸 美国 CloudFlare节点 12
-      - 🇺🇸 美国 CloudFlare节点 13
-      - 🇺🇸 美国 CloudFlare节点 14
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 CloudFlare节点 15
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 2
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇨🇳 中国 阿里云
-      - 🇬🇧 英国 伦敦Linode数据中心
-      - 🇺🇸 美国 阿里云
-      - 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 16
-      - 🇺🇸 美国 CloudFlare节点 17
-      - 🇺🇸 美国 CloudFlare节点 18
-      - 🇺🇸 美国 CloudFlare节点 19
-      - 🇺🇸 美国 CloudFlare节点 20
-      - 🇺🇸 美国 CloudFlare节点 21
-      - 🇺🇸 美国 CloudFlare节点 22
-      - 🇺🇸 美国 CloudFlare节点 23
-      - 🇺🇸 美国 CloudFlare节点 24
-      - 🇺🇸 美国 CloudFlare节点 25
-      - 🇺🇸 美国 CloudFlare节点 26
-      - 🇺🇸 美国 CloudFlare节点 27
-      - 🇺🇸 美国 CloudFlare节点 28
-      - 🇺🇸 美国 CloudFlare节点 29
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 3
-      - 🇺🇸 美国 CloudFlare节点 30
-      - 🇺🇸 美国 CloudFlare节点 31
-      - 🇺🇸 美国 CloudFlare节点 32
-      - 🇺🇸 美国 CloudFlare节点 33
-      - 🇺🇸 美国 CloudFlare节点 34
-      - 🇺🇸 美国 CloudFlare节点 35
-      - 🇺🇸 美国 CloudFlare节点 36
-      - 🇺🇸 美国 CloudFlare节点 37
-      - 🇺🇸 美国 CloudFlare节点 38
-      - 🇺🇸 美国 CloudFlare节点 39
-      - 🇺🇸 美国 CloudFlare节点 40
-      - 🇺🇸 美国 CloudFlare节点 41
-      - 🇺🇸 美国 CloudFlare节点 42
-      - 🇺🇸 美国 CloudFlare节点 43
-      - 🇺🇸 美国 CloudFlare节点 44
-      - 🇺🇸 美国 CloudFlare节点 45
-      - 🇺🇸 美国 CloudFlare节点 46
-      - 🇺🇸 美国 CloudFlare节点 47
-      - 🇨🇳 广东省深圳市 移动
-      - 🇺🇸 美国 V2CROSS.COM 4
-      - 🇺🇸 美国 CloudFlare节点 48
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 4
-      - 🇺🇸 美国 CloudFlare节点 49
-      - 🇺🇸 美国 CloudFlare节点 50
-      - 🇺🇸 美国 CloudFlare节点 51
-      - 🇺🇸 美国 CloudFlare节点 52
-      - 🇺🇸 美国 CloudFlare节点 53
-      - 🇺🇸 美国 CloudFlare节点 54
-      - 🇺🇸 美国 CloudFlare节点 55
-      - 🇺🇸 美国 CloudFlare节点 56
-      - 🇺🇸 美国 CloudFlare节点 57
-      - 🇺🇸 美国 CloudFlare节点 58
-      - 🇺🇸 美国 CloudFlare节点 59
-      - 🇺🇸 美国 CloudFlare节点 60
-      - 🇺🇸 美国 洛杉矶
-      - 🇳🇱 荷兰 北荷兰省阿姆斯特丹Sharktech数据中心
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心 2
-      - 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 5
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 6
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 7
-      - 🇺🇸 美国 CloudFlare节点 61
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心 3
-      - 🇺🇸 美国 V2CROSS.COM 5
-      - 🇺🇸 美国 V2CROSS.COM 6
-      - 🇺🇸 美国 洛杉矶 2
-      - 🇺🇸 美国 CloudFlare节点 62
-      - 🇺🇸 美国 CloudFlare节点 63
-      - 🇺🇸 美国 V2CROSS.COM 7
-      - 🇺🇸 美国 CloudFlare节点 64
-      - 🇺🇸 美国 V2CROSS.COM 8
-      - 🇺🇸 美国 阿里云 2
-      - 🇨🇳 广东省广州市 电信
-      - 🇨🇳 广东省广州市 电信 2
-      - 🇨🇳 广东省广州市 电信 3
-      - 🇨🇳 广东省广州市 电信 4
-      - 🇨🇳 广东省广州市 电信 5
+      - 🇭🇰 Hong Kong 01
+      - 🇭🇰 Hong Kong 02
+      - 🇭🇰 Hong Kong 03
+      - 🇭🇰 Hong Kong 04
+      - 🇭🇰 Hong Kong 05
+      - 🇭🇰 Hong Kong 06
+      - 🇭🇰 Hong Kong 07
+      - 🇭🇰 Hong Kong 08
+      - 🇭🇰 Hong Kong 09
+      - 🇭🇰 Hong Kong 10
+      - 🇭🇰 Hong Kong 11
+      - 🇭🇰 Hong Kong 12
+      - 🇭🇰 Hong Kong 13
+      - 🇭🇰 Hong Kong 14
+      - 🇭🇰 Hong Kong 15
+      - 🇭🇰 Hong Kong 16
+      - 🇭🇰 Hong Kong 17
+      - 🇭🇰 Hong Kong 18
+      - 🇭🇰 Hong Kong 19
+      - 🇭🇰 Hong Kong 20
+      - 🇭🇰 Hong Kong 21
+      - 🇭🇰 Hong Kong 22
+      - 🇭🇰 Hong Kong 23
+      - 🇭🇰 Hong Kong 24
+      - 🇭🇰 Hong Kong 25
+      - 🇭🇰 Hong Kong 26
+      - 🇭🇰 Hong Kong 27
+      - 🇭🇰 Hong Kong 28
+      - 🇭🇰 Hong Kong 29
+      - 🇭🇰 Hong Kong 30
+      - 🇭🇰 Hong Kong 31
+      - 🇭🇰 Hong Kong 32
+      - 🇭🇰 Hong Kong 33
+      - 🇭🇰 Hong Kong 34
+      - 🇭🇰 Hong Kong 35
+      - 🇨🇳 Taiwan 01
+      - 🇨🇳 Taiwan 02
+      - 🇨🇳 Taiwan 03
+      - 🇨🇳 Taiwan 04
+      - 🇨🇳 Taiwan 05
+      - 🇨🇳 Taiwan 06
+      - 🇨🇳 Taiwan 07
+      - 🇯🇵 Japan 01��쥪�
+      - 🇯🇵 Japan 02��쥪�
+      - 🇯🇵 Japan 03��쥪�
+      - 🇯🇵 Japan 04��쥪�
+      - 🇯🇵 Japan 05��쥪�
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 03
+      - 🇸🇬 Singapore 04
+      - 🇸🇬 Singapore 05
+      - 🇸🇬 Singapore 06
+      - 🇸🇬 Singapore 07
+      - 🇸🇬 Singapore 08
+      - 🇸🇬 Singapore 09
+      - 🇸🇬 Singapore 10
+      - 🇸🇬 Singapore 11
+      - 🇸🇬 Singapore 12
+      - 🇸🇬 Singapore 13
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -452,109 +280,66 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 广东省佛山市 移动
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 湖北省 移动(全省通用)
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 CloudFlare节点 5
-      - 🇺🇸 美国 CloudFlare节点 6
-      - 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房
-      - 🇺🇸 美国 CloudFlare节点 7
-      - 🇦🇺 澳大利亚 Melbourne Girls College
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
-      - 🇺🇸 美国 CloudFlare节点 8
-      - 🇺🇸 美国 CloudFlare节点 9
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇩🇪 德国 Cloudinnovation数据中心
-      - 🇺🇸 美国 CloudFlare节点 11
-      - 🇺🇸 美国 CloudFlare节点 12
-      - 🇺🇸 美国 CloudFlare节点 13
-      - 🇺🇸 美国 CloudFlare节点 14
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 CloudFlare节点 15
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 2
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇨🇳 中国 阿里云
-      - 🇬🇧 英国 伦敦Linode数据中心
-      - 🇺🇸 美国 阿里云
-      - 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 16
-      - 🇺🇸 美国 CloudFlare节点 17
-      - 🇺🇸 美国 CloudFlare节点 18
-      - 🇺🇸 美国 CloudFlare节点 19
-      - 🇺🇸 美国 CloudFlare节点 20
-      - 🇺🇸 美国 CloudFlare节点 21
-      - 🇺🇸 美国 CloudFlare节点 22
-      - 🇺🇸 美国 CloudFlare节点 23
-      - 🇺🇸 美国 CloudFlare节点 24
-      - 🇺🇸 美国 CloudFlare节点 25
-      - 🇺🇸 美国 CloudFlare节点 26
-      - 🇺🇸 美国 CloudFlare节点 27
-      - 🇺🇸 美国 CloudFlare节点 28
-      - 🇺🇸 美国 CloudFlare节点 29
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 3
-      - 🇺🇸 美国 CloudFlare节点 30
-      - 🇺🇸 美国 CloudFlare节点 31
-      - 🇺🇸 美国 CloudFlare节点 32
-      - 🇺🇸 美国 CloudFlare节点 33
-      - 🇺🇸 美国 CloudFlare节点 34
-      - 🇺🇸 美国 CloudFlare节点 35
-      - 🇺🇸 美国 CloudFlare节点 36
-      - 🇺🇸 美国 CloudFlare节点 37
-      - 🇺🇸 美国 CloudFlare节点 38
-      - 🇺🇸 美国 CloudFlare节点 39
-      - 🇺🇸 美国 CloudFlare节点 40
-      - 🇺🇸 美国 CloudFlare节点 41
-      - 🇺🇸 美国 CloudFlare节点 42
-      - 🇺🇸 美国 CloudFlare节点 43
-      - 🇺🇸 美国 CloudFlare节点 44
-      - 🇺🇸 美国 CloudFlare节点 45
-      - 🇺🇸 美国 CloudFlare节点 46
-      - 🇺🇸 美国 CloudFlare节点 47
-      - 🇨🇳 广东省深圳市 移动
-      - 🇺🇸 美国 V2CROSS.COM 4
-      - 🇺🇸 美国 CloudFlare节点 48
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 4
-      - 🇺🇸 美国 CloudFlare节点 49
-      - 🇺🇸 美国 CloudFlare节点 50
-      - 🇺🇸 美国 CloudFlare节点 51
-      - 🇺🇸 美国 CloudFlare节点 52
-      - 🇺🇸 美国 CloudFlare节点 53
-      - 🇺🇸 美国 CloudFlare节点 54
-      - 🇺🇸 美国 CloudFlare节点 55
-      - 🇺🇸 美国 CloudFlare节点 56
-      - 🇺🇸 美国 CloudFlare节点 57
-      - 🇺🇸 美国 CloudFlare节点 58
-      - 🇺🇸 美国 CloudFlare节点 59
-      - 🇺🇸 美国 CloudFlare节点 60
-      - 🇺🇸 美国 洛杉矶
-      - 🇳🇱 荷兰 北荷兰省阿姆斯特丹Sharktech数据中心
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心 2
-      - 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 5
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 6
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 7
-      - 🇺🇸 美国 CloudFlare节点 61
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心 3
-      - 🇺🇸 美国 V2CROSS.COM 5
-      - 🇺🇸 美国 V2CROSS.COM 6
-      - 🇺🇸 美国 洛杉矶 2
-      - 🇺🇸 美国 CloudFlare节点 62
-      - 🇺🇸 美国 CloudFlare节点 63
-      - 🇺🇸 美国 V2CROSS.COM 7
-      - 🇺🇸 美国 CloudFlare节点 64
-      - 🇺🇸 美国 V2CROSS.COM 8
-      - 🇺🇸 美国 阿里云 2
-      - 🇨🇳 广东省广州市 电信
-      - 🇨🇳 广东省广州市 电信 2
-      - 🇨🇳 广东省广州市 电信 3
-      - 🇨🇳 广东省广州市 电信 4
-      - 🇨🇳 广东省广州市 电信 5
+      - 🇭🇰 Hong Kong 01
+      - 🇭🇰 Hong Kong 02
+      - 🇭🇰 Hong Kong 03
+      - 🇭🇰 Hong Kong 04
+      - 🇭🇰 Hong Kong 05
+      - 🇭🇰 Hong Kong 06
+      - 🇭🇰 Hong Kong 07
+      - 🇭🇰 Hong Kong 08
+      - 🇭🇰 Hong Kong 09
+      - 🇭🇰 Hong Kong 10
+      - 🇭🇰 Hong Kong 11
+      - 🇭🇰 Hong Kong 12
+      - 🇭🇰 Hong Kong 13
+      - 🇭🇰 Hong Kong 14
+      - 🇭🇰 Hong Kong 15
+      - 🇭🇰 Hong Kong 16
+      - 🇭🇰 Hong Kong 17
+      - 🇭🇰 Hong Kong 18
+      - 🇭🇰 Hong Kong 19
+      - 🇭🇰 Hong Kong 20
+      - 🇭🇰 Hong Kong 21
+      - 🇭🇰 Hong Kong 22
+      - 🇭🇰 Hong Kong 23
+      - 🇭🇰 Hong Kong 24
+      - 🇭🇰 Hong Kong 25
+      - 🇭🇰 Hong Kong 26
+      - 🇭🇰 Hong Kong 27
+      - 🇭🇰 Hong Kong 28
+      - 🇭🇰 Hong Kong 29
+      - 🇭🇰 Hong Kong 30
+      - 🇭🇰 Hong Kong 31
+      - 🇭🇰 Hong Kong 32
+      - 🇭🇰 Hong Kong 33
+      - 🇭🇰 Hong Kong 34
+      - 🇭🇰 Hong Kong 35
+      - 🇨🇳 Taiwan 01
+      - 🇨🇳 Taiwan 02
+      - 🇨🇳 Taiwan 03
+      - 🇨🇳 Taiwan 04
+      - 🇨🇳 Taiwan 05
+      - 🇨🇳 Taiwan 06
+      - 🇨🇳 Taiwan 07
+      - 🇯🇵 Japan 01��쥪�
+      - 🇯🇵 Japan 02��쥪�
+      - 🇯🇵 Japan 03��쥪�
+      - 🇯🇵 Japan 04��쥪�
+      - 🇯🇵 Japan 05��쥪�
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 03
+      - 🇸🇬 Singapore 04
+      - 🇸🇬 Singapore 05
+      - 🇸🇬 Singapore 06
+      - 🇸🇬 Singapore 07
+      - 🇸🇬 Singapore 08
+      - 🇸🇬 Singapore 09
+      - 🇸🇬 Singapore 10
+      - 🇸🇬 Singapore 11
+      - 🇸🇬 Singapore 12
+      - 🇸🇬 Singapore 13
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -565,326 +350,197 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 广东省佛山市 移动
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 湖北省 移动(全省通用)
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 CloudFlare节点 5
-      - 🇺🇸 美国 CloudFlare节点 6
-      - 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房
-      - 🇺🇸 美国 CloudFlare节点 7
-      - 🇦🇺 澳大利亚 Melbourne Girls College
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
-      - 🇺🇸 美国 CloudFlare节点 8
-      - 🇺🇸 美国 CloudFlare节点 9
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇩🇪 德国 Cloudinnovation数据中心
-      - 🇺🇸 美国 CloudFlare节点 11
-      - 🇺🇸 美国 CloudFlare节点 12
-      - 🇺🇸 美国 CloudFlare节点 13
-      - 🇺🇸 美国 CloudFlare节点 14
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 CloudFlare节点 15
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 2
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇨🇳 中国 阿里云
-      - 🇬🇧 英国 伦敦Linode数据中心
-      - 🇺🇸 美国 阿里云
-      - 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 16
-      - 🇺🇸 美国 CloudFlare节点 17
-      - 🇺🇸 美国 CloudFlare节点 18
-      - 🇺🇸 美国 CloudFlare节点 19
-      - 🇺🇸 美国 CloudFlare节点 20
-      - 🇺🇸 美国 CloudFlare节点 21
-      - 🇺🇸 美国 CloudFlare节点 22
-      - 🇺🇸 美国 CloudFlare节点 23
-      - 🇺🇸 美国 CloudFlare节点 24
-      - 🇺🇸 美国 CloudFlare节点 25
-      - 🇺🇸 美国 CloudFlare节点 26
-      - 🇺🇸 美国 CloudFlare节点 27
-      - 🇺🇸 美国 CloudFlare节点 28
-      - 🇺🇸 美国 CloudFlare节点 29
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 3
-      - 🇺🇸 美国 CloudFlare节点 30
-      - 🇺🇸 美国 CloudFlare节点 31
-      - 🇺🇸 美国 CloudFlare节点 32
-      - 🇺🇸 美国 CloudFlare节点 33
-      - 🇺🇸 美国 CloudFlare节点 34
-      - 🇺🇸 美国 CloudFlare节点 35
-      - 🇺🇸 美国 CloudFlare节点 36
-      - 🇺🇸 美国 CloudFlare节点 37
-      - 🇺🇸 美国 CloudFlare节点 38
-      - 🇺🇸 美国 CloudFlare节点 39
-      - 🇺🇸 美国 CloudFlare节点 40
-      - 🇺🇸 美国 CloudFlare节点 41
-      - 🇺🇸 美国 CloudFlare节点 42
-      - 🇺🇸 美国 CloudFlare节点 43
-      - 🇺🇸 美国 CloudFlare节点 44
-      - 🇺🇸 美国 CloudFlare节点 45
-      - 🇺🇸 美国 CloudFlare节点 46
-      - 🇺🇸 美国 CloudFlare节点 47
-      - 🇨🇳 广东省深圳市 移动
-      - 🇺🇸 美国 V2CROSS.COM 4
-      - 🇺🇸 美国 CloudFlare节点 48
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 4
-      - 🇺🇸 美国 CloudFlare节点 49
-      - 🇺🇸 美国 CloudFlare节点 50
-      - 🇺🇸 美国 CloudFlare节点 51
-      - 🇺🇸 美国 CloudFlare节点 52
-      - 🇺🇸 美国 CloudFlare节点 53
-      - 🇺🇸 美国 CloudFlare节点 54
-      - 🇺🇸 美国 CloudFlare节点 55
-      - 🇺🇸 美国 CloudFlare节点 56
-      - 🇺🇸 美国 CloudFlare节点 57
-      - 🇺🇸 美国 CloudFlare节点 58
-      - 🇺🇸 美国 CloudFlare节点 59
-      - 🇺🇸 美国 CloudFlare节点 60
-      - 🇺🇸 美国 洛杉矶
-      - 🇳🇱 荷兰 北荷兰省阿姆斯特丹Sharktech数据中心
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心 2
-      - 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 5
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 6
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 7
-      - 🇺🇸 美国 CloudFlare节点 61
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心 3
-      - 🇺🇸 美国 V2CROSS.COM 5
-      - 🇺🇸 美国 V2CROSS.COM 6
-      - 🇺🇸 美国 洛杉矶 2
-      - 🇺🇸 美国 CloudFlare节点 62
-      - 🇺🇸 美国 CloudFlare节点 63
-      - 🇺🇸 美国 V2CROSS.COM 7
-      - 🇺🇸 美国 CloudFlare节点 64
-      - 🇺🇸 美国 V2CROSS.COM 8
-      - 🇺🇸 美国 阿里云 2
-      - 🇨🇳 广东省广州市 电信
-      - 🇨🇳 广东省广州市 电信 2
-      - 🇨🇳 广东省广州市 电信 3
-      - 🇨🇳 广东省广州市 电信 4
-      - 🇨🇳 广东省广州市 电信 5
+      - 🇭🇰 Hong Kong 01
+      - 🇭🇰 Hong Kong 02
+      - 🇭🇰 Hong Kong 03
+      - 🇭🇰 Hong Kong 04
+      - 🇭🇰 Hong Kong 05
+      - 🇭🇰 Hong Kong 06
+      - 🇭🇰 Hong Kong 07
+      - 🇭🇰 Hong Kong 08
+      - 🇭🇰 Hong Kong 09
+      - 🇭🇰 Hong Kong 10
+      - 🇭🇰 Hong Kong 11
+      - 🇭🇰 Hong Kong 12
+      - 🇭🇰 Hong Kong 13
+      - 🇭🇰 Hong Kong 14
+      - 🇭🇰 Hong Kong 15
+      - 🇭🇰 Hong Kong 16
+      - 🇭🇰 Hong Kong 17
+      - 🇭🇰 Hong Kong 18
+      - 🇭🇰 Hong Kong 19
+      - 🇭🇰 Hong Kong 20
+      - 🇭🇰 Hong Kong 21
+      - 🇭🇰 Hong Kong 22
+      - 🇭🇰 Hong Kong 23
+      - 🇭🇰 Hong Kong 24
+      - 🇭🇰 Hong Kong 25
+      - 🇭🇰 Hong Kong 26
+      - 🇭🇰 Hong Kong 27
+      - 🇭🇰 Hong Kong 28
+      - 🇭🇰 Hong Kong 29
+      - 🇭🇰 Hong Kong 30
+      - 🇭🇰 Hong Kong 31
+      - 🇭🇰 Hong Kong 32
+      - 🇭🇰 Hong Kong 33
+      - 🇭🇰 Hong Kong 34
+      - 🇭🇰 Hong Kong 35
+      - 🇨🇳 Taiwan 01
+      - 🇨🇳 Taiwan 02
+      - 🇨🇳 Taiwan 03
+      - 🇨🇳 Taiwan 04
+      - 🇨🇳 Taiwan 05
+      - 🇨🇳 Taiwan 06
+      - 🇨🇳 Taiwan 07
+      - 🇯🇵 Japan 01��쥪�
+      - 🇯🇵 Japan 02��쥪�
+      - 🇯🇵 Japan 03��쥪�
+      - 🇯🇵 Japan 04��쥪�
+      - 🇯🇵 Japan 05��쥪�
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 03
+      - 🇸🇬 Singapore 04
+      - 🇸🇬 Singapore 05
+      - 🇸🇬 Singapore 06
+      - 🇸🇬 Singapore 07
+      - 🇸🇬 Singapore 08
+      - 🇸🇬 Singapore 09
+      - 🇸🇬 Singapore 10
+      - 🇸🇬 Singapore 11
+      - 🇸🇬 Singapore 12
+      - 🇸🇬 Singapore 13
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 广东省佛山市 移动
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 湖北省 移动(全省通用)
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 CloudFlare节点 5
-      - 🇺🇸 美国 CloudFlare节点 6
-      - 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房
-      - 🇺🇸 美国 CloudFlare节点 7
-      - 🇦🇺 澳大利亚 Melbourne Girls College
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
-      - 🇺🇸 美国 CloudFlare节点 8
-      - 🇺🇸 美国 CloudFlare节点 9
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇩🇪 德国 Cloudinnovation数据中心
-      - 🇺🇸 美国 CloudFlare节点 11
-      - 🇺🇸 美国 CloudFlare节点 12
-      - 🇺🇸 美国 CloudFlare节点 13
-      - 🇺🇸 美国 CloudFlare节点 14
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 CloudFlare节点 15
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 2
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇨🇳 中国 阿里云
-      - 🇬🇧 英国 伦敦Linode数据中心
-      - 🇺🇸 美国 阿里云
-      - 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 16
-      - 🇺🇸 美国 CloudFlare节点 17
-      - 🇺🇸 美国 CloudFlare节点 18
-      - 🇺🇸 美国 CloudFlare节点 19
-      - 🇺🇸 美国 CloudFlare节点 20
-      - 🇺🇸 美国 CloudFlare节点 21
-      - 🇺🇸 美国 CloudFlare节点 22
-      - 🇺🇸 美国 CloudFlare节点 23
-      - 🇺🇸 美国 CloudFlare节点 24
-      - 🇺🇸 美国 CloudFlare节点 25
-      - 🇺🇸 美国 CloudFlare节点 26
-      - 🇺🇸 美国 CloudFlare节点 27
-      - 🇺🇸 美国 CloudFlare节点 28
-      - 🇺🇸 美国 CloudFlare节点 29
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 3
-      - 🇺🇸 美国 CloudFlare节点 30
-      - 🇺🇸 美国 CloudFlare节点 31
-      - 🇺🇸 美国 CloudFlare节点 32
-      - 🇺🇸 美国 CloudFlare节点 33
-      - 🇺🇸 美国 CloudFlare节点 34
-      - 🇺🇸 美国 CloudFlare节点 35
-      - 🇺🇸 美国 CloudFlare节点 36
-      - 🇺🇸 美国 CloudFlare节点 37
-      - 🇺🇸 美国 CloudFlare节点 38
-      - 🇺🇸 美国 CloudFlare节点 39
-      - 🇺🇸 美国 CloudFlare节点 40
-      - 🇺🇸 美国 CloudFlare节点 41
-      - 🇺🇸 美国 CloudFlare节点 42
-      - 🇺🇸 美国 CloudFlare节点 43
-      - 🇺🇸 美国 CloudFlare节点 44
-      - 🇺🇸 美国 CloudFlare节点 45
-      - 🇺🇸 美国 CloudFlare节点 46
-      - 🇺🇸 美国 CloudFlare节点 47
-      - 🇨🇳 广东省深圳市 移动
-      - 🇺🇸 美国 V2CROSS.COM 4
-      - 🇺🇸 美国 CloudFlare节点 48
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 4
-      - 🇺🇸 美国 CloudFlare节点 49
-      - 🇺🇸 美国 CloudFlare节点 50
-      - 🇺🇸 美国 CloudFlare节点 51
-      - 🇺🇸 美国 CloudFlare节点 52
-      - 🇺🇸 美国 CloudFlare节点 53
-      - 🇺🇸 美国 CloudFlare节点 54
-      - 🇺🇸 美国 CloudFlare节点 55
-      - 🇺🇸 美国 CloudFlare节点 56
-      - 🇺🇸 美国 CloudFlare节点 57
-      - 🇺🇸 美国 CloudFlare节点 58
-      - 🇺🇸 美国 CloudFlare节点 59
-      - 🇺🇸 美国 CloudFlare节点 60
-      - 🇺🇸 美国 洛杉矶
-      - 🇳🇱 荷兰 北荷兰省阿姆斯特丹Sharktech数据中心
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心 2
-      - 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 5
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 6
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 7
-      - 🇺🇸 美国 CloudFlare节点 61
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心 3
-      - 🇺🇸 美国 V2CROSS.COM 5
-      - 🇺🇸 美国 V2CROSS.COM 6
-      - 🇺🇸 美国 洛杉矶 2
-      - 🇺🇸 美国 CloudFlare节点 62
-      - 🇺🇸 美国 CloudFlare节点 63
-      - 🇺🇸 美国 V2CROSS.COM 7
-      - 🇺🇸 美国 CloudFlare节点 64
-      - 🇺🇸 美国 V2CROSS.COM 8
-      - 🇺🇸 美国 阿里云 2
-      - 🇨🇳 广东省广州市 电信
-      - 🇨🇳 广东省广州市 电信 2
-      - 🇨🇳 广东省广州市 电信 3
-      - 🇨🇳 广东省广州市 电信 4
-      - 🇨🇳 广东省广州市 电信 5
+      - 🇭🇰 Hong Kong 01
+      - 🇭🇰 Hong Kong 02
+      - 🇭🇰 Hong Kong 03
+      - 🇭🇰 Hong Kong 04
+      - 🇭🇰 Hong Kong 05
+      - 🇭🇰 Hong Kong 06
+      - 🇭🇰 Hong Kong 07
+      - 🇭🇰 Hong Kong 08
+      - 🇭🇰 Hong Kong 09
+      - 🇭🇰 Hong Kong 10
+      - 🇭🇰 Hong Kong 11
+      - 🇭🇰 Hong Kong 12
+      - 🇭🇰 Hong Kong 13
+      - 🇭🇰 Hong Kong 14
+      - 🇭🇰 Hong Kong 15
+      - 🇭🇰 Hong Kong 16
+      - 🇭🇰 Hong Kong 17
+      - 🇭🇰 Hong Kong 18
+      - 🇭🇰 Hong Kong 19
+      - 🇭🇰 Hong Kong 20
+      - 🇭🇰 Hong Kong 21
+      - 🇭🇰 Hong Kong 22
+      - 🇭🇰 Hong Kong 23
+      - 🇭🇰 Hong Kong 24
+      - 🇭🇰 Hong Kong 25
+      - 🇭🇰 Hong Kong 26
+      - 🇭🇰 Hong Kong 27
+      - 🇭🇰 Hong Kong 28
+      - 🇭🇰 Hong Kong 29
+      - 🇭🇰 Hong Kong 30
+      - 🇭🇰 Hong Kong 31
+      - 🇭🇰 Hong Kong 32
+      - 🇭🇰 Hong Kong 33
+      - 🇭🇰 Hong Kong 34
+      - 🇭🇰 Hong Kong 35
+      - 🇨🇳 Taiwan 01
+      - 🇨🇳 Taiwan 02
+      - 🇨🇳 Taiwan 03
+      - 🇨🇳 Taiwan 04
+      - 🇨🇳 Taiwan 05
+      - 🇨🇳 Taiwan 06
+      - 🇨🇳 Taiwan 07
+      - 🇯🇵 Japan 01��쥪�
+      - 🇯🇵 Japan 02��쥪�
+      - 🇯🇵 Japan 03��쥪�
+      - 🇯🇵 Japan 04��쥪�
+      - 🇯🇵 Japan 05��쥪�
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 03
+      - 🇸🇬 Singapore 04
+      - 🇸🇬 Singapore 05
+      - 🇸🇬 Singapore 06
+      - 🇸🇬 Singapore 07
+      - 🇸🇬 Singapore 08
+      - 🇸🇬 Singapore 09
+      - 🇸🇬 Singapore 10
+      - 🇸🇬 Singapore 11
+      - 🇸🇬 Singapore 12
+      - 🇸🇬 Singapore 13
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 广东省佛山市 移动
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 湖北省 移动(全省通用)
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 CloudFlare节点 5
-      - 🇺🇸 美国 CloudFlare节点 6
-      - 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房
-      - 🇺🇸 美国 CloudFlare节点 7
-      - 🇦🇺 澳大利亚 Melbourne Girls College
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
-      - 🇺🇸 美国 CloudFlare节点 8
-      - 🇺🇸 美国 CloudFlare节点 9
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇩🇪 德国 Cloudinnovation数据中心
-      - 🇺🇸 美国 CloudFlare节点 11
-      - 🇺🇸 美国 CloudFlare节点 12
-      - 🇺🇸 美国 CloudFlare节点 13
-      - 🇺🇸 美国 CloudFlare节点 14
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 CloudFlare节点 15
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 2
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇨🇳 中国 阿里云
-      - 🇬🇧 英国 伦敦Linode数据中心
-      - 🇺🇸 美国 阿里云
-      - 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 16
-      - 🇺🇸 美国 CloudFlare节点 17
-      - 🇺🇸 美国 CloudFlare节点 18
-      - 🇺🇸 美国 CloudFlare节点 19
-      - 🇺🇸 美国 CloudFlare节点 20
-      - 🇺🇸 美国 CloudFlare节点 21
-      - 🇺🇸 美国 CloudFlare节点 22
-      - 🇺🇸 美国 CloudFlare节点 23
-      - 🇺🇸 美国 CloudFlare节点 24
-      - 🇺🇸 美国 CloudFlare节点 25
-      - 🇺🇸 美国 CloudFlare节点 26
-      - 🇺🇸 美国 CloudFlare节点 27
-      - 🇺🇸 美国 CloudFlare节点 28
-      - 🇺🇸 美国 CloudFlare节点 29
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 3
-      - 🇺🇸 美国 CloudFlare节点 30
-      - 🇺🇸 美国 CloudFlare节点 31
-      - 🇺🇸 美国 CloudFlare节点 32
-      - 🇺🇸 美国 CloudFlare节点 33
-      - 🇺🇸 美国 CloudFlare节点 34
-      - 🇺🇸 美国 CloudFlare节点 35
-      - 🇺🇸 美国 CloudFlare节点 36
-      - 🇺🇸 美国 CloudFlare节点 37
-      - 🇺🇸 美国 CloudFlare节点 38
-      - 🇺🇸 美国 CloudFlare节点 39
-      - 🇺🇸 美国 CloudFlare节点 40
-      - 🇺🇸 美国 CloudFlare节点 41
-      - 🇺🇸 美国 CloudFlare节点 42
-      - 🇺🇸 美国 CloudFlare节点 43
-      - 🇺🇸 美国 CloudFlare节点 44
-      - 🇺🇸 美国 CloudFlare节点 45
-      - 🇺🇸 美国 CloudFlare节点 46
-      - 🇺🇸 美国 CloudFlare节点 47
-      - 🇨🇳 广东省深圳市 移动
-      - 🇺🇸 美国 V2CROSS.COM 4
-      - 🇺🇸 美国 CloudFlare节点 48
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 4
-      - 🇺🇸 美国 CloudFlare节点 49
-      - 🇺🇸 美国 CloudFlare节点 50
-      - 🇺🇸 美国 CloudFlare节点 51
-      - 🇺🇸 美国 CloudFlare节点 52
-      - 🇺🇸 美国 CloudFlare节点 53
-      - 🇺🇸 美国 CloudFlare节点 54
-      - 🇺🇸 美国 CloudFlare节点 55
-      - 🇺🇸 美国 CloudFlare节点 56
-      - 🇺🇸 美国 CloudFlare节点 57
-      - 🇺🇸 美国 CloudFlare节点 58
-      - 🇺🇸 美国 CloudFlare节点 59
-      - 🇺🇸 美国 CloudFlare节点 60
-      - 🇺🇸 美国 洛杉矶
-      - 🇳🇱 荷兰 北荷兰省阿姆斯特丹Sharktech数据中心
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心 2
-      - 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 5
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 6
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 7
-      - 🇺🇸 美国 CloudFlare节点 61
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心 3
-      - 🇺🇸 美国 V2CROSS.COM 5
-      - 🇺🇸 美国 V2CROSS.COM 6
-      - 🇺🇸 美国 洛杉矶 2
-      - 🇺🇸 美国 CloudFlare节点 62
-      - 🇺🇸 美国 CloudFlare节点 63
-      - 🇺🇸 美国 V2CROSS.COM 7
-      - 🇺🇸 美国 CloudFlare节点 64
-      - 🇺🇸 美国 V2CROSS.COM 8
-      - 🇺🇸 美国 阿里云 2
-      - 🇨🇳 广东省广州市 电信
-      - 🇨🇳 广东省广州市 电信 2
-      - 🇨🇳 广东省广州市 电信 3
-      - 🇨🇳 广东省广州市 电信 4
-      - 🇨🇳 广东省广州市 电信 5
+      - 🇭🇰 Hong Kong 01
+      - 🇭🇰 Hong Kong 02
+      - 🇭🇰 Hong Kong 03
+      - 🇭🇰 Hong Kong 04
+      - 🇭🇰 Hong Kong 05
+      - 🇭🇰 Hong Kong 06
+      - 🇭🇰 Hong Kong 07
+      - 🇭🇰 Hong Kong 08
+      - 🇭🇰 Hong Kong 09
+      - 🇭🇰 Hong Kong 10
+      - 🇭🇰 Hong Kong 11
+      - 🇭🇰 Hong Kong 12
+      - 🇭🇰 Hong Kong 13
+      - 🇭🇰 Hong Kong 14
+      - 🇭🇰 Hong Kong 15
+      - 🇭🇰 Hong Kong 16
+      - 🇭🇰 Hong Kong 17
+      - 🇭🇰 Hong Kong 18
+      - 🇭🇰 Hong Kong 19
+      - 🇭🇰 Hong Kong 20
+      - 🇭🇰 Hong Kong 21
+      - 🇭🇰 Hong Kong 22
+      - 🇭🇰 Hong Kong 23
+      - 🇭🇰 Hong Kong 24
+      - 🇭🇰 Hong Kong 25
+      - 🇭🇰 Hong Kong 26
+      - 🇭🇰 Hong Kong 27
+      - 🇭🇰 Hong Kong 28
+      - 🇭🇰 Hong Kong 29
+      - 🇭🇰 Hong Kong 30
+      - 🇭🇰 Hong Kong 31
+      - 🇭🇰 Hong Kong 32
+      - 🇭🇰 Hong Kong 33
+      - 🇭🇰 Hong Kong 34
+      - 🇭🇰 Hong Kong 35
+      - 🇨🇳 Taiwan 01
+      - 🇨🇳 Taiwan 02
+      - 🇨🇳 Taiwan 03
+      - 🇨🇳 Taiwan 04
+      - 🇨🇳 Taiwan 05
+      - 🇨🇳 Taiwan 06
+      - 🇨🇳 Taiwan 07
+      - 🇯🇵 Japan 01��쥪�
+      - 🇯🇵 Japan 02��쥪�
+      - 🇯🇵 Japan 03��쥪�
+      - 🇯🇵 Japan 04��쥪�
+      - 🇯🇵 Japan 05��쥪�
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 03
+      - 🇸🇬 Singapore 04
+      - 🇸🇬 Singapore 05
+      - 🇸🇬 Singapore 06
+      - 🇸🇬 Singapore 07
+      - 🇸🇬 Singapore 08
+      - 🇸🇬 Singapore 09
+      - 🇸🇬 Singapore 10
+      - 🇸🇬 Singapore 11
+      - 🇸🇬 Singapore 12
+      - 🇸🇬 Singapore 13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -900,109 +556,66 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 广东省佛山市 移动
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 湖北省 移动(全省通用)
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 CloudFlare节点 5
-      - 🇺🇸 美国 CloudFlare节点 6
-      - 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房
-      - 🇺🇸 美国 CloudFlare节点 7
-      - 🇦🇺 澳大利亚 Melbourne Girls College
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
-      - 🇺🇸 美国 CloudFlare节点 8
-      - 🇺🇸 美国 CloudFlare节点 9
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇩🇪 德国 Cloudinnovation数据中心
-      - 🇺🇸 美国 CloudFlare节点 11
-      - 🇺🇸 美国 CloudFlare节点 12
-      - 🇺🇸 美国 CloudFlare节点 13
-      - 🇺🇸 美国 CloudFlare节点 14
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 CloudFlare节点 15
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 2
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇨🇳 中国 阿里云
-      - 🇬🇧 英国 伦敦Linode数据中心
-      - 🇺🇸 美国 阿里云
-      - 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 16
-      - 🇺🇸 美国 CloudFlare节点 17
-      - 🇺🇸 美国 CloudFlare节点 18
-      - 🇺🇸 美国 CloudFlare节点 19
-      - 🇺🇸 美国 CloudFlare节点 20
-      - 🇺🇸 美国 CloudFlare节点 21
-      - 🇺🇸 美国 CloudFlare节点 22
-      - 🇺🇸 美国 CloudFlare节点 23
-      - 🇺🇸 美国 CloudFlare节点 24
-      - 🇺🇸 美国 CloudFlare节点 25
-      - 🇺🇸 美国 CloudFlare节点 26
-      - 🇺🇸 美国 CloudFlare节点 27
-      - 🇺🇸 美国 CloudFlare节点 28
-      - 🇺🇸 美国 CloudFlare节点 29
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 3
-      - 🇺🇸 美国 CloudFlare节点 30
-      - 🇺🇸 美国 CloudFlare节点 31
-      - 🇺🇸 美国 CloudFlare节点 32
-      - 🇺🇸 美国 CloudFlare节点 33
-      - 🇺🇸 美国 CloudFlare节点 34
-      - 🇺🇸 美国 CloudFlare节点 35
-      - 🇺🇸 美国 CloudFlare节点 36
-      - 🇺🇸 美国 CloudFlare节点 37
-      - 🇺🇸 美国 CloudFlare节点 38
-      - 🇺🇸 美国 CloudFlare节点 39
-      - 🇺🇸 美国 CloudFlare节点 40
-      - 🇺🇸 美国 CloudFlare节点 41
-      - 🇺🇸 美国 CloudFlare节点 42
-      - 🇺🇸 美国 CloudFlare节点 43
-      - 🇺🇸 美国 CloudFlare节点 44
-      - 🇺🇸 美国 CloudFlare节点 45
-      - 🇺🇸 美国 CloudFlare节点 46
-      - 🇺🇸 美国 CloudFlare节点 47
-      - 🇨🇳 广东省深圳市 移动
-      - 🇺🇸 美国 V2CROSS.COM 4
-      - 🇺🇸 美国 CloudFlare节点 48
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 4
-      - 🇺🇸 美国 CloudFlare节点 49
-      - 🇺🇸 美国 CloudFlare节点 50
-      - 🇺🇸 美国 CloudFlare节点 51
-      - 🇺🇸 美国 CloudFlare节点 52
-      - 🇺🇸 美国 CloudFlare节点 53
-      - 🇺🇸 美国 CloudFlare节点 54
-      - 🇺🇸 美国 CloudFlare节点 55
-      - 🇺🇸 美国 CloudFlare节点 56
-      - 🇺🇸 美国 CloudFlare节点 57
-      - 🇺🇸 美国 CloudFlare节点 58
-      - 🇺🇸 美国 CloudFlare节点 59
-      - 🇺🇸 美国 CloudFlare节点 60
-      - 🇺🇸 美国 洛杉矶
-      - 🇳🇱 荷兰 北荷兰省阿姆斯特丹Sharktech数据中心
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心 2
-      - 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 5
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 6
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 7
-      - 🇺🇸 美国 CloudFlare节点 61
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心 3
-      - 🇺🇸 美国 V2CROSS.COM 5
-      - 🇺🇸 美国 V2CROSS.COM 6
-      - 🇺🇸 美国 洛杉矶 2
-      - 🇺🇸 美国 CloudFlare节点 62
-      - 🇺🇸 美国 CloudFlare节点 63
-      - 🇺🇸 美国 V2CROSS.COM 7
-      - 🇺🇸 美国 CloudFlare节点 64
-      - 🇺🇸 美国 V2CROSS.COM 8
-      - 🇺🇸 美国 阿里云 2
-      - 🇨🇳 广东省广州市 电信
-      - 🇨🇳 广东省广州市 电信 2
-      - 🇨🇳 广东省广州市 电信 3
-      - 🇨🇳 广东省广州市 电信 4
-      - 🇨🇳 广东省广州市 电信 5
+      - 🇭🇰 Hong Kong 01
+      - 🇭🇰 Hong Kong 02
+      - 🇭🇰 Hong Kong 03
+      - 🇭🇰 Hong Kong 04
+      - 🇭🇰 Hong Kong 05
+      - 🇭🇰 Hong Kong 06
+      - 🇭🇰 Hong Kong 07
+      - 🇭🇰 Hong Kong 08
+      - 🇭🇰 Hong Kong 09
+      - 🇭🇰 Hong Kong 10
+      - 🇭🇰 Hong Kong 11
+      - 🇭🇰 Hong Kong 12
+      - 🇭🇰 Hong Kong 13
+      - 🇭🇰 Hong Kong 14
+      - 🇭🇰 Hong Kong 15
+      - 🇭🇰 Hong Kong 16
+      - 🇭🇰 Hong Kong 17
+      - 🇭🇰 Hong Kong 18
+      - 🇭🇰 Hong Kong 19
+      - 🇭🇰 Hong Kong 20
+      - 🇭🇰 Hong Kong 21
+      - 🇭🇰 Hong Kong 22
+      - 🇭🇰 Hong Kong 23
+      - 🇭🇰 Hong Kong 24
+      - 🇭🇰 Hong Kong 25
+      - 🇭🇰 Hong Kong 26
+      - 🇭🇰 Hong Kong 27
+      - 🇭🇰 Hong Kong 28
+      - 🇭🇰 Hong Kong 29
+      - 🇭🇰 Hong Kong 30
+      - 🇭🇰 Hong Kong 31
+      - 🇭🇰 Hong Kong 32
+      - 🇭🇰 Hong Kong 33
+      - 🇭🇰 Hong Kong 34
+      - 🇭🇰 Hong Kong 35
+      - 🇨🇳 Taiwan 01
+      - 🇨🇳 Taiwan 02
+      - 🇨🇳 Taiwan 03
+      - 🇨🇳 Taiwan 04
+      - 🇨🇳 Taiwan 05
+      - 🇨🇳 Taiwan 06
+      - 🇨🇳 Taiwan 07
+      - 🇯🇵 Japan 01��쥪�
+      - 🇯🇵 Japan 02��쥪�
+      - 🇯🇵 Japan 03��쥪�
+      - 🇯🇵 Japan 04��쥪�
+      - 🇯🇵 Japan 05��쥪�
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 03
+      - 🇸🇬 Singapore 04
+      - 🇸🇬 Singapore 05
+      - 🇸🇬 Singapore 06
+      - 🇸🇬 Singapore 07
+      - 🇸🇬 Singapore 08
+      - 🇸🇬 Singapore 09
+      - 🇸🇬 Singapore 10
+      - 🇸🇬 Singapore 11
+      - 🇸🇬 Singapore 12
+      - 🇸🇬 Singapore 13
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -11243,3 +10856,4 @@ rules:
  - MATCH,🐟 漏网之鱼
 
 
+网页翻译知识图片视频音乐社交购物
