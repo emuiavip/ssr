@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 TG群@Tmxios, server: mysql.accessconnect.cc, port: 6001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
-  - {name: 🇭🇰 枭木iOS大本营, server: mysql.accessconnect.cc, port: 6002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 01, server: mysql.accessconnect.cc, port: 6001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇭🇰 Hong Kong 02, server: mysql.accessconnect.cc, port: 6002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
   - {name: 🇭🇰 Hong Kong 03, server: mysql.accessconnect.cc, port: 6003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
   - {name: 🇭🇰 Hong Kong 04, server: mysql.accessconnect.cc, port: 6004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
   - {name: 🇭🇰 Hong Kong 05, server: mysql.accessconnect.cc, port: 6005, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
@@ -47,11 +47,11 @@ proxies:
   - {name: 🇨🇳 Taiwan 05, server: sql.accessconnect.cc, port: 1115, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
   - {name: 🇨🇳 Taiwan 06, server: sql.accessconnect.cc, port: 1116, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
   - {name: 🇨🇳 Taiwan 07, server: oracle.accessconnect.cc, port: 11130, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
-  - {name: 🇯🇵 Japan 01, server: sql.accessconnect.cc, port: 2601, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
-  - {name: 🇯🇵 Japan 02, server: sql.accessconnect.cc, port: 2602, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
-  - {name: 🇯🇵 Japan 03, server: sql.accessconnect.cc, port: 2604, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
-  - {name: 🇯🇵 Japan 04, server: sql.accessconnect.cc, port: 2605, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
-  - {name: 🇯🇵 Japan 05, server: sql.accessconnect.cc, port: 1097, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇯🇵 Japan 01��쥪�, server: sql.accessconnect.cc, port: 2601, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇯🇵 Japan 02��쥪�, server: sql.accessconnect.cc, port: 2602, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇯🇵 Japan 03��쥪�, server: sql.accessconnect.cc, port: 2604, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇯🇵 Japan 04��쥪�, server: sql.accessconnect.cc, port: 2605, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
+  - {name: 🇯🇵 Japan 05��쥪�, server: sql.accessconnect.cc, port: 1097, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
   - {name: 🇸🇬 Singapore 01, server: mysql.accessconnect.cc, port: 3201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
   - {name: 🇸🇬 Singapore 02, server: mysql.accessconnect.cc, port: 3202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
   - {name: 🇸🇬 Singapore 03, server: mysql.accessconnect.cc, port: 3203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 279714:WFNzot, obfs-param: "", udp: true}
@@ -10854,4 +10854,3 @@ rules:
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
-
