@@ -77,8 +77,8 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - ⭐️关注资源分享频道
-      - ⭐️@Helloworld_1024
+      - ⭐️ 关注TG交流群
+      - ⭐️ @Tmxios
       - 🇭🇰 Hong Kong 01
       - 🇭🇰 Hong Kong 02
       - 🇭🇰 Hong Kong 03
@@ -145,8 +145,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - ⭐️关注资源分享频道
-      - ⭐️@Helloworld_1024
+      - ⭐️ 关注TG交流群
+      - ⭐️ @Tmxios
       - 🇭🇰 Hong Kong 01
       - 🇭🇰 Hong Kong 02
       - 🇭🇰 Hong Kong 03
