@@ -5,6 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: ⭐️https://ktmcloud.top, server: 43.201.34.208, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇸🇬 SG新加坡-移动优化, server: yd.ktmwan.top, port: 27250, type: ss, cipher: chacha20-ietf-poly1305, password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c, udp: true}
   - {name: 🇸🇬 SG新加坡-联通优化, server: lt.ktmwan.top, port: 27250, type: ss, cipher: chacha20-ietf-poly1305, password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c, udp: true}
   - {name: 🇸🇬 SG新加坡-电信优化, server: dx.ktmwan.top, port: 27250, type: ss, cipher: chacha20-ietf-poly1305, password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c, udp: true}
