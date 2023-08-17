@@ -5,30 +5,32 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 枭木iOS大本营 TG@Tmxios, server: cfcdn2.sanfencdn.net, port: 2052, type: vmess, uuid: 78d6fa88-0d27-414f-8f51-1e16186d588f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us5.sanfencdn2.com}}, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 2, server: cfcdn2.sanfencdn.net, port: 2052, type: vmess, uuid: 78d6fa88-0d27-414f-8f51-1e16186d588f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us8.sanfencdn2.com}}, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 3, server: gsawshk1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 4, server: gsawshk2.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 5, server: gsawshk2.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 6, server: gsawshk1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 7, server: gsawsjp1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 8, server: gsawsjp1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 9, server: gsawshk1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 10, server: gsawshk1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios, server: gsawssg1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 2, server: gsawssg2.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 3, server: gshinet1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 4, server: gsawssg2.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 5, server: gsawsjp1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 6, server: gsawssg1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 7, server: gsawshk2.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 8, server: gsawshk1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 9, server: gsawshk2.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 10, server: gsawsjp2.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 枭木iOS大本营 TG@Tmxios 11, server: gsawsjp2.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 12, server: gsawssg1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 13, server: gsawssg2.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 14, server: gsawssg2.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 15, server: gsawssg1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 12, server: gsawshk1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 13, server: gsawshk1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 14, server: gsawshk1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 15, server: gsawshk1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 枭木iOS大本营 TG@Tmxios 16, server: gsawsjp2.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 17, server: kbawsjp1.aiopen.cfd, port: 443, type: trojan, password: 3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 18, server: kbawsjp1.aiopen.cfd, port: 443, type: trojan, password: 3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 19, server: kbawssg2.aiopen.cfd, port: 443, type: trojan, password: 3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 20, server: kbawssg2.aiopen.cfd, port: 443, type: trojan, password: 3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 21, server: kbawssg1.aiopen.cfd, port: 443, type: trojan, password: 3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 22, server: kbawssg1.aiopen.cfd, port: 443, type: trojan, password: 3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 23, server: kbawsjp2.aiopen.cfd, port: 443, type: trojan, password: 3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 24, server: kbawsjp2.aiopen.cfd, port: 443, type: trojan, password: 3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 17, server: gsawsjp2.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 18, server: gsawshk1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 19, server: gsawshk2.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 20, server: gsawshk2.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 21, server: gsawssg1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 22, server: gsawsjp1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 23, server: gsawssg1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 24, server: gsawssg2.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 25, server: gshinet1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 26, server: gsawssg2.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -59,6 +61,8 @@ proxy-groups:
       - 枭木iOS大本营 TG@Tmxios 22
       - 枭木iOS大本营 TG@Tmxios 23
       - 枭木iOS大本营 TG@Tmxios 24
+      - 枭木iOS大本营 TG@Tmxios 25
+      - 枭木iOS大本营 TG@Tmxios 26
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -88,6 +92,8 @@ proxy-groups:
       - 枭木iOS大本营 TG@Tmxios 22
       - 枭木iOS大本营 TG@Tmxios 23
       - 枭木iOS大本营 TG@Tmxios 24
+      - 枭木iOS大本营 TG@Tmxios 25
+      - 枭木iOS大本营 TG@Tmxios 26
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -118,6 +124,8 @@ proxy-groups:
       - 枭木iOS大本营 TG@Tmxios 22
       - 枭木iOS大本营 TG@Tmxios 23
       - 枭木iOS大本营 TG@Tmxios 24
+      - 枭木iOS大本营 TG@Tmxios 25
+      - 枭木iOS大本营 TG@Tmxios 26
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -160,6 +168,8 @@ proxy-groups:
       - 枭木iOS大本营 TG@Tmxios 22
       - 枭木iOS大本营 TG@Tmxios 23
       - 枭木iOS大本营 TG@Tmxios 24
+      - 枭木iOS大本营 TG@Tmxios 25
+      - 枭木iOS大本营 TG@Tmxios 26
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -194,6 +204,8 @@ proxy-groups:
       - 枭木iOS大本营 TG@Tmxios 22
       - 枭木iOS大本营 TG@Tmxios 23
       - 枭木iOS大本营 TG@Tmxios 24
+      - 枭木iOS大本营 TG@Tmxios 25
+      - 枭木iOS大本营 TG@Tmxios 26
   - name: 📲 电报信息
     type: select
     proxies:
@@ -223,6 +235,8 @@ proxy-groups:
       - 枭木iOS大本营 TG@Tmxios 22
       - 枭木iOS大本营 TG@Tmxios 23
       - 枭木iOS大本营 TG@Tmxios 24
+      - 枭木iOS大本营 TG@Tmxios 25
+      - 枭木iOS大本营 TG@Tmxios 26
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -253,6 +267,8 @@ proxy-groups:
       - 枭木iOS大本营 TG@Tmxios 22
       - 枭木iOS大本营 TG@Tmxios 23
       - 枭木iOS大本营 TG@Tmxios 24
+      - 枭木iOS大本营 TG@Tmxios 25
+      - 枭木iOS大本营 TG@Tmxios 26
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -292,6 +308,8 @@ proxy-groups:
       - 枭木iOS大本营 TG@Tmxios 22
       - 枭木iOS大本营 TG@Tmxios 23
       - 枭木iOS大本营 TG@Tmxios 24
+      - 枭木iOS大本营 TG@Tmxios 25
+      - 枭木iOS大本营 TG@Tmxios 26
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
