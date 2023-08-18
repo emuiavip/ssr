@@ -10,9 +10,9 @@
 
 Telegram ([https://t.me/Tmxios](https://t.me/Tmxios))
 
-牧舍交流群组：[@Tmxios](https://t.me/Tmxios)
+枭木交流群组：[@Tmxios](https://t.me/Tmxios)
 
-机场资源白嫖频道： [@Msskymu](https://t.me/Msskymu)
+枭木iOS大本营： [@Msskymu](https://t.me/Msskymu)
 
 不定时进行节点、机场资源分享等等！
 
