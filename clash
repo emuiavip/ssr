@@ -5,59 +5,72 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 枭木iOS大本营 TG@Tmxios, server: 31.47.45.56, port: 17351, type: ss, cipher: aes-256-gcm, password: zrhCLIeYqA, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 2, server: 77.91.122.158, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: 69u84tW1Br0P9gCnwsHdnk, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 3, server: 37.235.49.152, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 4, server: 185.90.61.153, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 5, server: 146.56.186.170, port: 23334, type: ss, cipher: chacha20-ietf-poly1305, password: f1865e50-2510-46d1-bcb2-e00b4b656305, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 6, server: 146.56.186.170, port: 23333, type: ss, cipher: chacha20-ietf-poly1305, password: f1865e50-2510-46d1-bcb2-e00b4b656305, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 7, server: 140.238.63.200, port: 57151, type: trojan, password: d02e2c9a-1e30-3116-a84e-dcf13da99926, sni: tk-006.xiaoxiaobujidao.xyz, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 8, server: 131.186.40.195, port: 8443, type: trojan, password: d02e2c9a-1e30-3116-a84e-dcf13da99926, sni: tk-004.xiaoxiaobujidao.xyz, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 9, server: 155.248.163.132, port: 54774, type: trojan, password: d02e2c9a-1e30-3116-a84e-dcf13da99926, sni: tk-005.xiaoxiaobujidao.xyz, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 10, server: 208.115.233.80, port: 443, type: trojan, password: 29dbe98050, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 11, server: 209.216.77.26, port: 443, type: trojan, password: 3550ce3dec, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 12, server: 45.89.52.66, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 13, server: 183.81.94.85, port: 443, type: trojan, password: 1381fa76-e460-3a03-a01b-b9ad00e01415, sni: vone.zoozoo.co.za, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 14, server: 27.0.232.204, port: 443, type: trojan, password: 77891e6750, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 15, server: 103.106.228.223, port: 443, type: trojan, password: 9aa1e1569a, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 16, server: 31.47.45.56, port: 50240, type: ss, cipher: aes-256-gcm, password: 2O3tLD0sQL, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 17, server: 193.203.203.86, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: cLc4PM8ADUxgOin4hAZDAA, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 18, server: 3.36.97.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 19, server: 45.89.52.66, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 20, server: 45.137.97.230, port: 58616, type: ss, cipher: aes-256-gcm, password: TG:@hkaa0, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 21, server: 45.137.97.230, port: 26941, type: ss, cipher: aes-256-gcm, password: TG:@hkaa0, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 22, server: 135.125.244.103, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 23, server: 74.119.195.57, port: 443, type: trojan, password: 62963aad-8e90-45b6-949e-33216b260ba6, skip-cert-verify: false, udp: true}
-  - {name: 枭木iOS大本营 TG@Tmxios 24, server: 45.89.52.66, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: ZZ_153, server: 2606:4700:3030::ac43:bb84, port: 2095, type: vmess, uuid: 32af4006-0698-4910-806c-b813074f36eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 13.wyhkaa0.gq}}, udp: true}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_30 |25.05Mb, server: 137.175.58.138, port: 53999, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: US_31 |25.64Mb, server: 171.22.116.45, port: 36709, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_32 |25.78Mb, server: 140.99.128.102, port: 32712, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: _65 |10.65Mb, server: 45.199.138.180, port: 54785, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: _110 |15.75Mb, server: 198.2.197.73, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, servername: www.71825152.xyz, network: ws, ws-opts: {path: /path/1693018744512, headers: {Host: www.71825152.xyz}}, udp: true}
-  - {name: Relay_-🇺🇸US_129 | 8.84Mb, server: 2606:4700:3031::ac43:b835, port: 8443, type: vmess, uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: cloudconebbb.gorgorchicken.one, network: ws, ws-opts: {path: /cloudconebbb, headers: {Host: cloudconebbb.gorgorchicken.one}}, udp: true}
-  - {name: Relay_-🇺🇸US_145 | 8.57Mb, server: 172.67.221.18, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}, udp: true}
-  - {name: _157 |30.41Mb, server: 45.92.161.173, port: 56369, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: Relay_-🇺🇸US_168 | 6.14Mb, server: 172.67.51.152, port: 443, type: vmess, uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vceu3e.twittei.me, network: ws, ws-opts: {path: /ikun, headers: {Host: vceu3e.twittei.me}}, udp: true}
-  - {name: _214 |11.70Mb, server: 45.199.138.184, port: 47965, type: vmess, uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: _217 |11.97Mb, server: 45.199.138.135, port: 50119, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: _218 | 8.23Mb, server: 45.199.138.157, port: 41814, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: Pool__220 |31.85Mb, server: 142.4.111.77, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: _222 |12.10Mb, server: 45.199.138.161, port: 48225, type: vmess, uuid: 9549a2cf-129b-43a1-88db-ef7f648de74a, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: _223 |11.45Mb, server: 45.199.138.152, port: 56186, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_368 | 5.57Mb, server: 120.226.50.93, port: 40702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1254 | 8.94Mb, server: 2a09:8280:1::fe30, port: 443, type: vmess, uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: cold-dawn-9246.fly.dev, network: ws, ws-opts: {path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm, headers: {Host: cold-dawn-9246.fly.dev}}, udp: true}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇱CL_1380 | 7.42Mb, server: 2606:4700:3036::ac43:9551, port: 80, type: vmess, uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sdygarm.e5outllok.me}}, udp: true}
-  - {name: Relay_Relay_ | 8.34Mb (1), server: 156.225.67.101, port: 53797, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: US_284 | 8.76Mb, server: 45.199.138.197, port: 46658, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_185, server: 36.141.40.34, port: 54073, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: _01, server: 218.78.1.20, port: 13375, type: vmess, uuid: 87483120-6859-496b-884c-59ad9198a283, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 0000000000000000000000000000006.sosoquick.com, network: ws, ws-opts: {path: /, headers: {Host: 0000000000000000000000000000006.sosoquick.com}}, udp: true}
-  - {name: disney_FI, server: 65.109.179.22, port: 47475, type: vmess, uuid: 7a0792af-c660-40c9-8d4a-9e5cf57d05ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: Relay_ |79.97Mb, server: 162.159.58.137, port: 443, type: vmess, uuid: 235fa4fe-078c-4bd9-bb4f-d799d3193d3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sgfree01.mikuproxy.pro, network: ws, ws-opts: {path: /ec3a017507e0/, headers: {Host: sgfree01.mikuproxy.pro}}, udp: true}
-  - {name: Relay_ | 8.99Mb (1), server: 156.225.67.3, port: 443, type: vmess, uuid: 3a3c8a9c-334e-4360-adb8-a80a57ddcbbf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, servername: www.16046626.xyz, network: ws, ws-opts: {path: /path/1692203343673, headers: {Host: www.16046626.xyz}}, udp: true}
-  - {name: Relay_ | 9.28Mb, server: 172.67.160.88, port: 80, type: vmess, uuid: 567d3fe2-8df2-466c-ab0d-640cc151c62c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: ziyong.vtcss.top}}, udp: true}
-  - {name: Relay_ | 9.14Mb (1), server: 172.64.25.70, port: 80, type: vmess, uuid: 71dbb55c-78fa-4b57-a6b4-7e4717c6ed84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: new.softtech.host}}, udp: true}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇳CN_2387 |45.80Mb, server: 23.224.202.86, port: 57702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios, server: 155.248.173.18, port: 15651, type: trojan, password: d02e2c9a-1e30-3116-a84e-dcf13da99926, sni: tk-007.xiaoxiaobujidao.xyz, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 2, server: 118.167.17.182, port: 443, type: trojan, password: 47258c2d-6b4c-444c-9085-5131bf0aff64, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 3, server: 111.249.60.72, port: 443, type: trojan, password: 47258c2d-6b4c-444c-9085-5131bf0aff64, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 4, server: 36.227.228.240, port: 443, type: trojan, password: 47258c2d-6b4c-444c-9085-5131bf0aff64, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 5, server: 140.238.63.200, port: 57151, type: trojan, password: d02e2c9a-1e30-3116-a84e-dcf13da99926, sni: tk-006.xiaoxiaobujidao.xyz, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 6, server: 131.186.40.195, port: 8443, type: trojan, password: d02e2c9a-1e30-3116-a84e-dcf13da99926, sni: tk-004.xiaoxiaobujidao.xyz, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 7, server: 155.248.163.132, port: 54774, type: trojan, password: d02e2c9a-1e30-3116-a84e-dcf13da99926, sni: tk-005.xiaoxiaobujidao.xyz, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 8, server: 54.74.50.208, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 9, server: 52.195.46.85, port: 20008, type: trojan, password: 7cea4e6c-ccb7-48c0-a8ba-77826f836102, sni: ceshii.1234567890spcloud.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 10, server: 192.36.27.116, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 11, server: 54.170.187.155, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 12, server: 37.235.49.152, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 13, server: 185.90.61.153, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 14, server: 89.19.216.18, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NC7jORVNrruV/+3+PwOJrnnOeG7n75X1, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 15, server: 45.89.52.66, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 16, server: 46.51.251.74, port: 20003, type: trojan, password: 7cea4e6c-ccb7-48c0-a8ba-77826f836102, sni: qweqweqweqwdsada.1234567890spcloud.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 17, server: 109.107.171.203, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 65+1iTSn/EqTDnEKwzfhWc7OVIjXWVUv, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 18, server: 77.91.122.158, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: 69u84tW1Br0P9gCnwsHdnk, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 19, server: 74.217.179.35, port: 443, type: trojan, password: 47258c2d-6b4c-444c-9085-5131bf0aff64, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 20, server: 74.119.195.57, port: 443, type: trojan, password: 62963aad-8e90-45b6-949e-33216b260ba6, sni: speed.cloudflare.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 21, server: 13.51.116.232, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 22, server: 185.145.96.165, port: 15255, type: ss, cipher: aes-128-gcm, password: hwZMP00pxaEra1Znt5bqfR0elpezlknJWJEkbenCVt91, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 23, server: 5.188.181.201, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 24, server: 135.125.244.103, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 25, server: 13.115.48.214, port: 443, type: trojan, password: 47258c2d-6b4c-444c-9085-5131bf0aff64, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 26, server: 46.51.251.74, port: 20008, type: trojan, password: 7cea4e6c-ccb7-48c0-a8ba-77826f836102, sni: ceshii.1234567890spcloud.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 27, server: 54.65.70.197, port: 20009, type: trojan, password: 7cea4e6c-ccb7-48c0-a8ba-77826f836102, sni: ceshii.1234567890spcloud.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 28, server: 13.115.56.104, port: 443, type: trojan, password: 47258c2d-6b4c-444c-9085-5131bf0aff64, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 29, server: 13.114.215.49, port: 20004, type: trojan, password: 7cea4e6c-ccb7-48c0-a8ba-77826f836102, sni: ceshii.1234567890spcloud.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 30, server: 13.114.215.49, port: 20008, type: trojan, password: 7cea4e6c-ccb7-48c0-a8ba-77826f836102, sni: ceshii.1234567890spcloud.com, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 31, server: 27.0.232.204, port: 443, type: trojan, password: 77891e6750, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 32, server: 103.106.228.223, port: 443, type: trojan, password: 9aa1e1569a, skip-cert-verify: false, udp: true}
+  - {name: 枭木iOS大本营 TG@Tmxios 33, server: 193.203.203.86, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: cLc4PM8ADUxgOin4hAZDAA, udp: true}
+  - {name: "", server: 172.67.34.218, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}, udp: true}
+  - {name: "|32.44Mb", server: 107.148.203.8, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, servername: www.13364896.xyz, network: ws, ws-opts: {path: /path/1692962431099, headers: {Host: www.13364896.xyz}}, udp: true}
+  - {name: "|10.80Mb", server: 156.249.18.24, port: 40775, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "|10.69Mb", server: 162.159.58.218, port: 80, type: vmess, uuid: cd0c570f-757c-48d2-a1b6-c0940431cc47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: nl10gbps.6577617.xyz}}, udp: true}
+  - {name: "| 9.84Mb", server: 142.4.100.44, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, servername: www.26167530.xyz, network: ws, ws-opts: {path: /path/1693121358558, headers: {Host: www.26167530.xyz}}, udp: true}
+  - {name: "|31.67Mb", server: 198.2.208.165, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, servername: www.62317155.xyz, network: ws, ws-opts: {path: /path/1693121358558, headers: {Host: www.62317155.xyz}}, udp: true}
+  - {name: " 2", server: 172.67.69.247, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}, udp: true}
+  - {name: "|33.06Mb", server: 198.2.223.6, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, servername: www.45202449.xyz, network: ws, ws-opts: {path: /path/1693018744512, headers: {Host: www.45202449.xyz}}, udp: true}
+  - {name: "|32.53Mb", server: 198.2.208.87, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, servername: www.71653718.xyz, network: ws, ws-opts: {path: /path/1693130902818, headers: {Host: www.71653718.xyz}}, udp: true}
+  - {name: "| 8.35Mb", server: 104.20.27.27, port: 80, type: vmess, uuid: 21b54b80-48b5-11ee-b338-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oy0ns6x3, headers: {Host: eu-2.0rd.net}}, udp: true}
+  - {name: "| 2.79Mb", server: 162.159.58.231, port: 80, type: vmess, uuid: cd0c570f-757c-48d2-a1b6-c0940431cc47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: nl10gbps.6577617.xyz}}, udp: true}
+  - {name: "|11.86Mb", server: 8.222.138.164, port: 80, type: vmess, uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /2TokGE9A/, headers: {Host: us6.cachexy.cf}}, udp: true}
+  - {name: "| 6.65Mb", server: 172.67.27.154, port: 80, type: vmess, uuid: 553128fc-df6d-4ff0-b608-67e4c625abcc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}, udp: true}
+  - {name: " 3", server: 172.67.221.18, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}, udp: true}
+  - {name: " 4", server: 2606:4700:20::6818:b107, port: 443, type: vmess, uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: franc.digires.shop, network: ws, ws-opts: {path: /11201, headers: {Host: franc.digires.shop}}, udp: true}
+  - {name: US_22, server: 45.199.138.188, port: 30008, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: US_171 |10.21Mb, server: 45.199.138.189, port: 34560, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: US_188 |10.16Mb, server: 142.4.114.123, port: 32307, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: US_195 | 6.45Mb, server: 108.186.208.157, port: 41404, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: US_216 | 7.52Mb, server: 45.199.138.148, port: 49955, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: US_224 | 8.73Mb, server: 23.224.11.147, port: 41009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: ZA_275 | 9.57Mb, server: 156.225.67.73, port: 32109, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1245, server: 2606:4700:3030::ac43:c552, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, servername: odelia.autos, network: ws, ws-opts: {path: linkvws, headers: {Host: odelia.autos}}, udp: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1264, server: 2606:4700:3031::6815:1b8b, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, servername: edeen.makeup, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}, udp: true}
+  - {name: Relay_🏁ZZ-🏁ZZ_1513, server: 2606:4700:3030::6815:5bfe, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, servername: waynn.makeup, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}, udp: true}
+  - {name: Relay_🏁ZZ-🇨🇦CA_1546, server: 2606:4700:3030::ac43:8396, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, servername: oliv.beauty, network: ws, ws-opts: {path: linkvws, headers: {Host: oliv.beauty}}, udp: true}
+  - {name: Relay_🏁ZZ-🇨🇦CA_1556, server: 2606:4700:3036::6815:350c, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, servername: ophelia.mom, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}, udp: true}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇺🇸US_794, server: 155.248.173.18, port: 40794, type: vmess, uuid: d02e2c9a-1e30-3116-a84e-dcf13da99926, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tk-007.xiaoxiaobujidao.xyz, network: ws, ws-opts: {path: "/xiaodao?ed=2048", headers: {Host: tk-007.xiaoxiaobujidao.xyz}}, udp: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1445, server: 2606:4700:3034::ac43:8ebf, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, servername: edeen.makeup, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}, udp: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1522, server: 2606:4700:3032::6815:1558, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, servername: odelia.autos, network: ws, ws-opts: {path: linkvws, headers: {Host: odelia.autos}}, udp: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1524, server: 2606:4700:3031::6815:41d, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, servername: oliv.beauty, network: ws, ws-opts: {path: linkvws, headers: {Host: oliv.beauty}}, udp: true}
+  - {name: Relay_🏁ZZ-🇨🇦CA_1621, server: 2606:4700:3031::ac43:b76e, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, servername: waynn.makeup, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}, udp: true}
+  - {name: Relay_ |16.04Mb, server: 142.4.109.68, port: 46672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -88,35 +101,48 @@ proxy-groups:
       - 枭木iOS大本营 TG@Tmxios 22
       - 枭木iOS大本营 TG@Tmxios 23
       - 枭木iOS大本营 TG@Tmxios 24
-      - ZZ_153
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_30 |25.05Mb
-      - US_31 |25.64Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_32 |25.78Mb
-      - _65 |10.65Mb
-      - _110 |15.75Mb
-      - Relay_-🇺🇸US_129 | 8.84Mb
-      - Relay_-🇺🇸US_145 | 8.57Mb
-      - _157 |30.41Mb
-      - Relay_-🇺🇸US_168 | 6.14Mb
-      - _214 |11.70Mb
-      - _217 |11.97Mb
-      - _218 | 8.23Mb
-      - Pool__220 |31.85Mb
-      - _222 |12.10Mb
-      - _223 |11.45Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_368 | 5.57Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1254 | 8.94Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇱CL_1380 | 7.42Mb
-      - Relay_Relay_ | 8.34Mb (1)
-      - US_284 | 8.76Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_185
-      - _01
-      - disney_FI
-      - Relay_ |79.97Mb
-      - Relay_ | 8.99Mb (1)
-      - Relay_ | 9.28Mb
-      - Relay_ | 9.14Mb (1)
-      - 🇺🇸 Relay_🇺🇸US-🇨🇳CN_2387 |45.80Mb
+      - 枭木iOS大本营 TG@Tmxios 25
+      - 枭木iOS大本营 TG@Tmxios 26
+      - 枭木iOS大本营 TG@Tmxios 27
+      - 枭木iOS大本营 TG@Tmxios 28
+      - 枭木iOS大本营 TG@Tmxios 29
+      - 枭木iOS大本营 TG@Tmxios 30
+      - 枭木iOS大本营 TG@Tmxios 31
+      - 枭木iOS大本营 TG@Tmxios 32
+      - 枭木iOS大本营 TG@Tmxios 33
+      - ""
+      - "|32.44Mb"
+      - "|10.80Mb"
+      - "|10.69Mb"
+      - "| 9.84Mb"
+      - "|31.67Mb"
+      - " 2"
+      - "|33.06Mb"
+      - "|32.53Mb"
+      - "| 8.35Mb"
+      - "| 2.79Mb"
+      - "|11.86Mb"
+      - "| 6.65Mb"
+      - " 3"
+      - " 4"
+      - US_22
+      - US_171 |10.21Mb
+      - US_188 |10.16Mb
+      - US_195 | 6.45Mb
+      - US_216 | 7.52Mb
+      - US_224 | 8.73Mb
+      - ZA_275 | 9.57Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1245
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1264
+      - Relay_🏁ZZ-🏁ZZ_1513
+      - Relay_🏁ZZ-🇨🇦CA_1546
+      - Relay_🏁ZZ-🇨🇦CA_1556
+      - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_794
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1445
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1522
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1524
+      - Relay_🏁ZZ-🇨🇦CA_1621
+      - Relay_ |16.04Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -146,35 +172,48 @@ proxy-groups:
       - 枭木iOS大本营 TG@Tmxios 22
       - 枭木iOS大本营 TG@Tmxios 23
       - 枭木iOS大本营 TG@Tmxios 24
-      - ZZ_153
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_30 |25.05Mb
-      - US_31 |25.64Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_32 |25.78Mb
-      - _65 |10.65Mb
-      - _110 |15.75Mb
-      - Relay_-🇺🇸US_129 | 8.84Mb
-      - Relay_-🇺🇸US_145 | 8.57Mb
-      - _157 |30.41Mb
-      - Relay_-🇺🇸US_168 | 6.14Mb
-      - _214 |11.70Mb
-      - _217 |11.97Mb
-      - _218 | 8.23Mb
-      - Pool__220 |31.85Mb
-      - _222 |12.10Mb
-      - _223 |11.45Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_368 | 5.57Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1254 | 8.94Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇱CL_1380 | 7.42Mb
-      - Relay_Relay_ | 8.34Mb (1)
-      - US_284 | 8.76Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_185
-      - _01
-      - disney_FI
-      - Relay_ |79.97Mb
-      - Relay_ | 8.99Mb (1)
-      - Relay_ | 9.28Mb
-      - Relay_ | 9.14Mb (1)
-      - 🇺🇸 Relay_🇺🇸US-🇨🇳CN_2387 |45.80Mb
+      - 枭木iOS大本营 TG@Tmxios 25
+      - 枭木iOS大本营 TG@Tmxios 26
+      - 枭木iOS大本营 TG@Tmxios 27
+      - 枭木iOS大本营 TG@Tmxios 28
+      - 枭木iOS大本营 TG@Tmxios 29
+      - 枭木iOS大本营 TG@Tmxios 30
+      - 枭木iOS大本营 TG@Tmxios 31
+      - 枭木iOS大本营 TG@Tmxios 32
+      - 枭木iOS大本营 TG@Tmxios 33
+      - ""
+      - "|32.44Mb"
+      - "|10.80Mb"
+      - "|10.69Mb"
+      - "| 9.84Mb"
+      - "|31.67Mb"
+      - " 2"
+      - "|33.06Mb"
+      - "|32.53Mb"
+      - "| 8.35Mb"
+      - "| 2.79Mb"
+      - "|11.86Mb"
+      - "| 6.65Mb"
+      - " 3"
+      - " 4"
+      - US_22
+      - US_171 |10.21Mb
+      - US_188 |10.16Mb
+      - US_195 | 6.45Mb
+      - US_216 | 7.52Mb
+      - US_224 | 8.73Mb
+      - ZA_275 | 9.57Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1245
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1264
+      - Relay_🏁ZZ-🏁ZZ_1513
+      - Relay_🏁ZZ-🇨🇦CA_1546
+      - Relay_🏁ZZ-🇨🇦CA_1556
+      - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_794
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1445
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1522
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1524
+      - Relay_🏁ZZ-🇨🇦CA_1621
+      - Relay_ |16.04Mb
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -205,35 +244,48 @@ proxy-groups:
       - 枭木iOS大本营 TG@Tmxios 22
       - 枭木iOS大本营 TG@Tmxios 23
       - 枭木iOS大本营 TG@Tmxios 24
-      - ZZ_153
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_30 |25.05Mb
-      - US_31 |25.64Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_32 |25.78Mb
-      - _65 |10.65Mb
-      - _110 |15.75Mb
-      - Relay_-🇺🇸US_129 | 8.84Mb
-      - Relay_-🇺🇸US_145 | 8.57Mb
-      - _157 |30.41Mb
-      - Relay_-🇺🇸US_168 | 6.14Mb
-      - _214 |11.70Mb
-      - _217 |11.97Mb
-      - _218 | 8.23Mb
-      - Pool__220 |31.85Mb
-      - _222 |12.10Mb
-      - _223 |11.45Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_368 | 5.57Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1254 | 8.94Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇱CL_1380 | 7.42Mb
-      - Relay_Relay_ | 8.34Mb (1)
-      - US_284 | 8.76Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_185
-      - _01
-      - disney_FI
-      - Relay_ |79.97Mb
-      - Relay_ | 8.99Mb (1)
-      - Relay_ | 9.28Mb
-      - Relay_ | 9.14Mb (1)
-      - 🇺🇸 Relay_🇺🇸US-🇨🇳CN_2387 |45.80Mb
+      - 枭木iOS大本营 TG@Tmxios 25
+      - 枭木iOS大本营 TG@Tmxios 26
+      - 枭木iOS大本营 TG@Tmxios 27
+      - 枭木iOS大本营 TG@Tmxios 28
+      - 枭木iOS大本营 TG@Tmxios 29
+      - 枭木iOS大本营 TG@Tmxios 30
+      - 枭木iOS大本营 TG@Tmxios 31
+      - 枭木iOS大本营 TG@Tmxios 32
+      - 枭木iOS大本营 TG@Tmxios 33
+      - ""
+      - "|32.44Mb"
+      - "|10.80Mb"
+      - "|10.69Mb"
+      - "| 9.84Mb"
+      - "|31.67Mb"
+      - " 2"
+      - "|33.06Mb"
+      - "|32.53Mb"
+      - "| 8.35Mb"
+      - "| 2.79Mb"
+      - "|11.86Mb"
+      - "| 6.65Mb"
+      - " 3"
+      - " 4"
+      - US_22
+      - US_171 |10.21Mb
+      - US_188 |10.16Mb
+      - US_195 | 6.45Mb
+      - US_216 | 7.52Mb
+      - US_224 | 8.73Mb
+      - ZA_275 | 9.57Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1245
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1264
+      - Relay_🏁ZZ-🏁ZZ_1513
+      - Relay_🏁ZZ-🇨🇦CA_1546
+      - Relay_🏁ZZ-🇨🇦CA_1556
+      - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_794
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1445
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1522
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1524
+      - Relay_🏁ZZ-🇨🇦CA_1621
+      - Relay_ |16.04Mb
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -276,35 +328,48 @@ proxy-groups:
       - 枭木iOS大本营 TG@Tmxios 22
       - 枭木iOS大本营 TG@Tmxios 23
       - 枭木iOS大本营 TG@Tmxios 24
-      - ZZ_153
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_30 |25.05Mb
-      - US_31 |25.64Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_32 |25.78Mb
-      - _65 |10.65Mb
-      - _110 |15.75Mb
-      - Relay_-🇺🇸US_129 | 8.84Mb
-      - Relay_-🇺🇸US_145 | 8.57Mb
-      - _157 |30.41Mb
-      - Relay_-🇺🇸US_168 | 6.14Mb
-      - _214 |11.70Mb
-      - _217 |11.97Mb
-      - _218 | 8.23Mb
-      - Pool__220 |31.85Mb
-      - _222 |12.10Mb
-      - _223 |11.45Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_368 | 5.57Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1254 | 8.94Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇱CL_1380 | 7.42Mb
-      - Relay_Relay_ | 8.34Mb (1)
-      - US_284 | 8.76Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_185
-      - _01
-      - disney_FI
-      - Relay_ |79.97Mb
-      - Relay_ | 8.99Mb (1)
-      - Relay_ | 9.28Mb
-      - Relay_ | 9.14Mb (1)
-      - 🇺🇸 Relay_🇺🇸US-🇨🇳CN_2387 |45.80Mb
+      - 枭木iOS大本营 TG@Tmxios 25
+      - 枭木iOS大本营 TG@Tmxios 26
+      - 枭木iOS大本营 TG@Tmxios 27
+      - 枭木iOS大本营 TG@Tmxios 28
+      - 枭木iOS大本营 TG@Tmxios 29
+      - 枭木iOS大本营 TG@Tmxios 30
+      - 枭木iOS大本营 TG@Tmxios 31
+      - 枭木iOS大本营 TG@Tmxios 32
+      - 枭木iOS大本营 TG@Tmxios 33
+      - ""
+      - "|32.44Mb"
+      - "|10.80Mb"
+      - "|10.69Mb"
+      - "| 9.84Mb"
+      - "|31.67Mb"
+      - " 2"
+      - "|33.06Mb"
+      - "|32.53Mb"
+      - "| 8.35Mb"
+      - "| 2.79Mb"
+      - "|11.86Mb"
+      - "| 6.65Mb"
+      - " 3"
+      - " 4"
+      - US_22
+      - US_171 |10.21Mb
+      - US_188 |10.16Mb
+      - US_195 | 6.45Mb
+      - US_216 | 7.52Mb
+      - US_224 | 8.73Mb
+      - ZA_275 | 9.57Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1245
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1264
+      - Relay_🏁ZZ-🏁ZZ_1513
+      - Relay_🏁ZZ-🇨🇦CA_1546
+      - Relay_🏁ZZ-🇨🇦CA_1556
+      - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_794
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1445
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1522
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1524
+      - Relay_🏁ZZ-🇨🇦CA_1621
+      - Relay_ |16.04Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -339,35 +404,48 @@ proxy-groups:
       - 枭木iOS大本营 TG@Tmxios 22
       - 枭木iOS大本营 TG@Tmxios 23
       - 枭木iOS大本营 TG@Tmxios 24
-      - ZZ_153
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_30 |25.05Mb
-      - US_31 |25.64Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_32 |25.78Mb
-      - _65 |10.65Mb
-      - _110 |15.75Mb
-      - Relay_-🇺🇸US_129 | 8.84Mb
-      - Relay_-🇺🇸US_145 | 8.57Mb
-      - _157 |30.41Mb
-      - Relay_-🇺🇸US_168 | 6.14Mb
-      - _214 |11.70Mb
-      - _217 |11.97Mb
-      - _218 | 8.23Mb
-      - Pool__220 |31.85Mb
-      - _222 |12.10Mb
-      - _223 |11.45Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_368 | 5.57Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1254 | 8.94Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇱CL_1380 | 7.42Mb
-      - Relay_Relay_ | 8.34Mb (1)
-      - US_284 | 8.76Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_185
-      - _01
-      - disney_FI
-      - Relay_ |79.97Mb
-      - Relay_ | 8.99Mb (1)
-      - Relay_ | 9.28Mb
-      - Relay_ | 9.14Mb (1)
-      - 🇺🇸 Relay_🇺🇸US-🇨🇳CN_2387 |45.80Mb
+      - 枭木iOS大本营 TG@Tmxios 25
+      - 枭木iOS大本营 TG@Tmxios 26
+      - 枭木iOS大本营 TG@Tmxios 27
+      - 枭木iOS大本营 TG@Tmxios 28
+      - 枭木iOS大本营 TG@Tmxios 29
+      - 枭木iOS大本营 TG@Tmxios 30
+      - 枭木iOS大本营 TG@Tmxios 31
+      - 枭木iOS大本营 TG@Tmxios 32
+      - 枭木iOS大本营 TG@Tmxios 33
+      - ""
+      - "|32.44Mb"
+      - "|10.80Mb"
+      - "|10.69Mb"
+      - "| 9.84Mb"
+      - "|31.67Mb"
+      - " 2"
+      - "|33.06Mb"
+      - "|32.53Mb"
+      - "| 8.35Mb"
+      - "| 2.79Mb"
+      - "|11.86Mb"
+      - "| 6.65Mb"
+      - " 3"
+      - " 4"
+      - US_22
+      - US_171 |10.21Mb
+      - US_188 |10.16Mb
+      - US_195 | 6.45Mb
+      - US_216 | 7.52Mb
+      - US_224 | 8.73Mb
+      - ZA_275 | 9.57Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1245
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1264
+      - Relay_🏁ZZ-🏁ZZ_1513
+      - Relay_🏁ZZ-🇨🇦CA_1546
+      - Relay_🏁ZZ-🇨🇦CA_1556
+      - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_794
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1445
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1522
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1524
+      - Relay_🏁ZZ-🇨🇦CA_1621
+      - Relay_ |16.04Mb
   - name: 📲 电报信息
     type: select
     proxies:
@@ -397,35 +475,48 @@ proxy-groups:
       - 枭木iOS大本营 TG@Tmxios 22
       - 枭木iOS大本营 TG@Tmxios 23
       - 枭木iOS大本营 TG@Tmxios 24
-      - ZZ_153
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_30 |25.05Mb
-      - US_31 |25.64Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_32 |25.78Mb
-      - _65 |10.65Mb
-      - _110 |15.75Mb
-      - Relay_-🇺🇸US_129 | 8.84Mb
-      - Relay_-🇺🇸US_145 | 8.57Mb
-      - _157 |30.41Mb
-      - Relay_-🇺🇸US_168 | 6.14Mb
-      - _214 |11.70Mb
-      - _217 |11.97Mb
-      - _218 | 8.23Mb
-      - Pool__220 |31.85Mb
-      - _222 |12.10Mb
-      - _223 |11.45Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_368 | 5.57Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1254 | 8.94Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇱CL_1380 | 7.42Mb
-      - Relay_Relay_ | 8.34Mb (1)
-      - US_284 | 8.76Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_185
-      - _01
-      - disney_FI
-      - Relay_ |79.97Mb
-      - Relay_ | 8.99Mb (1)
-      - Relay_ | 9.28Mb
-      - Relay_ | 9.14Mb (1)
-      - 🇺🇸 Relay_🇺🇸US-🇨🇳CN_2387 |45.80Mb
+      - 枭木iOS大本营 TG@Tmxios 25
+      - 枭木iOS大本营 TG@Tmxios 26
+      - 枭木iOS大本营 TG@Tmxios 27
+      - 枭木iOS大本营 TG@Tmxios 28
+      - 枭木iOS大本营 TG@Tmxios 29
+      - 枭木iOS大本营 TG@Tmxios 30
+      - 枭木iOS大本营 TG@Tmxios 31
+      - 枭木iOS大本营 TG@Tmxios 32
+      - 枭木iOS大本营 TG@Tmxios 33
+      - ""
+      - "|32.44Mb"
+      - "|10.80Mb"
+      - "|10.69Mb"
+      - "| 9.84Mb"
+      - "|31.67Mb"
+      - " 2"
+      - "|33.06Mb"
+      - "|32.53Mb"
+      - "| 8.35Mb"
+      - "| 2.79Mb"
+      - "|11.86Mb"
+      - "| 6.65Mb"
+      - " 3"
+      - " 4"
+      - US_22
+      - US_171 |10.21Mb
+      - US_188 |10.16Mb
+      - US_195 | 6.45Mb
+      - US_216 | 7.52Mb
+      - US_224 | 8.73Mb
+      - ZA_275 | 9.57Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1245
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1264
+      - Relay_🏁ZZ-🏁ZZ_1513
+      - Relay_🏁ZZ-🇨🇦CA_1546
+      - Relay_🏁ZZ-🇨🇦CA_1556
+      - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_794
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1445
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1522
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1524
+      - Relay_🏁ZZ-🇨🇦CA_1621
+      - Relay_ |16.04Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -456,35 +547,48 @@ proxy-groups:
       - 枭木iOS大本营 TG@Tmxios 22
       - 枭木iOS大本营 TG@Tmxios 23
       - 枭木iOS大本营 TG@Tmxios 24
-      - ZZ_153
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_30 |25.05Mb
-      - US_31 |25.64Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_32 |25.78Mb
-      - _65 |10.65Mb
-      - _110 |15.75Mb
-      - Relay_-🇺🇸US_129 | 8.84Mb
-      - Relay_-🇺🇸US_145 | 8.57Mb
-      - _157 |30.41Mb
-      - Relay_-🇺🇸US_168 | 6.14Mb
-      - _214 |11.70Mb
-      - _217 |11.97Mb
-      - _218 | 8.23Mb
-      - Pool__220 |31.85Mb
-      - _222 |12.10Mb
-      - _223 |11.45Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_368 | 5.57Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1254 | 8.94Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇱CL_1380 | 7.42Mb
-      - Relay_Relay_ | 8.34Mb (1)
-      - US_284 | 8.76Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_185
-      - _01
-      - disney_FI
-      - Relay_ |79.97Mb
-      - Relay_ | 8.99Mb (1)
-      - Relay_ | 9.28Mb
-      - Relay_ | 9.14Mb (1)
-      - 🇺🇸 Relay_🇺🇸US-🇨🇳CN_2387 |45.80Mb
+      - 枭木iOS大本营 TG@Tmxios 25
+      - 枭木iOS大本营 TG@Tmxios 26
+      - 枭木iOS大本营 TG@Tmxios 27
+      - 枭木iOS大本营 TG@Tmxios 28
+      - 枭木iOS大本营 TG@Tmxios 29
+      - 枭木iOS大本营 TG@Tmxios 30
+      - 枭木iOS大本营 TG@Tmxios 31
+      - 枭木iOS大本营 TG@Tmxios 32
+      - 枭木iOS大本营 TG@Tmxios 33
+      - ""
+      - "|32.44Mb"
+      - "|10.80Mb"
+      - "|10.69Mb"
+      - "| 9.84Mb"
+      - "|31.67Mb"
+      - " 2"
+      - "|33.06Mb"
+      - "|32.53Mb"
+      - "| 8.35Mb"
+      - "| 2.79Mb"
+      - "|11.86Mb"
+      - "| 6.65Mb"
+      - " 3"
+      - " 4"
+      - US_22
+      - US_171 |10.21Mb
+      - US_188 |10.16Mb
+      - US_195 | 6.45Mb
+      - US_216 | 7.52Mb
+      - US_224 | 8.73Mb
+      - ZA_275 | 9.57Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1245
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1264
+      - Relay_🏁ZZ-🏁ZZ_1513
+      - Relay_🏁ZZ-🇨🇦CA_1546
+      - Relay_🏁ZZ-🇨🇦CA_1556
+      - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_794
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1445
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1522
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1524
+      - Relay_🏁ZZ-🇨🇦CA_1621
+      - Relay_ |16.04Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -524,35 +628,48 @@ proxy-groups:
       - 枭木iOS大本营 TG@Tmxios 22
       - 枭木iOS大本营 TG@Tmxios 23
       - 枭木iOS大本营 TG@Tmxios 24
-      - ZZ_153
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_30 |25.05Mb
-      - US_31 |25.64Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_32 |25.78Mb
-      - _65 |10.65Mb
-      - _110 |15.75Mb
-      - Relay_-🇺🇸US_129 | 8.84Mb
-      - Relay_-🇺🇸US_145 | 8.57Mb
-      - _157 |30.41Mb
-      - Relay_-🇺🇸US_168 | 6.14Mb
-      - _214 |11.70Mb
-      - _217 |11.97Mb
-      - _218 | 8.23Mb
-      - Pool__220 |31.85Mb
-      - _222 |12.10Mb
-      - _223 |11.45Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇸🇬SG_368 | 5.57Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1254 | 8.94Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇱CL_1380 | 7.42Mb
-      - Relay_Relay_ | 8.34Mb (1)
-      - US_284 | 8.76Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_185
-      - _01
-      - disney_FI
-      - Relay_ |79.97Mb
-      - Relay_ | 8.99Mb (1)
-      - Relay_ | 9.28Mb
-      - Relay_ | 9.14Mb (1)
-      - 🇺🇸 Relay_🇺🇸US-🇨🇳CN_2387 |45.80Mb
+      - 枭木iOS大本营 TG@Tmxios 25
+      - 枭木iOS大本营 TG@Tmxios 26
+      - 枭木iOS大本营 TG@Tmxios 27
+      - 枭木iOS大本营 TG@Tmxios 28
+      - 枭木iOS大本营 TG@Tmxios 29
+      - 枭木iOS大本营 TG@Tmxios 30
+      - 枭木iOS大本营 TG@Tmxios 31
+      - 枭木iOS大本营 TG@Tmxios 32
+      - 枭木iOS大本营 TG@Tmxios 33
+      - ""
+      - "|32.44Mb"
+      - "|10.80Mb"
+      - "|10.69Mb"
+      - "| 9.84Mb"
+      - "|31.67Mb"
+      - " 2"
+      - "|33.06Mb"
+      - "|32.53Mb"
+      - "| 8.35Mb"
+      - "| 2.79Mb"
+      - "|11.86Mb"
+      - "| 6.65Mb"
+      - " 3"
+      - " 4"
+      - US_22
+      - US_171 |10.21Mb
+      - US_188 |10.16Mb
+      - US_195 | 6.45Mb
+      - US_216 | 7.52Mb
+      - US_224 | 8.73Mb
+      - ZA_275 | 9.57Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1245
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1264
+      - Relay_🏁ZZ-🏁ZZ_1513
+      - Relay_🏁ZZ-🇨🇦CA_1546
+      - Relay_🏁ZZ-🇨🇦CA_1556
+      - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_794
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1445
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1522
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_1524
+      - Relay_🏁ZZ-🇨🇦CA_1621
+      - Relay_ |16.04Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
