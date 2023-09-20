@@ -696,30 +696,42 @@ ca-passphrase = rixCloudPKI
 
 [Proxy]
 DIRECT = direct
-枭木iOS大本营 TG@Tmxios = trojan, 54.171.104.235, 22222, password=telegram-id-directvpn, sni=trj.rollingnext.co.uk, skip-cert-verify=false, tfo=false
-枭木iOS大本营 TG@Tmxios 2 = trojan, 163.123.192.33, 443, password=4c2e7f40-3011-4c77-a066-eda17440e985, sni=16-163-218-240.nhost.00cdn.com, skip-cert-verify=false, tfo=false
-%枭木iOS大本营 TG@Tmxios = trojan, 163.123.192.112, 443, password=4c2e7f40-3011-4c77-a066-eda17440e985, sni=16-163-218-240.nhost.00cdn.com, skip-cert-verify=false, tfo=false
-枭木iOS大本营 TG@Tmxios 3 = trojan, 5.44.249.42, 3306, password=36fe28a331638747, sni=n2.gladns.com, skip-cert-verify=false, tfo=false
-枭木iOS大本营 TG@Tmxios 4 = trojan, 120.241.47.131, 10001, password=d374a974-ed04-4a5b-bbed-d14b964663bc, sni=120.241.47.131, skip-cert-verify=false, tfo=false
-枭木iOS大本营 TG@Tmxios 5 = trojan, 45.11.104.94, 3306, password=d02058f4f819dced, sni=n2.gladns.com, skip-cert-verify=false, tfo=false
-枭木iOS大本营 TG@Tmxios 6 = ss, 116.148.226.212, 10124, encrypt-method=chacha20-ietf-poly1305, password=9ba99e47-307b-4420-b3d8-ddd76b349c38, tfo=false
-枭木iOS大本营 TG@Tmxios 7 = ss, sg.relay-idc.top, 13929, encrypt-method=chacha20-ietf-poly1305, password=11ac3cf9-e29e-4532-9cb1-08f2934f62b4, tfo=false
-枭木iOS大本营 TG@Tmxios 8 = trojan, 18.182.26.232, 20004, password=d8c88fd3-7fe4-422c-acf0-b2e6fc18af20, sni=fschk.1234567890spcloud.com, skip-cert-verify=false, tfo=false
-枭木iOS大本营 TG@Tmxios 9 = trojan, rpete-1096-tr-3.r-kcd-e.iote.bond, 29989, password=LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni=cdn.cjhh.lol, skip-cert-verify=false, tfo=false
-枭木iOS大本营 TG@Tmxios 10 = trojan, 163.123.192.33, 443, password=4c2e7f40-3011-4c77-a066-eda17440e985, sni=16-163-218-240.nhost.00cdn.com, skip-cert-verify=false, tfo=false
-枭木iOS大本营 TG@Tmxios 11 = ss, 13.231.243.192, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-枭木iOS大本营 TG@Tmxios 12 = ss, 54.168.54.95, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-枭木iOS大本营 TG@Tmxios 13 = ss, 52.221.194.131, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-枭木iOS大本营 TG@Tmxios 14 = ss, 35.72.9.68, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇺🇸 Relay_🇺🇸US-🇺🇸US_1717 = vmess, 172.67.184.13, 80, username=53701585-591f-48a3-9515-8831ed0524ac, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=mrb.shabijichang.com, ws-headers=Host:mrb.shabijichang.com, skip-cert-verify=false, tfo=false
-Relay_-🇱🇺LU_665 = vmess, 172.67.131.151, 80, username=cfa9e6ba-83f9-4fd1-9747-ca2c80267016, tls=false, vmess-aead=true, ws=true, ws-path=/windows7.ios, sni=v1.us1.microsoftdebug.com, ws-headers=Host:v1.us1.microsoftdebug.com, skip-cert-verify=false, tfo=false
+枭木iOS大本营 TG@Tmxios = trojan, [2602:fada:0:36::a], 889, password=LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni=s3.cjhh.beauty, skip-cert-verify=false, tfo=false
+枭木iOS大本营 TG@Tmxios 2 = ss, 162.19.247.203, 443, encrypt-method=aes-256-ctr, password=XNewBypasser2023, tfo=false
+枭木iOS大本营 TG@Tmxios 3 = ss, 5.188.181.201, 9037, encrypt-method=aes-256-cfb, password=TN2YqghxeFDKZfLU, tfo=false
+枭木iOS大本营 TG@Tmxios 4 = ss, 5.188.181.201, 9031, encrypt-method=aes-256-cfb, password=BwcAUZk8hUFAkDGN, tfo=false
+枭木iOS大本营 TG@Tmxios 5 = ss, 5.188.181.201, 9040, encrypt-method=aes-256-cfb, password=p9z5BVADH2YFs3MN, tfo=false
+枭木iOS大本营 TG@Tmxios 6 = ss, 5.188.181.201, 9041, encrypt-method=aes-256-cfb, password=U6qnYRhfyDmn8sgn, tfo=false
+枭木iOS大本营 TG@Tmxios 7 = ss, 5.188.181.201, 9030, encrypt-method=aes-256-cfb, password=GeregetR8cvQHzYr, tfo=false
+枭木iOS大本营 TG@Tmxios 8 = trojan, 108.128.173.217, 22222, password=telegram-id-privatevpns, sni=trj.rollingnext.co.uk, skip-cert-verify=false, tfo=false
+枭木iOS大本营 TG@Tmxios 9 = trojan, 34.247.248.216, 22222, password=telegram-id-directvpn, sni=trj.rollingnext.co.uk, skip-cert-verify=false, tfo=false
+枭木iOS大本营 TG@Tmxios 10 = trojan, 34.252.230.143, 22222, password=telegram-id-privatevpns, sni=trj.rollingnext.co.uk, skip-cert-verify=false, tfo=false
+枭木iOS大本营 TG@Tmxios 11 = trojan, 52.212.41.87, 22222, password=telegram-id-privatevpns, sni=trj.rollingnext.co.uk, skip-cert-verify=false, tfo=false
+枭木iOS大本营 TG@Tmxios 12 = trojan, 34.242.211.108, 22222, password=telegram-id-directvpn, sni=trj.rollingnext.co.uk, skip-cert-verify=false, tfo=false
+枭木iOS大本营 TG@Tmxios 13 = trojan, 52.212.98.92, 22222, password=telegram-id-privatevpns, sni=trj.rollingnext.co.uk, skip-cert-verify=false, tfo=false
+枭木iOS大本营 TG@Tmxios 14 = ss, 54.255.190.166, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+枭木iOS大本营 TG@Tmxios 15 = trojan, 18.221.186.112, 22222, password=telegram-id-directvpn, sni=trj.rollingnext.co.uk, skip-cert-verify=false, tfo=false
+枭木iOS大本营 TG@Tmxios 16 = ss, 54.168.210.17, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+枭木iOS大本营 TG@Tmxios 17 = ss, 5.188.181.201, 9054, encrypt-method=aes-256-cfb, password=VcFuyXvND2yQWSFY, tfo=false
+枭木iOS大本营 TG@Tmxios 18 = trojan, 13.43.140.170, 22222, password=telegram-id-privatevpns, skip-cert-verify=false, tfo=false
+枭木iOS大本营 TG@Tmxios 19 = trojan, 54.170.184.42, 22222, password=telegram-id-directvpn, sni=trj.rollingnext.co.uk, skip-cert-verify=false, tfo=false
+🇨🇳 CN_07 = vmess, 123.249.101.15, 19709, username=2f278a45-940a-46c1-c886-77f3b2d33987, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=, ws-headers=Host:, skip-cert-verify=false, tfo=false
+🇺🇸 US_859 = vmess, 172.67.69.247, 8880, username=67a341a7-5ae7-4d92-edad-9e8db87ce165, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=vcus1.vpn66.eu.org, ws-headers=Host:vcus1.vpn66.eu.org, skip-cert-verify=false, tfo=false
+🇺🇸 US_863 = vmess, 172.67.34.218, 8880, username=67a341a7-5ae7-4d92-edad-9e8db87ce165, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=vcus1.vpn66.eu.org, ws-headers=Host:vcus1.vpn66.eu.org, skip-cert-verify=false, tfo=false
+🇺🇸 Relay_🇺🇸US-🇺🇸US_937 |11.23Mb = vmess, 2606:4700:3033::6815:5c50, 80, username=0ba28c05-7bd9-4cad-c329-482386a8e7a3, tls=false, vmess-aead=true, ws=true, ws-path=/TG:@hkaa0, sni=sg.wyhkaa0.cf, ws-headers=Host:sg.wyhkaa0.cf, skip-cert-verify=false, tfo=false
+|27.94Mb = vmess, 104.27.192.71, 8080, username=c3a396e6-ff71-419a-9962-5479a7e58301, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=freeus2.661855.xyz, ws-headers=Host:freeus2.661855.xyz, skip-cert-verify=false, tfo=false
+|43.92Mb = vmess, 137.175.88.221, 43023, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false
+|32.66Mb = vmess, 198.200.56.106, 443, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=true, vmess-aead=false, ws=true, ws-path=/path/1694947665388, sni=www.62618992.xyz, ws-headers=Host:www.62618992.xyz, skip-cert-verify=false, tfo=false
+|24.99Mb = vmess, 142.4.114.19, 443, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=true, vmess-aead=false, ws=true, ws-path=/path/1695032909164, sni=www.47734954.xyz, ws-headers=Host:www.47734954.xyz, skip-cert-verify=false, tfo=false
+| 1.15Mb = vmess, 192.74.240.26, 443, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=true, vmess-aead=false, ws=true, ws-path=/path/1694947665388, sni=www.70812236.xyz, ws-headers=Host:www.70812236.xyz, skip-cert-verify=false, tfo=false
+|39.89Mb = vmess, 137.175.82.148, 443, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=true, vmess-aead=false, ws=true, ws-path=/path/1695032909164, sni=www.66699852.xyz, ws-headers=Host:www.66699852.xyz, skip-cert-verify=false, tfo=false
 HK = direct
 JP = direct
 SG = direct
 TW = direct
 
 [Proxy Group]
-Proxies = select,HK,JP,SG,TW,US,枭木iOS大本营 TG@Tmxios,枭木iOS大本营 TG@Tmxios 2,%枭木iOS大本营 TG@Tmxios,枭木iOS大本营 TG@Tmxios 3,枭木iOS大本营 TG@Tmxios 4,枭木iOS大本营 TG@Tmxios 5,枭木iOS大本营 TG@Tmxios 6,枭木iOS大本营 TG@Tmxios 7,枭木iOS大本营 TG@Tmxios 8,枭木iOS大本营 TG@Tmxios 9,枭木iOS大本营 TG@Tmxios 10,枭木iOS大本营 TG@Tmxios 11,枭木iOS大本营 TG@Tmxios 12,枭木iOS大本营 TG@Tmxios 13,枭木iOS大本营 TG@Tmxios 14,🇺🇸 Relay_🇺🇸US-🇺🇸US_1717,Relay_-🇱🇺LU_665
+Proxies = select,HK,JP,SG,TW,US,枭木iOS大本营 TG@Tmxios,枭木iOS大本营 TG@Tmxios 2,枭木iOS大本营 TG@Tmxios 3,枭木iOS大本营 TG@Tmxios 4,枭木iOS大本营 TG@Tmxios 5,枭木iOS大本营 TG@Tmxios 6,枭木iOS大本营 TG@Tmxios 7,枭木iOS大本营 TG@Tmxios 8,枭木iOS大本营 TG@Tmxios 9,枭木iOS大本营 TG@Tmxios 10,枭木iOS大本营 TG@Tmxios 11,枭木iOS大本营 TG@Tmxios 12,枭木iOS大本营 TG@Tmxios 13,枭木iOS大本营 TG@Tmxios 14,枭木iOS大本营 TG@Tmxios 15,枭木iOS大本营 TG@Tmxios 16,枭木iOS大本营 TG@Tmxios 17,枭木iOS大本营 TG@Tmxios 18,枭木iOS大本营 TG@Tmxios 19,🇨🇳 CN_07,🇺🇸 US_859,🇺🇸 US_863,🇺🇸 Relay_🇺🇸US-🇺🇸US_937 |11.23Mb,|27.94Mb,|43.92Mb,|32.66Mb,|24.99Mb,| 1.15Mb,|39.89Mb
 YouTube = select,Proxies,HK,JP,SG,TW,US
 Netflix = select,Proxies,HK,JP,SG,TW,US
 Disney = select,Proxies,HK,JP,SG,TW,US
@@ -734,7 +746,7 @@ OpenAI = select,Proxies,HK,JP,SG,TW,US
 PayPal = select,Proxies,DIRECT,HK,JP,SG,TW,US
 Apple = select,Proxies,DIRECT,HK,JP,SG,TW,US
 Final = select,Proxies,DIRECT
-US = select,🇺🇸 Relay_🇺🇸US-🇺🇸US_1717
+US = select,🇺🇸 US_859,🇺🇸 US_863,🇺🇸 Relay_🇺🇸US-🇺🇸US_937 |11.23Mb
 
 
 
