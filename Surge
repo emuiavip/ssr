@@ -1,765 +1,107 @@
-#!MANAGED-CONFIG https://api.sublink.dev/sub?target=surge&ver=4&url=https%3A%2F%2Fraw.githubusercontent.com%2Femuiavip%2Fssr%2Fmain%2Fssr&insert=false&emoji=true&list=false&tfo=false&scv=false&fdn=false&sort=false interval=86400 strict=false
+#!MANAGED-CONFIG https://pub-api-1.bianyuan.xyz/sub?emoji=true&fdn=false&insert=false&list=false&scv=false&sort=false&target=surge&tfo=false&url=https%3A%2F%2Fraw.githubusercontent.com%2Femuiavip%2Fssr%2Fmain%2Fssr&ver=4 interval=86400 strict=false
 
 [General]
-bypass-system = true
-skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,17.0.0.0/8,localhost,*.local,passenger.t3go.cn
-bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
-dns-server = 119.29.29.29, 119.28.28.28, 180.76.76.76, 1.2.4.8
-hijack-dns = 8.8.8.8:53, 8.8.4.4:53
 loglevel = notify
-replica = false
-tls-provider = default
-show-error-page-for-reject = true
-exclude-simple-hostnames = true
-always-real-ip = *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, msftconnecttest.com, msftncsi.com, *.msftconnecttest.com, *.msftncsi.com, *.battlenet.com.cn, *.battlenet.com, *.blzstatic.cn, *.battle.net
-internet-test-url = http://www.aliyun.com
-proxy-test-url = http://www.gstatic.com/generate_204
-# iOS Only
-allow-wifi-access = true
-wifi-access-http-port = 6152
-wifi-access-socks5-port = 6153
-# macOS Only
-http-listen = 0.0.0.0:6152
-socks5-listen = 0.0.0.0:6153
-enhanced-mode-by-rule = false
-
-[Rule]
-# Proxy
-PROCESS-NAME,v2ray,DIRECT
-PROCESS-NAME,ss-local,DIRECT
-
-# YouTube UDP REJECT
-AND,((PROTOCOL,UDP),(DEST-PORT,443)),REJECT-NO-DROP
-
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Unbreak.list,DIRECT,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list,YouTube,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list,Netflix,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/DisneyPlus.list,Disney,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Bahamut.list,Bahamut,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list,Bilibili,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Music/Spotify.list,Spotify,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Game/Steam.list,Steam,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Telegram/Telegram.list,Telegram,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Google/Google.list,Google,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Microsoft/Microsoft.list,Microsoft,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/OpenAI/OpenAI.list,OpenAI,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/PayPal.list,PayPal,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Apple/Apple.list,Apple,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Global.list,Proxies,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/China.list,DIRECT,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/LocalAreaNetwork.list,DIRECT,update-interval=86400
-GEOIP,CN,DIRECT
-FINAL,Final
-
-[URL Rewrite]
-# AbeamTV Unlock
-^https?:\/\/api\.abema\.io\/v\d\/ip\/check - reject
-
-# Redirect Google Service
-^https?:\/\/(www.)?g\.cn https://www.google.com 302
-^https?:\/\/(www.)?google\.cn https://www.google.com 302
-
-# Redirect HTTP to HTTPS
-^https?:\/\/(www.)?taobao\.com\/ https://www.taobao.com/ 302
-^https?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
-^https?:\/\/(www.)?mi\.com\/ https://www.mi.com/ 302
-^https?:\/\/you\.163\.com\/ https://you.163.com/ 302
-^https?:\/\/(www.)?suning\.com/ https://suning.com/ 302
-^https?:\/\/(www.)?yhd\.com https://yhd.com/ 302
-
-# Redirect False to True
-# >> IGN China to IGN Global
-^https?:\/\/(www.)?ign\.xn--fiqs8s\/ http://cn.ign.com/ccpref/us 302
-# >> Fake Website Made By Makeding
-^https?:\/\/(www.)?abbyychina\.com\/ http://www.abbyy.cn/ 302
-^https?:\/\/(www.)?bartender\.cc\/ https://cn.seagullscientific.com 302
-^https?:\/\/(www.)?betterzip\.net\/ https://macitbetter.com/ 302
-^https?:\/\/(www.)?beyondcompare\.cc\/ https://www.scootersoftware.com/ 302
-^https?:\/\/(www.)?bingdianhuanyuan\.cn\/ http://www.faronics.com/zh-hans/ 302
-^https?:\/\/(www.)?chemdraw\.com\.cn\/ http://www.cambridgesoft.com/ 302
-^https?:\/\/(www.)?codesoftchina\.com\/ https://www.teklynx.com/ 302
-^https?:\/\/(www.)?coreldrawchina\.com\/ https://www.coreldraw.com/cn/ 302
-^https?:\/\/(www.)?crossoverchina\.com\/ https://www.codeweavers.com/ 302
-^https?:\/\/(www.)?easyrecoverychina\.com\/ https://www.ontrack.com/ 302
-^https?:\/\/(www.)?ediuschina\.com\/ https://www.grassvalley.com/ 302
-^https?:\/\/(www.)?flstudiochina\.com\/ https://www.image-line.com/flstudio/ 302
-^https?:\/\/(www.)?formysql\.com\/ https://www.navicat.com.cn 302
-^https?:\/\/(www.)?guitarpro\.cc\/ https://www.guitar-pro.com/ 302
-^https?:\/\/(www.)?huishenghuiying\.com\.cn\/ https://www.corel.com/cn/ 302
-^https?:\/\/(www.)?iconworkshop\.cn\/ https://www.axialis.com/iconworkshop/ 302
-^https?:\/\/(www.)?imindmap\.cc\/ https://imindmap.com/zh-cn/ 302
-^https?:\/\/(www.)?jihehuaban\.com\.cn\/ https://sketch.io/ 302
-^https?:\/\/(www.)?keyshot\.cc\/ https://www.keyshot.com/ 302
-^https?:\/\/(www.)?mathtype\.cn\/ http://www.dessci.com/en/products/mathtype/ 302
-^https?:\/\/(www.)?mindmanager\.cc\/ https://www.mindjet.com/ 302
-^https?:\/\/(www.)?mindmapper\.cc\/ https://mindmapper.com 302
-^https?:\/\/(www.)?mycleanmymac\.com\/ https://macpaw.com/cleanmymac 302
-^https?:\/\/(www.)?nicelabel\.cc\/ https://www.nicelabel.com/ 302
-^https?:\/\/(www.)?ntfsformac\.cc\/ https://www.tuxera.com/products/tuxera-ntfs-for-mac-cn/ 302
-^https?:\/\/(www.)?ntfsformac\.cn\/ https://www.paragon-software.com/ufsdhome/zh/ntfs-mac/ 302
-^https?:\/\/(www.)?overturechina\.com\/ https://sonicscores.com/overture/ 302
-^https?:\/\/(www.)?passwordrecovery\.cn\/ https://cn.elcomsoft.com/aopr.html 302
-^https?:\/\/(www.)?pdfexpert\.cc\/ https://pdfexpert.com/zh 302
-^https?:\/\/(www.)?ultraiso\.net\/ https://cn.ezbsystems.com/ultraiso/ 302
-^https?:\/\/(www.)?vegaschina\.cn\/ https://www.vegas.com/ 302
-^https?:\/\/(www.)?xmindchina\.net\/ https://www.xmind.cn/ 302
-^https?:\/\/(www.)?xshellcn\.com\/ https://www.netsarang.com/products/xsh_overview.html 302
-^https?:\/\/(www.)?yuanchengxiezuo\.com\/ https://www.teamviewer.com/zhcn/ 302
-^https?:\/\/(www.)?zbrushcn\.com\/ http://pixologic.com/ 302
-^https://aweme-eagle(.*)\.snssdk\.com/aweme/v2/ https://aweme-eagle$1.snssdk.com/aweme/v1/ 302
-
-# JD Protection
-^https?:\/\/coupon\.m\.jd\.com\/ https://coupon.m.jd.com/ 302
-^https?:\/\/h5\.m\.jd\.com\/ https://h5.m.jd.com/ 302
-^https?:\/\/item\.m\.jd\.com\/ https://item.m.jd.com/ 302
-^https?:\/\/m\.jd\.com\/ https://m.jd.com/ 302
-^https?:\/\/newcz\.m\.jd\.com\/ https://newcz.m.jd.com/ 302
-^https?:\/\/p\.m\.jd\.com\/ https://p.m.jd.com/ 302
-^https?:\/\/so\.m\.jd\.com\/ https://so.m.jd.com/ 302
-^https?:\/\/union\.click\.jd\.com\/jda? http://union.click.jd.com/jda?adblock= header
-^https?:\/\/union\.click\.jd\.com\/sem.php? http://union.click.jd.com/sem.php?adblock= header
-^https?:\/\/www.jd.com\/ https://www.jd.com/ 302
-
-# Wiki
-# ^https://zh.(m.)?wikipedia.org/zh(-\w*)?(?=/) https://www.wikiwand.com/zh$2 302
-# ^https://(\w*).(m.)?wikipedia.org/wiki https://www.wikiwand.com/$1 302
-
-# Resso
-
-(?<=(carrier|account|sys|sim)_region=)cn in 307
-
-# Advertising Block
-
-# >> 2048Puzzle
-^https?:\/\/a\.applovin\.com\/3\.0\/ad - reject
-
-# >> 4gTV
-^https?:\/\/service\.4gtv\.tv\/4gtv\/Data\/GetAD - reject
-^https?:\/\/service\.4gtv\.tv\/4gtv\/Data\/ADLog - reject
-
-# >> 58
-^https?:\/\/.+\.58cdn\.com\.cn\/brandads\/ - reject
-^https?:\/\/app\.58\.com\/api\/home\/advertising\/ - reject
-^https?:\/\/app\.58\.com\/api\/home\/appadv\/ - reject
-^https?:\/\/app\.58\.com\/api\/home\/invite\/popupAdv - reject
-^https?:\/\/app\.58\.com\/api\/log\/ - reject
-
-# >> AcFun
-^https?:\/\/aes\.acfun\.cn\/s\?adzones - reject
-
-# >> Ai NanNing
-^https?:\/\/nnapp\.cloudbae\.cn\/mc\/api\/advert/ - reject
-
-# >> Aihuishou
-^https?:\/\/gw\.aihuishou\.com\/app-portal\/home\/getadvertisement - reject
-
-# >> AMap
-^https?:\/\/m\d{1}\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/ - reject
-
-# >> Baicizhan
-^https?:\/\/7n\.bczcdn\.com\/launchad\/ - reject
-
-# >> Baidu
-^https?:\/\/.+\/client\/phpui2\/ - reject
-^https?:\/\/cover.baidu.com\/cover\/page\/dspSwitchAds\/ - reject
-^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule - reject
-^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao\/ - reject
-^https?:\/\/update\.pan\.baidu\.com\/statistics - reject
-
-# >> Baobao
-^https?:\/\/www\.myhug\.cn\/ad\/ - reject
-
-# >> Beike Zhaofang
-^https?:\/\/app\.api\.ke\.com\/config\/config\/bootpage - reject
-
-# >> Beitaicuhfang
-^https?:\/\/channel\.beitaichufang\.com\/channel\/api\/v\d\/promote\/ios\/start\/page - reject
-
-# >> Bi ShiJie
-^https?:\/\/iapi\.bishijie\.com\/actopen\/advertising\/ - reject
-
-# >> Bilibili
-^https?:\/\/app\.bilibili\.com\/x\/v\d\/splash\/ - reject
-
-# >> ByteDance
-^https?:\/\/.+\.(musical|snssdk)\.(com|ly)\/(api|motor)\/ad\/ - reject
-^https?:\/\/.+\.pstatp\.com\/img\/ad - reject
-^https?:\/\/.+\.snssdk\.com\/motor\/operation\/activity\/display\/config\/v\d\/ - reject
-^https?:\/\/dsp\.toutiao\.com\/api\/xunfei\/ads\/ - reject
-
-# >> CamScanner
-^https?:\/\/api\.intsig\.net\/user\/cs\/operating\/app\/get_startpic\/ - reject
-
-# >> Caocao Chuxin
-^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/ - reject
-
-# >> Chelaile
-^https?:\/\/(api|atrace)\.chelaile\.net\.cn\/adpub\/ - reject
-^https?:\/\/api\.chelaile\.net\.cn\/goocity\/advert\/ - reject
-^https?:\/\/atrace\.chelaile\.net\.cn\/exhibit\?&adv_image - reject
-^https?:\/\/pic1\.chelaile\.net\.cn\/adv\/ - reject
-
-# >> ChinaMobile
-^https?:\/\/app\.10086\.cn\/biz-orange\/DN\/(findSale|homeSale)\/getsaleAdver - reject
-
-# >> ChinaUnicom
-^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm - reject
-^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getWelcomeAd|getHomePageAd) - reject
-
-# >> CNTV
-^https?:\/\/asp\.cntv\.myalicdn\.com\/.+\?maxbr=850 - reject
-^https?:\/\/cntv\.hls\.cdn\.myqcloud\.com\/.+\?maxbr=850 - reject
-^https?:\/\/v\.cctv\.com\/.+850 - reject
-^https?:\/\/www\.cntv\.cn\/nettv\/adp\/ - reject
-
-# >> DanDan Zan
-^https?:\/\/www\.dandanzan\.com\/res\/gdsefse\.js - reject
-
-# >> DangDang
-^https?:\/\/mapi\.dangdang\.com\/index\.php\?action=init - reject
-
-# >> DayDayCook
-^https?:\/\/api\.daydaycook\.com\.cn\/daydaycook\/server\/ad\/ - reject
-^https?:\/\/cms\.daydaycook\.com\.cn\/api\/cms\/advertisement\/ - reject
-
-# >> eLong
-^https?:\/\/mobile-api2011\.elong\.com\/(adgateway|adv)\/ - reject
-^https?:\/\/(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})(\.(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})){3}\/(adgateway|adv)\/ - reject
-
-# >> Facebook
-^https?:\/\/www\.facebook\.com\/.+video_click_to_advertiser_site - reject
-
-# >> Fliggy
-^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources\/ - reject
-
-# >> Flyer Tea
-^https?:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis - reject
-
-# >> Foodie
-^https?:\/\/foodie-api\.yiruikecorp\.com\/v\d\/(banner|notice)\/overview - reject
-
-# >> FOTOABLE
-^https?:\/\/cdn\.api\.fotoable\.com\/Advertise\/ - reject
-
-# >> Gofun
-^https?:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json - reject
-
-# >> Google
-^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat - reject
-^https?:\/\/.+\.youtube\.com\/api\/stats\/ads - reject
-^https?:\/\/.+\.youtube\.com\/get_midroll - reject
-^https?:\/\/.+\.youtube\.com\/get_midroll_ - reject
-^https?:\/\/.+\.youtube\.com\/pagead\/ - reject
-^https?:\/\/.+\.youtube\.com\/ptracking - reject
-^https?:\/\/.+\.youtube\.com\/ptracking\? - reject
-^https?:\/\/pagead2.googlesyndication.com\/pagead\/js\/? - reject
-^https?:\/\/pagead2.googlesyndication.com\/pagead\/js\/? - reject
-^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite - reject
-^https?:\/\/www.google-analytics.com\/analytics.js - reject
-^https?:\/\/www.google-analytics.com\/analytics.js - reject
-^https?:\/\/youtubei\.googleapis\.com/.+ad_break - reject
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ - reject
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_ - reject
-
-# >> Hangzhou Bus
-^https?:\/\/m\.ibuscloud.com\/v\d\/app\/getStartPage - reject
-
-# >> Hangzhou Citizen Card
-^https?:\/\/smkmp\.96225.com\/smkcenter\/ad/ - reject
-
-# >> Hupu
-^https?:\/\/games\.mobileapi\.hupu\.com\/.+\/(interfaceAdMonitor|interfaceAd)\/ - reject
-^https?:\/\/games\.mobileapi\.hupu\.com\/.+\/status\/init - reject
-
-# >> IdleFish
-^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome\/ - reject
-
-# >> iFlytek
-^https?:\/\/imeclient\.openspeech\.cn\/adservice\/ - reject
-
-# >> iQiyi
-^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show.do - reject
-^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v\d\/show - reject
-^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo - reject
-^https?:\/\/t7z\.cupid\.iqiyi\.com\/mixer\? - reject
-
-# >> JD
-^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
-^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start - reject
-^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo - reject
-
-# >> Jiemian
-^https?:\/\/img\.jiemian\.com\/ads\/ - reject
-
-# >> JXEDT
-^https?:\/\/api\.jxedt\.com\/ad\/ - reject
-^https?:\/\/richmanapi\.jxedt\.com\/api\/ad\/ - reject
-
-# >> Keep
-^https?:\/\/static1\.keepcdn\.com\/.+\d{3}x\d{4} - reject
-^https?:\/\/api\.gotokeep\.com\/ads\/ - reject
-
-# >> KFC
-^https?:\/\/res\.kfc\.com\.cn\/advertisement\/ - reject
-
-# >> Kingsoft
-^https?:/\/\counter\.ksosoft.com\/ad\.php - reject
-^https?:\/\/.+\.kingsoft-office-service\.com\/ad - reject
-^https?:\/\/counter\.ksosoft\.com\/ad\.php - reject
-^https?:\/\/dict-mobile\.iciba\.com\/interface\/index\.php\?.+(c=ad|collectFeedsAdShowCount|KSFeedsAdCardViewController) - reject
-^https?:\/\/ios\.wps\.cn\/ad-statistics-service - reject
-^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/ - reject
-^https?:\/\/service\.iciba\.com\/popo\/open\/screens\/v\d\?adjson - reject
-
-# >> KouBei
-^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/ - reject
-^https?:\/\/render\.alipay\.com\/p\/s\/h5data\/prod\/spring-festival-2019-h5data\/popup-h5data\.json - reject
-
-# >> Kuaikan Comic
-^https?:\/\/api\.kkmh\.com\/.+(ad|advertisement)\/ - reject
-
-# >> Kuwo
-^https?:\/\/(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})(\.(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})){3}\/EcomResourceServer/AdPlayPage/adinfo - reject
-^https?:\/\/(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})(\.(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})){3}\/MobileAdServer\/ - reject
-
-# >> Le
-^https?:\/\/.+\/letv-gug\/ - reject
-
-# >> Luckin Coffee
-^https?:\/\/.+\/resource\/m\/promo\/adsense - reject
-^https?:\/\/.+\/resource\/m\/sys\/app\/adpos - reject
-
-# >> MaFengWo
-^https?:\/\/mapi\.mafengwo\.cn\/ad\/ - reject
-^https?:\/\/mapi\.mafengwo\.cn\/travelguide\/ad\/ - reject
-
-# >> Mahua Video
-^https?:\/\/.+\/api\/app\/member\/ver2\/user\/login\/ - reject
-
-
-# >> Maiduidui
-^https?:\/\/mob\.mddcloud\.com\.cn\/api\/(ad|advert)\/ - reject
-
-# >> Manhuaren
-^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/public\/getStartPageAds - reject
-
-
-# >> Meituan
-^https?:\/\/img\.meituan\.net\/midas\/ - reject
-^https?:\/\/p([0-9])\.meituan\.net\/(mmc|wmbanner)\/ - reject
-^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|linglong|mmc|wmbanner)\/ - reject
-^https?:\/\/s3plus\.meituan\.net\/.+\/linglong\/ - reject
-
-# >> Meiweibuyongdeng
-^https?:\/\/capi.mwee.cn/app-api/V12/app/getstartad - reject
-
-# >> MI
-^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start - reject
-^https?:\/\/api\.jr\.mi\.com\/v\d\/adv\/ - reject
-^https?:\/\/api\.jr\.mi\.com\/jr\/api\/playScreen - reject
-
-# >> MI Fit
-^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/homepage_ad\? - reject
-^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/sleep_ad\? - reject
-^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/sport_ad\? - reject
-^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/sport_summary_ad\? - reject
-^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/sport_training_ad\? - reject
-^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/step_detail_ad\? - reject
-^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/training_video_ad\? - reject
-
-# >> Miaopai
-^https?:\/\/b-api\.ins\.miaopai\.com\/1\/ad/ - reject
-
-# >> MIgu
-^https?:\/\/.+\/v\d\/iflyad\/ - reject
-^https?:\/\/.+\/cdn-adn\/ - reject
-^https?:\/\/ggic\.cmvideo\.cn\/ad\/ - reject
-^https?:\/\/ggic2\.cmvideo\.cn\/ad\/ - reject
-^https?:\/\/.+/img\/ad\.union\.api\/ - reject
-
-# >> MixC
-^https?:\/\/app\.mixcapp\.com\/mixc\/api\/v\d\/ad - reject
-
-# >> MogoRenter
-^https?:\/\/api\.mgzf\.com\/renter-operation\/home\/startHomePage - reject
-
-# >> MojiWeather
-^https?:\/\/cdn\.moji\.com\/(adoss|adlink)\/ - reject
-
-# >> Myhug
-^https?:\/\/www\.myhug\.cn\/ad\/ - reject
-
-# >> NationalGeographic
-^https?:\/\/dili\.bdatu\.com\/jiekou\/ad\/ - reject
-
-# >> NationalGeographicChina
-^https?:\/\/wap\.ngchina\.cn\/news\/adverts\/ - reject
-
-# >> NetEase
-^https?:\/\/.+\/eapi\/(ad|log)\/ - reject
-^https?:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/searchMultiAds - reject
-^https?:\/\/c\.m\.163\.com\/nc\/gl\/ - reject
-^https?:\/\/dsp-impr2\.youdao\.com\/adload.s\? - reject
-^https?:\/\/oimage([a-z])([0-9])\.ydstatic\.com\/.+adpublish - reject
-^https?:\/\/sp\.kaola\.com\/api\/openad - reject
-^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json - reject
-
-# >> ofo
-^https?:\/\/supportda\.ofo\.com\/adaction\? - reject
-^https?:\/\/ma\.ofo\.com\/ads\/ - reject
-^https?:\/\/activity2\.api\.ofo\.com\/ofo\/Api\/v\d\/ads - reject
-^https?:\/\/ma\.ofo\.com\/adImage\/ - reject
-
-# >> PConline
-^https?:\/\/agent-count\.pconline\.com\.cn\/counter\/adAnalyse\/ - reject
-^https?:\/\/mrobot\.pcauto\.com\.cn\/v\d\/ad2p - reject
-^https?:\/\/mrobot\.pcauto\.com\.cn\/xsp\/s\/auto\/info\/preload\.xsp - reject
-^https?:\/\/mrobot\.pconline\.com\.cn\/s\/onlineinfo\/ad\/ - reject
-^https?:\/\/mrobot\.pconline\.com\.cn\/v\d\/ad2p - reject
-
-# >> PeanutWiFiMpass
-^https?:\/\/cmsapi\.wifi8\.com\/v\d{1}\/(emptyAd|adNew)\/ - reject
-
-# >> Qdaily
-^https?:\/\/app3\.qdaily\.com\/app3\/boot_advertisements\.json - reject
-^https?:\/\/notch\.qdaily\.com\/api\/v\d\/boot_ad - reject
-
-# >> Qiongou
-^https?:\/\/media\.qyer\.com\/ad\/ - reject
-^https?:\/\/open\.qyer.com\/qyer\/config\/get - reject
-^https?:\/\/open\.qyer\.com\/qyer\/startpage\/ - reject
-
-# >> Qiuduoduo
-^https?:\/\/api\.qiuduoduo\.cn\/guideimage - reject
-
-# >> Renren Video
-^https?:\/\/api\.rr\.tv\/ad\/ - reject
-^https?:\/\/api\.videozhishi\.com\/api\/getAdvertising - reject
-^https?:\/\/msspjh\.emarbox\.com\/getAdConfig - reject
-
-# >> ShiHuo
-^https?:\/\/www\.shihuo\.cn\/app3\/saveAppInfo - reject
-
-# >> 首汽约车
-^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/car-rest\/webservice\/passenger\/recommendADs - reject
-^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passenger-token\/leachtoken\/webservice\/homepage\/queryADs - reject
-
-# >> Sina
-^https?:\/\/edit\.sinaapp\.com\/ua\?t=adv - reject
-
-# >> Sina Weather
-^https?:\/\/tqt\.weibo\.cn\/.+advert\.index - reject
-^https?:\/\/tqt\.weibo\.cn\/api\/advert\/ - reject
-^https?:\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=tqtad - reject
-^https?:\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=tqt_sdkad - reject
-
-# >> Sina Weibo
-^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php - reject
-^https?:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua - reject
-^https?:\/\/sdkapp\.uve\.weibo\.com/\interface\/sdk\/actionad\.php - reject
-
-# >> SMZDM
-^https?:\/\/api\.smzdm\.com\/v\d\/util\/loading - reject
-
-# >> Snail Sleep
-^https?:\/\/snailsleep\.net\/snail\/v\d\/adTask\/ - reject
-^https?:\/\/snailsleep\.net\/snail\/v\d\/screen\/qn\/get\? - reject
-
-# >> Sohu
-^https?:\/\/api\.k\.sohu\.com\/api\/news\/adsense - reject
-^https?:\/\/api\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
-^https?:\/\/hui\.sohu\.com\/predownload2/\? - reject
-^https?:\/\/pic\.k\.sohu\.com\/img8\/wb\/tj\/ - reject
-^https?:\/\/s1\.api\.tv\.itc\.cn\/v\d\/mobile\/control\/switch\.json - reject
-
-# >> StarFans
-^https?:\/\/a\.sfansclub\.com\/business\/t\/ad\/ - reject
-^https?:\/\/a\.sfansclub\.com\/business\/t\/boot\/screen\/index - reject
-
-# >> TaPiaoPiao
-^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise\/ - reject
-
-# >> Tencent Futu Securities
-^https?:\/\/api5\.futunn\.com\/ad\/ - reject
-
-# >> Tencent Game
-^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info - reject
-^https?:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons - reject
-
-# >> Tencent Maps
-^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/ - reject
-^https?:\/\/newsso\.map\.qq\.com\/\?&attime= - reject
-
-# >> Tencent News
-^https?:\/\/r\.inews\.qq\.com\/adsBlacklist - reject
-^https?:\/\/r\.inews\.qq\.com\/getFullScreenPic - reject
-^https?:\/\/r\.inews\.qq\.com\/getQQNewsRemoteConfig - reject
-
-# >> Tencent QQLive
-^https?:\/\/.+\.mp4\?cdncode=.+&guid= - reject
-^https?:\/\/.+\.mp4\?cdncode=.+&sdtfrom=v3004 - reject
-^https?:\/\/btrace.qq.com - reject
-^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject
-
-# >> Tencent WeChat
-^https?:\/\/mp\.weixin\.qq.com\/mp\/advertisement_report - reject
-^https?:\/\/mp\.weixin\.qq.com\/mp\/ad_complaint - reject
-^https?:\/\/mp\.weixin\.qq.com\/mp\/ad_video - reject
-
-# >> The Paper
-^https?:\/\/adpai\.thepaper\.cn\/.+&ad= - reject
-
-# >> Thunder
-^https?:\/\/images\.client\.vip\.xunlei\.com\/.+\/advert\/ - reject
-
-# >> tskscn
-^https?:\/\/47\.97\.20\.12\/ad\/ - reject
-
-# >> TV_Home
-^https?:\/\/api\.gaoqingdianshi\.com\/api\/v\d\/ad\/ - reject
-
-# >> txffp
-^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/ - reject
-
-# >> UC
-^https?:\/\/huichuan\.sm\.cn\/jsad - reject
-^https?:\/\/iflow\.uczzd\.cn\/log\/ - reject
-
-# >> Variflight
-^https:\/\/app\.variflight\.com\/v4\/advert\/ - reject
-
-# >> VUE
-^https?:\/\/static\.vuevideo\.net\/styleAssets\/.+\/splash_ad - reject
-^https?:\/\/static\.vuevideo\.net\/styleAssets\/advertisement\/ - reject
-
-# >> WallStreetCN
-^https?:\/\/api\.wallstreetcn\.com\/apiv\d\/advertising\/ - reject
-
-# >> WeDoctor
-^https?:\/\/app\.wy\.guahao\.com\/json\/white\/dayquestion\/getpopad - reject
-
-# >> Weico
-^https?:\/\/overseas\.weico\.cc/portal\.php\?a=get_coopen_ads - reject
-
-# >> WeiDian
-^https?:\/\/thor\.weidian\.com\/ares\/home\.splash\/ - reject
-
-# >> WiFi Share Master
-^https?:\/\/nochange\.ggsafe\.com\/ad\/ - reject
-
-# >> WIFI8
-^https?:\/\/cmsapi\.wifi8\.com\/v\d\/emptyAd\/info - reject
-^https?:\/\/cmsapi\.wifi8\.com\/v\d\/adNew\/config - reject
-
-# >> Wuta Cam
-^https?:\/\/api-release\.wuta-cam\.com\/ad_tree - reject
-^https?:\/\/res-release\.wuta-cam\.com\/json\/ads_component_cache\.json - reject
-
-# >> Xiachufang
-^https?:\/\/api\.xiachufang\.com\/v\d\/ad/ - reject
-
-# >> Xiami music
-^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit\/ - reject
-
-# >> Xianyu
-^https?:\/\/gw\.alicdn\.com\/mt\/ - reject
-^https?:\/\/gw\.alicdn\.com\/tfs\/.+\d{3,4}-\d{4} - reject
-^https?:\/\/gw\.alicdn\.com\/tps\/.+\d{3,4}-\d{4} - reject
-
-# >> Xiao Shuimian
-^https?:\/\/api\.psy-1\.com\/cosleep\/startup - reject
-
-# >> Ximalaya
-^https?:\/\/adse.+\.com\/[a-z]{4}\/loading\?appid= - reject
-^https?:\/\/adse\.ximalaya\.com\/ting\/feed\?appid= - reject
-^https?:\/\/adse\.ximalaya\.com\/ting\/loading\?appid= - reject
-^https?:\/\/adse\.ximalaya\.com\/ting\?appid= - reject
-^https?:\/\/fdfs\.xmcdn\.com\/group21\/M03\/E7\/3F\/ - reject
-^https?:\/\/fdfs\.xmcdn\.com\/group21\/M0A\/95\/3B\/ - reject
-^https?:\/\/fdfs\.xmcdn\.com\/group22\/M00\/92\/FF\/ - reject
-^https?:\/\/fdfs\.xmcdn\.com\/group22\/M05\/66\/67\/ - reject
-^https?:\/\/fdfs\.xmcdn\.com\/group22\/M07\/76\/54\/ - reject
-^https?:\/\/fdfs\.xmcdn\.com\/group23\/M01\/63\/F1\/ - reject
-^https?:\/\/fdfs\.xmcdn\.com\/group23\/M04\/E5\/F6\/ - reject
-^https?:\/\/fdfs\.xmcdn\.com\/group23\/M07\/81\/F6\/ - reject
-^https?:\/\/fdfs\.xmcdn\.com\/group23\/M0A\/75\/AA\/ - reject
-^https?:\/\/fdfs\.xmcdn\.com\/group24\/M03\/E6\/09\/ - reject
-^https?:\/\/fdfs\.xmcdn\.com\/group24\/M07\/C4\/3D\/ - reject
-^https?:\/\/fdfs\.xmcdn\.com\/group25\/M05\/92\/D1\/ - reject
-
-# >> Xunyou Booster
-^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/configs\/(splash_ad|ad_urls) - reject
-^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d{1}\/ios\/ads\/ - reject
-
-# >> Yahoo!
-^https?:\/\/m\.yap\.yahoo\.com\/v18\/getAds\.do - reject
-
-# >> Yingshi Cloud Video
-^https?:\/\/i\.ys7\.com\/api\/ads - reject
-
-# >> YOUKU
-^https?:\/\/.+\.mp4\?ccode=0902 - reject
-^https?:\/\/.+\.mp4\?sid= - reject
-
-# >> Youtube++
-^https?:\/\/api\.catch\.gift\/api\/v\d\/pagead\/ - reject
-
-# >> Yundongshijie
-^https?:\/\/.+\.iydsj\.com\/api\/.+\/ad - reject
-
-# >> YYeTs
-^https?:\/\/ctrl\.(playcvn|zmzapi)\.(com|net)\/app\/(ads|init) - reject
-
-# >> Zhiboba
-^https?:\/\/a\.qiumibao\.com\/activities\/config\.php - reject
-^https?:\/\/.+\/allOne\.php\?ad_name - reject
-
-# >> Zhihu
-^https?:\/\/www\.zhihu\.com\/terms\/privacy\/confirm - reject
-^https?:\/\/api\.zhihu\.com\/market\/popover - reject
-^https?:\/\/api\.zhihu\.com\/search\/(top|tab|preset) - reject
-^https?:\/\/api\.zhihu\.com\/(launch|ad-style-service|app_config|real_time|ab\/api) - reject
-^https?:\/\/api\.zhihu\.com\/commercial_api\/(launch|real_time) - reject
-^https?:\/\/(api|www)\.zhihu\.com\/.*(featured-comment-ad|recommendations|community-ad) - reject
-^https?:\/\/(api|www)\.zhihu\.com\/(fringe|adx|commercial|ad-style-service|banners|mqtt) - reject
-
-# >> Zhuishushenqi
-^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject
-^https?:\/\/api01pbmp\.zhuishushenqi\.com\/gameAdvert - reject
-^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage - reject
-^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage - reject
-^https?:\/\/api\.zhuishushenqi\.com\/recommend - reject
-^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios - reject
-^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated - reject
-^https?:\/\/b\.zhuishushenqi\.com\/advert - reject
-^https?:\/\/dspsdk\.abreader\.com\/v\d\/api\/ad\? - reject
-^https?:\/\/itunes\.apple\.com\/lookup\?id=575826903 - reject
-^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg - reject
-
-[Host]
-ip6-localhost = ::1
-ip6-loopback = ::1
-doh.pub = server:119.29.29.29
-taobao.com = server:223.6.6.6
-*.taobao.com = server:223.6.6.6
-tmall.com = server:223.6.6.6
-*.tmall.com = server:223.6.6.6
-jd.com = server:119.29.29.29
-*.jd.com = server:119.28.28.28
-*.qq.com = server:119.28.28.28
-*.tencent.com = server:119.28.28.28
-*.alicdn.com = server:223.5.5.5
-aliyun.com = server:223.5.5.5
-*.aliyun.com = server:223.5.5.5
-weixin.com = server:119.28.28.28
-*.weixin.com = server:119.28.28.28
-bilibili.com = server:119.29.29.29
-*.bilibili.com = server:119.29.29.29
-hdslb.com = server:119.29.29.29
-163.com = server:119.29.29.29
-*.163.com = server:119.29.29.29
-126.com = server:119.29.29.29
-*.126.com = server:119.29.29.29
-*.126.net = server:119.29.29.29
-*.127.net = server:119.29.29.29
-*.netease.com = server:119.29.29.29
-mi.com = server:119.29.29.29
-*.mi.com = server:119.29.29.29
-xiaomi.com = server:119.29.29.29
-*.xiaomi.com = server:119.29.29.29
-routerlogin.net = server:system
-_hotspot_.m2m = server:system
-router.asus.com = server:system
-hotspot.cslwifi.com = server:system
-amplifi.lan = server:system
-*.lan = server:system
+bypass-system = true
+skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
+#DNS设置或根据自己网络情况进行相应设置
+bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
+dns-server = 119.29.29.29,223.5.5.5
 
 [Script]
-
-http-response ^https?:\/\/(api|mapi)\.weibo\.(cn|com)\/2(\/groups\/timeline|\/statuses\/unread|\/statuses\/extend|\/comments\/build_comments|\/photo\/recommend_list|\/stories\/video_stream|\/statuses\/positives\/get|\/stories\/home_list|\/profile\/statuses|\/statuses\/friends\/timeline|\/service\/picfeed) requires-body=true,script-path=https://subweb.s3.fr-par.scw.cloud/Script/wb_ad,script-update-interval=86400
-http-response ^https?:\/\/(sdk|wb)app\.uve\.weibo\.com(\/interface\/sdk\/sdkad.php|\/wbapplua\/wbpullad.lua) requires-body=true,script-path=https://subweb.s3.fr-par.scw.cloud/Script/wb_launch,script-update-interval=86400
-
-http-response ^https:\/\/api\.rr\.tv[\s\S]*(channel|Feed|Choice|profile|Medal) max-size=524288,requires-body=true,script-path=https://subweb.s3.fr-par.scw.cloud/Script/RRad,script-update-interval=86400
-
-# Onewayticket255
-http-response https://oauth.secure.pixiv.net/auth/token requires-body=1,max-size=0,script-path=https://subweb.s3.fr-par.scw.cloud/Script/pixiv_premium,script-update-interval=86400
-
-http-response https://abema.tv/.* requires-body=1,max-size=-1,script-path=https://subweb.s3.fr-par.scw.cloud/Script/surge_abematv_web,script-update-interval=86400
-
-[MITM]
-enable = true
-tcp-connection = false
-skip-server-cert-verify = false
-hostname = *.abema.tv, *.music.163.com, *.music.126.net, *.chelaile.net.cn, *.didistatic.com, *.google-analytics.com, *.googlevideo.com, *.iydsj.com, *.k.sohu.com, *.kfc.com, *.kingsoft-office-service.com, *.meituan.net, *.ofo.com, *.pixiv.net, *.pstatp.com, *.snssdk.com, *.uve.weibo.com, *.wikipedia.org, *.wikiwand.com, *.ydstatic.com, *.youdao.com, *.youtube.com, *.zhuishushenqi.com, 119.18.193.135, 123.59.31.1, 153.3.236.81, 180.101.212.22, 218.11.3.70, 59.151.53.6, a.apicloud.com, a.applovin.com, a.qiumibao.com, a.sfansclub.com, a.wkanx.com, abema.tv, acs.m.taobao.com, act.vip.iqiyi.com, adse.ximalaya.com, api*.musical.ly, api-release.wuta-cam.com, api.abema.io, api.bilibili.com, api.daydaycook.com.cn, api.gotokeep.com, api.intsig.net, api.jr.mi.com, api.jxedt.com, api.kkmh.com, api.m.jd.com, api.mgzf.com, api.psy-1.com, api.rr.tv, api.smzdm.com, api.tv.sohu.com, api.wallstreetcn.com, api.weibo.cn, api.xiachufang.com, api.zhihu.com, api.zhuishushenqi.com, api5.futunn.com, app.10086.cn, app.58.com, app.api.ke.com, app.bilibili.com, app.mixcapp.com, app.variflight.com, app.wy.guahao.com, b.zhuishushenqi.com, c.m.163.com, cap.caocaokeji.cn, capi.mwee.cn, cdn.moji.com, channel.beitaichufang.com, client.mail.163.com, cms.daydaycook.com.cn, dspsdk.abreader.com, fdfs.xmcdn.com, gateway.shouqiev.com, gw-passenger.01zhuanche.com, gw.alicdn.com, huichuan.sm.cn, i.weread.qq.com, i.ys7.com, iapi.bishijie.com, iface.iqiyi.com, img*.doubanio.com, img.jiemian.com, interface.music.163.com, ios.wps.cn, m*.amap.com, m.client.10010.com, m.creditcard.ecitic.com, m.ibuscloud.com, m.yap.yahoo.com, mapi.mafengwo.cn, mapi.weibo.com, media.qyer.com, mi.gdt.qq.com, mob.mddcloud.com.cn, mobile-api2011.elong.com, mp.weixin.qq.com, mrobot.pcauto.com.cn, mrobot.pconline.com.cn, ms.jr.jd.com, msspjh.emarbox.com, music.163.com, music.126.net, newsso.map.qq.com, nnapp.cloudbae.cn, open.qyer.com, portal-xunyou.qingcdn.com, pss.txffp.com, r.inews.qq.com, render.alipay.com, res-release.wuta-cam.com, richmanapi.jxedt.com, service.4gtv.tv, smkmp.96225.com, snailsleep.net, sp.kaola.com, ssl.kohsocialapp.qq.com, static.vuevideo.net, static1.keepcdn.com, support.you.163.com, thor.weidian.com, www.dandanzan.com, www.flyertea.com, www.zhihu.com, youtubei.googleapis.com, zhidao.baidu.com
-ca-p12 = MIIEWgIBAzCCBCAGCSqGSIb3DQEHAaCCBBEEggQNMIIECTCCAv8GCSqGSIb3DQEHBqCCAvAwggLsAgEAMIIC5QYJKoZIhvcNAQcBMBwGCiqGSIb3DQEMAQYwDgQIEbxT6Tq17dsCAggAgIICuCzGa3ovYwnv6OIzJLkSKyAFypSmJ8KTBPyai2s1heOTIf3PoC0aSml1Q0blJ2R9tAEJMS3SoM4PjNK6q6nGycAgx1dIUFEQG7DEQebVP0XHHK6uNyRPqgXPrhCXjqZSOLhpcsg4BfLRjf0S0fquZySAi7kn5IXUo1fUey2r/36UkT8imBHPsUSsllryK5dXBQAwJtPYGl7nV50F/LA58ckv5pT+gDS4vVvUAytPfoqTDPCUEMzrZkXu7ZP/6YP+DeUgLXFvEubSkmrEeztJoC2GozClPNtRHfbMzA/jTH1/lOZ1zDdvrNheDLgP8CBv/mawNy4dxrJozfOcdEiWdLAMp8PmcXvaY9sNVlYYP+ztIMA/oaIHEycsOvx1PxMU2i8s/SIZBDszdHgRqKC6fVJxcrv0qtYdUlmfGKWt85LeB7JPXlmfs6ovGrZuc9y2WNnq2cbPmZuKbdxB5j/oM8jA6fLO9Z1MZDEXo42CgU7ZONjK8/bLG5J3wlI4DnC6HYwk3hSUWRBFpjNkRlUhZZWwMsfjBmYG9/hvDF7aGCeBDwm/euWLz9lGuUqRs5F11YhRL2dhOHC2mB4fhsSGbsgOps15fsuUydheYbU12hkGfYQSNsVi0d1GiGIsdiEtrYhXAWnY6DfGPERbhYvwlPSUAvdgWltC/BYgVMM//y3PwCVhcjEfYOK6k3ZNLuIc4Nebk2FPI7u0eXCk0Pi/RiSlOiBO79B2jpEdpyQbEDYAvetEsmaU6M8SZMMHnupNET/Sy+LlpFhRDSRcQndHpBkw166rM+6H3IHewJyYZBNvesltVBuSGtmJx57QI63CgCTUiu/UmWlHKmGuK5pHbMJlkREWJnVYqT3WIoB7MCX19bhLWxfbcLO+pipr8jrrjUF0skOLwg7HxnqHDk6oLyN4eLgn3Kr70zCCAQIGCSqGSIb3DQEHAaCB9ASB8TCB7jCB6wYLKoZIhvcNAQwKAQKggbQwgbEwHAYKKoZIhvcNAQwBAzAOBAgCgEDjD1kMngICCAAEgZCwn6xW0rtwHctlMsJw20caSgWcFTLcNBTgISSri2XLMeJfvygcgFbO7/zT64stk1tVZRktjAX/fELsFp4Xw/UspdVG6CgsRE7QcY+CT8wn6dvusvU2mv3KpI7NwrXmUMsKNbW5N8Qh37WYTCg5mvA7jFAazC+RnKgoMvMVnQbuT1CMJ3in7lPIsPTW3ub0188xJTAjBgkqhkiG9w0BCRUxFgQU8ZGlcfqIeitY4nkiNU7TX5gEi6MwMTAhMAkGBSsOAwIaBQAEFCBiCE2z1g+P8yPQTFy79/Pahq/lBAixZy/UGOLmVQICCAA=
-ca-passphrase = rixCloudPKI
+http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 
 [Proxy]
 DIRECT = direct
-枭木iOS大本营 TG@Tmxios = trojan, [2602:fada:0:36::a], 889, password=LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni=s3.cjhh.beauty, skip-cert-verify=false, tfo=false
-枭木iOS大本营 TG@Tmxios 2 = trojan, 18.183.142.175, 37905, password=98bae868-4f00-40e0-9603-8d848644ec44, sni=1gzdx2.156786.xyz, skip-cert-verify=false, tfo=false
-枭木iOS大本营 TG@Tmxios 3 = ss, 51.158.200.141, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, tfo=false
-枭木iOS大本营 TG@Tmxios 4 = trojan, 54.75.22.115, 22222, password=telegram-id-privatevpns, sni=trj.rollingnext.co.uk, skip-cert-verify=false, tfo=false
-枭木iOS大本营 TG@Tmxios 5 = trojan, 63.35.80.100, 22222, password=telegram-id-directvpn, sni=trj.rollingnext.co.uk, skip-cert-verify=false, tfo=false
-枭木iOS大本营 TG@Tmxios 6 = ss, 167.88.63.44, 443, encrypt-method=aes-256-gcm, password=pKEW8JPByTVTLtM, tfo=false
-枭木iOS大本营 TG@Tmxios 7 = ss, 167.88.63.44, 7307, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, tfo=false
-枭木iOS大本营 TG@Tmxios 8 = ss, 167.88.63.44, 3306, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, tfo=false
-枭木iOS大本营 TG@Tmxios 9 = ss, 167.88.63.44, 5001, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, tfo=false
-枭木iOS大本营 TG@Tmxios 10 = ss, 167.88.63.44, 5601, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, tfo=false
-枭木iOS大本营 TG@Tmxios 11 = ss, 167.88.63.44, 8119, encrypt-method=aes-256-gcm, password=cdBIDV42DCwnfIN, tfo=false
-枭木iOS大本营 TG@Tmxios 12 = ss, 167.88.63.44, 2375, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7, tfo=false
-枭木iOS大本营 TG@Tmxios 13 = ss, 167.88.63.44, 2376, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7, tfo=false
-枭木iOS大本营 TG@Tmxios 14 = ss, 167.88.63.44, 5500, encrypt-method=aes-256-gcm, password=KixLvKzwjekG00rm, tfo=false
-枭木iOS大本营 TG@Tmxios 15 = ss, 167.88.63.44, 8091, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27, tfo=false
-枭木iOS大本营 TG@Tmxios 16 = ss, 167.88.63.44, 6679, encrypt-method=aes-256-gcm, password=TEzjfAYq2IjtuoS, tfo=false
-枭木iOS大本营 TG@Tmxios 17 = ss, 167.88.63.44, 7002, encrypt-method=aes-256-gcm, password=RexnBgU7EV5ADxG, tfo=false
-枭木iOS大本营 TG@Tmxios 18 = ss, 167.88.63.44, 7001, encrypt-method=aes-256-gcm, password=RexnBgU7EV5ADxG, tfo=false
-枭木iOS大本营 TG@Tmxios 19 = ss, 167.88.63.44, 5004, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, tfo=false
-枭木iOS大本营 TG@Tmxios 20 = ss, 167.88.63.44, 8881, encrypt-method=aes-256-gcm, password=kDWvXYZoTBcGkC4, tfo=false
-枭木iOS大本营 TG@Tmxios 21 = ss, 167.88.63.44, 6379, encrypt-method=aes-256-gcm, password=zDNVedRFPQexG9v, tfo=false
-枭木iOS大本营 TG@Tmxios 22 = trojan, 44.220.7.73, 22222, password=telegram-id-directvpn, sni=trj.rollingnext.co.uk, skip-cert-verify=false, tfo=false
-枭木iOS大本营 TG@Tmxios 23 = trojan, [2404:c140:225:e::13], 889, password=LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni=cdn.cjhh.lol, skip-cert-verify=false, tfo=false
-枭木iOS大本营 TG@Tmxios 24 = ss, 54.151.140.30, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-枭木iOS大本营 TG@Tmxios 25 = ss, 216.52.183.245, 80, encrypt-method=aes-128-gcm, password=83XvX4Vo%*3a,obfs=http,obfs-host=None, tfo=false
-枭木iOS大本营 TG@Tmxios 26 = ss, 54.36.174.181, 3306, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, tfo=false
-枭木iOS大本营 TG@Tmxios 27 = ss, 54.36.174.181, 8119, encrypt-method=aes-256-gcm, password=cdBIDV42DCwnfIN, tfo=false
-枭木iOS大本营 TG@Tmxios 28 = ss, 54.36.174.181, 8118, encrypt-method=aes-256-gcm, password=cdBIDV42DCwnfIN, tfo=false
-枭木iOS大本营 TG@Tmxios 29 = ss, 54.36.174.181, 7002, encrypt-method=aes-256-gcm, password=RexnBgU7EV5ADxG, tfo=false
-枭木iOS大本营 TG@Tmxios 30 = ss, 54.36.174.181, 5500, encrypt-method=aes-256-gcm, password=KixLvKzwjekG00rm, tfo=false
-枭木iOS大本营 TG@Tmxios 31 = ss, 54.36.174.181, 6379, encrypt-method=aes-256-gcm, password=zDNVedRFPQexG9v, tfo=false
-枭木iOS大本营 TG@Tmxios 32 = ss, 54.36.174.181, 5600, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, tfo=false
-枭木iOS大本营 TG@Tmxios 33 = trojan, 52.51.118.52, 22222, password=telegram-id-privatevpns, sni=trj.rollingnext.co.uk, skip-cert-verify=false, tfo=false
-枭木iOS大本营 TG@Tmxios 34 = trojan, 54.170.172.65, 22222, password=telegram-id-directvpn, sni=trj.rollingnext.co.uk, skip-cert-verify=false, tfo=false
-枭木iOS大本营 TG@Tmxios 35 = ss, 43.202.63.42, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-枭木iOS大本营 TG@Tmxios 36 = ss, 54.36.174.181, 5004, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, tfo=false
-🇺🇸 US_83 |56.80Mb = vmess, 45.199.138.209, 50447, username=418048af-a293-4b99-9b0c-98ca4690dd24, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false
-🇺🇸 US_89 |41.63Mb = vmess, 45.199.138.164, 48944, username=65ea6727-4461-47a7-a5c4-fef2c67f2f79, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false
-🇿🇦 ZA_92 |55.92Mb = vmess, 156.225.67.48, 45493, username=3ca912da-6ac2-418f-b9cf-45b6f694579b, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false
-IR_532 = vmess, 91.107.244.77, 50027, username=b9f75eba-67b0-4a6b-b89e-7e18217c61f5, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false
-🇺🇸 Relay_🇺🇸US-🇺🇸US_901 = vmess, 172.67.80.215, 8880, username=67a341a7-5ae7-4d92-edad-9e8db87ce165, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=vcus1.vpn66.eu.org, ws-headers=Host:vcus1.vpn66.eu.org, skip-cert-verify=false, tfo=false
-_518 = vmess, 2404:c140:225:e::a, 888, username=a590e692-4c8d-42dd-ba80-b1765a34f699, tls=true, vmess-aead=true, ws=true, ws-path=/je5x3pBN1vez3NQudNkB, sni=cdn.cjhh.lol, ws-headers=Host:cdn.cjhh.lol, skip-cert-verify=false, tfo=false
-HK = direct
-JP = direct
-SG = direct
-TW = direct
+枭木iOS大本营 TG@Tmxios = trojan, [2602:fada:0:36::a], 889, password=LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni=s3.cjhh.beauty, skip-cert-verify=false, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 2 = trojan, 163.123.192.154, 443, password=9cd1c805-1da3-4441-9bb4-a211c52f1c02, sni=downloadus.xn--mes358a9urctx.com, skip-cert-verify=false, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 3 = trojan, 3.253.207.28, 22222, password=telegram-id-directvpn, sni=trj.rollingnext.co.uk, skip-cert-verify=false, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 4 = trojan, 34.241.159.163, 22222, password=telegram-id-directvpn, sni=trj.rollingnext.co.uk, skip-cert-verify=false, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 5 = ss, 52.197.159.147, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 6 = ss, 84.17.34.110, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 7 = ss, 13.124.205.12, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 8 = ss, 3.38.102.103, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 9 = ss, 5.42.77.221, 1683, encrypt-method=chacha20-ietf-poly1305, password=ClvymlurCaNHlt9PDsRf7h, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 10 = trojan, 211.22.180.231, 443, password=ad45a324-03ab-4c71-ba4f-d1479b8ccdce, sni=tls.yihaobao.xyz, skip-cert-verify=false, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 11 = trojan, 3.12.47.19, 22222, password=telegram-id-directvpn, sni=trj.rollingnext.co.uk, skip-cert-verify=false, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 12 = trojan, [2404:c140:225:e::16], 889, password=LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni=cdn.cjhh.lol, skip-cert-verify=false, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 13 = trojan, 51.20.20.56, 22222, password=telegram-id-directvpn, sni=trj.rollingnext.co.uk, skip-cert-verify=false, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 14 = trojan, 16.16.112.0, 22222, password=telegram-id-directvpn, sni=trj.rollingnext.co.uk, skip-cert-verify=false, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 15 = trojan, 44.205.123.4, 22222, password=telegram-id-directvpn, sni=trj.rollingnext.co.uk, skip-cert-verify=false, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 16 = trojan, 108.181.23.231, 443, password=89ce124f-42d1-4c90-b9d2-bde2861ae615, sni=20-24-33-134.nhost.00cdn.com, skip-cert-verify=false, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 17 = trojan, 108.181.24.47, 443, password=89ce124f-42d1-4c90-b9d2-bde2861ae615, sni=20-24-33-134.nhost.00cdn.com, skip-cert-verify=false, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 18 = trojan, 108.181.22.249, 443, password=89ce124f-42d1-4c90-b9d2-bde2861ae615, sni=4-193-163-88.nhost.00cdn.com, skip-cert-verify=false, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 19 = trojan, 108.181.23.123, 443, password=89ce124f-42d1-4c90-b9d2-bde2861ae615, sni=20-24-33-134.nhost.00cdn.com, skip-cert-verify=false, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 20 = trojan, 108.181.23.71, 443, password=89ce124f-42d1-4c90-b9d2-bde2861ae615, sni=4-193-163-88.nhost.00cdn.com, skip-cert-verify=false, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 21 = trojan, 108.181.23.241, 443, password=89ce124f-42d1-4c90-b9d2-bde2861ae615, sni=20-24-33-134.nhost.00cdn.com, skip-cert-verify=false, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 22 = trojan, 18.183.186.175, 443, password=a30ba00c-802e-4a2d-bb93-aa15adaebc6d, sni=20-212-60-88.nhost.00cdn.com, skip-cert-verify=false, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 23 = ss, 216.52.183.245, 80, encrypt-method=aes-128-gcm, password=83XvX4Vo%*3a,obfs=http,obfs-host=None, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 24 = ss, 23.95.146.214, 26082, encrypt-method=aes-256-gcm, password=ou52kPPw9C, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 25 = trojan, 13.42.200.222, 22222, password=telegram-id-privatevpns, sni=trj.rollingnext.co.uk, skip-cert-verify=false, tfo=false, udp-relay=true
+US_74 = vmess, 45.199.138.209, 50447, username=418048af-a293-4b99-9b0c-98ca4690dd24, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+US_79 |34.96Mb = vmess, 45.199.138.164, 48944, username=65ea6727-4461-47a7-a5c4-fef2c67f2f79, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+ZA_101 |63.57Mb = vmess, 156.225.67.48, 45493, username=3ca912da-6ac2-418f-b9cf-45b6f694579b, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+ZA_102 |56.46Mb = vmess, 156.225.67.102, 52792, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+_122 |10.14Mb = vmess, 156.245.8.248, 41671, username=964bf499-9ec0-4378-92b6-87d8d861b2d0, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+_147 |11.09Mb = vmess, 154.85.1.244, 54982, username=1d474f0b-e78d-4af9-bc4a-a467467bc7a7, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+_152 |10.20Mb = vmess, 45.199.138.194, 39351, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+_154 | 9.88Mb = vmess, 45.199.138.202, 46670, username=de491802-233e-47f2-8c6c-d19bcf5bd56b, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+_155 | 9.75Mb = vmess, 45.199.138.160, 38722, username=9549a2cf-129b-43a1-88db-ef7f648de74a, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+_157 |10.17Mb = vmess, 156.225.67.25, 51381, username=375e70f0-5d46-476f-8d69-0fb35c5548a9, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+_165 | 9.12Mb = vmess, 45.199.138.148, 47005, username=f9fa3a9c-f7d5-414f-88e6-6970585d9949, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+Relay_-🇺🇸US_166 = vmess, 137.175.0.148, 48813, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+_168 |10.56Mb = vmess, 45.199.138.219, 55007, username=130c9f2e-42b1-4ebf-b345-e26456a061f9, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+_171 |10.23Mb = vmess, 45.199.138.223, 49922, username=bd249e37-7359-41ee-84a7-09e49e0ec5c4, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+_172 |10.63Mb = vmess, 45.199.138.221, 30022, username=4ec0ae62-de09-4029-904a-0313d4628ecf, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+HK_577 | 8.67Mb = vmess, 156.245.8.146, 42952, username=63b4b829-7f01-4e26-b037-f04b1f098765, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+🇷🇺 Relay_🇷🇺RU-🇷🇺RU_750 | 2.16Mb = vmess, 45.136.244.181, 80, username=c97cf46e-1554-36cb-8b36-c3556b883dc4, tls=false, vmess-aead=true, ws=true, ws-path=/ru1a-Rayj8xxW9bW, sni=ru1a.ai88888.top, ws-headers=Host:ru1a.ai88888.top, skip-cert-verify=false, tfo=false, udp-relay=true
+US_989 |10.84Mb = vmess, 45.199.138.190, 30387, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+US_998 |11.07Mb = vmess, 45.199.138.214, 44478, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+🇺🇸 Relay_🇺🇸US-🇺🇸US_1001 |32.72Mb = vmess, 192.74.234.220, 31315, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+US_1003 |10.50Mb = vmess, 45.199.138.168, 42725, username=6e79eea4-5f72-4683-ad0e-5339f013421b, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+US_1010 |10.23Mb = vmess, 45.199.138.212, 53636, username=6fa560d4-35c5-4968-adfc-812c52878b84, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+US_1011 |10.45Mb = vmess, 45.199.138.138, 30448, username=fe5f69e7-e183-439b-950b-9661ef0651f2, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+PH_189 | 1.24Mb = vmess, 109.248.25.59, 29064, username=8958440c-aa86-4ff1-8e88-5c7a052d5961, tls=false, vmess-aead=true, ws=true, ws-path=/ss, sni=, ws-headers=Host:, skip-cert-verify=false, tfo=false, udp-relay=true
+| 9.08Mb = vmess, 45.199.138.218, 40833, username=743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false, udp-relay=true
+Relay_-🇺🇸US_576 | 1.60Mb = vmess, 192.74.240.28, 443, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=true, vmess-aead=false, tls13=false, ws=true, ws-path=/path/1695380351751, sni=www.70812236.xyz, ws-headers=Host:www.70812236.xyz, skip-cert-verify=false, tfo=false, udp-relay=true
+Relay_ |35.23Mb = vmess, 198.2.215.118, 443, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=true, vmess-aead=false, tls13=false, ws=true, ws-path=/path/1695380351751, sni=www.72795025.xyz, ws-headers=Host:www.72795025.xyz, skip-cert-verify=false, tfo=false, udp-relay=true
+Relay_ |35.01Mb = vmess, 142.0.129.249, 443, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=true, vmess-aead=false, tls13=false, ws=true, ws-path=/path/1695380351751, sni=www.64830206.xyz, ws-headers=Host:www.64830206.xyz, skip-cert-verify=false, tfo=false, udp-relay=true
+Relay_ |36.51Mb = vmess, 137.175.18.84, 443, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=true, vmess-aead=false, tls13=false, ws=true, ws-path=/path/1695380351751, sni=www.66273264.xyz, ws-headers=Host:www.66273264.xyz, skip-cert-verify=false, tfo=false, udp-relay=true
+🇨🇳 Relay_🇨🇳CN-🇦🇹AT_11 |11.15Mb = vmess, 36.137.179.162, 50007, username=120cadf2-e254-4069-97b2-acd33cfc4f3f, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=true
+🎯 全球直连 = direct
 
 [Proxy Group]
-Proxies = select,HK,JP,SG,TW,US,枭木iOS大本营 TG@Tmxios,枭木iOS大本营 TG@Tmxios 2,枭木iOS大本营 TG@Tmxios 3,枭木iOS大本营 TG@Tmxios 4,枭木iOS大本营 TG@Tmxios 5,枭木iOS大本营 TG@Tmxios 6,枭木iOS大本营 TG@Tmxios 7,枭木iOS大本营 TG@Tmxios 8,枭木iOS大本营 TG@Tmxios 9,枭木iOS大本营 TG@Tmxios 10,枭木iOS大本营 TG@Tmxios 11,枭木iOS大本营 TG@Tmxios 12,枭木iOS大本营 TG@Tmxios 13,枭木iOS大本营 TG@Tmxios 14,枭木iOS大本营 TG@Tmxios 15,枭木iOS大本营 TG@Tmxios 16,枭木iOS大本营 TG@Tmxios 17,枭木iOS大本营 TG@Tmxios 18,枭木iOS大本营 TG@Tmxios 19,枭木iOS大本营 TG@Tmxios 20,枭木iOS大本营 TG@Tmxios 21,枭木iOS大本营 TG@Tmxios 22,枭木iOS大本营 TG@Tmxios 23,枭木iOS大本营 TG@Tmxios 24,枭木iOS大本营 TG@Tmxios 25,枭木iOS大本营 TG@Tmxios 26,枭木iOS大本营 TG@Tmxios 27,枭木iOS大本营 TG@Tmxios 28,枭木iOS大本营 TG@Tmxios 29,枭木iOS大本营 TG@Tmxios 30,枭木iOS大本营 TG@Tmxios 31,枭木iOS大本营 TG@Tmxios 32,枭木iOS大本营 TG@Tmxios 33,枭木iOS大本营 TG@Tmxios 34,枭木iOS大本营 TG@Tmxios 35,枭木iOS大本营 TG@Tmxios 36,🇺🇸 US_83 |56.80Mb,🇺🇸 US_89 |41.63Mb,🇿🇦 ZA_92 |55.92Mb,IR_532,🇺🇸 Relay_🇺🇸US-🇺🇸US_901,_518
-YouTube = select,Proxies,HK,JP,SG,TW,US
-Netflix = select,Proxies,HK,JP,SG,TW,US
-Disney = select,Proxies,HK,JP,SG,TW,US
-Bahamut = select,Proxies,HK,TW
-Bilibili = select,DIRECT,HK,TW
-Spotify = select,Proxies,DIRECT,HK,JP,SG,TW,US
-Steam = select,Proxies,DIRECT,HK,JP,SG,TW,US
-Telegram = select,Proxies,HK,JP,SG,TW,US
-Google = select,Proxies,HK,JP,SG,TW,US
-Microsoft = select,Proxies,DIRECT,HK,JP,SG,TW,US
-OpenAI = select,Proxies,HK,JP,SG,TW,US
-PayPal = select,Proxies,DIRECT,HK,JP,SG,TW,US
-Apple = select,Proxies,DIRECT,HK,JP,SG,TW,US
-Final = select,Proxies,DIRECT
-US = select,🇺🇸 US_83 |56.80Mb,🇺🇸 US_89 |41.63Mb,🇺🇸 Relay_🇺🇸US-🇺🇸US_901
+🔰 节点选择 = select,♻️ 自动选择,🎯 全球直连,枭木iOS大本营 TG@Tmxios,枭木iOS大本营 TG@Tmxios 2,枭木iOS大本营 TG@Tmxios 3,枭木iOS大本营 TG@Tmxios 4,枭木iOS大本营 TG@Tmxios 5,枭木iOS大本营 TG@Tmxios 6,枭木iOS大本营 TG@Tmxios 7,枭木iOS大本营 TG@Tmxios 8,枭木iOS大本营 TG@Tmxios 9,枭木iOS大本营 TG@Tmxios 10,枭木iOS大本营 TG@Tmxios 11,枭木iOS大本营 TG@Tmxios 12,枭木iOS大本营 TG@Tmxios 13,枭木iOS大本营 TG@Tmxios 14,枭木iOS大本营 TG@Tmxios 15,枭木iOS大本营 TG@Tmxios 16,枭木iOS大本营 TG@Tmxios 17,枭木iOS大本营 TG@Tmxios 18,枭木iOS大本营 TG@Tmxios 19,枭木iOS大本营 TG@Tmxios 20,枭木iOS大本营 TG@Tmxios 21,枭木iOS大本营 TG@Tmxios 22,枭木iOS大本营 TG@Tmxios 23,枭木iOS大本营 TG@Tmxios 24,枭木iOS大本营 TG@Tmxios 25,US_74,US_79 |34.96Mb,ZA_101 |63.57Mb,ZA_102 |56.46Mb,_122 |10.14Mb,_147 |11.09Mb,_152 |10.20Mb,_154 | 9.88Mb,_155 | 9.75Mb,_157 |10.17Mb,_165 | 9.12Mb,Relay_-🇺🇸US_166,_168 |10.56Mb,_171 |10.23Mb,_172 |10.63Mb,HK_577 | 8.67Mb,🇷🇺 Relay_🇷🇺RU-🇷🇺RU_750 | 2.16Mb,US_989 |10.84Mb,US_998 |11.07Mb,🇺🇸 Relay_🇺🇸US-🇺🇸US_1001 |32.72Mb,US_1003 |10.50Mb,US_1010 |10.23Mb,US_1011 |10.45Mb,PH_189 | 1.24Mb,| 9.08Mb,Relay_-🇺🇸US_576 | 1.60Mb,Relay_ |35.23Mb,Relay_ |35.01Mb,Relay_ |36.51Mb,🇨🇳 Relay_🇨🇳CN-🇦🇹AT_11 |11.15Mb
+♻️ 自动选择 = url-test,枭木iOS大本营 TG@Tmxios,枭木iOS大本营 TG@Tmxios 2,枭木iOS大本营 TG@Tmxios 3,枭木iOS大本营 TG@Tmxios 4,枭木iOS大本营 TG@Tmxios 5,枭木iOS大本营 TG@Tmxios 6,枭木iOS大本营 TG@Tmxios 7,枭木iOS大本营 TG@Tmxios 8,枭木iOS大本营 TG@Tmxios 9,枭木iOS大本营 TG@Tmxios 10,枭木iOS大本营 TG@Tmxios 11,枭木iOS大本营 TG@Tmxios 12,枭木iOS大本营 TG@Tmxios 13,枭木iOS大本营 TG@Tmxios 14,枭木iOS大本营 TG@Tmxios 15,枭木iOS大本营 TG@Tmxios 16,枭木iOS大本营 TG@Tmxios 17,枭木iOS大本营 TG@Tmxios 18,枭木iOS大本营 TG@Tmxios 19,枭木iOS大本营 TG@Tmxios 20,枭木iOS大本营 TG@Tmxios 21,枭木iOS大本营 TG@Tmxios 22,枭木iOS大本营 TG@Tmxios 23,枭木iOS大本营 TG@Tmxios 24,枭木iOS大本营 TG@Tmxios 25,US_74,US_79 |34.96Mb,ZA_101 |63.57Mb,ZA_102 |56.46Mb,_122 |10.14Mb,_147 |11.09Mb,_152 |10.20Mb,_154 | 9.88Mb,_155 | 9.75Mb,_157 |10.17Mb,_165 | 9.12Mb,Relay_-🇺🇸US_166,_168 |10.56Mb,_171 |10.23Mb,_172 |10.63Mb,HK_577 | 8.67Mb,🇷🇺 Relay_🇷🇺RU-🇷🇺RU_750 | 2.16Mb,US_989 |10.84Mb,US_998 |11.07Mb,🇺🇸 Relay_🇺🇸US-🇺🇸US_1001 |32.72Mb,US_1003 |10.50Mb,US_1010 |10.23Mb,US_1011 |10.45Mb,PH_189 | 1.24Mb,| 9.08Mb,Relay_-🇺🇸US_576 | 1.60Mb,Relay_ |35.23Mb,Relay_ |35.01Mb,Relay_ |36.51Mb,🇨🇳 Relay_🇨🇳CN-🇦🇹AT_11 |11.15Mb,url=http://www.gstatic.com/generate_204,interval=300,timeout=5
+🎥 NETFLIX = select,🔰 节点选择,♻️ 自动选择,🎯 全球直连,枭木iOS大本营 TG@Tmxios,枭木iOS大本营 TG@Tmxios 2,枭木iOS大本营 TG@Tmxios 3,枭木iOS大本营 TG@Tmxios 4,枭木iOS大本营 TG@Tmxios 5,枭木iOS大本营 TG@Tmxios 6,枭木iOS大本营 TG@Tmxios 7,枭木iOS大本营 TG@Tmxios 8,枭木iOS大本营 TG@Tmxios 9,枭木iOS大本营 TG@Tmxios 10,枭木iOS大本营 TG@Tmxios 11,枭木iOS大本营 TG@Tmxios 12,枭木iOS大本营 TG@Tmxios 13,枭木iOS大本营 TG@Tmxios 14,枭木iOS大本营 TG@Tmxios 15,枭木iOS大本营 TG@Tmxios 16,枭木iOS大本营 TG@Tmxios 17,枭木iOS大本营 TG@Tmxios 18,枭木iOS大本营 TG@Tmxios 19,枭木iOS大本营 TG@Tmxios 20,枭木iOS大本营 TG@Tmxios 21,枭木iOS大本营 TG@Tmxios 22,枭木iOS大本营 TG@Tmxios 23,枭木iOS大本营 TG@Tmxios 24,枭木iOS大本营 TG@Tmxios 25,US_74,US_79 |34.96Mb,ZA_101 |63.57Mb,ZA_102 |56.46Mb,_122 |10.14Mb,_147 |11.09Mb,_152 |10.20Mb,_154 | 9.88Mb,_155 | 9.75Mb,_157 |10.17Mb,_165 | 9.12Mb,Relay_-🇺🇸US_166,_168 |10.56Mb,_171 |10.23Mb,_172 |10.63Mb,HK_577 | 8.67Mb,🇷🇺 Relay_🇷🇺RU-🇷🇺RU_750 | 2.16Mb,US_989 |10.84Mb,US_998 |11.07Mb,🇺🇸 Relay_🇺🇸US-🇺🇸US_1001 |32.72Mb,US_1003 |10.50Mb,US_1010 |10.23Mb,US_1011 |10.45Mb,PH_189 | 1.24Mb,| 9.08Mb,Relay_-🇺🇸US_576 | 1.60Mb,Relay_ |35.23Mb,Relay_ |35.01Mb,Relay_ |36.51Mb,🇨🇳 Relay_🇨🇳CN-🇦🇹AT_11 |11.15Mb
+⛔️ 广告拦截 = select,🛑 全球拦截,🎯 全球直连,🔰 节点选择
+🚫 运营劫持 = select,🛑 全球拦截,🎯 全球直连,🔰 节点选择
+🌍 国外媒体 = select,🔰 节点选择,♻️ 自动选择,🎯 全球直连,枭木iOS大本营 TG@Tmxios,枭木iOS大本营 TG@Tmxios 2,枭木iOS大本营 TG@Tmxios 3,枭木iOS大本营 TG@Tmxios 4,枭木iOS大本营 TG@Tmxios 5,枭木iOS大本营 TG@Tmxios 6,枭木iOS大本营 TG@Tmxios 7,枭木iOS大本营 TG@Tmxios 8,枭木iOS大本营 TG@Tmxios 9,枭木iOS大本营 TG@Tmxios 10,枭木iOS大本营 TG@Tmxios 11,枭木iOS大本营 TG@Tmxios 12,枭木iOS大本营 TG@Tmxios 13,枭木iOS大本营 TG@Tmxios 14,枭木iOS大本营 TG@Tmxios 15,枭木iOS大本营 TG@Tmxios 16,枭木iOS大本营 TG@Tmxios 17,枭木iOS大本营 TG@Tmxios 18,枭木iOS大本营 TG@Tmxios 19,枭木iOS大本营 TG@Tmxios 20,枭木iOS大本营 TG@Tmxios 21,枭木iOS大本营 TG@Tmxios 22,枭木iOS大本营 TG@Tmxios 23,枭木iOS大本营 TG@Tmxios 24,枭木iOS大本营 TG@Tmxios 25,US_74,US_79 |34.96Mb,ZA_101 |63.57Mb,ZA_102 |56.46Mb,_122 |10.14Mb,_147 |11.09Mb,_152 |10.20Mb,_154 | 9.88Mb,_155 | 9.75Mb,_157 |10.17Mb,_165 | 9.12Mb,Relay_-🇺🇸US_166,_168 |10.56Mb,_171 |10.23Mb,_172 |10.63Mb,HK_577 | 8.67Mb,🇷🇺 Relay_🇷🇺RU-🇷🇺RU_750 | 2.16Mb,US_989 |10.84Mb,US_998 |11.07Mb,🇺🇸 Relay_🇺🇸US-🇺🇸US_1001 |32.72Mb,US_1003 |10.50Mb,US_1010 |10.23Mb,US_1011 |10.45Mb,PH_189 | 1.24Mb,| 9.08Mb,Relay_-🇺🇸US_576 | 1.60Mb,Relay_ |35.23Mb,Relay_ |35.01Mb,Relay_ |36.51Mb,🇨🇳 Relay_🇨🇳CN-🇦🇹AT_11 |11.15Mb
+🌏 国内媒体 = select,🎯 全球直连,🔰 节点选择
+Ⓜ️ 微软服务 = select,🎯 全球直连,🔰 节点选择,枭木iOS大本营 TG@Tmxios,枭木iOS大本营 TG@Tmxios 2,枭木iOS大本营 TG@Tmxios 3,枭木iOS大本营 TG@Tmxios 4,枭木iOS大本营 TG@Tmxios 5,枭木iOS大本营 TG@Tmxios 6,枭木iOS大本营 TG@Tmxios 7,枭木iOS大本营 TG@Tmxios 8,枭木iOS大本营 TG@Tmxios 9,枭木iOS大本营 TG@Tmxios 10,枭木iOS大本营 TG@Tmxios 11,枭木iOS大本营 TG@Tmxios 12,枭木iOS大本营 TG@Tmxios 13,枭木iOS大本营 TG@Tmxios 14,枭木iOS大本营 TG@Tmxios 15,枭木iOS大本营 TG@Tmxios 16,枭木iOS大本营 TG@Tmxios 17,枭木iOS大本营 TG@Tmxios 18,枭木iOS大本营 TG@Tmxios 19,枭木iOS大本营 TG@Tmxios 20,枭木iOS大本营 TG@Tmxios 21,枭木iOS大本营 TG@Tmxios 22,枭木iOS大本营 TG@Tmxios 23,枭木iOS大本营 TG@Tmxios 24,枭木iOS大本营 TG@Tmxios 25,US_74,US_79 |34.96Mb,ZA_101 |63.57Mb,ZA_102 |56.46Mb,_122 |10.14Mb,_147 |11.09Mb,_152 |10.20Mb,_154 | 9.88Mb,_155 | 9.75Mb,_157 |10.17Mb,_165 | 9.12Mb,Relay_-🇺🇸US_166,_168 |10.56Mb,_171 |10.23Mb,_172 |10.63Mb,HK_577 | 8.67Mb,🇷🇺 Relay_🇷🇺RU-🇷🇺RU_750 | 2.16Mb,US_989 |10.84Mb,US_998 |11.07Mb,🇺🇸 Relay_🇺🇸US-🇺🇸US_1001 |32.72Mb,US_1003 |10.50Mb,US_1010 |10.23Mb,US_1011 |10.45Mb,PH_189 | 1.24Mb,| 9.08Mb,Relay_-🇺🇸US_576 | 1.60Mb,Relay_ |35.23Mb,Relay_ |35.01Mb,Relay_ |36.51Mb,🇨🇳 Relay_🇨🇳CN-🇦🇹AT_11 |11.15Mb
+📲 电报信息 = select,🔰 节点选择,🎯 全球直连,枭木iOS大本营 TG@Tmxios,枭木iOS大本营 TG@Tmxios 2,枭木iOS大本营 TG@Tmxios 3,枭木iOS大本营 TG@Tmxios 4,枭木iOS大本营 TG@Tmxios 5,枭木iOS大本营 TG@Tmxios 6,枭木iOS大本营 TG@Tmxios 7,枭木iOS大本营 TG@Tmxios 8,枭木iOS大本营 TG@Tmxios 9,枭木iOS大本营 TG@Tmxios 10,枭木iOS大本营 TG@Tmxios 11,枭木iOS大本营 TG@Tmxios 12,枭木iOS大本营 TG@Tmxios 13,枭木iOS大本营 TG@Tmxios 14,枭木iOS大本营 TG@Tmxios 15,枭木iOS大本营 TG@Tmxios 16,枭木iOS大本营 TG@Tmxios 17,枭木iOS大本营 TG@Tmxios 18,枭木iOS大本营 TG@Tmxios 19,枭木iOS大本营 TG@Tmxios 20,枭木iOS大本营 TG@Tmxios 21,枭木iOS大本营 TG@Tmxios 22,枭木iOS大本营 TG@Tmxios 23,枭木iOS大本营 TG@Tmxios 24,枭木iOS大本营 TG@Tmxios 25,US_74,US_79 |34.96Mb,ZA_101 |63.57Mb,ZA_102 |56.46Mb,_122 |10.14Mb,_147 |11.09Mb,_152 |10.20Mb,_154 | 9.88Mb,_155 | 9.75Mb,_157 |10.17Mb,_165 | 9.12Mb,Relay_-🇺🇸US_166,_168 |10.56Mb,_171 |10.23Mb,_172 |10.63Mb,HK_577 | 8.67Mb,🇷🇺 Relay_🇷🇺RU-🇷🇺RU_750 | 2.16Mb,US_989 |10.84Mb,US_998 |11.07Mb,🇺🇸 Relay_🇺🇸US-🇺🇸US_1001 |32.72Mb,US_1003 |10.50Mb,US_1010 |10.23Mb,US_1011 |10.45Mb,PH_189 | 1.24Mb,| 9.08Mb,Relay_-🇺🇸US_576 | 1.60Mb,Relay_ |35.23Mb,Relay_ |35.01Mb,Relay_ |36.51Mb,🇨🇳 Relay_🇨🇳CN-🇦🇹AT_11 |11.15Mb
+🍎 苹果服务 = select,🔰 节点选择,🎯 全球直连,♻️ 自动选择,枭木iOS大本营 TG@Tmxios,枭木iOS大本营 TG@Tmxios 2,枭木iOS大本营 TG@Tmxios 3,枭木iOS大本营 TG@Tmxios 4,枭木iOS大本营 TG@Tmxios 5,枭木iOS大本营 TG@Tmxios 6,枭木iOS大本营 TG@Tmxios 7,枭木iOS大本营 TG@Tmxios 8,枭木iOS大本营 TG@Tmxios 9,枭木iOS大本营 TG@Tmxios 10,枭木iOS大本营 TG@Tmxios 11,枭木iOS大本营 TG@Tmxios 12,枭木iOS大本营 TG@Tmxios 13,枭木iOS大本营 TG@Tmxios 14,枭木iOS大本营 TG@Tmxios 15,枭木iOS大本营 TG@Tmxios 16,枭木iOS大本营 TG@Tmxios 17,枭木iOS大本营 TG@Tmxios 18,枭木iOS大本营 TG@Tmxios 19,枭木iOS大本营 TG@Tmxios 20,枭木iOS大本营 TG@Tmxios 21,枭木iOS大本营 TG@Tmxios 22,枭木iOS大本营 TG@Tmxios 23,枭木iOS大本营 TG@Tmxios 24,枭木iOS大本营 TG@Tmxios 25,US_74,US_79 |34.96Mb,ZA_101 |63.57Mb,ZA_102 |56.46Mb,_122 |10.14Mb,_147 |11.09Mb,_152 |10.20Mb,_154 | 9.88Mb,_155 | 9.75Mb,_157 |10.17Mb,_165 | 9.12Mb,Relay_-🇺🇸US_166,_168 |10.56Mb,_171 |10.23Mb,_172 |10.63Mb,HK_577 | 8.67Mb,🇷🇺 Relay_🇷🇺RU-🇷🇺RU_750 | 2.16Mb,US_989 |10.84Mb,US_998 |11.07Mb,🇺🇸 Relay_🇺🇸US-🇺🇸US_1001 |32.72Mb,US_1003 |10.50Mb,US_1010 |10.23Mb,US_1011 |10.45Mb,PH_189 | 1.24Mb,| 9.08Mb,Relay_-🇺🇸US_576 | 1.60Mb,Relay_ |35.23Mb,Relay_ |35.01Mb,Relay_ |36.51Mb,🇨🇳 Relay_🇨🇳CN-🇦🇹AT_11 |11.15Mb
+🛑 全球拦截 = select,REJECT,DIRECT
+🐟 漏网之鱼 = select,🔰 节点选择,🎯 全球直连,♻️ 自动选择,枭木iOS大本营 TG@Tmxios,枭木iOS大本营 TG@Tmxios 2,枭木iOS大本营 TG@Tmxios 3,枭木iOS大本营 TG@Tmxios 4,枭木iOS大本营 TG@Tmxios 5,枭木iOS大本营 TG@Tmxios 6,枭木iOS大本营 TG@Tmxios 7,枭木iOS大本营 TG@Tmxios 8,枭木iOS大本营 TG@Tmxios 9,枭木iOS大本营 TG@Tmxios 10,枭木iOS大本营 TG@Tmxios 11,枭木iOS大本营 TG@Tmxios 12,枭木iOS大本营 TG@Tmxios 13,枭木iOS大本营 TG@Tmxios 14,枭木iOS大本营 TG@Tmxios 15,枭木iOS大本营 TG@Tmxios 16,枭木iOS大本营 TG@Tmxios 17,枭木iOS大本营 TG@Tmxios 18,枭木iOS大本营 TG@Tmxios 19,枭木iOS大本营 TG@Tmxios 20,枭木iOS大本营 TG@Tmxios 21,枭木iOS大本营 TG@Tmxios 22,枭木iOS大本营 TG@Tmxios 23,枭木iOS大本营 TG@Tmxios 24,枭木iOS大本营 TG@Tmxios 25,US_74,US_79 |34.96Mb,ZA_101 |63.57Mb,ZA_102 |56.46Mb,_122 |10.14Mb,_147 |11.09Mb,_152 |10.20Mb,_154 | 9.88Mb,_155 | 9.75Mb,_157 |10.17Mb,_165 | 9.12Mb,Relay_-🇺🇸US_166,_168 |10.56Mb,_171 |10.23Mb,_172 |10.63Mb,HK_577 | 8.67Mb,🇷🇺 Relay_🇷🇺RU-🇷🇺RU_750 | 2.16Mb,US_989 |10.84Mb,US_998 |11.07Mb,🇺🇸 Relay_🇺🇸US-🇺🇸US_1001 |32.72Mb,US_1003 |10.50Mb,US_1010 |10.23Mb,US_1011 |10.45Mb,PH_189 | 1.24Mb,| 9.08Mb,Relay_-🇺🇸US_576 | 1.60Mb,Relay_ |35.23Mb,Relay_ |35.01Mb,Relay_ |36.51Mb,🇨🇳 Relay_🇨🇳CN-🇦🇹AT_11 |11.15Mb
 
-
-
+[Rule]
+RULE-SET,https://pub-api-1.bianyuan.xyz/getruleset?type=1&url=c3VyZ2U6cnVsZXMvTG9jYWxBcmVhTmV0d29yay5saXN0,🎯 全球直连,update-interval=86400
+RULE-SET,https://pub-api-1.bianyuan.xyz/getruleset?type=1&url=c3VyZ2U6cnVsZXMvTVNTZXJ2aWNlcy5saXN0,Ⓜ️ 微软服务,update-interval=86400
+RULE-SET,https://pub-api-1.bianyuan.xyz/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvVW5icmVhay5saXN0,🎯 全球直连,update-interval=86400
+RULE-SET,https://pub-api-1.bianyuan.xyz/getruleset?type=1&url=c3VyZ2U6cnVsZXMvTm9ieURhL1N1cmdlL0FkUnVsZS5saXN0,🛑 全球拦截,update-interval=86400
+RULE-SET,https://pub-api-1.bianyuan.xyz/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvR3VhcmQvSGlqYWNraW5nLmxpc3Q,🛑 全球拦截,update-interval=86400
+RULE-SET,https://pub-api-1.bianyuan.xyz/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvU3RyZWFtaW5nTWVkaWEvVmlkZW8vTmV0ZmxpeC5saXN0,🎥 NETFLIX,update-interval=86400
+RULE-SET,https://pub-api-1.bianyuan.xyz/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvU3RyZWFtaW5nTWVkaWEvU3RyZWFtaW5nLmxpc3Q,🌍 国外媒体,update-interval=86400
+RULE-SET,https://pub-api-1.bianyuan.xyz/getruleset?type=1&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9CaWxpYmlsaS5saXN0,🌏 国内媒体,update-interval=86400
+RULE-SET,https://pub-api-1.bianyuan.xyz/getruleset?type=1&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9pUWl5aS5saXN0,🌏 国内媒体,update-interval=86400
+RULE-SET,https://pub-api-1.bianyuan.xyz/getruleset?type=1&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9MZXR2Lmxpc3Q,🌏 国内媒体,update-interval=86400
+RULE-SET,https://pub-api-1.bianyuan.xyz/getruleset?type=1&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9NT08ubGlzdA,🌏 国内媒体,update-interval=86400
+RULE-SET,https://pub-api-1.bianyuan.xyz/getruleset?type=1&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9UZW5jZW50IFZpZGVvLmxpc3Q,🌏 国内媒体,update-interval=86400
+RULE-SET,https://pub-api-1.bianyuan.xyz/getruleset?type=1&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9Zb3VrdS5saXN0,🌏 国内媒体,update-interval=86400
+RULE-SET,https://pub-api-1.bianyuan.xyz/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvRXh0cmEvVGVsZWdyYW0vVGVsZWdyYW0ubGlzdA,📲 电报信息,update-interval=86400
+RULE-SET,https://pub-api-1.bianyuan.xyz/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvR2xvYmFsLmxpc3Q,🔰 节点选择,update-interval=86400
+RULE-SET,https://pub-api-1.bianyuan.xyz/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvRXh0cmEvQXBwbGUvQXBwbGUubGlzdA,🍎 苹果服务,update-interval=86400
+RULE-SET,https://pub-api-1.bianyuan.xyz/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvQ2hpbmEubGlzdA,🎯 全球直连,update-interval=86400
+RULE-SET,https://pub-api-1.bianyuan.xyz/getruleset?type=1&url=c3VyZ2U6cnVsZXMvTm9ieURhL1N1cmdlL0Rvd25sb2FkLmxpc3Q,🎯 全球直连,update-interval=86400
+GEOIP,CN,🎯 全球直连
+FINAL,🐟 漏网之鱼
