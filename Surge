@@ -13,25 +13,47 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 
 [Proxy]
 DIRECT = direct
-枭木iOS大本营 TG@Tmxios = ss, 57.128.33.86, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, tfo=false, udp-relay=true
-https://t.me/Msskymu = ss, 51.195.41.122, 2087, encrypt-method=chacha20-ietf-poly1305, password=kjVmMRhktk0komOc, tfo=false, udp-relay=true
-R枭木iOS大本营 TG@Tmxios = ss, 89.185.84.178, 46135, encrypt-method=chacha20-ietf-poly1305, password=iGZdlsmpNxy4QCGu2CJCKw, tfo=false, udp-relay=true
-CN_120 | 7.56Mb = vmess, 36.150.27.31, 80, username=ae9e3c21-9445-4271-b4dd-eec737f64df2, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=, ws-headers=Host:, skip-cert-verify=false, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios = ss, 195.181.166.170, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, tfo=false, udp-relay=true
+https://t.me/Tmxios = ss, 195.181.166.175, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 2 = ss, 195.181.166.174, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 3 = ss, 54.250.172.141, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 4 = ss, 35.72.2.46, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 5 = ss, 89.185.84.178, 46135, encrypt-method=chacha20-ietf-poly1305, password=iGZdlsmpNxy4QCGu2CJCKw, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 6 = ss, 18.142.181.176, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 7 = ss, 94.131.12.97, 6476, encrypt-method=chacha20-ietf-poly1305, password=UYgSGkLbT57ql15g3N18sN, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 8 = ss, 43.200.6.140, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 9 = ss, 43.202.33.89, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 10 = ss, 51.159.221.203, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 11 = ss, 51.158.200.159, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 12 = ss, 141.95.126.108, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, tfo=false, udp-relay=true
+枭木iOS大本营 TG@Tmxios 13 = ss, 141.95.126.100, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, tfo=false, udp-relay=true
+CN_10 = vmess, 123.249.101.15, 19709, username=2f278a45-940a-46c1-c886-77f3b2d33987, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=, ws-headers=Host:, skip-cert-verify=false, tfo=false, udp-relay=true
+_20 | 0.27Mb = vmess, 103.212.81.87, 2083, username=fda2abe0-602a-11ee-b439-205c6d5f5d78, tls=true, vmess-aead=true, tls13=false, ws=true, ws-path=/waq0ygpk, sni=eu-1.0rd.net, ws-headers=Host:eu-1.0rd.net, skip-cert-verify=false, tfo=false, udp-relay=true
+CN_123 | 1.57Mb = vmess, 36.150.27.31, 80, username=ae9e3c21-9445-4271-b4dd-eec737f64df2, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=, ws-headers=Host:, skip-cert-verify=false, tfo=false, udp-relay=true
+RU_728 |18.41Mb = vmess, 31.129.105.239, 16231, username=793e03cc-2b08-4d1b-bb0b-592567d19043, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=, ws-headers=Host:, skip-cert-verify=false, tfo=false, udp-relay=true
+US_974 |34.13Mb = vmess, 23.105.199.208, 39939, username=604a06ef-ee1d-4dd4-b2d2-b37225916213, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=true
+US_1059 |31.93Mb = trojan, 34.211.75.10, 22222, password=telegram-id-directvpn, sni=trj.rollingnext.co.uk, skip-cert-verify=false, tfo=false, udp-relay=true
+Relay_-🇱🇺LU_19 | 2.25Mb = vmess, 2606:4700:85d6:e3e4:9b6d:bdba:1f3b:5418, 2052, username=fe5edf04-c2af-4ac5-84ee-16d43024decb, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=lu.wx.alue.link, ws-headers=Host:lu.wx.alue.link, skip-cert-verify=false, tfo=false, udp-relay=true
+_622 |46.94Mb = vmess, 103.178.234.20, 80, username=e2264d7f-d1e5-4486-97d7-ef506fcdbfbb, tls=false, vmess-aead=true, ws=true, ws-path=/4gspeed.me, sni=dl.kgvn.garenanow.com, ws-headers=Host:dl.kgvn.garenanow.com, skip-cert-verify=false, tfo=false, udp-relay=true
+Relay_-🏁ZZ_632 |39.19Mb = vmess, 103.239.67.226, 80, username=e2264d7f-d1e5-4486-97d7-ef506fcdbfbb, tls=false, vmess-aead=true, ws=true, ws-path=/4gspeed.me, sni=dl.kgvn.garenanow.com, ws-headers=Host:dl.kgvn.garenanow.com, skip-cert-verify=false, tfo=false, udp-relay=true
+Relay_-🏁ZZ_662 |46.51Mb = vmess, 103.67.197.100, 80, username=e2264d7f-d1e5-4486-97d7-ef506fcdbfbb, tls=false, vmess-aead=true, ws=true, ws-path=/4gspeed.me, sni=dl.kgvn.garenanow.com, ws-headers=Host:dl.kgvn.garenanow.com, skip-cert-verify=false, tfo=false, udp-relay=true
+_711 = vmess, 183.249.5.180, 23614, username=48a5e602-9007-3840-9c93-d25209c869a7, tls=false, vmess-aead=false, ws=true, ws-path=/, sni=14.v2-ray.cyou, ws-headers=Host:14.v2-ray.cyou, skip-cert-verify=false, tfo=false, udp-relay=true
+US_960 | 3.45Mb = vmess, 103.212.81.87, 8880, username=fda2abe0-602a-11ee-b439-205c6d5f5d78, tls=false, vmess-aead=true, ws=true, ws-path=/waq0ygpk, sni=eu-1.0rd.net, ws-headers=Host:eu-1.0rd.net, skip-cert-verify=false, tfo=false, udp-relay=true
 🎯 全球直连 = direct
 
 [Proxy Group]
-🔰 节点选择 = select,♻️ 自动选择,🎯 全球直连,枭木iOS大本营 TG@Tmxios,https://t.me/Msskymu,R枭木iOS大本营 TG@Tmxios,CN_120 | 7.56Mb
-♻️ 自动选择 = url-test,枭木iOS大本营 TG@Tmxios,https://t.me/Msskymu,R枭木iOS大本营 TG@Tmxios,CN_120 | 7.56Mb,url=http://www.gstatic.com/generate_204,interval=300,timeout=5
-🎥 NETFLIX = select,🔰 节点选择,♻️ 自动选择,🎯 全球直连,枭木iOS大本营 TG@Tmxios,https://t.me/Msskymu,R枭木iOS大本营 TG@Tmxios,CN_120 | 7.56Mb
+🔰 节点选择 = select,♻️ 自动选择,🎯 全球直连,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,枭木iOS大本营 TG@Tmxios 2,枭木iOS大本营 TG@Tmxios 3,枭木iOS大本营 TG@Tmxios 4,枭木iOS大本营 TG@Tmxios 5,枭木iOS大本营 TG@Tmxios 6,枭木iOS大本营 TG@Tmxios 7,枭木iOS大本营 TG@Tmxios 8,枭木iOS大本营 TG@Tmxios 9,枭木iOS大本营 TG@Tmxios 10,枭木iOS大本营 TG@Tmxios 11,枭木iOS大本营 TG@Tmxios 12,枭木iOS大本营 TG@Tmxios 13,CN_10,_20 | 0.27Mb,CN_123 | 1.57Mb,RU_728 |18.41Mb,US_974 |34.13Mb,US_1059 |31.93Mb,Relay_-🇱🇺LU_19 | 2.25Mb,_622 |46.94Mb,Relay_-🏁ZZ_632 |39.19Mb,Relay_-🏁ZZ_662 |46.51Mb,_711,US_960 | 3.45Mb
+♻️ 自动选择 = url-test,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,枭木iOS大本营 TG@Tmxios 2,枭木iOS大本营 TG@Tmxios 3,枭木iOS大本营 TG@Tmxios 4,枭木iOS大本营 TG@Tmxios 5,枭木iOS大本营 TG@Tmxios 6,枭木iOS大本营 TG@Tmxios 7,枭木iOS大本营 TG@Tmxios 8,枭木iOS大本营 TG@Tmxios 9,枭木iOS大本营 TG@Tmxios 10,枭木iOS大本营 TG@Tmxios 11,枭木iOS大本营 TG@Tmxios 12,枭木iOS大本营 TG@Tmxios 13,CN_10,_20 | 0.27Mb,CN_123 | 1.57Mb,RU_728 |18.41Mb,US_974 |34.13Mb,US_1059 |31.93Mb,Relay_-🇱🇺LU_19 | 2.25Mb,_622 |46.94Mb,Relay_-🏁ZZ_632 |39.19Mb,Relay_-🏁ZZ_662 |46.51Mb,_711,US_960 | 3.45Mb,url=http://www.gstatic.com/generate_204,interval=300,timeout=5
+🎥 NETFLIX = select,🔰 节点选择,♻️ 自动选择,🎯 全球直连,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,枭木iOS大本营 TG@Tmxios 2,枭木iOS大本营 TG@Tmxios 3,枭木iOS大本营 TG@Tmxios 4,枭木iOS大本营 TG@Tmxios 5,枭木iOS大本营 TG@Tmxios 6,枭木iOS大本营 TG@Tmxios 7,枭木iOS大本营 TG@Tmxios 8,枭木iOS大本营 TG@Tmxios 9,枭木iOS大本营 TG@Tmxios 10,枭木iOS大本营 TG@Tmxios 11,枭木iOS大本营 TG@Tmxios 12,枭木iOS大本营 TG@Tmxios 13,CN_10,_20 | 0.27Mb,CN_123 | 1.57Mb,RU_728 |18.41Mb,US_974 |34.13Mb,US_1059 |31.93Mb,Relay_-🇱🇺LU_19 | 2.25Mb,_622 |46.94Mb,Relay_-🏁ZZ_632 |39.19Mb,Relay_-🏁ZZ_662 |46.51Mb,_711,US_960 | 3.45Mb
 ⛔️ 广告拦截 = select,🛑 全球拦截,🎯 全球直连,🔰 节点选择
 🚫 运营劫持 = select,🛑 全球拦截,🎯 全球直连,🔰 节点选择
-🌍 国外媒体 = select,🔰 节点选择,♻️ 自动选择,🎯 全球直连,枭木iOS大本营 TG@Tmxios,https://t.me/Msskymu,R枭木iOS大本营 TG@Tmxios,CN_120 | 7.56Mb
+🌍 国外媒体 = select,🔰 节点选择,♻️ 自动选择,🎯 全球直连,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,枭木iOS大本营 TG@Tmxios 2,枭木iOS大本营 TG@Tmxios 3,枭木iOS大本营 TG@Tmxios 4,枭木iOS大本营 TG@Tmxios 5,枭木iOS大本营 TG@Tmxios 6,枭木iOS大本营 TG@Tmxios 7,枭木iOS大本营 TG@Tmxios 8,枭木iOS大本营 TG@Tmxios 9,枭木iOS大本营 TG@Tmxios 10,枭木iOS大本营 TG@Tmxios 11,枭木iOS大本营 TG@Tmxios 12,枭木iOS大本营 TG@Tmxios 13,CN_10,_20 | 0.27Mb,CN_123 | 1.57Mb,RU_728 |18.41Mb,US_974 |34.13Mb,US_1059 |31.93Mb,Relay_-🇱🇺LU_19 | 2.25Mb,_622 |46.94Mb,Relay_-🏁ZZ_632 |39.19Mb,Relay_-🏁ZZ_662 |46.51Mb,_711,US_960 | 3.45Mb
 🌏 国内媒体 = select,🎯 全球直连,🔰 节点选择
-Ⓜ️ 微软服务 = select,🎯 全球直连,🔰 节点选择,枭木iOS大本营 TG@Tmxios,https://t.me/Msskymu,R枭木iOS大本营 TG@Tmxios,CN_120 | 7.56Mb
-📲 电报信息 = select,🔰 节点选择,🎯 全球直连,枭木iOS大本营 TG@Tmxios,https://t.me/Msskymu,R枭木iOS大本营 TG@Tmxios,CN_120 | 7.56Mb
-🍎 苹果服务 = select,🔰 节点选择,🎯 全球直连,♻️ 自动选择,枭木iOS大本营 TG@Tmxios,https://t.me/Msskymu,R枭木iOS大本营 TG@Tmxios,CN_120 | 7.56Mb
+Ⓜ️ 微软服务 = select,🎯 全球直连,🔰 节点选择,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,枭木iOS大本营 TG@Tmxios 2,枭木iOS大本营 TG@Tmxios 3,枭木iOS大本营 TG@Tmxios 4,枭木iOS大本营 TG@Tmxios 5,枭木iOS大本营 TG@Tmxios 6,枭木iOS大本营 TG@Tmxios 7,枭木iOS大本营 TG@Tmxios 8,枭木iOS大本营 TG@Tmxios 9,枭木iOS大本营 TG@Tmxios 10,枭木iOS大本营 TG@Tmxios 11,枭木iOS大本营 TG@Tmxios 12,枭木iOS大本营 TG@Tmxios 13,CN_10,_20 | 0.27Mb,CN_123 | 1.57Mb,RU_728 |18.41Mb,US_974 |34.13Mb,US_1059 |31.93Mb,Relay_-🇱🇺LU_19 | 2.25Mb,_622 |46.94Mb,Relay_-🏁ZZ_632 |39.19Mb,Relay_-🏁ZZ_662 |46.51Mb,_711,US_960 | 3.45Mb
+📲 电报信息 = select,🔰 节点选择,🎯 全球直连,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,枭木iOS大本营 TG@Tmxios 2,枭木iOS大本营 TG@Tmxios 3,枭木iOS大本营 TG@Tmxios 4,枭木iOS大本营 TG@Tmxios 5,枭木iOS大本营 TG@Tmxios 6,枭木iOS大本营 TG@Tmxios 7,枭木iOS大本营 TG@Tmxios 8,枭木iOS大本营 TG@Tmxios 9,枭木iOS大本营 TG@Tmxios 10,枭木iOS大本营 TG@Tmxios 11,枭木iOS大本营 TG@Tmxios 12,枭木iOS大本营 TG@Tmxios 13,CN_10,_20 | 0.27Mb,CN_123 | 1.57Mb,RU_728 |18.41Mb,US_974 |34.13Mb,US_1059 |31.93Mb,Relay_-🇱🇺LU_19 | 2.25Mb,_622 |46.94Mb,Relay_-🏁ZZ_632 |39.19Mb,Relay_-🏁ZZ_662 |46.51Mb,_711,US_960 | 3.45Mb
+🍎 苹果服务 = select,🔰 节点选择,🎯 全球直连,♻️ 自动选择,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,枭木iOS大本营 TG@Tmxios 2,枭木iOS大本营 TG@Tmxios 3,枭木iOS大本营 TG@Tmxios 4,枭木iOS大本营 TG@Tmxios 5,枭木iOS大本营 TG@Tmxios 6,枭木iOS大本营 TG@Tmxios 7,枭木iOS大本营 TG@Tmxios 8,枭木iOS大本营 TG@Tmxios 9,枭木iOS大本营 TG@Tmxios 10,枭木iOS大本营 TG@Tmxios 11,枭木iOS大本营 TG@Tmxios 12,枭木iOS大本营 TG@Tmxios 13,CN_10,_20 | 0.27Mb,CN_123 | 1.57Mb,RU_728 |18.41Mb,US_974 |34.13Mb,US_1059 |31.93Mb,Relay_-🇱🇺LU_19 | 2.25Mb,_622 |46.94Mb,Relay_-🏁ZZ_632 |39.19Mb,Relay_-🏁ZZ_662 |46.51Mb,_711,US_960 | 3.45Mb
 🛑 全球拦截 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🔰 节点选择,🎯 全球直连,♻️ 自动选择,枭木iOS大本营 TG@Tmxios,https://t.me/Msskymu,R枭木iOS大本营 TG@Tmxios,CN_120 | 7.56Mb
+🐟 漏网之鱼 = select,🔰 节点选择,🎯 全球直连,♻️ 自动选择,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,枭木iOS大本营 TG@Tmxios 2,枭木iOS大本营 TG@Tmxios 3,枭木iOS大本营 TG@Tmxios 4,枭木iOS大本营 TG@Tmxios 5,枭木iOS大本营 TG@Tmxios 6,枭木iOS大本营 TG@Tmxios 7,枭木iOS大本营 TG@Tmxios 8,枭木iOS大本营 TG@Tmxios 9,枭木iOS大本营 TG@Tmxios 10,枭木iOS大本营 TG@Tmxios 11,枭木iOS大本营 TG@Tmxios 12,枭木iOS大本营 TG@Tmxios 13,CN_10,_20 | 0.27Mb,CN_123 | 1.57Mb,RU_728 |18.41Mb,US_974 |34.13Mb,US_1059 |31.93Mb,Relay_-🇱🇺LU_19 | 2.25Mb,_622 |46.94Mb,Relay_-🏁ZZ_632 |39.19Mb,Relay_-🏁ZZ_662 |46.51Mb,_711,US_960 | 3.45Mb
 
 [Rule]
 RULE-SET,https://pub-api-1.bianyuan.xyz/getruleset?type=1&url=c3VyZ2U6cnVsZXMvTG9jYWxBcmVhTmV0d29yay5saXN0,🎯 全球直连,update-interval=86400
@@ -54,3 +76,6 @@ RULE-SET,https://pub-api-1.bianyuan.xyz/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRG
 RULE-SET,https://pub-api-1.bianyuan.xyz/getruleset?type=1&url=c3VyZ2U6cnVsZXMvTm9ieURhL1N1cmdlL0Rvd25sb2FkLmxpc3Q,🎯 全球直连,update-interval=86400
 GEOIP,CN,🎯 全球直连
 FINAL,🐟 漏网之鱼
+
+
+
