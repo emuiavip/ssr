@@ -1,544 +1,1310 @@
-# Port of HTTP(S) proxy server on the local end
-# port: 7890
+proxies: 
+  - name: "香港11"
+    type: trojan 
+    server: 103.15.217.182
+    port: 33058/
+    udp: false 
+    password: "QHhbhwe6lj"
+    sni: 103.15.217.182
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-# Port of SOCKS5 proxy server on the local end
-# socks-port: 7891
+  - name: "新加坡12"
+    type: ss 
+    server: 54.251.4.65
+    port: 443
+    cipher: aes-256-cfb
+    password: "amazonskr05"
+    udp: false 
 
-# Transparent proxy server port for Linux and macOS (Redirect TCP and TProxy UDP)
-# redir-port: 7892
+  - name: "法国13"
+    type: ss 
+    server: 51.158.195.96
+    port: 110
+    cipher: aes-256-cfb
+    password: "asdKkaskJKfnsa"
+    udp: false 
 
-# Transparent proxy server port for Linux (TProxy TCP and TProxy UDP)
-# tproxy-port: 7893
+  - name: "法国14"
+    type: ss 
+    server: 51.158.195.96
+    port: 80
+    cipher: aes-256-cfb
+    password: "asdKkaskJKfnsa"
+    udp: false 
 
-# HTTP(S) and SOCKS5 server on the same port
-mixed-port: 7893
+  - name: "🇭🇰 香港01"
+    type: trojan 
+    server: hk.kunlun-ppg.com
+    port: 10801
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-# authentication of local SOCKS5/HTTP(S) server
-# authentication:
-#  - "user1:pass1"
-#  - "user2:pass2"
+  - name: "🇭🇰 香港02"
+    type: trojan 
+    server: hk.kunlun-ppg.com
+    port: 10802
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-# Set to true to allow connections to the local-end server from
-# other LAN IP addresses
-allow-lan: true
+  - name: "🇭🇰 香港03"
+    type: trojan 
+    server: hk.kunlun-ppg.com
+    port: 10803
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-# This is only applicable when `allow-lan` is `true`
-# '*': bind all IP addresses
-# 192.168.122.11: bind a single IPv4 address
-# "[aaaa::a8aa:ff:fe09:57d8]": bind a single IPv6 address
-bind-address: '*'
+  - name: "🇭🇰 香港04"
+    type: trojan 
+    server: hk.kunlun-ppg.com
+    port: 10804
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-# Clash router working mode
-# rule: rule-based packet routing
-# global: all packets will be forwarded to a single endpoint
-# direct: directly forward the packets to the Internet
-mode: rule
+  - name: "🇭🇰 香港05"
+    type: trojan 
+    server: hk.kunlun-ppg.com
+    port: 10805
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-# Clash by default prints logs to STDOUT
-# info / warning / error / debug / silent
-log-level: info
+  - name: "🇭🇰 香港06"
+    type: trojan 
+    server: hk.kunlun-ppg.com
+    port: 10806
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-# When set to false, resolver won't translate hostnames to IPv6 addresses
-ipv6: false
+  - name: "🇭🇰 香港07"
+    type: trojan 
+    server: hk.kunlun-ppg.com
+    port: 10807
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-# RESTful web API listening address
-external-controller: 127.0.0.1:9090
+  - name: "🇭🇰 香港08"
+    type: trojan 
+    server: hk.kunlun-ppg.com
+    port: 10808
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-# A relative path to the configuration directory or an absolute path to a
-# directory in which you put some static web resource. Clash core will then
-# serve it at `${API}/ui`.
-# external-ui: folder
+  - name: "🇭🇰 香港09家宽"
+    type: trojan 
+    server: hk.kunlun-ppg.com
+    port: 10809
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-# Secret for the RESTful API (optional)
-# Authenticate by spedifying HTTP header `Authorization: Bearer ${secret}`
-# ALWAYS set a secret if RESTful API is listening on 0.0.0.0
-# secret: ""
+  - name: "🇭🇰 香港10家宽"
+    type: trojan 
+    server: hk.kunlun-ppg.com
+    port: 10810
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-# Outbound interface name
-# interface-name: eth0
+  - name: "🇯🇵 日本01"
+    type: trojan 
+    server: jp.kunlun-ppg.com
+    port: 10811
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-# Static hosts for DNS server and connection establishment (like /etc/hosts)
-#
-# Wildcard hostnames are supported (e.g. *.clash.dev, *.foo.*.example.com)
-# Non-wildcard domain names have a higher priority than wildcard domain names
-# e.g. foo.example.com > *.example.com > .example.com
-# P.S. +.foo.com equals to .foo.com and foo.com
-hosts:
-  # '*.clash.dev': 127.0.0.1
-  # '.dev': 127.0.0.1
-  # 'alpha.clash.dev': '::1'
+  - name: "🇯🇵 日本02"
+    type: trojan 
+    server: jp.kunlun-ppg.com
+    port: 10812
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  # Firebase Cloud Messaging
-  'mtalk.google.com': 108.177.125.188
-  # Google Dl
-  'dl.google.com': 180.163.151.161
-  'dl.l.google.com': 180.163.151.161
+  - name: "🇯🇵 日本03"
+    type: trojan 
+    server: jp.kunlun-ppg.com
+    port: 10813
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-# DNS server settings
-# This section is optional. When not present, the DNS server will be disabled.
-dns:
-  enable: true
-  listen: 0.0.0.0:53
-  # ipv6: false # when the false, response to AAAA questions will be empty
+  - name: "🇯🇵 日本04"
+    type: trojan 
+    server: jp.kunlun-ppg.com
+    port: 10814
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  # These nameservers are used to resolve the DNS nameserver hostnames below.
-  # Specify IP addresses only
-  default-nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
-    - 8.8.4.4
-    - 1.0.0.1
-  enhanced-mode: fake-ip # or redir-host
-  fake-ip-range: 198.18.0.1/16 # Fake IP addresses pool CIDR
-  # use-hosts: true # lookup hosts and return IP record
+  - name: "🇯🇵 日本05"
+    type: trojan 
+    server: jp.kunlun-ppg.com
+    port: 10815
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  # Hostnames in this list will not be resolved with fake IPs
-  # i.e. questions to these domain names will always be answered with their
-  # real IP addresses
-  fake-ip-filter:
-    - '*.lan'
-    - '*.localdomain'
-    - '*.example'
-    - '*.invalid'
-    - '*.localhost'
-    - '*.test'
-    - '*.local'
-    - '*.home.arpa'
-    # Stun Services
-    - '+.stun.*.*'
-    - '+.stun.*.*.*'
-    - '+.stun.*.*.*.*'
-    - '+.stun.*.*.*.*.*'
-    # Google Voices
-    - 'lens.l.google.com'
-    # Nintendo Switch STUN
-    - '*.n.n.srv.nintendo.net'
-    # PlayStation STUN
-    - '+.stun.playstation.net'
-    # XBox
-    - 'xbox.*.*.microsoft.com'
-    - '*.*.xboxlive.com'
-    # Microsoft Captive Portal
-    - '*.msftncsi.com'
-    - '*.msftconnecttest.com'
-    # Bilibili CDN
-    - '*.mcdn.bilivideo.cn'
-    # Windows Default LAN WorkGroup
-    - 'WORKGROUP'
-  
-  # Supports UDP, TCP, DoT, DoH. You can specify the port to connect to.
-  # All DNS questions are sent directly to the nameserver, without proxies
-  # involved. Clash answers the DNS question with the first result gathered.
-  nameserver:
-    - 192.168.31.1
-    - 119.29.29.29
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-    # - tls://dns.rubyfish.cn:853 # DNS over TLS
-    # - https://1.1.1.1/dns-query # DNS over HTTPS
+  - name: "🇯🇵 日本06"
+    type: trojan 
+    server: jp.kunlun-ppg.com
+    port: 10816
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  # When `fallback` is present, the DNS server will send concurrent requests
-  # to the servers in this section along with servers in `nameservers`.
-  # The answers from fallback servers are used when the GEOIP country
-  # is not `CN`.
-  fallback:
-    - https://dns.cloudflare.com/dns-query
-    - https://public.dns.iij.jp/dns-query
-    - https://jp.tiar.app/dns-query
-    - https://jp.tiarap.org/dns-query
-    - tls://dot.tiar.app
+  - name: "🇯🇵 日本07"
+    type: trojan 
+    server: jp.kunlun-ppg.com
+    port: 10817
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  # If IP addresses resolved with servers in `nameservers` are in the specified
-  # subnets below, they are considered invalid and results from `fallback`
-  # servers are used instead.
-  #
-  # IP address resolved with servers in `nameserver` is used when
-  # `fallback-filter.geoip` is true and when GEOIP of the IP address is `CN`.
-  #
-  # If `fallback-filter.geoip` is false, results from `nameserver` nameservers
-  # are always used if not match `fallback-filter.ipcidr`.
-  #
-  # This is a countermeasure against DNS pollution attacks.
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    domain:
-      - '+.google.+'
-      - '+.googleapis.com'
-      - '+.googlevideo.com'
-      - '+.gstatic.cn'
-      - '+.gstatic.com'
-      - '+.gvt1.com'
-      - '+.gvt2.com'
-      - '+.recaptcha.net'
-      - '+.twimg.com'
-      - '+.twitter.com'
-      - '+.youtube.com'
-      - '+.ytimg.com'
-      - 'twitter.com'
-      - 't.co'
-      - 't.me'
-      - 'telegra.ph'
-      - 'youtu.be'
+  - name: "🇯🇵 日本08"
+    type: trojan 
+    server: jp.kunlun-ppg.com
+    port: 10818
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  # Lookup domains via specific nameservers
-  nameserver-policy:
-    # Alibaba
-    '*.alibaba.cn': '223.5.5.5'
-    '*.alibaba.com.cn': '223.5.5.5'
-    '*.china.alibaba.com': '223.5.5.5'
-    '*.1688.com': '223.5.5.5'
-    '*.taobao.com': '223.5.5.5'
-    '*.tbcache.com': '223.5.5.5'
-    '*.tmall.com': '223.5.5.5'
-    '*.alicdn.com': '223.5.5.5'
-    '*.aliyundrive.com': '223.5.5.5'
-    '*.aliyun.*': '223.5.5.5'
-    '*.aliyuncdn.*': '223.5.5.5'
-    '*.aliyunddos????.com': '223.5.5.5'
-    '*.aliyuncs.com': '223.5.5.5'
-    '*.aliyundunwaf.com': '223.5.5.5'
-    '*.aliapp.com': '223.5.5.5'
-    '*.aliapp.org': '223.5.5.5'
-    '*.alibabausercontent.com': '223.5.5.5'
-    '*.mmstat.com': '223.5.5.5'
-    'tb.cn': '223.5.5.5'
+  - name: "🇺🇸 美国01"
+    type: trojan 
+    server: us.kunlun-ppg.com
+    port: 10819
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-#
-# https://github.com/Dreamacro/clash/wiki/premium-core-features
-#
-tun:
-  enable: true
-  stack: system # or gvisor
-  dns-hijack:
-    - 198.18.0.2:53
-    - tcp://any:53
+  - name: "🇺🇸 美国02"
+    type: trojan 
+    server: us.kunlun-ppg.com
+    port: 10820
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  auto-route: true # auto set global route
-  auto-detect-interface: true # conflict with interface-name
-  
-proxies:
+  - name: "🇺🇸 美国03"
+    type: trojan 
+    server: us.kunlun-ppg.com
+    port: 10821
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-# 服务器节点订阅
-proxy-providers:
-  HK:
-    type: http
-    path: ./Provider/Proxy/Sub/HK.yaml
-    url: https://dove.589669.xyz/all2clash?sub=https%3A%2F%2Fraw.githubusercontent.com%2Femuiavip%2Fssr%2Fmain%2Fssr&emoji=0&sort=0&aead=0
-    interval: 3600
-    filter: '香港|HK|Hong Kong|🇭🇰'
-    health-check: 
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 600
-  TW:
-    type: http
-    path: ./Provider/Proxy/Sub/TW.yaml
-    url: https://dove.589669.xyz/all2clash?sub=https%3A%2F%2Fraw.githubusercontent.com%2Femuiavip%2Fssr%2Fmain%2Fssr&emoji=0&sort=0&aead=0
-    interval: 3600
-    filter: '台湾|TW|Taiwan|🇹🇼|🇨🇳'
-    health-check: 
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 600
-  SG:
-    type: http
-    path: ./Provider/Proxy/Sub/SG.yaml
-    url: https://dove.589669.xyz/all2clash?sub=https%3A%2F%2Fraw.githubusercontent.com%2Femuiavip%2Fssr%2Fmain%2Fssr&emoji=0&sort=0&aead=0
-    interval: 3600
-    filter: '新加坡|狮城|SG|Singapore|🇸🇬'
-    health-check: 
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 600
-  JP:
-    type: http
-    path: ./Provider/Proxy/Sub/JP.yaml
-    url: https://dove.589669.xyz/all2clash?sub=https%3A%2F%2Fraw.githubusercontent.com%2Femuiavip%2Fssr%2Fmain%2Fssr&emoji=0&sort=0&aead=0
-    interval: 3600
-    filter: '日本|JP|Japan|🇯🇵'
-    health-check: 
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 600
-  US:
-    type: http
-    path: ./Provider/Proxy/Sub/US.yaml
-    url: https://dove.589669.xyz/all2clash?sub=https%3A%2F%2Fraw.githubusercontent.com%2Femuiavip%2Fssr%2Fmain%2Fssr&emoji=0&sort=0&aead=0
-    interval: 3600
-    filter: '美国|US|USA|America|United States|🇺🇸'
-    health-check: 
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 600
-  UN:
-    type: http
-    path: ./Provider/Proxy/Sub/UN.yaml
-    url: https://dove.589669.xyz/all2clash?sub=https%3A%2F%2Fraw.githubusercontent.com%2Femuiavip%2Fssr%2Fmain%2Fssr&emoji=0&sort=0&aead=0
-    interval: 3600
-    health-check: 
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 600
+  - name: "🇺🇸 美国04"
+    type: trojan 
+    server: us.kunlun-ppg.com
+    port: 10822
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-proxy-groups:
-  # 代理节点选项
-  - name: "🔰 Proxy"
-    type: select
-    proxies:
-      - 🇭🇰 Hong Kong
-      - 🇨🇳 Taiwan
-      - 🇸🇬 Singapore
-      - 🇯🇵 Japan
-      - 🇺🇸 America
-      - 🇺🇳 Server
-      - 🔘 DIRECT
+  - name: "🇺🇸 美国05"
+    type: trojan 
+    server: us.kunlun-ppg.com
+    port: 10823
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  # 海外流媒体服务
-  - name: "🎬 Streaming"
-    type: select
-    proxies:
-      - 🇭🇰 Hong Kong
-      - 🇨🇳 Taiwan
-      - 🇸🇬 Singapore
-      - 🇯🇵 Japan
-      - 🇺🇸 America
-      - 🇺🇳 Server
+  - name: "🇺🇸 美国06"
+    type: trojan 
+    server: us.kunlun-ppg.com
+    port: 10824
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  # 大陆流媒体服务（面向港台版本）
-  - name: "📺 CNTV"
-    type: select
-    proxies:
-      - 🔘 DIRECT
-      - 🇭🇰 Hong Kong
-      - 🇨🇳 Taiwan
-      - 🇸🇬 Singapore
+  - name: "🇺🇸 美国07"
+    type: trojan 
+    server: us.kunlun-ppg.com
+    port: 10825
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  # 特殊代理服务
-  - name: "📬 Telegram"
-    type: select
-    proxies:
-      - 🔰 Proxy
-      - 🇸🇬 Singapore
-      - 🔘 DIRECT
+  - name: "🇺🇸 美国08"
+    type: trojan 
+    server: us.kunlun-ppg.com
+    port: 10826
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  - name: "💳 PayPal"
-    type: select
-    proxies:
-      - 🔘 DIRECT
-      - 🔰 Proxy
-      - 🇺🇸 America
+  - name: "🇸🇬 新加坡01"
+    type: trojan 
+    server: sg.kunlun-ppg.com
+    port: 10827
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  # 去广告以及隐私追踪保护、反运营商劫持开关
-  - name: "🚧 AdGuard"
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
+  - name: "🇸🇬 新加坡02"
+    type: trojan 
+    server: sg.kunlun-ppg.com
+    port: 10828
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  # 直连
-  - name: "🔘 DIRECT"
-    type: select
-    proxies:
-      - DIRECT
+  - name: "🇸🇬 新加坡03"
+    type: trojan 
+    server: sg.kunlun-ppg.com
+    port: 10829
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  # UN
-  - name: "🇺🇳 Server"
-    type: select
-    use:
-      - UN
+  - name: "🇸🇬 新加坡04"
+    type: trojan 
+    server: sg.kunlun-ppg.com
+    port: 10830
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  # HK
-  - name: "🇭🇰 Hong Kong"
-    type: select
-    use:
-      - HK
-      
-  # TW
-  - name: "🇨🇳 Taiwan"
-    type: select
-    use:
-      - TW
+  - name: "🇸🇬 新加坡05"
+    type: trojan 
+    server: sg.kunlun-ppg.com
+    port: 10831
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  # SG
-  - name: "🇸🇬 Singapore"
-    type: select
-    use:
-      - SG
-      
-  # JP
-  - name: "🇯🇵 Japan"
-    type: select
-    use:
-      - JP
-    
-  # US
-  - name: "🇺🇸 America"
-    type: select
-    use:
-      - US
+  - name: "🇸🇬 新加坡06"
+    type: trojan 
+    server: sg.kunlun-ppg.com
+    port: 10832
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-# 关于 Rule Provider 请查阅：https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
+  - name: "🇸🇬 新加坡07"
+    type: trojan 
+    server: sg.kunlun-ppg.com
+    port: 10833
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-rule-providers:
-# name: # Provider 名称
-#   type: http # http 或 file
-#   behavior: classical # 或 ipcidr、domain
-#   path: # 文件路径
-#   url: # 只有当类型为 HTTP 时才可用，您不需要在本地空间中创建新文件。
-#   interval: # 自动更新间隔，仅在类型为 HTTP 时可用
+  - name: "🇸🇬 新加坡08"
+    type: trojan 
+    server: sg.kunlun-ppg.com
+    port: 10834
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  Unbreak:
-    type: http
-    behavior: classical
-    path: ./Provider/RuleSet/Unbreak.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
-    interval: 86400
+  - name: "🇹🇼 台湾01"
+    type: trojan 
+    server: other.kunlun-ppg.com
+    port: 10835
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  Advertising:
-    type: http
-    behavior: classical
-    path: ./Provider/RuleSet/Guard/Advertising.yaml
-    url: https://raw.githubusercontent.com/HotKids/Rules/master/Clash/RuleSet/AD.yaml
-    interval: 86400
+  - name: "🇰🇷 韩国01"
+    type: trojan 
+    server: other.kunlun-ppg.com
+    port: 10836
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  Hijacking:
-    type: http
-    behavior: classical
-    path: ./Provider/RuleSet/Guard/Hijacking.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml
-    interval: 86400
-    
-  Privacy:
-    type: http
-    behavior: classical
-    path: ./Provider/RuleSet/Guard/Privacy.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Privacy.yaml
-    interval: 86400
+  - name: "🇬🇧 英国01"
+    type: trojan 
+    server: other.kunlun-ppg.com
+    port: 10837
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  Streaming+:
-    type: http
-    behavior: classical
-    path: ./Provider/RuleSet/Streaming/Streaming+.yaml
-    url: https://raw.githubusercontent.com/HotKids/Rules/master/Clash/RuleSet/Streaming+.yaml
-    interval: 86400
+  - name: "🇫🇷 法国01"
+    type: trojan 
+    server: other.kunlun-ppg.com
+    port: 10838
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  Streaming TW:
-    type: http
-    behavior: classical
-    path: ./Provider/RuleSet/Streaming/Streaming_TW.yaml
-    url: https://raw.githubusercontent.com/HotKids/Rules/master/Clash/RuleSet/Streaming_TW.yaml
-    interval: 86400
+  - name: "🇩🇪 德国01"
+    type: trojan 
+    server: other.kunlun-ppg.com
+    port: 10839
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  Streaming JP:
-    type: http
-    behavior: classical
-    path: ./Provider/RuleSet/Streaming/Streaming_JP.yaml
-    url: https://raw.githubusercontent.com/HotKids/Rules/master/Clash/RuleSet/Streaming_JP.yaml
-    interval: 86400
+  - name: "🇮🇳 印度01"
+    type: trojan 
+    server: other.kunlun-ppg.com
+    port: 10840
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  Streaming US:
-    type: http
-    behavior: classical
-    path: ./Provider/RuleSet/Streaming/Streaming_US.yaml
-    url: https://raw.githubusercontent.com/HotKids/Rules/master/Clash/RuleSet/Streaming_US.yaml
-    interval: 86400
+  - name: "🇦🇪 迪拜01"
+    type: trojan 
+    server: other.kunlun-ppg.com
+    port: 10841
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  Streaming SEA:
-    type: http
-    behavior: classical
-    path: ./Provider/RuleSet/Streaming/Streaming_SEA.yaml
-    url: https://raw.githubusercontent.com/HotKids/Rules/master/Clash/RuleSet/Streaming_SEA.yaml
-    interval: 86400
-    
-  Streaming:
-    type: http
-    behavior: classical
-    path: ./Provider/RuleSet/Streaming/Streaming.yaml
-    url: https://raw.githubusercontent.com/HotKids/Rules/master/Clash/RuleSet/Streaming.yaml
-    interval: 86400
-  
-  Telegram:
-    type: http
-    behavior: classical
-    path: ./Provider/RuleSet/Extra/Telegram.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Telegram/Telegram.yaml
-    interval: 86400
+  - name: "🇧🇷 巴西01"
+    type: trojan 
+    server: other.kunlun-ppg.com
+    port: 10842
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  PayPal:
-    type: http
-    behavior: classical
-    path: ./Provider/RuleSet/Extra/PayPal.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/PayPal.yaml
-    interval: 86400
+  - name: "🇿🇦 南非01"
+    type: trojan 
+    server: other.kunlun-ppg.com
+    port: 10843
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  Global:
-    type: http
-    behavior: domain
-    path: ./Provider/RuleSet/Global.yaml
-    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
-    interval: 86400
+  - name: "🇷🇺 俄罗斯01"
+    type: trojan 
+    server: other.kunlun-ppg.com
+    port: 10844
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  China:
-    type: http
-    behavior: domain
-    path: ./Provider/RuleSet/China.yaml
-    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt
-    interval: 86400
+  - name: "🇺🇦 乌克兰01"
+    type: trojan 
+    server: other.kunlun-ppg.com
+    port: 10845
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  CNCIDR:
-    type: http
-    behavior: ipcidr
-    path: ./Provider/RuleSet/Extra/CNCIDR.yaml
-    url: https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt
-    interval: 86400
-    
-  LAN:
-    type: http
-    behavior: ipcidr
-    path: ./Provider/RuleSet/Extra/LANCIDR.yaml
-    url: https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
-    interval: 86400
+  - name: "🇹🇷 土耳其01"
+    type: trojan 
+    server: other.kunlun-ppg.com
+    port: 10846
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-# 规则
-rules:
-  # Unbreak
-  - RULE-SET,Unbreak,🔘 DIRECT
+  - name: "🇦🇷 阿根廷01"
+    type: trojan 
+    server: other.kunlun-ppg.com
+    port: 10847
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  # AdBlock
-  - RULE-SET,Advertising,🚧 AdGuard
-  - RULE-SET,Hijacking,🚧 AdGuard
-  - RULE-SET,Privacy,🚧 AdGuard
+  - name: "🇦🇹 奥地利01"
+    type: trojan 
+    server: other.kunlun-ppg.com
+    port: 10848
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  # Global Area Network
+  - name: "🇮🇹 意大利01"
+    type: trojan 
+    server: other.kunlun-ppg.com
+    port: 10849
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  # Streaming
-  - RULE-SET,Streaming+,🔰 Proxy
-  - RULE-SET,Streaming TW,🇹🇼 Taiwan
-  - RULE-SET,Streaming JP,🇯🇵 Japan
-  - RULE-SET,Streaming US,🇺🇸 America
-  - RULE-SET,Streaming SEA,📺 CNTV
-  - RULE-SET,Streaming,🎬 Streaming
+  - name: "🇮🇪 爱尔兰01"
+    type: trojan 
+    server: other.kunlun-ppg.com
+    port: 10850
+    udp: false 
+    password: "67ae1c8a-d39d-4954-a7b5-ada38b7c61db"
+    sni: alibaba-node.cn
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: false
 
-  # Telegram
-  - RULE-SET,Telegram,📬 Telegram
+  - name: "马来西亚_R_567"
+    type: ssr 
+    server: ieplszhk-03.telescopes.work
+    port: 50409
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 马来西亚_R_567
+    protocol-param: "37380:kuEqlRD1wN" 
 
-  # PayPal
-  - RULE-SET,PayPal,💳 PayPal
+  - name: "香港_R_579"
+    type: ssr 
+    server: iepl-zh.safetelescope.cc
+    port: 11808
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 香港_R_579
+    protocol-param: "37380:kuEqlRD1wN" 
 
-  # (DNS Cache Pollution) / (IP Blackhole) / (Region-Restricted Access Denied) / (Network Jitter)
-  - RULE-SET,Global,🔰 Proxy
+  - name: "香港_R_450"
+    type: ssr 
+    server: iepl-hn.cctelescope.xyz
+    port: 20001
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 香港_R_450
+    protocol-param: "37380:kuEqlRD1wN" 
 
-   # China Area Network
-  - RULE-SET,China,🔘 DIRECT
-  - RULE-SET,CNCIDR,🔘 DIRECT
-  
-  # Local Area Network
-  - RULE-SET,LAN,🔘 DIRECT
-  
-  # GeoIP China
-  - GEOIP,CN,🔘 DIRECT
+  - name: "香港_R_443"
+    type: ssr 
+    server: iepl-zh.safetelescope.cc
+    port: 11805
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 香港_R_443
+    protocol-param: "37380:kuEqlRD1wN" 
 
-  - MATCH,🔰 Proxy
+  - name: "香港_R_381"
+    type: ssr 
+    server: iepl-zh.safetelescope.cc
+    port: 11803
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 香港_R_381
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "香港_R_334"
+    type: ssr 
+    server: iepl-hn.cctelescope.xyz
+    port: 21702
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 香港_R_334
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "香港_R_316"
+    type: ssr 
+    server: iepl-zh.safetelescope.cc
+    port: 11801
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 香港_R_316
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "香港_R_315"
+    type: ssr 
+    server: ieplszhk-03.telescopes.work
+    port: 50801
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 香港_R_315
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "香港_R_287"
+    type: ssr 
+    server: iepl-zh.safetelescope.cc
+    port: 11804
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 香港_R_287
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "香港_R_160"
+    type: ssr 
+    server: hn-01.cctelescope.xyz
+    port: 41998
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 香港_R_160
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "韩国_R_310"
+    type: ssr 
+    server: iepl-hn.cctelescope.xyz
+    port: 30003
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 韩国_R_310
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "阿联酋_R_575"
+    type: ssr 
+    server: wz.safetelescope.cc
+    port: 62307
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 阿联酋_R_575
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "阿根廷_R_555"
+    type: ssr 
+    server: iepl-hn.cctelescope.xyz
+    port: 21563
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 阿根廷_R_555
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "越南_R_515"
+    type: ssr 
+    server: wz.safetelescope.cc
+    port: 28368
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 越南_R_515
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "越南_R_448"
+    type: ssr 
+    server: ieplszhk-03.telescopes.work
+    port: 50899
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 越南_R_448
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "越南_R_380"
+    type: ssr 
+    server: iepl-hn.cctelescope.xyz
+    port: 21738
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 越南_R_380
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "越南_R_321"
+    type: ssr 
+    server: iepl-zh.safetelescope.cc
+    port: 11899
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 越南_R_321
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "越南_R_278"
+    type: ssr 
+    server: ieplszhk-03.telescopes.work
+    port: 49036
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 越南_R_278
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "西班牙_R_566"
+    type: ssr 
+    server: hn-01.cctelescope.xyz
+    port: 62400
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 西班牙_R_566
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "菲律宾_R_196"
+    type: ssr 
+    server: iepl-hn.cctelescope.xyz
+    port: 21293
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 菲律宾_R_196
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "英国_R_366"
+    type: ssr 
+    server: iepl-hn.cctelescope.xyz
+    port: 21261
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 英国_R_366
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "英国_R_228"
+    type: ssr 
+    server: wz.safetelescope.cc
+    port: 10006
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 英国_R_228
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "美国_R_371"
+    type: ssr 
+    server: iepl-zh.safetelescope.cc
+    port: 11658
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 美国_R_371
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "美国_R_335"
+    type: ssr 
+    server: iepl-hn.cctelescope.xyz
+    port: 21632
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 美国_R_335
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "美国_R_332"
+    type: ssr 
+    server: wz.safetelescope.cc
+    port: 10005
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 美国_R_332
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "美国_R_21"
+    type: ssr 
+    server: sh163.safetelescope.cc
+    port: 62306
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 美国_R_21
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "罗马尼亚_R_584"
+    type: ssr 
+    server: ieplszhk-03.telescopes.work
+    port: 50417
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 罗马尼亚_R_584
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "瑞典_R_362"
+    type: ssr 
+    server: iepl-hn.cctelescope.xyz
+    port: 21099
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 瑞典_R_362
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "爱沙尼亚_R_453"
+    type: ssr 
+    server: ieplszhk-03.telescopes.work
+    port: 50058
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 爱沙尼亚_R_453
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "澳大利亚_R_560"
+    type: ssr 
+    server: iepl-zh.safetelescope.cc
+    port: 11919
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 澳大利亚_R_560
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "澳大利亚_R_100"
+    type: ssr 
+    server: hn-01.cctelescope.xyz
+    port: 62300
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 澳大利亚_R_100
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "泰国_R_558"
+    type: ssr 
+    server: iepl-hn.cctelescope.xyz
+    port: 29404
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 泰国_R_558
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "法国_R_559"
+    type: ssr 
+    server: wz.safetelescope.cc
+    port: 22262
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 法国_R_559
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "法国_R_372"
+    type: ssr 
+    server: iepl-zh.safetelescope.cc
+    port: 11853
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 法国_R_372
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "柬埔寨_R_583"
+    type: ssr 
+    server: ieplszhk-03.telescopes.work
+    port: 50743
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 柬埔寨_R_583
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "日本_R_510"
+    type: ssr 
+    server: ieplszhk-03.telescopes.work
+    port: 50312
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 日本_R_510
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "日本_R_498"
+    type: ssr 
+    server: iepl-hn.cctelescope.xyz
+    port: 21078
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 日本_R_498
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "日本_R_368"
+    type: ssr 
+    server: iepl-zh.safetelescope.cc
+    port: 11554
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 日本_R_368
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "日本_R_22"
+    type: ssr 
+    server: wz.safetelescope.cc
+    port: 10019
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 日本_R_22
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "新加坡_R_522"
+    type: ssr 
+    server: wz.safetelescope.cc
+    port: 46562
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 新加坡_R_522
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "新加坡_R_441"
+    type: ssr 
+    server: ieplszhk-03.telescopes.work
+    port: 50306
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 新加坡_R_441
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "新加坡_R_435"
+    type: ssr 
+    server: iepl-zh.safetelescope.cc
+    port: 11600
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 新加坡_R_435
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "新加坡_R_251"
+    type: ssr 
+    server: hn-01.cctelescope.xyz
+    port: 62303
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 新加坡_R_251
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "意大利_R_564"
+    type: ssr 
+    server: hn-01.cctelescope.xyz
+    port: 62309
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 意大利_R_564
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "德国_R_523"
+    type: ssr 
+    server: sh163.safetelescope.cc
+    port: 62301
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 德国_R_523
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "土耳其_R_458"
+    type: ssr 
+    server: iepl-hn.cctelescope.xyz
+    port: 21565
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 土耳其_R_458
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "台湾_R_25"
+    type: ssr 
+    server: wz.safetelescope.cc
+    port: 10007
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 台湾_R_25
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "印度尼西亚_R_521"
+    type: ssr 
+    server: ieplszhk-03.telescopes.work
+    port: 50578
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 印度尼西亚_R_521
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "印度_R_361"
+    type: ssr 
+    server: iepl-hn.cctelescope.xyz
+    port: 21637
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 印度_R_361
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "印度_R_325"
+    type: ssr 
+    server: hn-01.cctelescope.xyz
+    port: 62304
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 印度_R_325
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "加拿大_R_365"
+    type: ssr 
+    server: iepl-hn.cctelescope.xyz
+    port: 21164
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 加拿大_R_365
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "加拿大_R_339"
+    type: ssr 
+    server: wz.safetelescope.cc
+    port: 62302
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 加拿大_R_339
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "冰岛_R_569"
+    type: ssr 
+    server: iepl-hn.cctelescope.xyz
+    port: 21588
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 冰岛_R_569
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "俄罗斯_R_577"
+    type: ssr 
+    server: ieplszhk-03.telescopes.work
+    port: 50568
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 俄罗斯_R_577
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "俄罗斯_R_543"
+    type: ssr 
+    server: sh163.safetelescope.cc
+    port: 62305
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 俄罗斯_R_543
+    protocol-param: "37380:kuEqlRD1wN" 
+
+  - name: "俄罗斯_R_324"
+    type: ssr 
+    server: ieplszhk-03.telescopes.work
+    port: 50567
+    cipher: aes-256-cfb
+    password: "hGkQ6915tD"
+    udp: false 
+    obfs: tls1.2_ticket_auth 
+    protocol: auth_aes128_md5 
+    obfs-param: 俄罗斯_R_324
+    protocol-param: "37380:kuEqlRD1wN" 
 
 
