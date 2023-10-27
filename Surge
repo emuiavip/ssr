@@ -15,56 +15,56 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 DIRECT = direct
 枭木iOS大本营 TG@Tmxios = ss, 167.88.61.175, 8080, encrypt-method=aes-256-gcm, password=KixLvKzwjekG00rm
 https://t.me/Tmxios = ss, 167.88.61.175, 8090, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27
-🇭🇰 香港01 = trojan, hk.kunlun-ppg.com, 10801, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇭🇰 香港02 = trojan, hk.kunlun-ppg.com, 10802, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇭🇰 香港03 = trojan, hk.kunlun-ppg.com, 10803, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇭🇰 香港04 = trojan, hk.kunlun-ppg.com, 10804, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇭🇰 香港05 = trojan, hk.kunlun-ppg.com, 10805, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇭🇰 香港06 = trojan, hk.kunlun-ppg.com, 10806, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇭🇰 香港07 = trojan, hk.kunlun-ppg.com, 10807, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇭🇰 香港08 = trojan, hk.kunlun-ppg.com, 10808, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇭🇰 香港09家宽 = trojan, hk.kunlun-ppg.com, 10809, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇭🇰 香港10家宽 = trojan, hk.kunlun-ppg.com, 10810, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇯🇵 日本01 = trojan, jp.kunlun-ppg.com, 10811, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇯🇵 日本02 = trojan, jp.kunlun-ppg.com, 10812, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇯🇵 日本03 = trojan, jp.kunlun-ppg.com, 10813, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇯🇵 日本04 = trojan, jp.kunlun-ppg.com, 10814, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇯🇵 日本05 = trojan, jp.kunlun-ppg.com, 10815, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇯🇵 日本06 = trojan, jp.kunlun-ppg.com, 10816, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇯🇵 日本07 = trojan, jp.kunlun-ppg.com, 10817, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇯🇵 日本08 = trojan, jp.kunlun-ppg.com, 10818, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇺🇸 美国01 = trojan, us.kunlun-ppg.com, 10819, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇺🇸 美国02 = trojan, us.kunlun-ppg.com, 10820, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇺🇸 美国03 = trojan, us.kunlun-ppg.com, 10821, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇺🇸 美国04 = trojan, us.kunlun-ppg.com, 10822, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇺🇸 美国05 = trojan, us.kunlun-ppg.com, 10823, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇺🇸 美国06 = trojan, us.kunlun-ppg.com, 10824, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇺🇸 美国07 = trojan, us.kunlun-ppg.com, 10825, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇺🇸 美国08 = trojan, us.kunlun-ppg.com, 10826, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇸🇬 新加坡01 = trojan, sg.kunlun-ppg.com, 10827, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇸🇬 新加坡02 = trojan, sg.kunlun-ppg.com, 10828, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇸🇬 新加坡03 = trojan, sg.kunlun-ppg.com, 10829, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇸🇬 新加坡04 = trojan, sg.kunlun-ppg.com, 10830, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇸🇬 新加坡05 = trojan, sg.kunlun-ppg.com, 10831, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇸🇬 新加坡06 = trojan, sg.kunlun-ppg.com, 10832, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇸🇬 新加坡07 = trojan, sg.kunlun-ppg.com, 10833, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇸🇬 新加坡08 = trojan, sg.kunlun-ppg.com, 10834, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇨🇳 台湾01 = trojan, other.kunlun-ppg.com, 10835, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇰🇷 韩国01 = trojan, other.kunlun-ppg.com, 10836, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇬🇧 英国01 = trojan, other.kunlun-ppg.com, 10837, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇫🇷 法国01 = trojan, other.kunlun-ppg.com, 10838, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇩🇪 德国01 = trojan, other.kunlun-ppg.com, 10839, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇮🇳 印度01 = trojan, other.kunlun-ppg.com, 10840, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇦🇪 迪拜01 = trojan, other.kunlun-ppg.com, 10841, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇧🇷 巴西01 = trojan, other.kunlun-ppg.com, 10842, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇿🇦 南非01 = trojan, other.kunlun-ppg.com, 10843, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇷🇺 俄罗斯01 = trojan, other.kunlun-ppg.com, 10844, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇺🇦 乌克兰01 = trojan, other.kunlun-ppg.com, 10845, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇹🇷 土耳其01 = trojan, other.kunlun-ppg.com, 10846, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇦🇷 阿根廷01 = trojan, other.kunlun-ppg.com, 10847, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇦🇹 奥地利01 = trojan, other.kunlun-ppg.com, 10848, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇮🇹 意大利01 = trojan, other.kunlun-ppg.com, 10849, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
-🇮🇪 爱尔兰01 = trojan, other.kunlun-ppg.com, 10850, password=a4949056-ac9b-46fe-8949-cbe347a4fe89, sni=alibaba-node.cn, skip-cert-verify=true
+🇭🇰 香港01 = trojan, hk.kunlun-ppg.com, 10801, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇭🇰 香港02 = trojan, hk.kunlun-ppg.com, 10802, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇭🇰 香港03 = trojan, hk.kunlun-ppg.com, 10803, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇭🇰 香港04 = trojan, hk.kunlun-ppg.com, 10804, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇭🇰 香港05 = trojan, hk.kunlun-ppg.com, 10805, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇭🇰 香港06 = trojan, hk.kunlun-ppg.com, 10806, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇭🇰 香港07 = trojan, hk.kunlun-ppg.com, 10807, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇭🇰 香港08 = trojan, hk.kunlun-ppg.com, 10808, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇭🇰 香港09家宽 = trojan, hk.kunlun-ppg.com, 10809, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇭🇰 香港10家宽 = trojan, hk.kunlun-ppg.com, 10810, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇯🇵 日本01 = trojan, jp.kunlun-ppg.com, 10811, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇯🇵 日本02 = trojan, jp.kunlun-ppg.com, 10812, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇯🇵 日本03 = trojan, jp.kunlun-ppg.com, 10813, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇯🇵 日本04 = trojan, jp.kunlun-ppg.com, 10814, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇯🇵 日本05 = trojan, jp.kunlun-ppg.com, 10815, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇯🇵 日本06 = trojan, jp.kunlun-ppg.com, 10816, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇯🇵 日本07 = trojan, jp.kunlun-ppg.com, 10817, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇯🇵 日本08 = trojan, jp.kunlun-ppg.com, 10818, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇺🇸 美国01 = trojan, us.kunlun-ppg.com, 10819, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇺🇸 美国02 = trojan, us.kunlun-ppg.com, 10820, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇺🇸 美国03 = trojan, us.kunlun-ppg.com, 10821, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇺🇸 美国04 = trojan, us.kunlun-ppg.com, 10822, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇺🇸 美国05 = trojan, us.kunlun-ppg.com, 10823, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇺🇸 美国06 = trojan, us.kunlun-ppg.com, 10824, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇺🇸 美国07 = trojan, us.kunlun-ppg.com, 10825, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇺🇸 美国08 = trojan, us.kunlun-ppg.com, 10826, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇸🇬 新加坡01 = trojan, sg.kunlun-ppg.com, 10827, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇸🇬 新加坡02 = trojan, sg.kunlun-ppg.com, 10828, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇸🇬 新加坡03 = trojan, sg.kunlun-ppg.com, 10829, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇸🇬 新加坡04 = trojan, sg.kunlun-ppg.com, 10830, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇸🇬 新加坡05 = trojan, sg.kunlun-ppg.com, 10831, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇸🇬 新加坡06 = trojan, sg.kunlun-ppg.com, 10832, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇸🇬 新加坡07 = trojan, sg.kunlun-ppg.com, 10833, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇸🇬 新加坡08 = trojan, sg.kunlun-ppg.com, 10834, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇨🇳 台湾01 = trojan, other.kunlun-ppg.com, 10835, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇰🇷 韩国01 = trojan, other.kunlun-ppg.com, 10836, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇬🇧 英国01 = trojan, other.kunlun-ppg.com, 10837, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇫🇷 法国01 = trojan, other.kunlun-ppg.com, 10838, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇩🇪 德国01 = trojan, other.kunlun-ppg.com, 10839, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇮🇳 印度01 = trojan, other.kunlun-ppg.com, 10840, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇦🇪 迪拜01 = trojan, other.kunlun-ppg.com, 10841, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇧🇷 巴西01 = trojan, other.kunlun-ppg.com, 10842, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇿🇦 南非01 = trojan, other.kunlun-ppg.com, 10843, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇷🇺 俄罗斯01 = trojan, other.kunlun-ppg.com, 10844, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇺🇦 乌克兰01 = trojan, other.kunlun-ppg.com, 10845, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇹🇷 土耳其01 = trojan, other.kunlun-ppg.com, 10846, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇦🇷 阿根廷01 = trojan, other.kunlun-ppg.com, 10847, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇦🇹 奥地利01 = trojan, other.kunlun-ppg.com, 10848, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇮🇹 意大利01 = trojan, other.kunlun-ppg.com, 10849, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
+🇮🇪 爱尔兰01 = trojan, other.kunlun-ppg.com, 10850, password=98a41fa0-f7dc-4ae7-b38f-7a9a99b4f082, sni=alibaba-node.cn, skip-cert-verify=true
 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress = vmess, 198.2.193.146, 30000, username=68d238ce-3ca1-46dc-b833-a0916c829ad3, tls=true, vmess-aead=false, ws=true, ws-path=/path/1698239888914, sni=198.2.193.146, ws-headers=Host:www.28251658.xyz
 🇺🇸 美国 CloudFlare节点 = vmess, 104.18.202.232, 80, username=4d868558-0166-4083-baf0-720daf24f6e6, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=104.18.202.232, ws-headers=Host:fi1.xv2ray.net
 🇺🇸 美国 CloudFlare节点 2 = vmess, jd3.shabijichang.com, 80, username=c458695d-6908-45c3-9512-e0c46418454c, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=jd3.shabijichang.com, ws-headers=Host:jd3.shabijichang.com
