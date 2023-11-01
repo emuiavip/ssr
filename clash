@@ -7,117 +7,82 @@ external-controller: :9090
 proxies:
   - {name: 枭木iOS大本营 TG@Tmxios, server: 167.88.63.119, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: -tps://t.me/Tmxios, server: 154.3.8.151, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
-  - {name: 冷门节点1, server: 2606:4700:3030::ac43:8d56, port: 80, type: vmess, uuid: 4d49dae6-da8c-415d-8b77-093ea3fd18e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sadfsaf, headers: {Host: ovhus.gckjoy.eu.org}}}
-  - {name: 🇺🇸 美国2, server: 216.52.183.243, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: ""}}
-  - {name: 🇭🇰 香港3, server: 47.76.57.68, port: 443, type: vmess, uuid: 07d2edac-2a3b-48c2-b9a1-e967cbce445b, alterId: 0, cipher: auto, tls: true, servername: n1698551273.aaigefm.cn, network: ws, ws-opts: {path: /, headers: {Host: n1698551273.aaigefm.cn}}}
-  - {name: 🇭🇰 香港4, server: 47.76.35.240, port: 443, type: vmess, uuid: 56691c3c-b9a5-440f-a678-478618854e75, alterId: 0, cipher: auto, tls: true, servername: n1697555560.aaigefm.cn, network: ws, ws-opts: {path: /, headers: {Host: n1697555560.aaigefm.cn}}}
+  - {name: 🇨🇳 中国2, server: 8.217.134.91, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+  - {name: 🇨🇳 广东省3, server: 120.233.30.219, port: 10818, type: trojan, password: 4977133b-dbfd-4388-a7a7-4fdd4fadf6f7, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省深圳市4, server: 183.232.159.134, port: 50005, type: vmess, uuid: 692faa8a-01d1-421d-89af-1f1eea22dba1, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港5, server: 47.76.44.192, port: 443, type: vmess, uuid: 187002fd-b8ad-4d36-b4fb-1a3224cc99e2, alterId: 0, cipher: auto, tls: true, servername: n1697685464.aaigefm.cn, network: ws, ws-opts: {path: /, headers: {Host: n1697685464.aaigefm.cn}}}
-  - {name: 🇨🇳 江苏省镇江市6, server: 183.213.200.208, port: 28157, type: trojan, password: M83a100a, sni: www.icloud.com, skip-cert-verify: true}
+  - {name: 🇨🇳 安徽省6, server: 111.38.37.81, port: 32013, type: ss, cipher: chacha20-ietf-poly1305, password: 91256cea-c41c-4b66-83a5-d348c63a7b03}
   - {name: 🇨🇳 湖南省长沙市7, server: 59.81.87.116, port: 33952, type: ss, cipher: aes-256-gcm, password: 5c8b210a-2f00-4292-964b-05281c7ad5d1}
-  - {name: 🇨🇳 安徽省8, server: 111.38.37.81, port: 32013, type: ss, cipher: chacha20-ietf-poly1305, password: 91256cea-c41c-4b66-83a5-d348c63a7b03}
-  - {name: 🇯🇵 日本9, server: 43.201.16.153, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本10, server: 43.200.253.16, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇻🇳 越南12, server: 202.92.5.114, port: 80, type: vmess, uuid: cfd7ee93-279e-488f-a347-52c06d11f66c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /4Gfree.asia, headers: {Host: dl.kgvn.garenanow.com}}}
-  - {name: 🇻🇳 越南13, server: 202.55.132.175, port: 80, type: vmess, uuid: cfd7ee93-279e-488f-a347-52c06d11f66c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /4Gfree.asia, headers: {Host: dl.kgvn.garenanow.com}}}
-  - {name: 🇻🇳 越南14, server: 202.55.132.175, port: 443, type: trojan, password: cfd7ee93-279e-488f-a347-52c06d11f66c, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本15, server: 43.207.98.172, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本16, server: 43.200.7.213, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本17, server: 43.201.102.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 广东省深圳市32, server: 120.240.83.14, port: 48587, type: ss, cipher: chacha20-ietf-poly1305, password: a65c36ec-6931-4260-ad21-f978031ff1d3}
-  - {name: 🇺🇸 美国33, server: 89.187.169.38, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇯🇵 日本34, server: 43.201.24.75, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇳🇱 荷兰35, server: 51.15.25.187, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇯🇵 日本36, server: 43.202.56.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本37, server: 43.202.68.47, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 广东省38, server: 120.233.43.50, port: 26022, type: vmess, uuid: 54eac280-1192-3bda-8812-7acfdec61cfd, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 河南省郑州市39, server: 39.164.141.104, port: 40350, type: trojan, password: ff0675b0-c665-3d69-800b-f7fc29e1ead8, sni: chaosujp.ccoo520.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 美国40, server: 154.12.39.152, port: 23566, type: vmess, uuid: 041170e1-95fd-40b1-9bd0-1d28826f97e7, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国41, server: 154.12.39.113, port: 23566, type: vmess, uuid: 041170e1-95fd-40b1-9bd0-1d28826f97e7, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国42, server: 154.12.39.95, port: 23566, type: vmess, uuid: 041170e1-95fd-40b1-9bd0-1d28826f97e7, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国43, server: 154.12.39.201, port: 23566, type: vmess, uuid: 041170e1-95fd-40b1-9bd0-1d28826f97e7, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 广东省44, server: 120.233.30.219, port: 10802, type: trojan, password: 877ce3fb-6df0-40c2-9114-3466d8bf9009, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省45, server: 120.233.30.219, port: 10805, type: trojan, password: 7a98c561-cfc4-413c-9b7c-adf25381dbd6, sni: undefined, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市46, server: 183.233.187.201, port: 10829, type: trojan, password: 7a98c561-cfc4-413c-9b7c-adf25381dbd6, sni: undefined, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省47, server: 120.233.30.219, port: 10801, type: trojan, password: b51e56e8-39e6-4938-a094-f1862c6c7202, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省48, server: 120.233.30.219, port: 10804, type: trojan, password: 7a98c561-cfc4-413c-9b7c-adf25381dbd6, sni: undefined, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省49, server: 120.233.30.219, port: 10807, type: trojan, password: b51e56e8-39e6-4938-a094-f1862c6c7202, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市50, server: 183.233.187.201, port: 10824, type: trojan, password: 7a98c561-cfc4-413c-9b7c-adf25381dbd6, sni: undefined, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市51, server: 183.233.187.201, port: 10849, type: trojan, password: 7a98c561-cfc4-413c-9b7c-adf25381dbd6, sni: undefined, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省52, server: 120.233.43.51, port: 26022, type: vmess, uuid: 54eac280-1192-3bda-8812-7acfdec61cfd, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 广东省53, server: 120.233.43.51, port: 26020, type: vmess, uuid: 54eac280-1192-3bda-8812-7acfdec61cfd, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 广东省54, server: 120.233.43.51, port: 26021, type: vmess, uuid: 54eac280-1192-3bda-8812-7acfdec61cfd, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 江苏省宿迁市55, server: 222.187.238.9, port: 20036, type: vmess, uuid: ee0a4b54-be8d-4f56-be4d-521bd1ae443d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇩🇪 德国56, server: 5.104.108.120, port: 443, type: trojan, password: 6504a551-673d-44d6-85a9-b05f67fdf971, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇩🇪 德国57, server: 5.104.108.109, port: 443, type: trojan, password: 6504a551-673d-44d6-85a9-b05f67fdf971, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇷🇺 俄罗斯58, server: 212.192.15.68, port: 49487, type: trojan, password: 17bd8ea9-f1f4-4a9b-a318-99b62bd956ea, sni: bphk3.mybestjj.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国59, server: 13.37.99.144, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
-  - {name: 🇺🇸 美国60, server: 198.244.231.25, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇬🇧 英国伦敦61, server: 35.179.27.143, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
-  - {name: 🇯🇵 日本62, server: 54.250.58.26, port: 443, type: trojan, password: 6504a551-673d-44d6-85a9-b05f67fdf971, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本东京63, server: 3.113.25.58, port: 443, type: trojan, password: 6504a551-673d-44d6-85a9-b05f67fdf971, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本64, server: 18.183.192.140, port: 443, type: trojan, password: 6504a551-673d-44d6-85a9-b05f67fdf971, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇸🇪 瑞典斯德哥尔摩65, server: 13.53.239.7, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
-  - {name: 🇺🇸 美国66, server: 16.170.190.113, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡67, server: 13.212.19.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡68, server: 13.212.129.147, port: 443, type: trojan, password: 6504a551-673d-44d6-85a9-b05f67fdf971, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国69, server: 13.214.177.130, port: 443, type: trojan, password: 6504a551-673d-44d6-85a9-b05f67fdf971, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡70, server: 54.179.121.113, port: 20230, type: trojan, password: e7d1f4d0-f470-44d3-86b4-6eb4c22f1a79, sni: 421421.xyz, skip-cert-verify: true}
-  - {name: 🇹🇭 泰国71, server: 119.59.127.144, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇦 乌克兰72, server: 95.164.46.154, port: 80, type: vmess, uuid: d22ecfe8-797b-4761-ad09-64c991f887c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: it1.xv2ray.net}}}
-  - {name: 🇺🇸 美国73, server: 52.40.168.152, port: 20230, type: trojan, password: e7d1f4d0-f470-44d3-86b4-6eb4c22f1a79, sni: 421421.xyz, skip-cert-verify: true}
-  - {name: 🇺🇦 乌克兰74, server: 94.131.13.159, port: 16128, type: trojan, password: zwbdPys6Va, sni: vpnallpha.online, skip-cert-verify: true}
-  - {name: 🇺🇸 美国75, server: 3.128.42.66, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
-  - {name: 🇿🇦 南非76, server: 41.203.4.34, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇭🇰 香港01, server: hk.kunlun-ppg.com, port: 10801, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 香港02, server: hk.kunlun-ppg.com, port: 10802, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 香港03, server: hk.kunlun-ppg.com, port: 10803, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 香港04, server: hk.kunlun-ppg.com, port: 10804, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 香港05, server: hk.kunlun-ppg.com, port: 10805, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 香港06, server: hk.kunlun-ppg.com, port: 10806, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 香港07, server: hk.kunlun-ppg.com, port: 10807, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 香港08, server: hk.kunlun-ppg.com, port: 10808, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 香港09家宽, server: hk.kunlun-ppg.com, port: 10809, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 香港10家宽, server: hk.kunlun-ppg.com, port: 10810, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇯🇵 日本01, server: jp.kunlun-ppg.com, port: 10811, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇯🇵 日本02, server: jp.kunlun-ppg.com, port: 10812, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇯🇵 日本03, server: jp.kunlun-ppg.com, port: 10813, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇯🇵 日本04, server: jp.kunlun-ppg.com, port: 10814, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇯🇵 日本05, server: jp.kunlun-ppg.com, port: 10815, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇯🇵 日本06, server: jp.kunlun-ppg.com, port: 10816, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇯🇵 日本07, server: jp.kunlun-ppg.com, port: 10817, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇯🇵 日本08, server: jp.kunlun-ppg.com, port: 10818, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇺🇸 美国01, server: us.kunlun-ppg.com, port: 10819, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇺🇸 美国02, server: us.kunlun-ppg.com, port: 10820, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇺🇸 美国03, server: us.kunlun-ppg.com, port: 10821, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇺🇸 美国04, server: us.kunlun-ppg.com, port: 10822, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇺🇸 美国05, server: us.kunlun-ppg.com, port: 10823, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇺🇸 美国06, server: us.kunlun-ppg.com, port: 10824, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇺🇸 美国07, server: us.kunlun-ppg.com, port: 10825, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇺🇸 美国08, server: us.kunlun-ppg.com, port: 10826, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡01, server: sg.kunlun-ppg.com, port: 10827, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡02, server: sg.kunlun-ppg.com, port: 10828, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡03, server: sg.kunlun-ppg.com, port: 10829, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡04, server: sg.kunlun-ppg.com, port: 10830, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡05, server: sg.kunlun-ppg.com, port: 10831, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡06, server: sg.kunlun-ppg.com, port: 10832, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡07, server: sg.kunlun-ppg.com, port: 10833, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡08, server: sg.kunlun-ppg.com, port: 10834, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾01, server: other.kunlun-ppg.com, port: 10835, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国01, server: other.kunlun-ppg.com, port: 10836, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇬🇧 英国01, server: other.kunlun-ppg.com, port: 10837, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇫🇷 法国01, server: other.kunlun-ppg.com, port: 10838, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇩🇪 德国01, server: other.kunlun-ppg.com, port: 10839, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇮🇳 印度01, server: other.kunlun-ppg.com, port: 10840, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇦🇪 迪拜01, server: other.kunlun-ppg.com, port: 10841, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇧🇷 巴西01, server: other.kunlun-ppg.com, port: 10842, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇿🇦 南非01, server: other.kunlun-ppg.com, port: 10843, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇷🇺 俄罗斯01, server: other.kunlun-ppg.com, port: 10844, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇺🇦 乌克兰01, server: other.kunlun-ppg.com, port: 10845, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇹🇷 土耳其01, server: other.kunlun-ppg.com, port: 10846, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇦🇷 阿根廷01, server: other.kunlun-ppg.com, port: 10847, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇦🇹 奥地利01, server: other.kunlun-ppg.com, port: 10848, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇮🇹 意大利01, server: other.kunlun-ppg.com, port: 10849, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇮🇪 爱尔兰01, server: other.kunlun-ppg.com, port: 10850, type: trojan, password: 2f4a1c20-b2ac-410a-9a04-936f9f3babde, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇯🇵 日本8, server: 43.201.102.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 北京市20, server: 36.137.197.115, port: 24101, type: ss, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db}
+  - {name: 🇨🇳 广东省揭阳市21, server: 120.240.88.101, port: 11003, type: trojan, password: 79d50396-8f7b-4481-b34f-0f102a62cfc0, sni: datahk.steamdownload.top, skip-cert-verify: true}
+  - {name: 🇷🇺 俄罗斯22, server: 212.192.15.68, port: 49487, type: trojan, password: 17bd8ea9-f1f4-4a9b-a318-99b62bd956ea, sni: bphk3.mybestjj.com, skip-cert-verify: true}
+  - {name: 亚太地区23, server: 103.35.189.180, port: 80, type: vmess, uuid: fd4fa030-b8f1-424b-a780-578dbb59f950, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: us-v.sshmax.xyz}}}
+  - {name: 🇯🇵 日本24, server: 18.181.191.252, port: 54234, type: trojan, password: 62f4274b-44e8-429f-b85f-bb333753f5c2, sni: jp4.lianpi.xyz, skip-cert-verify: true}
+  - {name: 🇯🇵 日本25, server: 18.179.36.184, port: 443, type: trojan, password: c2e17ff5-743c-474e-baca-19ddec3c1cbe, sni: ap-east-cht.lnaspiring.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本26, server: 18.183.231.96, port: 443, type: trojan, password: 35f59fa7-10ed-40da-a91c-ed5ab9ea13b9, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本27, server: 43.207.166.241, port: 20230, type: trojan, password: e7d1f4d0-f470-44d3-86b4-6eb4c22f1a79, sni: 421421.xyz, skip-cert-verify: true}
+  - {name: 🇯🇵 日本28, server: 18.181.191.252, port: 45127, type: trojan, password: 62f4274b-44e8-429f-b85f-bb333753f5c2, sni: jp2.lianpi.xyz, skip-cert-verify: true}
+  - {name: 🇯🇵 日本东京29, server: 3.113.8.53, port: 443, type: trojan, password: 35f59fa7-10ed-40da-a91c-ed5ab9ea13b9, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国30, server: 140.238.13.223, port: 22152, type: ss, cipher: chacha20-ietf-poly1305, password: 63a29a21-d0db-48ad-94e2-98908d75bcfc}
+  - {name: 🇯🇵 日本31, server: 43.201.24.75, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本32, server: 43.200.6.127, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本33, server: 146.56.116.132, port: 22553, type: ss, cipher: chacha20-ietf-poly1305, password: 43de6f56-ff60-47cb-82b6-84db9eaaab4b}
+  - {name: 🇯🇵 日本34, server: 43.202.52.215, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本35, server: 43.201.97.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 韩国首尔36, server: 13.209.9.250, port: 64123, type: trojan, password: 62f4274b-44e8-429f-b85f-bb333753f5c2, sni: ko2.lianpi.xyz, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国首尔37, server: 13.209.9.250, port: 51256, type: trojan, password: 62f4274b-44e8-429f-b85f-bb333753f5c2, sni: ko1.lianpi.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 美国38, server: 13.214.127.115, port: 443, type: trojan, password: 35f59fa7-10ed-40da-a91c-ed5ab9ea13b9}
+  - {name: 🇭🇰 香港01, server: hk.kunlun-ppg.com, port: 10801, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇭🇰 香港02, server: hk.kunlun-ppg.com, port: 10802, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇭🇰 香港03, server: hk.kunlun-ppg.com, port: 10803, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇭🇰 香港04, server: hk.kunlun-ppg.com, port: 10804, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇭🇰 香港05, server: hk.kunlun-ppg.com, port: 10805, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇭🇰 香港06, server: hk.kunlun-ppg.com, port: 10806, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇭🇰 香港07, server: hk.kunlun-ppg.com, port: 10807, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇭🇰 香港08, server: hk.kunlun-ppg.com, port: 10808, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇭🇰 香港09家宽, server: hk.kunlun-ppg.com, port: 10809, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇭🇰 香港10家宽, server: hk.kunlun-ppg.com, port: 10810, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇯🇵 日本01, server: jp.kunlun-ppg.com, port: 10811, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇯🇵 日本02, server: jp.kunlun-ppg.com, port: 10812, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇯🇵 日本03, server: jp.kunlun-ppg.com, port: 10813, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇯🇵 日本04, server: jp.kunlun-ppg.com, port: 10814, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇯🇵 日本05, server: jp.kunlun-ppg.com, port: 10815, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇯🇵 日本06, server: jp.kunlun-ppg.com, port: 10816, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇯🇵 日本07, server: jp.kunlun-ppg.com, port: 10817, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇯🇵 日本08, server: jp.kunlun-ppg.com, port: 10818, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇺🇸 美国01, server: us.kunlun-ppg.com, port: 10819, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇺🇸 美国02, server: us.kunlun-ppg.com, port: 10820, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇺🇸 美国03, server: us.kunlun-ppg.com, port: 10821, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇺🇸 美国04, server: us.kunlun-ppg.com, port: 10822, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇺🇸 美国05, server: us.kunlun-ppg.com, port: 10823, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇺🇸 美国06, server: us.kunlun-ppg.com, port: 10824, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇺🇸 美国07, server: us.kunlun-ppg.com, port: 10825, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇺🇸 美国08, server: us.kunlun-ppg.com, port: 10826, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡01, server: sg.kunlun-ppg.com, port: 10827, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡02, server: sg.kunlun-ppg.com, port: 10828, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡03, server: sg.kunlun-ppg.com, port: 10829, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡04, server: sg.kunlun-ppg.com, port: 10830, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡05, server: sg.kunlun-ppg.com, port: 10831, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡06, server: sg.kunlun-ppg.com, port: 10832, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡07, server: sg.kunlun-ppg.com, port: 10833, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡08, server: sg.kunlun-ppg.com, port: 10834, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾01, server: other.kunlun-ppg.com, port: 10835, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国01, server: other.kunlun-ppg.com, port: 10836, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇬🇧 英国01, server: other.kunlun-ppg.com, port: 10837, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇫🇷 法国01, server: other.kunlun-ppg.com, port: 10838, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇩🇪 德国01, server: other.kunlun-ppg.com, port: 10839, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇮🇳 印度01, server: other.kunlun-ppg.com, port: 10840, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇦🇪 迪拜01, server: other.kunlun-ppg.com, port: 10841, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇧🇷 巴西01, server: other.kunlun-ppg.com, port: 10842, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇿🇦 南非01, server: other.kunlun-ppg.com, port: 10843, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇷🇺 俄罗斯01, server: other.kunlun-ppg.com, port: 10844, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇺🇦 乌克兰01, server: other.kunlun-ppg.com, port: 10845, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇹🇷 土耳其01, server: other.kunlun-ppg.com, port: 10846, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇦🇷 阿根廷01, server: other.kunlun-ppg.com, port: 10847, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇦🇹 奥地利01, server: other.kunlun-ppg.com, port: 10848, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇮🇹 意大利01, server: other.kunlun-ppg.com, port: 10849, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇮🇪 爱尔兰01, server: other.kunlun-ppg.com, port: 10850, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -126,67 +91,32 @@ proxy-groups:
       - DIRECT
       - 枭木iOS大本营 TG@Tmxios
       - -tps://t.me/Tmxios
-      - 冷门节点1
-      - 🇺🇸 美国2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
+      - 🇨🇳 中国2
+      - 🇨🇳 广东省3
+      - 🇨🇳 广东省深圳市4
       - 🇭🇰 香港5
-      - 🇨🇳 江苏省镇江市6
+      - 🇨🇳 安徽省6
       - 🇨🇳 湖南省长沙市7
-      - 🇨🇳 安徽省8
-      - 🇯🇵 日本9
-      - 🇯🇵 日本10
-      - 🇻🇳 越南12
-      - 🇻🇳 越南13
-      - 🇻🇳 越南14
-      - 🇯🇵 日本15
-      - 🇯🇵 日本16
-      - 🇯🇵 日本17
-      - 🇨🇳 广东省深圳市32
-      - 🇺🇸 美国33
+      - 🇯🇵 日本8
+      - 🇨🇳 北京市20
+      - 🇨🇳 广东省揭阳市21
+      - 🇷🇺 俄罗斯22
+      - 亚太地区23
+      - 🇯🇵 日本24
+      - 🇯🇵 日本25
+      - 🇯🇵 日本26
+      - 🇯🇵 日本27
+      - 🇯🇵 日本28
+      - 🇯🇵 日本东京29
+      - 🇰🇷 韩国30
+      - 🇯🇵 日本31
+      - 🇯🇵 日本32
+      - 🇯🇵 日本33
       - 🇯🇵 日本34
-      - 🇳🇱 荷兰35
-      - 🇯🇵 日本36
-      - 🇯🇵 日本37
-      - 🇨🇳 广东省38
-      - 🇨🇳 河南省郑州市39
-      - 🇺🇸 美国40
-      - 🇺🇸 美国41
-      - 🇺🇸 美国42
-      - 🇺🇸 美国43
-      - 🇨🇳 广东省44
-      - 🇨🇳 广东省45
-      - 🇨🇳 广东省广州市46
-      - 🇨🇳 广东省47
-      - 🇨🇳 广东省48
-      - 🇨🇳 广东省49
-      - 🇨🇳 广东省广州市50
-      - 🇨🇳 广东省广州市51
-      - 🇨🇳 广东省52
-      - 🇨🇳 广东省53
-      - 🇨🇳 广东省54
-      - 🇨🇳 江苏省宿迁市55
-      - 🇩🇪 德国56
-      - 🇩🇪 德国57
-      - 🇷🇺 俄罗斯58
-      - 🇺🇸 美国59
-      - 🇺🇸 美国60
-      - 🇬🇧 英国伦敦61
-      - 🇯🇵 日本62
-      - 🇯🇵 日本东京63
-      - 🇯🇵 日本64
-      - 🇸🇪 瑞典斯德哥尔摩65
-      - 🇺🇸 美国66
-      - 🇸🇬 新加坡67
-      - 🇸🇬 新加坡68
-      - 🇺🇸 美国69
-      - 🇸🇬 新加坡70
-      - 🇹🇭 泰国71
-      - 🇺🇦 乌克兰72
-      - 🇺🇸 美国73
-      - 🇺🇦 乌克兰74
-      - 🇺🇸 美国75
-      - 🇿🇦 南非76
+      - 🇯🇵 日本35
+      - 🇰🇷 韩国首尔36
+      - 🇰🇷 韩国首尔37
+      - 🇺🇸 美国38
       - 🇭🇰 香港01
       - 🇭🇰 香港02
       - 🇭🇰 香港03
@@ -245,67 +175,32 @@ proxy-groups:
     proxies:
       - 枭木iOS大本营 TG@Tmxios
       - -tps://t.me/Tmxios
-      - 冷门节点1
-      - 🇺🇸 美国2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
+      - 🇨🇳 中国2
+      - 🇨🇳 广东省3
+      - 🇨🇳 广东省深圳市4
       - 🇭🇰 香港5
-      - 🇨🇳 江苏省镇江市6
+      - 🇨🇳 安徽省6
       - 🇨🇳 湖南省长沙市7
-      - 🇨🇳 安徽省8
-      - 🇯🇵 日本9
-      - 🇯🇵 日本10
-      - 🇻🇳 越南12
-      - 🇻🇳 越南13
-      - 🇻🇳 越南14
-      - 🇯🇵 日本15
-      - 🇯🇵 日本16
-      - 🇯🇵 日本17
-      - 🇨🇳 广东省深圳市32
-      - 🇺🇸 美国33
+      - 🇯🇵 日本8
+      - 🇨🇳 北京市20
+      - 🇨🇳 广东省揭阳市21
+      - 🇷🇺 俄罗斯22
+      - 亚太地区23
+      - 🇯🇵 日本24
+      - 🇯🇵 日本25
+      - 🇯🇵 日本26
+      - 🇯🇵 日本27
+      - 🇯🇵 日本28
+      - 🇯🇵 日本东京29
+      - 🇰🇷 韩国30
+      - 🇯🇵 日本31
+      - 🇯🇵 日本32
+      - 🇯🇵 日本33
       - 🇯🇵 日本34
-      - 🇳🇱 荷兰35
-      - 🇯🇵 日本36
-      - 🇯🇵 日本37
-      - 🇨🇳 广东省38
-      - 🇨🇳 河南省郑州市39
-      - 🇺🇸 美国40
-      - 🇺🇸 美国41
-      - 🇺🇸 美国42
-      - 🇺🇸 美国43
-      - 🇨🇳 广东省44
-      - 🇨🇳 广东省45
-      - 🇨🇳 广东省广州市46
-      - 🇨🇳 广东省47
-      - 🇨🇳 广东省48
-      - 🇨🇳 广东省49
-      - 🇨🇳 广东省广州市50
-      - 🇨🇳 广东省广州市51
-      - 🇨🇳 广东省52
-      - 🇨🇳 广东省53
-      - 🇨🇳 广东省54
-      - 🇨🇳 江苏省宿迁市55
-      - 🇩🇪 德国56
-      - 🇩🇪 德国57
-      - 🇷🇺 俄罗斯58
-      - 🇺🇸 美国59
-      - 🇺🇸 美国60
-      - 🇬🇧 英国伦敦61
-      - 🇯🇵 日本62
-      - 🇯🇵 日本东京63
-      - 🇯🇵 日本64
-      - 🇸🇪 瑞典斯德哥尔摩65
-      - 🇺🇸 美国66
-      - 🇸🇬 新加坡67
-      - 🇸🇬 新加坡68
-      - 🇺🇸 美国69
-      - 🇸🇬 新加坡70
-      - 🇹🇭 泰国71
-      - 🇺🇦 乌克兰72
-      - 🇺🇸 美国73
-      - 🇺🇦 乌克兰74
-      - 🇺🇸 美国75
-      - 🇿🇦 南非76
+      - 🇯🇵 日本35
+      - 🇰🇷 韩国首尔36
+      - 🇰🇷 韩国首尔37
+      - 🇺🇸 美国38
       - 🇭🇰 香港01
       - 🇭🇰 香港02
       - 🇭🇰 香港03
@@ -364,67 +259,32 @@ proxy-groups:
       - 🎯 全球直连
       - 枭木iOS大本营 TG@Tmxios
       - -tps://t.me/Tmxios
-      - 冷门节点1
-      - 🇺🇸 美国2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
+      - 🇨🇳 中国2
+      - 🇨🇳 广东省3
+      - 🇨🇳 广东省深圳市4
       - 🇭🇰 香港5
-      - 🇨🇳 江苏省镇江市6
+      - 🇨🇳 安徽省6
       - 🇨🇳 湖南省长沙市7
-      - 🇨🇳 安徽省8
-      - 🇯🇵 日本9
-      - 🇯🇵 日本10
-      - 🇻🇳 越南12
-      - 🇻🇳 越南13
-      - 🇻🇳 越南14
-      - 🇯🇵 日本15
-      - 🇯🇵 日本16
-      - 🇯🇵 日本17
-      - 🇨🇳 广东省深圳市32
-      - 🇺🇸 美国33
+      - 🇯🇵 日本8
+      - 🇨🇳 北京市20
+      - 🇨🇳 广东省揭阳市21
+      - 🇷🇺 俄罗斯22
+      - 亚太地区23
+      - 🇯🇵 日本24
+      - 🇯🇵 日本25
+      - 🇯🇵 日本26
+      - 🇯🇵 日本27
+      - 🇯🇵 日本28
+      - 🇯🇵 日本东京29
+      - 🇰🇷 韩国30
+      - 🇯🇵 日本31
+      - 🇯🇵 日本32
+      - 🇯🇵 日本33
       - 🇯🇵 日本34
-      - 🇳🇱 荷兰35
-      - 🇯🇵 日本36
-      - 🇯🇵 日本37
-      - 🇨🇳 广东省38
-      - 🇨🇳 河南省郑州市39
-      - 🇺🇸 美国40
-      - 🇺🇸 美国41
-      - 🇺🇸 美国42
-      - 🇺🇸 美国43
-      - 🇨🇳 广东省44
-      - 🇨🇳 广东省45
-      - 🇨🇳 广东省广州市46
-      - 🇨🇳 广东省47
-      - 🇨🇳 广东省48
-      - 🇨🇳 广东省49
-      - 🇨🇳 广东省广州市50
-      - 🇨🇳 广东省广州市51
-      - 🇨🇳 广东省52
-      - 🇨🇳 广东省53
-      - 🇨🇳 广东省54
-      - 🇨🇳 江苏省宿迁市55
-      - 🇩🇪 德国56
-      - 🇩🇪 德国57
-      - 🇷🇺 俄罗斯58
-      - 🇺🇸 美国59
-      - 🇺🇸 美国60
-      - 🇬🇧 英国伦敦61
-      - 🇯🇵 日本62
-      - 🇯🇵 日本东京63
-      - 🇯🇵 日本64
-      - 🇸🇪 瑞典斯德哥尔摩65
-      - 🇺🇸 美国66
-      - 🇸🇬 新加坡67
-      - 🇸🇬 新加坡68
-      - 🇺🇸 美国69
-      - 🇸🇬 新加坡70
-      - 🇹🇭 泰国71
-      - 🇺🇦 乌克兰72
-      - 🇺🇸 美国73
-      - 🇺🇦 乌克兰74
-      - 🇺🇸 美国75
-      - 🇿🇦 南非76
+      - 🇯🇵 日本35
+      - 🇰🇷 韩国首尔36
+      - 🇰🇷 韩国首尔37
+      - 🇺🇸 美国38
       - 🇭🇰 香港01
       - 🇭🇰 香港02
       - 🇭🇰 香港03
@@ -482,67 +342,32 @@ proxy-groups:
       - 🎯 全球直连
       - 枭木iOS大本营 TG@Tmxios
       - -tps://t.me/Tmxios
-      - 冷门节点1
-      - 🇺🇸 美国2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
+      - 🇨🇳 中国2
+      - 🇨🇳 广东省3
+      - 🇨🇳 广东省深圳市4
       - 🇭🇰 香港5
-      - 🇨🇳 江苏省镇江市6
+      - 🇨🇳 安徽省6
       - 🇨🇳 湖南省长沙市7
-      - 🇨🇳 安徽省8
-      - 🇯🇵 日本9
-      - 🇯🇵 日本10
-      - 🇻🇳 越南12
-      - 🇻🇳 越南13
-      - 🇻🇳 越南14
-      - 🇯🇵 日本15
-      - 🇯🇵 日本16
-      - 🇯🇵 日本17
-      - 🇨🇳 广东省深圳市32
-      - 🇺🇸 美国33
+      - 🇯🇵 日本8
+      - 🇨🇳 北京市20
+      - 🇨🇳 广东省揭阳市21
+      - 🇷🇺 俄罗斯22
+      - 亚太地区23
+      - 🇯🇵 日本24
+      - 🇯🇵 日本25
+      - 🇯🇵 日本26
+      - 🇯🇵 日本27
+      - 🇯🇵 日本28
+      - 🇯🇵 日本东京29
+      - 🇰🇷 韩国30
+      - 🇯🇵 日本31
+      - 🇯🇵 日本32
+      - 🇯🇵 日本33
       - 🇯🇵 日本34
-      - 🇳🇱 荷兰35
-      - 🇯🇵 日本36
-      - 🇯🇵 日本37
-      - 🇨🇳 广东省38
-      - 🇨🇳 河南省郑州市39
-      - 🇺🇸 美国40
-      - 🇺🇸 美国41
-      - 🇺🇸 美国42
-      - 🇺🇸 美国43
-      - 🇨🇳 广东省44
-      - 🇨🇳 广东省45
-      - 🇨🇳 广东省广州市46
-      - 🇨🇳 广东省47
-      - 🇨🇳 广东省48
-      - 🇨🇳 广东省49
-      - 🇨🇳 广东省广州市50
-      - 🇨🇳 广东省广州市51
-      - 🇨🇳 广东省52
-      - 🇨🇳 广东省53
-      - 🇨🇳 广东省54
-      - 🇨🇳 江苏省宿迁市55
-      - 🇩🇪 德国56
-      - 🇩🇪 德国57
-      - 🇷🇺 俄罗斯58
-      - 🇺🇸 美国59
-      - 🇺🇸 美国60
-      - 🇬🇧 英国伦敦61
-      - 🇯🇵 日本62
-      - 🇯🇵 日本东京63
-      - 🇯🇵 日本64
-      - 🇸🇪 瑞典斯德哥尔摩65
-      - 🇺🇸 美国66
-      - 🇸🇬 新加坡67
-      - 🇸🇬 新加坡68
-      - 🇺🇸 美国69
-      - 🇸🇬 新加坡70
-      - 🇹🇭 泰国71
-      - 🇺🇦 乌克兰72
-      - 🇺🇸 美国73
-      - 🇺🇦 乌克兰74
-      - 🇺🇸 美国75
-      - 🇿🇦 南非76
+      - 🇯🇵 日本35
+      - 🇰🇷 韩国首尔36
+      - 🇰🇷 韩国首尔37
+      - 🇺🇸 美国38
       - 🇭🇰 香港01
       - 🇭🇰 香港02
       - 🇭🇰 香港03
@@ -600,67 +425,32 @@ proxy-groups:
       - 🚀 节点选择
       - 枭木iOS大本营 TG@Tmxios
       - -tps://t.me/Tmxios
-      - 冷门节点1
-      - 🇺🇸 美国2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
+      - 🇨🇳 中国2
+      - 🇨🇳 广东省3
+      - 🇨🇳 广东省深圳市4
       - 🇭🇰 香港5
-      - 🇨🇳 江苏省镇江市6
+      - 🇨🇳 安徽省6
       - 🇨🇳 湖南省长沙市7
-      - 🇨🇳 安徽省8
-      - 🇯🇵 日本9
-      - 🇯🇵 日本10
-      - 🇻🇳 越南12
-      - 🇻🇳 越南13
-      - 🇻🇳 越南14
-      - 🇯🇵 日本15
-      - 🇯🇵 日本16
-      - 🇯🇵 日本17
-      - 🇨🇳 广东省深圳市32
-      - 🇺🇸 美国33
+      - 🇯🇵 日本8
+      - 🇨🇳 北京市20
+      - 🇨🇳 广东省揭阳市21
+      - 🇷🇺 俄罗斯22
+      - 亚太地区23
+      - 🇯🇵 日本24
+      - 🇯🇵 日本25
+      - 🇯🇵 日本26
+      - 🇯🇵 日本27
+      - 🇯🇵 日本28
+      - 🇯🇵 日本东京29
+      - 🇰🇷 韩国30
+      - 🇯🇵 日本31
+      - 🇯🇵 日本32
+      - 🇯🇵 日本33
       - 🇯🇵 日本34
-      - 🇳🇱 荷兰35
-      - 🇯🇵 日本36
-      - 🇯🇵 日本37
-      - 🇨🇳 广东省38
-      - 🇨🇳 河南省郑州市39
-      - 🇺🇸 美国40
-      - 🇺🇸 美国41
-      - 🇺🇸 美国42
-      - 🇺🇸 美国43
-      - 🇨🇳 广东省44
-      - 🇨🇳 广东省45
-      - 🇨🇳 广东省广州市46
-      - 🇨🇳 广东省47
-      - 🇨🇳 广东省48
-      - 🇨🇳 广东省49
-      - 🇨🇳 广东省广州市50
-      - 🇨🇳 广东省广州市51
-      - 🇨🇳 广东省52
-      - 🇨🇳 广东省53
-      - 🇨🇳 广东省54
-      - 🇨🇳 江苏省宿迁市55
-      - 🇩🇪 德国56
-      - 🇩🇪 德国57
-      - 🇷🇺 俄罗斯58
-      - 🇺🇸 美国59
-      - 🇺🇸 美国60
-      - 🇬🇧 英国伦敦61
-      - 🇯🇵 日本62
-      - 🇯🇵 日本东京63
-      - 🇯🇵 日本64
-      - 🇸🇪 瑞典斯德哥尔摩65
-      - 🇺🇸 美国66
-      - 🇸🇬 新加坡67
-      - 🇸🇬 新加坡68
-      - 🇺🇸 美国69
-      - 🇸🇬 新加坡70
-      - 🇹🇭 泰国71
-      - 🇺🇦 乌克兰72
-      - 🇺🇸 美国73
-      - 🇺🇦 乌克兰74
-      - 🇺🇸 美国75
-      - 🇿🇦 南非76
+      - 🇯🇵 日本35
+      - 🇰🇷 韩国首尔36
+      - 🇰🇷 韩国首尔37
+      - 🇺🇸 美国38
       - 🇭🇰 香港01
       - 🇭🇰 香港02
       - 🇭🇰 香港03
@@ -718,67 +508,32 @@ proxy-groups:
       - 🎯 全球直连
       - 枭木iOS大本营 TG@Tmxios
       - -tps://t.me/Tmxios
-      - 冷门节点1
-      - 🇺🇸 美国2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
+      - 🇨🇳 中国2
+      - 🇨🇳 广东省3
+      - 🇨🇳 广东省深圳市4
       - 🇭🇰 香港5
-      - 🇨🇳 江苏省镇江市6
+      - 🇨🇳 安徽省6
       - 🇨🇳 湖南省长沙市7
-      - 🇨🇳 安徽省8
-      - 🇯🇵 日本9
-      - 🇯🇵 日本10
-      - 🇻🇳 越南12
-      - 🇻🇳 越南13
-      - 🇻🇳 越南14
-      - 🇯🇵 日本15
-      - 🇯🇵 日本16
-      - 🇯🇵 日本17
-      - 🇨🇳 广东省深圳市32
-      - 🇺🇸 美国33
+      - 🇯🇵 日本8
+      - 🇨🇳 北京市20
+      - 🇨🇳 广东省揭阳市21
+      - 🇷🇺 俄罗斯22
+      - 亚太地区23
+      - 🇯🇵 日本24
+      - 🇯🇵 日本25
+      - 🇯🇵 日本26
+      - 🇯🇵 日本27
+      - 🇯🇵 日本28
+      - 🇯🇵 日本东京29
+      - 🇰🇷 韩国30
+      - 🇯🇵 日本31
+      - 🇯🇵 日本32
+      - 🇯🇵 日本33
       - 🇯🇵 日本34
-      - 🇳🇱 荷兰35
-      - 🇯🇵 日本36
-      - 🇯🇵 日本37
-      - 🇨🇳 广东省38
-      - 🇨🇳 河南省郑州市39
-      - 🇺🇸 美国40
-      - 🇺🇸 美国41
-      - 🇺🇸 美国42
-      - 🇺🇸 美国43
-      - 🇨🇳 广东省44
-      - 🇨🇳 广东省45
-      - 🇨🇳 广东省广州市46
-      - 🇨🇳 广东省47
-      - 🇨🇳 广东省48
-      - 🇨🇳 广东省49
-      - 🇨🇳 广东省广州市50
-      - 🇨🇳 广东省广州市51
-      - 🇨🇳 广东省52
-      - 🇨🇳 广东省53
-      - 🇨🇳 广东省54
-      - 🇨🇳 江苏省宿迁市55
-      - 🇩🇪 德国56
-      - 🇩🇪 德国57
-      - 🇷🇺 俄罗斯58
-      - 🇺🇸 美国59
-      - 🇺🇸 美国60
-      - 🇬🇧 英国伦敦61
-      - 🇯🇵 日本62
-      - 🇯🇵 日本东京63
-      - 🇯🇵 日本64
-      - 🇸🇪 瑞典斯德哥尔摩65
-      - 🇺🇸 美国66
-      - 🇸🇬 新加坡67
-      - 🇸🇬 新加坡68
-      - 🇺🇸 美国69
-      - 🇸🇬 新加坡70
-      - 🇹🇭 泰国71
-      - 🇺🇦 乌克兰72
-      - 🇺🇸 美国73
-      - 🇺🇦 乌克兰74
-      - 🇺🇸 美国75
-      - 🇿🇦 南非76
+      - 🇯🇵 日本35
+      - 🇰🇷 韩国首尔36
+      - 🇰🇷 韩国首尔37
+      - 🇺🇸 美国38
       - 🇭🇰 香港01
       - 🇭🇰 香港02
       - 🇭🇰 香港03
@@ -837,67 +592,32 @@ proxy-groups:
       - ♻️ 自动选择
       - 枭木iOS大本营 TG@Tmxios
       - -tps://t.me/Tmxios
-      - 冷门节点1
-      - 🇺🇸 美国2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
+      - 🇨🇳 中国2
+      - 🇨🇳 广东省3
+      - 🇨🇳 广东省深圳市4
       - 🇭🇰 香港5
-      - 🇨🇳 江苏省镇江市6
+      - 🇨🇳 安徽省6
       - 🇨🇳 湖南省长沙市7
-      - 🇨🇳 安徽省8
-      - 🇯🇵 日本9
-      - 🇯🇵 日本10
-      - 🇻🇳 越南12
-      - 🇻🇳 越南13
-      - 🇻🇳 越南14
-      - 🇯🇵 日本15
-      - 🇯🇵 日本16
-      - 🇯🇵 日本17
-      - 🇨🇳 广东省深圳市32
-      - 🇺🇸 美国33
+      - 🇯🇵 日本8
+      - 🇨🇳 北京市20
+      - 🇨🇳 广东省揭阳市21
+      - 🇷🇺 俄罗斯22
+      - 亚太地区23
+      - 🇯🇵 日本24
+      - 🇯🇵 日本25
+      - 🇯🇵 日本26
+      - 🇯🇵 日本27
+      - 🇯🇵 日本28
+      - 🇯🇵 日本东京29
+      - 🇰🇷 韩国30
+      - 🇯🇵 日本31
+      - 🇯🇵 日本32
+      - 🇯🇵 日本33
       - 🇯🇵 日本34
-      - 🇳🇱 荷兰35
-      - 🇯🇵 日本36
-      - 🇯🇵 日本37
-      - 🇨🇳 广东省38
-      - 🇨🇳 河南省郑州市39
-      - 🇺🇸 美国40
-      - 🇺🇸 美国41
-      - 🇺🇸 美国42
-      - 🇺🇸 美国43
-      - 🇨🇳 广东省44
-      - 🇨🇳 广东省45
-      - 🇨🇳 广东省广州市46
-      - 🇨🇳 广东省47
-      - 🇨🇳 广东省48
-      - 🇨🇳 广东省49
-      - 🇨🇳 广东省广州市50
-      - 🇨🇳 广东省广州市51
-      - 🇨🇳 广东省52
-      - 🇨🇳 广东省53
-      - 🇨🇳 广东省54
-      - 🇨🇳 江苏省宿迁市55
-      - 🇩🇪 德国56
-      - 🇩🇪 德国57
-      - 🇷🇺 俄罗斯58
-      - 🇺🇸 美国59
-      - 🇺🇸 美国60
-      - 🇬🇧 英国伦敦61
-      - 🇯🇵 日本62
-      - 🇯🇵 日本东京63
-      - 🇯🇵 日本64
-      - 🇸🇪 瑞典斯德哥尔摩65
-      - 🇺🇸 美国66
-      - 🇸🇬 新加坡67
-      - 🇸🇬 新加坡68
-      - 🇺🇸 美国69
-      - 🇸🇬 新加坡70
-      - 🇹🇭 泰国71
-      - 🇺🇦 乌克兰72
-      - 🇺🇸 美国73
-      - 🇺🇦 乌克兰74
-      - 🇺🇸 美国75
-      - 🇿🇦 南非76
+      - 🇯🇵 日本35
+      - 🇰🇷 韩国首尔36
+      - 🇰🇷 韩国首尔37
+      - 🇺🇸 美国38
       - 🇭🇰 香港01
       - 🇭🇰 香港02
       - 🇭🇰 香港03
@@ -972,67 +692,32 @@ proxy-groups:
       - ♻️ 自动选择
       - 枭木iOS大本营 TG@Tmxios
       - -tps://t.me/Tmxios
-      - 冷门节点1
-      - 🇺🇸 美国2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
+      - 🇨🇳 中国2
+      - 🇨🇳 广东省3
+      - 🇨🇳 广东省深圳市4
       - 🇭🇰 香港5
-      - 🇨🇳 江苏省镇江市6
+      - 🇨🇳 安徽省6
       - 🇨🇳 湖南省长沙市7
-      - 🇨🇳 安徽省8
-      - 🇯🇵 日本9
-      - 🇯🇵 日本10
-      - 🇻🇳 越南12
-      - 🇻🇳 越南13
-      - 🇻🇳 越南14
-      - 🇯🇵 日本15
-      - 🇯🇵 日本16
-      - 🇯🇵 日本17
-      - 🇨🇳 广东省深圳市32
-      - 🇺🇸 美国33
+      - 🇯🇵 日本8
+      - 🇨🇳 北京市20
+      - 🇨🇳 广东省揭阳市21
+      - 🇷🇺 俄罗斯22
+      - 亚太地区23
+      - 🇯🇵 日本24
+      - 🇯🇵 日本25
+      - 🇯🇵 日本26
+      - 🇯🇵 日本27
+      - 🇯🇵 日本28
+      - 🇯🇵 日本东京29
+      - 🇰🇷 韩国30
+      - 🇯🇵 日本31
+      - 🇯🇵 日本32
+      - 🇯🇵 日本33
       - 🇯🇵 日本34
-      - 🇳🇱 荷兰35
-      - 🇯🇵 日本36
-      - 🇯🇵 日本37
-      - 🇨🇳 广东省38
-      - 🇨🇳 河南省郑州市39
-      - 🇺🇸 美国40
-      - 🇺🇸 美国41
-      - 🇺🇸 美国42
-      - 🇺🇸 美国43
-      - 🇨🇳 广东省44
-      - 🇨🇳 广东省45
-      - 🇨🇳 广东省广州市46
-      - 🇨🇳 广东省47
-      - 🇨🇳 广东省48
-      - 🇨🇳 广东省49
-      - 🇨🇳 广东省广州市50
-      - 🇨🇳 广东省广州市51
-      - 🇨🇳 广东省52
-      - 🇨🇳 广东省53
-      - 🇨🇳 广东省54
-      - 🇨🇳 江苏省宿迁市55
-      - 🇩🇪 德国56
-      - 🇩🇪 德国57
-      - 🇷🇺 俄罗斯58
-      - 🇺🇸 美国59
-      - 🇺🇸 美国60
-      - 🇬🇧 英国伦敦61
-      - 🇯🇵 日本62
-      - 🇯🇵 日本东京63
-      - 🇯🇵 日本64
-      - 🇸🇪 瑞典斯德哥尔摩65
-      - 🇺🇸 美国66
-      - 🇸🇬 新加坡67
-      - 🇸🇬 新加坡68
-      - 🇺🇸 美国69
-      - 🇸🇬 新加坡70
-      - 🇹🇭 泰国71
-      - 🇺🇦 乌克兰72
-      - 🇺🇸 美国73
-      - 🇺🇦 乌克兰74
-      - 🇺🇸 美国75
-      - 🇿🇦 南非76
+      - 🇯🇵 日本35
+      - 🇰🇷 韩国首尔36
+      - 🇰🇷 韩国首尔37
+      - 🇺🇸 美国38
       - 🇭🇰 香港01
       - 🇭🇰 香港02
       - 🇭🇰 香港03
