@@ -6,83 +6,56 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 枭木iOS大本营 TG@Tmxios, server: 167.88.63.119, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: -tps://t.me/Tmxios, server: 154.3.8.151, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
-  - {name: 🇨🇳 中国2, server: 8.217.134.91, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
-  - {name: 🇨🇳 广东省3, server: 120.233.30.219, port: 10818, type: trojan, password: 4977133b-dbfd-4388-a7a7-4fdd4fadf6f7, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省深圳市4, server: 183.232.159.134, port: 50005, type: vmess, uuid: 692faa8a-01d1-421d-89af-1f1eea22dba1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港5, server: 47.76.44.192, port: 443, type: vmess, uuid: 187002fd-b8ad-4d36-b4fb-1a3224cc99e2, alterId: 0, cipher: auto, tls: true, servername: n1697685464.aaigefm.cn, network: ws, ws-opts: {path: /, headers: {Host: n1697685464.aaigefm.cn}}}
-  - {name: 🇨🇳 安徽省6, server: 111.38.37.81, port: 32013, type: ss, cipher: chacha20-ietf-poly1305, password: 91256cea-c41c-4b66-83a5-d348c63a7b03}
-  - {name: 🇨🇳 湖南省长沙市7, server: 59.81.87.116, port: 33952, type: ss, cipher: aes-256-gcm, password: 5c8b210a-2f00-4292-964b-05281c7ad5d1}
-  - {name: 🇯🇵 日本8, server: 43.201.102.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 北京市20, server: 36.137.197.115, port: 24101, type: ss, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db}
-  - {name: 🇨🇳 广东省揭阳市21, server: 120.240.88.101, port: 11003, type: trojan, password: 79d50396-8f7b-4481-b34f-0f102a62cfc0, sni: datahk.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇷🇺 俄罗斯22, server: 212.192.15.68, port: 49487, type: trojan, password: 17bd8ea9-f1f4-4a9b-a318-99b62bd956ea, sni: bphk3.mybestjj.com, skip-cert-verify: true}
-  - {name: 亚太地区23, server: 103.35.189.180, port: 80, type: vmess, uuid: fd4fa030-b8f1-424b-a780-578dbb59f950, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: us-v.sshmax.xyz}}}
-  - {name: 🇯🇵 日本24, server: 18.181.191.252, port: 54234, type: trojan, password: 62f4274b-44e8-429f-b85f-bb333753f5c2, sni: jp4.lianpi.xyz, skip-cert-verify: true}
-  - {name: 🇯🇵 日本25, server: 18.179.36.184, port: 443, type: trojan, password: c2e17ff5-743c-474e-baca-19ddec3c1cbe, sni: ap-east-cht.lnaspiring.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本26, server: 18.183.231.96, port: 443, type: trojan, password: 35f59fa7-10ed-40da-a91c-ed5ab9ea13b9, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本27, server: 43.207.166.241, port: 20230, type: trojan, password: e7d1f4d0-f470-44d3-86b4-6eb4c22f1a79, sni: 421421.xyz, skip-cert-verify: true}
-  - {name: 🇯🇵 日本28, server: 18.181.191.252, port: 45127, type: trojan, password: 62f4274b-44e8-429f-b85f-bb333753f5c2, sni: jp2.lianpi.xyz, skip-cert-verify: true}
-  - {name: 🇯🇵 日本东京29, server: 3.113.8.53, port: 443, type: trojan, password: 35f59fa7-10ed-40da-a91c-ed5ab9ea13b9, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国30, server: 140.238.13.223, port: 22152, type: ss, cipher: chacha20-ietf-poly1305, password: 63a29a21-d0db-48ad-94e2-98908d75bcfc}
-  - {name: 🇯🇵 日本31, server: 43.201.24.75, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本32, server: 43.200.6.127, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本33, server: 146.56.116.132, port: 22553, type: ss, cipher: chacha20-ietf-poly1305, password: 43de6f56-ff60-47cb-82b6-84db9eaaab4b}
-  - {name: 🇯🇵 日本34, server: 43.202.52.215, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本35, server: 43.201.97.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 韩国首尔36, server: 13.209.9.250, port: 64123, type: trojan, password: 62f4274b-44e8-429f-b85f-bb333753f5c2, sni: ko2.lianpi.xyz, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国首尔37, server: 13.209.9.250, port: 51256, type: trojan, password: 62f4274b-44e8-429f-b85f-bb333753f5c2, sni: ko1.lianpi.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 美国38, server: 13.214.127.115, port: 443, type: trojan, password: 35f59fa7-10ed-40da-a91c-ed5ab9ea13b9}
-  - {name: 🇭🇰 香港01, server: hk.kunlun-ppg.com, port: 10801, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 香港02, server: hk.kunlun-ppg.com, port: 10802, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 香港03, server: hk.kunlun-ppg.com, port: 10803, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 香港04, server: hk.kunlun-ppg.com, port: 10804, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 香港05, server: hk.kunlun-ppg.com, port: 10805, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 香港06, server: hk.kunlun-ppg.com, port: 10806, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 香港07, server: hk.kunlun-ppg.com, port: 10807, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 香港08, server: hk.kunlun-ppg.com, port: 10808, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 香港09家宽, server: hk.kunlun-ppg.com, port: 10809, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 香港10家宽, server: hk.kunlun-ppg.com, port: 10810, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇯🇵 日本01, server: jp.kunlun-ppg.com, port: 10811, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇯🇵 日本02, server: jp.kunlun-ppg.com, port: 10812, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇯🇵 日本03, server: jp.kunlun-ppg.com, port: 10813, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇯🇵 日本04, server: jp.kunlun-ppg.com, port: 10814, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇯🇵 日本05, server: jp.kunlun-ppg.com, port: 10815, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇯🇵 日本06, server: jp.kunlun-ppg.com, port: 10816, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇯🇵 日本07, server: jp.kunlun-ppg.com, port: 10817, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇯🇵 日本08, server: jp.kunlun-ppg.com, port: 10818, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇺🇸 美国01, server: us.kunlun-ppg.com, port: 10819, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇺🇸 美国02, server: us.kunlun-ppg.com, port: 10820, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇺🇸 美国03, server: us.kunlun-ppg.com, port: 10821, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇺🇸 美国04, server: us.kunlun-ppg.com, port: 10822, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇺🇸 美国05, server: us.kunlun-ppg.com, port: 10823, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇺🇸 美国06, server: us.kunlun-ppg.com, port: 10824, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇺🇸 美国07, server: us.kunlun-ppg.com, port: 10825, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇺🇸 美国08, server: us.kunlun-ppg.com, port: 10826, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡01, server: sg.kunlun-ppg.com, port: 10827, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡02, server: sg.kunlun-ppg.com, port: 10828, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡03, server: sg.kunlun-ppg.com, port: 10829, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡04, server: sg.kunlun-ppg.com, port: 10830, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡05, server: sg.kunlun-ppg.com, port: 10831, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡06, server: sg.kunlun-ppg.com, port: 10832, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡07, server: sg.kunlun-ppg.com, port: 10833, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡08, server: sg.kunlun-ppg.com, port: 10834, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾01, server: other.kunlun-ppg.com, port: 10835, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国01, server: other.kunlun-ppg.com, port: 10836, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇬🇧 英国01, server: other.kunlun-ppg.com, port: 10837, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇫🇷 法国01, server: other.kunlun-ppg.com, port: 10838, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇩🇪 德国01, server: other.kunlun-ppg.com, port: 10839, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇮🇳 印度01, server: other.kunlun-ppg.com, port: 10840, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇦🇪 迪拜01, server: other.kunlun-ppg.com, port: 10841, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇧🇷 巴西01, server: other.kunlun-ppg.com, port: 10842, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇿🇦 南非01, server: other.kunlun-ppg.com, port: 10843, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇷🇺 俄罗斯01, server: other.kunlun-ppg.com, port: 10844, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇺🇦 乌克兰01, server: other.kunlun-ppg.com, port: 10845, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇹🇷 土耳其01, server: other.kunlun-ppg.com, port: 10846, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇦🇷 阿根廷01, server: other.kunlun-ppg.com, port: 10847, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇦🇹 奥地利01, server: other.kunlun-ppg.com, port: 10848, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇮🇹 意大利01, server: other.kunlun-ppg.com, port: 10849, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇮🇪 爱尔兰01, server: other.kunlun-ppg.com, port: 10850, type: trojan, password: ae65364a-e936-4328-b395-d83de25eb04c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: https://t.me/Tmxios, server: 154.3.8.151, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.121.43.71, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 2, server: 38.121.43.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 3, server: 38.121.43.71, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 4, server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 5, server: 38.121.43.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 6, server: 38.121.43.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 7, server: 38.121.43.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 8, server: 38.121.43.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 9, server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 10, server: 38.121.43.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 11, server: 38.121.43.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 12, server: 38.121.43.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 13, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 14, server: 38.121.43.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 15, server: 38.121.43.71, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 5701.763998.top, port: 22657, type: ss, cipher: chacha20-ietf-poly1305, password: 9079063d-1346-40ce-b4d4-3bfde30c3803}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 16, server: 38.121.43.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 17, server: 38.121.43.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 18, server: 38.121.43.71, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 19, server: 38.121.43.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇳 湖南省长沙市 联通, server: bjcu.xzyunjiasu.icu, port: 33952, type: ss, cipher: aes-256-gcm, password: 5c8b210a-2f00-4292-964b-05281c7ad5d1}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 20, server: 38.121.43.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 21, server: 38.121.43.71, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 22, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 23, server: 38.121.43.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 24, server: 38.121.43.71, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇯🇵 日本 V2CROSS.COM, server: krbrt.midoks.net, port: 20960, type: ss, cipher: aes-256-gcm, password: a372b782-f751-4412-ae42-6c48fe93d20c}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 25, server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 26, server: 38.121.43.71, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 27, server: 38.121.43.71, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 28, server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 29, server: 38.121.43.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 30, server: 38.121.43.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 31, server: 38.121.43.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: www.speedtest.net, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: singapore.com, port: 80, type: vmess, uuid: 3d761afc-6dfd-49d9-9d0f-b79341391f26, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v004.ssrsub.com}}}
+  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点, server: 188.114.97.1, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: odelia.autos}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: hdlb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hdlb2.shabijichang.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 4, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 5, server: cf.dalazhi.eu.org, port: 443, type: vmess, uuid: 4807b8ab-d74a-445e-9556-45a7ace4f6d6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /puijvws, headers: {Host: tj2.dalazhi.eu.org}}}
+  - {name: 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心, server: 192.74.228.162, port: 443, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国 CloudFlare节点 6, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 3d761afc-6dfd-49d9-9d0f-b79341391f26, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v004.ssrsub.com}}}
+  - {name: 🇨🇳 甘肃省兰州市 移动, server: ep.superjj.cc, port: 54004, type: vmess, uuid: aeef3c61-e2b8-44b4-a473-71f892c5cde0, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 阿里云, server: n1698119642.izwhvan.cn, port: 443, type: vmess, uuid: fe57e1f2-704b-4896-92b6-c256737e9739, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1698119642.izwhvan.cn}}}
+  - {name: 🇭🇰 香港 阿里云 2, server: n1697685464.aaigefm.cn, port: 443, type: vmess, uuid: 187002fd-b8ad-4d36-b4fb-1a3224cc99e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1697685464.aaigefm.cn}}}
+  - {name: 🇭🇰 香港 阿里云 3, server: n1697555560.aaigefm.cn, port: 443, type: vmess, uuid: 56691c3c-b9a5-440f-a678-478618854e75, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1697555560.aaigefm.cn}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 7, server: speed.cloudflare.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: alvvin.click}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 8, server: ml3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml3.shabijichang.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 9, server: v118a.ai88888.top, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /526-dekDP6Otf, headers: {Host: v118a.ai88888.top}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -90,83 +63,56 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 枭木iOS大本营 TG@Tmxios
-      - -tps://t.me/Tmxios
-      - 🇨🇳 中国2
-      - 🇨🇳 广东省3
-      - 🇨🇳 广东省深圳市4
-      - 🇭🇰 香港5
-      - 🇨🇳 安徽省6
-      - 🇨🇳 湖南省长沙市7
-      - 🇯🇵 日本8
-      - 🇨🇳 北京市20
-      - 🇨🇳 广东省揭阳市21
-      - 🇷🇺 俄罗斯22
-      - 亚太地区23
-      - 🇯🇵 日本24
-      - 🇯🇵 日本25
-      - 🇯🇵 日本26
-      - 🇯🇵 日本27
-      - 🇯🇵 日本28
-      - 🇯🇵 日本东京29
-      - 🇰🇷 韩国30
-      - 🇯🇵 日本31
-      - 🇯🇵 日本32
-      - 🇯🇵 日本33
-      - 🇯🇵 日本34
-      - 🇯🇵 日本35
-      - 🇰🇷 韩国首尔36
-      - 🇰🇷 韩国首尔37
-      - 🇺🇸 美国38
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港04
-      - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09家宽
-      - 🇭🇰 香港10家宽
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本04
-      - 🇯🇵 日本05
-      - 🇯🇵 日本06
-      - 🇯🇵 日本07
-      - 🇯🇵 日本08
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
-      - 🇺🇸 美国06
-      - 🇺🇸 美国07
-      - 🇺🇸 美国08
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
-      - 🇸🇬 新加坡06
-      - 🇸🇬 新加坡07
-      - 🇸🇬 新加坡08
-      - 🇨🇳 台湾01
-      - 🇰🇷 韩国01
-      - 🇬🇧 英国01
-      - 🇫🇷 法国01
-      - 🇩🇪 德国01
-      - 🇮🇳 印度01
-      - 🇦🇪 迪拜01
-      - 🇧🇷 巴西01
-      - 🇿🇦 南非01
-      - 🇷🇺 俄罗斯01
-      - 🇺🇦 乌克兰01
-      - 🇹🇷 土耳其01
-      - 🇦🇷 阿根廷01
-      - 🇦🇹 奥地利01
-      - 🇮🇹 意大利01
-      - 🇮🇪 爱尔兰01
+      - https://t.me/Tmxios
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇺🇸 美国 华盛顿Cogent通信公司 3
+      - 🇺🇸 美国 华盛顿Cogent通信公司 4
+      - 🇺🇸 美国 华盛顿Cogent通信公司 5
+      - 🇺🇸 美国 华盛顿Cogent通信公司 6
+      - 🇺🇸 美国 华盛顿Cogent通信公司 7
+      - 🇺🇸 美国 华盛顿Cogent通信公司 8
+      - 🇺🇸 美国 华盛顿Cogent通信公司 9
+      - 🇺🇸 美国 华盛顿Cogent通信公司 10
+      - 🇺🇸 美国 华盛顿Cogent通信公司 11
+      - 🇺🇸 美国 华盛顿Cogent通信公司 12
+      - 🇺🇸 美国 华盛顿Cogent通信公司 13
+      - 🇺🇸 美国 华盛顿Cogent通信公司 14
+      - 🇺🇸 美国 华盛顿Cogent通信公司 15
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司 16
+      - 🇺🇸 美国 华盛顿Cogent通信公司 17
+      - 🇺🇸 美国 华盛顿Cogent通信公司 18
+      - 🇺🇸 美国 华盛顿Cogent通信公司 19
+      - 🇨🇳 湖南省长沙市 联通
+      - 🇺🇸 美国 华盛顿Cogent通信公司 20
+      - 🇺🇸 美国 华盛顿Cogent通信公司 21
+      - 🇺🇸 美国 华盛顿Cogent通信公司 22
+      - 🇺🇸 美国 华盛顿Cogent通信公司 23
+      - 🇺🇸 美国 华盛顿Cogent通信公司 24
+      - 🇯🇵 日本 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司 25
+      - 🇺🇸 美国 华盛顿Cogent通信公司 26
+      - 🇺🇸 美国 华盛顿Cogent通信公司 27
+      - 🇺🇸 美国 华盛顿Cogent通信公司 28
+      - 🇺🇸 美国 华盛顿Cogent通信公司 29
+      - 🇺🇸 美国 华盛顿Cogent通信公司 30
+      - 🇺🇸 美国 华盛顿Cogent通信公司 31
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇨🇳 甘肃省兰州市 移动
+      - 🇭🇰 香港 阿里云
+      - 🇭🇰 香港 阿里云 2
+      - 🇭🇰 香港 阿里云 3
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -174,83 +120,56 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 枭木iOS大本营 TG@Tmxios
-      - -tps://t.me/Tmxios
-      - 🇨🇳 中国2
-      - 🇨🇳 广东省3
-      - 🇨🇳 广东省深圳市4
-      - 🇭🇰 香港5
-      - 🇨🇳 安徽省6
-      - 🇨🇳 湖南省长沙市7
-      - 🇯🇵 日本8
-      - 🇨🇳 北京市20
-      - 🇨🇳 广东省揭阳市21
-      - 🇷🇺 俄罗斯22
-      - 亚太地区23
-      - 🇯🇵 日本24
-      - 🇯🇵 日本25
-      - 🇯🇵 日本26
-      - 🇯🇵 日本27
-      - 🇯🇵 日本28
-      - 🇯🇵 日本东京29
-      - 🇰🇷 韩国30
-      - 🇯🇵 日本31
-      - 🇯🇵 日本32
-      - 🇯🇵 日本33
-      - 🇯🇵 日本34
-      - 🇯🇵 日本35
-      - 🇰🇷 韩国首尔36
-      - 🇰🇷 韩国首尔37
-      - 🇺🇸 美国38
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港04
-      - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09家宽
-      - 🇭🇰 香港10家宽
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本04
-      - 🇯🇵 日本05
-      - 🇯🇵 日本06
-      - 🇯🇵 日本07
-      - 🇯🇵 日本08
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
-      - 🇺🇸 美国06
-      - 🇺🇸 美国07
-      - 🇺🇸 美国08
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
-      - 🇸🇬 新加坡06
-      - 🇸🇬 新加坡07
-      - 🇸🇬 新加坡08
-      - 🇨🇳 台湾01
-      - 🇰🇷 韩国01
-      - 🇬🇧 英国01
-      - 🇫🇷 法国01
-      - 🇩🇪 德国01
-      - 🇮🇳 印度01
-      - 🇦🇪 迪拜01
-      - 🇧🇷 巴西01
-      - 🇿🇦 南非01
-      - 🇷🇺 俄罗斯01
-      - 🇺🇦 乌克兰01
-      - 🇹🇷 土耳其01
-      - 🇦🇷 阿根廷01
-      - 🇦🇹 奥地利01
-      - 🇮🇹 意大利01
-      - 🇮🇪 爱尔兰01
+      - https://t.me/Tmxios
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇺🇸 美国 华盛顿Cogent通信公司 3
+      - 🇺🇸 美国 华盛顿Cogent通信公司 4
+      - 🇺🇸 美国 华盛顿Cogent通信公司 5
+      - 🇺🇸 美国 华盛顿Cogent通信公司 6
+      - 🇺🇸 美国 华盛顿Cogent通信公司 7
+      - 🇺🇸 美国 华盛顿Cogent通信公司 8
+      - 🇺🇸 美国 华盛顿Cogent通信公司 9
+      - 🇺🇸 美国 华盛顿Cogent通信公司 10
+      - 🇺🇸 美国 华盛顿Cogent通信公司 11
+      - 🇺🇸 美国 华盛顿Cogent通信公司 12
+      - 🇺🇸 美国 华盛顿Cogent通信公司 13
+      - 🇺🇸 美国 华盛顿Cogent通信公司 14
+      - 🇺🇸 美国 华盛顿Cogent通信公司 15
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司 16
+      - 🇺🇸 美国 华盛顿Cogent通信公司 17
+      - 🇺🇸 美国 华盛顿Cogent通信公司 18
+      - 🇺🇸 美国 华盛顿Cogent通信公司 19
+      - 🇨🇳 湖南省长沙市 联通
+      - 🇺🇸 美国 华盛顿Cogent通信公司 20
+      - 🇺🇸 美国 华盛顿Cogent通信公司 21
+      - 🇺🇸 美国 华盛顿Cogent通信公司 22
+      - 🇺🇸 美国 华盛顿Cogent通信公司 23
+      - 🇺🇸 美国 华盛顿Cogent通信公司 24
+      - 🇯🇵 日本 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司 25
+      - 🇺🇸 美国 华盛顿Cogent通信公司 26
+      - 🇺🇸 美国 华盛顿Cogent通信公司 27
+      - 🇺🇸 美国 华盛顿Cogent通信公司 28
+      - 🇺🇸 美国 华盛顿Cogent通信公司 29
+      - 🇺🇸 美国 华盛顿Cogent通信公司 30
+      - 🇺🇸 美国 华盛顿Cogent通信公司 31
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇨🇳 甘肃省兰州市 移动
+      - 🇭🇰 香港 阿里云
+      - 🇭🇰 香港 阿里云 2
+      - 🇭🇰 香港 阿里云 3
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -258,332 +177,224 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 枭木iOS大本营 TG@Tmxios
-      - -tps://t.me/Tmxios
-      - 🇨🇳 中国2
-      - 🇨🇳 广东省3
-      - 🇨🇳 广东省深圳市4
-      - 🇭🇰 香港5
-      - 🇨🇳 安徽省6
-      - 🇨🇳 湖南省长沙市7
-      - 🇯🇵 日本8
-      - 🇨🇳 北京市20
-      - 🇨🇳 广东省揭阳市21
-      - 🇷🇺 俄罗斯22
-      - 亚太地区23
-      - 🇯🇵 日本24
-      - 🇯🇵 日本25
-      - 🇯🇵 日本26
-      - 🇯🇵 日本27
-      - 🇯🇵 日本28
-      - 🇯🇵 日本东京29
-      - 🇰🇷 韩国30
-      - 🇯🇵 日本31
-      - 🇯🇵 日本32
-      - 🇯🇵 日本33
-      - 🇯🇵 日本34
-      - 🇯🇵 日本35
-      - 🇰🇷 韩国首尔36
-      - 🇰🇷 韩国首尔37
-      - 🇺🇸 美国38
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港04
-      - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09家宽
-      - 🇭🇰 香港10家宽
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本04
-      - 🇯🇵 日本05
-      - 🇯🇵 日本06
-      - 🇯🇵 日本07
-      - 🇯🇵 日本08
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
-      - 🇺🇸 美国06
-      - 🇺🇸 美国07
-      - 🇺🇸 美国08
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
-      - 🇸🇬 新加坡06
-      - 🇸🇬 新加坡07
-      - 🇸🇬 新加坡08
-      - 🇨🇳 台湾01
-      - 🇰🇷 韩国01
-      - 🇬🇧 英国01
-      - 🇫🇷 法国01
-      - 🇩🇪 德国01
-      - 🇮🇳 印度01
-      - 🇦🇪 迪拜01
-      - 🇧🇷 巴西01
-      - 🇿🇦 南非01
-      - 🇷🇺 俄罗斯01
-      - 🇺🇦 乌克兰01
-      - 🇹🇷 土耳其01
-      - 🇦🇷 阿根廷01
-      - 🇦🇹 奥地利01
-      - 🇮🇹 意大利01
-      - 🇮🇪 爱尔兰01
+      - https://t.me/Tmxios
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇺🇸 美国 华盛顿Cogent通信公司 3
+      - 🇺🇸 美国 华盛顿Cogent通信公司 4
+      - 🇺🇸 美国 华盛顿Cogent通信公司 5
+      - 🇺🇸 美国 华盛顿Cogent通信公司 6
+      - 🇺🇸 美国 华盛顿Cogent通信公司 7
+      - 🇺🇸 美国 华盛顿Cogent通信公司 8
+      - 🇺🇸 美国 华盛顿Cogent通信公司 9
+      - 🇺🇸 美国 华盛顿Cogent通信公司 10
+      - 🇺🇸 美国 华盛顿Cogent通信公司 11
+      - 🇺🇸 美国 华盛顿Cogent通信公司 12
+      - 🇺🇸 美国 华盛顿Cogent通信公司 13
+      - 🇺🇸 美国 华盛顿Cogent通信公司 14
+      - 🇺🇸 美国 华盛顿Cogent通信公司 15
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司 16
+      - 🇺🇸 美国 华盛顿Cogent通信公司 17
+      - 🇺🇸 美国 华盛顿Cogent通信公司 18
+      - 🇺🇸 美国 华盛顿Cogent通信公司 19
+      - 🇨🇳 湖南省长沙市 联通
+      - 🇺🇸 美国 华盛顿Cogent通信公司 20
+      - 🇺🇸 美国 华盛顿Cogent通信公司 21
+      - 🇺🇸 美国 华盛顿Cogent通信公司 22
+      - 🇺🇸 美国 华盛顿Cogent通信公司 23
+      - 🇺🇸 美国 华盛顿Cogent通信公司 24
+      - 🇯🇵 日本 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司 25
+      - 🇺🇸 美国 华盛顿Cogent通信公司 26
+      - 🇺🇸 美国 华盛顿Cogent通信公司 27
+      - 🇺🇸 美国 华盛顿Cogent通信公司 28
+      - 🇺🇸 美国 华盛顿Cogent通信公司 29
+      - 🇺🇸 美国 华盛顿Cogent通信公司 30
+      - 🇺🇸 美国 华盛顿Cogent通信公司 31
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇨🇳 甘肃省兰州市 移动
+      - 🇭🇰 香港 阿里云
+      - 🇭🇰 香港 阿里云 2
+      - 🇭🇰 香港 阿里云 3
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 枭木iOS大本营 TG@Tmxios
-      - -tps://t.me/Tmxios
-      - 🇨🇳 中国2
-      - 🇨🇳 广东省3
-      - 🇨🇳 广东省深圳市4
-      - 🇭🇰 香港5
-      - 🇨🇳 安徽省6
-      - 🇨🇳 湖南省长沙市7
-      - 🇯🇵 日本8
-      - 🇨🇳 北京市20
-      - 🇨🇳 广东省揭阳市21
-      - 🇷🇺 俄罗斯22
-      - 亚太地区23
-      - 🇯🇵 日本24
-      - 🇯🇵 日本25
-      - 🇯🇵 日本26
-      - 🇯🇵 日本27
-      - 🇯🇵 日本28
-      - 🇯🇵 日本东京29
-      - 🇰🇷 韩国30
-      - 🇯🇵 日本31
-      - 🇯🇵 日本32
-      - 🇯🇵 日本33
-      - 🇯🇵 日本34
-      - 🇯🇵 日本35
-      - 🇰🇷 韩国首尔36
-      - 🇰🇷 韩国首尔37
-      - 🇺🇸 美国38
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港04
-      - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09家宽
-      - 🇭🇰 香港10家宽
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本04
-      - 🇯🇵 日本05
-      - 🇯🇵 日本06
-      - 🇯🇵 日本07
-      - 🇯🇵 日本08
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
-      - 🇺🇸 美国06
-      - 🇺🇸 美国07
-      - 🇺🇸 美国08
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
-      - 🇸🇬 新加坡06
-      - 🇸🇬 新加坡07
-      - 🇸🇬 新加坡08
-      - 🇨🇳 台湾01
-      - 🇰🇷 韩国01
-      - 🇬🇧 英国01
-      - 🇫🇷 法国01
-      - 🇩🇪 德国01
-      - 🇮🇳 印度01
-      - 🇦🇪 迪拜01
-      - 🇧🇷 巴西01
-      - 🇿🇦 南非01
-      - 🇷🇺 俄罗斯01
-      - 🇺🇦 乌克兰01
-      - 🇹🇷 土耳其01
-      - 🇦🇷 阿根廷01
-      - 🇦🇹 奥地利01
-      - 🇮🇹 意大利01
-      - 🇮🇪 爱尔兰01
+      - https://t.me/Tmxios
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇺🇸 美国 华盛顿Cogent通信公司 3
+      - 🇺🇸 美国 华盛顿Cogent通信公司 4
+      - 🇺🇸 美国 华盛顿Cogent通信公司 5
+      - 🇺🇸 美国 华盛顿Cogent通信公司 6
+      - 🇺🇸 美国 华盛顿Cogent通信公司 7
+      - 🇺🇸 美国 华盛顿Cogent通信公司 8
+      - 🇺🇸 美国 华盛顿Cogent通信公司 9
+      - 🇺🇸 美国 华盛顿Cogent通信公司 10
+      - 🇺🇸 美国 华盛顿Cogent通信公司 11
+      - 🇺🇸 美国 华盛顿Cogent通信公司 12
+      - 🇺🇸 美国 华盛顿Cogent通信公司 13
+      - 🇺🇸 美国 华盛顿Cogent通信公司 14
+      - 🇺🇸 美国 华盛顿Cogent通信公司 15
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司 16
+      - 🇺🇸 美国 华盛顿Cogent通信公司 17
+      - 🇺🇸 美国 华盛顿Cogent通信公司 18
+      - 🇺🇸 美国 华盛顿Cogent通信公司 19
+      - 🇨🇳 湖南省长沙市 联通
+      - 🇺🇸 美国 华盛顿Cogent通信公司 20
+      - 🇺🇸 美国 华盛顿Cogent通信公司 21
+      - 🇺🇸 美国 华盛顿Cogent通信公司 22
+      - 🇺🇸 美国 华盛顿Cogent通信公司 23
+      - 🇺🇸 美国 华盛顿Cogent通信公司 24
+      - 🇯🇵 日本 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司 25
+      - 🇺🇸 美国 华盛顿Cogent通信公司 26
+      - 🇺🇸 美国 华盛顿Cogent通信公司 27
+      - 🇺🇸 美国 华盛顿Cogent通信公司 28
+      - 🇺🇸 美国 华盛顿Cogent通信公司 29
+      - 🇺🇸 美国 华盛顿Cogent通信公司 30
+      - 🇺🇸 美国 华盛顿Cogent通信公司 31
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇨🇳 甘肃省兰州市 移动
+      - 🇭🇰 香港 阿里云
+      - 🇭🇰 香港 阿里云 2
+      - 🇭🇰 香港 阿里云 3
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 枭木iOS大本营 TG@Tmxios
-      - -tps://t.me/Tmxios
-      - 🇨🇳 中国2
-      - 🇨🇳 广东省3
-      - 🇨🇳 广东省深圳市4
-      - 🇭🇰 香港5
-      - 🇨🇳 安徽省6
-      - 🇨🇳 湖南省长沙市7
-      - 🇯🇵 日本8
-      - 🇨🇳 北京市20
-      - 🇨🇳 广东省揭阳市21
-      - 🇷🇺 俄罗斯22
-      - 亚太地区23
-      - 🇯🇵 日本24
-      - 🇯🇵 日本25
-      - 🇯🇵 日本26
-      - 🇯🇵 日本27
-      - 🇯🇵 日本28
-      - 🇯🇵 日本东京29
-      - 🇰🇷 韩国30
-      - 🇯🇵 日本31
-      - 🇯🇵 日本32
-      - 🇯🇵 日本33
-      - 🇯🇵 日本34
-      - 🇯🇵 日本35
-      - 🇰🇷 韩国首尔36
-      - 🇰🇷 韩国首尔37
-      - 🇺🇸 美国38
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港04
-      - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09家宽
-      - 🇭🇰 香港10家宽
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本04
-      - 🇯🇵 日本05
-      - 🇯🇵 日本06
-      - 🇯🇵 日本07
-      - 🇯🇵 日本08
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
-      - 🇺🇸 美国06
-      - 🇺🇸 美国07
-      - 🇺🇸 美国08
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
-      - 🇸🇬 新加坡06
-      - 🇸🇬 新加坡07
-      - 🇸🇬 新加坡08
-      - 🇨🇳 台湾01
-      - 🇰🇷 韩国01
-      - 🇬🇧 英国01
-      - 🇫🇷 法国01
-      - 🇩🇪 德国01
-      - 🇮🇳 印度01
-      - 🇦🇪 迪拜01
-      - 🇧🇷 巴西01
-      - 🇿🇦 南非01
-      - 🇷🇺 俄罗斯01
-      - 🇺🇦 乌克兰01
-      - 🇹🇷 土耳其01
-      - 🇦🇷 阿根廷01
-      - 🇦🇹 奥地利01
-      - 🇮🇹 意大利01
-      - 🇮🇪 爱尔兰01
+      - https://t.me/Tmxios
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇺🇸 美国 华盛顿Cogent通信公司 3
+      - 🇺🇸 美国 华盛顿Cogent通信公司 4
+      - 🇺🇸 美国 华盛顿Cogent通信公司 5
+      - 🇺🇸 美国 华盛顿Cogent通信公司 6
+      - 🇺🇸 美国 华盛顿Cogent通信公司 7
+      - 🇺🇸 美国 华盛顿Cogent通信公司 8
+      - 🇺🇸 美国 华盛顿Cogent通信公司 9
+      - 🇺🇸 美国 华盛顿Cogent通信公司 10
+      - 🇺🇸 美国 华盛顿Cogent通信公司 11
+      - 🇺🇸 美国 华盛顿Cogent通信公司 12
+      - 🇺🇸 美国 华盛顿Cogent通信公司 13
+      - 🇺🇸 美国 华盛顿Cogent通信公司 14
+      - 🇺🇸 美国 华盛顿Cogent通信公司 15
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司 16
+      - 🇺🇸 美国 华盛顿Cogent通信公司 17
+      - 🇺🇸 美国 华盛顿Cogent通信公司 18
+      - 🇺🇸 美国 华盛顿Cogent通信公司 19
+      - 🇨🇳 湖南省长沙市 联通
+      - 🇺🇸 美国 华盛顿Cogent通信公司 20
+      - 🇺🇸 美国 华盛顿Cogent通信公司 21
+      - 🇺🇸 美国 华盛顿Cogent通信公司 22
+      - 🇺🇸 美国 华盛顿Cogent通信公司 23
+      - 🇺🇸 美国 华盛顿Cogent通信公司 24
+      - 🇯🇵 日本 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司 25
+      - 🇺🇸 美国 华盛顿Cogent通信公司 26
+      - 🇺🇸 美国 华盛顿Cogent通信公司 27
+      - 🇺🇸 美国 华盛顿Cogent通信公司 28
+      - 🇺🇸 美国 华盛顿Cogent通信公司 29
+      - 🇺🇸 美国 华盛顿Cogent通信公司 30
+      - 🇺🇸 美国 华盛顿Cogent通信公司 31
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇨🇳 甘肃省兰州市 移动
+      - 🇭🇰 香港 阿里云
+      - 🇭🇰 香港 阿里云 2
+      - 🇭🇰 香港 阿里云 3
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 枭木iOS大本营 TG@Tmxios
-      - -tps://t.me/Tmxios
-      - 🇨🇳 中国2
-      - 🇨🇳 广东省3
-      - 🇨🇳 广东省深圳市4
-      - 🇭🇰 香港5
-      - 🇨🇳 安徽省6
-      - 🇨🇳 湖南省长沙市7
-      - 🇯🇵 日本8
-      - 🇨🇳 北京市20
-      - 🇨🇳 广东省揭阳市21
-      - 🇷🇺 俄罗斯22
-      - 亚太地区23
-      - 🇯🇵 日本24
-      - 🇯🇵 日本25
-      - 🇯🇵 日本26
-      - 🇯🇵 日本27
-      - 🇯🇵 日本28
-      - 🇯🇵 日本东京29
-      - 🇰🇷 韩国30
-      - 🇯🇵 日本31
-      - 🇯🇵 日本32
-      - 🇯🇵 日本33
-      - 🇯🇵 日本34
-      - 🇯🇵 日本35
-      - 🇰🇷 韩国首尔36
-      - 🇰🇷 韩国首尔37
-      - 🇺🇸 美国38
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港04
-      - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09家宽
-      - 🇭🇰 香港10家宽
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本04
-      - 🇯🇵 日本05
-      - 🇯🇵 日本06
-      - 🇯🇵 日本07
-      - 🇯🇵 日本08
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
-      - 🇺🇸 美国06
-      - 🇺🇸 美国07
-      - 🇺🇸 美国08
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
-      - 🇸🇬 新加坡06
-      - 🇸🇬 新加坡07
-      - 🇸🇬 新加坡08
-      - 🇨🇳 台湾01
-      - 🇰🇷 韩国01
-      - 🇬🇧 英国01
-      - 🇫🇷 法国01
-      - 🇩🇪 德国01
-      - 🇮🇳 印度01
-      - 🇦🇪 迪拜01
-      - 🇧🇷 巴西01
-      - 🇿🇦 南非01
-      - 🇷🇺 俄罗斯01
-      - 🇺🇦 乌克兰01
-      - 🇹🇷 土耳其01
-      - 🇦🇷 阿根廷01
-      - 🇦🇹 奥地利01
-      - 🇮🇹 意大利01
-      - 🇮🇪 爱尔兰01
+      - https://t.me/Tmxios
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇺🇸 美国 华盛顿Cogent通信公司 3
+      - 🇺🇸 美国 华盛顿Cogent通信公司 4
+      - 🇺🇸 美国 华盛顿Cogent通信公司 5
+      - 🇺🇸 美国 华盛顿Cogent通信公司 6
+      - 🇺🇸 美国 华盛顿Cogent通信公司 7
+      - 🇺🇸 美国 华盛顿Cogent通信公司 8
+      - 🇺🇸 美国 华盛顿Cogent通信公司 9
+      - 🇺🇸 美国 华盛顿Cogent通信公司 10
+      - 🇺🇸 美国 华盛顿Cogent通信公司 11
+      - 🇺🇸 美国 华盛顿Cogent通信公司 12
+      - 🇺🇸 美国 华盛顿Cogent通信公司 13
+      - 🇺🇸 美国 华盛顿Cogent通信公司 14
+      - 🇺🇸 美国 华盛顿Cogent通信公司 15
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司 16
+      - 🇺🇸 美国 华盛顿Cogent通信公司 17
+      - 🇺🇸 美国 华盛顿Cogent通信公司 18
+      - 🇺🇸 美国 华盛顿Cogent通信公司 19
+      - 🇨🇳 湖南省长沙市 联通
+      - 🇺🇸 美国 华盛顿Cogent通信公司 20
+      - 🇺🇸 美国 华盛顿Cogent通信公司 21
+      - 🇺🇸 美国 华盛顿Cogent通信公司 22
+      - 🇺🇸 美国 华盛顿Cogent通信公司 23
+      - 🇺🇸 美国 华盛顿Cogent通信公司 24
+      - 🇯🇵 日本 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司 25
+      - 🇺🇸 美国 华盛顿Cogent通信公司 26
+      - 🇺🇸 美国 华盛顿Cogent通信公司 27
+      - 🇺🇸 美国 华盛顿Cogent通信公司 28
+      - 🇺🇸 美国 华盛顿Cogent通信公司 29
+      - 🇺🇸 美国 华盛顿Cogent通信公司 30
+      - 🇺🇸 美国 华盛顿Cogent通信公司 31
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇨🇳 甘肃省兰州市 移动
+      - 🇭🇰 香港 阿里云
+      - 🇭🇰 香港 阿里云 2
+      - 🇭🇰 香港 阿里云 3
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -591,83 +402,56 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 枭木iOS大本营 TG@Tmxios
-      - -tps://t.me/Tmxios
-      - 🇨🇳 中国2
-      - 🇨🇳 广东省3
-      - 🇨🇳 广东省深圳市4
-      - 🇭🇰 香港5
-      - 🇨🇳 安徽省6
-      - 🇨🇳 湖南省长沙市7
-      - 🇯🇵 日本8
-      - 🇨🇳 北京市20
-      - 🇨🇳 广东省揭阳市21
-      - 🇷🇺 俄罗斯22
-      - 亚太地区23
-      - 🇯🇵 日本24
-      - 🇯🇵 日本25
-      - 🇯🇵 日本26
-      - 🇯🇵 日本27
-      - 🇯🇵 日本28
-      - 🇯🇵 日本东京29
-      - 🇰🇷 韩国30
-      - 🇯🇵 日本31
-      - 🇯🇵 日本32
-      - 🇯🇵 日本33
-      - 🇯🇵 日本34
-      - 🇯🇵 日本35
-      - 🇰🇷 韩国首尔36
-      - 🇰🇷 韩国首尔37
-      - 🇺🇸 美国38
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港04
-      - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09家宽
-      - 🇭🇰 香港10家宽
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本04
-      - 🇯🇵 日本05
-      - 🇯🇵 日本06
-      - 🇯🇵 日本07
-      - 🇯🇵 日本08
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
-      - 🇺🇸 美国06
-      - 🇺🇸 美国07
-      - 🇺🇸 美国08
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
-      - 🇸🇬 新加坡06
-      - 🇸🇬 新加坡07
-      - 🇸🇬 新加坡08
-      - 🇨🇳 台湾01
-      - 🇰🇷 韩国01
-      - 🇬🇧 英国01
-      - 🇫🇷 法国01
-      - 🇩🇪 德国01
-      - 🇮🇳 印度01
-      - 🇦🇪 迪拜01
-      - 🇧🇷 巴西01
-      - 🇿🇦 南非01
-      - 🇷🇺 俄罗斯01
-      - 🇺🇦 乌克兰01
-      - 🇹🇷 土耳其01
-      - 🇦🇷 阿根廷01
-      - 🇦🇹 奥地利01
-      - 🇮🇹 意大利01
-      - 🇮🇪 爱尔兰01
+      - https://t.me/Tmxios
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇺🇸 美国 华盛顿Cogent通信公司 3
+      - 🇺🇸 美国 华盛顿Cogent通信公司 4
+      - 🇺🇸 美国 华盛顿Cogent通信公司 5
+      - 🇺🇸 美国 华盛顿Cogent通信公司 6
+      - 🇺🇸 美国 华盛顿Cogent通信公司 7
+      - 🇺🇸 美国 华盛顿Cogent通信公司 8
+      - 🇺🇸 美国 华盛顿Cogent通信公司 9
+      - 🇺🇸 美国 华盛顿Cogent通信公司 10
+      - 🇺🇸 美国 华盛顿Cogent通信公司 11
+      - 🇺🇸 美国 华盛顿Cogent通信公司 12
+      - 🇺🇸 美国 华盛顿Cogent通信公司 13
+      - 🇺🇸 美国 华盛顿Cogent通信公司 14
+      - 🇺🇸 美国 华盛顿Cogent通信公司 15
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司 16
+      - 🇺🇸 美国 华盛顿Cogent通信公司 17
+      - 🇺🇸 美国 华盛顿Cogent通信公司 18
+      - 🇺🇸 美国 华盛顿Cogent通信公司 19
+      - 🇨🇳 湖南省长沙市 联通
+      - 🇺🇸 美国 华盛顿Cogent通信公司 20
+      - 🇺🇸 美国 华盛顿Cogent通信公司 21
+      - 🇺🇸 美国 华盛顿Cogent通信公司 22
+      - 🇺🇸 美国 华盛顿Cogent通信公司 23
+      - 🇺🇸 美国 华盛顿Cogent通信公司 24
+      - 🇯🇵 日本 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司 25
+      - 🇺🇸 美国 华盛顿Cogent通信公司 26
+      - 🇺🇸 美国 华盛顿Cogent通信公司 27
+      - 🇺🇸 美国 华盛顿Cogent通信公司 28
+      - 🇺🇸 美国 华盛顿Cogent通信公司 29
+      - 🇺🇸 美国 华盛顿Cogent通信公司 30
+      - 🇺🇸 美国 华盛顿Cogent通信公司 31
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇨🇳 甘肃省兰州市 移动
+      - 🇭🇰 香港 阿里云
+      - 🇭🇰 香港 阿里云 2
+      - 🇭🇰 香港 阿里云 3
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -691,83 +475,56 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 枭木iOS大本营 TG@Tmxios
-      - -tps://t.me/Tmxios
-      - 🇨🇳 中国2
-      - 🇨🇳 广东省3
-      - 🇨🇳 广东省深圳市4
-      - 🇭🇰 香港5
-      - 🇨🇳 安徽省6
-      - 🇨🇳 湖南省长沙市7
-      - 🇯🇵 日本8
-      - 🇨🇳 北京市20
-      - 🇨🇳 广东省揭阳市21
-      - 🇷🇺 俄罗斯22
-      - 亚太地区23
-      - 🇯🇵 日本24
-      - 🇯🇵 日本25
-      - 🇯🇵 日本26
-      - 🇯🇵 日本27
-      - 🇯🇵 日本28
-      - 🇯🇵 日本东京29
-      - 🇰🇷 韩国30
-      - 🇯🇵 日本31
-      - 🇯🇵 日本32
-      - 🇯🇵 日本33
-      - 🇯🇵 日本34
-      - 🇯🇵 日本35
-      - 🇰🇷 韩国首尔36
-      - 🇰🇷 韩国首尔37
-      - 🇺🇸 美国38
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港04
-      - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09家宽
-      - 🇭🇰 香港10家宽
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本04
-      - 🇯🇵 日本05
-      - 🇯🇵 日本06
-      - 🇯🇵 日本07
-      - 🇯🇵 日本08
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
-      - 🇺🇸 美国06
-      - 🇺🇸 美国07
-      - 🇺🇸 美国08
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
-      - 🇸🇬 新加坡06
-      - 🇸🇬 新加坡07
-      - 🇸🇬 新加坡08
-      - 🇨🇳 台湾01
-      - 🇰🇷 韩国01
-      - 🇬🇧 英国01
-      - 🇫🇷 法国01
-      - 🇩🇪 德国01
-      - 🇮🇳 印度01
-      - 🇦🇪 迪拜01
-      - 🇧🇷 巴西01
-      - 🇿🇦 南非01
-      - 🇷🇺 俄罗斯01
-      - 🇺🇦 乌克兰01
-      - 🇹🇷 土耳其01
-      - 🇦🇷 阿根廷01
-      - 🇦🇹 奥地利01
-      - 🇮🇹 意大利01
-      - 🇮🇪 爱尔兰01
+      - https://t.me/Tmxios
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇺🇸 美国 华盛顿Cogent通信公司 3
+      - 🇺🇸 美国 华盛顿Cogent通信公司 4
+      - 🇺🇸 美国 华盛顿Cogent通信公司 5
+      - 🇺🇸 美国 华盛顿Cogent通信公司 6
+      - 🇺🇸 美国 华盛顿Cogent通信公司 7
+      - 🇺🇸 美国 华盛顿Cogent通信公司 8
+      - 🇺🇸 美国 华盛顿Cogent通信公司 9
+      - 🇺🇸 美国 华盛顿Cogent通信公司 10
+      - 🇺🇸 美国 华盛顿Cogent通信公司 11
+      - 🇺🇸 美国 华盛顿Cogent通信公司 12
+      - 🇺🇸 美国 华盛顿Cogent通信公司 13
+      - 🇺🇸 美国 华盛顿Cogent通信公司 14
+      - 🇺🇸 美国 华盛顿Cogent通信公司 15
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司 16
+      - 🇺🇸 美国 华盛顿Cogent通信公司 17
+      - 🇺🇸 美国 华盛顿Cogent通信公司 18
+      - 🇺🇸 美国 华盛顿Cogent通信公司 19
+      - 🇨🇳 湖南省长沙市 联通
+      - 🇺🇸 美国 华盛顿Cogent通信公司 20
+      - 🇺🇸 美国 华盛顿Cogent通信公司 21
+      - 🇺🇸 美国 华盛顿Cogent通信公司 22
+      - 🇺🇸 美国 华盛顿Cogent通信公司 23
+      - 🇺🇸 美国 华盛顿Cogent通信公司 24
+      - 🇯🇵 日本 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司 25
+      - 🇺🇸 美国 华盛顿Cogent通信公司 26
+      - 🇺🇸 美国 华盛顿Cogent通信公司 27
+      - 🇺🇸 美国 华盛顿Cogent通信公司 28
+      - 🇺🇸 美国 华盛顿Cogent通信公司 29
+      - 🇺🇸 美国 华盛顿Cogent通信公司 30
+      - 🇺🇸 美国 华盛顿Cogent通信公司 31
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇨🇳 甘肃省兰州市 移动
+      - 🇭🇰 香港 阿里云
+      - 🇭🇰 香港 阿里云 2
+      - 🇭🇰 香港 阿里云 3
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
