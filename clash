@@ -7,55 +7,137 @@ external-controller: :9090
 proxies:
   - {name: 枭木iOS大本营 TG@Tmxios, server: 167.88.63.119, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: https://t.me/Tmxios, server: 154.3.8.151, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.121.43.71, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 2, server: 38.121.43.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 3, server: 38.121.43.71, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 4, server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 5, server: 38.121.43.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 6, server: 38.121.43.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 7, server: 38.121.43.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 8, server: 38.121.43.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 9, server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 10, server: 38.121.43.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 11, server: 38.121.43.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 12, server: 38.121.43.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 13, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 14, server: 38.121.43.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 15, server: 38.121.43.71, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 5701.763998.top, port: 22657, type: ss, cipher: chacha20-ietf-poly1305, password: 9079063d-1346-40ce-b4d4-3bfde30c3803}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 16, server: 38.121.43.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 17, server: 38.121.43.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 18, server: 38.121.43.71, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 19, server: 38.121.43.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇳 广东省广州市1, server: 183.233.187.244, port: 27047, type: ss, cipher: aes-128-gcm, password: 6kHMDmoMKu}
+  - {name: 🇨🇳 广东省广州市2, server: 183.233.187.244, port: 27051, type: ss, cipher: aes-128-gcm, password: 6kHMDmoMKu}
+  - {name: 🇨🇳 广东省广州市3, server: 183.233.187.244, port: 27053, type: ss, cipher: aes-128-gcm, password: 6kHMDmoMKu}
+  - {name: 🇨🇳 中国4, server: 8.217.237.237, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+  - {name: 🇮🇱 以色列5, server: 193.182.144.65, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇯🇵 日本6, server: 43.200.7.213, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇫🇷 法国7, server: 51.159.210.173, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 法国8, server: 51.158.54.207, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇨🇳 上海市9, server: 124.220.57.75, port: 80, type: vmess, uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇳 上海市10, server: 210.51.27.199, port: 51021, type: vmess, uuid: 62a91cb0-2185-3cba-9f44-b6e8cce1c920, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ttf, headers: {Host: nn2a.tntbooms.com}}}
+  - {name: 🇨🇳 上海市11, server: 210.51.27.199, port: 51001, type: vmess, uuid: 62a91cb0-2185-3cba-9f44-b6e8cce1c920, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ttf, headers: {Host: nn2a.tntbooms.com}}}
+  - {name: 🇨🇳 广东省揭阳市12, server: 120.240.88.88, port: 51031, type: vmess, uuid: 62a91cb0-2185-3cba-9f44-b6e8cce1c920, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ttf, headers: {Host: nn3p.tntbooms.com}}}
+  - {name: 🇨🇳 上海市13, server: 210.51.27.199, port: 51002, type: vmess, uuid: 62a91cb0-2185-3cba-9f44-b6e8cce1c920, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ttf, headers: {Host: nn2a.tntbooms.com}}}
+  - {name: 🇨🇳 江西省14, server: 117.164.185.222, port: 16132, type: vmess, uuid: f2dc204c-c78a-3a8d-9bcc-a3f13a22c171, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 北京市15, server: 36.134.165.186, port: 25003, type: vmess, uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 甘肃省兰州市16, server: 36.140.102.11, port: 50004, type: vmess, uuid: 97265a90-f0d0-4d83-83b7-0b3a59b620b5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 浙江省17, server: 112.16.244.157, port: 42142, type: ss, cipher: chacha20-ietf-poly1305, password: a95a989d-fb6f-4b0f-ad16-7653735271ed}
+  - {name: 🇨🇳 安徽省18, server: 112.26.46.18, port: 48003, type: ss, cipher: chacha20-ietf-poly1305, password: a95a989d-fb6f-4b0f-ad16-7653735271ed}
+  - {name: 🇨🇳 浙江省19, server: 112.16.244.157, port: 15474, type: ss, cipher: chacha20-ietf-poly1305, password: a95a989d-fb6f-4b0f-ad16-7653735271ed}
+  - {name: 🇨🇳 安徽省20, server: 112.26.46.18, port: 48004, type: ss, cipher: chacha20-ietf-poly1305, password: a95a989d-fb6f-4b0f-ad16-7653735271ed}
+  - {name: 🇨🇳 安徽省21, server: 112.26.46.18, port: 36698, type: ss, cipher: chacha20-ietf-poly1305, password: a95a989d-fb6f-4b0f-ad16-7653735271ed}
+  - {name: 🇨🇳 浙江省22, server: 112.16.244.157, port: 40172, type: ss, cipher: chacha20-ietf-poly1305, password: a95a989d-fb6f-4b0f-ad16-7653735271ed}
+  - {name: 🇨🇳 浙江省23, server: 112.16.244.157, port: 36521, type: ss, cipher: chacha20-ietf-poly1305, password: a95a989d-fb6f-4b0f-ad16-7653735271ed}
+  - {name: 🇨🇳 广东省广州市24, server: 183.233.187.201, port: 10812, type: trojan, password: a53a1153-6a43-4dc6-b8b5-f388e4aec16d, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市25, server: 183.233.187.201, port: 10814, type: trojan, password: a53a1153-6a43-4dc6-b8b5-f388e4aec16d, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市26, server: 183.233.187.201, port: 10813, type: trojan, password: 4a6e36c1-1b34-4ecf-9fe2-9a902d161d19, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市27, server: 183.233.187.201, port: 10826, type: trojan, password: a53a1153-6a43-4dc6-b8b5-f388e4aec16d, sni: alibaba-node.cn}
+  - {name: 🇨🇳 广东省广州市28, server: 183.233.187.201, port: 10811, type: trojan, password: 4a6e36c1-1b34-4ecf-9fe2-9a902d161d19, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市29, server: 183.233.187.201, port: 10824, type: trojan, password: 4a6e36c1-1b34-4ecf-9fe2-9a902d161d19, sni: alibaba-node.cn}
+  - {name: 🇨🇳 广东省广州市30, server: 183.233.187.201, port: 10816, type: trojan, password: 4a6e36c1-1b34-4ecf-9fe2-9a902d161d19, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市31, server: 183.233.187.201, port: 10817, type: trojan, password: 4a6e36c1-1b34-4ecf-9fe2-9a902d161d19, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市32, server: 183.233.187.201, port: 10823, type: trojan, password: 4a6e36c1-1b34-4ecf-9fe2-9a902d161d19, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市33, server: 183.233.187.201, port: 10815, type: trojan, password: bd5ad33d-d267-4393-928a-50f425d1b68c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市34, server: 183.233.187.201, port: 10819, type: trojan, password: 4a6e36c1-1b34-4ecf-9fe2-9a902d161d19, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市35, server: 183.233.187.201, port: 10835, type: trojan, password: a53a1153-6a43-4dc6-b8b5-f388e4aec16d, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省深圳市36, server: 183.232.159.134, port: 50029, type: vmess, uuid: 97265a90-f0d0-4d83-83b7-0b3a59b620b5, alterId: 0, cipher: auto, tls: false}
+  - {name: 天津市37, server: 61.240.29.245, port: 58898, type: ss, cipher: chacha20-ietf-poly1305, password: 496873c3-5bbf-4dc4-9858-488e10fe2379}
+  - {name: 🇨🇳 北京市38, server: 36.137.179.162, port: 50007, type: vmess, uuid: 97265a90-f0d0-4d83-83b7-0b3a59b620b5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 江西省39, server: 117.164.185.221, port: 16132, type: vmess, uuid: f2dc204c-c78a-3a8d-9bcc-a3f13a22c171, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 北京市40, server: 36.137.179.162, port: 50022, type: vmess, uuid: 97265a90-f0d0-4d83-83b7-0b3a59b620b5, alterId: 0, cipher: auto, tls: false}
+  - {name: 天津市41, server: 61.240.29.245, port: 58902, type: ss, cipher: chacha20-ietf-poly1305, password: 496873c3-5bbf-4dc4-9858-488e10fe2379}
+  - {name: 🇨🇳 北京市42, server: 36.134.165.186, port: 25001, type: vmess, uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 广东省深圳市43, server: 183.232.159.134, port: 50017, type: vmess, uuid: 97265a90-f0d0-4d83-83b7-0b3a59b620b5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇷 哥斯达黎加44, server: 144.22.169.244, port: 20902, type: ss, cipher: chacha20-ietf-poly1305, password: cc90e910-590c-4fe9-bf12-0e777a798506}
+  - {name: 天津市45, server: 61.240.29.245, port: 58894, type: ss, cipher: chacha20-ietf-poly1305, password: 496873c3-5bbf-4dc4-9858-488e10fe2379}
+  - {name: 🇨🇳 广东省广州市46, server: 183.233.187.201, port: 10820, type: trojan, password: 410158e9-944a-429f-a9e5-278c078ada1d, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市47, server: 183.233.187.201, port: 10821, type: trojan, password: 4a6e36c1-1b34-4ecf-9fe2-9a902d161d19, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省深圳市48, server: 183.232.159.134, port: 50005, type: vmess, uuid: 97265a90-f0d0-4d83-83b7-0b3a59b620b5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 广东省广州市49, server: 14.18.91.151, port: 50041, type: vmess, uuid: 97265a90-f0d0-4d83-83b7-0b3a59b620b5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 广东省广州市50, server: 183.233.187.201, port: 10830, type: trojan, password: af589de4-7059-4fe5-8ab1-113d2a6824e1, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市51, server: 183.233.187.201, port: 10831, type: trojan, password: a53a1153-6a43-4dc6-b8b5-f388e4aec16d, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市52, server: 183.233.187.201, port: 10828, type: trojan, password: 4a6e36c1-1b34-4ecf-9fe2-9a902d161d19, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市53, server: 183.233.187.201, port: 10834, type: trojan, password: 4a6e36c1-1b34-4ecf-9fe2-9a902d161d19, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省54, server: 120.233.30.219, port: 10828, type: trojan, password: a53a1153-6a43-4dc6-b8b5-f388e4aec16d, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市55, server: 183.233.187.201, port: 10829, type: trojan, password: 4a6e36c1-1b34-4ecf-9fe2-9a902d161d19, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市56, server: 183.233.187.201, port: 10827, type: trojan, password: bd5ad33d-d267-4393-928a-50f425d1b68c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇯🇵 日本东京都东京57, server: 168.138.193.147, port: 21402, type: ss, cipher: chacha20-ietf-poly1305, password: cc90e910-590c-4fe9-bf12-0e777a798506}
+  - {name: 🇨🇳 台湾省58, server: 122.121.22.66, port: 48889, type: ss, cipher: chacha20-ietf-poly1305, password: cc90e910-590c-4fe9-bf12-0e777a798506}
+  - {name: 冷门节点59, server: 2606:4700:3034::6815:29d0, port: 8080, type: vmess, uuid: f8bf8790-65d4-4839-a97d-326567f96846, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ca-new01.gujuji.top}}}
+  - {name: 🇨🇳 广东省60, server: 183.240.222.66, port: 51042, type: vmess, uuid: 62a91cb0-2185-3cba-9f44-b6e8cce1c920, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ttf, headers: {Host: nn3s.tntbooms.com}}}
+  - {name: 🇨🇳 广东省广州市61, server: 183.233.187.201, port: 10847, type: trojan, password: bd5ad33d-d267-4393-928a-50f425d1b68c, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇺🇸 美国62, server: 129.150.52.196, port: 24352, type: ss, cipher: chacha20-ietf-poly1305, password: cc90e910-590c-4fe9-bf12-0e777a798506}
+  - {name: 🇺🇸 美国63, server: 16.170.106.206, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
+  - {name: 🇬🇧 英国64, server: 158.180.237.11, port: 22802, type: ss, cipher: chacha20-ietf-poly1305, password: cc90e910-590c-4fe9-bf12-0e777a798506}
+  - {name: 🇨🇳 广东省广州市65, server: 183.233.187.201, port: 10836, type: trojan, password: 3d022f6d-e42b-4146-8d1f-b1c910ecc67a, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市66, server: 183.233.187.201, port: 10840, type: trojan, password: 3d022f6d-e42b-4146-8d1f-b1c910ecc67a, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市67, server: 183.233.187.201, port: 10841, type: trojan, password: 3d022f6d-e42b-4146-8d1f-b1c910ecc67a, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市68, server: 183.233.187.201, port: 10839, type: trojan, password: 3d022f6d-e42b-4146-8d1f-b1c910ecc67a, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市70, server: 183.233.187.201, port: 10837, type: trojan, password: 3d022f6d-e42b-4146-8d1f-b1c910ecc67a, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市72, server: 183.233.187.201, port: 10849, type: trojan, password: 3d022f6d-e42b-4146-8d1f-b1c910ecc67a, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市73, server: 183.233.187.201, port: 10848, type: trojan, password: 3d022f6d-e42b-4146-8d1f-b1c910ecc67a, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市74, server: 183.233.187.201, port: 10838, type: trojan, password: 628cdd1c-599c-4cd2-a212-0fa84df573e5, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市75, server: 183.233.187.201, port: 10844, type: trojan, password: 3d022f6d-e42b-4146-8d1f-b1c910ecc67a, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市76, server: 183.233.187.201, port: 10846, type: trojan, password: 628cdd1c-599c-4cd2-a212-0fa84df573e5, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾省新北市90, server: 114.37.187.188, port: 60001, type: ss, cipher: chacha20-ietf-poly1305, password: ef2f83e2-0ca8-4b7f-9ef9-6597840ab72f}
+  - {name: 🇮🇲 马恩岛91, server: 192.71.211.161, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇨🇳 中国92, server: 8.217.134.91, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+  - {name: 🇨🇿 捷克93, server: 93.170.73.104, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: AGr56G65GFgl7phobMoits}
+  - {name: 🇫🇷 法国94, server: 62.210.88.201, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 法国95, server: 57.128.198.193, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: OTQ3M}
+  - {name: 🇨🇳 江苏省宿迁市96, server: 222.187.238.9, port: 20036, type: vmess, uuid: ee0a4b54-be8d-4f56-be4d-521bd1ae443d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇩🇪 德国97, server: 89.163.157.4, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: YTViY}
+  - {name: 🇺🇸 美国98, server: 18.198.91.225, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true}
+  - {name: 🇳🇱 荷兰99, server: 51.15.27.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇺🇸 美国100, server: 15.236.129.193, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
+  - {name: 🇺🇸 美国101, server: 13.38.168.111, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true}
+  - {name: 🇺🇸 美国102, server: 15.236.196.98, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true}
+  - {name: 🇬🇧 英国伦敦103, server: 3.11.246.126, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true}
+  - {name: 🇺🇸 美国104, server: 13.41.97.85, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true}
+  - {name: 🇮🇪 爱尔兰105, server: 46.137.53.91, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true}
+  - {name: 🇯🇵 日本106, server: 43.207.44.65, port: 21586, type: vmess, uuid: 272291d0-18b5-39eb-ac67-202de689dd44, alterId: 1, cipher: auto, tls: true, servername: jp03-alt-vm0.entry.srthdw.art}
+  - {name: 🇷🇴 罗马尼亚107, server: 194.14.217.115, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 阿富汗108, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇷🇺 俄罗斯109, server: 5.188.6.8, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇺🇸 美国110, server: 52.40.248.206, port: 20230, type: trojan, password: 7a10fed2-dab0-4b5a-a111-86c9e8065053, sni: 421421.xyz, skip-cert-verify: true}
+  - {name: 🇯🇵 日本111, server: 103.75.118.27, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇸🇬 新加坡 Amazon数据中心, server: sg1.lianpi.xyz, port: 56138, type: ss, cipher: chacha20-ietf-poly1305, password: 1f3d67b4-6929-4598-90ca-84a841bf02e4}
   - {name: 🇨🇳 湖南省长沙市 联通, server: bjcu.xzyunjiasu.icu, port: 33952, type: ss, cipher: aes-256-gcm, password: 5c8b210a-2f00-4292-964b-05281c7ad5d1}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 20, server: 38.121.43.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 21, server: 38.121.43.71, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 22, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 23, server: 38.121.43.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 24, server: 38.121.43.71, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇯🇵 日本 V2CROSS.COM, server: krbrt.midoks.net, port: 20960, type: ss, cipher: aes-256-gcm, password: a372b782-f751-4412-ae42-6c48fe93d20c}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 25, server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 26, server: 38.121.43.71, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 27, server: 38.121.43.71, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 28, server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 29, server: 38.121.43.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 30, server: 38.121.43.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 31, server: 38.121.43.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: www.speedtest.net, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
+  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心, server: ak1751.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇸🇬 新加坡 Amazon数据中心 2, server: sg1.lianpi.xyz, port: 56138, type: ss, cipher: chacha20-ietf-poly1305, password: 1f3d67b4-6929-4598-90ca-84a841bf02e4}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws}}
+  - {name: 🇭🇰 香港 阿里云, server: n1697555560.aaigefm.cn, port: 443, type: vmess, uuid: 56691c3c-b9a5-440f-a678-478618854e75, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1697555560.aaigefm.cn}}}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: xjp3.shabijichang.com, port: 80, type: vmess, uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xjp3.shabijichang.com}}}
+  - {name: 🇨🇿 捷克 V2CROSS.COM, server: 176.126.120.38, port: 55007, type: vmess, uuid: 26840da4-9dbe-476c-bc44-05ea3b7c7a87, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 美国 CloudFlare节点 2, server: singapore.com, port: 80, type: vmess, uuid: 3d761afc-6dfd-49d9-9d0f-b79341391f26, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v004.ssrsub.com}}}
-  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点, server: 188.114.97.1, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: odelia.autos}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: hdlb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hdlb2.shabijichang.com}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 4, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 5, server: cf.dalazhi.eu.org, port: 443, type: vmess, uuid: 4807b8ab-d74a-445e-9556-45a7ace4f6d6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /puijvws, headers: {Host: tj2.dalazhi.eu.org}}}
+  - {name: 🇺🇸 美国 V2CROSS.COM 2, server: 146.190.94.141, port: 42358, type: vmess, uuid: 6e4edbd8-7854-4ef5-c9c6-49e95822e4fc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@ONHIT_EHI, headers: {Host: media-exp1.licdn.com}}}
+  - {name: 亚太地区 V2CROSS.COM, server: GAMEVIP2.5GTOCDOCAO.COM, port: 80, type: vmess, uuid: e9882e7b-c7bc-4c13-ab4d-bc127d39925c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /5gtocdocao.com, headers: {Host: dl.ops.kgvn.garenanow.com}}}
+  - {name: 亚太地区 V2CROSS.COM 2, server: gamevip2.5gtocdocao.com, port: 80, type: vmess, uuid: e9882e7b-c7bc-4c13-ab4d-bc127d39925c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /5gtocdocao.com, headers: {Host: gamevip2.5gtocdocao.com}}}
   - {name: 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心, server: 192.74.228.162, port: 443, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 CloudFlare节点 6, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 3d761afc-6dfd-49d9-9d0f-b79341391f26, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v004.ssrsub.com}}}
-  - {name: 🇨🇳 甘肃省兰州市 移动, server: ep.superjj.cc, port: 54004, type: vmess, uuid: aeef3c61-e2b8-44b4-a473-71f892c5cde0, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 阿里云, server: n1698119642.izwhvan.cn, port: 443, type: vmess, uuid: fe57e1f2-704b-4896-92b6-c256737e9739, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1698119642.izwhvan.cn}}}
-  - {name: 🇭🇰 香港 阿里云 2, server: n1697685464.aaigefm.cn, port: 443, type: vmess, uuid: 187002fd-b8ad-4d36-b4fb-1a3224cc99e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1697685464.aaigefm.cn}}}
-  - {name: 🇭🇰 香港 阿里云 3, server: n1697555560.aaigefm.cn, port: 443, type: vmess, uuid: 56691c3c-b9a5-440f-a678-478618854e75, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1697555560.aaigefm.cn}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 7, server: speed.cloudflare.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: alvvin.click}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 8, server: ml3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml3.shabijichang.com}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 9, server: v118a.ai88888.top, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /526-dekDP6Otf, headers: {Host: v118a.ai88888.top}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: cc3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cc3.shabijichang.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 4, server: yhnsb3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: yhnsb3.shabijichang.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 5, server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
+  - {name: 🇨🇳 广东省广州市 移动, server: 183.233.187.214, port: 49553, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 6, server: cc2.shabijichang.com, port: 80, type: vmess, uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cc2.shabijichang.com}}}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: 37.27.21.225, port: 18855, type: vmess, uuid: 59cdb3eb-13de-436d-9b6a-6c815863baf4, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心 2, server: 192.74.228.162, port: 443, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国 Datability, server: 140.99.101.22, port: 22631, type: vmess, uuid: 619f8f1b-25d3-44ce-b75e-0c60d492cc77, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 7, server: ml2.shabijichang.com, port: 80, type: vmess, uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml2.shabijichang.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 8, server: dl3.doushimeng.com, port: 2082, type: vmess, uuid: 8832f86b-a265-48a7-85ea-4e4c663e1a66, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-de2.doushimeng.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 9, server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: d0b5d7a8-549d-4f24-8b49-deb829aa0a5c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/jebMFQkX, headers: {Host: sg20a4ad42b.qcryechvqw.xyz}}}
+  - {name: 🇨🇿 捷克 V2CROSS.COM 2, server: 176.126.120.38, port: 55007, type: vmess, uuid: 26840da4-9dbe-476c-bc44-05ea3b7c7a87, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国 CloudFlare节点 10, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz}}}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM 2, server: 5.75.199.248, port: 15905, type: vmess, uuid: f378ba1d-0dd2-4ac3-a65b-32468032b909, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点, server: 188.114.96.7, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: octavi.cfd}}}
+  - {name: 🇭🇰 香港 阿里云 2, server: n1697765772.izwhvan.cn, port: 443, type: vmess, uuid: ba984678-ca81-4443-a9da-58adea43d5b0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1697765772.izwhvan.cn}}}
+  - {name: 🇮🇪 爱尔兰 都柏林Amazon数据中心, server: 34.255.13.134, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk}
+  - {name: 🇺🇸 美国 V2CROSS.COM 3, server: 146.190.94.141, port: 10799, type: trojan, password: oNJ2M1YmcB, sni: m.facebook.net}
+  - {name: 🇺🇸 美国 惠普HP, server: aws-hk03.aikun.online, port: 443, type: trojan, password: fa9a512a-eab5-4cdf-b559-14922eb3948e, sni: cdn-65135431546231.78321.xyz}
+  - {name: 🇨🇦 加拿大 温尼伯大学, server: 142.132.177.11, port: 2086, type: trojan, password: dt1ycAEzCE, sni: rabbithole.vpsgermany.shop}
+  - {name: 🇬🇧 英国 社会保险安全部, server: 51.20.160.129, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk}
+  - {name: 🇺🇸 美国 Amazon数据中心, server: 13.41.97.85, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -64,55 +146,137 @@ proxy-groups:
       - DIRECT
       - 枭木iOS大本营 TG@Tmxios
       - https://t.me/Tmxios
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
-      - 🇺🇸 美国 华盛顿Cogent通信公司 5
-      - 🇺🇸 美国 华盛顿Cogent通信公司 6
-      - 🇺🇸 美国 华盛顿Cogent通信公司 7
-      - 🇺🇸 美国 华盛顿Cogent通信公司 8
-      - 🇺🇸 美国 华盛顿Cogent通信公司 9
-      - 🇺🇸 美国 华盛顿Cogent通信公司 10
-      - 🇺🇸 美国 华盛顿Cogent通信公司 11
-      - 🇺🇸 美国 华盛顿Cogent通信公司 12
-      - 🇺🇸 美国 华盛顿Cogent通信公司 13
-      - 🇺🇸 美国 华盛顿Cogent通信公司 14
-      - 🇺🇸 美国 华盛顿Cogent通信公司 15
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 16
-      - 🇺🇸 美国 华盛顿Cogent通信公司 17
-      - 🇺🇸 美国 华盛顿Cogent通信公司 18
-      - 🇺🇸 美国 华盛顿Cogent通信公司 19
+      - 🇨🇳 广东省广州市1
+      - 🇨🇳 广东省广州市2
+      - 🇨🇳 广东省广州市3
+      - 🇨🇳 中国4
+      - 🇮🇱 以色列5
+      - 🇯🇵 日本6
+      - 🇫🇷 法国7
+      - 🇫🇷 法国8
+      - 🇨🇳 上海市9
+      - 🇨🇳 上海市10
+      - 🇨🇳 上海市11
+      - 🇨🇳 广东省揭阳市12
+      - 🇨🇳 上海市13
+      - 🇨🇳 江西省14
+      - 🇨🇳 北京市15
+      - 🇨🇳 甘肃省兰州市16
+      - 🇨🇳 浙江省17
+      - 🇨🇳 安徽省18
+      - 🇨🇳 浙江省19
+      - 🇨🇳 安徽省20
+      - 🇨🇳 安徽省21
+      - 🇨🇳 浙江省22
+      - 🇨🇳 浙江省23
+      - 🇨🇳 广东省广州市24
+      - 🇨🇳 广东省广州市25
+      - 🇨🇳 广东省广州市26
+      - 🇨🇳 广东省广州市27
+      - 🇨🇳 广东省广州市28
+      - 🇨🇳 广东省广州市29
+      - 🇨🇳 广东省广州市30
+      - 🇨🇳 广东省广州市31
+      - 🇨🇳 广东省广州市32
+      - 🇨🇳 广东省广州市33
+      - 🇨🇳 广东省广州市34
+      - 🇨🇳 广东省广州市35
+      - 🇨🇳 广东省深圳市36
+      - 天津市37
+      - 🇨🇳 北京市38
+      - 🇨🇳 江西省39
+      - 🇨🇳 北京市40
+      - 天津市41
+      - 🇨🇳 北京市42
+      - 🇨🇳 广东省深圳市43
+      - 🇨🇷 哥斯达黎加44
+      - 天津市45
+      - 🇨🇳 广东省广州市46
+      - 🇨🇳 广东省广州市47
+      - 🇨🇳 广东省深圳市48
+      - 🇨🇳 广东省广州市49
+      - 🇨🇳 广东省广州市50
+      - 🇨🇳 广东省广州市51
+      - 🇨🇳 广东省广州市52
+      - 🇨🇳 广东省广州市53
+      - 🇨🇳 广东省54
+      - 🇨🇳 广东省广州市55
+      - 🇨🇳 广东省广州市56
+      - 🇯🇵 日本东京都东京57
+      - 🇨🇳 台湾省58
+      - 冷门节点59
+      - 🇨🇳 广东省60
+      - 🇨🇳 广东省广州市61
+      - 🇺🇸 美国62
+      - 🇺🇸 美国63
+      - 🇬🇧 英国64
+      - 🇨🇳 广东省广州市65
+      - 🇨🇳 广东省广州市66
+      - 🇨🇳 广东省广州市67
+      - 🇨🇳 广东省广州市68
+      - 🇨🇳 广东省广州市70
+      - 🇨🇳 广东省广州市72
+      - 🇨🇳 广东省广州市73
+      - 🇨🇳 广东省广州市74
+      - 🇨🇳 广东省广州市75
+      - 🇨🇳 广东省广州市76
+      - 🇨🇳 台湾省新北市90
+      - 🇮🇲 马恩岛91
+      - 🇨🇳 中国92
+      - 🇨🇿 捷克93
+      - 🇫🇷 法国94
+      - 🇫🇷 法国95
+      - 🇨🇳 江苏省宿迁市96
+      - 🇩🇪 德国97
+      - 🇺🇸 美国98
+      - 🇳🇱 荷兰99
+      - 🇺🇸 美国100
+      - 🇺🇸 美国101
+      - 🇺🇸 美国102
+      - 🇬🇧 英国伦敦103
+      - 🇺🇸 美国104
+      - 🇮🇪 爱尔兰105
+      - 🇯🇵 日本106
+      - 🇷🇴 罗马尼亚107
+      - 阿富汗108
+      - 🇷🇺 俄罗斯109
+      - 🇺🇸 美国110
+      - 🇯🇵 日本111
+      - 🇸🇬 新加坡 Amazon数据中心
       - 🇨🇳 湖南省长沙市 联通
-      - 🇺🇸 美国 华盛顿Cogent通信公司 20
-      - 🇺🇸 美国 华盛顿Cogent通信公司 21
-      - 🇺🇸 美国 华盛顿Cogent通信公司 22
-      - 🇺🇸 美国 华盛顿Cogent通信公司 23
-      - 🇺🇸 美国 华盛顿Cogent通信公司 24
-      - 🇯🇵 日本 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 25
-      - 🇺🇸 美国 华盛顿Cogent通信公司 26
-      - 🇺🇸 美国 华盛顿Cogent通信公司 27
-      - 🇺🇸 美国 华盛顿Cogent通信公司 28
-      - 🇺🇸 美国 华盛顿Cogent通信公司 29
-      - 🇺🇸 美国 华盛顿Cogent通信公司 30
-      - 🇺🇸 美国 华盛顿Cogent通信公司 31
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心
+      - 🇸🇬 新加坡 Amazon数据中心 2
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇭🇰 香港 阿里云
       - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇿 捷克 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 亚太地区 V2CROSS.COM
+      - 亚太地区 V2CROSS.COM 2
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 CloudFlare节点 4
       - 🇺🇸 美国 CloudFlare节点 5
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇨🇳 广东省广州市 移动
       - 🇺🇸 美国 CloudFlare节点 6
-      - 🇨🇳 甘肃省兰州市 移动
-      - 🇭🇰 香港 阿里云
-      - 🇭🇰 香港 阿里云 2
-      - 🇭🇰 香港 阿里云 3
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心 2
+      - 🇺🇸 美国 Datability
       - 🇺🇸 美国 CloudFlare节点 7
       - 🇺🇸 美国 CloudFlare节点 8
       - 🇺🇸 美国 CloudFlare节点 9
+      - 🇨🇿 捷克 V2CROSS.COM 2
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇮🇷 伊朗 V2CROSS.COM 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇭🇰 香港 阿里云 2
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇺🇸 美国 V2CROSS.COM 3
+      - 🇺🇸 美国 惠普HP
+      - 🇨🇦 加拿大 温尼伯大学
+      - 🇬🇧 英国 社会保险安全部
+      - 🇺🇸 美国 Amazon数据中心
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -121,55 +285,137 @@ proxy-groups:
     proxies:
       - 枭木iOS大本营 TG@Tmxios
       - https://t.me/Tmxios
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
-      - 🇺🇸 美国 华盛顿Cogent通信公司 5
-      - 🇺🇸 美国 华盛顿Cogent通信公司 6
-      - 🇺🇸 美国 华盛顿Cogent通信公司 7
-      - 🇺🇸 美国 华盛顿Cogent通信公司 8
-      - 🇺🇸 美国 华盛顿Cogent通信公司 9
-      - 🇺🇸 美国 华盛顿Cogent通信公司 10
-      - 🇺🇸 美国 华盛顿Cogent通信公司 11
-      - 🇺🇸 美国 华盛顿Cogent通信公司 12
-      - 🇺🇸 美国 华盛顿Cogent通信公司 13
-      - 🇺🇸 美国 华盛顿Cogent通信公司 14
-      - 🇺🇸 美国 华盛顿Cogent通信公司 15
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 16
-      - 🇺🇸 美国 华盛顿Cogent通信公司 17
-      - 🇺🇸 美国 华盛顿Cogent通信公司 18
-      - 🇺🇸 美国 华盛顿Cogent通信公司 19
+      - 🇨🇳 广东省广州市1
+      - 🇨🇳 广东省广州市2
+      - 🇨🇳 广东省广州市3
+      - 🇨🇳 中国4
+      - 🇮🇱 以色列5
+      - 🇯🇵 日本6
+      - 🇫🇷 法国7
+      - 🇫🇷 法国8
+      - 🇨🇳 上海市9
+      - 🇨🇳 上海市10
+      - 🇨🇳 上海市11
+      - 🇨🇳 广东省揭阳市12
+      - 🇨🇳 上海市13
+      - 🇨🇳 江西省14
+      - 🇨🇳 北京市15
+      - 🇨🇳 甘肃省兰州市16
+      - 🇨🇳 浙江省17
+      - 🇨🇳 安徽省18
+      - 🇨🇳 浙江省19
+      - 🇨🇳 安徽省20
+      - 🇨🇳 安徽省21
+      - 🇨🇳 浙江省22
+      - 🇨🇳 浙江省23
+      - 🇨🇳 广东省广州市24
+      - 🇨🇳 广东省广州市25
+      - 🇨🇳 广东省广州市26
+      - 🇨🇳 广东省广州市27
+      - 🇨🇳 广东省广州市28
+      - 🇨🇳 广东省广州市29
+      - 🇨🇳 广东省广州市30
+      - 🇨🇳 广东省广州市31
+      - 🇨🇳 广东省广州市32
+      - 🇨🇳 广东省广州市33
+      - 🇨🇳 广东省广州市34
+      - 🇨🇳 广东省广州市35
+      - 🇨🇳 广东省深圳市36
+      - 天津市37
+      - 🇨🇳 北京市38
+      - 🇨🇳 江西省39
+      - 🇨🇳 北京市40
+      - 天津市41
+      - 🇨🇳 北京市42
+      - 🇨🇳 广东省深圳市43
+      - 🇨🇷 哥斯达黎加44
+      - 天津市45
+      - 🇨🇳 广东省广州市46
+      - 🇨🇳 广东省广州市47
+      - 🇨🇳 广东省深圳市48
+      - 🇨🇳 广东省广州市49
+      - 🇨🇳 广东省广州市50
+      - 🇨🇳 广东省广州市51
+      - 🇨🇳 广东省广州市52
+      - 🇨🇳 广东省广州市53
+      - 🇨🇳 广东省54
+      - 🇨🇳 广东省广州市55
+      - 🇨🇳 广东省广州市56
+      - 🇯🇵 日本东京都东京57
+      - 🇨🇳 台湾省58
+      - 冷门节点59
+      - 🇨🇳 广东省60
+      - 🇨🇳 广东省广州市61
+      - 🇺🇸 美国62
+      - 🇺🇸 美国63
+      - 🇬🇧 英国64
+      - 🇨🇳 广东省广州市65
+      - 🇨🇳 广东省广州市66
+      - 🇨🇳 广东省广州市67
+      - 🇨🇳 广东省广州市68
+      - 🇨🇳 广东省广州市70
+      - 🇨🇳 广东省广州市72
+      - 🇨🇳 广东省广州市73
+      - 🇨🇳 广东省广州市74
+      - 🇨🇳 广东省广州市75
+      - 🇨🇳 广东省广州市76
+      - 🇨🇳 台湾省新北市90
+      - 🇮🇲 马恩岛91
+      - 🇨🇳 中国92
+      - 🇨🇿 捷克93
+      - 🇫🇷 法国94
+      - 🇫🇷 法国95
+      - 🇨🇳 江苏省宿迁市96
+      - 🇩🇪 德国97
+      - 🇺🇸 美国98
+      - 🇳🇱 荷兰99
+      - 🇺🇸 美国100
+      - 🇺🇸 美国101
+      - 🇺🇸 美国102
+      - 🇬🇧 英国伦敦103
+      - 🇺🇸 美国104
+      - 🇮🇪 爱尔兰105
+      - 🇯🇵 日本106
+      - 🇷🇴 罗马尼亚107
+      - 阿富汗108
+      - 🇷🇺 俄罗斯109
+      - 🇺🇸 美国110
+      - 🇯🇵 日本111
+      - 🇸🇬 新加坡 Amazon数据中心
       - 🇨🇳 湖南省长沙市 联通
-      - 🇺🇸 美国 华盛顿Cogent通信公司 20
-      - 🇺🇸 美国 华盛顿Cogent通信公司 21
-      - 🇺🇸 美国 华盛顿Cogent通信公司 22
-      - 🇺🇸 美国 华盛顿Cogent通信公司 23
-      - 🇺🇸 美国 华盛顿Cogent通信公司 24
-      - 🇯🇵 日本 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 25
-      - 🇺🇸 美国 华盛顿Cogent通信公司 26
-      - 🇺🇸 美国 华盛顿Cogent通信公司 27
-      - 🇺🇸 美国 华盛顿Cogent通信公司 28
-      - 🇺🇸 美国 华盛顿Cogent通信公司 29
-      - 🇺🇸 美国 华盛顿Cogent通信公司 30
-      - 🇺🇸 美国 华盛顿Cogent通信公司 31
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心
+      - 🇸🇬 新加坡 Amazon数据中心 2
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇭🇰 香港 阿里云
       - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇿 捷克 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 亚太地区 V2CROSS.COM
+      - 亚太地区 V2CROSS.COM 2
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 CloudFlare节点 4
       - 🇺🇸 美国 CloudFlare节点 5
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇨🇳 广东省广州市 移动
       - 🇺🇸 美国 CloudFlare节点 6
-      - 🇨🇳 甘肃省兰州市 移动
-      - 🇭🇰 香港 阿里云
-      - 🇭🇰 香港 阿里云 2
-      - 🇭🇰 香港 阿里云 3
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心 2
+      - 🇺🇸 美国 Datability
       - 🇺🇸 美国 CloudFlare节点 7
       - 🇺🇸 美国 CloudFlare节点 8
       - 🇺🇸 美国 CloudFlare节点 9
+      - 🇨🇿 捷克 V2CROSS.COM 2
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇮🇷 伊朗 V2CROSS.COM 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇭🇰 香港 阿里云 2
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇺🇸 美国 V2CROSS.COM 3
+      - 🇺🇸 美国 惠普HP
+      - 🇨🇦 加拿大 温尼伯大学
+      - 🇬🇧 英国 社会保险安全部
+      - 🇺🇸 美国 Amazon数据中心
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -178,55 +424,137 @@ proxy-groups:
       - 🎯 全球直连
       - 枭木iOS大本营 TG@Tmxios
       - https://t.me/Tmxios
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
-      - 🇺🇸 美国 华盛顿Cogent通信公司 5
-      - 🇺🇸 美国 华盛顿Cogent通信公司 6
-      - 🇺🇸 美国 华盛顿Cogent通信公司 7
-      - 🇺🇸 美国 华盛顿Cogent通信公司 8
-      - 🇺🇸 美国 华盛顿Cogent通信公司 9
-      - 🇺🇸 美国 华盛顿Cogent通信公司 10
-      - 🇺🇸 美国 华盛顿Cogent通信公司 11
-      - 🇺🇸 美国 华盛顿Cogent通信公司 12
-      - 🇺🇸 美国 华盛顿Cogent通信公司 13
-      - 🇺🇸 美国 华盛顿Cogent通信公司 14
-      - 🇺🇸 美国 华盛顿Cogent通信公司 15
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 16
-      - 🇺🇸 美国 华盛顿Cogent通信公司 17
-      - 🇺🇸 美国 华盛顿Cogent通信公司 18
-      - 🇺🇸 美国 华盛顿Cogent通信公司 19
+      - 🇨🇳 广东省广州市1
+      - 🇨🇳 广东省广州市2
+      - 🇨🇳 广东省广州市3
+      - 🇨🇳 中国4
+      - 🇮🇱 以色列5
+      - 🇯🇵 日本6
+      - 🇫🇷 法国7
+      - 🇫🇷 法国8
+      - 🇨🇳 上海市9
+      - 🇨🇳 上海市10
+      - 🇨🇳 上海市11
+      - 🇨🇳 广东省揭阳市12
+      - 🇨🇳 上海市13
+      - 🇨🇳 江西省14
+      - 🇨🇳 北京市15
+      - 🇨🇳 甘肃省兰州市16
+      - 🇨🇳 浙江省17
+      - 🇨🇳 安徽省18
+      - 🇨🇳 浙江省19
+      - 🇨🇳 安徽省20
+      - 🇨🇳 安徽省21
+      - 🇨🇳 浙江省22
+      - 🇨🇳 浙江省23
+      - 🇨🇳 广东省广州市24
+      - 🇨🇳 广东省广州市25
+      - 🇨🇳 广东省广州市26
+      - 🇨🇳 广东省广州市27
+      - 🇨🇳 广东省广州市28
+      - 🇨🇳 广东省广州市29
+      - 🇨🇳 广东省广州市30
+      - 🇨🇳 广东省广州市31
+      - 🇨🇳 广东省广州市32
+      - 🇨🇳 广东省广州市33
+      - 🇨🇳 广东省广州市34
+      - 🇨🇳 广东省广州市35
+      - 🇨🇳 广东省深圳市36
+      - 天津市37
+      - 🇨🇳 北京市38
+      - 🇨🇳 江西省39
+      - 🇨🇳 北京市40
+      - 天津市41
+      - 🇨🇳 北京市42
+      - 🇨🇳 广东省深圳市43
+      - 🇨🇷 哥斯达黎加44
+      - 天津市45
+      - 🇨🇳 广东省广州市46
+      - 🇨🇳 广东省广州市47
+      - 🇨🇳 广东省深圳市48
+      - 🇨🇳 广东省广州市49
+      - 🇨🇳 广东省广州市50
+      - 🇨🇳 广东省广州市51
+      - 🇨🇳 广东省广州市52
+      - 🇨🇳 广东省广州市53
+      - 🇨🇳 广东省54
+      - 🇨🇳 广东省广州市55
+      - 🇨🇳 广东省广州市56
+      - 🇯🇵 日本东京都东京57
+      - 🇨🇳 台湾省58
+      - 冷门节点59
+      - 🇨🇳 广东省60
+      - 🇨🇳 广东省广州市61
+      - 🇺🇸 美国62
+      - 🇺🇸 美国63
+      - 🇬🇧 英国64
+      - 🇨🇳 广东省广州市65
+      - 🇨🇳 广东省广州市66
+      - 🇨🇳 广东省广州市67
+      - 🇨🇳 广东省广州市68
+      - 🇨🇳 广东省广州市70
+      - 🇨🇳 广东省广州市72
+      - 🇨🇳 广东省广州市73
+      - 🇨🇳 广东省广州市74
+      - 🇨🇳 广东省广州市75
+      - 🇨🇳 广东省广州市76
+      - 🇨🇳 台湾省新北市90
+      - 🇮🇲 马恩岛91
+      - 🇨🇳 中国92
+      - 🇨🇿 捷克93
+      - 🇫🇷 法国94
+      - 🇫🇷 法国95
+      - 🇨🇳 江苏省宿迁市96
+      - 🇩🇪 德国97
+      - 🇺🇸 美国98
+      - 🇳🇱 荷兰99
+      - 🇺🇸 美国100
+      - 🇺🇸 美国101
+      - 🇺🇸 美国102
+      - 🇬🇧 英国伦敦103
+      - 🇺🇸 美国104
+      - 🇮🇪 爱尔兰105
+      - 🇯🇵 日本106
+      - 🇷🇴 罗马尼亚107
+      - 阿富汗108
+      - 🇷🇺 俄罗斯109
+      - 🇺🇸 美国110
+      - 🇯🇵 日本111
+      - 🇸🇬 新加坡 Amazon数据中心
       - 🇨🇳 湖南省长沙市 联通
-      - 🇺🇸 美国 华盛顿Cogent通信公司 20
-      - 🇺🇸 美国 华盛顿Cogent通信公司 21
-      - 🇺🇸 美国 华盛顿Cogent通信公司 22
-      - 🇺🇸 美国 华盛顿Cogent通信公司 23
-      - 🇺🇸 美国 华盛顿Cogent通信公司 24
-      - 🇯🇵 日本 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 25
-      - 🇺🇸 美国 华盛顿Cogent通信公司 26
-      - 🇺🇸 美国 华盛顿Cogent通信公司 27
-      - 🇺🇸 美国 华盛顿Cogent通信公司 28
-      - 🇺🇸 美国 华盛顿Cogent通信公司 29
-      - 🇺🇸 美国 华盛顿Cogent通信公司 30
-      - 🇺🇸 美国 华盛顿Cogent通信公司 31
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心
+      - 🇸🇬 新加坡 Amazon数据中心 2
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇭🇰 香港 阿里云
       - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇿 捷克 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 亚太地区 V2CROSS.COM
+      - 亚太地区 V2CROSS.COM 2
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 CloudFlare节点 4
       - 🇺🇸 美国 CloudFlare节点 5
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇨🇳 广东省广州市 移动
       - 🇺🇸 美国 CloudFlare节点 6
-      - 🇨🇳 甘肃省兰州市 移动
-      - 🇭🇰 香港 阿里云
-      - 🇭🇰 香港 阿里云 2
-      - 🇭🇰 香港 阿里云 3
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心 2
+      - 🇺🇸 美国 Datability
       - 🇺🇸 美国 CloudFlare节点 7
       - 🇺🇸 美国 CloudFlare节点 8
       - 🇺🇸 美国 CloudFlare节点 9
+      - 🇨🇿 捷克 V2CROSS.COM 2
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇮🇷 伊朗 V2CROSS.COM 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇭🇰 香港 阿里云 2
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇺🇸 美国 V2CROSS.COM 3
+      - 🇺🇸 美国 惠普HP
+      - 🇨🇦 加拿大 温尼伯大学
+      - 🇬🇧 英国 社会保险安全部
+      - 🇺🇸 美国 Amazon数据中心
   - name: 📲 电报信息
     type: select
     proxies:
@@ -234,55 +562,137 @@ proxy-groups:
       - 🎯 全球直连
       - 枭木iOS大本营 TG@Tmxios
       - https://t.me/Tmxios
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
-      - 🇺🇸 美国 华盛顿Cogent通信公司 5
-      - 🇺🇸 美国 华盛顿Cogent通信公司 6
-      - 🇺🇸 美国 华盛顿Cogent通信公司 7
-      - 🇺🇸 美国 华盛顿Cogent通信公司 8
-      - 🇺🇸 美国 华盛顿Cogent通信公司 9
-      - 🇺🇸 美国 华盛顿Cogent通信公司 10
-      - 🇺🇸 美国 华盛顿Cogent通信公司 11
-      - 🇺🇸 美国 华盛顿Cogent通信公司 12
-      - 🇺🇸 美国 华盛顿Cogent通信公司 13
-      - 🇺🇸 美国 华盛顿Cogent通信公司 14
-      - 🇺🇸 美国 华盛顿Cogent通信公司 15
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 16
-      - 🇺🇸 美国 华盛顿Cogent通信公司 17
-      - 🇺🇸 美国 华盛顿Cogent通信公司 18
-      - 🇺🇸 美国 华盛顿Cogent通信公司 19
+      - 🇨🇳 广东省广州市1
+      - 🇨🇳 广东省广州市2
+      - 🇨🇳 广东省广州市3
+      - 🇨🇳 中国4
+      - 🇮🇱 以色列5
+      - 🇯🇵 日本6
+      - 🇫🇷 法国7
+      - 🇫🇷 法国8
+      - 🇨🇳 上海市9
+      - 🇨🇳 上海市10
+      - 🇨🇳 上海市11
+      - 🇨🇳 广东省揭阳市12
+      - 🇨🇳 上海市13
+      - 🇨🇳 江西省14
+      - 🇨🇳 北京市15
+      - 🇨🇳 甘肃省兰州市16
+      - 🇨🇳 浙江省17
+      - 🇨🇳 安徽省18
+      - 🇨🇳 浙江省19
+      - 🇨🇳 安徽省20
+      - 🇨🇳 安徽省21
+      - 🇨🇳 浙江省22
+      - 🇨🇳 浙江省23
+      - 🇨🇳 广东省广州市24
+      - 🇨🇳 广东省广州市25
+      - 🇨🇳 广东省广州市26
+      - 🇨🇳 广东省广州市27
+      - 🇨🇳 广东省广州市28
+      - 🇨🇳 广东省广州市29
+      - 🇨🇳 广东省广州市30
+      - 🇨🇳 广东省广州市31
+      - 🇨🇳 广东省广州市32
+      - 🇨🇳 广东省广州市33
+      - 🇨🇳 广东省广州市34
+      - 🇨🇳 广东省广州市35
+      - 🇨🇳 广东省深圳市36
+      - 天津市37
+      - 🇨🇳 北京市38
+      - 🇨🇳 江西省39
+      - 🇨🇳 北京市40
+      - 天津市41
+      - 🇨🇳 北京市42
+      - 🇨🇳 广东省深圳市43
+      - 🇨🇷 哥斯达黎加44
+      - 天津市45
+      - 🇨🇳 广东省广州市46
+      - 🇨🇳 广东省广州市47
+      - 🇨🇳 广东省深圳市48
+      - 🇨🇳 广东省广州市49
+      - 🇨🇳 广东省广州市50
+      - 🇨🇳 广东省广州市51
+      - 🇨🇳 广东省广州市52
+      - 🇨🇳 广东省广州市53
+      - 🇨🇳 广东省54
+      - 🇨🇳 广东省广州市55
+      - 🇨🇳 广东省广州市56
+      - 🇯🇵 日本东京都东京57
+      - 🇨🇳 台湾省58
+      - 冷门节点59
+      - 🇨🇳 广东省60
+      - 🇨🇳 广东省广州市61
+      - 🇺🇸 美国62
+      - 🇺🇸 美国63
+      - 🇬🇧 英国64
+      - 🇨🇳 广东省广州市65
+      - 🇨🇳 广东省广州市66
+      - 🇨🇳 广东省广州市67
+      - 🇨🇳 广东省广州市68
+      - 🇨🇳 广东省广州市70
+      - 🇨🇳 广东省广州市72
+      - 🇨🇳 广东省广州市73
+      - 🇨🇳 广东省广州市74
+      - 🇨🇳 广东省广州市75
+      - 🇨🇳 广东省广州市76
+      - 🇨🇳 台湾省新北市90
+      - 🇮🇲 马恩岛91
+      - 🇨🇳 中国92
+      - 🇨🇿 捷克93
+      - 🇫🇷 法国94
+      - 🇫🇷 法国95
+      - 🇨🇳 江苏省宿迁市96
+      - 🇩🇪 德国97
+      - 🇺🇸 美国98
+      - 🇳🇱 荷兰99
+      - 🇺🇸 美国100
+      - 🇺🇸 美国101
+      - 🇺🇸 美国102
+      - 🇬🇧 英国伦敦103
+      - 🇺🇸 美国104
+      - 🇮🇪 爱尔兰105
+      - 🇯🇵 日本106
+      - 🇷🇴 罗马尼亚107
+      - 阿富汗108
+      - 🇷🇺 俄罗斯109
+      - 🇺🇸 美国110
+      - 🇯🇵 日本111
+      - 🇸🇬 新加坡 Amazon数据中心
       - 🇨🇳 湖南省长沙市 联通
-      - 🇺🇸 美国 华盛顿Cogent通信公司 20
-      - 🇺🇸 美国 华盛顿Cogent通信公司 21
-      - 🇺🇸 美国 华盛顿Cogent通信公司 22
-      - 🇺🇸 美国 华盛顿Cogent通信公司 23
-      - 🇺🇸 美国 华盛顿Cogent通信公司 24
-      - 🇯🇵 日本 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 25
-      - 🇺🇸 美国 华盛顿Cogent通信公司 26
-      - 🇺🇸 美国 华盛顿Cogent通信公司 27
-      - 🇺🇸 美国 华盛顿Cogent通信公司 28
-      - 🇺🇸 美国 华盛顿Cogent通信公司 29
-      - 🇺🇸 美国 华盛顿Cogent通信公司 30
-      - 🇺🇸 美国 华盛顿Cogent通信公司 31
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心
+      - 🇸🇬 新加坡 Amazon数据中心 2
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇭🇰 香港 阿里云
       - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇿 捷克 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 亚太地区 V2CROSS.COM
+      - 亚太地区 V2CROSS.COM 2
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 CloudFlare节点 4
       - 🇺🇸 美国 CloudFlare节点 5
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇨🇳 广东省广州市 移动
       - 🇺🇸 美国 CloudFlare节点 6
-      - 🇨🇳 甘肃省兰州市 移动
-      - 🇭🇰 香港 阿里云
-      - 🇭🇰 香港 阿里云 2
-      - 🇭🇰 香港 阿里云 3
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心 2
+      - 🇺🇸 美国 Datability
       - 🇺🇸 美国 CloudFlare节点 7
       - 🇺🇸 美国 CloudFlare节点 8
       - 🇺🇸 美国 CloudFlare节点 9
+      - 🇨🇿 捷克 V2CROSS.COM 2
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇮🇷 伊朗 V2CROSS.COM 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇭🇰 香港 阿里云 2
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇺🇸 美国 V2CROSS.COM 3
+      - 🇺🇸 美国 惠普HP
+      - 🇨🇦 加拿大 温尼伯大学
+      - 🇬🇧 英国 社会保险安全部
+      - 🇺🇸 美国 Amazon数据中心
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -290,55 +700,137 @@ proxy-groups:
       - 🚀 节点选择
       - 枭木iOS大本营 TG@Tmxios
       - https://t.me/Tmxios
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
-      - 🇺🇸 美国 华盛顿Cogent通信公司 5
-      - 🇺🇸 美国 华盛顿Cogent通信公司 6
-      - 🇺🇸 美国 华盛顿Cogent通信公司 7
-      - 🇺🇸 美国 华盛顿Cogent通信公司 8
-      - 🇺🇸 美国 华盛顿Cogent通信公司 9
-      - 🇺🇸 美国 华盛顿Cogent通信公司 10
-      - 🇺🇸 美国 华盛顿Cogent通信公司 11
-      - 🇺🇸 美国 华盛顿Cogent通信公司 12
-      - 🇺🇸 美国 华盛顿Cogent通信公司 13
-      - 🇺🇸 美国 华盛顿Cogent通信公司 14
-      - 🇺🇸 美国 华盛顿Cogent通信公司 15
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 16
-      - 🇺🇸 美国 华盛顿Cogent通信公司 17
-      - 🇺🇸 美国 华盛顿Cogent通信公司 18
-      - 🇺🇸 美国 华盛顿Cogent通信公司 19
+      - 🇨🇳 广东省广州市1
+      - 🇨🇳 广东省广州市2
+      - 🇨🇳 广东省广州市3
+      - 🇨🇳 中国4
+      - 🇮🇱 以色列5
+      - 🇯🇵 日本6
+      - 🇫🇷 法国7
+      - 🇫🇷 法国8
+      - 🇨🇳 上海市9
+      - 🇨🇳 上海市10
+      - 🇨🇳 上海市11
+      - 🇨🇳 广东省揭阳市12
+      - 🇨🇳 上海市13
+      - 🇨🇳 江西省14
+      - 🇨🇳 北京市15
+      - 🇨🇳 甘肃省兰州市16
+      - 🇨🇳 浙江省17
+      - 🇨🇳 安徽省18
+      - 🇨🇳 浙江省19
+      - 🇨🇳 安徽省20
+      - 🇨🇳 安徽省21
+      - 🇨🇳 浙江省22
+      - 🇨🇳 浙江省23
+      - 🇨🇳 广东省广州市24
+      - 🇨🇳 广东省广州市25
+      - 🇨🇳 广东省广州市26
+      - 🇨🇳 广东省广州市27
+      - 🇨🇳 广东省广州市28
+      - 🇨🇳 广东省广州市29
+      - 🇨🇳 广东省广州市30
+      - 🇨🇳 广东省广州市31
+      - 🇨🇳 广东省广州市32
+      - 🇨🇳 广东省广州市33
+      - 🇨🇳 广东省广州市34
+      - 🇨🇳 广东省广州市35
+      - 🇨🇳 广东省深圳市36
+      - 天津市37
+      - 🇨🇳 北京市38
+      - 🇨🇳 江西省39
+      - 🇨🇳 北京市40
+      - 天津市41
+      - 🇨🇳 北京市42
+      - 🇨🇳 广东省深圳市43
+      - 🇨🇷 哥斯达黎加44
+      - 天津市45
+      - 🇨🇳 广东省广州市46
+      - 🇨🇳 广东省广州市47
+      - 🇨🇳 广东省深圳市48
+      - 🇨🇳 广东省广州市49
+      - 🇨🇳 广东省广州市50
+      - 🇨🇳 广东省广州市51
+      - 🇨🇳 广东省广州市52
+      - 🇨🇳 广东省广州市53
+      - 🇨🇳 广东省54
+      - 🇨🇳 广东省广州市55
+      - 🇨🇳 广东省广州市56
+      - 🇯🇵 日本东京都东京57
+      - 🇨🇳 台湾省58
+      - 冷门节点59
+      - 🇨🇳 广东省60
+      - 🇨🇳 广东省广州市61
+      - 🇺🇸 美国62
+      - 🇺🇸 美国63
+      - 🇬🇧 英国64
+      - 🇨🇳 广东省广州市65
+      - 🇨🇳 广东省广州市66
+      - 🇨🇳 广东省广州市67
+      - 🇨🇳 广东省广州市68
+      - 🇨🇳 广东省广州市70
+      - 🇨🇳 广东省广州市72
+      - 🇨🇳 广东省广州市73
+      - 🇨🇳 广东省广州市74
+      - 🇨🇳 广东省广州市75
+      - 🇨🇳 广东省广州市76
+      - 🇨🇳 台湾省新北市90
+      - 🇮🇲 马恩岛91
+      - 🇨🇳 中国92
+      - 🇨🇿 捷克93
+      - 🇫🇷 法国94
+      - 🇫🇷 法国95
+      - 🇨🇳 江苏省宿迁市96
+      - 🇩🇪 德国97
+      - 🇺🇸 美国98
+      - 🇳🇱 荷兰99
+      - 🇺🇸 美国100
+      - 🇺🇸 美国101
+      - 🇺🇸 美国102
+      - 🇬🇧 英国伦敦103
+      - 🇺🇸 美国104
+      - 🇮🇪 爱尔兰105
+      - 🇯🇵 日本106
+      - 🇷🇴 罗马尼亚107
+      - 阿富汗108
+      - 🇷🇺 俄罗斯109
+      - 🇺🇸 美国110
+      - 🇯🇵 日本111
+      - 🇸🇬 新加坡 Amazon数据中心
       - 🇨🇳 湖南省长沙市 联通
-      - 🇺🇸 美国 华盛顿Cogent通信公司 20
-      - 🇺🇸 美国 华盛顿Cogent通信公司 21
-      - 🇺🇸 美国 华盛顿Cogent通信公司 22
-      - 🇺🇸 美国 华盛顿Cogent通信公司 23
-      - 🇺🇸 美国 华盛顿Cogent通信公司 24
-      - 🇯🇵 日本 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 25
-      - 🇺🇸 美国 华盛顿Cogent通信公司 26
-      - 🇺🇸 美国 华盛顿Cogent通信公司 27
-      - 🇺🇸 美国 华盛顿Cogent通信公司 28
-      - 🇺🇸 美国 华盛顿Cogent通信公司 29
-      - 🇺🇸 美国 华盛顿Cogent通信公司 30
-      - 🇺🇸 美国 华盛顿Cogent通信公司 31
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心
+      - 🇸🇬 新加坡 Amazon数据中心 2
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇭🇰 香港 阿里云
       - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇿 捷克 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 亚太地区 V2CROSS.COM
+      - 亚太地区 V2CROSS.COM 2
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 CloudFlare节点 4
       - 🇺🇸 美国 CloudFlare节点 5
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇨🇳 广东省广州市 移动
       - 🇺🇸 美国 CloudFlare节点 6
-      - 🇨🇳 甘肃省兰州市 移动
-      - 🇭🇰 香港 阿里云
-      - 🇭🇰 香港 阿里云 2
-      - 🇭🇰 香港 阿里云 3
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心 2
+      - 🇺🇸 美国 Datability
       - 🇺🇸 美国 CloudFlare节点 7
       - 🇺🇸 美国 CloudFlare节点 8
       - 🇺🇸 美国 CloudFlare节点 9
+      - 🇨🇿 捷克 V2CROSS.COM 2
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇮🇷 伊朗 V2CROSS.COM 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇭🇰 香港 阿里云 2
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇺🇸 美国 V2CROSS.COM 3
+      - 🇺🇸 美国 惠普HP
+      - 🇨🇦 加拿大 温尼伯大学
+      - 🇬🇧 英国 社会保险安全部
+      - 🇺🇸 美国 Amazon数据中心
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -346,55 +838,137 @@ proxy-groups:
       - 🎯 全球直连
       - 枭木iOS大本营 TG@Tmxios
       - https://t.me/Tmxios
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
-      - 🇺🇸 美国 华盛顿Cogent通信公司 5
-      - 🇺🇸 美国 华盛顿Cogent通信公司 6
-      - 🇺🇸 美国 华盛顿Cogent通信公司 7
-      - 🇺🇸 美国 华盛顿Cogent通信公司 8
-      - 🇺🇸 美国 华盛顿Cogent通信公司 9
-      - 🇺🇸 美国 华盛顿Cogent通信公司 10
-      - 🇺🇸 美国 华盛顿Cogent通信公司 11
-      - 🇺🇸 美国 华盛顿Cogent通信公司 12
-      - 🇺🇸 美国 华盛顿Cogent通信公司 13
-      - 🇺🇸 美国 华盛顿Cogent通信公司 14
-      - 🇺🇸 美国 华盛顿Cogent通信公司 15
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 16
-      - 🇺🇸 美国 华盛顿Cogent通信公司 17
-      - 🇺🇸 美国 华盛顿Cogent通信公司 18
-      - 🇺🇸 美国 华盛顿Cogent通信公司 19
+      - 🇨🇳 广东省广州市1
+      - 🇨🇳 广东省广州市2
+      - 🇨🇳 广东省广州市3
+      - 🇨🇳 中国4
+      - 🇮🇱 以色列5
+      - 🇯🇵 日本6
+      - 🇫🇷 法国7
+      - 🇫🇷 法国8
+      - 🇨🇳 上海市9
+      - 🇨🇳 上海市10
+      - 🇨🇳 上海市11
+      - 🇨🇳 广东省揭阳市12
+      - 🇨🇳 上海市13
+      - 🇨🇳 江西省14
+      - 🇨🇳 北京市15
+      - 🇨🇳 甘肃省兰州市16
+      - 🇨🇳 浙江省17
+      - 🇨🇳 安徽省18
+      - 🇨🇳 浙江省19
+      - 🇨🇳 安徽省20
+      - 🇨🇳 安徽省21
+      - 🇨🇳 浙江省22
+      - 🇨🇳 浙江省23
+      - 🇨🇳 广东省广州市24
+      - 🇨🇳 广东省广州市25
+      - 🇨🇳 广东省广州市26
+      - 🇨🇳 广东省广州市27
+      - 🇨🇳 广东省广州市28
+      - 🇨🇳 广东省广州市29
+      - 🇨🇳 广东省广州市30
+      - 🇨🇳 广东省广州市31
+      - 🇨🇳 广东省广州市32
+      - 🇨🇳 广东省广州市33
+      - 🇨🇳 广东省广州市34
+      - 🇨🇳 广东省广州市35
+      - 🇨🇳 广东省深圳市36
+      - 天津市37
+      - 🇨🇳 北京市38
+      - 🇨🇳 江西省39
+      - 🇨🇳 北京市40
+      - 天津市41
+      - 🇨🇳 北京市42
+      - 🇨🇳 广东省深圳市43
+      - 🇨🇷 哥斯达黎加44
+      - 天津市45
+      - 🇨🇳 广东省广州市46
+      - 🇨🇳 广东省广州市47
+      - 🇨🇳 广东省深圳市48
+      - 🇨🇳 广东省广州市49
+      - 🇨🇳 广东省广州市50
+      - 🇨🇳 广东省广州市51
+      - 🇨🇳 广东省广州市52
+      - 🇨🇳 广东省广州市53
+      - 🇨🇳 广东省54
+      - 🇨🇳 广东省广州市55
+      - 🇨🇳 广东省广州市56
+      - 🇯🇵 日本东京都东京57
+      - 🇨🇳 台湾省58
+      - 冷门节点59
+      - 🇨🇳 广东省60
+      - 🇨🇳 广东省广州市61
+      - 🇺🇸 美国62
+      - 🇺🇸 美国63
+      - 🇬🇧 英国64
+      - 🇨🇳 广东省广州市65
+      - 🇨🇳 广东省广州市66
+      - 🇨🇳 广东省广州市67
+      - 🇨🇳 广东省广州市68
+      - 🇨🇳 广东省广州市70
+      - 🇨🇳 广东省广州市72
+      - 🇨🇳 广东省广州市73
+      - 🇨🇳 广东省广州市74
+      - 🇨🇳 广东省广州市75
+      - 🇨🇳 广东省广州市76
+      - 🇨🇳 台湾省新北市90
+      - 🇮🇲 马恩岛91
+      - 🇨🇳 中国92
+      - 🇨🇿 捷克93
+      - 🇫🇷 法国94
+      - 🇫🇷 法国95
+      - 🇨🇳 江苏省宿迁市96
+      - 🇩🇪 德国97
+      - 🇺🇸 美国98
+      - 🇳🇱 荷兰99
+      - 🇺🇸 美国100
+      - 🇺🇸 美国101
+      - 🇺🇸 美国102
+      - 🇬🇧 英国伦敦103
+      - 🇺🇸 美国104
+      - 🇮🇪 爱尔兰105
+      - 🇯🇵 日本106
+      - 🇷🇴 罗马尼亚107
+      - 阿富汗108
+      - 🇷🇺 俄罗斯109
+      - 🇺🇸 美国110
+      - 🇯🇵 日本111
+      - 🇸🇬 新加坡 Amazon数据中心
       - 🇨🇳 湖南省长沙市 联通
-      - 🇺🇸 美国 华盛顿Cogent通信公司 20
-      - 🇺🇸 美国 华盛顿Cogent通信公司 21
-      - 🇺🇸 美国 华盛顿Cogent通信公司 22
-      - 🇺🇸 美国 华盛顿Cogent通信公司 23
-      - 🇺🇸 美国 华盛顿Cogent通信公司 24
-      - 🇯🇵 日本 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 25
-      - 🇺🇸 美国 华盛顿Cogent通信公司 26
-      - 🇺🇸 美国 华盛顿Cogent通信公司 27
-      - 🇺🇸 美国 华盛顿Cogent通信公司 28
-      - 🇺🇸 美国 华盛顿Cogent通信公司 29
-      - 🇺🇸 美国 华盛顿Cogent通信公司 30
-      - 🇺🇸 美国 华盛顿Cogent通信公司 31
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心
+      - 🇸🇬 新加坡 Amazon数据中心 2
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇭🇰 香港 阿里云
       - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇿 捷克 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 亚太地区 V2CROSS.COM
+      - 亚太地区 V2CROSS.COM 2
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 CloudFlare节点 4
       - 🇺🇸 美国 CloudFlare节点 5
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇨🇳 广东省广州市 移动
       - 🇺🇸 美国 CloudFlare节点 6
-      - 🇨🇳 甘肃省兰州市 移动
-      - 🇭🇰 香港 阿里云
-      - 🇭🇰 香港 阿里云 2
-      - 🇭🇰 香港 阿里云 3
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心 2
+      - 🇺🇸 美国 Datability
       - 🇺🇸 美国 CloudFlare节点 7
       - 🇺🇸 美国 CloudFlare节点 8
       - 🇺🇸 美国 CloudFlare节点 9
+      - 🇨🇿 捷克 V2CROSS.COM 2
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇮🇷 伊朗 V2CROSS.COM 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇭🇰 香港 阿里云 2
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇺🇸 美国 V2CROSS.COM 3
+      - 🇺🇸 美国 惠普HP
+      - 🇨🇦 加拿大 温尼伯大学
+      - 🇬🇧 英国 社会保险安全部
+      - 🇺🇸 美国 Amazon数据中心
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -403,55 +977,137 @@ proxy-groups:
       - ♻️ 自动选择
       - 枭木iOS大本营 TG@Tmxios
       - https://t.me/Tmxios
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
-      - 🇺🇸 美国 华盛顿Cogent通信公司 5
-      - 🇺🇸 美国 华盛顿Cogent通信公司 6
-      - 🇺🇸 美国 华盛顿Cogent通信公司 7
-      - 🇺🇸 美国 华盛顿Cogent通信公司 8
-      - 🇺🇸 美国 华盛顿Cogent通信公司 9
-      - 🇺🇸 美国 华盛顿Cogent通信公司 10
-      - 🇺🇸 美国 华盛顿Cogent通信公司 11
-      - 🇺🇸 美国 华盛顿Cogent通信公司 12
-      - 🇺🇸 美国 华盛顿Cogent通信公司 13
-      - 🇺🇸 美国 华盛顿Cogent通信公司 14
-      - 🇺🇸 美国 华盛顿Cogent通信公司 15
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 16
-      - 🇺🇸 美国 华盛顿Cogent通信公司 17
-      - 🇺🇸 美国 华盛顿Cogent通信公司 18
-      - 🇺🇸 美国 华盛顿Cogent通信公司 19
+      - 🇨🇳 广东省广州市1
+      - 🇨🇳 广东省广州市2
+      - 🇨🇳 广东省广州市3
+      - 🇨🇳 中国4
+      - 🇮🇱 以色列5
+      - 🇯🇵 日本6
+      - 🇫🇷 法国7
+      - 🇫🇷 法国8
+      - 🇨🇳 上海市9
+      - 🇨🇳 上海市10
+      - 🇨🇳 上海市11
+      - 🇨🇳 广东省揭阳市12
+      - 🇨🇳 上海市13
+      - 🇨🇳 江西省14
+      - 🇨🇳 北京市15
+      - 🇨🇳 甘肃省兰州市16
+      - 🇨🇳 浙江省17
+      - 🇨🇳 安徽省18
+      - 🇨🇳 浙江省19
+      - 🇨🇳 安徽省20
+      - 🇨🇳 安徽省21
+      - 🇨🇳 浙江省22
+      - 🇨🇳 浙江省23
+      - 🇨🇳 广东省广州市24
+      - 🇨🇳 广东省广州市25
+      - 🇨🇳 广东省广州市26
+      - 🇨🇳 广东省广州市27
+      - 🇨🇳 广东省广州市28
+      - 🇨🇳 广东省广州市29
+      - 🇨🇳 广东省广州市30
+      - 🇨🇳 广东省广州市31
+      - 🇨🇳 广东省广州市32
+      - 🇨🇳 广东省广州市33
+      - 🇨🇳 广东省广州市34
+      - 🇨🇳 广东省广州市35
+      - 🇨🇳 广东省深圳市36
+      - 天津市37
+      - 🇨🇳 北京市38
+      - 🇨🇳 江西省39
+      - 🇨🇳 北京市40
+      - 天津市41
+      - 🇨🇳 北京市42
+      - 🇨🇳 广东省深圳市43
+      - 🇨🇷 哥斯达黎加44
+      - 天津市45
+      - 🇨🇳 广东省广州市46
+      - 🇨🇳 广东省广州市47
+      - 🇨🇳 广东省深圳市48
+      - 🇨🇳 广东省广州市49
+      - 🇨🇳 广东省广州市50
+      - 🇨🇳 广东省广州市51
+      - 🇨🇳 广东省广州市52
+      - 🇨🇳 广东省广州市53
+      - 🇨🇳 广东省54
+      - 🇨🇳 广东省广州市55
+      - 🇨🇳 广东省广州市56
+      - 🇯🇵 日本东京都东京57
+      - 🇨🇳 台湾省58
+      - 冷门节点59
+      - 🇨🇳 广东省60
+      - 🇨🇳 广东省广州市61
+      - 🇺🇸 美国62
+      - 🇺🇸 美国63
+      - 🇬🇧 英国64
+      - 🇨🇳 广东省广州市65
+      - 🇨🇳 广东省广州市66
+      - 🇨🇳 广东省广州市67
+      - 🇨🇳 广东省广州市68
+      - 🇨🇳 广东省广州市70
+      - 🇨🇳 广东省广州市72
+      - 🇨🇳 广东省广州市73
+      - 🇨🇳 广东省广州市74
+      - 🇨🇳 广东省广州市75
+      - 🇨🇳 广东省广州市76
+      - 🇨🇳 台湾省新北市90
+      - 🇮🇲 马恩岛91
+      - 🇨🇳 中国92
+      - 🇨🇿 捷克93
+      - 🇫🇷 法国94
+      - 🇫🇷 法国95
+      - 🇨🇳 江苏省宿迁市96
+      - 🇩🇪 德国97
+      - 🇺🇸 美国98
+      - 🇳🇱 荷兰99
+      - 🇺🇸 美国100
+      - 🇺🇸 美国101
+      - 🇺🇸 美国102
+      - 🇬🇧 英国伦敦103
+      - 🇺🇸 美国104
+      - 🇮🇪 爱尔兰105
+      - 🇯🇵 日本106
+      - 🇷🇴 罗马尼亚107
+      - 阿富汗108
+      - 🇷🇺 俄罗斯109
+      - 🇺🇸 美国110
+      - 🇯🇵 日本111
+      - 🇸🇬 新加坡 Amazon数据中心
       - 🇨🇳 湖南省长沙市 联通
-      - 🇺🇸 美国 华盛顿Cogent通信公司 20
-      - 🇺🇸 美国 华盛顿Cogent通信公司 21
-      - 🇺🇸 美国 华盛顿Cogent通信公司 22
-      - 🇺🇸 美国 华盛顿Cogent通信公司 23
-      - 🇺🇸 美国 华盛顿Cogent通信公司 24
-      - 🇯🇵 日本 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 25
-      - 🇺🇸 美国 华盛顿Cogent通信公司 26
-      - 🇺🇸 美国 华盛顿Cogent通信公司 27
-      - 🇺🇸 美国 华盛顿Cogent通信公司 28
-      - 🇺🇸 美国 华盛顿Cogent通信公司 29
-      - 🇺🇸 美国 华盛顿Cogent通信公司 30
-      - 🇺🇸 美国 华盛顿Cogent通信公司 31
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心
+      - 🇸🇬 新加坡 Amazon数据中心 2
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇭🇰 香港 阿里云
       - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇿 捷克 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 亚太地区 V2CROSS.COM
+      - 亚太地区 V2CROSS.COM 2
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 CloudFlare节点 4
       - 🇺🇸 美国 CloudFlare节点 5
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇨🇳 广东省广州市 移动
       - 🇺🇸 美国 CloudFlare节点 6
-      - 🇨🇳 甘肃省兰州市 移动
-      - 🇭🇰 香港 阿里云
-      - 🇭🇰 香港 阿里云 2
-      - 🇭🇰 香港 阿里云 3
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心 2
+      - 🇺🇸 美国 Datability
       - 🇺🇸 美国 CloudFlare节点 7
       - 🇺🇸 美国 CloudFlare节点 8
       - 🇺🇸 美国 CloudFlare节点 9
+      - 🇨🇿 捷克 V2CROSS.COM 2
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇮🇷 伊朗 V2CROSS.COM 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇭🇰 香港 阿里云 2
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇺🇸 美国 V2CROSS.COM 3
+      - 🇺🇸 美国 惠普HP
+      - 🇨🇦 加拿大 温尼伯大学
+      - 🇬🇧 英国 社会保险安全部
+      - 🇺🇸 美国 Amazon数据中心
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -476,55 +1132,137 @@ proxy-groups:
       - ♻️ 自动选择
       - 枭木iOS大本营 TG@Tmxios
       - https://t.me/Tmxios
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
-      - 🇺🇸 美国 华盛顿Cogent通信公司 5
-      - 🇺🇸 美国 华盛顿Cogent通信公司 6
-      - 🇺🇸 美国 华盛顿Cogent通信公司 7
-      - 🇺🇸 美国 华盛顿Cogent通信公司 8
-      - 🇺🇸 美国 华盛顿Cogent通信公司 9
-      - 🇺🇸 美国 华盛顿Cogent通信公司 10
-      - 🇺🇸 美国 华盛顿Cogent通信公司 11
-      - 🇺🇸 美国 华盛顿Cogent通信公司 12
-      - 🇺🇸 美国 华盛顿Cogent通信公司 13
-      - 🇺🇸 美国 华盛顿Cogent通信公司 14
-      - 🇺🇸 美国 华盛顿Cogent通信公司 15
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 16
-      - 🇺🇸 美国 华盛顿Cogent通信公司 17
-      - 🇺🇸 美国 华盛顿Cogent通信公司 18
-      - 🇺🇸 美国 华盛顿Cogent通信公司 19
+      - 🇨🇳 广东省广州市1
+      - 🇨🇳 广东省广州市2
+      - 🇨🇳 广东省广州市3
+      - 🇨🇳 中国4
+      - 🇮🇱 以色列5
+      - 🇯🇵 日本6
+      - 🇫🇷 法国7
+      - 🇫🇷 法国8
+      - 🇨🇳 上海市9
+      - 🇨🇳 上海市10
+      - 🇨🇳 上海市11
+      - 🇨🇳 广东省揭阳市12
+      - 🇨🇳 上海市13
+      - 🇨🇳 江西省14
+      - 🇨🇳 北京市15
+      - 🇨🇳 甘肃省兰州市16
+      - 🇨🇳 浙江省17
+      - 🇨🇳 安徽省18
+      - 🇨🇳 浙江省19
+      - 🇨🇳 安徽省20
+      - 🇨🇳 安徽省21
+      - 🇨🇳 浙江省22
+      - 🇨🇳 浙江省23
+      - 🇨🇳 广东省广州市24
+      - 🇨🇳 广东省广州市25
+      - 🇨🇳 广东省广州市26
+      - 🇨🇳 广东省广州市27
+      - 🇨🇳 广东省广州市28
+      - 🇨🇳 广东省广州市29
+      - 🇨🇳 广东省广州市30
+      - 🇨🇳 广东省广州市31
+      - 🇨🇳 广东省广州市32
+      - 🇨🇳 广东省广州市33
+      - 🇨🇳 广东省广州市34
+      - 🇨🇳 广东省广州市35
+      - 🇨🇳 广东省深圳市36
+      - 天津市37
+      - 🇨🇳 北京市38
+      - 🇨🇳 江西省39
+      - 🇨🇳 北京市40
+      - 天津市41
+      - 🇨🇳 北京市42
+      - 🇨🇳 广东省深圳市43
+      - 🇨🇷 哥斯达黎加44
+      - 天津市45
+      - 🇨🇳 广东省广州市46
+      - 🇨🇳 广东省广州市47
+      - 🇨🇳 广东省深圳市48
+      - 🇨🇳 广东省广州市49
+      - 🇨🇳 广东省广州市50
+      - 🇨🇳 广东省广州市51
+      - 🇨🇳 广东省广州市52
+      - 🇨🇳 广东省广州市53
+      - 🇨🇳 广东省54
+      - 🇨🇳 广东省广州市55
+      - 🇨🇳 广东省广州市56
+      - 🇯🇵 日本东京都东京57
+      - 🇨🇳 台湾省58
+      - 冷门节点59
+      - 🇨🇳 广东省60
+      - 🇨🇳 广东省广州市61
+      - 🇺🇸 美国62
+      - 🇺🇸 美国63
+      - 🇬🇧 英国64
+      - 🇨🇳 广东省广州市65
+      - 🇨🇳 广东省广州市66
+      - 🇨🇳 广东省广州市67
+      - 🇨🇳 广东省广州市68
+      - 🇨🇳 广东省广州市70
+      - 🇨🇳 广东省广州市72
+      - 🇨🇳 广东省广州市73
+      - 🇨🇳 广东省广州市74
+      - 🇨🇳 广东省广州市75
+      - 🇨🇳 广东省广州市76
+      - 🇨🇳 台湾省新北市90
+      - 🇮🇲 马恩岛91
+      - 🇨🇳 中国92
+      - 🇨🇿 捷克93
+      - 🇫🇷 法国94
+      - 🇫🇷 法国95
+      - 🇨🇳 江苏省宿迁市96
+      - 🇩🇪 德国97
+      - 🇺🇸 美国98
+      - 🇳🇱 荷兰99
+      - 🇺🇸 美国100
+      - 🇺🇸 美国101
+      - 🇺🇸 美国102
+      - 🇬🇧 英国伦敦103
+      - 🇺🇸 美国104
+      - 🇮🇪 爱尔兰105
+      - 🇯🇵 日本106
+      - 🇷🇴 罗马尼亚107
+      - 阿富汗108
+      - 🇷🇺 俄罗斯109
+      - 🇺🇸 美国110
+      - 🇯🇵 日本111
+      - 🇸🇬 新加坡 Amazon数据中心
       - 🇨🇳 湖南省长沙市 联通
-      - 🇺🇸 美国 华盛顿Cogent通信公司 20
-      - 🇺🇸 美国 华盛顿Cogent通信公司 21
-      - 🇺🇸 美国 华盛顿Cogent通信公司 22
-      - 🇺🇸 美国 华盛顿Cogent通信公司 23
-      - 🇺🇸 美国 华盛顿Cogent通信公司 24
-      - 🇯🇵 日本 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 25
-      - 🇺🇸 美国 华盛顿Cogent通信公司 26
-      - 🇺🇸 美国 华盛顿Cogent通信公司 27
-      - 🇺🇸 美国 华盛顿Cogent通信公司 28
-      - 🇺🇸 美国 华盛顿Cogent通信公司 29
-      - 🇺🇸 美国 华盛顿Cogent通信公司 30
-      - 🇺🇸 美国 华盛顿Cogent通信公司 31
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心
+      - 🇸🇬 新加坡 Amazon数据中心 2
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇭🇰 香港 阿里云
       - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇿 捷克 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 亚太地区 V2CROSS.COM
+      - 亚太地区 V2CROSS.COM 2
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 CloudFlare节点 4
       - 🇺🇸 美国 CloudFlare节点 5
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇨🇳 广东省广州市 移动
       - 🇺🇸 美国 CloudFlare节点 6
-      - 🇨🇳 甘肃省兰州市 移动
-      - 🇭🇰 香港 阿里云
-      - 🇭🇰 香港 阿里云 2
-      - 🇭🇰 香港 阿里云 3
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心 2
+      - 🇺🇸 美国 Datability
       - 🇺🇸 美国 CloudFlare节点 7
       - 🇺🇸 美国 CloudFlare节点 8
       - 🇺🇸 美国 CloudFlare节点 9
+      - 🇨🇿 捷克 V2CROSS.COM 2
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇮🇷 伊朗 V2CROSS.COM 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇭🇰 香港 阿里云 2
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇺🇸 美国 V2CROSS.COM 3
+      - 🇺🇸 美国 惠普HP
+      - 🇨🇦 加拿大 温尼伯大学
+      - 🇬🇧 英国 社会保险安全部
+      - 🇺🇸 美国 Amazon数据中心
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
