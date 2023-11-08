@@ -180,9 +180,15 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🔯 故障转移
-      - 🔮 负载均衡
+      - 🇭🇰 香港节点
+      - 🇸🇬 狮城节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🚀 手动切换
       - DIRECT
+  - name: 🚀 手动切换
+    type: select
+    proxies:
       - 枭木iOS大本营 TG@Tmxios
       - https://t.me/Tmxios
       - 🇭🇰 香港2
@@ -529,357 +535,6 @@ proxy-groups:
       - 🇩🇪 德国 V2CROSS.COM 3
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港 电讯盈科有限公司 2
-  - name: 🔯 故障转移
-    type: fallback
-    url: http://www.gstatic.com/generate_204
-    interval: 180
-    proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇺🇸 美国4
-      - 🇨🇳 江苏省宿迁市5
-      - 🇬🇧 英国伦敦6
-      - 🇨🇳 广东省汕头市15
-      - 🇨🇳 广东省汕头市16
-      - 🇨🇳 广东省汕头市17
-      - 🇨🇳 广东省汕头市18
-      - 🇨🇳 广东省汕头市19
-      - 🇨🇳 广东省汕头市20
-      - 🇨🇳 广东省汕头市21
-      - 🇨🇳 广东省汕头市22
-      - 🇨🇳 广东省汕头市23
-      - 🇨🇳 广东省汕头市24
-      - 🇭🇰 香港25
-      - 🇭🇰 香港26
-      - 🇯🇵 日本27
-      - 🇯🇵 日本28
-      - 🇯🇵 日本29
-      - 🇨🇳 台湾省花莲县30
-      - 🇺🇸 美国31
-      - 🇸🇪 瑞典32
-      - 🇸🇪 瑞典33
-      - 🇸🇬 新加坡34
-      - 🇺🇸 美国35
-      - 🇺🇸 美国36
-      - 🇨🇳 中国37
-      - 🇨🇳 广东省38
-      - 🇨🇳 中国39
-      - 🇨🇳 中国40
-      - 🇨🇦 加拿大41
-      - 🇨🇦 加拿大42
-      - 🇸🇬 上海市浦东新区43
-      - 🇨🇳 广东省汕头市44
-      - 🇨🇳 广东省汕头市45
-      - 🇨🇳 广东省汕头市46
-      - 🇨🇳 广东省汕头市47
-      - 🇨🇳 广东省汕头市48
-      - 🇨🇳 广东省49
-      - 🇩🇪 德国50
-      - 🇩🇪 德国51
-      - 🇺🇸 美国52
-      - 🇩🇪 德国53
-      - 🇺🇸 美国54
-      - 🇬🇧 英国伦敦55
-      - 🇨🇳 广东省汕头市56
-      - 🇨🇳 广东省汕头市57
-      - 🇨🇳 广东省汕头市58
-      - 🇨🇳 广东省汕头市59
-      - 🇯🇵 日本东京60
-      - 🇯🇵 日本东京61
-      - 🇷🇺 俄罗斯62
-      - 🇷🇺 俄罗斯63
-      - 🇷🇺 俄罗斯64
-      - 阿富汗65
-      - 🇸🇬 新加坡66
-      - 🇺🇸 美国67
-      - 🇸🇪 瑞典68
-      - 🇸🇪 瑞典69
-      - 🇸🇪 瑞典70
-      - 🇸🇪 瑞典71
-      - 🇸🇪 瑞典72
-      - 🇸🇪 瑞典73
-      - 🇸🇪 瑞典74
-      - 🇸🇪 瑞典75
-      - 🇸🇪 瑞典76
-      - 🇸🇪 瑞典77
-      - 🇸🇪 瑞典78
-      - 🇸🇪 瑞典79
-      - 🇸🇪 瑞典80
-      - 🇸🇪 瑞典81
-      - 冷门节点82
-      - 🇺🇸 美国83
-      - 🇺🇸 美国84
-      - 🇻🇳 越南85
-      - 🇻🇳 越南86
-      - 亚太地区87
-      - 亚太地区88
-      - 🇸🇬 新加坡89
-      - 🇸🇪 瑞典 V2CROSS.COM
-      - 🇸🇪 瑞典 V2CROSS.COM 2
-      - 🇸🇪 瑞典 V2CROSS.COM 3
-      - 🇸🇪 瑞典 V2CROSS.COM 4
-      - 🇨🇳 安徽省 移动数据上网公共出口
-      - 🇨🇳 江苏省徐州市 移动
-      - 🇨🇳 安徽省 移动数据上网公共出口 2
-      - 🇨🇳 安徽省 移动数据上网公共出口 3
-      - 🇨🇳 江苏省徐州市 移动 2
-      - 🇨🇳 江苏省徐州市 移动 3
-      - 🇸🇪 瑞典 V2CROSS.COM 5
-      - 🇸🇪 瑞典 V2CROSS.COM 6
-      - 🇨🇳 安徽省 移动数据上网公共出口 4
-      - 🇨🇳 江苏省徐州市 移动 4
-      - 🇺🇸 美国 CloudFlare
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 加利福尼亚洛杉矶ITLDC Network
-      - 🇺🇸 美国 滴滴盾CN2高防节点(dididun.com)
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇭🇰 香港 阿里云
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 CloudFlare节点 5
-      - 🇨🇳 广东省 移动
-      - 🇺🇸 美国 CloudFlare节点 6
-      - 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房
-      - 🇨🇳 中国 阿里云
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇺🇸 美国 CloudFlare节点 7
-      - 🇺🇸 美国 CloudFlare节点 8
-      - 🇺🇸 美国 加利福尼亚州洛杉矶市Coperation Coloction数据中心
-      - 🇺🇸 美国 CloudFlare节点 9
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇺🇸 美国 CloudFlare节点 11
-      - 🇺🇸 美国 CloudFlare节点 12
-      - 🇺🇸 美国 CloudFlare节点 13
-      - 🇿🇦 南非豪登省约翰内斯堡 Cloudinnovation数据中心
-      - 🇨🇳 广东省 移动 2
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心 2
-      - 🇺🇸 美国 CloudFlare节点 14
-      - 🇭🇰 香港 阿里云 2
-      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-      - 🇺🇸 美国 CloudFlare节点 15
-      - 🇺🇸 美国 CloudFlare节点 16
-      - 🇺🇸 美国 CloudFlare节点 17
-      - 🇨🇳 广东省 移动 3
-      - 🇧🇷 巴西圣保罗 CloudFlare节点 2
-      - 🇭🇰 香港 阿里云 3
-      - 🇨🇳 广东省 移动 4
-      - 🇺🇸 美国 CloudFlare节点 18
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH 2
-      - 🇭🇰 香港 阿里云 4
-      - 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心
-      - 🇺🇸 美国 EasyDNS Anycast节点(Cloudflare节点)
-      - 🇿🇦 南非豪登省约翰内斯堡 Cloudinnovation数据中心 2
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇺🇸 美国 加利福尼亚州洛杉矶市Coperation Coloction数据中心 2
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH 3
-      - 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房 2
-      - 🇿🇦 南非豪登省约翰内斯堡 Cloudinnovation数据中心 3
-      - 🇺🇸 美国 CloudFlare节点 19
-      - 🇺🇸 美国 CloudFlare节点 20
-      - 🇺🇸 美国 CloudFlare节点 21
-      - 🇨🇳 广东省 移动 5
-      - 🇺🇸 美国 CloudFlare节点 22
-      - 🇨🇳 广东省 移动 6
-      - 🇺🇸 美国 Amazon数据中心
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇨🇳 台湾省花莲县 中华电信
-      - 🇻🇳 越南 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 Amazon EC2服务器
-      - 🇨🇳 广东省 移动 7
-      - 🇨🇳 广东省 移动 8
-      - 🇺🇸 美国 Amazon数据中心 2
-      - 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心
-      - 🇩🇪 德国 V2CROSS.COM 2
-      - 🇺🇸 美国 RF Engineering
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM 2
-      - 🇩🇪 德国 V2CROSS.COM 3
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
-  - name: 🔮 负载均衡
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://www.gstatic.com/generate_204
-    interval: 180
-    proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇺🇸 美国4
-      - 🇨🇳 江苏省宿迁市5
-      - 🇬🇧 英国伦敦6
-      - 🇨🇳 广东省汕头市15
-      - 🇨🇳 广东省汕头市16
-      - 🇨🇳 广东省汕头市17
-      - 🇨🇳 广东省汕头市18
-      - 🇨🇳 广东省汕头市19
-      - 🇨🇳 广东省汕头市20
-      - 🇨🇳 广东省汕头市21
-      - 🇨🇳 广东省汕头市22
-      - 🇨🇳 广东省汕头市23
-      - 🇨🇳 广东省汕头市24
-      - 🇭🇰 香港25
-      - 🇭🇰 香港26
-      - 🇯🇵 日本27
-      - 🇯🇵 日本28
-      - 🇯🇵 日本29
-      - 🇨🇳 台湾省花莲县30
-      - 🇺🇸 美国31
-      - 🇸🇪 瑞典32
-      - 🇸🇪 瑞典33
-      - 🇸🇬 新加坡34
-      - 🇺🇸 美国35
-      - 🇺🇸 美国36
-      - 🇨🇳 中国37
-      - 🇨🇳 广东省38
-      - 🇨🇳 中国39
-      - 🇨🇳 中国40
-      - 🇨🇦 加拿大41
-      - 🇨🇦 加拿大42
-      - 🇸🇬 上海市浦东新区43
-      - 🇨🇳 广东省汕头市44
-      - 🇨🇳 广东省汕头市45
-      - 🇨🇳 广东省汕头市46
-      - 🇨🇳 广东省汕头市47
-      - 🇨🇳 广东省汕头市48
-      - 🇨🇳 广东省49
-      - 🇩🇪 德国50
-      - 🇩🇪 德国51
-      - 🇺🇸 美国52
-      - 🇩🇪 德国53
-      - 🇺🇸 美国54
-      - 🇬🇧 英国伦敦55
-      - 🇨🇳 广东省汕头市56
-      - 🇨🇳 广东省汕头市57
-      - 🇨🇳 广东省汕头市58
-      - 🇨🇳 广东省汕头市59
-      - 🇯🇵 日本东京60
-      - 🇯🇵 日本东京61
-      - 🇷🇺 俄罗斯62
-      - 🇷🇺 俄罗斯63
-      - 🇷🇺 俄罗斯64
-      - 阿富汗65
-      - 🇸🇬 新加坡66
-      - 🇺🇸 美国67
-      - 🇸🇪 瑞典68
-      - 🇸🇪 瑞典69
-      - 🇸🇪 瑞典70
-      - 🇸🇪 瑞典71
-      - 🇸🇪 瑞典72
-      - 🇸🇪 瑞典73
-      - 🇸🇪 瑞典74
-      - 🇸🇪 瑞典75
-      - 🇸🇪 瑞典76
-      - 🇸🇪 瑞典77
-      - 🇸🇪 瑞典78
-      - 🇸🇪 瑞典79
-      - 🇸🇪 瑞典80
-      - 🇸🇪 瑞典81
-      - 冷门节点82
-      - 🇺🇸 美国83
-      - 🇺🇸 美国84
-      - 🇻🇳 越南85
-      - 🇻🇳 越南86
-      - 亚太地区87
-      - 亚太地区88
-      - 🇸🇬 新加坡89
-      - 🇸🇪 瑞典 V2CROSS.COM
-      - 🇸🇪 瑞典 V2CROSS.COM 2
-      - 🇸🇪 瑞典 V2CROSS.COM 3
-      - 🇸🇪 瑞典 V2CROSS.COM 4
-      - 🇨🇳 安徽省 移动数据上网公共出口
-      - 🇨🇳 江苏省徐州市 移动
-      - 🇨🇳 安徽省 移动数据上网公共出口 2
-      - 🇨🇳 安徽省 移动数据上网公共出口 3
-      - 🇨🇳 江苏省徐州市 移动 2
-      - 🇨🇳 江苏省徐州市 移动 3
-      - 🇸🇪 瑞典 V2CROSS.COM 5
-      - 🇸🇪 瑞典 V2CROSS.COM 6
-      - 🇨🇳 安徽省 移动数据上网公共出口 4
-      - 🇨🇳 江苏省徐州市 移动 4
-      - 🇺🇸 美国 CloudFlare
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 加利福尼亚洛杉矶ITLDC Network
-      - 🇺🇸 美国 滴滴盾CN2高防节点(dididun.com)
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇭🇰 香港 阿里云
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 CloudFlare节点 5
-      - 🇨🇳 广东省 移动
-      - 🇺🇸 美国 CloudFlare节点 6
-      - 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房
-      - 🇨🇳 中国 阿里云
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇺🇸 美国 CloudFlare节点 7
-      - 🇺🇸 美国 CloudFlare节点 8
-      - 🇺🇸 美国 加利福尼亚州洛杉矶市Coperation Coloction数据中心
-      - 🇺🇸 美国 CloudFlare节点 9
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇺🇸 美国 CloudFlare节点 11
-      - 🇺🇸 美国 CloudFlare节点 12
-      - 🇺🇸 美国 CloudFlare节点 13
-      - 🇿🇦 南非豪登省约翰内斯堡 Cloudinnovation数据中心
-      - 🇨🇳 广东省 移动 2
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心 2
-      - 🇺🇸 美国 CloudFlare节点 14
-      - 🇭🇰 香港 阿里云 2
-      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-      - 🇺🇸 美国 CloudFlare节点 15
-      - 🇺🇸 美国 CloudFlare节点 16
-      - 🇺🇸 美国 CloudFlare节点 17
-      - 🇨🇳 广东省 移动 3
-      - 🇧🇷 巴西圣保罗 CloudFlare节点 2
-      - 🇭🇰 香港 阿里云 3
-      - 🇨🇳 广东省 移动 4
-      - 🇺🇸 美国 CloudFlare节点 18
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH 2
-      - 🇭🇰 香港 阿里云 4
-      - 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心
-      - 🇺🇸 美国 EasyDNS Anycast节点(Cloudflare节点)
-      - 🇿🇦 南非豪登省约翰内斯堡 Cloudinnovation数据中心 2
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇺🇸 美国 加利福尼亚州洛杉矶市Coperation Coloction数据中心 2
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH 3
-      - 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房 2
-      - 🇿🇦 南非豪登省约翰内斯堡 Cloudinnovation数据中心 3
-      - 🇺🇸 美国 CloudFlare节点 19
-      - 🇺🇸 美国 CloudFlare节点 20
-      - 🇺🇸 美国 CloudFlare节点 21
-      - 🇨🇳 广东省 移动 5
-      - 🇺🇸 美国 CloudFlare节点 22
-      - 🇨🇳 广东省 移动 6
-      - 🇺🇸 美国 Amazon数据中心
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇨🇳 台湾省花莲县 中华电信
-      - 🇻🇳 越南 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 Amazon EC2服务器
-      - 🇨🇳 广东省 移动 7
-      - 🇨🇳 广东省 移动 8
-      - 🇺🇸 美国 Amazon数据中心 2
-      - 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心
-      - 🇩🇪 德国 V2CROSS.COM 2
-      - 🇺🇸 美国 RF Engineering
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM 2
-      - 🇩🇪 德国 V2CROSS.COM 3
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -897,8 +552,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🔯 故障转移
-      - 🔮 负载均衡
       - 枭木iOS大本营 TG@Tmxios
       - https://t.me/Tmxios
       - 🇭🇰 香港2
@@ -1069,6 +722,103 @@ proxy-groups:
       - 🇩🇪 德国 V2CROSS.COM 3
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港 电讯盈科有限公司 2
+  - name: 🇭🇰 香港节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港25
+      - 🇭🇰 香港26
+      - 🇭🇰 香港 阿里云
+      - 🇭🇰 香港 阿里云 2
+      - 🇭🇰 香港 阿里云 3
+      - 🇭🇰 香港 阿里云 4
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+  - name: 🇯🇵 日本节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇯🇵 日本27
+      - 🇯🇵 日本28
+      - 🇯🇵 日本29
+      - 🇯🇵 日本东京60
+      - 🇯🇵 日本东京61
+  - name: 🇸🇬 狮城节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇸🇬 新加坡34
+      - 🇸🇬 新加坡66
+      - 🇸🇬 新加坡89
+  - name: 🇺🇲 美国节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇺🇸 美国4
+      - 🇺🇸 美国31
+      - 🇺🇸 美国35
+      - 🇺🇸 美国36
+      - 🇺🇸 美国52
+      - 🇺🇸 美国54
+      - 🇺🇸 美国67
+      - 🇺🇸 美国83
+      - 🇺🇸 美国84
+      - 🇺🇸 美国 CloudFlare
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 加利福尼亚洛杉矶ITLDC Network
+      - 🇺🇸 美国 滴滴盾CN2高防节点(dididun.com)
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 加利福尼亚州洛杉矶市Coperation Coloction数据中心
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇺🇸 美国 CloudFlare节点 13
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心 2
+      - 🇺🇸 美国 CloudFlare节点 14
+      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
+      - 🇺🇸 美国 CloudFlare节点 15
+      - 🇺🇸 美国 CloudFlare节点 16
+      - 🇺🇸 美国 CloudFlare节点 17
+      - 🇺🇸 美国 CloudFlare节点 18
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH 2
+      - 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心
+      - 🇺🇸 美国 EasyDNS Anycast节点(Cloudflare节点)
+      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
+      - 🇺🇸 美国 加利福尼亚州洛杉矶市Coperation Coloction数据中心 2
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH 3
+      - 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房 2
+      - 🇺🇸 美国 CloudFlare节点 19
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 美国 CloudFlare节点 21
+      - 🇺🇸 美国 CloudFlare节点 22
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇺🇸 美国 V2CROSS.COM 3
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇺🇸 美国 Amazon数据中心 2
+      - 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心
+      - 🇺🇸 美国 RF Engineering
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
