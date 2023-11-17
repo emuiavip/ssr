@@ -21,28 +21,21 @@ P12证书 https://p12.tmxios.top = trojan, 172.233.74.209, 16119, password=MAMne
 全网低价个人证书 = trojan, 172.233.74.209, 16119, password=MAMneF8Aad, sni=v.qq.com, skip-cert-verify=true
 iOS|轻松签|全能签|P12证书 = trojan, 172.233.74.209, 16119, password=MAMneF8Aad, sni=v.qq.com, skip-cert-verify=true
 定制V信|应用分身|V信密友|破解软件 = trojan, 172.233.74.209, 16119, password=MAMneF8Aad, sni=v.qq.com, skip-cert-verify=true
-🇺🇸 美国 CloudFlare节点 = vmess, zj.hhc586.link, 8080, username=e2b593e7-3c3f-4402-c625-aeea2c748c04, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=zj.hhc586.link, ws-headers=Host:ycy.vipnet01.cf
-🇭🇰 香港 电讯盈科有限公司 = trojan, download1hkt.windowsupdatea.com, 443, password=29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni=glc-hkt1.windowsupdatea.com
-🇷🇺 俄罗斯 V2CROSS.COM = trojan, hk3.visaapp.top, 49487, password=1cb996c8-e5bf-40d2-9a3c-149b3b721c5f
-🇺🇸 美国 V2CROSS.COM = trojan, 146.190.108.227, 1, password=1, sni=m.zoom.us
-🇩🇪 德国 V2CROSS.COM = trojan, 89.163.220.99, 443, password=29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni=glc-de1.windowsupdatea.com
-🇨🇳 台湾省台北市 中华电信 = trojan, download1tw.windowsupdatea.com, 443, password=29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni=glc-tw1.windowsupdatea.com
-🇺🇸 美国 V2CROSS.COM 2 = trojan, 146.190.87.59, 56674, password=fGahrYudYD
-🇷🇺 俄罗斯 V2CROSS.COM 2 = trojan, 212.192.15.68, 49487, password=1cb996c8-e5bf-40d2-9a3c-149b3b721c5f, sni=hk3.visaapp.top
-🇺🇸 美国 RF Engineering = trojan, 141.193.68.81, 443, password=29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni=glc-us3.windowsupdatea.com
-🇭🇰 香港 电讯盈科有限公司 2 = trojan, download2hkt.windowsupdatea.com, 443, password=29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni=glc-hkt2.windowsupdatea.com
+"🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd." = ss, 8.217.212.41, 80, encrypt-method=aes-128-gcm, password=a-wym4ovY4Yw,obfs=http
+"🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3" = ss, 8.217.218.147, 80, encrypt-method=aes-128-gcm, password=a-wym4ovY4Yw,obfs=http
+🇭🇰 中国 - 香港 - Baxet Group Inc. = trojan, hk3.visaapp.top, 49487, password=1cb996c8-e5bf-40d2-9a3c-149b3b721c5f, skip-cert-verify=true
 🇯🇵 日本节点 = direct
 🇸🇬 狮城节点 = direct
 
 [Proxy Group]
 🚀 节点选择 = select,♻️ 自动选择,🇭🇰 香港节点,🇸🇬 狮城节点,🇺🇲 美国节点,🇯🇵 日本节点,🚀 手动切换,DIRECT
-🚀 手动切换 = select,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇺🇸 美国 CloudFlare节点,🇭🇰 香港 电讯盈科有限公司,🇷🇺 俄罗斯 V2CROSS.COM,🇺🇸 美国 V2CROSS.COM,🇩🇪 德国 V2CROSS.COM,🇨🇳 台湾省台北市 中华电信,🇺🇸 美国 V2CROSS.COM 2,🇷🇺 俄罗斯 V2CROSS.COM 2,🇺🇸 美国 RF Engineering,🇭🇰 香港 电讯盈科有限公司 2
-♻️ 自动选择 = url-test,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇺🇸 美国 CloudFlare节点,🇭🇰 香港 电讯盈科有限公司,🇷🇺 俄罗斯 V2CROSS.COM,🇺🇸 美国 V2CROSS.COM,🇩🇪 德国 V2CROSS.COM,🇨🇳 台湾省台北市 中华电信,🇺🇸 美国 V2CROSS.COM 2,🇷🇺 俄罗斯 V2CROSS.COM 2,🇺🇸 美国 RF Engineering,🇭🇰 香港 电讯盈科有限公司 2,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🚀 手动切换 = select,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,"🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd.","🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3",🇭🇰 中国 - 香港 - Baxet Group Inc.
+♻️ 自动选择 = url-test,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,"🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd.","🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3",🇭🇰 中国 - 香港 - Baxet Group Inc.,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇺🇸 美国 CloudFlare节点,🇭🇰 香港 电讯盈科有限公司,🇷🇺 俄罗斯 V2CROSS.COM,🇺🇸 美国 V2CROSS.COM,🇩🇪 德国 V2CROSS.COM,🇨🇳 台湾省台北市 中华电信,🇺🇸 美国 V2CROSS.COM 2,🇷🇺 俄罗斯 V2CROSS.COM 2,🇺🇸 美国 RF Engineering,🇭🇰 香港 电讯盈科有限公司 2
-🇭🇰 香港节点 = url-test,🇭🇰 香港 电讯盈科有限公司,🇭🇰 香港 电讯盈科有限公司 2,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
-🇺🇲 美国节点 = url-test,🇺🇸 美国 CloudFlare节点,🇺🇸 美国 V2CROSS.COM,🇺🇸 美国 V2CROSS.COM 2,🇺🇸 美国 RF Engineering,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,"🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd.","🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3",🇭🇰 中国 - 香港 - Baxet Group Inc.
+🇭🇰 香港节点 = url-test,"🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd.","🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3",🇭🇰 中国 - 香港 - Baxet Group Inc.,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🇺🇲 美国节点 = url-test,"🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd.","🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3",url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
 
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连,update-interval=86400
@@ -58,6 +51,4 @@ RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDom
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,🎯 全球直连,update-interval=86400
 GEOIP,CN,🎯 全球直连
 FINAL,🐟 漏网之鱼
-
-
 
