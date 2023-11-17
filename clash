@@ -13,16 +13,39 @@ proxies:
   - {name: 全网低价个人证书, server: 172.233.74.209, port: 16119, type: trojan, password: MAMneF8Aad, sni: v.qq.com, skip-cert-verify: true}
   - {name: iOS|轻松签|全能签|P12证书, server: 172.233.74.209, port: 16119, type: trojan, password: MAMneF8Aad, sni: v.qq.com, skip-cert-verify: true}
   - {name: 定制V信|应用分身|V信密友|破解软件, server: 172.233.74.209, port: 16119, type: trojan, password: MAMneF8Aad, sni: v.qq.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: zj.hhc586.link, port: 8080, type: vmess, uuid: e2b593e7-3c3f-4402-c625-aeea2c748c04, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ycy.vipnet01.cf}}}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: download1hkt.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-hkt1.windowsupdatea.com}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: hk3.visaapp.top, port: 49487, type: trojan, password: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 146.190.108.227, port: 1, type: trojan, password: !<str> 1, sni: m.zoom.us}
-  - {name: 🇩🇪 德国 V2CROSS.COM, server: 89.163.220.99, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-de1.windowsupdatea.com}
-  - {name: 🇨🇳 台湾省台北市 中华电信, server: download1tw.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-tw1.windowsupdatea.com}
-  - {name: 🇺🇸 美国 V2CROSS.COM 2, server: 146.190.87.59, port: 56674, type: trojan, password: fGahrYudYD}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM 2, server: 212.192.15.68, port: 49487, type: trojan, password: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f, sni: hk3.visaapp.top}
-  - {name: 🇺🇸 美国 RF Engineering, server: 141.193.68.81, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-us3.windowsupdatea.com}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: download2hkt.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-hkt2.windowsupdatea.com}
+  - {name: 🇨🇳 中国 - 台湾 - Akari Networks, server: yd-02.paofunlink.com, port: 1073, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
+  - {name: 🇨🇳 中国 - 台湾 - Akari Networks 2, server: yd-05.paofunlink.com, port: 1070, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
+  - {name: 🇨🇳 中国 - 台湾 - Akari Networks 3, server: yd-02.paofunlink.com, port: 1070, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
+  - {name: 🇨🇳 中国 - 台湾 - Akari Networks 4, server: 120.232.177.250, port: 1070, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
+  - {name: 🇨🇳 中国 - 台湾 - Akari Networks 5, server: 120.232.177.250, port: 1073, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks, server: yd-01.paofunlink.com, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks 2, server: yd-07.paofunlink.com, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks 3, server: yd-07.paofunlink.com, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks 4, server: yd-01.paofunlink.com, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks 5, server: yd-01.paofunlink.com, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks 6, server: yd-01.paofunlink.com, port: 5958, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks 7, server: yd-01.paofunlink.com, port: 5957, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks 8, server: yd-07.paofunlink.com, port: 5958, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks 9, server: yd-07.paofunlink.com, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks 10, server: yd-01.paofunlink.com, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks 11, server: yd-01.paofunlink.com, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks 12, server: yd-07.paofunlink.com, port: 5955, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks 13, server: yd-01.paofunlink.com, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks 14, server: 122.193.251.201, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks 15, server: 122.193.251.201, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks 16, server: yd-07.paofunlink.com, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks 17, server: 122.193.251.201, port: 5958, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks 18, server: 122.193.251.201, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks 19, server: yd-07.paofunlink.com, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks 20, server: yd-07.paofunlink.com, port: 5959, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks 21, server: 122.193.251.201, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks 22, server: 122.193.251.201, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks 23, server: 122.193.251.201, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
+  - {name: "🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd.", server: 8.217.212.41, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+  - {name: "🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 2", server: 8.217.94.208, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true}}
+  - {name: "🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3", server: 8.217.218.147, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+  - {name: 🇭🇰 中国 - 香港 - Baxet Group Inc., server: hk3.visaapp.top, port: 49487, type: trojan, password: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - Cloudie Limited, server: 123.254.105.107, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 20544f92a1fb, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jyn42.xjhssba.today, path: /vtprtcemdw, tls: true, mux: true}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -45,16 +68,39 @@ proxy-groups:
       - 全网低价个人证书
       - iOS|轻松签|全能签|P12证书
       - 定制V信|应用分身|V信密友|破解软件
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇨🇳 台湾省台北市 中华电信
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
-      - 🇺🇸 美国 RF Engineering
-      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇨🇳 中国 - 台湾 - Akari Networks
+      - 🇨🇳 中国 - 台湾 - Akari Networks 2
+      - 🇨🇳 中国 - 台湾 - Akari Networks 3
+      - 🇨🇳 中国 - 台湾 - Akari Networks 4
+      - 🇨🇳 中国 - 台湾 - Akari Networks 5
+      - 🇭🇰 中国 - 香港 - Akari Networks
+      - 🇭🇰 中国 - 香港 - Akari Networks 2
+      - 🇭🇰 中国 - 香港 - Akari Networks 3
+      - 🇭🇰 中国 - 香港 - Akari Networks 4
+      - 🇭🇰 中国 - 香港 - Akari Networks 5
+      - 🇭🇰 中国 - 香港 - Akari Networks 6
+      - 🇭🇰 中国 - 香港 - Akari Networks 7
+      - 🇭🇰 中国 - 香港 - Akari Networks 8
+      - 🇭🇰 中国 - 香港 - Akari Networks 9
+      - 🇭🇰 中国 - 香港 - Akari Networks 10
+      - 🇭🇰 中国 - 香港 - Akari Networks 11
+      - 🇭🇰 中国 - 香港 - Akari Networks 12
+      - 🇭🇰 中国 - 香港 - Akari Networks 13
+      - 🇭🇰 中国 - 香港 - Akari Networks 14
+      - 🇭🇰 中国 - 香港 - Akari Networks 15
+      - 🇭🇰 中国 - 香港 - Akari Networks 16
+      - 🇭🇰 中国 - 香港 - Akari Networks 17
+      - 🇭🇰 中国 - 香港 - Akari Networks 18
+      - 🇭🇰 中国 - 香港 - Akari Networks 19
+      - 🇭🇰 中国 - 香港 - Akari Networks 20
+      - 🇭🇰 中国 - 香港 - Akari Networks 21
+      - 🇭🇰 中国 - 香港 - Akari Networks 22
+      - 🇭🇰 中国 - 香港 - Akari Networks 23
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd.
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 2
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3
+      - 🇭🇰 中国 - 香港 - Baxet Group Inc.
+      - 🇭🇰 中国 - 香港 - Cloudie Limited
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -69,16 +115,39 @@ proxy-groups:
       - 全网低价个人证书
       - iOS|轻松签|全能签|P12证书
       - 定制V信|应用分身|V信密友|破解软件
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇨🇳 台湾省台北市 中华电信
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
-      - 🇺🇸 美国 RF Engineering
-      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇨🇳 中国 - 台湾 - Akari Networks
+      - 🇨🇳 中国 - 台湾 - Akari Networks 2
+      - 🇨🇳 中国 - 台湾 - Akari Networks 3
+      - 🇨🇳 中国 - 台湾 - Akari Networks 4
+      - 🇨🇳 中国 - 台湾 - Akari Networks 5
+      - 🇭🇰 中国 - 香港 - Akari Networks
+      - 🇭🇰 中国 - 香港 - Akari Networks 2
+      - 🇭🇰 中国 - 香港 - Akari Networks 3
+      - 🇭🇰 中国 - 香港 - Akari Networks 4
+      - 🇭🇰 中国 - 香港 - Akari Networks 5
+      - 🇭🇰 中国 - 香港 - Akari Networks 6
+      - 🇭🇰 中国 - 香港 - Akari Networks 7
+      - 🇭🇰 中国 - 香港 - Akari Networks 8
+      - 🇭🇰 中国 - 香港 - Akari Networks 9
+      - 🇭🇰 中国 - 香港 - Akari Networks 10
+      - 🇭🇰 中国 - 香港 - Akari Networks 11
+      - 🇭🇰 中国 - 香港 - Akari Networks 12
+      - 🇭🇰 中国 - 香港 - Akari Networks 13
+      - 🇭🇰 中国 - 香港 - Akari Networks 14
+      - 🇭🇰 中国 - 香港 - Akari Networks 15
+      - 🇭🇰 中国 - 香港 - Akari Networks 16
+      - 🇭🇰 中国 - 香港 - Akari Networks 17
+      - 🇭🇰 中国 - 香港 - Akari Networks 18
+      - 🇭🇰 中国 - 香港 - Akari Networks 19
+      - 🇭🇰 中国 - 香港 - Akari Networks 20
+      - 🇭🇰 中国 - 香港 - Akari Networks 21
+      - 🇭🇰 中国 - 香港 - Akari Networks 22
+      - 🇭🇰 中国 - 香港 - Akari Networks 23
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd.
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 2
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3
+      - 🇭🇰 中国 - 香港 - Baxet Group Inc.
+      - 🇭🇰 中国 - 香港 - Cloudie Limited
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -104,24 +173,73 @@ proxy-groups:
       - 全网低价个人证书
       - iOS|轻松签|全能签|P12证书
       - 定制V信|应用分身|V信密友|破解软件
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇨🇳 台湾省台北市 中华电信
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
-      - 🇺🇸 美国 RF Engineering
-      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇨🇳 中国 - 台湾 - Akari Networks
+      - 🇨🇳 中国 - 台湾 - Akari Networks 2
+      - 🇨🇳 中国 - 台湾 - Akari Networks 3
+      - 🇨🇳 中国 - 台湾 - Akari Networks 4
+      - 🇨🇳 中国 - 台湾 - Akari Networks 5
+      - 🇭🇰 中国 - 香港 - Akari Networks
+      - 🇭🇰 中国 - 香港 - Akari Networks 2
+      - 🇭🇰 中国 - 香港 - Akari Networks 3
+      - 🇭🇰 中国 - 香港 - Akari Networks 4
+      - 🇭🇰 中国 - 香港 - Akari Networks 5
+      - 🇭🇰 中国 - 香港 - Akari Networks 6
+      - 🇭🇰 中国 - 香港 - Akari Networks 7
+      - 🇭🇰 中国 - 香港 - Akari Networks 8
+      - 🇭🇰 中国 - 香港 - Akari Networks 9
+      - 🇭🇰 中国 - 香港 - Akari Networks 10
+      - 🇭🇰 中国 - 香港 - Akari Networks 11
+      - 🇭🇰 中国 - 香港 - Akari Networks 12
+      - 🇭🇰 中国 - 香港 - Akari Networks 13
+      - 🇭🇰 中国 - 香港 - Akari Networks 14
+      - 🇭🇰 中国 - 香港 - Akari Networks 15
+      - 🇭🇰 中国 - 香港 - Akari Networks 16
+      - 🇭🇰 中国 - 香港 - Akari Networks 17
+      - 🇭🇰 中国 - 香港 - Akari Networks 18
+      - 🇭🇰 中国 - 香港 - Akari Networks 19
+      - 🇭🇰 中国 - 香港 - Akari Networks 20
+      - 🇭🇰 中国 - 香港 - Akari Networks 21
+      - 🇭🇰 中国 - 香港 - Akari Networks 22
+      - 🇭🇰 中国 - 香港 - Akari Networks 23
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd.
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 2
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3
+      - 🇭🇰 中国 - 香港 - Baxet Group Inc.
+      - 🇭🇰 中国 - 香港 - Cloudie Limited
   - name: 🇭🇰 香港节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 中国 - 香港 - Akari Networks
+      - 🇭🇰 中国 - 香港 - Akari Networks 2
+      - 🇭🇰 中国 - 香港 - Akari Networks 3
+      - 🇭🇰 中国 - 香港 - Akari Networks 4
+      - 🇭🇰 中国 - 香港 - Akari Networks 5
+      - 🇭🇰 中国 - 香港 - Akari Networks 6
+      - 🇭🇰 中国 - 香港 - Akari Networks 7
+      - 🇭🇰 中国 - 香港 - Akari Networks 8
+      - 🇭🇰 中国 - 香港 - Akari Networks 9
+      - 🇭🇰 中国 - 香港 - Akari Networks 10
+      - 🇭🇰 中国 - 香港 - Akari Networks 11
+      - 🇭🇰 中国 - 香港 - Akari Networks 12
+      - 🇭🇰 中国 - 香港 - Akari Networks 13
+      - 🇭🇰 中国 - 香港 - Akari Networks 14
+      - 🇭🇰 中国 - 香港 - Akari Networks 15
+      - 🇭🇰 中国 - 香港 - Akari Networks 16
+      - 🇭🇰 中国 - 香港 - Akari Networks 17
+      - 🇭🇰 中国 - 香港 - Akari Networks 18
+      - 🇭🇰 中国 - 香港 - Akari Networks 19
+      - 🇭🇰 中国 - 香港 - Akari Networks 20
+      - 🇭🇰 中国 - 香港 - Akari Networks 21
+      - 🇭🇰 中国 - 香港 - Akari Networks 22
+      - 🇭🇰 中国 - 香港 - Akari Networks 23
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd.
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 2
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3
+      - 🇭🇰 中国 - 香港 - Baxet Group Inc.
+      - 🇭🇰 中国 - 香港 - Cloudie Limited
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -142,10 +260,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇺🇸 美国 RF Engineering
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd.
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 2
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
