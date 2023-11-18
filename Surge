@@ -24,18 +24,53 @@ iOS|轻松签|全能签|P12证书 = trojan, 172.233.74.209, 16119, password=MAMn
 "🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd." = ss, 8.217.212.41, 80, encrypt-method=aes-128-gcm, password=a-wym4ovY4Yw,obfs=http
 "🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3" = ss, 8.217.218.147, 80, encrypt-method=aes-128-gcm, password=a-wym4ovY4Yw,obfs=http
 🇭🇰 中国 - 香港 - Baxet Group Inc. = trojan, hk3.visaapp.top, 49487, password=1cb996c8-e5bf-40d2-9a3c-149b3b721c5f, skip-cert-verify=true
+🇫🇷 法国 枭木iOS大本营 @Tmxios = ss, 54.36.174.181, 8119, encrypt-method=aes-256-gcm, password=cdBIDV42DCwnfIN
+🇫🇷 法国 枭木iOS大本营 @Tmxios 2 = ss, 54.36.174.181, 7306, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP
+🇫🇷 法国 枭木iOS大本营 @Tmxios 3 = ss, 54.36.174.181, 6679, encrypt-method=aes-256-gcm, password=TEzjfAYq2IjtuoS
+🇫🇷 法国 枭木iOS大本营 @Tmxios 4 = ss, 54.36.174.181, 8881, encrypt-method=aes-256-gcm, password=kDWvXYZoTBcGkC4
+🇫🇷 法国 枭木iOS大本营 @Tmxios 5 = ss, ak1751.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 5600, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC
+🇫🇷 法国 枭木iOS大本营 @Tmxios 6 = ss, 54.36.174.181, 8009, encrypt-method=aes-256-gcm, password=XKFKl2rULjIp74
+🇫🇷 法国 枭木iOS大本营 @Tmxios 7 = ss, 54.36.174.181, 5000, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC
+🇫🇷 法国 枭木iOS大本营 @Tmxios 8 = ss, 54.36.174.181, 6697, encrypt-method=aes-256-gcm, password=TEzjfAYq2IjtuoS
+🇫🇷 法国 枭木iOS大本营 @Tmxios 9 = ss, 54.36.174.181, 7002, encrypt-method=aes-256-gcm, password=RexnBgU7EV5ADxG
+🇫🇷 法国 枭木iOS大本营 @Tmxios 10 = ss, 54.36.174.181, 9102, encrypt-method=aes-256-gcm, password=e4FCWrgpkji3QY
+🇫🇷 法国 枭木iOS大本营 @Tmxios 11 = ss, 54.36.174.181, 8000, encrypt-method=aes-256-gcm, password=KixLvKzwjekG00rm
+🇫🇷 法国 枭木iOS大本营 @Tmxios 12 = ss, 54.36.174.181, 5500, encrypt-method=aes-256-gcm, password=KixLvKzwjekG00rm
+🇫🇷 法国 枭木iOS大本营 @Tmxios 13 = ss, 54.36.174.181, 5004, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId
+🇫🇷 法国 枭木iOS大本营 @Tmxios 14 = ss, 54.36.174.181, 8091, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27
+🇫🇷 法国 枭木iOS大本营 @Tmxios 15 = ss, 54.36.174.181, 3306, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC
+🇫🇷 法国 枭木iOS大本营 @Tmxios 16 = ss, 54.36.174.181, 4444, encrypt-method=aes-256-gcm, password=pKEW8JPByTVTLtM
+🇺🇸 美国弗吉尼亚州文特山农场 枭木iOS大本营 @Tmxios = ss, 51.81.186.195, 8388, encrypt-method=chacha20-ietf-poly1305, password=YWE3M
+🇫🇷 法国 枭木iOS大本营 @Tmxios 17 = ss, 54.36.174.181, 6379, encrypt-method=aes-256-gcm, password=zDNVedRFPQexG9v
+🇫🇷 法国 枭木iOS大本营 @Tmxios 18 = ss, 54.36.174.181, 5600, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC
+🇫🇷 法国 枭木iOS大本营 @Tmxios 19 = ss, 54.36.174.181, 3389, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC
+🇫🇷 法国 枭木iOS大本营 @Tmxios 20 = ss, 54.36.174.181, 2376, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7
+🇫🇷 法国 枭木iOS大本营 @Tmxios 21 = ss, 54.36.174.181, 8882, encrypt-method=aes-256-gcm, password=kDWvXYZoTBcGkC4
+🇫🇷 法国 枭木iOS大本营 @Tmxios 22 = ss, 54.36.174.181, 8090, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27
+🇫🇷 法国 枭木iOS大本营 @Tmxios 23 = ss, 54.36.174.181, 7001, encrypt-method=aes-256-gcm, password=RexnBgU7EV5ADxG
+🇫🇷 法国 枭木iOS大本营 @Tmxios 24 = ss, 54.36.174.181, 9101, encrypt-method=aes-256-gcm, password=e4FCWrgpkji3QY
+🇫🇷 法国 枭木iOS大本营 @Tmxios 25 = ss, 54.36.174.181, 8080, encrypt-method=aes-256-gcm, password=KixLvKzwjekG00rm
+🇫🇷 法国 枭木iOS大本营 @Tmxios 26 = ss, 54.36.174.181, 2375, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7
+🇫🇷 法国 枭木iOS大本营 @Tmxios 27 = ss, ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 8119, encrypt-method=aes-256-gcm, password=cdBIDV42DCwnfIN
+🇫🇷 法国 枭木iOS大本营 @Tmxios 28 = ss, 54.36.174.181, 8888, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC
+🇫🇷 法国 枭木iOS大本营 @Tmxios 29 = ss, 54.36.174.181, 5001, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC
+🇫🇷 法国 枭木iOS大本营 @Tmxios 30 = ss, 54.36.174.181, 8008, encrypt-method=aes-256-gcm, password=XKFKl2rULjIp74
+🇫🇷 法国 枭木iOS大本营 @Tmxios 31 = ss, 54.36.174.181, 5003, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId
+🇫🇷 法国 枭木iOS大本营 @Tmxios 32 = ss, 54.36.174.181, 443, encrypt-method=aes-256-gcm, password=pKEW8JPByTVTLtM
+🇷🇺 俄罗斯 = trojan, hk3.visaapp.top, 49487, password=1cb996c8-e5bf-40d2-9a3c-149b3b721c5f
+🇷🇺 俄罗斯 2 = trojan, 212.192.15.68, 49487, password=1cb996c8-e5bf-40d2-9a3c-149b3b721c5f, sni=hk3.visaapp.top
 🇯🇵 日本节点 = direct
 🇸🇬 狮城节点 = direct
 
 [Proxy Group]
 🚀 节点选择 = select,♻️ 自动选择,🇭🇰 香港节点,🇸🇬 狮城节点,🇺🇲 美国节点,🇯🇵 日本节点,🚀 手动切换,DIRECT
-🚀 手动切换 = select,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,"🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd.","🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3",🇭🇰 中国 - 香港 - Baxet Group Inc.
-♻️ 自动选择 = url-test,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,"🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd.","🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3",🇭🇰 中国 - 香港 - Baxet Group Inc.,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🚀 手动切换 = select,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,"🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd.","🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3",🇭🇰 中国 - 香港 - Baxet Group Inc.,🇫🇷 法国 枭木iOS大本营 @Tmxios,🇫🇷 法国 枭木iOS大本营 @Tmxios 2,🇫🇷 法国 枭木iOS大本营 @Tmxios 3,🇫🇷 法国 枭木iOS大本营 @Tmxios 4,🇫🇷 法国 枭木iOS大本营 @Tmxios 5,🇫🇷 法国 枭木iOS大本营 @Tmxios 6,🇫🇷 法国 枭木iOS大本营 @Tmxios 7,🇫🇷 法国 枭木iOS大本营 @Tmxios 8,🇫🇷 法国 枭木iOS大本营 @Tmxios 9,🇫🇷 法国 枭木iOS大本营 @Tmxios 10,🇫🇷 法国 枭木iOS大本营 @Tmxios 11,🇫🇷 法国 枭木iOS大本营 @Tmxios 12,🇫🇷 法国 枭木iOS大本营 @Tmxios 13,🇫🇷 法国 枭木iOS大本营 @Tmxios 14,🇫🇷 法国 枭木iOS大本营 @Tmxios 15,🇫🇷 法国 枭木iOS大本营 @Tmxios 16,🇺🇸 美国弗吉尼亚州文特山农场 枭木iOS大本营 @Tmxios,🇫🇷 法国 枭木iOS大本营 @Tmxios 17,🇫🇷 法国 枭木iOS大本营 @Tmxios 18,🇫🇷 法国 枭木iOS大本营 @Tmxios 19,🇫🇷 法国 枭木iOS大本营 @Tmxios 20,🇫🇷 法国 枭木iOS大本营 @Tmxios 21,🇫🇷 法国 枭木iOS大本营 @Tmxios 22,🇫🇷 法国 枭木iOS大本营 @Tmxios 23,🇫🇷 法国 枭木iOS大本营 @Tmxios 24,🇫🇷 法国 枭木iOS大本营 @Tmxios 25,🇫🇷 法国 枭木iOS大本营 @Tmxios 26,🇫🇷 法国 枭木iOS大本营 @Tmxios 27,🇫🇷 法国 枭木iOS大本营 @Tmxios 28,🇫🇷 法国 枭木iOS大本营 @Tmxios 29,🇫🇷 法国 枭木iOS大本营 @Tmxios 30,🇫🇷 法国 枭木iOS大本营 @Tmxios 31,🇫🇷 法国 枭木iOS大本营 @Tmxios 32,🇷🇺 俄罗斯,🇷🇺 俄罗斯 2
+♻️ 自动选择 = url-test,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,"🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd.","🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3",🇭🇰 中国 - 香港 - Baxet Group Inc.,🇫🇷 法国 枭木iOS大本营 @Tmxios,🇫🇷 法国 枭木iOS大本营 @Tmxios 2,🇫🇷 法国 枭木iOS大本营 @Tmxios 3,🇫🇷 法国 枭木iOS大本营 @Tmxios 4,🇫🇷 法国 枭木iOS大本营 @Tmxios 5,🇫🇷 法国 枭木iOS大本营 @Tmxios 6,🇫🇷 法国 枭木iOS大本营 @Tmxios 7,🇫🇷 法国 枭木iOS大本营 @Tmxios 8,🇫🇷 法国 枭木iOS大本营 @Tmxios 9,🇫🇷 法国 枭木iOS大本营 @Tmxios 10,🇫🇷 法国 枭木iOS大本营 @Tmxios 11,🇫🇷 法国 枭木iOS大本营 @Tmxios 12,🇫🇷 法国 枭木iOS大本营 @Tmxios 13,🇫🇷 法国 枭木iOS大本营 @Tmxios 14,🇫🇷 法国 枭木iOS大本营 @Tmxios 15,🇫🇷 法国 枭木iOS大本营 @Tmxios 16,🇺🇸 美国弗吉尼亚州文特山农场 枭木iOS大本营 @Tmxios,🇫🇷 法国 枭木iOS大本营 @Tmxios 17,🇫🇷 法国 枭木iOS大本营 @Tmxios 18,🇫🇷 法国 枭木iOS大本营 @Tmxios 19,🇫🇷 法国 枭木iOS大本营 @Tmxios 20,🇫🇷 法国 枭木iOS大本营 @Tmxios 21,🇫🇷 法国 枭木iOS大本营 @Tmxios 22,🇫🇷 法国 枭木iOS大本营 @Tmxios 23,🇫🇷 法国 枭木iOS大本营 @Tmxios 24,🇫🇷 法国 枭木iOS大本营 @Tmxios 25,🇫🇷 法国 枭木iOS大本营 @Tmxios 26,🇫🇷 法国 枭木iOS大本营 @Tmxios 27,🇫🇷 法国 枭木iOS大本营 @Tmxios 28,🇫🇷 法国 枭木iOS大本营 @Tmxios 29,🇫🇷 法国 枭木iOS大本营 @Tmxios 30,🇫🇷 法国 枭木iOS大本营 @Tmxios 31,🇫🇷 法国 枭木iOS大本营 @Tmxios 32,🇷🇺 俄罗斯,🇷🇺 俄罗斯 2,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,"🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd.","🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3",🇭🇰 中国 - 香港 - Baxet Group Inc.
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,"🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd.","🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3",🇭🇰 中国 - 香港 - Baxet Group Inc.,🇫🇷 法国 枭木iOS大本营 @Tmxios,🇫🇷 法国 枭木iOS大本营 @Tmxios 2,🇫🇷 法国 枭木iOS大本营 @Tmxios 3,🇫🇷 法国 枭木iOS大本营 @Tmxios 4,🇫🇷 法国 枭木iOS大本营 @Tmxios 5,🇫🇷 法国 枭木iOS大本营 @Tmxios 6,🇫🇷 法国 枭木iOS大本营 @Tmxios 7,🇫🇷 法国 枭木iOS大本营 @Tmxios 8,🇫🇷 法国 枭木iOS大本营 @Tmxios 9,🇫🇷 法国 枭木iOS大本营 @Tmxios 10,🇫🇷 法国 枭木iOS大本营 @Tmxios 11,🇫🇷 法国 枭木iOS大本营 @Tmxios 12,🇫🇷 法国 枭木iOS大本营 @Tmxios 13,🇫🇷 法国 枭木iOS大本营 @Tmxios 14,🇫🇷 法国 枭木iOS大本营 @Tmxios 15,🇫🇷 法国 枭木iOS大本营 @Tmxios 16,🇺🇸 美国弗吉尼亚州文特山农场 枭木iOS大本营 @Tmxios,🇫🇷 法国 枭木iOS大本营 @Tmxios 17,🇫🇷 法国 枭木iOS大本营 @Tmxios 18,🇫🇷 法国 枭木iOS大本营 @Tmxios 19,🇫🇷 法国 枭木iOS大本营 @Tmxios 20,🇫🇷 法国 枭木iOS大本营 @Tmxios 21,🇫🇷 法国 枭木iOS大本营 @Tmxios 22,🇫🇷 法国 枭木iOS大本营 @Tmxios 23,🇫🇷 法国 枭木iOS大本营 @Tmxios 24,🇫🇷 法国 枭木iOS大本营 @Tmxios 25,🇫🇷 法国 枭木iOS大本营 @Tmxios 26,🇫🇷 法国 枭木iOS大本营 @Tmxios 27,🇫🇷 法国 枭木iOS大本营 @Tmxios 28,🇫🇷 法国 枭木iOS大本营 @Tmxios 29,🇫🇷 法国 枭木iOS大本营 @Tmxios 30,🇫🇷 法国 枭木iOS大本营 @Tmxios 31,🇫🇷 法国 枭木iOS大本营 @Tmxios 32,🇷🇺 俄罗斯,🇷🇺 俄罗斯 2
 🇭🇰 香港节点 = url-test,"🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd.","🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3",🇭🇰 中国 - 香港 - Baxet Group Inc.,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
-🇺🇲 美国节点 = url-test,"🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd.","🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3",url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🇺🇲 美国节点 = url-test,"🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd.","🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3",🇺🇸 美国弗吉尼亚州文特山农场 枭木iOS大本营 @Tmxios,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
 
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连,update-interval=86400
@@ -51,4 +86,6 @@ RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDom
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,🎯 全球直连,update-interval=86400
 GEOIP,CN,🎯 全球直连
 FINAL,🐟 漏网之鱼
+
+
 
