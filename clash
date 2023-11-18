@@ -46,6 +46,41 @@ proxies:
   - {name: "🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3", server: 8.217.218.147, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
   - {name: 🇭🇰 中国 - 香港 - Baxet Group Inc., server: hk3.visaapp.top, port: 49487, type: trojan, password: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f, skip-cert-verify: true}
   - {name: 🇭🇰 中国 - 香港 - Cloudie Limited, server: 123.254.105.107, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 20544f92a1fb, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jyn42.xjhssba.today, path: /vtprtcemdw, tls: true, mux: true}}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios, server: 54.36.174.181, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 2, server: 54.36.174.181, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 3, server: 54.36.174.181, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 4, server: 54.36.174.181, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 5, server: ak1751.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 6, server: 54.36.174.181, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 7, server: 54.36.174.181, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 8, server: 54.36.174.181, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 9, server: 54.36.174.181, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 10, server: 54.36.174.181, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 11, server: 54.36.174.181, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 12, server: 54.36.174.181, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 13, server: 54.36.174.181, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 14, server: 54.36.174.181, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 15, server: 54.36.174.181, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 16, server: 54.36.174.181, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 美国弗吉尼亚州文特山农场 枭木iOS大本营 @Tmxios, server: 51.81.186.195, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: YWE3M}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 17, server: 54.36.174.181, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 18, server: 54.36.174.181, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 19, server: 54.36.174.181, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 20, server: 54.36.174.181, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 21, server: 54.36.174.181, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 22, server: 54.36.174.181, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 23, server: 54.36.174.181, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 24, server: 54.36.174.181, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 25, server: 54.36.174.181, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 26, server: 54.36.174.181, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 27, server: ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 28, server: 54.36.174.181, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 29, server: 54.36.174.181, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 30, server: 54.36.174.181, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 31, server: 54.36.174.181, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 32, server: 54.36.174.181, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇷🇺 俄罗斯, server: hk3.visaapp.top, port: 49487, type: trojan, password: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f}
+  - {name: 🇷🇺 俄罗斯 2, server: 212.192.15.68, port: 49487, type: trojan, password: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f, sni: hk3.visaapp.top}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -101,6 +136,41 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3
       - 🇭🇰 中国 - 香港 - Baxet Group Inc.
       - 🇭🇰 中国 - 香港 - Cloudie Limited
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 2
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 3
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 4
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 5
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 6
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 7
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 8
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 9
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 10
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 11
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 12
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 13
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 14
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 15
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 16
+      - 🇺🇸 美国弗吉尼亚州文特山农场 枭木iOS大本营 @Tmxios
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 17
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 18
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 19
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 20
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 21
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 22
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 23
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 24
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 25
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 26
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 27
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 28
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 29
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 30
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 31
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 32
+      - 🇷🇺 俄罗斯
+      - 🇷🇺 俄罗斯 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -148,6 +218,41 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3
       - 🇭🇰 中国 - 香港 - Baxet Group Inc.
       - 🇭🇰 中国 - 香港 - Cloudie Limited
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 2
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 3
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 4
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 5
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 6
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 7
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 8
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 9
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 10
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 11
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 12
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 13
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 14
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 15
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 16
+      - 🇺🇸 美国弗吉尼亚州文特山农场 枭木iOS大本营 @Tmxios
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 17
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 18
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 19
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 20
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 21
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 22
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 23
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 24
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 25
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 26
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 27
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 28
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 29
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 30
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 31
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 32
+      - 🇷🇺 俄罗斯
+      - 🇷🇺 俄罗斯 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -206,6 +311,41 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3
       - 🇭🇰 中国 - 香港 - Baxet Group Inc.
       - 🇭🇰 中国 - 香港 - Cloudie Limited
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 2
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 3
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 4
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 5
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 6
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 7
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 8
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 9
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 10
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 11
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 12
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 13
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 14
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 15
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 16
+      - 🇺🇸 美国弗吉尼亚州文特山农场 枭木iOS大本营 @Tmxios
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 17
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 18
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 19
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 20
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 21
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 22
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 23
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 24
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 25
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 26
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 27
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 28
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 29
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 30
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 31
+      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 32
+      - 🇷🇺 俄罗斯
+      - 🇷🇺 俄罗斯 2
   - name: 🇭🇰 香港节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -263,6 +403,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd.
       - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 2
       - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. 3
+      - 🇺🇸 美国弗吉尼亚州文特山农场 枭木iOS大本营 @Tmxios
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
