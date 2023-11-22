@@ -13,220 +13,54 @@ proxies:
   - {name: 全网低价个人证书, server: 172.233.74.209, port: 16119, type: trojan, password: MAMneF8Aad, sni: v.qq.com, skip-cert-verify: true}
   - {name: iOS|轻松签|全能签|P12证书, server: 172.233.74.209, port: 16119, type: trojan, password: MAMneF8Aad, sni: v.qq.com, skip-cert-verify: true}
   - {name: 定制V信|应用分身|V信密友|破解软件, server: 172.233.74.209, port: 16119, type: trojan, password: MAMneF8Aad, sni: v.qq.com, skip-cert-verify: true}
-  - {name: 🇨🇳 中国 - 台湾 - Akari Networks, server: 120.232.177.250, port: 1073, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇨🇳 中国 - 台湾 - Akari Networks 2, server: yd-02.paofunlink.com, port: 1073, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
-  - {name: 🇨🇳 中国 - 台湾 - Akari Networks 3, server: 120.232.177.250, port: 1070, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇨🇳 中国 - 台湾 - Akari Networks 4, server: yd-02.paofunlink.com, port: 1074, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇨🇳 中国 - 台湾 - Akari Networks 5, server: yd-05.paofunlink.com, port: 1070, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
-  - {name: 🇨🇳 中国 - 台湾 - Akari Networks 6, server: yd-02.paofunlink.com, port: 1072, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇨🇳 中国 - 台湾 - Akari Networks 7, server: yd-05.paofunlink.com, port: 1071, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇨🇳 中国 - 台湾 - Akari Networks 8, server: yd-02.paofunlink.com, port: 1070, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
-  - {name: 🇨🇳 中国 - 台湾 - Akari Networks 9, server: 120.232.177.250, port: 1072, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇨🇳 中国 - 台湾 - Akari Networks 10, server: yd-05.paofunlink.com, port: 1074, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd.", server: nbq11.ntbq.dynu.net, port: 443, type: vmess, uuid: ffe4a0e2-65d0-4492-a2d4-f5955986fe89, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b11, headers: {Host: nbq11.ntbq.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 2", server: nbq11.ntbq.dynu.net, port: 443, type: vmess, uuid: b3d43a0b-9ef8-4f87-a5c6-8da062e02620, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b11, headers: {Host: nbq11.ntbq.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 3", server: nbq11.ntbq.dynu.net, port: 443, type: vmess, uuid: 44209e14-2acf-4d62-ac06-5f7fe43e3591, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b11, headers: {Host: nbq11.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 4", server: nbq12.ntbq.dynu.net, port: 443, type: vmess, uuid: 42246552-d778-440f-bbb5-8f0f14139c50, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b12, headers: {Host: nbq12.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 5", server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: 38ff99d8-dbaf-430a-867e-200b89f4c70a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 6", server: nbq12.ntbq.dynu.net, port: 443, type: vmess, uuid: 6bd47438-d696-499a-bcd5-134e4145135a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b12, headers: {Host: nbq12.ntbq.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 7", server: nbq13.ntbq.dynu.net, port: 443, type: vmess, uuid: c0adcb77-692a-4122-983a-ec0f8f964ba1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b13, headers: {Host: nbq13.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 8", server: nbq13.ntbq.dynu.net, port: 443, type: vmess, uuid: b91e2e5c-47cd-4cb1-bff3-f4a063c2bfd7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b13, headers: {Host: nbq13.ntbq.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 9", server: nbq12.ntbq.dynu.net, port: 443, type: vmess, uuid: 6152dab2-5a09-44fe-9c14-3ece9dbbc4b8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b12, headers: {Host: nbq12.ntbq.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 10", server: nbq13.ntbq.dynu.net, port: 443, type: vmess, uuid: 6bd47438-d696-499a-bcd5-134e4145135a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b13, headers: {Host: nbq13.ntbq.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 11", server: tc12.kq1.dynu.net, port: 443, type: vmess, uuid: 6bbe3014-9fce-4700-9b39-adc2bd657f63, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.kq1.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 12", server: tc12.kq1.dynu.net, port: 443, type: vmess, uuid: 6bd47438-d696-499a-bcd5-134e4145135a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.kq1.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 13", server: nbq13.ntbq.dynu.net, port: 443, type: vmess, uuid: a9a37f79-231c-4b57-849d-3717c1b561b4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b13, headers: {Host: nbq13.ntbq.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 14", server: nbq12.ntbq.dynu.net, port: 443, type: vmess, uuid: b3d43a0b-9ef8-4f87-a5c6-8da062e02620, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b12, headers: {Host: nbq12.ntbq.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 15", server: tc12.kq1.dynu.net, port: 443, type: vmess, uuid: ffe4a0e2-65d0-4492-a2d4-f5955986fe89, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.kq1.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 16", server: nbq13.ntbq.dynu.net, port: 443, type: vmess, uuid: d6bc538d-2496-4818-b160-2d5875ba9a91, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b13, headers: {Host: nbq13.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 17", server: nbq13.ntbq.dynu.net, port: 443, type: vmess, uuid: 44209e14-2acf-4d62-ac06-5f7fe43e3591, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b13, headers: {Host: nbq13.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 18", server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: b1fd7844-4c95-4316-9a15-c7b415e9d84c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 19", server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: a9a37f79-231c-4b57-849d-3717c1b561b4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 20", server: nbq12.ntbq.dynu.net, port: 443, type: vmess, uuid: ffe4a0e2-65d0-4492-a2d4-f5955986fe89, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b12, headers: {Host: nbq12.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 21", server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: c0adcb77-692a-4122-983a-ec0f8f964ba1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 22", server: nbq11.ntbq.dynu.net, port: 443, type: vmess, uuid: 38ff99d8-dbaf-430a-867e-200b89f4c70a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b11, headers: {Host: nbq11.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 23", server: tc12.kq1.dynu.net, port: 443, type: vmess, uuid: 2e3f1868-eeff-4a5c-995e-9e1a2cdf1bf3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.kq1.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 24", server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: 6bd47438-d696-499a-bcd5-134e4145135a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 25", server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: 450cd674-1411-4ea1-979b-bf56da87b21d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 26", server: tc12.kq1.dynu.net, port: 443, type: vmess, uuid: a9a37f79-231c-4b57-849d-3717c1b561b4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.kq1.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 27", server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: 42246552-d778-440f-bbb5-8f0f14139c50, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 28", server: nbq13.ntbq.dynu.net, port: 443, type: vmess, uuid: 92848f4e-a7af-4c58-aa42-c24e89345d5b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b13, headers: {Host: nbq13.ntbq.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 29", server: nbq11.ntbq.dynu.net, port: 443, type: vmess, uuid: 18a4f80a-e6ba-4763-80da-7188fdee9abb, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b11, headers: {Host: nbq11.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 30", server: tc12.kq1.dynu.net, port: 443, type: vmess, uuid: d6bc538d-2496-4818-b160-2d5875ba9a91, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.kq1.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 31", server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: 6bbe3014-9fce-4700-9b39-adc2bd657f63, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 32", server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: ffe4a0e2-65d0-4492-a2d4-f5955986fe89, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 33", server: nbq11.ntbq.dynu.net, port: 443, type: vmess, uuid: 92848f4e-a7af-4c58-aa42-c24e89345d5b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b11, headers: {Host: nbq11.ntbq.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 34", server: tc12.kq1.dynu.net, port: 443, type: vmess, uuid: 42246552-d778-440f-bbb5-8f0f14139c50, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.kq1.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 35", server: nbq11.ntbq.dynu.net, port: 443, type: vmess, uuid: 6bd47438-d696-499a-bcd5-134e4145135a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b11, headers: {Host: nbq11.ntbq.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 36", server: nbq11.ntbq.dynu.net, port: 443, type: vmess, uuid: c0adcb77-692a-4122-983a-ec0f8f964ba1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b11, headers: {Host: nbq11.ntbq.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 37", server: tc12.kq1.dynu.net, port: 443, type: vmess, uuid: b91e2e5c-47cd-4cb1-bff3-f4a063c2bfd7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.kq1.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 38", server: nbq13.ntbq.dynu.net, port: 443, type: vmess, uuid: 6bbe3014-9fce-4700-9b39-adc2bd657f63, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b13, headers: {Host: nbq13.ntbq.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 39", server: nbq11.ntbq.dynu.net, port: 443, type: vmess, uuid: 6bbe3014-9fce-4700-9b39-adc2bd657f63, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b11, headers: {Host: nbq11.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 40", server: tc12.kq1.dynu.net, port: 443, type: vmess, uuid: 44209e14-2acf-4d62-ac06-5f7fe43e3591, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.kq1.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 41", server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: d201923c-daa9-4459-8e98-9b3ea0435926, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 42", server: tc12.kq1.dynu.net, port: 443, type: vmess, uuid: 18a4f80a-e6ba-4763-80da-7188fdee9abb, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.kq1.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 43", server: tc12.kq1.dynu.net, port: 443, type: vmess, uuid: 92848f4e-a7af-4c58-aa42-c24e89345d5b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.kq1.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 44", server: tc12.kq1.dynu.net, port: 443, type: vmess, uuid: d201923c-daa9-4459-8e98-9b3ea0435926, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.kq1.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 45", server: tc12.kq1.dynu.net, port: 443, type: vmess, uuid: 6152dab2-5a09-44fe-9c14-3ece9dbbc4b8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.kq1.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 46", server: tc12.kq1.dynu.net, port: 443, type: vmess, uuid: c0adcb77-692a-4122-983a-ec0f8f964ba1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.kq1.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 47", server: nbq13.ntbq.dynu.net, port: 443, type: vmess, uuid: b1fd7844-4c95-4316-9a15-c7b415e9d84c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b13, headers: {Host: nbq13.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 48", server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: b91e2e5c-47cd-4cb1-bff3-f4a063c2bfd7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 49", server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: 92848f4e-a7af-4c58-aa42-c24e89345d5b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 50", server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: d6bc538d-2496-4818-b160-2d5875ba9a91, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 51", server: nbq11.ntbq.dynu.net, port: 443, type: vmess, uuid: d6bc538d-2496-4818-b160-2d5875ba9a91, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b11, headers: {Host: nbq11.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 52", server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: 44209e14-2acf-4d62-ac06-5f7fe43e3591, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 53", server: nbq13.ntbq.dynu.net, port: 443, type: vmess, uuid: 38ff99d8-dbaf-430a-867e-200b89f4c70a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b13, headers: {Host: nbq13.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 54", server: nbq13.ntbq.dynu.net, port: 443, type: vmess, uuid: 450cd674-1411-4ea1-979b-bf56da87b21d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b13, headers: {Host: nbq13.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 55", server: nbq13.ntbq.dynu.net, port: 443, type: vmess, uuid: b3d43a0b-9ef8-4f87-a5c6-8da062e02620, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b13, headers: {Host: nbq13.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 56", server: nbq11.ntbq.dynu.net, port: 443, type: vmess, uuid: a9a37f79-231c-4b57-849d-3717c1b561b4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b11, headers: {Host: nbq11.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 57", server: nbq11.ntbq.dynu.net, port: 443, type: vmess, uuid: b91e2e5c-47cd-4cb1-bff3-f4a063c2bfd7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b11, headers: {Host: nbq11.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 58", server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: 6152dab2-5a09-44fe-9c14-3ece9dbbc4b8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 59", server: tc12.kq1.dynu.net, port: 443, type: vmess, uuid: b3d43a0b-9ef8-4f87-a5c6-8da062e02620, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.kq1.dynu.net}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 60", server: b22.ntbq.dynu.net, port: 443, type: vmess, uuid: b91e2e5c-47cd-4cb1-bff3-f4a063c2bfd7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b22, headers: {Host: b22.ntbq.dynu.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks, server: 122.193.251.200, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 2, server: yd-01.paofunlink.com, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 3, server: yd-07.paofunlink.com, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 4, server: yd-06.paofunlink.com, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 5, server: yd-07.paofunlink.com, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 6, server: yd-01.paofunlink.com, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 7, server: yd-07.paofunlink.com, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 8, server: 122.193.251.201, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 9, server: yd-07.paofunlink.com, port: 5958, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 10, server: 122.193.251.201, port: 5958, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 11, server: yd-04.paofunlink.com, port: 5955, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 12, server: yd-01.paofunlink.com, port: 5955, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 13, server: 122.193.251.201, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 14, server: 122.193.251.201, port: 5957, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 15, server: 122.193.251.200, port: 5958, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 16, server: yd-01.paofunlink.com, port: 5958, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 17, server: yd-01.paofunlink.com, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 18, server: yd-01.paofunlink.com, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 19, server: 122.193.251.200, port: 5959, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 20, server: yd-04.paofunlink.com, port: 5958, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 21, server: 122.193.251.200, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 22, server: 122.193.251.200, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 23, server: 122.193.251.201, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 24, server: yd-07.paofunlink.com, port: 5959, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 25, server: yd-06.paofunlink.com, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 26, server: yd-06.paofunlink.com, port: 5955, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 27, server: yd-01.paofunlink.com, port: 5959, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 28, server: yd-04.paofunlink.com, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 29, server: yd-04.paofunlink.com, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 30, server: yd-07.paofunlink.com, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 31, server: yd-04.paofunlink.com, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 32, server: 122.193.251.201, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 33, server: yd-07.paofunlink.com, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 34, server: yd-01.paofunlink.com, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 35, server: 122.193.251.200, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 36, server: yd-01.paofunlink.com, port: 5957, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 37, server: yd-04.paofunlink.com, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 38, server: yd-07.paofunlink.com, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 39, server: yd-04.paofunlink.com, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 40, server: yd-06.paofunlink.com, port: 5957, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 41, server: yd-04.paofunlink.com, port: 5957, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 42, server: yd-07.paofunlink.com, port: 5955, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 43, server: yd-04.paofunlink.com, port: 5959, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 44, server: 122.193.251.200, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 45, server: yd-06.paofunlink.com, port: 5958, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 46, server: yd-06.paofunlink.com, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 47, server: 122.193.251.200, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 48, server: 122.193.251.200, port: 5957, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 49, server: yd-06.paofunlink.com, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 50, server: 122.193.251.201, port: 5955, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇭🇰 中国 - 香港 - Akari Networks 51, server: yd-06.paofunlink.com, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: "🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc.", server: 43.201.52.239, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 2", server: 43.201.47.103, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 3", server: 43.200.6.58, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 4", server: 43.201.255.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 5", server: 43.200.244.103, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - Yisp B.V., server: 154.85.1.130, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1698843555400}}
-  - {name: 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc., server: 13.215.249.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC", server: 146.190.108.227, port: 1, type: trojan, password: !<str> 1, sni: m.zoom.us, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 - 新加坡 - OVH SAS, server: 120.232.177.250, port: 1093, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇸🇬 新加坡 - 新加坡 - OVH SAS 2, server: yd-02.paofunlink.com, port: 1094, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
-  - {name: 🇸🇬 新加坡 - 新加坡 - OVH SAS 3, server: 120.232.177.250, port: 1092, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇸🇬 新加坡 - 新加坡 - OVH SAS 4, server: yd-05.paofunlink.com, port: 1094, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇸🇬 新加坡 - 新加坡 - OVH SAS 5, server: yd-02.paofunlink.com, port: 1091, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
-  - {name: 🇸🇬 新加坡 - 新加坡 - OVH SAS 6, server: 120.232.177.250, port: 1091, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇸🇬 新加坡 - 新加坡 - OVH SAS 7, server: yd-02.paofunlink.com, port: 1092, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com}
-  - {name: 🇸🇬 新加坡 - 新加坡 - OVH SAS 8, server: yd-05.paofunlink.com, port: 1092, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇸🇬 新加坡 - 新加坡 - OVH SAS 9, server: yd-02.paofunlink.com, port: 1090, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇸🇬 新加坡 - 新加坡 - OVH SAS 10, server: yd-05.paofunlink.com, port: 1090, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS, server: yd-02.paofunlink.com, port: 1082, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 2, server: 120.232.177.250, port: 1083, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 3, server: 120.232.177.250, port: 1080, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 4, server: yd-02.paofunlink.com, port: 1081, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1}
-  - {name: "🇺🇸 美国 - 普林斯顿 - Alibaba (US) Technology Co., Ltd.", server: 47.76.51.110, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
-  - {name: "🇺🇸 美国 - 普罗维登斯 - Alibaba (US) Technology Co., Ltd.", server: 47.76.44.217, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios, server: 54.36.174.181, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 2, server: 54.36.174.181, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 3, server: 54.36.174.181, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 4, server: 54.36.174.181, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 5, server: ak1751.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 6, server: 54.36.174.181, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 7, server: 54.36.174.181, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 8, server: 54.36.174.181, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 9, server: 54.36.174.181, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 10, server: 54.36.174.181, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 11, server: 54.36.174.181, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 12, server: 54.36.174.181, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 13, server: 54.36.174.181, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 14, server: 54.36.174.181, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 15, server: 54.36.174.181, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 16, server: 54.36.174.181, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 17, server: 54.36.174.181, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 18, server: 54.36.174.181, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 19, server: 54.36.174.181, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 20, server: 54.36.174.181, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 21, server: 54.36.174.181, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 22, server: 54.36.174.181, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 23, server: 54.36.174.181, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 24, server: 54.36.174.181, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 25, server: 54.36.174.181, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 26, server: 54.36.174.181, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 27, server: ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 28, server: 54.36.174.181, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 29, server: 54.36.174.181, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 30, server: 54.36.174.181, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 31, server: 54.36.174.181, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇫🇷 法国 枭木iOS大本营 @Tmxios 32, server: 54.36.174.181, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios, server: in.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 2, server: usa.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 3, server: nljs.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 4, server: uk.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 5, server: itjs.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 6, server: aujs.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 7, server: swejs.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 8, server: dejs.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 9, server: ukjs.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 10, server: lu.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 11, server: sg.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 12, server: esjs.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 13, server: ap.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 14, server: 146.190.108.227, port: 1, type: trojan, password: !<str> 1, sni: m.zoom.us}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 15, server: frjs.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 16, server: ca.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 17, server: hkjs.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 18, server: jp.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 19, server: uaejs.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 20, server: jp.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 21, server: aujs.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 22, server: hkjs.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 23, server: esjs.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 24, server: uk.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 25, server: ap.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 26, server: ukjs.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 27, server: ca.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 28, server: in.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 29, server: swejs.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 30, server: dejs.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 31, server: uaejs.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 32, server: itjs.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 33, server: lu.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 34, server: nljs.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 35, server: frjs.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 36, server: usa.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
-  - {name: 🇺🇸 美国 枭木iOS大本营 @Tmxios 37, server: sg.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959}
+  - {name: 🇺🇸 美国 Cloudinnovation数据中心, server: 154.85.1.130, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1698843555400}}
+  - {name: 🇨🇳 台湾省 中华电信(HiNet)数据中心, server: b24.ntbq.dynu.net, port: 443, type: vmess, uuid: b1fd7844-4c95-4316-9a15-c7b415e9d84c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b24, headers: {Host: b24.ntbq.dynu.net}}}
+  - {name: 🇨🇳 台湾省台北市 中华电信, server: b22.ntbq.dynu.net, port: 443, type: vmess, uuid: b91e2e5c-47cd-4cb1-bff3-f4a063c2bfd7, alterId: 0, cipher: auto, tls: true, servername: b22.ntbq.dynu.net, network: ws, ws-opts: {path: /, headers: {Host: b22.ntbq.dynu.net}}}
+  - {name: 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH, server: 142.4.97.65, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1699624723213, headers: {Host: www.39838266.xyz}}}
+  - {name: 🇿🇦 南非 V2CROSS.COM, server: 156.225.67.96, port: 443, type: vmess, uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1696251693048}}
+  - {name: 🇺🇦 乌克兰 V2CROSS.COM, server: 95.164.37.15, port: 80, type: vmess, uuid: b5aafe8c-3527-4502-8add-9ca7417cfc88, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: uk1-vmess.greenssh.xyz}}}
+  - {name: 🇨🇳 台湾省桃园市 中华电信, server: nbq12.ntbq.dynu.net, port: 443, type: vmess, uuid: b3d43a0b-9ef8-4f87-a5c6-8da062e02620, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b12, headers: {Host: nbq12.ntbq.dynu.net}}}
+  - {name: 🇨🇳 台湾省新北市 中华电信, server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: b1fd7844-4c95-4316-9a15-c7b415e9d84c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: cf2.openxai.link, port: 8080, type: vmess, uuid: 47396f9c-365d-4b99-ad1f-f7927164b4c5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: eu3.openxai.link}}}
+  - {name: 🇺🇦 乌克兰 V2CROSS.COM 2, server: uk1-vmess.greenssh.xyz, port: 80, type: vmess, uuid: b5aafe8c-3527-4502-8add-9ca7417cfc88, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: uk1-vmess.greenssh.xyz}}}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 199.15.77.157, port: 24336, type: vmess, uuid: eb0632c0-3aa3-40d7-aa7f-d5a4e436af1f, alterId: 0, cipher: auto, tls: true, servername: hk-hy02.changding.tech, network: ws, ws-opts: {path: /, headers: {Host: hk-hy02.changding.tech}}}
+  - {name: 🇨🇳 台湾省台中市 中华电信, server: tc12.kq1.dynu.net, port: 443, type: vmess, uuid: 42246552-d778-440f-bbb5-8f0f14139c50, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.kq1.dynu.net}}}
+  - {name: 🇨🇳 台湾省花莲县 中华电信, server: nbq11.ntbq.dynu.net, port: 443, type: vmess, uuid: d6bc538d-2496-4818-b160-2d5875ba9a91, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b11, headers: {Host: nbq11.ntbq.dynu.net}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: hytron.io, port: 8080, type: vmess, uuid: 010c265f-5455-4141-ca23-4d69357ded0d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: aktw.daozhang.love}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 172.67.68.136, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}}
+  - {name: 🇨🇳 台湾省桃园市 中华电信 2, server: nbq12.ntbq.dynu.net, port: 443, type: vmess, uuid: 6bd47438-d696-499a-bcd5-134e4145135a, alterId: 0, cipher: auto, tls: true, servername: nbq12.ntbq.dynu.net, network: ws, ws-opts: {path: /, headers: {Host: nbq12.ntbq.dynu.net}}}
+  - {name: 🇨🇳 台湾省新北市 中华电信 2, server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: b1fd7844-4c95-4316-9a15-c7b415e9d84c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}}
+  - {name: 🇨🇳 台湾省台中市 中华电信 2, server: tc12.kq1.dynu.net, port: 443, type: vmess, uuid: 42246552-d778-440f-bbb5-8f0f14139c50, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tc12.kq1.dynu.net}}}
+  - {name: 🇺🇸 美国 V2CROSS.COM 2, server: 199.15.77.157, port: 24336, type: vmess, uuid: eb0632c0-3aa3-40d7-aa7f-d5a4e436af1f, alterId: 0, cipher: auto, tls: true, servername: hk-hy02.changding.tech, network: ws, ws-opts: {path: /, headers: {Host: hk-hy02.changding.tech}}}
+  - {name: 🇨🇳 台湾省 中华电信(HiNet)数据中心 2, server: nbq13.ntbq.dynu.net, port: 443, type: vmess, uuid: b3d43a0b-9ef8-4f87-a5c6-8da062e02620, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b13, headers: {Host: nbq13.ntbq.dynu.net}}}
+  - {name: 🇨🇳 台湾省 中华电信(HiNet)数据中心 3, server: nbq13.ntbq.dynu.net, port: 443, type: vmess, uuid: 38ff99d8-dbaf-430a-867e-200b89f4c70a, alterId: 0, cipher: auto, tls: true, servername: nbq13.ntbq.dynu.net, network: ws, ws-opts: {path: /, headers: {Host: nbq13.ntbq.dynu.net}}}
+  - {name: 🇺🇸 美国 Cloudinnovation数据中心 2, server: 154.85.1.130, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -249,220 +83,54 @@ proxy-groups:
       - 全网低价个人证书
       - iOS|轻松签|全能签|P12证书
       - 定制V信|应用分身|V信密友|破解软件
-      - 🇨🇳 中国 - 台湾 - Akari Networks
-      - 🇨🇳 中国 - 台湾 - Akari Networks 2
-      - 🇨🇳 中国 - 台湾 - Akari Networks 3
-      - 🇨🇳 中国 - 台湾 - Akari Networks 4
-      - 🇨🇳 中国 - 台湾 - Akari Networks 5
-      - 🇨🇳 中国 - 台湾 - Akari Networks 6
-      - 🇨🇳 中国 - 台湾 - Akari Networks 7
-      - 🇨🇳 中国 - 台湾 - Akari Networks 8
-      - 🇨🇳 中国 - 台湾 - Akari Networks 9
-      - 🇨🇳 中国 - 台湾 - Akari Networks 10
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd.
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 2
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 3
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 4
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 5
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 6
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 7
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 8
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 9
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 10
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 11
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 12
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 13
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 14
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 15
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 16
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 17
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 18
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 19
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 20
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 21
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 22
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 23
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 24
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 25
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 26
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 27
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 28
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 29
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 30
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 31
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 32
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 33
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 34
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 35
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 36
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 37
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 38
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 39
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 40
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 41
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 42
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 43
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 44
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 45
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 46
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 47
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 48
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 49
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 50
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 51
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 52
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 53
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 54
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 55
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 56
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 57
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 58
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 59
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 60
-      - 🇭🇰 中国 - 香港 - Akari Networks
-      - 🇭🇰 中国 - 香港 - Akari Networks 2
-      - 🇭🇰 中国 - 香港 - Akari Networks 3
-      - 🇭🇰 中国 - 香港 - Akari Networks 4
-      - 🇭🇰 中国 - 香港 - Akari Networks 5
-      - 🇭🇰 中国 - 香港 - Akari Networks 6
-      - 🇭🇰 中国 - 香港 - Akari Networks 7
-      - 🇭🇰 中国 - 香港 - Akari Networks 8
-      - 🇭🇰 中国 - 香港 - Akari Networks 9
-      - 🇭🇰 中国 - 香港 - Akari Networks 10
-      - 🇭🇰 中国 - 香港 - Akari Networks 11
-      - 🇭🇰 中国 - 香港 - Akari Networks 12
-      - 🇭🇰 中国 - 香港 - Akari Networks 13
-      - 🇭🇰 中国 - 香港 - Akari Networks 14
-      - 🇭🇰 中国 - 香港 - Akari Networks 15
-      - 🇭🇰 中国 - 香港 - Akari Networks 16
-      - 🇭🇰 中国 - 香港 - Akari Networks 17
-      - 🇭🇰 中国 - 香港 - Akari Networks 18
-      - 🇭🇰 中国 - 香港 - Akari Networks 19
-      - 🇭🇰 中国 - 香港 - Akari Networks 20
-      - 🇭🇰 中国 - 香港 - Akari Networks 21
-      - 🇭🇰 中国 - 香港 - Akari Networks 22
-      - 🇭🇰 中国 - 香港 - Akari Networks 23
-      - 🇭🇰 中国 - 香港 - Akari Networks 24
-      - 🇭🇰 中国 - 香港 - Akari Networks 25
-      - 🇭🇰 中国 - 香港 - Akari Networks 26
-      - 🇭🇰 中国 - 香港 - Akari Networks 27
-      - 🇭🇰 中国 - 香港 - Akari Networks 28
-      - 🇭🇰 中国 - 香港 - Akari Networks 29
-      - 🇭🇰 中国 - 香港 - Akari Networks 30
-      - 🇭🇰 中国 - 香港 - Akari Networks 31
-      - 🇭🇰 中国 - 香港 - Akari Networks 32
-      - 🇭🇰 中国 - 香港 - Akari Networks 33
-      - 🇭🇰 中国 - 香港 - Akari Networks 34
-      - 🇭🇰 中国 - 香港 - Akari Networks 35
-      - 🇭🇰 中国 - 香港 - Akari Networks 36
-      - 🇭🇰 中国 - 香港 - Akari Networks 37
-      - 🇭🇰 中国 - 香港 - Akari Networks 38
-      - 🇭🇰 中国 - 香港 - Akari Networks 39
-      - 🇭🇰 中国 - 香港 - Akari Networks 40
-      - 🇭🇰 中国 - 香港 - Akari Networks 41
-      - 🇭🇰 中国 - 香港 - Akari Networks 42
-      - 🇭🇰 中国 - 香港 - Akari Networks 43
-      - 🇭🇰 中国 - 香港 - Akari Networks 44
-      - 🇭🇰 中国 - 香港 - Akari Networks 45
-      - 🇭🇰 中国 - 香港 - Akari Networks 46
-      - 🇭🇰 中国 - 香港 - Akari Networks 47
-      - 🇭🇰 中国 - 香港 - Akari Networks 48
-      - 🇭🇰 中国 - 香港 - Akari Networks 49
-      - 🇭🇰 中国 - 香港 - Akari Networks 50
-      - 🇭🇰 中国 - 香港 - Akari Networks 51
-      - 🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc.
-      - 🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 2
-      - 🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 3
-      - 🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 4
-      - 🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 5
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - Yisp B.V.
-      - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc.
-      - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 2
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 3
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 4
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 5
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 6
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 7
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 8
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 9
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 10
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 2
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 3
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 4
-      - 🇺🇸 美国 - 普林斯顿 - Alibaba (US) Technology Co., Ltd.
-      - 🇺🇸 美国 - 普罗维登斯 - Alibaba (US) Technology Co., Ltd.
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 2
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 3
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 4
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 5
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 6
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 7
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 8
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 9
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 10
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 11
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 12
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 13
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 14
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 15
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 16
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 17
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 18
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 19
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 20
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 21
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 22
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 23
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 24
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 25
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 26
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 27
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 28
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 29
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 30
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 31
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 32
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 2
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 3
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 4
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 5
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 6
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 7
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 8
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 9
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 10
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 11
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 12
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 13
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 14
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 15
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 16
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 17
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 18
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 19
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 20
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 21
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 22
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 23
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 24
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 25
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 26
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 27
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 28
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 29
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 30
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 31
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 32
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 33
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 34
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 35
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 36
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 37
+      - 🇺🇸 美国 Cloudinnovation数据中心
+      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
+      - 🇨🇳 台湾省台北市 中华电信
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇿🇦 南非 V2CROSS.COM
+      - 🇺🇦 乌克兰 V2CROSS.COM
+      - 🇨🇳 台湾省桃园市 中华电信
+      - 🇨🇳 台湾省新北市 中华电信
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇦 乌克兰 V2CROSS.COM 2
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇨🇳 台湾省台中市 中华电信
+      - 🇨🇳 台湾省花莲县 中华电信
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇨🇳 台湾省桃园市 中华电信 2
+      - 🇨🇳 台湾省新北市 中华电信 2
+      - 🇨🇳 台湾省台中市 中华电信 2
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇨🇳 台湾省 中华电信(HiNet)数据中心 2
+      - 🇨🇳 台湾省 中华电信(HiNet)数据中心 3
+      - 🇺🇸 美国 Cloudinnovation数据中心 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -477,220 +145,54 @@ proxy-groups:
       - 全网低价个人证书
       - iOS|轻松签|全能签|P12证书
       - 定制V信|应用分身|V信密友|破解软件
-      - 🇨🇳 中国 - 台湾 - Akari Networks
-      - 🇨🇳 中国 - 台湾 - Akari Networks 2
-      - 🇨🇳 中国 - 台湾 - Akari Networks 3
-      - 🇨🇳 中国 - 台湾 - Akari Networks 4
-      - 🇨🇳 中国 - 台湾 - Akari Networks 5
-      - 🇨🇳 中国 - 台湾 - Akari Networks 6
-      - 🇨🇳 中国 - 台湾 - Akari Networks 7
-      - 🇨🇳 中国 - 台湾 - Akari Networks 8
-      - 🇨🇳 中国 - 台湾 - Akari Networks 9
-      - 🇨🇳 中国 - 台湾 - Akari Networks 10
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd.
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 2
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 3
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 4
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 5
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 6
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 7
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 8
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 9
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 10
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 11
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 12
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 13
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 14
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 15
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 16
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 17
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 18
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 19
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 20
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 21
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 22
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 23
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 24
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 25
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 26
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 27
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 28
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 29
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 30
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 31
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 32
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 33
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 34
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 35
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 36
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 37
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 38
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 39
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 40
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 41
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 42
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 43
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 44
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 45
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 46
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 47
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 48
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 49
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 50
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 51
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 52
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 53
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 54
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 55
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 56
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 57
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 58
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 59
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 60
-      - 🇭🇰 中国 - 香港 - Akari Networks
-      - 🇭🇰 中国 - 香港 - Akari Networks 2
-      - 🇭🇰 中国 - 香港 - Akari Networks 3
-      - 🇭🇰 中国 - 香港 - Akari Networks 4
-      - 🇭🇰 中国 - 香港 - Akari Networks 5
-      - 🇭🇰 中国 - 香港 - Akari Networks 6
-      - 🇭🇰 中国 - 香港 - Akari Networks 7
-      - 🇭🇰 中国 - 香港 - Akari Networks 8
-      - 🇭🇰 中国 - 香港 - Akari Networks 9
-      - 🇭🇰 中国 - 香港 - Akari Networks 10
-      - 🇭🇰 中国 - 香港 - Akari Networks 11
-      - 🇭🇰 中国 - 香港 - Akari Networks 12
-      - 🇭🇰 中国 - 香港 - Akari Networks 13
-      - 🇭🇰 中国 - 香港 - Akari Networks 14
-      - 🇭🇰 中国 - 香港 - Akari Networks 15
-      - 🇭🇰 中国 - 香港 - Akari Networks 16
-      - 🇭🇰 中国 - 香港 - Akari Networks 17
-      - 🇭🇰 中国 - 香港 - Akari Networks 18
-      - 🇭🇰 中国 - 香港 - Akari Networks 19
-      - 🇭🇰 中国 - 香港 - Akari Networks 20
-      - 🇭🇰 中国 - 香港 - Akari Networks 21
-      - 🇭🇰 中国 - 香港 - Akari Networks 22
-      - 🇭🇰 中国 - 香港 - Akari Networks 23
-      - 🇭🇰 中国 - 香港 - Akari Networks 24
-      - 🇭🇰 中国 - 香港 - Akari Networks 25
-      - 🇭🇰 中国 - 香港 - Akari Networks 26
-      - 🇭🇰 中国 - 香港 - Akari Networks 27
-      - 🇭🇰 中国 - 香港 - Akari Networks 28
-      - 🇭🇰 中国 - 香港 - Akari Networks 29
-      - 🇭🇰 中国 - 香港 - Akari Networks 30
-      - 🇭🇰 中国 - 香港 - Akari Networks 31
-      - 🇭🇰 中国 - 香港 - Akari Networks 32
-      - 🇭🇰 中国 - 香港 - Akari Networks 33
-      - 🇭🇰 中国 - 香港 - Akari Networks 34
-      - 🇭🇰 中国 - 香港 - Akari Networks 35
-      - 🇭🇰 中国 - 香港 - Akari Networks 36
-      - 🇭🇰 中国 - 香港 - Akari Networks 37
-      - 🇭🇰 中国 - 香港 - Akari Networks 38
-      - 🇭🇰 中国 - 香港 - Akari Networks 39
-      - 🇭🇰 中国 - 香港 - Akari Networks 40
-      - 🇭🇰 中国 - 香港 - Akari Networks 41
-      - 🇭🇰 中国 - 香港 - Akari Networks 42
-      - 🇭🇰 中国 - 香港 - Akari Networks 43
-      - 🇭🇰 中国 - 香港 - Akari Networks 44
-      - 🇭🇰 中国 - 香港 - Akari Networks 45
-      - 🇭🇰 中国 - 香港 - Akari Networks 46
-      - 🇭🇰 中国 - 香港 - Akari Networks 47
-      - 🇭🇰 中国 - 香港 - Akari Networks 48
-      - 🇭🇰 中国 - 香港 - Akari Networks 49
-      - 🇭🇰 中国 - 香港 - Akari Networks 50
-      - 🇭🇰 中国 - 香港 - Akari Networks 51
-      - 🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc.
-      - 🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 2
-      - 🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 3
-      - 🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 4
-      - 🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 5
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - Yisp B.V.
-      - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc.
-      - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 2
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 3
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 4
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 5
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 6
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 7
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 8
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 9
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 10
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 2
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 3
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 4
-      - 🇺🇸 美国 - 普林斯顿 - Alibaba (US) Technology Co., Ltd.
-      - 🇺🇸 美国 - 普罗维登斯 - Alibaba (US) Technology Co., Ltd.
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 2
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 3
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 4
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 5
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 6
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 7
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 8
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 9
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 10
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 11
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 12
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 13
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 14
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 15
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 16
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 17
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 18
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 19
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 20
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 21
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 22
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 23
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 24
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 25
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 26
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 27
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 28
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 29
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 30
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 31
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 32
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 2
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 3
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 4
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 5
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 6
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 7
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 8
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 9
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 10
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 11
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 12
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 13
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 14
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 15
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 16
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 17
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 18
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 19
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 20
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 21
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 22
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 23
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 24
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 25
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 26
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 27
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 28
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 29
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 30
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 31
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 32
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 33
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 34
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 35
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 36
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 37
+      - 🇺🇸 美国 Cloudinnovation数据中心
+      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
+      - 🇨🇳 台湾省台北市 中华电信
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇿🇦 南非 V2CROSS.COM
+      - 🇺🇦 乌克兰 V2CROSS.COM
+      - 🇨🇳 台湾省桃园市 中华电信
+      - 🇨🇳 台湾省新北市 中华电信
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇦 乌克兰 V2CROSS.COM 2
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇨🇳 台湾省台中市 中华电信
+      - 🇨🇳 台湾省花莲县 中华电信
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇨🇳 台湾省桃园市 中华电信 2
+      - 🇨🇳 台湾省新北市 中华电信 2
+      - 🇨🇳 台湾省台中市 中华电信 2
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇨🇳 台湾省 中华电信(HiNet)数据中心 2
+      - 🇨🇳 台湾省 中华电信(HiNet)数据中心 3
+      - 🇺🇸 美国 Cloudinnovation数据中心 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -716,277 +218,61 @@ proxy-groups:
       - 全网低价个人证书
       - iOS|轻松签|全能签|P12证书
       - 定制V信|应用分身|V信密友|破解软件
-      - 🇨🇳 中国 - 台湾 - Akari Networks
-      - 🇨🇳 中国 - 台湾 - Akari Networks 2
-      - 🇨🇳 中国 - 台湾 - Akari Networks 3
-      - 🇨🇳 中国 - 台湾 - Akari Networks 4
-      - 🇨🇳 中国 - 台湾 - Akari Networks 5
-      - 🇨🇳 中国 - 台湾 - Akari Networks 6
-      - 🇨🇳 中国 - 台湾 - Akari Networks 7
-      - 🇨🇳 中国 - 台湾 - Akari Networks 8
-      - 🇨🇳 中国 - 台湾 - Akari Networks 9
-      - 🇨🇳 中国 - 台湾 - Akari Networks 10
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd.
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 2
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 3
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 4
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 5
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 6
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 7
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 8
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 9
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 10
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 11
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 12
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 13
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 14
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 15
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 16
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 17
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 18
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 19
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 20
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 21
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 22
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 23
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 24
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 25
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 26
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 27
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 28
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 29
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 30
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 31
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 32
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 33
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 34
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 35
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 36
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 37
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 38
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 39
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 40
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 41
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 42
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 43
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 44
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 45
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 46
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 47
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 48
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 49
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 50
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 51
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 52
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 53
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 54
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 55
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 56
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 57
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 58
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 59
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 60
-      - 🇭🇰 中国 - 香港 - Akari Networks
-      - 🇭🇰 中国 - 香港 - Akari Networks 2
-      - 🇭🇰 中国 - 香港 - Akari Networks 3
-      - 🇭🇰 中国 - 香港 - Akari Networks 4
-      - 🇭🇰 中国 - 香港 - Akari Networks 5
-      - 🇭🇰 中国 - 香港 - Akari Networks 6
-      - 🇭🇰 中国 - 香港 - Akari Networks 7
-      - 🇭🇰 中国 - 香港 - Akari Networks 8
-      - 🇭🇰 中国 - 香港 - Akari Networks 9
-      - 🇭🇰 中国 - 香港 - Akari Networks 10
-      - 🇭🇰 中国 - 香港 - Akari Networks 11
-      - 🇭🇰 中国 - 香港 - Akari Networks 12
-      - 🇭🇰 中国 - 香港 - Akari Networks 13
-      - 🇭🇰 中国 - 香港 - Akari Networks 14
-      - 🇭🇰 中国 - 香港 - Akari Networks 15
-      - 🇭🇰 中国 - 香港 - Akari Networks 16
-      - 🇭🇰 中国 - 香港 - Akari Networks 17
-      - 🇭🇰 中国 - 香港 - Akari Networks 18
-      - 🇭🇰 中国 - 香港 - Akari Networks 19
-      - 🇭🇰 中国 - 香港 - Akari Networks 20
-      - 🇭🇰 中国 - 香港 - Akari Networks 21
-      - 🇭🇰 中国 - 香港 - Akari Networks 22
-      - 🇭🇰 中国 - 香港 - Akari Networks 23
-      - 🇭🇰 中国 - 香港 - Akari Networks 24
-      - 🇭🇰 中国 - 香港 - Akari Networks 25
-      - 🇭🇰 中国 - 香港 - Akari Networks 26
-      - 🇭🇰 中国 - 香港 - Akari Networks 27
-      - 🇭🇰 中国 - 香港 - Akari Networks 28
-      - 🇭🇰 中国 - 香港 - Akari Networks 29
-      - 🇭🇰 中国 - 香港 - Akari Networks 30
-      - 🇭🇰 中国 - 香港 - Akari Networks 31
-      - 🇭🇰 中国 - 香港 - Akari Networks 32
-      - 🇭🇰 中国 - 香港 - Akari Networks 33
-      - 🇭🇰 中国 - 香港 - Akari Networks 34
-      - 🇭🇰 中国 - 香港 - Akari Networks 35
-      - 🇭🇰 中国 - 香港 - Akari Networks 36
-      - 🇭🇰 中国 - 香港 - Akari Networks 37
-      - 🇭🇰 中国 - 香港 - Akari Networks 38
-      - 🇭🇰 中国 - 香港 - Akari Networks 39
-      - 🇭🇰 中国 - 香港 - Akari Networks 40
-      - 🇭🇰 中国 - 香港 - Akari Networks 41
-      - 🇭🇰 中国 - 香港 - Akari Networks 42
-      - 🇭🇰 中国 - 香港 - Akari Networks 43
-      - 🇭🇰 中国 - 香港 - Akari Networks 44
-      - 🇭🇰 中国 - 香港 - Akari Networks 45
-      - 🇭🇰 中国 - 香港 - Akari Networks 46
-      - 🇭🇰 中国 - 香港 - Akari Networks 47
-      - 🇭🇰 中国 - 香港 - Akari Networks 48
-      - 🇭🇰 中国 - 香港 - Akari Networks 49
-      - 🇭🇰 中国 - 香港 - Akari Networks 50
-      - 🇭🇰 中国 - 香港 - Akari Networks 51
-      - 🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc.
-      - 🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 2
-      - 🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 3
-      - 🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 4
-      - 🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 5
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - Yisp B.V.
-      - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc.
-      - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 2
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 3
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 4
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 5
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 6
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 7
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 8
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 9
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 10
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 2
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 3
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 4
-      - 🇺🇸 美国 - 普林斯顿 - Alibaba (US) Technology Co., Ltd.
-      - 🇺🇸 美国 - 普罗维登斯 - Alibaba (US) Technology Co., Ltd.
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 2
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 3
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 4
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 5
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 6
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 7
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 8
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 9
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 10
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 11
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 12
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 13
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 14
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 15
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 16
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 17
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 18
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 19
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 20
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 21
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 22
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 23
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 24
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 25
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 26
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 27
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 28
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 29
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 30
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 31
-      - 🇫🇷 法国 枭木iOS大本营 @Tmxios 32
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 2
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 3
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 4
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 5
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 6
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 7
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 8
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 9
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 10
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 11
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 12
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 13
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 14
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 15
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 16
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 17
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 18
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 19
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 20
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 21
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 22
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 23
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 24
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 25
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 26
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 27
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 28
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 29
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 30
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 31
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 32
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 33
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 34
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 35
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 36
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 37
+      - 🇺🇸 美国 Cloudinnovation数据中心
+      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
+      - 🇨🇳 台湾省台北市 中华电信
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇿🇦 南非 V2CROSS.COM
+      - 🇺🇦 乌克兰 V2CROSS.COM
+      - 🇨🇳 台湾省桃园市 中华电信
+      - 🇨🇳 台湾省新北市 中华电信
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇦 乌克兰 V2CROSS.COM 2
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇨🇳 台湾省台中市 中华电信
+      - 🇨🇳 台湾省花莲县 中华电信
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇨🇳 台湾省桃园市 中华电信 2
+      - 🇨🇳 台湾省新北市 中华电信 2
+      - 🇨🇳 台湾省台中市 中华电信 2
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇨🇳 台湾省 中华电信(HiNet)数据中心 2
+      - 🇨🇳 台湾省 中华电信(HiNet)数据中心 3
+      - 🇺🇸 美国 Cloudinnovation数据中心 2
   - name: 🇭🇰 香港节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 中国 - 香港 - Akari Networks
-      - 🇭🇰 中国 - 香港 - Akari Networks 2
-      - 🇭🇰 中国 - 香港 - Akari Networks 3
-      - 🇭🇰 中国 - 香港 - Akari Networks 4
-      - 🇭🇰 中国 - 香港 - Akari Networks 5
-      - 🇭🇰 中国 - 香港 - Akari Networks 6
-      - 🇭🇰 中国 - 香港 - Akari Networks 7
-      - 🇭🇰 中国 - 香港 - Akari Networks 8
-      - 🇭🇰 中国 - 香港 - Akari Networks 9
-      - 🇭🇰 中国 - 香港 - Akari Networks 10
-      - 🇭🇰 中国 - 香港 - Akari Networks 11
-      - 🇭🇰 中国 - 香港 - Akari Networks 12
-      - 🇭🇰 中国 - 香港 - Akari Networks 13
-      - 🇭🇰 中国 - 香港 - Akari Networks 14
-      - 🇭🇰 中国 - 香港 - Akari Networks 15
-      - 🇭🇰 中国 - 香港 - Akari Networks 16
-      - 🇭🇰 中国 - 香港 - Akari Networks 17
-      - 🇭🇰 中国 - 香港 - Akari Networks 18
-      - 🇭🇰 中国 - 香港 - Akari Networks 19
-      - 🇭🇰 中国 - 香港 - Akari Networks 20
-      - 🇭🇰 中国 - 香港 - Akari Networks 21
-      - 🇭🇰 中国 - 香港 - Akari Networks 22
-      - 🇭🇰 中国 - 香港 - Akari Networks 23
-      - 🇭🇰 中国 - 香港 - Akari Networks 24
-      - 🇭🇰 中国 - 香港 - Akari Networks 25
-      - 🇭🇰 中国 - 香港 - Akari Networks 26
-      - 🇭🇰 中国 - 香港 - Akari Networks 27
-      - 🇭🇰 中国 - 香港 - Akari Networks 28
-      - 🇭🇰 中国 - 香港 - Akari Networks 29
-      - 🇭🇰 中国 - 香港 - Akari Networks 30
-      - 🇭🇰 中国 - 香港 - Akari Networks 31
-      - 🇭🇰 中国 - 香港 - Akari Networks 32
-      - 🇭🇰 中国 - 香港 - Akari Networks 33
-      - 🇭🇰 中国 - 香港 - Akari Networks 34
-      - 🇭🇰 中国 - 香港 - Akari Networks 35
-      - 🇭🇰 中国 - 香港 - Akari Networks 36
-      - 🇭🇰 中国 - 香港 - Akari Networks 37
-      - 🇭🇰 中国 - 香港 - Akari Networks 38
-      - 🇭🇰 中国 - 香港 - Akari Networks 39
-      - 🇭🇰 中国 - 香港 - Akari Networks 40
-      - 🇭🇰 中国 - 香港 - Akari Networks 41
-      - 🇭🇰 中国 - 香港 - Akari Networks 42
-      - 🇭🇰 中国 - 香港 - Akari Networks 43
-      - 🇭🇰 中国 - 香港 - Akari Networks 44
-      - 🇭🇰 中国 - 香港 - Akari Networks 45
-      - 🇭🇰 中国 - 香港 - Akari Networks 46
-      - 🇭🇰 中国 - 香港 - Akari Networks 47
-      - 🇭🇰 中国 - 香港 - Akari Networks 48
-      - 🇭🇰 中国 - 香港 - Akari Networks 49
-      - 🇭🇰 中国 - 香港 - Akari Networks 50
-      - 🇭🇰 中国 - 香港 - Akari Networks 51
+      - DIRECT
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -1000,67 +286,21 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc.
-      - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 2
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 3
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 4
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 5
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 6
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 7
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 8
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 9
-      - 🇸🇬 新加坡 - 新加坡 - OVH SAS 10
+      - DIRECT
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 2
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 3
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 4
-      - 🇺🇸 美国 - 普林斯顿 - Alibaba (US) Technology Co., Ltd.
-      - 🇺🇸 美国 - 普罗维登斯 - Alibaba (US) Technology Co., Ltd.
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 2
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 3
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 4
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 5
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 6
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 7
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 8
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 9
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 10
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 11
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 12
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 13
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 14
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 15
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 16
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 17
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 18
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 19
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 20
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 21
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 22
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 23
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 24
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 25
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 26
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 27
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 28
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 29
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 30
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 31
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 32
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 33
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 34
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 35
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 36
-      - 🇺🇸 美国 枭木iOS大本营 @Tmxios 37
+      - 🇺🇸 美国 Cloudinnovation数据中心
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇺🇸 美国 Cloudinnovation数据中心 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
