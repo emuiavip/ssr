@@ -3,7 +3,7 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: 127.0.0.1:9090
+external-controller: :9090
 proxies:
   - {name: 枭木iOS大本营 TG@Tmxios, server: 1.1.1.1, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: https://t.me/Tmxios, server: 1.1.1.1, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
@@ -13,6 +13,24 @@ proxies:
   - {name: 全网低价个人证书, server: 1.1.1.1, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
   - {name: iOS|轻松签|全能签|P12证书, server: 1.1.1.1, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
   - {name: 定制V信|应用分身|V信密友|破解软件, server: 1.1.1.1, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
+  - {name: 🇷🇴 罗马尼亚1, server: 188.214.157.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇨🇳 广东省广州市2, server: 183.233.187.235, port: 50004, type: ss, cipher: chacha20-ietf-poly1305, password: 99301d55-a41f-4919-986b-1435996533aa}
+  - {name: 🇯🇵 日本15, server: 43.200.244.103, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本16, server: 43.201.47.103, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡17, server: 13.250.8.240, port: 443, type: trojan, password: d33df23a-8b9e-468e-bc33-dd3643008ced, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true}
+  - {name: 🇭🇺 匈牙利18, server: 109.61.80.225, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇭🇰 香港19, server: 47.76.51.110, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+  - {name: 🇨🇳 甘肃省兰州市20, server: 36.140.130.67, port: 50010, type: vmess, uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇺 俄罗斯21, server: 91.107.145.222, port: 443, type: vmess, uuid: d20e38ef-1a4d-4009-a00d-2f0d44e3c65a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国22, server: 54.38.156.210, port: 443, type: trojan, password: 009e1290-87c9-11ee-ba55-1239d0255272, sni: de1.test3.net, skip-cert-verify: true}
+  - {name: 🇺🇸 美国23, server: 3.77.171.43, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
+  - {name: 🇺🇸 美国24, server: 138.2.126.38, port: 20352, type: trojan, password: 4e9451c6-0678-4e37-acc9-8afcc39451c5, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本25, server: 43.201.255.239, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇫🇷 法国26, server: 51.158.195.96, port: 110, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 法国27, server: 51.158.195.96, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 法国28, server: 51.158.195.96, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇷🇺 俄罗斯29, server: 77.91.103.108, port: 15708, type: ss, cipher: chacha20-ietf-poly1305, password: GXGhsxweEyBgvyUc5Xaoae}
+  - {name: 🇨🇳 台湾省台北市30, server: 111.243.94.97, port: 443, type: trojan, password: d33df23a-8b9e-468e-bc33-dd3643008ced, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true}
   - {name: 🇨🇭 瑞士 - 伯尔尼 - Stark Industries Solutions LTD, server: 5.182.36.245, port: 10141, type: ss, cipher: chacha20-ietf-poly1305, password: ndJuPjq7WbFDjB4oacljGw}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd.", server: cm01.newcome.xyz, port: 5702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
   - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 2", server: cm01.newcome.xyz, port: 5704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
@@ -64,25 +82,32 @@ proxies:
   - {name: 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. 3, server: 13.215.249.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: "🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC", server: 146.190.108.227, port: 1, type: trojan, password: !<str> 1, sni: m.zoom.us, skip-cert-verify: true}
   - {name: "🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC 2", server: 146.190.87.61, port: 2, type: trojan, password: 24END, sni: m.zoom.us, skip-cert-verify: true}
-  - {name: 🇺🇲 美国 - Reston - OVH SAS, server: cm01.newcome.xyz, port: 7708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
-  - {name: 🇺🇲 美国 - Reston - OVH SAS 2, server: cm01.newcome.xyz, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
-  - {name: 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS, server: 120.240.88.111, port: 7709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
-  - {name: 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 2, server: cm01.newcome.xyz, port: 7704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
-  - {name: 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 3, server: 120.240.88.111, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
-  - {name: 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 4, server: cm01.newcome.xyz, port: 7703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
-  - {name: 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 5, server: cm01.newcome.xyz, port: 7709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
-  - {name: 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 6, server: cm01.newcome.xyz, port: 7700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
-  - {name: 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 7, server: 120.240.88.111, port: 7706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
-  - {name: "🇺🇲 美国 - 普林斯顿 - Alibaba (US) Technology Co., Ltd.", server: 47.76.51.110, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
-  - {name: 🇺🇲 美国 - 洛杉矶 - Enzu Inc 3, server: yd-02.paofunlink.com, port: 1052, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 7521:12HsOu, obfs-param: fb7bc7521.microsoft.com}
+  - {name: 🇺🇸 美国 - Reston - OVH SAS, server: cm01.newcome.xyz, port: 7708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
+  - {name: 🇺🇸 美国 - Reston - OVH SAS 2, server: cm01.newcome.xyz, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
+  - {name: 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS, server: 120.240.88.111, port: 7709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
+  - {name: 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 2, server: cm01.newcome.xyz, port: 7704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
+  - {name: 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 3, server: 120.240.88.111, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
+  - {name: 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 4, server: cm01.newcome.xyz, port: 7703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
+  - {name: 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 5, server: cm01.newcome.xyz, port: 7709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
+  - {name: 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 6, server: cm01.newcome.xyz, port: 7700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
+  - {name: 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 7, server: 120.240.88.111, port: 7706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
+  - {name: "🇺🇸 美国 - 普林斯顿 - Alibaba (US) Technology Co., Ltd.", server: 47.76.51.110, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+  - {name: 🇺🇸 美国 - 洛杉矶 - Enzu Inc 3, server: yd-02.paofunlink.com, port: 1052, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 7521:12HsOu, obfs-param: fb7bc7521.microsoft.com}
   - {name: 🇿🇦 南非 - 開普敦 - Xneelo (Pty) Ltd, server: 41.203.4.34, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🔯 故障转移
+      - 🇭🇰 香港节点
+      - 🇸🇬 狮城节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🚀 手动切换
       - DIRECT
+  - name: 🚀 手动切换
+    type: select
+    proxies:
       - 枭木iOS大本营 TG@Tmxios
       - https://t.me/Tmxios
       - P12证书 https://p12.tmxios.top
@@ -91,6 +116,24 @@ proxy-groups:
       - 全网低价个人证书
       - iOS|轻松签|全能签|P12证书
       - 定制V信|应用分身|V信密友|破解软件
+      - 🇷🇴 罗马尼亚1
+      - 🇨🇳 广东省广州市2
+      - 🇯🇵 日本15
+      - 🇯🇵 日本16
+      - 🇸🇬 新加坡17
+      - 🇭🇺 匈牙利18
+      - 🇭🇰 香港19
+      - 🇨🇳 甘肃省兰州市20
+      - 🇷🇺 俄罗斯21
+      - 🇫🇷 法国22
+      - 🇺🇸 美国23
+      - 🇺🇸 美国24
+      - 🇯🇵 日本25
+      - 🇫🇷 法国26
+      - 🇫🇷 法国27
+      - 🇫🇷 法国28
+      - 🇷🇺 俄罗斯29
+      - 🇨🇳 台湾省台北市30
       - 🇨🇭 瑞士 - 伯尔尼 - Stark Industries Solutions LTD
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd.
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 2
@@ -142,17 +185,17 @@ proxy-groups:
       - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. 3
       - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC
       - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC 2
-      - 🇺🇲 美国 - Reston - OVH SAS
-      - 🇺🇲 美国 - Reston - OVH SAS 2
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 2
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 3
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 4
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 5
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 6
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 7
-      - 🇺🇲 美国 - 普林斯顿 - Alibaba (US) Technology Co., Ltd.
-      - 🇺🇲 美国 - 洛杉矶 - Enzu Inc 3
+      - 🇺🇸 美国 - Reston - OVH SAS
+      - 🇺🇸 美国 - Reston - OVH SAS 2
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 2
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 3
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 4
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 5
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 6
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 7
+      - 🇺🇸 美国 - 普林斯顿 - Alibaba (US) Technology Co., Ltd.
+      - 🇺🇸 美国 - 洛杉矶 - Enzu Inc 3
       - 🇿🇦 南非 - 開普敦 - Xneelo (Pty) Ltd
   - name: ♻️ 自动选择
     type: url-test
@@ -168,6 +211,24 @@ proxy-groups:
       - 全网低价个人证书
       - iOS|轻松签|全能签|P12证书
       - 定制V信|应用分身|V信密友|破解软件
+      - 🇷🇴 罗马尼亚1
+      - 🇨🇳 广东省广州市2
+      - 🇯🇵 日本15
+      - 🇯🇵 日本16
+      - 🇸🇬 新加坡17
+      - 🇭🇺 匈牙利18
+      - 🇭🇰 香港19
+      - 🇨🇳 甘肃省兰州市20
+      - 🇷🇺 俄罗斯21
+      - 🇫🇷 法国22
+      - 🇺🇸 美国23
+      - 🇺🇸 美国24
+      - 🇯🇵 日本25
+      - 🇫🇷 法国26
+      - 🇫🇷 法国27
+      - 🇫🇷 法国28
+      - 🇷🇺 俄罗斯29
+      - 🇨🇳 台湾省台北市30
       - 🇨🇭 瑞士 - 伯尔尼 - Stark Industries Solutions LTD
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd.
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 2
@@ -219,93 +280,17 @@ proxy-groups:
       - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. 3
       - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC
       - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC 2
-      - 🇺🇲 美国 - Reston - OVH SAS
-      - 🇺🇲 美国 - Reston - OVH SAS 2
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 2
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 3
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 4
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 5
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 6
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 7
-      - 🇺🇲 美国 - 普林斯顿 - Alibaba (US) Technology Co., Ltd.
-      - 🇺🇲 美国 - 洛杉矶 - Enzu Inc 3
-      - 🇿🇦 南非 - 開普敦 - Xneelo (Pty) Ltd
-  - name: 🔯 故障转移
-    type: fallback
-    url: http://www.gstatic.com/generate_204
-    interval: 180
-    proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇨🇭 瑞士 - 伯尔尼 - Stark Industries Solutions LTD
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd.
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 2
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 3
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 4
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 5
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 6
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 7
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 8
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 9
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc.
-      - 🇯🇵 日本 - 东京 - Datacamp Limited
-      - 🇯🇵 日本 - 东京 - Datacamp Limited 2
-      - 🇯🇵 日本 - 东京 - Datacamp Limited 3
-      - 🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc.
-      - 🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 4
-      - 🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 7
-      - 🇳🇱 荷兰 - 哈勒姆 - Online S.A.S.
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 2
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 3
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 4
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 5
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 6
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 7
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 8
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 9
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 10
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 11
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 12
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 13
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 14
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 15
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 16
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 17
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 18
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 19
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 20
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 21
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 22
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 23
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 24
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 25
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 26
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 27
-      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 28
-      - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc.
-      - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. 2
-      - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. 3
-      - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC
-      - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC 2
-      - 🇺🇲 美国 - Reston - OVH SAS
-      - 🇺🇲 美国 - Reston - OVH SAS 2
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 2
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 3
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 4
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 5
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 6
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 7
-      - 🇺🇲 美国 - 普林斯顿 - Alibaba (US) Technology Co., Ltd.
-      - 🇺🇲 美国 - 洛杉矶 - Enzu Inc 3
+      - 🇺🇸 美国 - Reston - OVH SAS
+      - 🇺🇸 美国 - Reston - OVH SAS 2
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 2
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 3
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 4
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 5
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 6
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 7
+      - 🇺🇸 美国 - 普林斯顿 - Alibaba (US) Technology Co., Ltd.
+      - 🇺🇸 美国 - 洛杉矶 - Enzu Inc 3
       - 🇿🇦 南非 - 開普敦 - Xneelo (Pty) Ltd
   - name: 🎯 全球直连
     type: select
@@ -324,7 +309,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🔯 故障转移
       - 枭木iOS大本营 TG@Tmxios
       - https://t.me/Tmxios
       - P12证书 https://p12.tmxios.top
@@ -333,6 +317,24 @@ proxy-groups:
       - 全网低价个人证书
       - iOS|轻松签|全能签|P12证书
       - 定制V信|应用分身|V信密友|破解软件
+      - 🇷🇴 罗马尼亚1
+      - 🇨🇳 广东省广州市2
+      - 🇯🇵 日本15
+      - 🇯🇵 日本16
+      - 🇸🇬 新加坡17
+      - 🇭🇺 匈牙利18
+      - 🇭🇰 香港19
+      - 🇨🇳 甘肃省兰州市20
+      - 🇷🇺 俄罗斯21
+      - 🇫🇷 法国22
+      - 🇺🇸 美国23
+      - 🇺🇸 美国24
+      - 🇯🇵 日本25
+      - 🇫🇷 法国26
+      - 🇫🇷 法国27
+      - 🇫🇷 法国28
+      - 🇷🇺 俄罗斯29
+      - 🇨🇳 台湾省台北市30
       - 🇨🇭 瑞士 - 伯尔尼 - Stark Industries Solutions LTD
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd.
       - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. 2
@@ -384,18 +386,97 @@ proxy-groups:
       - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. 3
       - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC
       - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC 2
-      - 🇺🇲 美国 - Reston - OVH SAS
-      - 🇺🇲 美国 - Reston - OVH SAS 2
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 2
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 3
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 4
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 5
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 6
-      - 🇺🇲 美国 - 希尔斯伯勒 - OVH SAS 7
-      - 🇺🇲 美国 - 普林斯顿 - Alibaba (US) Technology Co., Ltd.
-      - 🇺🇲 美国 - 洛杉矶 - Enzu Inc 3
+      - 🇺🇸 美国 - Reston - OVH SAS
+      - 🇺🇸 美国 - Reston - OVH SAS 2
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 2
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 3
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 4
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 5
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 6
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 7
+      - 🇺🇸 美国 - 普林斯顿 - Alibaba (US) Technology Co., Ltd.
+      - 🇺🇸 美国 - 洛杉矶 - Enzu Inc 3
       - 🇿🇦 南非 - 開普敦 - Xneelo (Pty) Ltd
+  - name: 🇭🇰 香港节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇭🇰 香港19
+  - name: 🇯🇵 日本节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇯🇵 日本15
+      - 🇯🇵 日本16
+      - 🇯🇵 日本25
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc.
+      - 🇯🇵 日本 - 东京 - Datacamp Limited
+      - 🇯🇵 日本 - 东京 - Datacamp Limited 2
+      - 🇯🇵 日本 - 东京 - Datacamp Limited 3
+  - name: 🇸🇬 狮城节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇸🇬 新加坡17
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 2
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 3
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 4
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 5
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 6
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 7
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 8
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 9
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 10
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 11
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 12
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 13
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 14
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 15
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 16
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 17
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 18
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 19
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 20
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 21
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 22
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 23
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 24
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 25
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 26
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 27
+      - 🇸🇬 新加坡 - 新加坡 - Akari Networks Limited 28
+      - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc.
+      - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. 2
+      - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. 3
+      - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC
+      - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC 2
+  - name: 🇺🇲 美国节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇺🇸 美国23
+      - 🇺🇸 美国24
+      - 🇺🇸 美国 - Reston - OVH SAS
+      - 🇺🇸 美国 - Reston - OVH SAS 2
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 2
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 3
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 4
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 5
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 6
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS 7
+      - 🇺🇸 美国 - 普林斯顿 - Alibaba (US) Technology Co., Ltd.
+      - 🇺🇸 美国 - 洛杉矶 - Enzu Inc 3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
