@@ -21,49 +21,29 @@ P12证书 https://p12.tmxios.top = ss, 1.1.1.1, 30067, encrypt-method=aes-256-gc
 全网低价个人证书 = ss, 1.1.1.1, 30067, encrypt-method=aes-256-gcm, password=iUB0923RBA
 iOS|轻松签|全能签|P12证书 = ss, 1.1.1.1, 30067, encrypt-method=aes-256-gcm, password=iUB0923RBA
 定制V信|应用分身|V信密友|破解软件 = ss, 1.1.1.1, 30067, encrypt-method=aes-256-gcm, password=iUB0923RBA
-🇷🇴 罗马尼亚1 = ss, 188.214.157.5, 989, encrypt-method=aes-256-cfb, password=f8f7aCzcPKbsF8p3
-🇨🇳 广东省广州市2 = ss, 183.233.187.235, 50004, encrypt-method=chacha20-ietf-poly1305, password=99301d55-a41f-4919-986b-1435996533aa
-🇯🇵 日本15 = ss, 43.200.244.103, 443, encrypt-method=aes-256-cfb, password=amazonskr05
-🇯🇵 日本16 = ss, 43.201.47.103, 443, encrypt-method=aes-256-cfb, password=amazonskr05
-🇸🇬 新加坡17 = trojan, 13.250.8.240, 443, password=d33df23a-8b9e-468e-bc33-dd3643008ced, sni=download.xn--mes358a9urctx.com, skip-cert-verify=true
-🇭🇺 匈牙利18 = ss, 109.61.80.225, 989, encrypt-method=aes-256-cfb, password=f8f7aCzcPKbsF8p3
-🇭🇰 香港19 = ss, 47.76.51.110, 80, encrypt-method=aes-128-gcm, password=a-wym4ovY4Yw,obfs=http
-🇨🇳 甘肃省兰州市20 = vmess, 36.140.130.67, 50010, username=1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2, tls=false, vmess-aead=true
-🇷🇺 俄罗斯21 = vmess, 91.107.145.222, 443, username=d20e38ef-1a4d-4009-a00d-2f0d44e3c65a, tls=false, vmess-aead=true
-🇫🇷 法国22 = trojan, 54.38.156.210, 443, password=009e1290-87c9-11ee-ba55-1239d0255272, sni=de1.test3.net, skip-cert-verify=true
-🇺🇸 美国23 = trojan, 3.77.171.43, 22222, password=telegram-id-directvpn, sni=trj.rollingnext.co.uk, skip-cert-verify=true
-🇺🇸 美国24 = trojan, 138.2.126.38, 20352, password=4e9451c6-0678-4e37-acc9-8afcc39451c5, sni=13-231-155-134.nhost.00cdn.com, skip-cert-verify=true
-🇯🇵 日本25 = ss, 43.201.255.239, 443, encrypt-method=aes-256-cfb, password=amazonskr05
-🇫🇷 法国26 = ss, 51.158.195.96, 110, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa
-🇫🇷 法国27 = ss, 51.158.195.96, 80, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa
-🇫🇷 法国28 = ss, 51.158.195.96, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa
-🇷🇺 俄罗斯29 = ss, 77.91.103.108, 15708, encrypt-method=chacha20-ietf-poly1305, password=GXGhsxweEyBgvyUc5Xaoae
-🇨🇳 台湾省台北市30 = trojan, 111.243.94.97, 443, password=d33df23a-8b9e-468e-bc33-dd3643008ced, sni=download.xn--mes358a9urctx.com, skip-cert-verify=true
-🇨🇭 瑞士 - 伯尔尼 - Stark Industries Solutions LTD = ss, 5.182.36.245, 10141, encrypt-method=chacha20-ietf-poly1305, password=ndJuPjq7WbFDjB4oacljGw
-🇯🇵 日本 - 东京 - Amazon Technologies Inc. = ss, 3.112.41.126, 443, encrypt-method=aes-256-cfb, password=amazonskr05
-"🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc." = ss, 43.200.6.58, 443, encrypt-method=aes-256-cfb, password=amazonskr05
-"🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 4" = ss, 43.201.255.239, 443, encrypt-method=aes-256-cfb, password=amazonskr05
-"🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 7" = ss, 43.201.255.57, 443, encrypt-method=aes-256-cfb, password=amazonskr05
-🇳🇱 荷兰 - 哈勒姆 - Online S.A.S. = ss, 51.158.195.96, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa
-🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. = ss, 13.215.194.232, 443, encrypt-method=aes-256-cfb, password=amazonskr05
-🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. 2 = ss, 3.1.79.68, 443, encrypt-method=aes-256-cfb, password=amazonskr05
-🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. 3 = ss, 13.215.249.53, 443, encrypt-method=aes-256-cfb, password=amazonskr05
-"🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC" = trojan, 146.190.108.227, 1, password=1, sni=m.zoom.us, skip-cert-verify=true
-"🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC 2" = trojan, 146.190.87.61, 2, password=24END, sni=m.zoom.us, skip-cert-verify=true
-"🇺🇸 美国 - 普林斯顿 - Alibaba (US) Technology Co., Ltd." = ss, 47.76.51.110, 80, encrypt-method=aes-128-gcm, password=a-wym4ovY4Yw,obfs=http
-🇿🇦 南非 - 開普敦 - Xneelo (Pty) Ltd = ss, 41.203.4.34, 989, encrypt-method=aes-256-cfb, password=f8f7aCzcPKbsF8p3
+🇨🇳 广东省广州市2 = ss, 183.233.187.230, 20009, encrypt-method=chacha20-ietf-poly1305, password=d49dd50e-d1b9-4815-a938-7886bae110b8
+🇨🇳 广东省广州市3 = ss, 183.233.187.230, 21001, encrypt-method=chacha20-ietf-poly1305, password=d49dd50e-d1b9-4815-a938-7886bae110b8
+🇨🇳 广东省广州市4 = ss, 183.233.187.230, 50001, encrypt-method=chacha20-ietf-poly1305, password=d49dd50e-d1b9-4815-a938-7886bae110b8
+🇺🇸 美国5 = trojan, 131.186.23.186, 20352, password=4cbadf3b-dae5-4e09-b5d4-9787373846ad, sni=13-231-155-134.nhost.00cdn.com, skip-cert-verify=true
+🇳🇱 荷兰6 = vmess, 95.179.128.114, 80, username=a6292090-afe1-4640-97a7-4f1d1d877cf1, tls=false, vmess-aead=true, ws=true, ws-path=/Av8czorIlYicU6D349brWUw6a, sni=95.179.128.114
+🇯🇵 日本7 = ss, 43.201.149.200, 443, encrypt-method=aes-256-cfb, password=amazonskr05
+🇭🇺 匈牙利8 = ss, 109.61.80.225, 989, encrypt-method=aes-256-cfb, password=f8f7aCzcPKbsF8p3
+🇨🇳 广东省广州市9 = trojan, 183.236.51.6, 10816, password=5a9f66a6-d3cf-4dac-9b6f-840d062a02f4, skip-cert-verify=true
+🇨🇦 加拿大10 = ss, 47.128.81.235, 443, encrypt-method=aes-256-cfb, password=amazonskr05
+🇨🇳 广东省广州市23 = ss, 183.233.187.235, 50001, encrypt-method=chacha20-ietf-poly1305, password=d49dd50e-d1b9-4815-a938-7886bae110b8
+🇨🇳 广东省东莞市24 = vmess, 183.232.238.77, 3507, username=ab537195-b74c-3df5-a3a1-d504345e80bb, tls=false, vmess-aead=true
+🇭🇰 香港节点 = direct
+🇸🇬 狮城节点 = direct
 
 [Proxy Group]
 🚀 节点选择 = select,♻️ 自动选择,🇭🇰 香港节点,🇸🇬 狮城节点,🇺🇲 美国节点,🇯🇵 日本节点,🚀 手动切换,DIRECT
-🚀 手动切换 = select,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇷🇴 罗马尼亚1,🇨🇳 广东省广州市2,🇯🇵 日本15,🇯🇵 日本16,🇸🇬 新加坡17,🇭🇺 匈牙利18,🇭🇰 香港19,🇨🇳 甘肃省兰州市20,🇷🇺 俄罗斯21,🇫🇷 法国22,🇺🇸 美国23,🇺🇸 美国24,🇯🇵 日本25,🇫🇷 法国26,🇫🇷 法国27,🇫🇷 法国28,🇷🇺 俄罗斯29,🇨🇳 台湾省台北市30,🇨🇭 瑞士 - 伯尔尼 - Stark Industries Solutions LTD,🇯🇵 日本 - 东京 - Amazon Technologies Inc.,"🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc.","🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 4","🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 7",🇳🇱 荷兰 - 哈勒姆 - Online S.A.S.,🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc.,🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. 2,🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. 3,"🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC","🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC 2","🇺🇸 美国 - 普林斯顿 - Alibaba (US) Technology Co., Ltd.",🇿🇦 南非 - 開普敦 - Xneelo (Pty) Ltd
-♻️ 自动选择 = url-test,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇷🇴 罗马尼亚1,🇨🇳 广东省广州市2,🇯🇵 日本15,🇯🇵 日本16,🇸🇬 新加坡17,🇭🇺 匈牙利18,🇭🇰 香港19,🇨🇳 甘肃省兰州市20,🇷🇺 俄罗斯21,🇫🇷 法国22,🇺🇸 美国23,🇺🇸 美国24,🇯🇵 日本25,🇫🇷 法国26,🇫🇷 法国27,🇫🇷 法国28,🇷🇺 俄罗斯29,🇨🇳 台湾省台北市30,🇨🇭 瑞士 - 伯尔尼 - Stark Industries Solutions LTD,🇯🇵 日本 - 东京 - Amazon Technologies Inc.,"🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc.","🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 4","🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 7",🇳🇱 荷兰 - 哈勒姆 - Online S.A.S.,🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc.,🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. 2,🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. 3,"🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC","🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC 2","🇺🇸 美国 - 普林斯顿 - Alibaba (US) Technology Co., Ltd.",🇿🇦 南非 - 開普敦 - Xneelo (Pty) Ltd,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🚀 手动切换 = select,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇨🇳 广东省广州市2,🇨🇳 广东省广州市3,🇨🇳 广东省广州市4,🇺🇸 美国5,🇳🇱 荷兰6,🇯🇵 日本7,🇭🇺 匈牙利8,🇨🇳 广东省广州市9,🇨🇦 加拿大10,🇨🇳 广东省广州市23,🇨🇳 广东省东莞市24
+♻️ 自动选择 = url-test,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇨🇳 广东省广州市2,🇨🇳 广东省广州市3,🇨🇳 广东省广州市4,🇺🇸 美国5,🇳🇱 荷兰6,🇯🇵 日本7,🇭🇺 匈牙利8,🇨🇳 广东省广州市9,🇨🇦 加拿大10,🇨🇳 广东省广州市23,🇨🇳 广东省东莞市24,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇷🇴 罗马尼亚1,🇨🇳 广东省广州市2,🇯🇵 日本15,🇯🇵 日本16,🇸🇬 新加坡17,🇭🇺 匈牙利18,🇭🇰 香港19,🇨🇳 甘肃省兰州市20,🇷🇺 俄罗斯21,🇫🇷 法国22,🇺🇸 美国23,🇺🇸 美国24,🇯🇵 日本25,🇫🇷 法国26,🇫🇷 法国27,🇫🇷 法国28,🇷🇺 俄罗斯29,🇨🇳 台湾省台北市30,🇨🇭 瑞士 - 伯尔尼 - Stark Industries Solutions LTD,🇯🇵 日本 - 东京 - Amazon Technologies Inc.,"🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc.","🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 4","🇰🇷 韩国 - 首尔特别市 - Amazon.com, Inc. 7",🇳🇱 荷兰 - 哈勒姆 - Online S.A.S.,🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc.,🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. 2,🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. 3,"🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC","🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC 2","🇺🇸 美国 - 普林斯顿 - Alibaba (US) Technology Co., Ltd.",🇿🇦 南非 - 開普敦 - Xneelo (Pty) Ltd
-🇭🇰 香港节点 = url-test,🇭🇰 香港19,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
-🇯🇵 日本节点 = url-test,🇯🇵 日本15,🇯🇵 日本16,🇯🇵 日本25,🇯🇵 日本 - 东京 - Amazon Technologies Inc.,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
-🇸🇬 狮城节点 = url-test,🇸🇬 新加坡17,🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc.,🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. 2,🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. 3,"🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC","🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC 2",url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
-🇺🇲 美国节点 = url-test,🇺🇸 美国23,🇺🇸 美国24,"🇺🇸 美国 - 普林斯顿 - Alibaba (US) Technology Co., Ltd.",url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇨🇳 广东省广州市2,🇨🇳 广东省广州市3,🇨🇳 广东省广州市4,🇺🇸 美国5,🇳🇱 荷兰6,🇯🇵 日本7,🇭🇺 匈牙利8,🇨🇳 广东省广州市9,🇨🇦 加拿大10,🇨🇳 广东省广州市23,🇨🇳 广东省东莞市24
+🇯🇵 日本节点 = url-test,🇯🇵 日本7,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🇺🇲 美国节点 = url-test,🇺🇸 美国5,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
 
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连,update-interval=86400
