@@ -13,17 +13,22 @@ proxies:
   - {name: 全网低价个人证书, server: 1.1.1.1, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
   - {name: iOS|轻松签|全能签|P12证书, server: 1.1.1.1, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
   - {name: 定制V信|应用分身|V信密友|破解软件, server: 1.1.1.1, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
-  - {name: 🇨🇳 广东省广州市2, server: 183.233.187.230, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: d49dd50e-d1b9-4815-a938-7886bae110b8}
-  - {name: 🇨🇳 广东省广州市3, server: 183.233.187.230, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: d49dd50e-d1b9-4815-a938-7886bae110b8}
-  - {name: 🇨🇳 广东省广州市4, server: 183.233.187.230, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: d49dd50e-d1b9-4815-a938-7886bae110b8}
-  - {name: 🇺🇸 美国5, server: 131.186.23.186, port: 20352, type: trojan, password: 4cbadf3b-dae5-4e09-b5d4-9787373846ad, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇳🇱 荷兰6, server: 95.179.128.114, port: 80, type: vmess, uuid: a6292090-afe1-4640-97a7-4f1d1d877cf1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Av8czorIlYicU6D349brWUw6a}}
+  - {name: 🇳🇱 荷兰3, server: 95.179.128.114, port: 80, type: vmess, uuid: a6292090-afe1-4640-97a7-4f1d1d877cf1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Av8czorIlYicU6D349brWUw6a}}
+  - {name: 🇯🇵 日本6, server: 43.200.6.58, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 日本7, server: 43.201.149.200, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇺 匈牙利8, server: 109.61.80.225, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇨🇳 广东省广州市9, server: 183.236.51.6, port: 10816, type: trojan, password: 5a9f66a6-d3cf-4dac-9b6f-840d062a02f4, skip-cert-verify: true}
-  - {name: 🇨🇦 加拿大10, server: 47.128.81.235, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 广东省广州市23, server: 183.233.187.235, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: d49dd50e-d1b9-4815-a938-7886bae110b8}
-  - {name: 🇨🇳 广东省东莞市24, server: 183.232.238.77, port: 3507, type: vmess, uuid: ab537195-b74c-3df5-a3a1-d504345e80bb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 广东省广州市8, server: 183.236.51.6, port: 10816, type: trojan, password: 5a9f66a6-d3cf-4dac-9b6f-840d062a02f4, skip-cert-verify: true}
+  - {name: 🇫🇷 法国9, server: 51.158.195.96, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 法国10, server: 51.158.195.96, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 法国11, server: 51.158.195.96, port: 110, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇨🇳 江苏省宿迁市25, server: 221.131.165.179, port: 11894, type: vmess, uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /soda}}
+  - {name: 🇨🇳 安徽省26, server: 112.28.245.105, port: 19106, type: vmess, uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /soda}}
+  - {name: 🇨🇳 广东省东莞市27, server: 183.232.238.77, port: 10011, type: vmess, uuid: ab537195-b74c-3df5-a3a1-d504345e80bb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 安徽省28, server: 112.28.245.105, port: 18079, type: vmess, uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /soda}}
+  - {name: 🇨🇳 安徽省29, server: 112.28.245.105, port: 11894, type: vmess, uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /soda}}
+  - {name: 🇨🇳 江苏省宿迁市30, server: 221.131.165.182, port: 18079, type: vmess, uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /soda}}
+  - {name: 🇨🇳 江苏省宿迁市31, server: 221.131.165.179, port: 18079, type: vmess, uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /soda}}
+  - {name: 🇨🇳 江苏省宿迁市32, server: 221.131.165.182, port: 11894, type: vmess, uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /soda}}
+  - {name: 🇨🇳 广东省广州市33, server: 120.232.242.45, port: 19086, type: vmess, uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /soda}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -46,17 +51,22 @@ proxy-groups:
       - 全网低价个人证书
       - iOS|轻松签|全能签|P12证书
       - 定制V信|应用分身|V信密友|破解软件
-      - 🇨🇳 广东省广州市2
-      - 🇨🇳 广东省广州市3
-      - 🇨🇳 广东省广州市4
-      - 🇺🇸 美国5
-      - 🇳🇱 荷兰6
+      - 🇳🇱 荷兰3
+      - 🇯🇵 日本6
       - 🇯🇵 日本7
-      - 🇭🇺 匈牙利8
-      - 🇨🇳 广东省广州市9
-      - 🇨🇦 加拿大10
-      - 🇨🇳 广东省广州市23
-      - 🇨🇳 广东省东莞市24
+      - 🇨🇳 广东省广州市8
+      - 🇫🇷 法国9
+      - 🇫🇷 法国10
+      - 🇫🇷 法国11
+      - 🇨🇳 江苏省宿迁市25
+      - 🇨🇳 安徽省26
+      - 🇨🇳 广东省东莞市27
+      - 🇨🇳 安徽省28
+      - 🇨🇳 安徽省29
+      - 🇨🇳 江苏省宿迁市30
+      - 🇨🇳 江苏省宿迁市31
+      - 🇨🇳 江苏省宿迁市32
+      - 🇨🇳 广东省广州市33
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -71,17 +81,22 @@ proxy-groups:
       - 全网低价个人证书
       - iOS|轻松签|全能签|P12证书
       - 定制V信|应用分身|V信密友|破解软件
-      - 🇨🇳 广东省广州市2
-      - 🇨🇳 广东省广州市3
-      - 🇨🇳 广东省广州市4
-      - 🇺🇸 美国5
-      - 🇳🇱 荷兰6
+      - 🇳🇱 荷兰3
+      - 🇯🇵 日本6
       - 🇯🇵 日本7
-      - 🇭🇺 匈牙利8
-      - 🇨🇳 广东省广州市9
-      - 🇨🇦 加拿大10
-      - 🇨🇳 广东省广州市23
-      - 🇨🇳 广东省东莞市24
+      - 🇨🇳 广东省广州市8
+      - 🇫🇷 法国9
+      - 🇫🇷 法国10
+      - 🇫🇷 法国11
+      - 🇨🇳 江苏省宿迁市25
+      - 🇨🇳 安徽省26
+      - 🇨🇳 广东省东莞市27
+      - 🇨🇳 安徽省28
+      - 🇨🇳 安徽省29
+      - 🇨🇳 江苏省宿迁市30
+      - 🇨🇳 江苏省宿迁市31
+      - 🇨🇳 江苏省宿迁市32
+      - 🇨🇳 广东省广州市33
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -107,17 +122,22 @@ proxy-groups:
       - 全网低价个人证书
       - iOS|轻松签|全能签|P12证书
       - 定制V信|应用分身|V信密友|破解软件
-      - 🇨🇳 广东省广州市2
-      - 🇨🇳 广东省广州市3
-      - 🇨🇳 广东省广州市4
-      - 🇺🇸 美国5
-      - 🇳🇱 荷兰6
+      - 🇳🇱 荷兰3
+      - 🇯🇵 日本6
       - 🇯🇵 日本7
-      - 🇭🇺 匈牙利8
-      - 🇨🇳 广东省广州市9
-      - 🇨🇦 加拿大10
-      - 🇨🇳 广东省广州市23
-      - 🇨🇳 广东省东莞市24
+      - 🇨🇳 广东省广州市8
+      - 🇫🇷 法国9
+      - 🇫🇷 法国10
+      - 🇫🇷 法国11
+      - 🇨🇳 江苏省宿迁市25
+      - 🇨🇳 安徽省26
+      - 🇨🇳 广东省东莞市27
+      - 🇨🇳 安徽省28
+      - 🇨🇳 安徽省29
+      - 🇨🇳 江苏省宿迁市30
+      - 🇨🇳 江苏省宿迁市31
+      - 🇨🇳 江苏省宿迁市32
+      - 🇨🇳 广东省广州市33
   - name: 🇭🇰 香港节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -131,6 +151,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇯🇵 日本6
       - 🇯🇵 日本7
   - name: 🇸🇬 狮城节点
     type: url-test
@@ -145,7 +166,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 美国5
+      - DIRECT
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
