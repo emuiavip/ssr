@@ -21,34 +21,37 @@ P12证书 https://p12.tmxios.top = ss, 1.1.1.1, 30067, encrypt-method=aes-256-gc
 全网低价个人证书 = ss, 1.1.1.1, 30067, encrypt-method=aes-256-gcm, password=iUB0923RBA
 iOS|轻松签|全能签|P12证书 = ss, 1.1.1.1, 30067, encrypt-method=aes-256-gcm, password=iUB0923RBA
 定制V信|应用分身|V信密友|破解软件 = ss, 1.1.1.1, 30067, encrypt-method=aes-256-gcm, password=iUB0923RBA
-🇳🇱 荷兰3 = vmess, 95.179.128.114, 80, username=a6292090-afe1-4640-97a7-4f1d1d877cf1, tls=false, vmess-aead=true, ws=true, ws-path=/Av8czorIlYicU6D349brWUw6a, sni=95.179.128.114
-🇯🇵 日本6 = ss, 43.200.6.58, 443, encrypt-method=aes-256-cfb, password=amazonskr05
-🇯🇵 日本7 = ss, 43.201.149.200, 443, encrypt-method=aes-256-cfb, password=amazonskr05
-🇨🇳 广东省广州市8 = trojan, 183.236.51.6, 10816, password=5a9f66a6-d3cf-4dac-9b6f-840d062a02f4, skip-cert-verify=true
-🇫🇷 法国9 = ss, 51.158.195.96, 80, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa
-🇫🇷 法国10 = ss, 51.158.195.96, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa
-🇫🇷 法国11 = ss, 51.158.195.96, 110, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa
-🇨🇳 江苏省宿迁市25 = vmess, 221.131.165.179, 11894, username=ea5594d5-9f6d-314a-bf93-3ce95b1d8635, tls=false, vmess-aead=true, ws=true, ws-path=/soda, sni=221.131.165.179
-🇨🇳 安徽省26 = vmess, 112.28.245.105, 19106, username=ea5594d5-9f6d-314a-bf93-3ce95b1d8635, tls=false, vmess-aead=true, ws=true, ws-path=/soda, sni=112.28.245.105
-🇨🇳 广东省东莞市27 = vmess, 183.232.238.77, 10011, username=ab537195-b74c-3df5-a3a1-d504345e80bb, tls=false, vmess-aead=true
-🇨🇳 安徽省28 = vmess, 112.28.245.105, 18079, username=ea5594d5-9f6d-314a-bf93-3ce95b1d8635, tls=false, vmess-aead=true, ws=true, ws-path=/soda, sni=112.28.245.105
-🇨🇳 安徽省29 = vmess, 112.28.245.105, 11894, username=ea5594d5-9f6d-314a-bf93-3ce95b1d8635, tls=false, vmess-aead=true, ws=true, ws-path=/soda, sni=112.28.245.105
-🇨🇳 江苏省宿迁市30 = vmess, 221.131.165.182, 18079, username=ea5594d5-9f6d-314a-bf93-3ce95b1d8635, tls=false, vmess-aead=true, ws=true, ws-path=/soda, sni=221.131.165.182
-🇨🇳 江苏省宿迁市31 = vmess, 221.131.165.179, 18079, username=ea5594d5-9f6d-314a-bf93-3ce95b1d8635, tls=false, vmess-aead=true, ws=true, ws-path=/soda, sni=221.131.165.179
-🇨🇳 江苏省宿迁市32 = vmess, 221.131.165.182, 11894, username=ea5594d5-9f6d-314a-bf93-3ce95b1d8635, tls=false, vmess-aead=true, ws=true, ws-path=/soda, sni=221.131.165.182
-🇨🇳 广东省广州市33 = vmess, 120.232.242.45, 19086, username=ea5594d5-9f6d-314a-bf93-3ce95b1d8635, tls=false, vmess-aead=true, ws=true, ws-path=/soda, sni=120.232.242.45
+🇷🇺 俄罗斯33 = vmess, 193.203.203.88, 2082, username=5f2d026e-1dbd-4bb0-aa61-b1bcc544ab2c, tls=false, vmess-aead=true
+🇨🇳 广东省深圳市34 = vmess, 183.232.159.153, 30009, username=2567bed8-e47a-4a8b-a336-244fdd203e9b, tls=false, vmess-aead=true, ws=true, ws-path=/aceamedv, sni=183.232.159.153, ws-headers=Host:v01.gutingting.com
+🇨🇳 广东省深圳市35 = vmess, 183.232.159.153, 30064, username=2567bed8-e47a-4a8b-a336-244fdd203e9b, tls=false, vmess-aead=true, ws=true, ws-path=/aceamedv, sni=183.232.159.153, ws-headers=Host:v01.gutingting.com
+🇨🇳 广东省深圳市36 = vmess, 183.232.159.153, 30015, username=2567bed8-e47a-4a8b-a336-244fdd203e9b, tls=false, vmess-aead=true, ws=true, ws-path=/aceamedv, sni=183.232.159.153, ws-headers=Host:ns01.gutingting.com
+🇨🇳 广东省深圳市37 = vmess, 183.232.159.153, 30023, username=2567bed8-e47a-4a8b-a336-244fdd203e9b, tls=false, vmess-aead=true, ws=true, ws-path=/aceamedv, sni=183.232.159.153, ws-headers=Host:ns01.gutingting.com
+🇨🇳 广东省深圳市38 = vmess, 183.232.159.153, 30007, username=2567bed8-e47a-4a8b-a336-244fdd203e9b, tls=false, vmess-aead=true, ws=true, ws-path=/aceamedv, sni=183.232.159.153, ws-headers=Host:v01.gutingting.com
+🇨🇳 广东省深圳市39 = vmess, 183.232.159.153, 30063, username=2567bed8-e47a-4a8b-a336-244fdd203e9b, tls=false, vmess-aead=true, ws=true, ws-path=/aceamedv, sni=183.232.159.153, ws-headers=Host:v01.gutingting.com
+🇨🇳 广东省深圳市40 = vmess, 183.232.159.153, 30044, username=2567bed8-e47a-4a8b-a336-244fdd203e9b, tls=false, vmess-aead=true, ws=true, ws-path=/aceamedv, sni=183.232.159.153, ws-headers=Host:v01.gutingting.com
+🇨🇳 广东省深圳市41 = vmess, 183.232.159.153, 30016, username=2567bed8-e47a-4a8b-a336-244fdd203e9b, tls=false, vmess-aead=true, ws=true, ws-path=/aceamedv, sni=183.232.159.153, ws-headers=Host:v01.gutingting.com
+🇨🇳 广东省深圳市42 = vmess, 183.232.159.153, 30059, username=2567bed8-e47a-4a8b-a336-244fdd203e9b, tls=false, vmess-aead=true, ws=true, ws-path=/aceamedv, sni=183.232.159.153, ws-headers=Host:v01.gutingting.com
+🇨🇳 广东省深圳市43 = trojan, 183.232.159.153, 30055, password=2567bed8-e47a-4a8b-a336-244fdd203e9b, sni=v1jp02.fuqiangren.com, skip-cert-verify=true
+🇨🇳 广东省深圳市44 = trojan, 183.232.159.153, 30002, password=2567bed8-e47a-4a8b-a336-244fdd203e9b, sni=v2tw01.fuqiangren.com, skip-cert-verify=true
+🇨🇳 广东省深圳市45 = trojan, 183.232.159.153, 30017, password=2567bed8-e47a-4a8b-a336-244fdd203e9b, sni=v2hgc01.fuqiangren.com, skip-cert-verify=true
+🇨🇳 广东省深圳市46 = trojan, 183.232.159.153, 20224, password=2567bed8-e47a-4a8b-a336-244fdd203e9b, sni=v2usa01.fuqiangren.com, skip-cert-verify=true
+🇨🇳 广东省深圳市48 = trojan, 183.232.159.153, 30066, password=2567bed8-e47a-4a8b-a336-244fdd203e9b, sni=v1jp03.fuqiangren.com, skip-cert-verify=true
+🇺🇸 美国49 = vmess, 172.232.43.7, 8442, username=6773a666-5593-4c9f-aacd-52300b6a02d4, tls=false, vmess-aead=true
+🇮🇳 印度50 = ss, 103.113.68.57, 2443, encrypt-method=aes-256-gcm, password=hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=
+🇸🇬 新加坡52 = ss, 3.1.79.68, 443, encrypt-method=aes-256-cfb, password=amazonskr05
+🇯🇵 日本55 = ss, 18.183.250.218, 443, encrypt-method=aes-256-cfb, password=amazonskr05
 🇭🇰 香港节点 = direct
-🇸🇬 狮城节点 = direct
-🇺🇲 美国节点 = direct
 
 [Proxy Group]
 🚀 节点选择 = select,♻️ 自动选择,🇭🇰 香港节点,🇸🇬 狮城节点,🇺🇲 美国节点,🇯🇵 日本节点,🚀 手动切换,DIRECT
-🚀 手动切换 = select,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇳🇱 荷兰3,🇯🇵 日本6,🇯🇵 日本7,🇨🇳 广东省广州市8,🇫🇷 法国9,🇫🇷 法国10,🇫🇷 法国11,🇨🇳 江苏省宿迁市25,🇨🇳 安徽省26,🇨🇳 广东省东莞市27,🇨🇳 安徽省28,🇨🇳 安徽省29,🇨🇳 江苏省宿迁市30,🇨🇳 江苏省宿迁市31,🇨🇳 江苏省宿迁市32,🇨🇳 广东省广州市33
-♻️ 自动选择 = url-test,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇳🇱 荷兰3,🇯🇵 日本6,🇯🇵 日本7,🇨🇳 广东省广州市8,🇫🇷 法国9,🇫🇷 法国10,🇫🇷 法国11,🇨🇳 江苏省宿迁市25,🇨🇳 安徽省26,🇨🇳 广东省东莞市27,🇨🇳 安徽省28,🇨🇳 安徽省29,🇨🇳 江苏省宿迁市30,🇨🇳 江苏省宿迁市31,🇨🇳 江苏省宿迁市32,🇨🇳 广东省广州市33,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🚀 手动切换 = select,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇷🇺 俄罗斯33,🇨🇳 广东省深圳市34,🇨🇳 广东省深圳市35,🇨🇳 广东省深圳市36,🇨🇳 广东省深圳市37,🇨🇳 广东省深圳市38,🇨🇳 广东省深圳市39,🇨🇳 广东省深圳市40,🇨🇳 广东省深圳市41,🇨🇳 广东省深圳市42,🇨🇳 广东省深圳市43,🇨🇳 广东省深圳市44,🇨🇳 广东省深圳市45,🇨🇳 广东省深圳市46,🇨🇳 广东省深圳市48,🇺🇸 美国49,🇮🇳 印度50,🇸🇬 新加坡52,🇯🇵 日本55
+♻️ 自动选择 = url-test,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇷🇺 俄罗斯33,🇨🇳 广东省深圳市34,🇨🇳 广东省深圳市35,🇨🇳 广东省深圳市36,🇨🇳 广东省深圳市37,🇨🇳 广东省深圳市38,🇨🇳 广东省深圳市39,🇨🇳 广东省深圳市40,🇨🇳 广东省深圳市41,🇨🇳 广东省深圳市42,🇨🇳 广东省深圳市43,🇨🇳 广东省深圳市44,🇨🇳 广东省深圳市45,🇨🇳 广东省深圳市46,🇨🇳 广东省深圳市48,🇺🇸 美国49,🇮🇳 印度50,🇸🇬 新加坡52,🇯🇵 日本55,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇳🇱 荷兰3,🇯🇵 日本6,🇯🇵 日本7,🇨🇳 广东省广州市8,🇫🇷 法国9,🇫🇷 法国10,🇫🇷 法国11,🇨🇳 江苏省宿迁市25,🇨🇳 安徽省26,🇨🇳 广东省东莞市27,🇨🇳 安徽省28,🇨🇳 安徽省29,🇨🇳 江苏省宿迁市30,🇨🇳 江苏省宿迁市31,🇨🇳 江苏省宿迁市32,🇨🇳 广东省广州市33
-🇯🇵 日本节点 = url-test,🇯🇵 日本6,🇯🇵 日本7,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇷🇺 俄罗斯33,🇨🇳 广东省深圳市34,🇨🇳 广东省深圳市35,🇨🇳 广东省深圳市36,🇨🇳 广东省深圳市37,🇨🇳 广东省深圳市38,🇨🇳 广东省深圳市39,🇨🇳 广东省深圳市40,🇨🇳 广东省深圳市41,🇨🇳 广东省深圳市42,🇨🇳 广东省深圳市43,🇨🇳 广东省深圳市44,🇨🇳 广东省深圳市45,🇨🇳 广东省深圳市46,🇨🇳 广东省深圳市48,🇺🇸 美国49,🇮🇳 印度50,🇸🇬 新加坡52,🇯🇵 日本55
+🇯🇵 日本节点 = url-test,🇯🇵 日本55,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🇸🇬 狮城节点 = url-test,🇸🇬 新加坡52,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🇺🇲 美国节点 = url-test,🇺🇸 美国49,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
 
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连,update-interval=86400
