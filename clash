@@ -13,22 +13,25 @@ proxies:
   - {name: 全网低价个人证书, server: 1.1.1.1, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
   - {name: iOS|轻松签|全能签|P12证书, server: 1.1.1.1, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
   - {name: 定制V信|应用分身|V信密友|破解软件, server: 1.1.1.1, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
-  - {name: 🇳🇱 荷兰3, server: 95.179.128.114, port: 80, type: vmess, uuid: a6292090-afe1-4640-97a7-4f1d1d877cf1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Av8czorIlYicU6D349brWUw6a}}
-  - {name: 🇯🇵 日本6, server: 43.200.6.58, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本7, server: 43.201.149.200, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 广东省广州市8, server: 183.236.51.6, port: 10816, type: trojan, password: 5a9f66a6-d3cf-4dac-9b6f-840d062a02f4, skip-cert-verify: true}
-  - {name: 🇫🇷 法国9, server: 51.158.195.96, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 法国10, server: 51.158.195.96, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 法国11, server: 51.158.195.96, port: 110, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇨🇳 江苏省宿迁市25, server: 221.131.165.179, port: 11894, type: vmess, uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /soda}}
-  - {name: 🇨🇳 安徽省26, server: 112.28.245.105, port: 19106, type: vmess, uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /soda}}
-  - {name: 🇨🇳 广东省东莞市27, server: 183.232.238.77, port: 10011, type: vmess, uuid: ab537195-b74c-3df5-a3a1-d504345e80bb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 安徽省28, server: 112.28.245.105, port: 18079, type: vmess, uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /soda}}
-  - {name: 🇨🇳 安徽省29, server: 112.28.245.105, port: 11894, type: vmess, uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /soda}}
-  - {name: 🇨🇳 江苏省宿迁市30, server: 221.131.165.182, port: 18079, type: vmess, uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /soda}}
-  - {name: 🇨🇳 江苏省宿迁市31, server: 221.131.165.179, port: 18079, type: vmess, uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /soda}}
-  - {name: 🇨🇳 江苏省宿迁市32, server: 221.131.165.182, port: 11894, type: vmess, uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /soda}}
-  - {name: 🇨🇳 广东省广州市33, server: 120.232.242.45, port: 19086, type: vmess, uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /soda}}
+  - {name: 🇷🇺 俄罗斯33, server: 193.203.203.88, port: 2082, type: vmess, uuid: 5f2d026e-1dbd-4bb0-aa61-b1bcc544ab2c, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 广东省深圳市34, server: 183.232.159.153, port: 30009, type: vmess, uuid: 2567bed8-e47a-4a8b-a336-244fdd203e9b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aceamedv, headers: {Host: v01.gutingting.com}}}
+  - {name: 🇨🇳 广东省深圳市35, server: 183.232.159.153, port: 30064, type: vmess, uuid: 2567bed8-e47a-4a8b-a336-244fdd203e9b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aceamedv, headers: {Host: v01.gutingting.com}}}
+  - {name: 🇨🇳 广东省深圳市36, server: 183.232.159.153, port: 30015, type: vmess, uuid: 2567bed8-e47a-4a8b-a336-244fdd203e9b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aceamedv, headers: {Host: ns01.gutingting.com}}}
+  - {name: 🇨🇳 广东省深圳市37, server: 183.232.159.153, port: 30023, type: vmess, uuid: 2567bed8-e47a-4a8b-a336-244fdd203e9b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aceamedv, headers: {Host: ns01.gutingting.com}}}
+  - {name: 🇨🇳 广东省深圳市38, server: 183.232.159.153, port: 30007, type: vmess, uuid: 2567bed8-e47a-4a8b-a336-244fdd203e9b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aceamedv, headers: {Host: v01.gutingting.com}}}
+  - {name: 🇨🇳 广东省深圳市39, server: 183.232.159.153, port: 30063, type: vmess, uuid: 2567bed8-e47a-4a8b-a336-244fdd203e9b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aceamedv, headers: {Host: v01.gutingting.com}}}
+  - {name: 🇨🇳 广东省深圳市40, server: 183.232.159.153, port: 30044, type: vmess, uuid: 2567bed8-e47a-4a8b-a336-244fdd203e9b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aceamedv, headers: {Host: v01.gutingting.com}}}
+  - {name: 🇨🇳 广东省深圳市41, server: 183.232.159.153, port: 30016, type: vmess, uuid: 2567bed8-e47a-4a8b-a336-244fdd203e9b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aceamedv, headers: {Host: v01.gutingting.com}}}
+  - {name: 🇨🇳 广东省深圳市42, server: 183.232.159.153, port: 30059, type: vmess, uuid: 2567bed8-e47a-4a8b-a336-244fdd203e9b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aceamedv, headers: {Host: v01.gutingting.com}}}
+  - {name: 🇨🇳 广东省深圳市43, server: 183.232.159.153, port: 30055, type: trojan, password: 2567bed8-e47a-4a8b-a336-244fdd203e9b, sni: v1jp02.fuqiangren.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省深圳市44, server: 183.232.159.153, port: 30002, type: trojan, password: 2567bed8-e47a-4a8b-a336-244fdd203e9b, sni: v2tw01.fuqiangren.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省深圳市45, server: 183.232.159.153, port: 30017, type: trojan, password: 2567bed8-e47a-4a8b-a336-244fdd203e9b, sni: v2hgc01.fuqiangren.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省深圳市46, server: 183.232.159.153, port: 20224, type: trojan, password: 2567bed8-e47a-4a8b-a336-244fdd203e9b, sni: v2usa01.fuqiangren.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省深圳市48, server: 183.232.159.153, port: 30066, type: trojan, password: 2567bed8-e47a-4a8b-a336-244fdd203e9b, sni: v1jp03.fuqiangren.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国49, server: 172.232.43.7, port: 8442, type: vmess, uuid: 6773a666-5593-4c9f-aacd-52300b6a02d4, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 印度50, server: 103.113.68.57, port: 2443, type: ss, cipher: aes-256-gcm, password: hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=}
+  - {name: 🇸🇬 新加坡52, server: 3.1.79.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本55, server: 18.183.250.218, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -51,22 +54,25 @@ proxy-groups:
       - 全网低价个人证书
       - iOS|轻松签|全能签|P12证书
       - 定制V信|应用分身|V信密友|破解软件
-      - 🇳🇱 荷兰3
-      - 🇯🇵 日本6
-      - 🇯🇵 日本7
-      - 🇨🇳 广东省广州市8
-      - 🇫🇷 法国9
-      - 🇫🇷 法国10
-      - 🇫🇷 法国11
-      - 🇨🇳 江苏省宿迁市25
-      - 🇨🇳 安徽省26
-      - 🇨🇳 广东省东莞市27
-      - 🇨🇳 安徽省28
-      - 🇨🇳 安徽省29
-      - 🇨🇳 江苏省宿迁市30
-      - 🇨🇳 江苏省宿迁市31
-      - 🇨🇳 江苏省宿迁市32
-      - 🇨🇳 广东省广州市33
+      - 🇷🇺 俄罗斯33
+      - 🇨🇳 广东省深圳市34
+      - 🇨🇳 广东省深圳市35
+      - 🇨🇳 广东省深圳市36
+      - 🇨🇳 广东省深圳市37
+      - 🇨🇳 广东省深圳市38
+      - 🇨🇳 广东省深圳市39
+      - 🇨🇳 广东省深圳市40
+      - 🇨🇳 广东省深圳市41
+      - 🇨🇳 广东省深圳市42
+      - 🇨🇳 广东省深圳市43
+      - 🇨🇳 广东省深圳市44
+      - 🇨🇳 广东省深圳市45
+      - 🇨🇳 广东省深圳市46
+      - 🇨🇳 广东省深圳市48
+      - 🇺🇸 美国49
+      - 🇮🇳 印度50
+      - 🇸🇬 新加坡52
+      - 🇯🇵 日本55
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -81,22 +87,25 @@ proxy-groups:
       - 全网低价个人证书
       - iOS|轻松签|全能签|P12证书
       - 定制V信|应用分身|V信密友|破解软件
-      - 🇳🇱 荷兰3
-      - 🇯🇵 日本6
-      - 🇯🇵 日本7
-      - 🇨🇳 广东省广州市8
-      - 🇫🇷 法国9
-      - 🇫🇷 法国10
-      - 🇫🇷 法国11
-      - 🇨🇳 江苏省宿迁市25
-      - 🇨🇳 安徽省26
-      - 🇨🇳 广东省东莞市27
-      - 🇨🇳 安徽省28
-      - 🇨🇳 安徽省29
-      - 🇨🇳 江苏省宿迁市30
-      - 🇨🇳 江苏省宿迁市31
-      - 🇨🇳 江苏省宿迁市32
-      - 🇨🇳 广东省广州市33
+      - 🇷🇺 俄罗斯33
+      - 🇨🇳 广东省深圳市34
+      - 🇨🇳 广东省深圳市35
+      - 🇨🇳 广东省深圳市36
+      - 🇨🇳 广东省深圳市37
+      - 🇨🇳 广东省深圳市38
+      - 🇨🇳 广东省深圳市39
+      - 🇨🇳 广东省深圳市40
+      - 🇨🇳 广东省深圳市41
+      - 🇨🇳 广东省深圳市42
+      - 🇨🇳 广东省深圳市43
+      - 🇨🇳 广东省深圳市44
+      - 🇨🇳 广东省深圳市45
+      - 🇨🇳 广东省深圳市46
+      - 🇨🇳 广东省深圳市48
+      - 🇺🇸 美国49
+      - 🇮🇳 印度50
+      - 🇸🇬 新加坡52
+      - 🇯🇵 日本55
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -122,22 +131,25 @@ proxy-groups:
       - 全网低价个人证书
       - iOS|轻松签|全能签|P12证书
       - 定制V信|应用分身|V信密友|破解软件
-      - 🇳🇱 荷兰3
-      - 🇯🇵 日本6
-      - 🇯🇵 日本7
-      - 🇨🇳 广东省广州市8
-      - 🇫🇷 法国9
-      - 🇫🇷 法国10
-      - 🇫🇷 法国11
-      - 🇨🇳 江苏省宿迁市25
-      - 🇨🇳 安徽省26
-      - 🇨🇳 广东省东莞市27
-      - 🇨🇳 安徽省28
-      - 🇨🇳 安徽省29
-      - 🇨🇳 江苏省宿迁市30
-      - 🇨🇳 江苏省宿迁市31
-      - 🇨🇳 江苏省宿迁市32
-      - 🇨🇳 广东省广州市33
+      - 🇷🇺 俄罗斯33
+      - 🇨🇳 广东省深圳市34
+      - 🇨🇳 广东省深圳市35
+      - 🇨🇳 广东省深圳市36
+      - 🇨🇳 广东省深圳市37
+      - 🇨🇳 广东省深圳市38
+      - 🇨🇳 广东省深圳市39
+      - 🇨🇳 广东省深圳市40
+      - 🇨🇳 广东省深圳市41
+      - 🇨🇳 广东省深圳市42
+      - 🇨🇳 广东省深圳市43
+      - 🇨🇳 广东省深圳市44
+      - 🇨🇳 广东省深圳市45
+      - 🇨🇳 广东省深圳市46
+      - 🇨🇳 广东省深圳市48
+      - 🇺🇸 美国49
+      - 🇮🇳 印度50
+      - 🇸🇬 新加坡52
+      - 🇯🇵 日本55
   - name: 🇭🇰 香港节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -151,22 +163,21 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本6
-      - 🇯🇵 日本7
+      - 🇯🇵 日本55
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - DIRECT
+      - 🇸🇬 新加坡52
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - DIRECT
+      - 🇺🇸 美国49
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
