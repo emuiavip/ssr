@@ -13,82 +13,81 @@ proxies:
   - {name: 全网低价个人证书, server: 1.1.1.1, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
   - {name: iOS|轻松签|全能签|P12证书, server: 1.1.1.1, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
   - {name: 定制V信|应用分身|V信密友|破解软件, server: 1.1.1.1, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
-  - {name: baipaovpn亚太地区, server: 103.174.73.134, port: 443, type: trojan, password: vMbujq85mD, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
-  - {name: 🇨🇳 baipaovpn台湾省台北市, server: 61.228.189.139, port: 443, type: vmess, uuid: 4727ad0a-4b52-4b01-bb36-8b43ef15d11c, alterId: 0, cipher: auto, tls: true, servername: b21.ntbq.dynu.net, network: ws, ws-opts: {path: /b21}}
-  - {name: 🇨🇳 baipaovpn广东省广州市, server: 183.233.187.230, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: 97b2338c-7390-4810-847f-7028d17ff938}
-  - {name: 🇨🇳 baipaovpn广东省广州市 2, server: 183.233.187.230, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: 97b2338c-7390-4810-847f-7028d17ff938}
-  - {name: 🇺🇸 baipaovpn美国, server: 18.143.66.245, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 baipaovpn韩国首尔, server: 13.209.83.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 baipaovpn台湾省彰化县, server: 36.233.235.237, port: 443, type: vmess, uuid: b0912b17-b2d2-4c53-9d53-710f6c88251a, alterId: 0, cipher: auto, tls: true, servername: tc11.twtc.dynu.net, network: ws, ws-opts: {path: /vbub1, headers: {Host: tc11.twtc.dynu.net}}}
-  - {name: 🇯🇵 baipaovpn日本, server: 43.201.52.239, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 baipaovpn浙江省宁波市, server: 115.220.6.65, port: 26234, type: ss, cipher: chacha20-ietf-poly1305, password: 4821b048-edc8-4da9-8d11-f59448422987}
-  - {name: 🇨🇳 baipaovpn江苏省淮安市, server: 223.111.162.173, port: 17202, type: ss, cipher: chacha20-ietf-poly1305, password: 4821b048-edc8-4da9-8d11-f59448422987}
-  - {name: 🇨🇳 baipaovpn浙江省宁波市 2, server: 115.220.6.65, port: 43227, type: ss, cipher: chacha20-ietf-poly1305, password: 4821b048-edc8-4da9-8d11-f59448422987}
-  - {name: 🇨🇳 baipaovpn江苏省淮安市 2, server: 223.111.162.173, port: 35584, type: ss, cipher: chacha20-ietf-poly1305, password: 4821b048-edc8-4da9-8d11-f59448422987}
-  - {name: 🇨🇳 baipaovpn江苏省淮安市 3, server: 223.111.162.173, port: 24545, type: ss, cipher: chacha20-ietf-poly1305, password: 4821b048-edc8-4da9-8d11-f59448422987}
-  - {name: 🇨🇳 baipaovpn浙江省宁波市 3, server: 115.220.6.65, port: 43966, type: ss, cipher: chacha20-ietf-poly1305, password: 4821b048-edc8-4da9-8d11-f59448422987}
-  - {name: 🇸🇬 baipaovpn新加坡, server: 18.141.239.223, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 baipaovpn日本 2, server: 43.206.239.27, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 baipaovpn日本 3, server: 43.201.0.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 baipaovpn日本 4, server: 43.202.57.113, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 baipaovpn美国 2, server: 52.195.235.155, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 baipaovpn日本 5, server: 43.202.58.85, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 baipaovpn日本 6, server: 43.202.1.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 baipaovpn江苏省镇江市, server: 120.195.181.61, port: 29148, type: ss, cipher: chacha20-ietf-poly1305, password: cab13669-231b-4d7a-93d1-e51dd382b738}
-  - {name: 🇨🇳 baipaovpn江苏省镇江市 2, server: 120.195.181.61, port: 42291, type: ss, cipher: chacha20-ietf-poly1305, password: cab13669-231b-4d7a-93d1-e51dd382b738}
-  - {name: 🇨🇳 baipaovpn江苏省镇江市 3, server: 120.195.181.61, port: 57894, type: ss, cipher: chacha20-ietf-poly1305, password: cab13669-231b-4d7a-93d1-e51dd382b738}
-  - {name: 🇨🇳 baipaovpn江苏省镇江市 4, server: 120.195.181.61, port: 23159, type: ss, cipher: chacha20-ietf-poly1305, password: cab13669-231b-4d7a-93d1-e51dd382b738}
-  - {name: 🇨🇳 baipaovpn江苏省镇江市 5, server: 120.195.181.61, port: 31444, type: ss, cipher: chacha20-ietf-poly1305, password: cab13669-231b-4d7a-93d1-e51dd382b738}
-  - {name: 🇨🇳 baipaovpn江苏省镇江市 6, server: 120.195.181.61, port: 50444, type: ss, cipher: chacha20-ietf-poly1305, password: cab13669-231b-4d7a-93d1-e51dd382b738}
-  - {name: 🇨🇳 baipaovpn北京市, server: 36.137.176.64, port: 56057, type: ss, cipher: chacha20-ietf-poly1305, password: cab13669-231b-4d7a-93d1-e51dd382b738}
-  - {name: 🇨🇳 baipaovpn江苏省镇江市 7, server: 120.195.181.61, port: 32312, type: ss, cipher: chacha20-ietf-poly1305, password: cab13669-231b-4d7a-93d1-e51dd382b738}
-  - {name: 🇯🇵 baipaovpn日本 7, server: 43.202.41.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇫🇷 baipaovpn法国, server: 51.158.54.233, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 baipaovpn法国 2, server: 51.158.54.207, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇯🇵 baipaovpn日本 8, server: 43.201.5.168, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 baipaovpn日本 9, server: 43.202.52.245, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇫🇷 baipaovpn法国 3, server: 51.159.14.36, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇺🇸 baipaovpn美国 3, server: 198.244.231.34, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 baipaovpn法国 4, server: 57.129.1.21, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 baipaovpn法国 5, server: 57.129.1.20, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: baipaovpn亚太地区, server: 103.35.188.226, port: 80, type: vmess, uuid: 098e7cdd-03b4-435d-8c41-ea608fa637c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇨🇳 baipaovpn广东省广州市, server: 183.233.187.235, port: 50002, type: ss, cipher: chacha20-ietf-poly1305, password: f8775cf7-3f4e-4112-abce-9c760709bc0d}
+  - {name: 🇨🇳 baipaovpn广东省广州市 2, server: 183.233.187.230, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: f8775cf7-3f4e-4112-abce-9c760709bc0d}
+  - {name: 🇨🇳 baipaovpn广东省广州市 3, server: 183.233.187.235, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: f8775cf7-3f4e-4112-abce-9c760709bc0d}
+  - {name: 🇨🇳 baipaovpn广东省广州市 4, server: 183.233.187.235, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: f8775cf7-3f4e-4112-abce-9c760709bc0d}
+  - {name: 🇨🇳 baipaovpn广东省广州市 5, server: 183.233.187.235, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: f8775cf7-3f4e-4112-abce-9c760709bc0d}
+  - {name: 🇨🇳 baipaovpn广东省广州市 6, server: 183.233.187.230, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: f8775cf7-3f4e-4112-abce-9c760709bc0d}
+  - {name: 🇺🇸 baipaovpn美国, server: 162.159.142.235, port: 80, type: vmess, uuid: 0a823983-2ed3-4b60-9614-c2263a5d99bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp3.889611.com}}}
+  - {name: 🇺🇸 baipaovpn美国 2, server: 13.215.205.171, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 baipaovpn日本, server: 43.206.241.173, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 baipaovpn日本 2, server: 43.202.2.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: baipaovpn中国, server: 8.217.178.215, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
   - {name: 🇨🇦 baipaovpn加拿大, server: 47.128.76.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 baipaovpn日本 10, server: 54.248.151.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 baipaovpn日本东京, server: 13.230.220.51, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇫🇷 baipaovpn法国 6, server: 57.180.13.26, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 baipaovpn日本 11, server: 18.181.177.239, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 baipaovpn日本东京 2, server: 13.230.241.234, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: baipaovpn中国, server: 8.217.93.104, port: 443, type: vmess, uuid: dcd70249-06fa-4fe7-aaed-cbba86ac125b, alterId: 0, cipher: auto, tls: true, servername: sptufp5n3o19imic.iwebsocket.com, network: ws, ws-opts: {path: /stream, headers: {Host: sptufp5n3o19imic.iwebsocket.com}}}
-  - {name: 🇯🇵 baipaovpn日本 12, server: 54.178.43.146, port: 443, type: trojan, password: 268f7997-fc81-4607-bae2-e61e8416ac3b, sni: 16-163-218-240.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇷🇺 baipaovpn白俄罗斯, server: 178.172.217.15, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: UF0v532C5SY54g748v7d278YS4nyNeagTWFialLFOb5dpa4o}
-  - {name: 🇨🇳 baipaovpn广东省广州市 3, server: 183.236.51.20, port: 27261, type: ss, cipher: chacha20-ietf-poly1305, password: db1708c1-6f40-4515-92a4-7e9bb3df187a}
-  - {name: 🇫🇷 baipaovpn法国 7, server: 57.129.1.19, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇩🇪 baipaovpn德国, server: 213.202.216.14, port: 443, type: trojan, password: 3f23c1eb-ace4-49ec-a7f0-f591b006b95a, skip-cert-verify: true}
-  - {name: 🇫🇷 baipaovpn法国 8, server: 57.128.32.84, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 baipaovpn法国 9, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇬🇧 baipaovpn英国, server: 141.95.126.193, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 baipaovpn法国 10, server: 51.158.54.167, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇷🇺 baipaovpn俄罗斯, server: 80.92.204.207, port: 80, type: vmess, uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: de1-vmess.greenssh.xyz}}}
-  - {name: 🇬🇧 baipaovpn英国 2, server: 141.94.221.127, port: 80, type: trojan, password: e9c5925f-6293-4366-aa29-47af1b5e3ea8, sni: fr1-t.sshmax.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 baipaovpn香港, server: 45.65.113.195, port: 443, type: trojan, password: 268f7997-fc81-4607-bae2-e61e8416ac3b, sni: 16-163-218-240.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇯🇵 baipaovpn日本 13, server: 43.201.255.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇫🇷 baipaovpn法国 11, server: 51.158.195.96, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 baipaovpn法国 12, server: 51.158.195.96, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 baipaovpn法国 13, server: 51.158.195.96, port: 110, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: baipaovpn黎巴嫩, server: 84.54.44.220, port: 61519, type: ss, cipher: chacha20-ietf-poly1305, password: w6ScrxpP51shOFhPdbsdS8}
-  - {name: baipaovpn阿富汗, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 baipaovpn美国 4, server: 13.215.249.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 baipaovpn新加坡 2, server: 54.169.112.253, port: 443, type: trojan, password: cfef26c9-b22b-4ee1-8d95-c00f2c3b5d2e, sni: download.xn--mes358acgm99l.com, skip-cert-verify: true}
-  - {name: 🇸🇬 baipaovpn新加坡 3, server: 13.229.88.124, port: 443, type: trojan, password: 268f7997-fc81-4607-bae2-e61e8416ac3b, sni: 16-163-218-240.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇨🇳 baipaovpn台湾省台北市 2, server: 61.228.183.148, port: 443, type: vmess, uuid: 4727ad0a-4b52-4b01-bb36-8b43ef15d11c, alterId: 0, cipher: auto, tls: true, servername: nbq13.ntbq.dynu.net, network: ws, ws-opts: {path: /b13, headers: {Host: nbq13.ntbq.dynu.net}}}
-  - {name: 🇨🇳 baipaovpn台湾省, server: 118.165.43.145, port: 443, type: vmess, uuid: 4727ad0a-4b52-4b01-bb36-8b43ef15d11c, alterId: 0, cipher: auto, tls: true, servername: nbq11.ntbq.dynu.net, network: ws, ws-opts: {path: /b11, headers: {Host: nbq11.ntbq.dynu.net}}}
-  - {name: 🇨🇳 baipaovpn台湾省南投县, server: 36.232.151.53, port: 443, type: vmess, uuid: 4727ad0a-4b52-4b01-bb36-8b43ef15d11c, alterId: 0, cipher: auto, tls: true, servername: tc12.twtc.dynu.net, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.twtc.dynu.net}}}
-  - {name: 🇨🇳 baipaovpn台湾省新北市, server: 1.162.133.37, port: 443, type: trojan, password: cfef26c9-b22b-4ee1-8d95-c00f2c3b5d2e, sni: download.xn--mes358acgm99l.com, skip-cert-verify: true}
-  - {name: 🇺🇸 baipaovpn美国纽约州纽约, server: 89.187.179.192, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇺🇸 baipaovpn美国 5, server: 89.187.181.179, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇯🇵 baipaovpn日本 14, server: 54.199.166.104, port: 443, type: trojan, password: cfef26c9-b22b-4ee1-8d95-c00f2c3b5d2e, sni: download.xn--mes358acgm99l.com, skip-cert-verify: true}
-  - {name: 🇯🇵 baipaovpn日本 15, server: 18.179.119.91, port: 443, type: trojan, password: 283a4450-028d-4f8d-94fc-0a954ab4a96d, sni: cdn-65135431546231.78321.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 baipaovpn台湾省 2, server: 122.121.40.38, port: 46661, type: ss, cipher: chacha20-ietf-poly1305, password: 74553395-bc12-4c73-acb0-dec68db1004a}
-  - {name: 🇯🇵 baipaovpn日本 16, server: 18.183.76.16, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 baipaovpn日本 3, server: 43.202.41.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: baipaovpn中国 2, server: 8.218.63.204, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+  - {name: 🇯🇵 baipaovpn日本 4, server: 43.202.52.245, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 baipaovpn新加坡, server: 13.212.182.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 baipaovpn广东省广州市 7, server: 183.236.51.20, port: 27266, type: ss, cipher: chacha20-ietf-poly1305, password: 9d595dc0-b0cf-4235-969b-211e1ea004f2}
+  - {name: 🇨🇳 baipaovpn广东省广州市 8, server: 14.18.91.151, port: 50049, type: vmess, uuid: 0d5dc15e-0b62-4e7a-821c-d462d8e35ea2, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 baipaovpn德国, server: 5.252.23.133, port: 80, type: vmess, uuid: 06c2b568-b7df-4e80-9031-c83569397db4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: sk1-vmess.sshmax.xyz}}}
+  - {name: 🇨🇳 baipaovpn广东省广州市 9, server: 183.236.51.20, port: 27258, type: ss, cipher: chacha20-ietf-poly1305, password: 9d595dc0-b0cf-4235-969b-211e1ea004f2}
+  - {name: 🇫🇷 baipaovpn法国, server: 57.129.31.129, port: 443, type: vmess, uuid: 5775de7e-0c2e-4e7c-8b9c-c48704d8facb, alterId: 0, cipher: auto, tls: true, servername: s1.19kala.co, network: ws, ws-opts: {path: /OWTu4RMkF9V12oO5NLlQk, headers: {Host: s1.19kala.co}}}
+  - {name: 🇨🇳 baipaovpn广东省广州市 10, server: 183.236.51.20, port: 27265, type: ss, cipher: chacha20-ietf-poly1305, password: 9d595dc0-b0cf-4235-969b-211e1ea004f2}
+  - {name: 🇷🇺 baipaovpn白俄罗斯, server: 178.172.217.15, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: yL0x8K51CRW9K3kn1lgh98ZPcSBAEQOL6bpNqVMlphtZYNT3}
+  - {name: 🇨🇳 baipaovpn广东省广州市 11, server: 183.236.51.20, port: 27269, type: ss, cipher: chacha20-ietf-poly1305, password: 9d595dc0-b0cf-4235-969b-211e1ea004f2}
+  - {name: 🇨🇳 baipaovpn广东省广州市 12, server: 183.236.51.20, port: 27250, type: ss, cipher: chacha20-ietf-poly1305, password: 9d595dc0-b0cf-4235-969b-211e1ea004f2}
+  - {name: 🇨🇳 baipaovpn广东省广州市 13, server: 183.236.51.20, port: 27257, type: ss, cipher: chacha20-ietf-poly1305, password: 9d595dc0-b0cf-4235-969b-211e1ea004f2}
+  - {name: 🇰🇷 baipaovpn韩国首尔, server: 193.122.107.14, port: 20252, type: trojan, password: 56a00699-1857-46ac-a861-60d3c17e1b9f, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: 🇨🇳 baipaovpn广东省广州市 14, server: 183.236.51.20, port: 27251, type: ss, cipher: chacha20-ietf-poly1305, password: 9d595dc0-b0cf-4235-969b-211e1ea004f2}
+  - {name: 🇰🇷 baipaovpn韩国首尔 2, server: 193.122.107.14, port: 20202, type: trojan, password: 5582a559-d68a-484b-bc33-4274bf63c71a, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: 🇨🇳 baipaovpn广东省广州市 15, server: 183.236.51.20, port: 27262, type: ss, cipher: chacha20-ietf-poly1305, password: 9d595dc0-b0cf-4235-969b-211e1ea004f2}
+  - {name: 🇨🇳 baipaovpn广东省广州市 16, server: 183.236.51.20, port: 27259, type: ss, cipher: chacha20-ietf-poly1305, password: 9d595dc0-b0cf-4235-969b-211e1ea004f2}
+  - {name: 🇨🇳 baipaovpn广东省广州市 17, server: 183.236.51.20, port: 27261, type: ss, cipher: chacha20-ietf-poly1305, password: 9d595dc0-b0cf-4235-969b-211e1ea004f2}
+  - {name: 🇨🇳 baipaovpn广东省广州市 18, server: 183.236.51.20, port: 27254, type: ss, cipher: chacha20-ietf-poly1305, password: 9d595dc0-b0cf-4235-969b-211e1ea004f2}
+  - {name: 🇨🇳 baipaovpn广东省广州市 19, server: 183.236.51.20, port: 27252, type: ss, cipher: chacha20-ietf-poly1305, password: 9d595dc0-b0cf-4235-969b-211e1ea004f2}
+  - {name: 🇯🇵 baipaovpn日本 5, server: 43.163.220.254, port: 20008, type: vmess, uuid: a44967cb-52bc-4ece-9ed7-c63046b33ab6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yongdong, headers: {Host: rb.yongdong.xyz}}}
+  - {name: 🇰🇷 baipaovpn韩国首尔 3, server: 43.155.131.141, port: 20026, type: vmess, uuid: a44967cb-52bc-4ece-9ed7-c63046b33ab6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yongdong, headers: {Host: ser.yongdong.xyz}}}
+  - {name: 🇰🇷 baipaovpn韩国首尔 4, server: 43.155.131.141, port: 20028, type: vmess, uuid: a44967cb-52bc-4ece-9ed7-c63046b33ab6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yongdong, headers: {Host: ser.yongdong.xyz}}}
+  - {name: 🇯🇵 baipaovpn日本 6, server: 43.163.220.254, port: 20009, type: vmess, uuid: a44967cb-52bc-4ece-9ed7-c63046b33ab6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yongdong, headers: {Host: rb.yongdong.xyz}}}
+  - {name: 🇰🇷 baipaovpn韩国首尔 5, server: 43.155.131.141, port: 20027, type: vmess, uuid: a44967cb-52bc-4ece-9ed7-c63046b33ab6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yongdong, headers: {Host: ser.yongdong.xyz}}}
+  - {name: 🇯🇵 baipaovpn日本 7, server: 43.163.220.254, port: 20007, type: vmess, uuid: a44967cb-52bc-4ece-9ed7-c63046b33ab6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yongdong, headers: {Host: rb.yongdong.xyz}}}
+  - {name: 🇨🇳 baipaovpn广东省广州市 20, server: 183.236.51.20, port: 27264, type: ss, cipher: chacha20-ietf-poly1305, password: 9d595dc0-b0cf-4235-969b-211e1ea004f2}
+  - {name: 🇷🇺 baipaovpn俄罗斯, server: 195.133.11.215, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: DRLc6CYIkFdgIg6ZjVsEcFytaQaegokCTG3LgLN4Nt2IPNyL}
+  - {name: 🇫🇷 baipaovpn法国 2, server: 57.129.1.22, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇩🇪 baipaovpn德国 2, server: 130.61.139.2, port: 22302, type: ss, cipher: chacha20-ietf-poly1305, password: f44cb5a7-4b5b-45cc-8aa1-97f8227b5616}
+  - {name: 🇩🇪 baipaovpn德国 3, server: 213.202.216.14, port: 443, type: trojan, password: 23391d1e-3567-4555-9e40-de87569d74f6, skip-cert-verify: true}
+  - {name: 🇫🇷 baipaovpn法国 3, server: 54.36.174.181, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 baipaovpn美国 3, server: 135.125.172.139, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇨🇳 baipaovpn广东省广州市 21, server: 183.236.51.20, port: 27255, type: ss, cipher: chacha20-ietf-poly1305, password: 9d595dc0-b0cf-4235-969b-211e1ea004f2}
+  - {name: 🇺🇸 baipaovpn美国 4, server: 135.125.172.153, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇬🇧 baipaovpn英国, server: 141.94.221.127, port: 80, type: trojan, password: e9c5925f-6293-4366-aa29-47af1b5e3ea8, sni: fr1-t.sshmax.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 baipaovpn美国 5, server: 18.169.82.154, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
+  - {name: 🇨🇳 baipaovpn广东省广州市 22, server: 183.236.51.20, port: 27263, type: ss, cipher: chacha20-ietf-poly1305, password: 9d595dc0-b0cf-4235-969b-211e1ea004f2}
+  - {name: 🇮🇳 baipaovpn印度, server: 103.113.68.233, port: 80, type: vmess, uuid: fddb3781-7e15-4731-a933-94db110b4bbc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇯🇵 baipaovpn日本 8, server: 43.201.255.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 baipaovpn美国 6, server: 131.186.29.172, port: 20254, type: vmess, uuid: 007be9ad-8db6-4164-fc49-49989bbcba96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: muran-kr.qrfly.me}}}
+  - {name: 🇺🇦 baipaovpn乌克兰, server: 5.182.39.27, port: 80, type: vmess, uuid: ffa054fd-602e-4a72-b4b1-90902479ba9d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇫🇷 baipaovpn法国 4, server: 51.158.195.96, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: baipaovpn, server: 2001:19f0:5000:16ec:5400:4ff:fea3:f9fb, port: 443, type: vmess, uuid: dfbbc8de-8a4f-407d-8069-6de38d83c4e1, alterId: 0, cipher: auto, tls: true, servername: hdfy4s2d1.foriran.trade, network: ws, ws-opts: {path: /WgCmp8pxRWBtLTlTL, headers: {Host: hdfy4s2d1.foriran.trade}}}
+  - {name: 🇷🇺 baipaovpn俄罗斯 2, server: 176.120.74.36, port: 80, type: vmess, uuid: b3882186-ea80-45fd-bb95-6f0217404671, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: es2-vmess.sshmax.xyz}}}
+  - {name: 🇺🇸 baipaovpn美国 7, server: 131.186.29.172, port: 21652, type: trojan, password: 5582a559-d68a-484b-bc33-4274bf63c71a, sni: jp1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true}
+  - {name: 🇺🇸 baipaovpn美国 8, server: 131.186.29.172, port: 22452, type: trojan, password: 56a00699-1857-46ac-a861-60d3c17e1b9f, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: 🇺🇸 baipaovpn美国 9, server: 13.215.194.232, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 baipaovpn广东省广州市 23, server: 183.236.51.20, port: 27253, type: ss, cipher: chacha20-ietf-poly1305, password: 9d595dc0-b0cf-4235-969b-211e1ea004f2}
+  - {name: 🇨🇳 baipaovpn台湾省台中市, server: 36.232.1.252, port: 33003, type: ss, cipher: aes-128-gcm, password: IGzBwsbS1U}
+  - {name: 🇨🇳 baipaovpn台湾省台北市, server: 61.228.163.76, port: 443, type: vmess, uuid: 11d30e65-0c7f-43cc-b3cb-2fdac267696e, alterId: 0, cipher: auto, tls: true, servername: b22.ntbq.dynu.net, network: ws, ws-opts: {path: /b22, headers: {Host: b22.ntbq.dynu.net}}}
+  - {name: baipaovpn欧盟, server: 45.87.155.70, port: 80, type: vmess, uuid: 88c0a1fb-fc4d-4eab-85c7-4dd84407e9a5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇺🇸 baipaovpn美国 10, server: 146.235.199.158, port: 25955, type: ss, cipher: aes-256-gcm, password: c47b8846-f947-40ef-a958-121ad2205b35}
+  - {name: 🇺🇦 baipaovpn乌克兰 2, server: 94.131.117.159, port: 80, type: vmess, uuid: 72b3b89a-30c5-4dc7-8b6e-f61218b95eda, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇺🇦 baipaovpn乌克兰 3, server: 94.131.98.90, port: 80, type: vmess, uuid: 0814badf-f3fc-4f15-b400-4ae8cdce610e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇺🇸 baipaovpn美国 11, server: 159.223.220.98, port: 30789, type: trojan, password: 031b1d27-48db-45e9-a76e-7792e7b8f5d6, sni: nl402.zebrassr.com, skip-cert-verify: true}
+  - {name: 🇨🇳 baipaovpn台湾省台北市 2, server: 61.228.189.139, port: 443, type: vmess, uuid: 11d30e65-0c7f-43cc-b3cb-2fdac267696e, alterId: 0, cipher: auto, tls: true, servername: b21.ntbq.dynu.net, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}}
+  - {name: 🇨🇳 baipaovpn台湾省新北市, server: 61.228.156.47, port: 443, type: vmess, uuid: 11d30e65-0c7f-43cc-b3cb-2fdac267696e, alterId: 0, cipher: auto, tls: true, servername: nbq13.ntbq.dynu.net, network: ws, ws-opts: {path: /b13, headers: {Host: nbq13.ntbq.dynu.net}}}
+  - {name: 🇨🇳 baipaovpn台湾省新竹市, server: 114.37.144.30, port: 443, type: vmess, uuid: 11d30e65-0c7f-43cc-b3cb-2fdac267696e, alterId: 0, cipher: auto, tls: true, servername: b23.ntbq.dynu.net, network: ws, ws-opts: {path: /b23, headers: {Host: b23.ntbq.dynu.net}}}
+  - {name: 🇺🇸 baipaovpn美国 12, server: 155.248.176.1, port: 20202, type: vmess, uuid: a5de5eb3-5760-488a-9211-e5fbd9388905, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,81 +111,80 @@ proxy-groups:
       - iOS|轻松签|全能签|P12证书
       - 定制V信|应用分身|V信密友|破解软件
       - baipaovpn亚太地区
-      - 🇨🇳 baipaovpn台湾省台北市
       - 🇨🇳 baipaovpn广东省广州市
       - 🇨🇳 baipaovpn广东省广州市 2
+      - 🇨🇳 baipaovpn广东省广州市 3
+      - 🇨🇳 baipaovpn广东省广州市 4
+      - 🇨🇳 baipaovpn广东省广州市 5
+      - 🇨🇳 baipaovpn广东省广州市 6
       - 🇺🇸 baipaovpn美国
-      - 🇰🇷 baipaovpn韩国首尔
-      - 🇨🇳 baipaovpn台湾省彰化县
-      - 🇯🇵 baipaovpn日本
-      - 🇨🇳 baipaovpn浙江省宁波市
-      - 🇨🇳 baipaovpn江苏省淮安市
-      - 🇨🇳 baipaovpn浙江省宁波市 2
-      - 🇨🇳 baipaovpn江苏省淮安市 2
-      - 🇨🇳 baipaovpn江苏省淮安市 3
-      - 🇨🇳 baipaovpn浙江省宁波市 3
-      - 🇸🇬 baipaovpn新加坡
-      - 🇯🇵 baipaovpn日本 2
-      - 🇯🇵 baipaovpn日本 3
-      - 🇯🇵 baipaovpn日本 4
       - 🇺🇸 baipaovpn美国 2
-      - 🇯🇵 baipaovpn日本 5
-      - 🇯🇵 baipaovpn日本 6
-      - 🇨🇳 baipaovpn江苏省镇江市
-      - 🇨🇳 baipaovpn江苏省镇江市 2
-      - 🇨🇳 baipaovpn江苏省镇江市 3
-      - 🇨🇳 baipaovpn江苏省镇江市 4
-      - 🇨🇳 baipaovpn江苏省镇江市 5
-      - 🇨🇳 baipaovpn江苏省镇江市 6
-      - 🇨🇳 baipaovpn北京市
-      - 🇨🇳 baipaovpn江苏省镇江市 7
-      - 🇯🇵 baipaovpn日本 7
+      - 🇯🇵 baipaovpn日本
+      - 🇯🇵 baipaovpn日本 2
+      - baipaovpn中国
+      - 🇨🇦 baipaovpn加拿大
+      - 🇯🇵 baipaovpn日本 3
+      - baipaovpn中国 2
+      - 🇯🇵 baipaovpn日本 4
+      - 🇸🇬 baipaovpn新加坡
+      - 🇨🇳 baipaovpn广东省广州市 7
+      - 🇨🇳 baipaovpn广东省广州市 8
+      - 🇩🇪 baipaovpn德国
+      - 🇨🇳 baipaovpn广东省广州市 9
       - 🇫🇷 baipaovpn法国
+      - 🇨🇳 baipaovpn广东省广州市 10
+      - 🇷🇺 baipaovpn白俄罗斯
+      - 🇨🇳 baipaovpn广东省广州市 11
+      - 🇨🇳 baipaovpn广东省广州市 12
+      - 🇨🇳 baipaovpn广东省广州市 13
+      - 🇰🇷 baipaovpn韩国首尔
+      - 🇨🇳 baipaovpn广东省广州市 14
+      - 🇰🇷 baipaovpn韩国首尔 2
+      - 🇨🇳 baipaovpn广东省广州市 15
+      - 🇨🇳 baipaovpn广东省广州市 16
+      - 🇨🇳 baipaovpn广东省广州市 17
+      - 🇨🇳 baipaovpn广东省广州市 18
+      - 🇨🇳 baipaovpn广东省广州市 19
+      - 🇯🇵 baipaovpn日本 5
+      - 🇰🇷 baipaovpn韩国首尔 3
+      - 🇰🇷 baipaovpn韩国首尔 4
+      - 🇯🇵 baipaovpn日本 6
+      - 🇰🇷 baipaovpn韩国首尔 5
+      - 🇯🇵 baipaovpn日本 7
+      - 🇨🇳 baipaovpn广东省广州市 20
+      - 🇷🇺 baipaovpn俄罗斯
       - 🇫🇷 baipaovpn法国 2
-      - 🇯🇵 baipaovpn日本 8
-      - 🇯🇵 baipaovpn日本 9
+      - 🇩🇪 baipaovpn德国 2
+      - 🇩🇪 baipaovpn德国 3
       - 🇫🇷 baipaovpn法国 3
       - 🇺🇸 baipaovpn美国 3
-      - 🇫🇷 baipaovpn法国 4
-      - 🇫🇷 baipaovpn法国 5
-      - 🇨🇦 baipaovpn加拿大
-      - 🇯🇵 baipaovpn日本 10
-      - 🇯🇵 baipaovpn日本东京
-      - 🇫🇷 baipaovpn法国 6
-      - 🇯🇵 baipaovpn日本 11
-      - 🇯🇵 baipaovpn日本东京 2
-      - baipaovpn中国
-      - 🇯🇵 baipaovpn日本 12
-      - 🇷🇺 baipaovpn白俄罗斯
-      - 🇨🇳 baipaovpn广东省广州市 3
-      - 🇫🇷 baipaovpn法国 7
-      - 🇩🇪 baipaovpn德国
-      - 🇫🇷 baipaovpn法国 8
-      - 🇫🇷 baipaovpn法国 9
-      - 🇬🇧 baipaovpn英国
-      - 🇫🇷 baipaovpn法国 10
-      - 🇷🇺 baipaovpn俄罗斯
-      - 🇬🇧 baipaovpn英国 2
-      - 🇭🇰 baipaovpn香港
-      - 🇯🇵 baipaovpn日本 13
-      - 🇫🇷 baipaovpn法国 11
-      - 🇫🇷 baipaovpn法国 12
-      - 🇫🇷 baipaovpn法国 13
-      - baipaovpn黎巴嫩
-      - baipaovpn阿富汗
+      - 🇨🇳 baipaovpn广东省广州市 21
       - 🇺🇸 baipaovpn美国 4
-      - 🇸🇬 baipaovpn新加坡 2
-      - 🇸🇬 baipaovpn新加坡 3
-      - 🇨🇳 baipaovpn台湾省台北市 2
-      - 🇨🇳 baipaovpn台湾省
-      - 🇨🇳 baipaovpn台湾省南投县
-      - 🇨🇳 baipaovpn台湾省新北市
-      - 🇺🇸 baipaovpn美国纽约州纽约
+      - 🇬🇧 baipaovpn英国
       - 🇺🇸 baipaovpn美国 5
-      - 🇯🇵 baipaovpn日本 14
-      - 🇯🇵 baipaovpn日本 15
-      - 🇨🇳 baipaovpn台湾省 2
-      - 🇯🇵 baipaovpn日本 16
+      - 🇨🇳 baipaovpn广东省广州市 22
+      - 🇮🇳 baipaovpn印度
+      - 🇯🇵 baipaovpn日本 8
+      - 🇺🇸 baipaovpn美国 6
+      - 🇺🇦 baipaovpn乌克兰
+      - 🇫🇷 baipaovpn法国 4
+      - baipaovpn
+      - 🇷🇺 baipaovpn俄罗斯 2
+      - 🇺🇸 baipaovpn美国 7
+      - 🇺🇸 baipaovpn美国 8
+      - 🇺🇸 baipaovpn美国 9
+      - 🇨🇳 baipaovpn广东省广州市 23
+      - 🇨🇳 baipaovpn台湾省台中市
+      - 🇨🇳 baipaovpn台湾省台北市
+      - baipaovpn欧盟
+      - 🇺🇸 baipaovpn美国 10
+      - 🇺🇦 baipaovpn乌克兰 2
+      - 🇺🇦 baipaovpn乌克兰 3
+      - 🇺🇸 baipaovpn美国 11
+      - 🇨🇳 baipaovpn台湾省台北市 2
+      - 🇨🇳 baipaovpn台湾省新北市
+      - 🇨🇳 baipaovpn台湾省新竹市
+      - 🇺🇸 baipaovpn美国 12
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -202,81 +200,80 @@ proxy-groups:
       - iOS|轻松签|全能签|P12证书
       - 定制V信|应用分身|V信密友|破解软件
       - baipaovpn亚太地区
-      - 🇨🇳 baipaovpn台湾省台北市
       - 🇨🇳 baipaovpn广东省广州市
       - 🇨🇳 baipaovpn广东省广州市 2
+      - 🇨🇳 baipaovpn广东省广州市 3
+      - 🇨🇳 baipaovpn广东省广州市 4
+      - 🇨🇳 baipaovpn广东省广州市 5
+      - 🇨🇳 baipaovpn广东省广州市 6
       - 🇺🇸 baipaovpn美国
-      - 🇰🇷 baipaovpn韩国首尔
-      - 🇨🇳 baipaovpn台湾省彰化县
-      - 🇯🇵 baipaovpn日本
-      - 🇨🇳 baipaovpn浙江省宁波市
-      - 🇨🇳 baipaovpn江苏省淮安市
-      - 🇨🇳 baipaovpn浙江省宁波市 2
-      - 🇨🇳 baipaovpn江苏省淮安市 2
-      - 🇨🇳 baipaovpn江苏省淮安市 3
-      - 🇨🇳 baipaovpn浙江省宁波市 3
-      - 🇸🇬 baipaovpn新加坡
-      - 🇯🇵 baipaovpn日本 2
-      - 🇯🇵 baipaovpn日本 3
-      - 🇯🇵 baipaovpn日本 4
       - 🇺🇸 baipaovpn美国 2
-      - 🇯🇵 baipaovpn日本 5
-      - 🇯🇵 baipaovpn日本 6
-      - 🇨🇳 baipaovpn江苏省镇江市
-      - 🇨🇳 baipaovpn江苏省镇江市 2
-      - 🇨🇳 baipaovpn江苏省镇江市 3
-      - 🇨🇳 baipaovpn江苏省镇江市 4
-      - 🇨🇳 baipaovpn江苏省镇江市 5
-      - 🇨🇳 baipaovpn江苏省镇江市 6
-      - 🇨🇳 baipaovpn北京市
-      - 🇨🇳 baipaovpn江苏省镇江市 7
-      - 🇯🇵 baipaovpn日本 7
+      - 🇯🇵 baipaovpn日本
+      - 🇯🇵 baipaovpn日本 2
+      - baipaovpn中国
+      - 🇨🇦 baipaovpn加拿大
+      - 🇯🇵 baipaovpn日本 3
+      - baipaovpn中国 2
+      - 🇯🇵 baipaovpn日本 4
+      - 🇸🇬 baipaovpn新加坡
+      - 🇨🇳 baipaovpn广东省广州市 7
+      - 🇨🇳 baipaovpn广东省广州市 8
+      - 🇩🇪 baipaovpn德国
+      - 🇨🇳 baipaovpn广东省广州市 9
       - 🇫🇷 baipaovpn法国
+      - 🇨🇳 baipaovpn广东省广州市 10
+      - 🇷🇺 baipaovpn白俄罗斯
+      - 🇨🇳 baipaovpn广东省广州市 11
+      - 🇨🇳 baipaovpn广东省广州市 12
+      - 🇨🇳 baipaovpn广东省广州市 13
+      - 🇰🇷 baipaovpn韩国首尔
+      - 🇨🇳 baipaovpn广东省广州市 14
+      - 🇰🇷 baipaovpn韩国首尔 2
+      - 🇨🇳 baipaovpn广东省广州市 15
+      - 🇨🇳 baipaovpn广东省广州市 16
+      - 🇨🇳 baipaovpn广东省广州市 17
+      - 🇨🇳 baipaovpn广东省广州市 18
+      - 🇨🇳 baipaovpn广东省广州市 19
+      - 🇯🇵 baipaovpn日本 5
+      - 🇰🇷 baipaovpn韩国首尔 3
+      - 🇰🇷 baipaovpn韩国首尔 4
+      - 🇯🇵 baipaovpn日本 6
+      - 🇰🇷 baipaovpn韩国首尔 5
+      - 🇯🇵 baipaovpn日本 7
+      - 🇨🇳 baipaovpn广东省广州市 20
+      - 🇷🇺 baipaovpn俄罗斯
       - 🇫🇷 baipaovpn法国 2
-      - 🇯🇵 baipaovpn日本 8
-      - 🇯🇵 baipaovpn日本 9
+      - 🇩🇪 baipaovpn德国 2
+      - 🇩🇪 baipaovpn德国 3
       - 🇫🇷 baipaovpn法国 3
       - 🇺🇸 baipaovpn美国 3
-      - 🇫🇷 baipaovpn法国 4
-      - 🇫🇷 baipaovpn法国 5
-      - 🇨🇦 baipaovpn加拿大
-      - 🇯🇵 baipaovpn日本 10
-      - 🇯🇵 baipaovpn日本东京
-      - 🇫🇷 baipaovpn法国 6
-      - 🇯🇵 baipaovpn日本 11
-      - 🇯🇵 baipaovpn日本东京 2
-      - baipaovpn中国
-      - 🇯🇵 baipaovpn日本 12
-      - 🇷🇺 baipaovpn白俄罗斯
-      - 🇨🇳 baipaovpn广东省广州市 3
-      - 🇫🇷 baipaovpn法国 7
-      - 🇩🇪 baipaovpn德国
-      - 🇫🇷 baipaovpn法国 8
-      - 🇫🇷 baipaovpn法国 9
-      - 🇬🇧 baipaovpn英国
-      - 🇫🇷 baipaovpn法国 10
-      - 🇷🇺 baipaovpn俄罗斯
-      - 🇬🇧 baipaovpn英国 2
-      - 🇭🇰 baipaovpn香港
-      - 🇯🇵 baipaovpn日本 13
-      - 🇫🇷 baipaovpn法国 11
-      - 🇫🇷 baipaovpn法国 12
-      - 🇫🇷 baipaovpn法国 13
-      - baipaovpn黎巴嫩
-      - baipaovpn阿富汗
+      - 🇨🇳 baipaovpn广东省广州市 21
       - 🇺🇸 baipaovpn美国 4
-      - 🇸🇬 baipaovpn新加坡 2
-      - 🇸🇬 baipaovpn新加坡 3
-      - 🇨🇳 baipaovpn台湾省台北市 2
-      - 🇨🇳 baipaovpn台湾省
-      - 🇨🇳 baipaovpn台湾省南投县
-      - 🇨🇳 baipaovpn台湾省新北市
-      - 🇺🇸 baipaovpn美国纽约州纽约
+      - 🇬🇧 baipaovpn英国
       - 🇺🇸 baipaovpn美国 5
-      - 🇯🇵 baipaovpn日本 14
-      - 🇯🇵 baipaovpn日本 15
-      - 🇨🇳 baipaovpn台湾省 2
-      - 🇯🇵 baipaovpn日本 16
+      - 🇨🇳 baipaovpn广东省广州市 22
+      - 🇮🇳 baipaovpn印度
+      - 🇯🇵 baipaovpn日本 8
+      - 🇺🇸 baipaovpn美国 6
+      - 🇺🇦 baipaovpn乌克兰
+      - 🇫🇷 baipaovpn法国 4
+      - baipaovpn
+      - 🇷🇺 baipaovpn俄罗斯 2
+      - 🇺🇸 baipaovpn美国 7
+      - 🇺🇸 baipaovpn美国 8
+      - 🇺🇸 baipaovpn美国 9
+      - 🇨🇳 baipaovpn广东省广州市 23
+      - 🇨🇳 baipaovpn台湾省台中市
+      - 🇨🇳 baipaovpn台湾省台北市
+      - baipaovpn欧盟
+      - 🇺🇸 baipaovpn美国 10
+      - 🇺🇦 baipaovpn乌克兰 2
+      - 🇺🇦 baipaovpn乌克兰 3
+      - 🇺🇸 baipaovpn美国 11
+      - 🇨🇳 baipaovpn台湾省台北市 2
+      - 🇨🇳 baipaovpn台湾省新北市
+      - 🇨🇳 baipaovpn台湾省新竹市
+      - 🇺🇸 baipaovpn美国 12
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -303,88 +300,87 @@ proxy-groups:
       - iOS|轻松签|全能签|P12证书
       - 定制V信|应用分身|V信密友|破解软件
       - baipaovpn亚太地区
-      - 🇨🇳 baipaovpn台湾省台北市
       - 🇨🇳 baipaovpn广东省广州市
       - 🇨🇳 baipaovpn广东省广州市 2
+      - 🇨🇳 baipaovpn广东省广州市 3
+      - 🇨🇳 baipaovpn广东省广州市 4
+      - 🇨🇳 baipaovpn广东省广州市 5
+      - 🇨🇳 baipaovpn广东省广州市 6
       - 🇺🇸 baipaovpn美国
-      - 🇰🇷 baipaovpn韩国首尔
-      - 🇨🇳 baipaovpn台湾省彰化县
-      - 🇯🇵 baipaovpn日本
-      - 🇨🇳 baipaovpn浙江省宁波市
-      - 🇨🇳 baipaovpn江苏省淮安市
-      - 🇨🇳 baipaovpn浙江省宁波市 2
-      - 🇨🇳 baipaovpn江苏省淮安市 2
-      - 🇨🇳 baipaovpn江苏省淮安市 3
-      - 🇨🇳 baipaovpn浙江省宁波市 3
-      - 🇸🇬 baipaovpn新加坡
-      - 🇯🇵 baipaovpn日本 2
-      - 🇯🇵 baipaovpn日本 3
-      - 🇯🇵 baipaovpn日本 4
       - 🇺🇸 baipaovpn美国 2
-      - 🇯🇵 baipaovpn日本 5
-      - 🇯🇵 baipaovpn日本 6
-      - 🇨🇳 baipaovpn江苏省镇江市
-      - 🇨🇳 baipaovpn江苏省镇江市 2
-      - 🇨🇳 baipaovpn江苏省镇江市 3
-      - 🇨🇳 baipaovpn江苏省镇江市 4
-      - 🇨🇳 baipaovpn江苏省镇江市 5
-      - 🇨🇳 baipaovpn江苏省镇江市 6
-      - 🇨🇳 baipaovpn北京市
-      - 🇨🇳 baipaovpn江苏省镇江市 7
-      - 🇯🇵 baipaovpn日本 7
+      - 🇯🇵 baipaovpn日本
+      - 🇯🇵 baipaovpn日本 2
+      - baipaovpn中国
+      - 🇨🇦 baipaovpn加拿大
+      - 🇯🇵 baipaovpn日本 3
+      - baipaovpn中国 2
+      - 🇯🇵 baipaovpn日本 4
+      - 🇸🇬 baipaovpn新加坡
+      - 🇨🇳 baipaovpn广东省广州市 7
+      - 🇨🇳 baipaovpn广东省广州市 8
+      - 🇩🇪 baipaovpn德国
+      - 🇨🇳 baipaovpn广东省广州市 9
       - 🇫🇷 baipaovpn法国
+      - 🇨🇳 baipaovpn广东省广州市 10
+      - 🇷🇺 baipaovpn白俄罗斯
+      - 🇨🇳 baipaovpn广东省广州市 11
+      - 🇨🇳 baipaovpn广东省广州市 12
+      - 🇨🇳 baipaovpn广东省广州市 13
+      - 🇰🇷 baipaovpn韩国首尔
+      - 🇨🇳 baipaovpn广东省广州市 14
+      - 🇰🇷 baipaovpn韩国首尔 2
+      - 🇨🇳 baipaovpn广东省广州市 15
+      - 🇨🇳 baipaovpn广东省广州市 16
+      - 🇨🇳 baipaovpn广东省广州市 17
+      - 🇨🇳 baipaovpn广东省广州市 18
+      - 🇨🇳 baipaovpn广东省广州市 19
+      - 🇯🇵 baipaovpn日本 5
+      - 🇰🇷 baipaovpn韩国首尔 3
+      - 🇰🇷 baipaovpn韩国首尔 4
+      - 🇯🇵 baipaovpn日本 6
+      - 🇰🇷 baipaovpn韩国首尔 5
+      - 🇯🇵 baipaovpn日本 7
+      - 🇨🇳 baipaovpn广东省广州市 20
+      - 🇷🇺 baipaovpn俄罗斯
       - 🇫🇷 baipaovpn法国 2
-      - 🇯🇵 baipaovpn日本 8
-      - 🇯🇵 baipaovpn日本 9
+      - 🇩🇪 baipaovpn德国 2
+      - 🇩🇪 baipaovpn德国 3
       - 🇫🇷 baipaovpn法国 3
       - 🇺🇸 baipaovpn美国 3
-      - 🇫🇷 baipaovpn法国 4
-      - 🇫🇷 baipaovpn法国 5
-      - 🇨🇦 baipaovpn加拿大
-      - 🇯🇵 baipaovpn日本 10
-      - 🇯🇵 baipaovpn日本东京
-      - 🇫🇷 baipaovpn法国 6
-      - 🇯🇵 baipaovpn日本 11
-      - 🇯🇵 baipaovpn日本东京 2
-      - baipaovpn中国
-      - 🇯🇵 baipaovpn日本 12
-      - 🇷🇺 baipaovpn白俄罗斯
-      - 🇨🇳 baipaovpn广东省广州市 3
-      - 🇫🇷 baipaovpn法国 7
-      - 🇩🇪 baipaovpn德国
-      - 🇫🇷 baipaovpn法国 8
-      - 🇫🇷 baipaovpn法国 9
-      - 🇬🇧 baipaovpn英国
-      - 🇫🇷 baipaovpn法国 10
-      - 🇷🇺 baipaovpn俄罗斯
-      - 🇬🇧 baipaovpn英国 2
-      - 🇭🇰 baipaovpn香港
-      - 🇯🇵 baipaovpn日本 13
-      - 🇫🇷 baipaovpn法国 11
-      - 🇫🇷 baipaovpn法国 12
-      - 🇫🇷 baipaovpn法国 13
-      - baipaovpn黎巴嫩
-      - baipaovpn阿富汗
+      - 🇨🇳 baipaovpn广东省广州市 21
       - 🇺🇸 baipaovpn美国 4
-      - 🇸🇬 baipaovpn新加坡 2
-      - 🇸🇬 baipaovpn新加坡 3
-      - 🇨🇳 baipaovpn台湾省台北市 2
-      - 🇨🇳 baipaovpn台湾省
-      - 🇨🇳 baipaovpn台湾省南投县
-      - 🇨🇳 baipaovpn台湾省新北市
-      - 🇺🇸 baipaovpn美国纽约州纽约
+      - 🇬🇧 baipaovpn英国
       - 🇺🇸 baipaovpn美国 5
-      - 🇯🇵 baipaovpn日本 14
-      - 🇯🇵 baipaovpn日本 15
-      - 🇨🇳 baipaovpn台湾省 2
-      - 🇯🇵 baipaovpn日本 16
+      - 🇨🇳 baipaovpn广东省广州市 22
+      - 🇮🇳 baipaovpn印度
+      - 🇯🇵 baipaovpn日本 8
+      - 🇺🇸 baipaovpn美国 6
+      - 🇺🇦 baipaovpn乌克兰
+      - 🇫🇷 baipaovpn法国 4
+      - baipaovpn
+      - 🇷🇺 baipaovpn俄罗斯 2
+      - 🇺🇸 baipaovpn美国 7
+      - 🇺🇸 baipaovpn美国 8
+      - 🇺🇸 baipaovpn美国 9
+      - 🇨🇳 baipaovpn广东省广州市 23
+      - 🇨🇳 baipaovpn台湾省台中市
+      - 🇨🇳 baipaovpn台湾省台北市
+      - baipaovpn欧盟
+      - 🇺🇸 baipaovpn美国 10
+      - 🇺🇦 baipaovpn乌克兰 2
+      - 🇺🇦 baipaovpn乌克兰 3
+      - 🇺🇸 baipaovpn美国 11
+      - 🇨🇳 baipaovpn台湾省台北市 2
+      - 🇨🇳 baipaovpn台湾省新北市
+      - 🇨🇳 baipaovpn台湾省新竹市
+      - 🇺🇸 baipaovpn美国 12
   - name: 🇭🇰 香港节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 baipaovpn香港
+      - DIRECT
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -399,16 +395,6 @@ proxy-groups:
       - 🇯🇵 baipaovpn日本 6
       - 🇯🇵 baipaovpn日本 7
       - 🇯🇵 baipaovpn日本 8
-      - 🇯🇵 baipaovpn日本 9
-      - 🇯🇵 baipaovpn日本 10
-      - 🇯🇵 baipaovpn日本东京
-      - 🇯🇵 baipaovpn日本 11
-      - 🇯🇵 baipaovpn日本东京 2
-      - 🇯🇵 baipaovpn日本 12
-      - 🇯🇵 baipaovpn日本 13
-      - 🇯🇵 baipaovpn日本 14
-      - 🇯🇵 baipaovpn日本 15
-      - 🇯🇵 baipaovpn日本 16
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -416,8 +402,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇸🇬 baipaovpn新加坡
-      - 🇸🇬 baipaovpn新加坡 2
-      - 🇸🇬 baipaovpn新加坡 3
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -428,8 +412,14 @@ proxy-groups:
       - 🇺🇸 baipaovpn美国 2
       - 🇺🇸 baipaovpn美国 3
       - 🇺🇸 baipaovpn美国 4
-      - 🇺🇸 baipaovpn美国纽约州纽约
       - 🇺🇸 baipaovpn美国 5
+      - 🇺🇸 baipaovpn美国 6
+      - 🇺🇸 baipaovpn美国 7
+      - 🇺🇸 baipaovpn美国 8
+      - 🇺🇸 baipaovpn美国 9
+      - 🇺🇸 baipaovpn美国 10
+      - 🇺🇸 baipaovpn美国 11
+      - 🇺🇸 baipaovpn美国 12
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -3716,3 +3706,5 @@ rules:
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
+
+
