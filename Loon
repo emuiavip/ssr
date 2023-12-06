@@ -1,0 +1,167 @@
+[General]
+allow-wifi-access=false
+bypass-tun=10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.88.99.0/24, 192.168.0.0/16, 198.51.100.0/24, 203.0.113.0/24, 224.0.0.0/4, 239.255.255.250/32, 255.255.255.255/32
+disable-stun=true
+disconnect-on-policy-change=true
+dns-server=119.29.29.29, 223.5.5.5
+doh-server=https://223.5.5.5/resolve, https://sm2.doh.pub/dns-query
+geoip-url=https://gitlab.com/Masaiki/GeoIP2-CN/-/raw/release/Country.mmdb
+interface-mode=auto
+ipv6=false
+proxy-test-url=http://connectivitycheck.gstatic.com
+resource-parser=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Sub-Store/sub-store-parser_for_loon.js
+skip-proxy=192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local, captive.apple.com, e.crashlynatics.com
+sni-sniffing=true
+ssid-trigger="Ccccccc":DIRECT,"cellular":RULE,"default":RULE
+switch-node-after-failure-times=3
+test-timeout=2
+wifi-access-http-port=7222
+wifi-access-socks5-port=7221
+
+[Proxy]
+枭木iOS大本营 TG@Tmxios = Shadowsocks,1.1.1.1,8090,aes-256-gcm,"PCnnH6SQSnfoS27"
+https://t.me/Tmxios = Shadowsocks,1.1.1.1,30067,aes-256-gcm,"iUB0923RBA"
+P12证书 https://p12.tmxios.top = Shadowsocks,1.1.1.1,30067,aes-256-gcm,"iUB0923RBA"
+号卡办理 https://10.tmxios.top/ = Shadowsocks,1.1.1.1,30067,aes-256-gcm,"iUB0923RBA"
+公众号：枭木iOS大本营 = Shadowsocks,1.1.1.1,30067,aes-256-gcm,"iUB0923RBA"
+全网低价个人证书 = Shadowsocks,1.1.1.1,30067,aes-256-gcm,"iUB0923RBA"
+iOS|轻松签|全能签|P12证书 = Shadowsocks,1.1.1.1,30067,aes-256-gcm,"iUB0923RBA"
+定制V信|应用分身|V信密友|破解软件 = Shadowsocks,1.1.1.1,30067,aes-256-gcm,"iUB0923RBA"
+🇮🇳 baipaovpn印度 = vmess,103.113.68.233,80,chacha20-ietf-poly1305,"fddb3781-7e15-4731-a933-94db110b4bbc",over-tls=false,transport=ws,path=/vmess,host=
+🇨🇳 广东省广州市 = Shadowsocks,183.233.187.235,50002,chacha20-ietf-poly1305,"12d29bd8-3461-42c8-81af-897cf3dc15b0"
+🇺🇦 baipaovpn乌克兰 = vmess,95.164.46.154,8080,chacha20-ietf-poly1305,"431fda16-e0f8-4884-b4fd-965f03f86471",over-tls=false,transport=ws,path=/vmess,host=
+🇭🇰 香港 = Shadowsocks,47.243.195.27,80,aes-128-gcm,"a-wym4ovY4Yw",http
+🇨🇳 广东省广州市 2 = Shadowsocks,183.233.187.235,26667,chacha20-ietf-poly1305,"12d29bd8-3461-42c8-81af-897cf3dc15b0"
+🇨🇳 广东省广州市 3 = Shadowsocks,183.233.187.235,20009,chacha20-ietf-poly1305,"12d29bd8-3461-42c8-81af-897cf3dc15b0"
+🇨🇳 广东省广州市 4 = Shadowsocks,183.233.187.235,20001,chacha20-ietf-poly1305,"12d29bd8-3461-42c8-81af-897cf3dc15b0"
+🇨🇳 广东省 = trojan,120.233.30.211,17787,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life
+🇨🇳 广东省广州市 5 = Shadowsocks,183.233.187.235,50001,chacha20-ietf-poly1305,"12d29bd8-3461-42c8-81af-897cf3dc15b0"
+🇯🇵 日本东京 = Shadowsocks,18.176.61.138,443,aes-256-cfb,"amazonskr05"
+🇯🇵 日本 = Shadowsocks,43.201.83.172,443,aes-256-cfb,"amazonskr05"
+🇸🇬 新加坡 = Shadowsocks,13.250.60.49,443,aes-256-cfb,"amazonskr05"
+🇨🇳 baipaovpn台湾省台北市 = vmess,36.226.150.132,443,chacha20-ietf-poly1305,"28e08966-170c-4b59-8756-14dfad41157a",over-tls=true,tls-name=b22.ntbq.dynu.net,transport=ws,path=/b22,host=b22.ntbq.dynu.net
+🇰🇷 baipaovpn韩国首尔 = vmess,43.155.131.141,20026,chacha20-ietf-poly1305,"d60442cf-4942-4b22-868e-97b96e564709",over-tls=false,transport=ws,path=/yongdong,host=yongdong.xyz
+🇨🇳 广东省 2 = trojan,120.233.30.211,17702,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇯🇵 日本东京 2 = Shadowsocks,13.114.218.148,443,aes-256-cfb,"amazonskr05"
+🇯🇵 日本 2 = Shadowsocks,43.202.62.52,443,aes-256-cfb,"amazonskr05"
+🇯🇵 日本东京 3 = Shadowsocks,13.112.247.107,443,aes-256-cfb,"amazonskr05"
+🇫🇷 法国 = Shadowsocks,57.180.13.26,443,aes-256-cfb,"amazonskr05"
+🇰🇷 韩国首尔 = Shadowsocks,13.124.16.187,443,aes-256-cfb,"amazonskr05"
+🇯🇵 日本 3 = Shadowsocks,54.248.151.131,443,aes-256-cfb,"amazonskr05"
+🇰🇷 韩国首尔 2 = Shadowsocks,13.125.30.161,443,aes-256-cfb,"amazonskr05"
+🇸🇬 新加坡 2 = Shadowsocks,13.212.92.129,443,aes-256-cfb,"amazonskr05"
+🇸🇬 新加坡 3 = Shadowsocks,54.151.131.43,443,aes-256-cfb,"amazonskr05"
+🇩🇪 baipaovpn德国 = vmess,5.252.23.133,80,chacha20-ietf-poly1305,"06c2b568-b7df-4e80-9031-c83569397db4",over-tls=false,transport=ws,path=/vmess,host=sk1-vmess.sshmax.xyz
+🇨🇳 广东省 3 = trojan,120.233.30.211,17720,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇺🇸 美国 = Shadowsocks,168.138.31.214,20262,chacha20-ietf-poly1305,"44a05463-181b-4fc7-b324-1fe6b37247f7"
+🇨🇳 广东省 4 = trojan,120.233.30.211,17753,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇺🇸 美国 2 = trojan,64.110.83.196,20652,"5582a559-d68a-484b-bc33-4274bf63c71a",tls-name=jp2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen,skip-cert-verify=true
+🇫🇷 baipaovpn法国 = vmess,57.129.31.129,443,chacha20-ietf-poly1305,"5775de7e-0c2e-4e7c-8b9c-c48704d8facb",over-tls=true,tls-name=s1.19kala.co,transport=ws,path=/OWTu4RMkF9V12oO5NLlQk,host=s1.19kala.co
+🇨🇳 广东省 5 = trojan,120.233.30.211,17725,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇨🇳 甘肃省兰州市 = Shadowsocks,36.138.254.154,49998,chacha20-ietf-poly1305,"037b4a08-c072-4be1-9ba9-3d913bf109e4"
+🇯🇵 baipaovpn日本 = vmess,43.163.220.254,20009,chacha20-ietf-poly1305,"d60442cf-4942-4b22-868e-97b96e564709",over-tls=false,transport=ws,path=/yongdong,host=rb.yongdong.xyz
+🇯🇵 baipaovpn日本 2 = vmess,43.163.220.254,20008,chacha20-ietf-poly1305,"350fc26b-f3de-441c-9f3c-01028b2d067e",over-tls=false,transport=ws,path=/yongdong,host=rb.yongdong.xyz
+🇰🇷 baipaovpn韩国首尔 2 = vmess,43.155.131.141,20027,chacha20-ietf-poly1305,"d60442cf-4942-4b22-868e-97b96e564709",over-tls=false,transport=ws,path=/yongdong,host=ser.yongdong.xyz
+🇰🇷 baipaovpn韩国首尔 3 = vmess,43.155.131.141,20028,chacha20-ietf-poly1305,"d60442cf-4942-4b22-868e-97b96e564709",over-tls=false,transport=ws,path=/yongdong,host=ser.yongdong.xyz
+🇯🇵 baipaovpn日本 3 = vmess,43.163.220.254,20007,chacha20-ietf-poly1305,"350fc26b-f3de-441c-9f3c-01028b2d067e",over-tls=false,transport=ws,path=/yongdong,host=rb.yongdong.xyz
+🇨🇳 广东省 6 = trojan,120.233.30.211,17730,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇺🇸 美国 3 = Shadowsocks,135.125.172.153,443,aes-256-cfb,"asdKkaskJKfnsa"
+🇺🇸 美国 4 = Shadowsocks,135.125.172.139,443,aes-256-cfb,"asdKkaskJKfnsa"
+🇫🇷 法国 2 = Shadowsocks,163.172.64.22,989,aes-256-cfb,"f8f7aCzcPKbsF8p3"
+🇺🇸 美国 5 = trojan,13.37.35.72,22222,"telegram-id-privatevpns",skip-cert-verify=true
+🇨🇳 广东省 7 = trojan,120.233.30.211,17759,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇬🇧 英国 = Shadowsocks,158.180.78.138,20352,chacha20-ietf-poly1305,"44a05463-181b-4fc7-b324-1fe6b37247f7"
+🇬🇧 英国伦敦 = Shadowsocks,51.142.109.78,48236,chacha20-ietf-poly1305,"DTmnf1J3sPlAtyMRMgJAYo"
+🇨🇳 广东省 8 = trojan,120.233.30.211,17756,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇨🇳 广东省 9 = trojan,120.233.30.211,17728,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇷🇺 俄罗斯 = Shadowsocks,185.39.207.33,443,chacha20-ietf-poly1305,"VL8uw23WZVKx"
+🇭🇰 baipaovpn香港 = vmess,194.156.98.179,80,chacha20-ietf-poly1305,"0855b410-0e96-4d0a-9b6e-80830edec462",over-tls=false,transport=tcp
+🇨🇳 广东省 10 = trojan,120.233.30.211,17723,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇨🇳 广东省 11 = trojan,120.233.30.211,17739,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇨🇳 广东省 12 = trojan,120.233.30.211,17731,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇳🇱 baipaovpn荷兰 = vmess,95.179.128.114,80,chacha20-ietf-poly1305,"a6292090-afe1-4640-97a7-4f1d1d877cf1",over-tls=false,transport=ws,path=/Av8czorIlYicU6D349brWUw6a,host=
+🇨🇳 广东省 13 = trojan,120.233.30.211,17755,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇨🇳 广东省 14 = trojan,120.233.30.211,17701,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+baipaovpn欧盟 = vmess,45.89.55.147,80,chacha20-ietf-poly1305,"4c2dbe94-833b-476c-910b-af8b5f3c0123",over-tls=false,transport=ws,path=/vmess,host=
+🇷🇺 baipaovpn俄罗斯 = vmess,89.221.224.12,80,chacha20-ietf-poly1305,"3bc3514c-cbcb-4b08-9797-c62850ae8bb4",over-tls=false,transport=ws,path=/vmess,host=
+🇷🇺 baipaovpn俄罗斯 2 = vmess,176.120.74.36,80,chacha20-ietf-poly1305,"b3882186-ea80-45fd-bb95-6f0217404671",over-tls=false,transport=ws,path=/vmess,host=es2-vmess.sshmax.xyz
+🇷🇺 baipaovpn俄罗斯 3 = vmess,89.221.224.92,80,chacha20-ietf-poly1305,"3f9461ac-51dc-4114-988f-f65f7260edf7",over-tls=false,transport=ws,path=/vmess,host=is2.xv2ray.net
+🇨🇳 广东省 15 = trojan,120.233.30.211,17729,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇺🇸 美国 6 = Shadowsocks,13.215.194.232,443,aes-256-cfb,"amazonskr05"
+🇨🇳 广东省 16 = trojan,120.233.30.211,17786,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇨🇳 广东省 17 = trojan,120.233.30.211,17749,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇿🇦 baipaovpn南非 = vmess,156.251.189.113,443,chacha20-ietf-poly1305,"ab6eb894-eee0-4335-a259-47140fbf1a5b",over-tls=true,tls-name=us01.h.csznet.eu.org,transport=ws,path=/admin,host=us01.h.csznet.eu.org
+🇺🇦 baipaovpn乌克兰 2 = vmess,94.131.98.90,80,chacha20-ietf-poly1305,"0814badf-f3fc-4f15-b400-4ae8cdce610e",over-tls=false,transport=ws,path=/vmess,host=
+🇨🇳 广东省 18 = trojan,120.233.30.211,17742,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇨🇳 广东省 19 = trojan,120.233.30.211,17754,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇨🇳 广东省 20 = trojan,120.233.30.211,17732,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇨🇳 广东省 21 = trojan,120.233.30.211,17722,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇨🇳 广东省 22 = trojan,120.233.30.211,17711,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇨🇳 广东省 23 = trojan,120.233.30.211,17712,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇨🇳 广东省 24 = trojan,120.233.30.211,17741,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇺🇸 美国 7 = trojan,138.68.224.102,443,"5582a559-d68a-484b-bc33-4274bf63c71a",tls-name=us2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen,skip-cert-verify=true
+🇨🇳 广东省 25 = trojan,120.233.30.211,17743,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇨🇳 广东省 26 = trojan,120.233.30.211,17713,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇨🇳 广东省 27 = trojan,120.233.30.211,17751,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇨🇳 广东省 28 = trojan,120.233.30.211,17752,"dae5ec5e-5c37-4e37-ad57-1056a6132b5b",tls-name=data.52daishu.life,skip-cert-verify=true
+🇨🇳 baipaovpn台湾省南投县 = vmess,36.232.172.34,443,chacha20-ietf-poly1305,"e5640ff5-eef4-443c-9608-d4397ba5320e",over-tls=true,tls-name=tc11.twtc.dynu.net,transport=ws,path=/vbub1,host=tc11.twtc.dynu.net
+🇨🇳 baipaovpn台湾省台中市 = vmess,36.232.133.145,443,chacha20-ietf-poly1305,"e5640ff5-eef4-443c-9608-d4397ba5320e",over-tls=true,tls-name=tc12.twtc.dynu.net,transport=ws,path=/vbub2,host=tc12.twtc.dynu.net
+🇨🇳 baipaovpn台湾省台北市 2 = vmess,36.226.136.167,443,chacha20-ietf-poly1305,"e854e7dd-350e-43d2-bdf2-95d839d8dd46",over-tls=true,tls-name=b23.ntbq.dynu.net,transport=ws,path=/b23,host=b23.ntbq.dynu.net
+🇨🇳 baipaovpn台湾省新竹市 = vmess,36.226.154.248,443,chacha20-ietf-poly1305,"e854e7dd-350e-43d2-bdf2-95d839d8dd46",over-tls=true,tls-name=b21.ntbq.dynu.net,transport=ws,path=/b21,host=b21.ntbq.dynu.net
+🇨🇳 baipaovpn台湾省台北市 3 = vmess,61.228.160.64,443,chacha20-ietf-poly1305,"e5640ff5-eef4-443c-9608-d4397ba5320e",over-tls=true,tls-name=b24.ntbq.dynu.net,transport=ws,path=/b24,host=b24.ntbq.dynu.net
+🇨🇳 baipaovpn台湾省 = vmess,118.165.46.96,443,chacha20-ietf-poly1305,"e5640ff5-eef4-443c-9608-d4397ba5320e",over-tls=true,tls-name=nbq11.ntbq.dynu.net,transport=ws,path=/b11,host=nbq11.ntbq.dynu.net
+
+[Remote Proxy]
+
+[Remote Filter]
+
+[Proxy Group]
+🚀 节点选择 = select,♻️ 自动选择,🇭🇰 香港节点,🇸🇬 狮城节点,🇺🇲 美国节点,🇯🇵 日本节点,🚀 手动切换,DIRECT
+🚀 手动切换 = select,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇮🇳 baipaovpn印度,🇨🇳 广东省广州市,🇺🇦 baipaovpn乌克兰,🇭🇰 香港,🇨🇳 广东省广州市 2,🇨🇳 广东省广州市 3,🇨🇳 广东省广州市 4,🇨🇳 广东省,🇨🇳 广东省广州市 5,🇯🇵 日本东京,🇯🇵 日本,🇸🇬 新加坡,🇨🇳 baipaovpn台湾省台北市,🇰🇷 baipaovpn韩国首尔,🇨🇳 广东省 2,🇯🇵 日本东京 2,🇯🇵 日本 2,🇯🇵 日本东京 3,🇫🇷 法国,🇰🇷 韩国首尔,🇯🇵 日本 3,🇰🇷 韩国首尔 2,🇸🇬 新加坡 2,🇸🇬 新加坡 3,🇩🇪 baipaovpn德国,🇨🇳 广东省 3,🇺🇸 美国,🇨🇳 广东省 4,🇺🇸 美国 2,🇫🇷 baipaovpn法国,🇨🇳 广东省 5,🇨🇳 甘肃省兰州市,🇯🇵 baipaovpn日本,🇯🇵 baipaovpn日本 2,🇰🇷 baipaovpn韩国首尔 2,🇰🇷 baipaovpn韩国首尔 3,🇯🇵 baipaovpn日本 3,🇨🇳 广东省 6,🇺🇸 美国 3,🇺🇸 美国 4,🇫🇷 法国 2,🇺🇸 美国 5,🇨🇳 广东省 7,🇬🇧 英国,🇬🇧 英国伦敦,🇨🇳 广东省 8,🇨🇳 广东省 9,🇷🇺 俄罗斯,🇭🇰 baipaovpn香港,🇨🇳 广东省 10,🇨🇳 广东省 11,🇨🇳 广东省 12,🇳🇱 baipaovpn荷兰,🇨🇳 广东省 13,🇨🇳 广东省 14,baipaovpn欧盟,🇷🇺 baipaovpn俄罗斯,🇷🇺 baipaovpn俄罗斯 2,🇷🇺 baipaovpn俄罗斯 3,🇨🇳 广东省 15,🇺🇸 美国 6,🇨🇳 广东省 16,🇨🇳 广东省 17,🇿🇦 baipaovpn南非,🇺🇦 baipaovpn乌克兰 2,🇨🇳 广东省 18,🇨🇳 广东省 19,🇨🇳 广东省 20,🇨🇳 广东省 21,🇨🇳 广东省 22,🇨🇳 广东省 23,🇨🇳 广东省 24,🇺🇸 美国 7,🇨🇳 广东省 25,🇨🇳 广东省 26,🇨🇳 广东省 27,🇨🇳 广东省 28,🇨🇳 baipaovpn台湾省南投县,🇨🇳 baipaovpn台湾省台中市,🇨🇳 baipaovpn台湾省台北市 2,🇨🇳 baipaovpn台湾省新竹市,🇨🇳 baipaovpn台湾省台北市 3,🇨🇳 baipaovpn台湾省
+♻️ 自动选择 = url-test,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇮🇳 baipaovpn印度,🇨🇳 广东省广州市,🇺🇦 baipaovpn乌克兰,🇭🇰 香港,🇨🇳 广东省广州市 2,🇨🇳 广东省广州市 3,🇨🇳 广东省广州市 4,🇨🇳 广东省,🇨🇳 广东省广州市 5,🇯🇵 日本东京,🇯🇵 日本,🇸🇬 新加坡,🇨🇳 baipaovpn台湾省台北市,🇰🇷 baipaovpn韩国首尔,🇨🇳 广东省 2,🇯🇵 日本东京 2,🇯🇵 日本 2,🇯🇵 日本东京 3,🇫🇷 法国,🇰🇷 韩国首尔,🇯🇵 日本 3,🇰🇷 韩国首尔 2,🇸🇬 新加坡 2,🇸🇬 新加坡 3,🇩🇪 baipaovpn德国,🇨🇳 广东省 3,🇺🇸 美国,🇨🇳 广东省 4,🇺🇸 美国 2,🇫🇷 baipaovpn法国,🇨🇳 广东省 5,🇨🇳 甘肃省兰州市,🇯🇵 baipaovpn日本,🇯🇵 baipaovpn日本 2,🇰🇷 baipaovpn韩国首尔 2,🇰🇷 baipaovpn韩国首尔 3,🇯🇵 baipaovpn日本 3,🇨🇳 广东省 6,🇺🇸 美国 3,🇺🇸 美国 4,🇫🇷 法国 2,🇺🇸 美国 5,🇨🇳 广东省 7,🇬🇧 英国,🇬🇧 英国伦敦,🇨🇳 广东省 8,🇨🇳 广东省 9,🇷🇺 俄罗斯,🇭🇰 baipaovpn香港,🇨🇳 广东省 10,🇨🇳 广东省 11,🇨🇳 广东省 12,🇳🇱 baipaovpn荷兰,🇨🇳 广东省 13,🇨🇳 广东省 14,baipaovpn欧盟,🇷🇺 baipaovpn俄罗斯,🇷🇺 baipaovpn俄罗斯 2,🇷🇺 baipaovpn俄罗斯 3,🇨🇳 广东省 15,🇺🇸 美国 6,🇨🇳 广东省 16,🇨🇳 广东省 17,🇿🇦 baipaovpn南非,🇺🇦 baipaovpn乌克兰 2,🇨🇳 广东省 18,🇨🇳 广东省 19,🇨🇳 广东省 20,🇨🇳 广东省 21,🇨🇳 广东省 22,🇨🇳 广东省 23,🇨🇳 广东省 24,🇺🇸 美国 7,🇨🇳 广东省 25,🇨🇳 广东省 26,🇨🇳 广东省 27,🇨🇳 广东省 28,🇨🇳 baipaovpn台湾省南投县,🇨🇳 baipaovpn台湾省台中市,🇨🇳 baipaovpn台湾省台北市 2,🇨🇳 baipaovpn台湾省新竹市,🇨🇳 baipaovpn台湾省台北市 3,🇨🇳 baipaovpn台湾省,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
+🛑 全球拦截 = select,REJECT,DIRECT,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇮🇳 baipaovpn印度,🇨🇳 广东省广州市,🇺🇦 baipaovpn乌克兰,🇭🇰 香港,🇨🇳 广东省广州市 2,🇨🇳 广东省广州市 3,🇨🇳 广东省广州市 4,🇨🇳 广东省,🇨🇳 广东省广州市 5,🇯🇵 日本东京,🇯🇵 日本,🇸🇬 新加坡,🇨🇳 baipaovpn台湾省台北市,🇰🇷 baipaovpn韩国首尔,🇨🇳 广东省 2,🇯🇵 日本东京 2,🇯🇵 日本 2,🇯🇵 日本东京 3,🇫🇷 法国,🇰🇷 韩国首尔,🇯🇵 日本 3,🇰🇷 韩国首尔 2,🇸🇬 新加坡 2,🇸🇬 新加坡 3,🇩🇪 baipaovpn德国,🇨🇳 广东省 3,🇺🇸 美国,🇨🇳 广东省 4,🇺🇸 美国 2,🇫🇷 baipaovpn法国,🇨🇳 广东省 5,🇨🇳 甘肃省兰州市,🇯🇵 baipaovpn日本,🇯🇵 baipaovpn日本 2,🇰🇷 baipaovpn韩国首尔 2,🇰🇷 baipaovpn韩国首尔 3,🇯🇵 baipaovpn日本 3,🇨🇳 广东省 6,🇺🇸 美国 3,🇺🇸 美国 4,🇫🇷 法国 2,🇺🇸 美国 5,🇨🇳 广东省 7,🇬🇧 英国,🇬🇧 英国伦敦,🇨🇳 广东省 8,🇨🇳 广东省 9,🇷🇺 俄罗斯,🇭🇰 baipaovpn香港,🇨🇳 广东省 10,🇨🇳 广东省 11,🇨🇳 广东省 12,🇳🇱 baipaovpn荷兰,🇨🇳 广东省 13,🇨🇳 广东省 14,baipaovpn欧盟,🇷🇺 baipaovpn俄罗斯,🇷🇺 baipaovpn俄罗斯 2,🇷🇺 baipaovpn俄罗斯 3,🇨🇳 广东省 15,🇺🇸 美国 6,🇨🇳 广东省 16,🇨🇳 广东省 17,🇿🇦 baipaovpn南非,🇺🇦 baipaovpn乌克兰 2,🇨🇳 广东省 18,🇨🇳 广东省 19,🇨🇳 广东省 20,🇨🇳 广东省 21,🇨🇳 广东省 22,🇨🇳 广东省 23,🇨🇳 广东省 24,🇺🇸 美国 7,🇨🇳 广东省 25,🇨🇳 广东省 26,🇨🇳 广东省 27,🇨🇳 广东省 28,🇨🇳 baipaovpn台湾省南投县,🇨🇳 baipaovpn台湾省台中市,🇨🇳 baipaovpn台湾省台北市 2,🇨🇳 baipaovpn台湾省新竹市,🇨🇳 baipaovpn台湾省台北市 3,🇨🇳 baipaovpn台湾省,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+🇭🇰 香港节点 = url-test,🇭🇰 香港,🇭🇰 baipaovpn香港,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🇯🇵 日本节点 = url-test,🇯🇵 日本东京,🇯🇵 日本,🇯🇵 日本东京 2,🇯🇵 日本 2,🇯🇵 日本东京 3,🇯🇵 日本 3,🇯🇵 baipaovpn日本,🇯🇵 baipaovpn日本 2,🇯🇵 baipaovpn日本 3,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🇸🇬 狮城节点 = url-test,🇸🇬 新加坡,🇸🇬 新加坡 2,🇸🇬 新加坡 3,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🇺🇲 美国节点 = url-test,🇺🇸 美国,🇺🇸 美国 2,🇺🇸 美国 3,🇺🇸 美国 4,🇺🇸 美国 5,🇺🇸 美国 6,🇺🇸 美国 7,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+
+[Rule]
+GEOIP,CN,🎯 全球直连
+FINAL,🐟 漏网之鱼
+
+[Remote Rule]
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,🎯 全球直连
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list,🛑 全球拦截
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list,🛑 全球拦截
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list,🎯 全球直连
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list,🎯 全球直连
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list,🚀 节点选择
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list,🚀 节点选择
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list,🚀 节点选择
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,🎯 全球直连
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,🎯 全球直连
+
+[Rewrite]
+
+[Host]
+
+[Script]
+cron "16 9 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js, tag=多看阅读
+cron "17 9 * * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.js,tag=飞客茶馆
+cron "18 9 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=中国联通
+cron "19 9 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js, tag=万达电影
+http-request ^https:\/\/user-api-prd-mx\.wandafilm\.com script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.cookie.js, tag=万达电影_cookie
+http-request ^https:\/\/www\.duokan\.com\/checkin\/v0\/status script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.cookie.js, requires-body=true, tag=多看_cookie
+http-request ^https:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=getdata&.* script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.cookie.js, tag=飞客茶馆_cookie
+http-request ^https?:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js, tag=中国联通_cookie2
+http-request ^https?:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js, tag=中国联通_cookie1
+http-request ^https?:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js, tag=中国联通_cookie3
+
+[MITM]
+ca-p12=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
+ca-passphrase=FA1A9849
+hostname=m.client.10010.com, act.10010.com, www.flyertea.com, www.duokan.com, tieba.baidu.com
+skip-server-cert-verify=false
