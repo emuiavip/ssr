@@ -5,343 +5,419 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 广东省广州市, server: 14.18.91.151, port: 50049, type: vmess, uuid: 0d5dc15e-0b62-4e7a-821c-d462d8e35ea2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港 - Adcdata.com, server: 11.kccic2pa.xyz, port: 50011, type: vmess, uuid: 0d5dc15e-0b62-4e7a-821c-d462d8e35ea2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 安徽省马鞍山市, server: 58.242.130.163, port: 19561, type: ss, cipher: chacha20-ietf-poly1305, password: 0bf33b2b-af53-48f9-bda7-e570649e2d03, udp: true}
-  - {name: 广东省, server: 120.233.43.24, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: 0bf33b2b-af53-48f9-bda7-e570649e2d03, udp: true}
-  - {name: 美国, server: 64.31.55.5, port: 11223, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: 日本, server: 54.248.47.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 日本 2, server: 43.202.62.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 新加坡, server: 18.141.204.149, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 俄罗斯, server: 91.194.161.7, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: OWJlYjYy, udp: true}
-  - {name: 甘肃省兰州市, server: 36.138.254.154, port: 49999, type: ss, cipher: chacha20-ietf-poly1305, password: 037b4a08-c072-4be1-9ba9-3d913bf109e4, udp: true}
-  - {name: 广东省广州市, server: 183.233.187.230, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4, udp: true}
-  - {name: 广东省广州市 2, server: 183.233.187.230, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4, udp: true}
-  - {name: 广东省广州市 3, server: 183.233.187.230, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4, udp: true}
-  - {name: 广东省广州市 4, server: 183.233.187.230, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4, udp: true}
-  - {name: 广东省广州市 5, server: 183.233.187.230, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4, udp: true}
-  - {name: "韩国 2", server: 43.202.61.138, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "韩国 4", server: 43.201.253.32, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "韩国 6", server: tg_mfbpn_akr1.52vpn.eu.org, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "韩国 7", server: tg_mfbpn_ajp1.52vpn.eu.org, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "韩国 9", server: tg_mfbpn_asg1.52vpn.eu.org, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 韩国首尔, server: 13.124.16.187, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 荷兰 , server: ydfive.yb59.uk, port: 49999, type: ss, cipher: chacha20-ietf-poly1305, password: 037b4a08-c072-4be1-9ba9-3d913bf109e4, udp: true}
-  - {name: 美国, server: 135.125.172.153, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 美国 2, server: 52.195.170.51, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 美国 3, server: 135.125.172.139, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: "美国", server: 47.76.51.110, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}, udp: true}
-  - {name: 日本, server: 43.200.6.19, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 日本 2, server: 43.202.62.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 日本 3, server: 43.201.5.239, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 日本, server: tg_mfbpn_ajp2.52vpn.eu.org, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 日本, server: tg_mfbpn_atw1.52vpn.eu.org, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "日本", server: 43.207.86.238, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "日本", server: tg_mfbpn_akr2.52vpn.eu.org, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 日本东京, server: 3.112.239.118, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 日本东京 2, server: 18.176.58.237, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 日本东京 3, server: 18.176.61.138, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 香港, server: 47.76.44.217, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}, udp: true}
-  - {name: 香港 2, server: 8.210.85.62, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}, udp: true}
-  - {name: 香港 3, server: 47.76.51.110, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}, udp: true}
-  - {name: 新加坡, server: 52.221.191.251, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 中国, server: 8.218.194.227, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}, udp: true}
-  - {name: 中国 2, server: 8.217.178.215, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}, udp: true}
-  - {name: 法国, server: 54.38.156.210, port: 443, type: trojan, password: bff370b0-9506-11ee-af24-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: 韩国, server: hk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 20202, type: trojan, password: e498c261-cabb-4b2c-810b-995d0bd8d049, sni: hk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
-  - {name: 韩国 3, server: hk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 20202, type: trojan, password: e5f9c753-d401-487f-a77b-1004b7f0f439, sni: hk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
-  - {name: 韩国 5, server: unlk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 20152, type: trojan, password: ddf5a5af-1b2c-4c01-9276-b8b720a56d3f, sni: unlk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
-  - {name: 韩国 7, server: hk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 20202, type: trojan, password: ddf5a5af-1b2c-4c01-9276-b8b720a56d3f, sni: hk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
-  - {name: 美国 4, server: 172.232.157.47, port: 443, type: trojan, password: 2e23dfc2-fd4d-45f3-9022-f2319c5314c8, skip-cert-verify: true, udp: true}
-  - {name: 美国 5, server: 64.110.83.196, port: 20202, type: trojan, password: e5f9c753-d401-487f-a77b-1004b7f0f439, skip-cert-verify: true, udp: true}
-  - {name: 美国 6, server: 64.110.69.85, port: 20152, type: trojan, password: ddf5a5af-1b2c-4c01-9276-b8b720a56d3f, skip-cert-verify: true, udp: true}
-  - {name: 美国, server: gy.58n.net, port: 21970, type: trojan, password: 4503035a-8095-32f4-862f-5f344d3bea56, sni: gy.58n.net, skip-cert-verify: true, udp: true}
-  - {name: 香港 4, server: 113.52.132.88, port: 443, type: trojan, password: 6781bf64d4324361af1ee5983ab85f1e, skip-cert-verify: true, udp: true}
+  - {name: 意大利, server: other.kunlun-ppg.com, port: 10850, type: trojan, password: 376b4a77-edab-46db-80e8-d3deec985778, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: 上海市+电信, server: zzjp02.51tu.pro, port: 39104, type: ss, cipher: chacha20-ietf-poly1305, password: caffa279-25b3-4eb0-9e50-b1c88b9cd5c8, udp: true}
+  - {name: 日本东京, server: jpdj6.ip8.shop, port: 20202, type: vmess, uuid: a5de5eb3-5760-488a-9211-e5fbd9388905, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本, server: 103.245.237.107, port: 443, type: trojan, password: cd039512-e335-44ba-bef5-4c70c70f5786, skip-cert-verify: true, udp: true}
+  - {name: 日本 2, server: 103.245.237.111, port: 443, type: trojan, password: cd039512-e335-44ba-bef5-4c70c70f5786, skip-cert-verify: true, udp: true}
+  - {name: 美国, server: us.kunlun-ppg.com, port: 10820, type: trojan, password: 376b4a77-edab-46db-80e8-d3deec985778, sni: us.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: 美国, server: 104.31.16.46, port: 2082, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /IOebhLMhl1CTbFHbL95myfRX2, ws-headers: {Host: ca5.tehme100.fun}, udp: true}
+  - {name: 美国 2, server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /IOebhLMhl1CTbFHbL95myfRX2, ws-headers: {Host: ca4.tehme2.fun}, udp: true}
+  - {name: 美国 3, server: 104.31.16.120, port: 8443, type: vmess, uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cloudconebbb, ws-headers: {Host: cloudconebbb.gorgorchicken.one}, udp: true}
+  - {name: 美国 4, server: 157.230.28.129, port: 14542, type: vmess, uuid: 9997530c-7841-4746-ac88-935039f0a3ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 157.230.28.129}, udp: true}
+  - {name: 美国 5, server: hk3.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 20252, type: trojan, password: e5f9c753-d401-487f-a77b-1004b7f0f439, sni: hk3.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: 美国, server: 23.108.100.101, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: 23.108.100.101}, udp: true}
+  - {name: 美国, server: 172.67.187.109, port: 80, type: vmess, uuid: 2e87cebc-977b-4fec-b079-b1ddc55b19c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: ee1.xv2ray.net}, udp: true}
+  - {name: 美国 2, server: 172.67.229.37, port: 8880, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, ws-headers: {Host: fr7.tehme100.fun}, udp: true}
+  - {name: 美国 3, server: 162.159.13.8, port: 443, type: vmess, uuid: 1F7C900A-6AD7-41CF-A37E-85873E566C40, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.gafn.online}, udp: true}
+  - {name: 美国 4, server: us-new03.gujuji.top, port: 8080, type: vmess, uuid: e3e1fecd-1921-4efa-9ece-103c5f76f9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us-new03.gujuji.top}, udp: true}
+  - {name: 美国 5, server: api.lp-airdrop.top, port: 2096, type: vmess, uuid: e36c98f2-bb76-45f6-d545-61393522027d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /login, ws-headers: {Host: api.lp-airdrop.top}, udp: true}
+  - {name: 美国 6, server: ip.nofiltering2.sbs, port: 8880, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, ws-headers: {Host: fr7.tehme100.fun}, udp: true}
+  - {name: 韩国, server: unlk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 20102, type: trojan, password: e5f9c753-d401-487f-a77b-1004b7f0f439, sni: unlk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: 韩国, server: jp.kunlun-ppg.com, port: 10814, type: trojan, password: 376b4a77-edab-46db-80e8-d3deec985778, sni: jp.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: 韩国 2, server: jp.kunlun-ppg.com, port: 10815, type: trojan, password: 376b4a77-edab-46db-80e8-d3deec985778, sni: jp.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: 韩国 3, server: jp.kunlun-ppg.com, port: 10817, type: trojan, password: 376b4a77-edab-46db-80e8-d3deec985778, sni: jp.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: 韩国 4, server: sg.kunlun-ppg.com, port: 10832, type: trojan, password: 376b4a77-edab-46db-80e8-d3deec985778, sni: sg.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: 广东省中山市, server: yyzgdv6.cdn.node.a.yddns-ounk.com, port: 20632, type: vmess, uuid: e4046c80-6286-305f-ba68-8086d47ad7fe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8, ws-headers: {Host: yyzgdv6.cdn.node.a.yddns-ounk.com}, udp: true}
+  - {name: 广东省, server: service.ouluyun9803.com, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4, udp: true}
+  - {name: 广东省 2, server: service.ouluyun9803.com, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4, udp: true}
+  - {name: 广东省 3, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4, udp: true}
+  - {name: 广东省 4, server: service.ouluyun9803.com, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4, udp: true}
+  - {name: 广东省 5, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4, udp: true}
+  - {name: 巴西圣保罗, server: 188.114.96.2, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: linkvws, ws-headers: {Host: ophelia.mom}, udp: true}
   - {name: 越南2, server: 103.245.237.126, port: 443, type: trojan, password: cd039512-e335-44ba-bef5-4c70c70f5786, skip-cert-verify: true, udp: true}
-  - {name: 美国, server: cm01.newcome.xyz, port: 7702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@ccbaohe, udp: true}
-  - {name: 美国, server: cm01.newcome.xyz, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 越南, server: 14.225.252.43, port: 80, type: vmess, uuid: cd039512-e335-44ba-bef5-4c70c70f5786, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 14.225.252.43}, udp: true}
+  - {name: 美国 4, server: 172.232.157.47, port: 443, type: trojan, password: 2e23dfc2-fd4d-45f3-9022-f2319c5314c8, skip-cert-verify: true, udp: true}
+  - {name: 美国 3, server: 135.125.172.139, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 美国 2, server: cm01.newcome.xyz, port: 7708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 日本, server: cm01.newcome.xyz, port: 3704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@ccbaohe, udp: true}
-  - {name: 新加坡10, server: cm03.newcome.xyz, port: 6702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 新加坡11, server: cm03.newcome.xyz, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 新加坡13, server: zx02.endhigh.xyz, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 新加坡14, server: zx02.endhigh.xyz, port: 6704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 新加坡15, server: zx02.endhigh.xyz, port: 6707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 新加坡16, server: zx02.endhigh.xyz, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 新加坡17, server: cm03.newcome.xyz, port: 6704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 新加坡18, server: cm03.newcome.xyz, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 新加坡19, server: zx02.endhigh.xyz, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 新加坡2, server: cm03.newcome.xyz, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 新加坡3, server: zx02.endhigh.xyz, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 新加坡4, server: cm03.newcome.xyz, port: 6703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 新加坡5, server: cm03.newcome.xyz, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 新加坡6, server: zx02.endhigh.xyz, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 新加坡7, server: zx02.endhigh.xyz, port: 6703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 新加坡8, server: cm03.newcome.xyz, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 美国, server: 5.161.222.65, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [5.161.222.65]}}, udp: true}
+  - {name: 美国, server: cm01.newcome.xyz, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 美国 5, server: 135.125.172.153, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 美国 6, server: 64.31.55.5, port: 11223, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
+  - {name: 美国 7, server: cm01.newcome.xyz, port: 7702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@ccbaohe, udp: true}
   - {name: 新加坡9, server: cm03.newcome.xyz, port: 6700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: "台湾", server: cm01.newcome.xyz, port: 5703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: "台湾 2", server: cm01.newcome.xyz, port: 5701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@ccbaohe, udp: true}
-  - {name: "台湾 3", server: cm01.newcome.xyz, port: 5702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@ccbaohe, udp: true}
-  - {name: "台湾 4", server: cm01.newcome.xyz, port: 5700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: "台湾 5", server: cm01.newcome.xyz, port: 5704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@ccbaohe, udp: true}
-  - {name: "台湾 6", server: cm01.newcome.xyz, port: 5705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 新加坡8, server: cm03.newcome.xyz, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 新加坡7, server: zx02.endhigh.xyz, port: 6703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 新加坡6, server: zx02.endhigh.xyz, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 新加坡5, server: cm03.newcome.xyz, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 新加坡4, server: cm03.newcome.xyz, port: 6703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 新加坡3, server: zx02.endhigh.xyz, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 新加坡2, server: cm03.newcome.xyz, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 新加坡19, server: zx02.endhigh.xyz, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 新加坡18, server: cm03.newcome.xyz, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 新加坡17, server: cm03.newcome.xyz, port: 6704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 新加坡16, server: zx02.endhigh.xyz, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 新加坡15, server: zx02.endhigh.xyz, port: 6707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 新加坡14, server: zx02.endhigh.xyz, port: 6704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 新加坡13, server: zx02.endhigh.xyz, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 新加坡11, server: cm03.newcome.xyz, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 新加坡10, server: cm03.newcome.xyz, port: 6702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "新加坡.", server: sg3.jidexufei.top, port: 443, type: vmess, uuid: 417df789-074f-4d97-b00d-83b266c3724b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: sg3.jidexufei.top}, udp: true}
+  - {name: 新加坡., server: sg4.jidexufei.top, port: 443, type: vmess, uuid: 417df789-074f-4d97-b00d-83b266c3724b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: sg4.jidexufei.top}, udp: true}
+  - {name: 俄罗斯, server: sefarat24.com, port: 443, type: vmess, uuid: 298cfba1-2f02-4e61-b689-e58adbf9de53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: ru1-vmess.sshmax.xyz}, udp: true}
+  - {name: 俄罗斯, server: 91.194.161.7, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: OWJlYjYy, udp: true}
+  - {name: 荷兰, server: ydfive.yb59.uk, port: 49999, type: ss, cipher: chacha20-ietf-poly1305, password: 037b4a08-c072-4be1-9ba9-3d913bf109e4, udp: true}
+  - {name: 韩国 9, server: tg_mfbpn_asg1.52vpn.eu.org, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 韩国 7, server: tg_mfbpn_ajp1.52vpn.eu.org, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 韩国 7 2, server: hk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 20202, type: trojan, password: ddf5a5af-1b2c-4c01-9276-b8b720a56d3f, sni: hk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: 韩国 5, server: unlk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 20152, type: trojan, password: ddf5a5af-1b2c-4c01-9276-b8b720a56d3f, sni: unlk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: 韩国 4, server: 43.201.253.32, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 韩国 3, server: hk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 20202, type: trojan, password: e5f9c753-d401-487f-a77b-1004b7f0f439, sni: hk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: 韩国, server: hk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 20202, type: trojan, password: e498c261-cabb-4b2c-810b-995d0bd8d049, sni: hk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: 日本 2, server: 43.202.62.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 日本, server: 52.253.117.95, port: 28494, type: vmess, uuid: be28a249-d3de-46f8-bb3b-d413d8c2b5ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /be28a249, ws-headers: {Host: 52.253.117.95}, udp: true}
+  - {name: 日本 2, server: 52.253.117.95, port: 21551, type: vmess, uuid: 1d78caec-1762-4d69-84fe-8ad116d7c10f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /1d78caec, ws-headers: {Host: 52.253.117.95}, udp: true}
+  - {name: 日本, server: jp2.jidexufei.top, port: 443, type: vmess, uuid: 417df789-074f-4d97-b00d-83b266c3724b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: jp2.jidexufei.top}, udp: true}
+  - {name: 日本, server: 43.200.6.19, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 日本 3, server: 54.248.47.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 冰岛, server: 89.221.224.12, port: 80, type: vmess, uuid: 3bc3514c-cbcb-4b08-9797-c62850ae8bb4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: 89.221.224.12}, udp: true}
+  - {name: 香港 4, server: 113.52.132.88, port: 443, type: trojan, password: 6781bf64d4324361af1ee5983ab85f1e, skip-cert-verify: true, udp: true}
+  - {name: 香港 2, server: 8.210.85.62, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}, udp: true}
+  - {name: 香港, server: 47.76.44.217, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}, udp: true}
+  - {name: 英国, server: polouk.yj2022.gq, port: 8080, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /r8ykwif5rffiqJeJ49zLka7PbhWz3wiHs8cSeiRyZL, ws-headers: {Host: polouk.yj2022.gq}, udp: true}
+  - {name: 法国, server: 54.38.156.210, port: 443, type: trojan, password: bff370b0-9506-11ee-af24-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 中国 2, server: 8.217.178.215, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}, udp: true}
+  - {name: 中国 3, server: 137.175.49.220, port: 50000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: 137.175.49.220}, udp: true}
+  - {name: 台湾 6, server: cm01.newcome.xyz, port: 5705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 台湾 5, server: cm01.newcome.xyz, port: 5704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@ccbaohe, udp: true}
+  - {name: 台湾 4, server: cm01.newcome.xyz, port: 5700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 台湾 3, server: cm01.newcome.xyz, port: 5702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@ccbaohe, udp: true}
+  - {name: 台湾 2, server: cm01.newcome.xyz, port: 5701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@ccbaohe, udp: true}
+  - {name: 台湾, server: cm01.newcome.xyz, port: 5703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 广东省广州市 5, server: 183.233.187.230, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4, udp: true}
+  - {name: 广东省广州市 4, server: 183.233.187.230, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4, udp: true}
+  - {name: 广东省广州市 3, server: 183.233.187.230, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4, udp: true}
+  - {name: 广东省广州市 2, server: 183.233.187.230, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4, udp: true}
+  - {name: 广东省广州市, server: 183.233.187.230, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4, udp: true}
+  - {name: 广东省, server: 120.233.43.24, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: 0bf33b2b-af53-48f9-bda7-e570649e2d03, udp: true}
+  - {name: 甘肃省兰州市, server: 36.138.254.154, port: 49999, type: ss, cipher: chacha20-ietf-poly1305, password: 037b4a08-c072-4be1-9ba9-3d913bf109e4, udp: true}
+  - {name: 安徽省马鞍山市, server: 58.242.130.163, port: 19561, type: ss, cipher: chacha20-ietf-poly1305, password: 0bf33b2b-af53-48f9-bda7-e570649e2d03, udp: true}
+  - {name: 加拿大 3, server: 193.203.203.88, port: 2082, type: vmess, uuid: 2ec862af-bd1c-46f5-97af-bffbe61e3164, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [193.203.203.88]}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 广东省广州市
-      - 香港 - Adcdata.com
-      - 安徽省马鞍山市
-      - 广东省
-      - 美国
+      - 中国
+      - 意大利
+      - 上海市+电信
+      - 日本东京
       - 日本
       - 日本 2
-      - 新加坡
-      - 俄罗斯
-      - 甘肃省兰州市
-      - 广东省广州市
-      - 广东省广州市 2
-      - 广东省广州市 3
-      - 广东省广州市 4
-      - 广东省广州市 5
-      - 韩国 2
-      - 韩国 4
-      - 韩国 6
-      - 韩国 7
-      - 韩国 9
-      - 韩国首尔
-      - 荷兰 
+      - 美国
       - 美国
       - 美国 2
       - 美国 3
-      - 美国
-      - 日本
-      - 日本 2
-      - 日本 3
-      - 日本
-      - 日本
-      - 日本
-      - 日本
-      - 日本东京
-      - 日本东京 2
-      - 日本东京 3
-      - 香港
-      - 香港 2
-      - 香港 3
-      - 新加坡
-      - 中国
-      - 中国 2
-      - 法国
-      - 韩国
-      - 韩国 3
-      - 韩国 5
-      - 韩国 7
       - 美国 4
       - 美国 5
-      - 美国 6
-      - 美国
-      - 香港 4
-      - 越南2
       - 美国
       - 美国
       - 美国 2
-      - 日本
-      - 新加坡10
-      - 新加坡11
-      - 新加坡13
-      - 新加坡14
-      - 新加坡15
-      - 新加坡16
-      - 新加坡17
-      - 新加坡18
-      - 新加坡19
-      - 新加坡2
-      - 新加坡3
-      - 新加坡4
-      - 新加坡5
-      - 新加坡6
-      - 新加坡7
-      - 新加坡8
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 韩国
+      - 韩国
+      - 韩国 2
+      - 韩国 3
+      - 韩国 4
+      - 广东省中山市
+      - 广东省
+      - 广东省 2
+      - 广东省 3
+      - 广东省 4
+      - 广东省 5
+      - 巴西圣保罗
+      - 越南2
+      - 越南
+      - 美国 4
+      - 美国 3
+      - 美国 2
+      - 美国
+      - 美国
+      - 美国 5
+      - 美国 6
+      - 美国 7
       - 新加坡9
-      - 台湾
-      - 台湾 2
-      - 台湾 3
-      - 台湾 4
-      - 台湾 5
+      - 新加坡8
+      - 新加坡7
+      - 新加坡6
+      - 新加坡5
+      - 新加坡4
+      - 新加坡3
+      - 新加坡2
+      - 新加坡19
+      - 新加坡18
+      - 新加坡17
+      - 新加坡16
+      - 新加坡15
+      - 新加坡14
+      - 新加坡13
+      - 新加坡11
+      - 新加坡10
+      - 新加坡.
+      - 新加坡.
+      - 俄罗斯
+      - 俄罗斯
+      - 荷兰
+      - 韩国 9
+      - 韩国 7
+      - 韩国 7 2
+      - 韩国 5
+      - 韩国 4
+      - 韩国 3
+      - 韩国
+      - 日本 2
+      - 日本
+      - 日本 2
+      - 日本
+      - 日本
+      - 日本 3
+      - 冰岛
+      - 香港 4
+      - 香港 2
+      - 香港
+      - 英国
+      - 法国
+      - 中国 2
+      - 中国 3
       - 台湾 6
+      - 台湾 5
+      - 台湾 4
+      - 台湾 3
+      - 台湾 2
+      - 台湾
+      - 广东省广州市 5
+      - 广东省广州市 4
+      - 广东省广州市 3
+      - 广东省广州市 2
+      - 广东省广州市
+      - 广东省
+      - 甘肃省兰州市
+      - 安徽省马鞍山市
+      - 加拿大 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 广东省广州市
-      - 香港 - Adcdata.com
-      - 安徽省马鞍山市
-      - 广东省
-      - 美国
+      - 中国
+      - 意大利
+      - 上海市+电信
+      - 日本东京
       - 日本
       - 日本 2
-      - 新加坡
-      - 俄罗斯
-      - 甘肃省兰州市
-      - 广东省广州市
-      - 广东省广州市 2
-      - 广东省广州市 3
-      - 广东省广州市 4
-      - 广东省广州市 5
-      - 韩国 2
-      - 韩国 4
-      - 韩国 6
-      - 韩国 7
-      - 韩国 9
-      - 韩国首尔
-      - 荷兰 
+      - 美国
       - 美国
       - 美国 2
       - 美国 3
-      - 美国
-      - 日本
-      - 日本 2
-      - 日本 3
-      - 日本
-      - 日本
-      - 日本
-      - 日本
-      - 日本东京
-      - 日本东京 2
-      - 日本东京 3
-      - 香港
-      - 香港 2
-      - 香港 3
-      - 新加坡
-      - 中国
-      - 中国 2
-      - 法国
-      - 韩国
-      - 韩国 3
-      - 韩国 5
-      - 韩国 7
       - 美国 4
       - 美国 5
-      - 美国 6
-      - 美国
-      - 香港 4
-      - 越南2
       - 美国
       - 美国
       - 美国 2
-      - 日本
-      - 新加坡10
-      - 新加坡11
-      - 新加坡13
-      - 新加坡14
-      - 新加坡15
-      - 新加坡16
-      - 新加坡17
-      - 新加坡18
-      - 新加坡19
-      - 新加坡2
-      - 新加坡3
-      - 新加坡4
-      - 新加坡5
-      - 新加坡6
-      - 新加坡7
-      - 新加坡8
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 韩国
+      - 韩国
+      - 韩国 2
+      - 韩国 3
+      - 韩国 4
+      - 广东省中山市
+      - 广东省
+      - 广东省 2
+      - 广东省 3
+      - 广东省 4
+      - 广东省 5
+      - 巴西圣保罗
+      - 越南2
+      - 越南
+      - 美国 4
+      - 美国 3
+      - 美国 2
+      - 美国
+      - 美国
+      - 美国 5
+      - 美国 6
+      - 美国 7
       - 新加坡9
-      - 台湾
-      - 台湾 2
-      - 台湾 3
-      - 台湾 4
-      - 台湾 5
+      - 新加坡8
+      - 新加坡7
+      - 新加坡6
+      - 新加坡5
+      - 新加坡4
+      - 新加坡3
+      - 新加坡2
+      - 新加坡19
+      - 新加坡18
+      - 新加坡17
+      - 新加坡16
+      - 新加坡15
+      - 新加坡14
+      - 新加坡13
+      - 新加坡11
+      - 新加坡10
+      - 新加坡.
+      - 新加坡.
+      - 俄罗斯
+      - 俄罗斯
+      - 荷兰
+      - 韩国 9
+      - 韩国 7
+      - 韩国 7 2
+      - 韩国 5
+      - 韩国 4
+      - 韩国 3
+      - 韩国
+      - 日本 2
+      - 日本
+      - 日本 2
+      - 日本
+      - 日本
+      - 日本 3
+      - 冰岛
+      - 香港 4
+      - 香港 2
+      - 香港
+      - 英国
+      - 法国
+      - 中国 2
+      - 中国 3
       - 台湾 6
+      - 台湾 5
+      - 台湾 4
+      - 台湾 3
+      - 台湾 2
+      - 台湾
+      - 广东省广州市 5
+      - 广东省广州市 4
+      - 广东省广州市 3
+      - 广东省广州市 2
+      - 广东省广州市
+      - 广东省
+      - 甘肃省兰州市
+      - 安徽省马鞍山市
+      - 加拿大 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 广东省广州市
-      - 香港 - Adcdata.com
-      - 安徽省马鞍山市
-      - 广东省
-      - 美国
+      - 中国
+      - 意大利
+      - 上海市+电信
+      - 日本东京
       - 日本
       - 日本 2
-      - 新加坡
-      - 俄罗斯
-      - 甘肃省兰州市
-      - 广东省广州市
-      - 广东省广州市 2
-      - 广东省广州市 3
-      - 广东省广州市 4
-      - 广东省广州市 5
-      - 韩国 2
-      - 韩国 4
-      - 韩国 6
-      - 韩国 7
-      - 韩国 9
-      - 韩国首尔
-      - 荷兰 
+      - 美国
       - 美国
       - 美国 2
       - 美国 3
-      - 美国
-      - 日本
-      - 日本 2
-      - 日本 3
-      - 日本
-      - 日本
-      - 日本
-      - 日本
-      - 日本东京
-      - 日本东京 2
-      - 日本东京 3
-      - 香港
-      - 香港 2
-      - 香港 3
-      - 新加坡
-      - 中国
-      - 中国 2
-      - 法国
-      - 韩国
-      - 韩国 3
-      - 韩国 5
-      - 韩国 7
       - 美国 4
       - 美国 5
-      - 美国 6
-      - 美国
-      - 香港 4
-      - 越南2
       - 美国
       - 美国
       - 美国 2
-      - 日本
-      - 新加坡10
-      - 新加坡11
-      - 新加坡13
-      - 新加坡14
-      - 新加坡15
-      - 新加坡16
-      - 新加坡17
-      - 新加坡18
-      - 新加坡19
-      - 新加坡2
-      - 新加坡3
-      - 新加坡4
-      - 新加坡5
-      - 新加坡6
-      - 新加坡7
-      - 新加坡8
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 韩国
+      - 韩国
+      - 韩国 2
+      - 韩国 3
+      - 韩国 4
+      - 广东省中山市
+      - 广东省
+      - 广东省 2
+      - 广东省 3
+      - 广东省 4
+      - 广东省 5
+      - 巴西圣保罗
+      - 越南2
+      - 越南
+      - 美国 4
+      - 美国 3
+      - 美国 2
+      - 美国
+      - 美国
+      - 美国 5
+      - 美国 6
+      - 美国 7
       - 新加坡9
-      - 台湾
-      - 台湾 2
-      - 台湾 3
-      - 台湾 4
-      - 台湾 5
+      - 新加坡8
+      - 新加坡7
+      - 新加坡6
+      - 新加坡5
+      - 新加坡4
+      - 新加坡3
+      - 新加坡2
+      - 新加坡19
+      - 新加坡18
+      - 新加坡17
+      - 新加坡16
+      - 新加坡15
+      - 新加坡14
+      - 新加坡13
+      - 新加坡11
+      - 新加坡10
+      - 新加坡.
+      - 新加坡.
+      - 俄罗斯
+      - 俄罗斯
+      - 荷兰
+      - 韩国 9
+      - 韩国 7
+      - 韩国 7 2
+      - 韩国 5
+      - 韩国 4
+      - 韩国 3
+      - 韩国
+      - 日本 2
+      - 日本
+      - 日本 2
+      - 日本
+      - 日本
+      - 日本 3
+      - 冰岛
+      - 香港 4
+      - 香港 2
+      - 香港
+      - 英国
+      - 法国
+      - 中国 2
+      - 中国 3
       - 台湾 6
+      - 台湾 5
+      - 台湾 4
+      - 台湾 3
+      - 台湾 2
+      - 台湾
+      - 广东省广州市 5
+      - 广东省广州市 4
+      - 广东省广州市 3
+      - 广东省广州市 2
+      - 广东省广州市
+      - 广东省
+      - 甘肃省兰州市
+      - 安徽省马鞍山市
+      - 加拿大 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -360,375 +436,433 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 广东省广州市
-      - 香港 - Adcdata.com
-      - 安徽省马鞍山市
-      - 广东省
-      - 美国
+      - 中国
+      - 意大利
+      - 上海市+电信
+      - 日本东京
       - 日本
       - 日本 2
-      - 新加坡
-      - 俄罗斯
-      - 甘肃省兰州市
-      - 广东省广州市
-      - 广东省广州市 2
-      - 广东省广州市 3
-      - 广东省广州市 4
-      - 广东省广州市 5
-      - 韩国 2
-      - 韩国 4
-      - 韩国 6
-      - 韩国 7
-      - 韩国 9
-      - 韩国首尔
-      - 荷兰 
+      - 美国
       - 美国
       - 美国 2
       - 美国 3
-      - 美国
-      - 日本
-      - 日本 2
-      - 日本 3
-      - 日本
-      - 日本
-      - 日本
-      - 日本
-      - 日本东京
-      - 日本东京 2
-      - 日本东京 3
-      - 香港
-      - 香港 2
-      - 香港 3
-      - 新加坡
-      - 中国
-      - 中国 2
-      - 法国
-      - 韩国
-      - 韩国 3
-      - 韩国 5
-      - 韩国 7
       - 美国 4
       - 美国 5
-      - 美国 6
-      - 美国
-      - 香港 4
-      - 越南2
       - 美国
       - 美国
       - 美国 2
-      - 日本
-      - 新加坡10
-      - 新加坡11
-      - 新加坡13
-      - 新加坡14
-      - 新加坡15
-      - 新加坡16
-      - 新加坡17
-      - 新加坡18
-      - 新加坡19
-      - 新加坡2
-      - 新加坡3
-      - 新加坡4
-      - 新加坡5
-      - 新加坡6
-      - 新加坡7
-      - 新加坡8
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 韩国
+      - 韩国
+      - 韩国 2
+      - 韩国 3
+      - 韩国 4
+      - 广东省中山市
+      - 广东省
+      - 广东省 2
+      - 广东省 3
+      - 广东省 4
+      - 广东省 5
+      - 巴西圣保罗
+      - 越南2
+      - 越南
+      - 美国 4
+      - 美国 3
+      - 美国 2
+      - 美国
+      - 美国
+      - 美国 5
+      - 美国 6
+      - 美国 7
       - 新加坡9
-      - 台湾
-      - 台湾 2
-      - 台湾 3
-      - 台湾 4
-      - 台湾 5
+      - 新加坡8
+      - 新加坡7
+      - 新加坡6
+      - 新加坡5
+      - 新加坡4
+      - 新加坡3
+      - 新加坡2
+      - 新加坡19
+      - 新加坡18
+      - 新加坡17
+      - 新加坡16
+      - 新加坡15
+      - 新加坡14
+      - 新加坡13
+      - 新加坡11
+      - 新加坡10
+      - 新加坡.
+      - 新加坡.
+      - 俄罗斯
+      - 俄罗斯
+      - 荷兰
+      - 韩国 9
+      - 韩国 7
+      - 韩国 7 2
+      - 韩国 5
+      - 韩国 4
+      - 韩国 3
+      - 韩国
+      - 日本 2
+      - 日本
+      - 日本 2
+      - 日本
+      - 日本
+      - 日本 3
+      - 冰岛
+      - 香港 4
+      - 香港 2
+      - 香港
+      - 英国
+      - 法国
+      - 中国 2
+      - 中国 3
       - 台湾 6
+      - 台湾 5
+      - 台湾 4
+      - 台湾 3
+      - 台湾 2
+      - 台湾
+      - 广东省广州市 5
+      - 广东省广州市 4
+      - 广东省广州市 3
+      - 广东省广州市 2
+      - 广东省广州市
+      - 广东省
+      - 甘肃省兰州市
+      - 安徽省马鞍山市
+      - 加拿大 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港 - Adcdata.com
-      - 香港
-      - 香港 2
-      - 香港 3
       - 香港 4
-      - 新加坡10
-      - 新加坡11
-      - 新加坡13
-      - 新加坡14
-      - 新加坡15
-      - 新加坡16
-      - 新加坡17
-      - 新加坡18
-      - 新加坡19
-      - 新加坡2
-      - 新加坡3
-      - 新加坡4
-      - 新加坡5
-      - 新加坡6
-      - 新加坡7
-      - 新加坡8
-      - 新加坡9
-      - 台湾
-      - 台湾 2
-      - 台湾 3
-      - 台湾 4
-      - 台湾 5
+      - 香港 2
+      - 香港
+      - 英国
       - 台湾 6
+      - 台湾 5
+      - 台湾 4
+      - 台湾 3
+      - 台湾 2
+      - 台湾
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 广东省广州市
-      - 香港 - Adcdata.com
-      - 安徽省马鞍山市
-      - 广东省
-      - 美国
+      - 中国
+      - 意大利
+      - 上海市+电信
+      - 日本东京
       - 日本
       - 日本 2
-      - 新加坡
-      - 俄罗斯
-      - 甘肃省兰州市
-      - 广东省广州市
-      - 广东省广州市 2
-      - 广东省广州市 3
-      - 广东省广州市 4
-      - 广东省广州市 5
-      - 韩国 2
-      - 韩国 4
-      - 韩国 6
-      - 韩国 7
-      - 韩国 9
-      - 韩国首尔
-      - 荷兰 
+      - 美国
       - 美国
       - 美国 2
       - 美国 3
-      - 美国
-      - 日本
-      - 日本 2
-      - 日本 3
-      - 日本
-      - 日本
-      - 日本
-      - 日本
-      - 日本东京
-      - 日本东京 2
-      - 日本东京 3
-      - 香港
-      - 香港 2
-      - 香港 3
-      - 新加坡
-      - 中国
-      - 中国 2
-      - 法国
-      - 韩国
-      - 韩国 3
-      - 韩国 5
-      - 韩国 7
       - 美国 4
       - 美国 5
-      - 美国 6
-      - 美国
-      - 香港 4
-      - 越南2
       - 美国
       - 美国
       - 美国 2
-      - 日本
-      - 新加坡10
-      - 新加坡11
-      - 新加坡13
-      - 新加坡14
-      - 新加坡15
-      - 新加坡16
-      - 新加坡17
-      - 新加坡18
-      - 新加坡19
-      - 新加坡2
-      - 新加坡3
-      - 新加坡4
-      - 新加坡5
-      - 新加坡6
-      - 新加坡7
-      - 新加坡8
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 韩国
+      - 韩国
+      - 韩国 2
+      - 韩国 3
+      - 韩国 4
+      - 广东省中山市
+      - 广东省
+      - 广东省 2
+      - 广东省 3
+      - 广东省 4
+      - 广东省 5
+      - 巴西圣保罗
+      - 越南2
+      - 越南
+      - 美国 4
+      - 美国 3
+      - 美国 2
+      - 美国
+      - 美国
+      - 美国 5
+      - 美国 6
+      - 美国 7
       - 新加坡9
-      - 台湾
-      - 台湾 2
-      - 台湾 3
-      - 台湾 4
-      - 台湾 5
+      - 新加坡8
+      - 新加坡7
+      - 新加坡6
+      - 新加坡5
+      - 新加坡4
+      - 新加坡3
+      - 新加坡2
+      - 新加坡19
+      - 新加坡18
+      - 新加坡17
+      - 新加坡16
+      - 新加坡15
+      - 新加坡14
+      - 新加坡13
+      - 新加坡11
+      - 新加坡10
+      - 新加坡.
+      - 新加坡.
+      - 俄罗斯
+      - 俄罗斯
+      - 荷兰
+      - 韩国 9
+      - 韩国 7
+      - 韩国 7 2
+      - 韩国 5
+      - 韩国 4
+      - 韩国 3
+      - 韩国
+      - 日本 2
+      - 日本
+      - 日本 2
+      - 日本
+      - 日本
+      - 日本 3
+      - 冰岛
+      - 香港 4
+      - 香港 2
+      - 香港
+      - 英国
+      - 法国
+      - 中国 2
+      - 中国 3
       - 台湾 6
+      - 台湾 5
+      - 台湾 4
+      - 台湾 3
+      - 台湾 2
+      - 台湾
+      - 广东省广州市 5
+      - 广东省广州市 4
+      - 广东省广州市 3
+      - 广东省广州市 2
+      - 广东省广州市
+      - 广东省
+      - 甘肃省兰州市
+      - 安徽省马鞍山市
+      - 加拿大 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 广东省广州市
-      - 香港 - Adcdata.com
-      - 安徽省马鞍山市
-      - 广东省
-      - 美国
+      - 中国
+      - 意大利
+      - 上海市+电信
+      - 日本东京
       - 日本
       - 日本 2
-      - 新加坡
-      - 俄罗斯
-      - 甘肃省兰州市
-      - 广东省广州市
-      - 广东省广州市 2
-      - 广东省广州市 3
-      - 广东省广州市 4
-      - 广东省广州市 5
-      - 韩国 2
-      - 韩国 4
-      - 韩国 6
-      - 韩国 7
-      - 韩国 9
-      - 韩国首尔
-      - 荷兰 
+      - 美国
       - 美国
       - 美国 2
       - 美国 3
-      - 美国
-      - 日本
-      - 日本 2
-      - 日本 3
-      - 日本
-      - 日本
-      - 日本
-      - 日本
-      - 日本东京
-      - 日本东京 2
-      - 日本东京 3
-      - 香港
-      - 香港 2
-      - 香港 3
-      - 新加坡
-      - 中国
-      - 中国 2
-      - 法国
-      - 韩国
-      - 韩国 3
-      - 韩国 5
-      - 韩国 7
       - 美国 4
       - 美国 5
-      - 美国 6
-      - 美国
-      - 香港 4
-      - 越南2
       - 美国
       - 美国
       - 美国 2
-      - 日本
-      - 新加坡10
-      - 新加坡11
-      - 新加坡13
-      - 新加坡14
-      - 新加坡15
-      - 新加坡16
-      - 新加坡17
-      - 新加坡18
-      - 新加坡19
-      - 新加坡2
-      - 新加坡3
-      - 新加坡4
-      - 新加坡5
-      - 新加坡6
-      - 新加坡7
-      - 新加坡8
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 韩国
+      - 韩国
+      - 韩国 2
+      - 韩国 3
+      - 韩国 4
+      - 广东省中山市
+      - 广东省
+      - 广东省 2
+      - 广东省 3
+      - 广东省 4
+      - 广东省 5
+      - 巴西圣保罗
+      - 越南2
+      - 越南
+      - 美国 4
+      - 美国 3
+      - 美国 2
+      - 美国
+      - 美国
+      - 美国 5
+      - 美国 6
+      - 美国 7
       - 新加坡9
-      - 台湾
-      - 台湾 2
-      - 台湾 3
-      - 台湾 4
-      - 台湾 5
+      - 新加坡8
+      - 新加坡7
+      - 新加坡6
+      - 新加坡5
+      - 新加坡4
+      - 新加坡3
+      - 新加坡2
+      - 新加坡19
+      - 新加坡18
+      - 新加坡17
+      - 新加坡16
+      - 新加坡15
+      - 新加坡14
+      - 新加坡13
+      - 新加坡11
+      - 新加坡10
+      - 新加坡.
+      - 新加坡.
+      - 俄罗斯
+      - 俄罗斯
+      - 荷兰
+      - 韩国 9
+      - 韩国 7
+      - 韩国 7 2
+      - 韩国 5
+      - 韩国 4
+      - 韩国 3
+      - 韩国
+      - 日本 2
+      - 日本
+      - 日本 2
+      - 日本
+      - 日本
+      - 日本 3
+      - 冰岛
+      - 香港 4
+      - 香港 2
+      - 香港
+      - 英国
+      - 法国
+      - 中国 2
+      - 中国 3
       - 台湾 6
+      - 台湾 5
+      - 台湾 4
+      - 台湾 3
+      - 台湾 2
+      - 台湾
+      - 广东省广州市 5
+      - 广东省广州市 4
+      - 广东省广州市 3
+      - 广东省广州市 2
+      - 广东省广州市
+      - 广东省
+      - 甘肃省兰州市
+      - 安徽省马鞍山市
+      - 加拿大 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 广东省广州市
-      - 香港 - Adcdata.com
-      - 安徽省马鞍山市
-      - 广东省
-      - 美国
+      - 中国
+      - 意大利
+      - 上海市+电信
+      - 日本东京
       - 日本
       - 日本 2
-      - 新加坡
-      - 俄罗斯
-      - 甘肃省兰州市
-      - 广东省广州市
-      - 广东省广州市 2
-      - 广东省广州市 3
-      - 广东省广州市 4
-      - 广东省广州市 5
-      - 韩国 2
-      - 韩国 4
-      - 韩国 6
-      - 韩国 7
-      - 韩国 9
-      - 韩国首尔
-      - 荷兰 
+      - 美国
       - 美国
       - 美国 2
       - 美国 3
-      - 美国
-      - 日本
-      - 日本 2
-      - 日本 3
-      - 日本
-      - 日本
-      - 日本
-      - 日本
-      - 日本东京
-      - 日本东京 2
-      - 日本东京 3
-      - 香港
-      - 香港 2
-      - 香港 3
-      - 新加坡
-      - 中国
-      - 中国 2
-      - 法国
-      - 韩国
-      - 韩国 3
-      - 韩国 5
-      - 韩国 7
       - 美国 4
       - 美国 5
-      - 美国 6
-      - 美国
-      - 香港 4
-      - 越南2
       - 美国
       - 美国
       - 美国 2
-      - 日本
-      - 新加坡10
-      - 新加坡11
-      - 新加坡13
-      - 新加坡14
-      - 新加坡15
-      - 新加坡16
-      - 新加坡17
-      - 新加坡18
-      - 新加坡19
-      - 新加坡2
-      - 新加坡3
-      - 新加坡4
-      - 新加坡5
-      - 新加坡6
-      - 新加坡7
-      - 新加坡8
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 韩国
+      - 韩国
+      - 韩国 2
+      - 韩国 3
+      - 韩国 4
+      - 广东省中山市
+      - 广东省
+      - 广东省 2
+      - 广东省 3
+      - 广东省 4
+      - 广东省 5
+      - 巴西圣保罗
+      - 越南2
+      - 越南
+      - 美国 4
+      - 美国 3
+      - 美国 2
+      - 美国
+      - 美国
+      - 美国 5
+      - 美国 6
+      - 美国 7
       - 新加坡9
-      - 台湾
-      - 台湾 2
-      - 台湾 3
-      - 台湾 4
-      - 台湾 5
+      - 新加坡8
+      - 新加坡7
+      - 新加坡6
+      - 新加坡5
+      - 新加坡4
+      - 新加坡3
+      - 新加坡2
+      - 新加坡19
+      - 新加坡18
+      - 新加坡17
+      - 新加坡16
+      - 新加坡15
+      - 新加坡14
+      - 新加坡13
+      - 新加坡11
+      - 新加坡10
+      - 新加坡.
+      - 新加坡.
+      - 俄罗斯
+      - 俄罗斯
+      - 荷兰
+      - 韩国 9
+      - 韩国 7
+      - 韩国 7 2
+      - 韩国 5
+      - 韩国 4
+      - 韩国 3
+      - 韩国
+      - 日本 2
+      - 日本
+      - 日本 2
+      - 日本
+      - 日本
+      - 日本 3
+      - 冰岛
+      - 香港 4
+      - 香港 2
+      - 香港
+      - 英国
+      - 法国
+      - 中国 2
+      - 中国 3
       - 台湾 6
+      - 台湾 5
+      - 台湾 4
+      - 台湾 3
+      - 台湾 2
+      - 台湾
+      - 广东省广州市 5
+      - 广东省广州市 4
+      - 广东省广州市 3
+      - 广东省广州市 2
+      - 广东省广州市
+      - 广东省
+      - 甘肃省兰州市
+      - 安徽省马鞍山市
+      - 加拿大 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -744,86 +878,105 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 广东省广州市
-      - 香港 - Adcdata.com
-      - 安徽省马鞍山市
-      - 广东省
-      - 美国
+      - 中国
+      - 意大利
+      - 上海市+电信
+      - 日本东京
       - 日本
       - 日本 2
-      - 新加坡
-      - 俄罗斯
-      - 甘肃省兰州市
-      - 广东省广州市
-      - 广东省广州市 2
-      - 广东省广州市 3
-      - 广东省广州市 4
-      - 广东省广州市 5
-      - 韩国 2
-      - 韩国 4
-      - 韩国 6
-      - 韩国 7
-      - 韩国 9
-      - 韩国首尔
-      - 荷兰 
+      - 美国
       - 美国
       - 美国 2
       - 美国 3
-      - 美国
-      - 日本
-      - 日本 2
-      - 日本 3
-      - 日本
-      - 日本
-      - 日本
-      - 日本
-      - 日本东京
-      - 日本东京 2
-      - 日本东京 3
-      - 香港
-      - 香港 2
-      - 香港 3
-      - 新加坡
-      - 中国
-      - 中国 2
-      - 法国
-      - 韩国
-      - 韩国 3
-      - 韩国 5
-      - 韩国 7
       - 美国 4
       - 美国 5
-      - 美国 6
-      - 美国
-      - 香港 4
-      - 越南2
       - 美国
       - 美国
       - 美国 2
-      - 日本
-      - 新加坡10
-      - 新加坡11
-      - 新加坡13
-      - 新加坡14
-      - 新加坡15
-      - 新加坡16
-      - 新加坡17
-      - 新加坡18
-      - 新加坡19
-      - 新加坡2
-      - 新加坡3
-      - 新加坡4
-      - 新加坡5
-      - 新加坡6
-      - 新加坡7
-      - 新加坡8
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 韩国
+      - 韩国
+      - 韩国 2
+      - 韩国 3
+      - 韩国 4
+      - 广东省中山市
+      - 广东省
+      - 广东省 2
+      - 广东省 3
+      - 广东省 4
+      - 广东省 5
+      - 巴西圣保罗
+      - 越南2
+      - 越南
+      - 美国 4
+      - 美国 3
+      - 美国 2
+      - 美国
+      - 美国
+      - 美国 5
+      - 美国 6
+      - 美国 7
       - 新加坡9
-      - 台湾
-      - 台湾 2
-      - 台湾 3
-      - 台湾 4
-      - 台湾 5
+      - 新加坡8
+      - 新加坡7
+      - 新加坡6
+      - 新加坡5
+      - 新加坡4
+      - 新加坡3
+      - 新加坡2
+      - 新加坡19
+      - 新加坡18
+      - 新加坡17
+      - 新加坡16
+      - 新加坡15
+      - 新加坡14
+      - 新加坡13
+      - 新加坡11
+      - 新加坡10
+      - 新加坡.
+      - 新加坡.
+      - 俄罗斯
+      - 俄罗斯
+      - 荷兰
+      - 韩国 9
+      - 韩国 7
+      - 韩国 7 2
+      - 韩国 5
+      - 韩国 4
+      - 韩国 3
+      - 韩国
+      - 日本 2
+      - 日本
+      - 日本 2
+      - 日本
+      - 日本
+      - 日本 3
+      - 冰岛
+      - 香港 4
+      - 香港 2
+      - 香港
+      - 英国
+      - 法国
+      - 中国 2
+      - 中国 3
       - 台湾 6
+      - 台湾 5
+      - 台湾 4
+      - 台湾 3
+      - 台湾 2
+      - 台湾
+      - 广东省广州市 5
+      - 广东省广州市 4
+      - 广东省广州市 3
+      - 广东省广州市 2
+      - 广东省广州市
+      - 广东省
+      - 甘肃省兰州市
+      - 安徽省马鞍山市
+      - 加拿大 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
