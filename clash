@@ -5,35 +5,143 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 韩国, server: 52.79.247.108, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 新加坡, server: 13.250.30.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 广东省, server: 120.233.43.37, port: 52629, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国, server: 52.195.236.85, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 广东省 2, server: 183.240.222.134, port: 11005, type: vmess, uuid: 07b3d36d-1bbb-3584-aabd-de2c77878934, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 日本, server: 43.201.16.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 美国, server: 3.36.77.202, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国 2, server: 52.33.95.19, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 日本 2, server: 43.200.253.6, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国 3, server: 135.125.172.139, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 日本 3, server: 54.248.16.149, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 荷兰, server: 51.15.19.206, port: 2086, type: vmess, uuid: 6704eed0-97a6-11ee-b632-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /k487e2od, ws-headers: {Host: 51.15.19.206}, udp: true}
+  - {name: 法国, server: 51.158.195.96, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 美国 4, server: 135.125.172.153, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 广东省 3, server: 183.240.222.133, port: 11014, type: vmess, uuid: 07b3d36d-1bbb-3584-aabd-de2c77878934, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 广东省 4, server: 183.240.222.133, port: 11103, type: vmess, uuid: 07b3d36d-1bbb-3584-aabd-de2c77878934, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 法国 2, server: 51.159.221.224, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 法国 3, server: 51.158.195.96, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 法国 4, server: 51.158.195.96, port: 110, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 广东省 5, server: 183.240.222.133, port: 11106, type: vmess, uuid: 07b3d36d-1bbb-3584-aabd-de2c77878934, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 广东省 6, server: 183.240.222.134, port: 11112, type: vmess, uuid: 07b3d36d-1bbb-3584-aabd-de2c77878934, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 法国 5, server: 52.47.213.61, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 2, server: 13.250.55.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 日本东京, server: 13.112.160.25, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 日本 4, server: 43.201.104.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国 5, server: 52.195.170.51, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 香港, server: 47.76.44.217, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}, udp: true}
+  - {name: 广东省, server: 183.233.187.230, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123, udp: true}
+  - {name: 广东省 7, server: 183.240.222.134, port: 11006, type: vmess, uuid: 07b3d36d-1bbb-3584-aabd-de2c77878934, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 6, server: 131.186.18.237, port: 20152, type: trojan, password: 928dc6ee-495b-446f-9f20-883dedce564a, skip-cert-verify: true, udp: true}
+  - {name: 广东省2, server: 183.233.187.230, port: 26666, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123, udp: true}
+  - {name: 广东省3, server: 183.233.187.230, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国
-      - 日本
+      - 新加坡
+      - 广东省
       - 美国
+      - 广东省 2
+      - 日本
+      - 美国 2
+      - 日本 2
+      - 美国 3
+      - 日本 3
+      - 荷兰
+      - 法国
+      - 美国 4
+      - 广东省 3
+      - 广东省 4
+      - 法国 2
+      - 法国 3
+      - 法国 4
+      - 广东省 5
+      - 广东省 6
+      - 法国 5
+      - 新加坡 2
+      - 日本东京
+      - 日本 4
+      - 美国 5
+      - 香港
+      - 广东省
+      - 广东省 7
+      - 美国 6
+      - 广东省2
+      - 广东省3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 韩国
-      - 日本
+      - 新加坡
+      - 广东省
       - 美国
+      - 广东省 2
+      - 日本
+      - 美国 2
+      - 日本 2
+      - 美国 3
+      - 日本 3
+      - 荷兰
+      - 法国
+      - 美国 4
+      - 广东省 3
+      - 广东省 4
+      - 法国 2
+      - 法国 3
+      - 法国 4
+      - 广东省 5
+      - 广东省 6
+      - 法国 5
+      - 新加坡 2
+      - 日本东京
+      - 日本 4
+      - 美国 5
+      - 香港
+      - 广东省
+      - 广东省 7
+      - 美国 6
+      - 广东省2
+      - 广东省3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国
-      - 日本
+      - 新加坡
+      - 广东省
       - 美国
+      - 广东省 2
+      - 日本
+      - 美国 2
+      - 日本 2
+      - 美国 3
+      - 日本 3
+      - 荷兰
+      - 法国
+      - 美国 4
+      - 广东省 3
+      - 广东省 4
+      - 法国 2
+      - 法国 3
+      - 法国 4
+      - 广东省 5
+      - 广东省 6
+      - 法国 5
+      - 新加坡 2
+      - 日本东京
+      - 日本 4
+      - 美国 5
+      - 香港
+      - 广东省
+      - 广东省 7
+      - 美国 6
+      - 广东省2
+      - 广东省3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -52,39 +160,148 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国
-      - 日本
+      - 新加坡
+      - 广东省
       - 美国
+      - 广东省 2
+      - 日本
+      - 美国 2
+      - 日本 2
+      - 美国 3
+      - 日本 3
+      - 荷兰
+      - 法国
+      - 美国 4
+      - 广东省 3
+      - 广东省 4
+      - 法国 2
+      - 法国 3
+      - 法国 4
+      - 广东省 5
+      - 广东省 6
+      - 法国 5
+      - 新加坡 2
+      - 日本东京
+      - 日本 4
+      - 美国 5
+      - 香港
+      - 广东省
+      - 广东省 7
+      - 美国 6
+      - 广东省2
+      - 广东省3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 韩国
-      - 日本
+      - 新加坡
+      - 广东省
       - 美国
+      - 广东省 2
+      - 日本
+      - 美国 2
+      - 日本 2
+      - 美国 3
+      - 日本 3
+      - 荷兰
+      - 法国
+      - 美国 4
+      - 广东省 3
+      - 广东省 4
+      - 法国 2
+      - 法国 3
+      - 法国 4
+      - 广东省 5
+      - 广东省 6
+      - 法国 5
+      - 新加坡 2
+      - 日本东京
+      - 日本 4
+      - 美国 5
+      - 香港
+      - 广东省
+      - 广东省 7
+      - 美国 6
+      - 广东省2
+      - 广东省3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 韩国
-      - 日本
+      - 新加坡
+      - 广东省
       - 美国
+      - 广东省 2
+      - 日本
+      - 美国 2
+      - 日本 2
+      - 美国 3
+      - 日本 3
+      - 荷兰
+      - 法国
+      - 美国 4
+      - 广东省 3
+      - 广东省 4
+      - 法国 2
+      - 法国 3
+      - 法国 4
+      - 广东省 5
+      - 广东省 6
+      - 法国 5
+      - 新加坡 2
+      - 日本东京
+      - 日本 4
+      - 美国 5
+      - 香港
+      - 广东省
+      - 广东省 7
+      - 美国 6
+      - 广东省2
+      - 广东省3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 韩国
-      - 日本
+      - 新加坡
+      - 广东省
       - 美国
+      - 广东省 2
+      - 日本
+      - 美国 2
+      - 日本 2
+      - 美国 3
+      - 日本 3
+      - 荷兰
+      - 法国
+      - 美国 4
+      - 广东省 3
+      - 广东省 4
+      - 法国 2
+      - 法国 3
+      - 法国 4
+      - 广东省 5
+      - 广东省 6
+      - 法国 5
+      - 新加坡 2
+      - 日本东京
+      - 日本 4
+      - 美国 5
+      - 香港
+      - 广东省
+      - 广东省 7
+      - 美国 6
+      - 广东省2
+      - 广东省3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -100,9 +317,36 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 韩国
-      - 日本
+      - 新加坡
+      - 广东省
       - 美国
+      - 广东省 2
+      - 日本
+      - 美国 2
+      - 日本 2
+      - 美国 3
+      - 日本 3
+      - 荷兰
+      - 法国
+      - 美国 4
+      - 广东省 3
+      - 广东省 4
+      - 法国 2
+      - 法国 3
+      - 法国 4
+      - 广东省 5
+      - 广东省 6
+      - 法国 5
+      - 新加坡 2
+      - 日本东京
+      - 日本 4
+      - 美国 5
+      - 香港
+      - 广东省
+      - 广东省 7
+      - 美国 6
+      - 广东省2
+      - 广东省3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
