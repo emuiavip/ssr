@@ -5,6 +5,64 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 枭木iOS大本营 TG@Tmxios, server: 51.21.56.211, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
+  - {name: https://t.me/Tmxios, server: 13.112.247.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: P12证书 https://p12.tmxios.top, server: 54.248.151.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 号卡办理 https://10.tmxios.top/, server: 35.93.149.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 公众号：枭木iOS大本营, server: 54.251.138.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 全网低价个人证书, server: 47.243.108.41, port: 10841, type: ss, cipher: aes-256-gcm, password: rUx8mqUsI0}
+  - {name: iOS|轻松签|全能签|P12证书, server: 8.210.231.146, port: 1146, type: ss, cipher: aes-256-gcm, password: jmtgsmW40R}
+  - {name: 定制V信|应用分身|V信密友|破解软件, server: 47.57.232.119, port: 2119, type: ss, cipher: aes-256-gcm, password: 3B9vFTBSlp}
+  - {name: 🇭🇰 香港_R_800, server: angular-cdn-2.telescopes.work, port: 35025, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 香港_R_1103, server: react-cdn-004.telescopeclothing.com, port: 45007, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 香港_R_1154, server: angular-cdn-1.telescopes.work, port: 45007, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 香港_R_863, server: angular-cdn-3.telescopeclothing.com, port: 35092, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇨🇳 台湾_R_1040, server: angular-cdn-3.telescopeclothing.com, port: 35245, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇨🇳 台湾_R_821, server: angular-cdn-3.telescopeclothing.com, port: 35046, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇨🇳 台湾_R_1170, server: angular-cdn-1.telescopes.work, port: 45013, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇹🇭 泰国_R_1013, server: angular-cdn-2.telescopes.work, port: 35240, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇮🇳 印度_R_867, server: angular-cdn-2.telescopes.work, port: 35093, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇮🇳 印度_R_1179, server: angular-cdn-1.telescopes.work, port: 45008, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇩🇪 德国_R_1174, server: angular-cdn-1.telescopes.work, port: 45006, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇫🇷 法国_R_1164, server: angular-cdn-1.telescopes.work, port: 45005, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇦🇺 澳大利亚_R_816, server: angular-cdn-3.telescopeclothing.com, port: 35038, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇦🇺 澳大利亚_R_1169, server: angular-cdn-1.telescopes.work, port: 45002, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇻🇳 越南_R_1175, server: angular-cdn-1.telescopes.work, port: 45016, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇿🇦 南非_R_1034, server: angular-cdn-2.telescopes.work, port: 35244, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇪🇪 爱沙尼亚_R_905, server: angular-cdn-2.telescopes.work, port: 35137, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇦🇿 阿塞拜疆_R_899, server: angular-cdn-2.telescopes.work, port: 35128, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇯🇵 日本_R_1048, server: angular-cdn-3.telescopeclothing.com, port: 35249, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇯🇵 日本_R_1129, server: react-cdn-004.telescopeclothing.com, port: 45009, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇨🇭 瑞士_R_1018, server: angular-cdn-2.telescopes.work, port: 35241, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇵🇭 菲律宾_R_810, server: angular-cdn-2.telescopes.work, port: 35033, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇵🇭 菲律宾_R_1168, server: angular-cdn-1.telescopes.work, port: 45017, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇰🇭 柬埔寨_R_992, server: angular-cdn-2.telescopes.work, port: 35234, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇦🇪 阿联酋_R_977, server: angular-cdn-2.telescopes.work, port: 35230, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇸🇬 新加坡_R_806, server: angular-cdn-3.telescopeclothing.com, port: 35026, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇸🇬 新加坡_R_1166, server: angular-cdn-1.telescopes.work, port: 45011, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇸🇬 新加坡_R_826, server: angular-cdn-3.telescopeclothing.com, port: 35051, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇸🇬 新加坡_R_1116, server: react-cdn-004.telescopeclothing.com, port: 45011, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇰🇷 韩国_R_1180, server: angular-cdn-1.telescopes.work, port: 45010, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇰🇷 韩国_R_877, server: angular-cdn-2.telescopes.work, port: 35101, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇺🇸 美国_R_1108, server: react-cdn-004.telescopeclothing.com, port: 45026, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇺🇸 美国_R_1159, server: angular-cdn-1.telescopes.work, port: 45026, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇬🇧 英国_R_1111, server: react-cdn-004.telescopeclothing.com, port: 45014, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇬🇧 英国_R_1162, server: angular-cdn-1.telescopes.work, port: 45014, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇷🇺 俄罗斯_R_982, server: angular-cdn-2.telescopes.work, port: 35231, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇳🇬 尼日利亚_R_921, server: angular-cdn-2.telescopes.work, port: 35157, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇹🇷 土耳其_R_841, server: angular-cdn-2.telescopes.work, port: 35067, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇺 匈牙利_R_972, server: angular-cdn-2.telescopes.work, port: 35209, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇮🇱 以色列_R_952, server: angular-cdn-2.telescopes.work, port: 35185, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇺🇦 乌克兰_R_947, server: angular-cdn-2.telescopes.work, port: 35183, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇪🇸 西班牙_R_942, server: angular-cdn-2.telescopes.work, port: 35182, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇧🇬 保加利亚_R_937, server: angular-cdn-2.telescopes.work, port: 35180, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇮🇸 冰岛_R_932, server: angular-cdn-2.telescopes.work, port: 35179, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇳🇱 荷兰_R_794, server: angular-cdn-2.telescopes.work, port: 35020, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇦🇷 阿根廷_R_894, server: angular-cdn-2.telescopes.work, port: 35121, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇧🇷 巴西_R_1029, server: angular-cdn-2.telescopes.work, port: 35243, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇮🇩 印度尼西亚_R_962, server: angular-cdn-2.telescopes.work, port: 35197, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇰🇪 肯尼亚_R_1050, server: angular-cdn-2.telescopes.work, port: 35250, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
+  - {name: 🇮🇹 意大利_R_967, server: angular-cdn-2.telescopes.work, port: 35208, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
   - {name: 🇭🇰 香港, server: 47.76.190.214, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
   - {name: 🇨🇳 广东省广州市, server: 183.233.187.230, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6}
   - {name: 🇨🇳 广东省广州市 2, server: 183.233.187.230, port: 26666, type: ss, cipher: chacha20-ietf-poly1305, password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6}
@@ -116,7 +174,7 @@ proxies:
   - {name: 🇮🇳 印度 3, server: 103.197.184.41, port: 80, type: vmess, uuid: b379fd8e-75c6-4bd6-8a5b-88f3e64bb3fa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /speed4g.click, headers: {Host: hanoi4.speed4g.click}}}
   - {name: 🇹🇭 泰国, server: 103.15.90.199, port: 80, type: vmess, uuid: baa85f59-844b-4aa6-95e6-1747d9b78e8a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpngiangon.com}}
   - {name: 欧盟, server: 45.87.153.246, port: 6199, type: ss, cipher: chacha20-ietf-poly1305, password: f7EI0dGWQM42T8gwN9CZIj}
-  - {name: 中国 2, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国 2, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本东京, server: 13.230.132.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇺🇸 美国 26, server: 172.207.117.56, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: tw01.trojanyyds.xyz, skip-cert-verify: true}
   - {name: 🇨🇳 广东省广州市 13, server: 120.232.234.221, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
@@ -133,6 +191,64 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
+      - 🇭🇰 香港_R_800
+      - 🇭🇰 香港_R_1103
+      - 🇭🇰 香港_R_1154
+      - 🇭🇰 香港_R_863
+      - 🇨🇳 台湾_R_1040
+      - 🇨🇳 台湾_R_821
+      - 🇨🇳 台湾_R_1170
+      - 🇹🇭 泰国_R_1013
+      - 🇮🇳 印度_R_867
+      - 🇮🇳 印度_R_1179
+      - 🇩🇪 德国_R_1174
+      - 🇫🇷 法国_R_1164
+      - 🇦🇺 澳大利亚_R_816
+      - 🇦🇺 澳大利亚_R_1169
+      - 🇻🇳 越南_R_1175
+      - 🇿🇦 南非_R_1034
+      - 🇪🇪 爱沙尼亚_R_905
+      - 🇦🇿 阿塞拜疆_R_899
+      - 🇯🇵 日本_R_1048
+      - 🇯🇵 日本_R_1129
+      - 🇨🇭 瑞士_R_1018
+      - 🇵🇭 菲律宾_R_810
+      - 🇵🇭 菲律宾_R_1168
+      - 🇰🇭 柬埔寨_R_992
+      - 🇦🇪 阿联酋_R_977
+      - 🇸🇬 新加坡_R_806
+      - 🇸🇬 新加坡_R_1166
+      - 🇸🇬 新加坡_R_826
+      - 🇸🇬 新加坡_R_1116
+      - 🇰🇷 韩国_R_1180
+      - 🇰🇷 韩国_R_877
+      - 🇺🇸 美国_R_1108
+      - 🇺🇸 美国_R_1159
+      - 🇬🇧 英国_R_1111
+      - 🇬🇧 英国_R_1162
+      - 🇷🇺 俄罗斯_R_982
+      - 🇳🇬 尼日利亚_R_921
+      - 🇹🇷 土耳其_R_841
+      - 🇭🇺 匈牙利_R_972
+      - 🇮🇱 以色列_R_952
+      - 🇺🇦 乌克兰_R_947
+      - 🇪🇸 西班牙_R_942
+      - 🇧🇬 保加利亚_R_937
+      - 🇮🇸 冰岛_R_932
+      - 🇳🇱 荷兰_R_794
+      - 🇦🇷 阿根廷_R_894
+      - 🇧🇷 巴西_R_1029
+      - 🇮🇩 印度尼西亚_R_962
+      - 🇰🇪 肯尼亚_R_1050
+      - 🇮🇹 意大利_R_967
       - 🇭🇰 香港
       - 🇨🇳 广东省广州市
       - 🇨🇳 广东省广州市 2
@@ -244,7 +360,7 @@ proxy-groups:
       - 🇮🇳 印度 3
       - 🇹🇭 泰国
       - 欧盟
-      - 中国 2
+      - 🇨🇳 中国 2
       - 🇯🇵 日本东京
       - 🇺🇸 美国 26
       - 🇨🇳 广东省广州市 13
@@ -259,6 +375,64 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
+      - 🇭🇰 香港_R_800
+      - 🇭🇰 香港_R_1103
+      - 🇭🇰 香港_R_1154
+      - 🇭🇰 香港_R_863
+      - 🇨🇳 台湾_R_1040
+      - 🇨🇳 台湾_R_821
+      - 🇨🇳 台湾_R_1170
+      - 🇹🇭 泰国_R_1013
+      - 🇮🇳 印度_R_867
+      - 🇮🇳 印度_R_1179
+      - 🇩🇪 德国_R_1174
+      - 🇫🇷 法国_R_1164
+      - 🇦🇺 澳大利亚_R_816
+      - 🇦🇺 澳大利亚_R_1169
+      - 🇻🇳 越南_R_1175
+      - 🇿🇦 南非_R_1034
+      - 🇪🇪 爱沙尼亚_R_905
+      - 🇦🇿 阿塞拜疆_R_899
+      - 🇯🇵 日本_R_1048
+      - 🇯🇵 日本_R_1129
+      - 🇨🇭 瑞士_R_1018
+      - 🇵🇭 菲律宾_R_810
+      - 🇵🇭 菲律宾_R_1168
+      - 🇰🇭 柬埔寨_R_992
+      - 🇦🇪 阿联酋_R_977
+      - 🇸🇬 新加坡_R_806
+      - 🇸🇬 新加坡_R_1166
+      - 🇸🇬 新加坡_R_826
+      - 🇸🇬 新加坡_R_1116
+      - 🇰🇷 韩国_R_1180
+      - 🇰🇷 韩国_R_877
+      - 🇺🇸 美国_R_1108
+      - 🇺🇸 美国_R_1159
+      - 🇬🇧 英国_R_1111
+      - 🇬🇧 英国_R_1162
+      - 🇷🇺 俄罗斯_R_982
+      - 🇳🇬 尼日利亚_R_921
+      - 🇹🇷 土耳其_R_841
+      - 🇭🇺 匈牙利_R_972
+      - 🇮🇱 以色列_R_952
+      - 🇺🇦 乌克兰_R_947
+      - 🇪🇸 西班牙_R_942
+      - 🇧🇬 保加利亚_R_937
+      - 🇮🇸 冰岛_R_932
+      - 🇳🇱 荷兰_R_794
+      - 🇦🇷 阿根廷_R_894
+      - 🇧🇷 巴西_R_1029
+      - 🇮🇩 印度尼西亚_R_962
+      - 🇰🇪 肯尼亚_R_1050
+      - 🇮🇹 意大利_R_967
       - 🇭🇰 香港
       - 🇨🇳 广东省广州市
       - 🇨🇳 广东省广州市 2
@@ -370,7 +544,7 @@ proxy-groups:
       - 🇮🇳 印度 3
       - 🇹🇭 泰国
       - 欧盟
-      - 中国 2
+      - 🇨🇳 中国 2
       - 🇯🇵 日本东京
       - 🇺🇸 美国 26
       - 🇨🇳 广东省广州市 13
@@ -384,6 +558,64 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
+      - 🇭🇰 香港_R_800
+      - 🇭🇰 香港_R_1103
+      - 🇭🇰 香港_R_1154
+      - 🇭🇰 香港_R_863
+      - 🇨🇳 台湾_R_1040
+      - 🇨🇳 台湾_R_821
+      - 🇨🇳 台湾_R_1170
+      - 🇹🇭 泰国_R_1013
+      - 🇮🇳 印度_R_867
+      - 🇮🇳 印度_R_1179
+      - 🇩🇪 德国_R_1174
+      - 🇫🇷 法国_R_1164
+      - 🇦🇺 澳大利亚_R_816
+      - 🇦🇺 澳大利亚_R_1169
+      - 🇻🇳 越南_R_1175
+      - 🇿🇦 南非_R_1034
+      - 🇪🇪 爱沙尼亚_R_905
+      - 🇦🇿 阿塞拜疆_R_899
+      - 🇯🇵 日本_R_1048
+      - 🇯🇵 日本_R_1129
+      - 🇨🇭 瑞士_R_1018
+      - 🇵🇭 菲律宾_R_810
+      - 🇵🇭 菲律宾_R_1168
+      - 🇰🇭 柬埔寨_R_992
+      - 🇦🇪 阿联酋_R_977
+      - 🇸🇬 新加坡_R_806
+      - 🇸🇬 新加坡_R_1166
+      - 🇸🇬 新加坡_R_826
+      - 🇸🇬 新加坡_R_1116
+      - 🇰🇷 韩国_R_1180
+      - 🇰🇷 韩国_R_877
+      - 🇺🇸 美国_R_1108
+      - 🇺🇸 美国_R_1159
+      - 🇬🇧 英国_R_1111
+      - 🇬🇧 英国_R_1162
+      - 🇷🇺 俄罗斯_R_982
+      - 🇳🇬 尼日利亚_R_921
+      - 🇹🇷 土耳其_R_841
+      - 🇭🇺 匈牙利_R_972
+      - 🇮🇱 以色列_R_952
+      - 🇺🇦 乌克兰_R_947
+      - 🇪🇸 西班牙_R_942
+      - 🇧🇬 保加利亚_R_937
+      - 🇮🇸 冰岛_R_932
+      - 🇳🇱 荷兰_R_794
+      - 🇦🇷 阿根廷_R_894
+      - 🇧🇷 巴西_R_1029
+      - 🇮🇩 印度尼西亚_R_962
+      - 🇰🇪 肯尼亚_R_1050
+      - 🇮🇹 意大利_R_967
       - 🇭🇰 香港
       - 🇨🇳 广东省广州市
       - 🇨🇳 广东省广州市 2
@@ -495,7 +727,7 @@ proxy-groups:
       - 🇮🇳 印度 3
       - 🇹🇭 泰国
       - 欧盟
-      - 中国 2
+      - 🇨🇳 中国 2
       - 🇯🇵 日本东京
       - 🇺🇸 美国 26
       - 🇨🇳 广东省广州市 13
@@ -510,6 +742,64 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
+      - 🇭🇰 香港_R_800
+      - 🇭🇰 香港_R_1103
+      - 🇭🇰 香港_R_1154
+      - 🇭🇰 香港_R_863
+      - 🇨🇳 台湾_R_1040
+      - 🇨🇳 台湾_R_821
+      - 🇨🇳 台湾_R_1170
+      - 🇹🇭 泰国_R_1013
+      - 🇮🇳 印度_R_867
+      - 🇮🇳 印度_R_1179
+      - 🇩🇪 德国_R_1174
+      - 🇫🇷 法国_R_1164
+      - 🇦🇺 澳大利亚_R_816
+      - 🇦🇺 澳大利亚_R_1169
+      - 🇻🇳 越南_R_1175
+      - 🇿🇦 南非_R_1034
+      - 🇪🇪 爱沙尼亚_R_905
+      - 🇦🇿 阿塞拜疆_R_899
+      - 🇯🇵 日本_R_1048
+      - 🇯🇵 日本_R_1129
+      - 🇨🇭 瑞士_R_1018
+      - 🇵🇭 菲律宾_R_810
+      - 🇵🇭 菲律宾_R_1168
+      - 🇰🇭 柬埔寨_R_992
+      - 🇦🇪 阿联酋_R_977
+      - 🇸🇬 新加坡_R_806
+      - 🇸🇬 新加坡_R_1166
+      - 🇸🇬 新加坡_R_826
+      - 🇸🇬 新加坡_R_1116
+      - 🇰🇷 韩国_R_1180
+      - 🇰🇷 韩国_R_877
+      - 🇺🇸 美国_R_1108
+      - 🇺🇸 美国_R_1159
+      - 🇬🇧 英国_R_1111
+      - 🇬🇧 英国_R_1162
+      - 🇷🇺 俄罗斯_R_982
+      - 🇳🇬 尼日利亚_R_921
+      - 🇹🇷 土耳其_R_841
+      - 🇭🇺 匈牙利_R_972
+      - 🇮🇱 以色列_R_952
+      - 🇺🇦 乌克兰_R_947
+      - 🇪🇸 西班牙_R_942
+      - 🇧🇬 保加利亚_R_937
+      - 🇮🇸 冰岛_R_932
+      - 🇳🇱 荷兰_R_794
+      - 🇦🇷 阿根廷_R_894
+      - 🇧🇷 巴西_R_1029
+      - 🇮🇩 印度尼西亚_R_962
+      - 🇰🇪 肯尼亚_R_1050
+      - 🇮🇹 意大利_R_967
       - 🇭🇰 香港
       - 🇨🇳 广东省广州市
       - 🇨🇳 广东省广州市 2
@@ -621,7 +911,7 @@ proxy-groups:
       - 🇮🇳 印度 3
       - 🇹🇭 泰国
       - 欧盟
-      - 中国 2
+      - 🇨🇳 中国 2
       - 🇯🇵 日本东京
       - 🇺🇸 美国 26
       - 🇨🇳 广东省广州市 13
@@ -649,6 +939,64 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
+      - 🇭🇰 香港_R_800
+      - 🇭🇰 香港_R_1103
+      - 🇭🇰 香港_R_1154
+      - 🇭🇰 香港_R_863
+      - 🇨🇳 台湾_R_1040
+      - 🇨🇳 台湾_R_821
+      - 🇨🇳 台湾_R_1170
+      - 🇹🇭 泰国_R_1013
+      - 🇮🇳 印度_R_867
+      - 🇮🇳 印度_R_1179
+      - 🇩🇪 德国_R_1174
+      - 🇫🇷 法国_R_1164
+      - 🇦🇺 澳大利亚_R_816
+      - 🇦🇺 澳大利亚_R_1169
+      - 🇻🇳 越南_R_1175
+      - 🇿🇦 南非_R_1034
+      - 🇪🇪 爱沙尼亚_R_905
+      - 🇦🇿 阿塞拜疆_R_899
+      - 🇯🇵 日本_R_1048
+      - 🇯🇵 日本_R_1129
+      - 🇨🇭 瑞士_R_1018
+      - 🇵🇭 菲律宾_R_810
+      - 🇵🇭 菲律宾_R_1168
+      - 🇰🇭 柬埔寨_R_992
+      - 🇦🇪 阿联酋_R_977
+      - 🇸🇬 新加坡_R_806
+      - 🇸🇬 新加坡_R_1166
+      - 🇸🇬 新加坡_R_826
+      - 🇸🇬 新加坡_R_1116
+      - 🇰🇷 韩国_R_1180
+      - 🇰🇷 韩国_R_877
+      - 🇺🇸 美国_R_1108
+      - 🇺🇸 美国_R_1159
+      - 🇬🇧 英国_R_1111
+      - 🇬🇧 英国_R_1162
+      - 🇷🇺 俄罗斯_R_982
+      - 🇳🇬 尼日利亚_R_921
+      - 🇹🇷 土耳其_R_841
+      - 🇭🇺 匈牙利_R_972
+      - 🇮🇱 以色列_R_952
+      - 🇺🇦 乌克兰_R_947
+      - 🇪🇸 西班牙_R_942
+      - 🇧🇬 保加利亚_R_937
+      - 🇮🇸 冰岛_R_932
+      - 🇳🇱 荷兰_R_794
+      - 🇦🇷 阿根廷_R_894
+      - 🇧🇷 巴西_R_1029
+      - 🇮🇩 印度尼西亚_R_962
+      - 🇰🇪 肯尼亚_R_1050
+      - 🇮🇹 意大利_R_967
       - 🇭🇰 香港
       - 🇨🇳 广东省广州市
       - 🇨🇳 广东省广州市 2
@@ -760,7 +1108,7 @@ proxy-groups:
       - 🇮🇳 印度 3
       - 🇹🇭 泰国
       - 欧盟
-      - 中国 2
+      - 🇨🇳 中国 2
       - 🇯🇵 日本东京
       - 🇺🇸 美国 26
       - 🇨🇳 广东省广州市 13
