@@ -5,229 +5,147 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 枭木iOS大本营 TG@Tmxios, server: 51.21.56.211, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
-  - {name: https://t.me/Tmxios, server: 13.112.247.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: P12证书 https://p12.tmxios.top, server: 54.248.151.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 号卡办理 https://10.tmxios.top/, server: 35.93.149.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 公众号：枭木iOS大本营, server: 54.251.138.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 全网低价个人证书, server: 47.243.108.41, port: 10841, type: ss, cipher: aes-256-gcm, password: rUx8mqUsI0}
-  - {name: iOS|轻松签|全能签|P12证书, server: 8.210.231.146, port: 1146, type: ss, cipher: aes-256-gcm, password: jmtgsmW40R}
-  - {name: 定制V信|应用分身|V信密友|破解软件, server: 47.57.232.119, port: 2119, type: ss, cipher: aes-256-gcm, password: 3B9vFTBSlp}
-  - {name: 🇭🇰 香港_R_800, server: angular-cdn-2.telescopes.work, port: 35025, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇭🇰 香港_R_1103, server: react-cdn-004.telescopeclothing.com, port: 45007, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇭🇰 香港_R_1154, server: angular-cdn-1.telescopes.work, port: 45007, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇭🇰 香港_R_863, server: angular-cdn-3.telescopeclothing.com, port: 35092, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇨🇳 台湾_R_1040, server: angular-cdn-3.telescopeclothing.com, port: 35245, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇨🇳 台湾_R_821, server: angular-cdn-3.telescopeclothing.com, port: 35046, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇨🇳 台湾_R_1170, server: angular-cdn-1.telescopes.work, port: 45013, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇹🇭 泰国_R_1013, server: angular-cdn-2.telescopes.work, port: 35240, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇮🇳 印度_R_867, server: angular-cdn-2.telescopes.work, port: 35093, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇮🇳 印度_R_1179, server: angular-cdn-1.telescopes.work, port: 45008, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇩🇪 德国_R_1174, server: angular-cdn-1.telescopes.work, port: 45006, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇫🇷 法国_R_1164, server: angular-cdn-1.telescopes.work, port: 45005, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇦🇺 澳大利亚_R_816, server: angular-cdn-3.telescopeclothing.com, port: 35038, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇦🇺 澳大利亚_R_1169, server: angular-cdn-1.telescopes.work, port: 45002, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇻🇳 越南_R_1175, server: angular-cdn-1.telescopes.work, port: 45016, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇿🇦 南非_R_1034, server: angular-cdn-2.telescopes.work, port: 35244, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇪🇪 爱沙尼亚_R_905, server: angular-cdn-2.telescopes.work, port: 35137, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇦🇿 阿塞拜疆_R_899, server: angular-cdn-2.telescopes.work, port: 35128, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇯🇵 日本_R_1048, server: angular-cdn-3.telescopeclothing.com, port: 35249, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇯🇵 日本_R_1129, server: react-cdn-004.telescopeclothing.com, port: 45009, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇨🇭 瑞士_R_1018, server: angular-cdn-2.telescopes.work, port: 35241, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇵🇭 菲律宾_R_810, server: angular-cdn-2.telescopes.work, port: 35033, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇵🇭 菲律宾_R_1168, server: angular-cdn-1.telescopes.work, port: 45017, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇰🇭 柬埔寨_R_992, server: angular-cdn-2.telescopes.work, port: 35234, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇦🇪 阿联酋_R_977, server: angular-cdn-2.telescopes.work, port: 35230, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇸🇬 新加坡_R_806, server: angular-cdn-3.telescopeclothing.com, port: 35026, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇸🇬 新加坡_R_1166, server: angular-cdn-1.telescopes.work, port: 45011, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇸🇬 新加坡_R_826, server: angular-cdn-3.telescopeclothing.com, port: 35051, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇸🇬 新加坡_R_1116, server: react-cdn-004.telescopeclothing.com, port: 45011, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇰🇷 韩国_R_1180, server: angular-cdn-1.telescopes.work, port: 45010, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇰🇷 韩国_R_877, server: angular-cdn-2.telescopes.work, port: 35101, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇺🇸 美国_R_1108, server: react-cdn-004.telescopeclothing.com, port: 45026, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇺🇸 美国_R_1159, server: angular-cdn-1.telescopes.work, port: 45026, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇬🇧 英国_R_1111, server: react-cdn-004.telescopeclothing.com, port: 45014, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇬🇧 英国_R_1162, server: angular-cdn-1.telescopes.work, port: 45014, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇷🇺 俄罗斯_R_982, server: angular-cdn-2.telescopes.work, port: 35231, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇳🇬 尼日利亚_R_921, server: angular-cdn-2.telescopes.work, port: 35157, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇹🇷 土耳其_R_841, server: angular-cdn-2.telescopes.work, port: 35067, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇭🇺 匈牙利_R_972, server: angular-cdn-2.telescopes.work, port: 35209, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇮🇱 以色列_R_952, server: angular-cdn-2.telescopes.work, port: 35185, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇺🇦 乌克兰_R_947, server: angular-cdn-2.telescopes.work, port: 35183, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇪🇸 西班牙_R_942, server: angular-cdn-2.telescopes.work, port: 35182, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇧🇬 保加利亚_R_937, server: angular-cdn-2.telescopes.work, port: 35180, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇮🇸 冰岛_R_932, server: angular-cdn-2.telescopes.work, port: 35179, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇳🇱 荷兰_R_794, server: angular-cdn-2.telescopes.work, port: 35020, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇦🇷 阿根廷_R_894, server: angular-cdn-2.telescopes.work, port: 35121, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇧🇷 巴西_R_1029, server: angular-cdn-2.telescopes.work, port: 35243, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇮🇩 印度尼西亚_R_962, server: angular-cdn-2.telescopes.work, port: 35197, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇰🇪 肯尼亚_R_1050, server: angular-cdn-2.telescopes.work, port: 35250, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
-  - {name: 🇮🇹 意大利_R_967, server: angular-cdn-2.telescopes.work, port: 35208, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 325761:aPhmHIL5Ax, obfs-param: ajax.microsoft.com}
   - {name: 🇨🇳 广东省广州市, server: 183.233.187.230, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6}
-  - {name: 🇨🇳 广东省广州市 2, server: 183.233.187.230, port: 20007, type: ss, cipher: chacha20-ietf-poly1305, password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6}
-  - {name: 🇺🇸 美国华盛顿, server: 38.54.36.99, port: 14163, type: vmess, uuid: 482a7849-2557-45de-e85c-95519c1b88e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国, server: 64.110.85.44, port: 20254, type: vmess, uuid: 007be9ad-8db6-4164-fc49-49989bbcba96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇬🇧 英国, server: 158.178.227.16, port: 30839, type: vmess, uuid: 19bf4866-54ce-4fc9-8903-db7e160c5b81, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国, server: 3.36.92.179, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 广东省广州市 3, server: 183.233.187.230, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6}
-  - {name: 🇨🇳 广东省广州市 4, server: 183.233.187.230, port: 50002, type: ss, cipher: chacha20-ietf-poly1305, password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6}
-  - {name: 🇯🇵 日本, server: 43.201.110.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 亚太地区, server: 103.172.116.79, port: 9044, type: ss, cipher: aes-256-cfb, password: KBGjZYcy4SyRShmA}
-  - {name: 🇸🇬 新加坡, server: 52.221.191.251, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡 2, server: 13.212.204.117, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国 2, server: 3.36.92.179, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 广东省广州市 2, server: 183.233.187.230, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6}
+  - {name: 🇨🇳 广东省广州市 3, server: 183.233.187.230, port: 50002, type: ss, cipher: chacha20-ietf-poly1305, password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6}
+  - {name: 🇸🇬 新加坡, server: 54.169.114.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 中国, server: 8.217.178.215, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+  - {name: 🇸🇬 新加坡 2, server: 46.137.227.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 韩国首尔, server: 13.124.93.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇫🇷 法国, server: 57.180.13.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 韩国首尔 2, server: 3.35.131.11, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡 3, server: 52.221.240.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本东京, server: 13.115.27.76, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 香港, server: 47.243.195.27, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+  - {name: 🇭🇰 香港 2, server: 47.76.185.99, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+  - {name: 🇺🇸 美国华盛顿, server: 38.91.107.37, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇸🇬 新加坡 4, server: 13.212.204.117, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本, server: 43.201.147.151, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 日本 2, server: 54.64.134.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 中国, server: 8.218.63.204, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
-  - {name: 🇺🇸 美国华盛顿 2, server: 38.91.107.37, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇯🇵 日本 3, server: 43.200.1.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡 3, server: 52.221.212.191, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡 5, server: 52.221.191.251, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本 3, server: 43.201.64.47, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡 6, server: 52.221.212.191, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 日本 4, server: 54.95.21.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 香港, server: 47.76.190.214, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
-  - {name: 🇸🇬 新加坡 4, server: 13.212.206.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 台湾省花莲县, server: 61.228.80.220, port: 42311, type: trojan, password: ac0a45fa-d23d-4c44-bfba-371cc52f8267, sni: 2hkmax02.170203.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 2, server: 64.110.83.185, port: 21852, type: trojan, password: 92d3e5b6-6e8c-483b-a72b-000568d2e814, sni: ip3691376078.mobgslb.tbcache.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 5, server: 43.201.255.129, port: 443, type: trojan, password: 8wOSlN5I8uAFRe3ZjZE3AyFBaD23yYCCCX0DaSO67aT4zpc39YlpexSDRqnKxg, sni: octopus.koreanbbq.link, skip-cert-verify: false}
-  - {name: 🇳🇱 荷兰阿姆斯特丹, server: 5.181.21.19, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Njk2Nzcy}
-  - {name: 🇺🇸 美国 3, server: 64.110.85.44, port: 25002, type: trojan, password: 92d3e5b6-6e8c-483b-a72b-000568d2e814, sni: ip3691376078.mobgslb.tbcache.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 4, server: 64.110.85.128, port: 20152, type: trojan, password: e498c261-cabb-4b2c-810b-995d0bd8d049, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 5, server: 64.110.83.185, port: 21152, type: trojan, password: 92d3e5b6-6e8c-483b-a72b-000568d2e814, sni: ip3691376078.mobgslb.tbcache.com, skip-cert-verify: true}
-  - {name: 🇨🇳 甘肃省兰州市, server: 36.140.117.143, port: 31188, type: ss, cipher: chacha20-ietf-poly1305, password: c8d13d4f-10e5-47ff-8101-84ac114f34a0}
-  - {name: 🇨🇳 江苏省, server: 36.151.194.10, port: 32647, type: ss, cipher: chacha20-ietf-poly1305, password: a9c5ca2f-b441-4bc5-89e2-44477cdacd90}
-  - {name: 🇨🇳 江苏省 2, server: 36.151.194.10, port: 26007, type: ss, cipher: chacha20-ietf-poly1305, password: a9c5ca2f-b441-4bc5-89e2-44477cdacd90}
-  - {name: 🇨🇳 广东省广州市 5, server: 116.63.79.132, port: 15413, type: ss, cipher: chacha20-ietf-poly1305, password: 31ef7e0d53114be0d480b351b899fcb8}
-  - {name: 🇨🇳 江苏省 3, server: 36.151.194.10, port: 30769, type: ss, cipher: chacha20-ietf-poly1305, password: a9c5ca2f-b441-4bc5-89e2-44477cdacd90}
-  - {name: 🇨🇳 江苏省 4, server: 36.151.194.10, port: 32265, type: ss, cipher: chacha20-ietf-poly1305, password: a9c5ca2f-b441-4bc5-89e2-44477cdacd90}
-  - {name: 🇨🇳 江苏省 5, server: 36.151.194.10, port: 44365, type: ss, cipher: chacha20-ietf-poly1305, password: a9c5ca2f-b441-4bc5-89e2-44477cdacd90}
-  - {name: 🇨🇳 江苏省 6, server: 36.151.194.10, port: 12993, type: ss, cipher: chacha20-ietf-poly1305, password: a9c5ca2f-b441-4bc5-89e2-44477cdacd90}
-  - {name: 🇨🇳 江苏省 7, server: 36.151.194.10, port: 12054, type: ss, cipher: chacha20-ietf-poly1305, password: a9c5ca2f-b441-4bc5-89e2-44477cdacd90}
-  - {name: 🇨🇳 广东省, server: 120.233.43.29, port: 11019, type: vmess, uuid: 703e2cfe-23ce-391a-bc76-f46348254d38, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 广东省 2, server: 120.233.43.29, port: 11001, type: vmess, uuid: 703e2cfe-23ce-391a-bc76-f46348254d38, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国, server: 116.203.60.6, port: 18180, type: vmess, uuid: b1cfd141-4f0d-40b4-b169-ed332a4a92b9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇩🇪 德国 2, server: 45.77.52.194, port: 39159, type: vmess, uuid: 12bfd84f-6654-4cc3-816b-a9fa93daec05, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国 3, server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 6, server: 168.119.185.94, port: 8880, type: vmess, uuid: aaaa66c4-8c2e-49ac-97d9-2d7f1d364703, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@vpn_whal}}
-  - {name: 🇫🇷 法国上法兰西大区鲁贝, server: 37.187.75.40, port: 80, type: vmess, uuid: da89a49f-3a20-4de1-94b9-06690121e926, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fr1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com}}}
-  - {name: 🇬🇧 英国威尔士加的夫, server: 51.141.127.238, port: 32413, type: ss, cipher: chacha20-ietf-poly1305, password: MK2Qnx66zkwpQQz8yTXVCF}
-  - {name: 🇬🇧 英国威尔士加的夫 2, server: 51.141.101.197, port: 65167, type: ss, cipher: chacha20-ietf-poly1305, password: mpbNXygSyEFjShgMh7tWHX}
-  - {name: 🇬🇧 英国威尔士加的夫 3, server: 51.141.100.112, port: 24007, type: ss, cipher: chacha20-ietf-poly1305, password: kYlKGnPRNwVk4RQEi7oqQs}
-  - {name: 🇬🇧 英国威尔士加的夫 4, server: 52.142.161.9, port: 34424, type: ss, cipher: chacha20-ietf-poly1305, password: 64LbKHnB3IO759ueEnhgMG}
-  - {name: 🇬🇧 英国威尔士加的夫 5, server: 52.142.146.57, port: 50395, type: ss, cipher: chacha20-ietf-poly1305, password: zpgPBiYXEhOwgwpCTaoTui}
-  - {name: 🇬🇧 英国威尔士加的夫 6, server: 51.141.100.85, port: 28521, type: ss, cipher: chacha20-ietf-poly1305, password: NK4KTpH4GbWznkJywV7VmA}
-  - {name: 🇺🇸 美国 7, server: 18.135.60.64, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
-  - {name: 🇨🇳 甘肃省兰州市 2, server: 36.140.117.143, port: 46337, type: ss, cipher: chacha20-ietf-poly1305, password: c8d13d4f-10e5-47ff-8101-84ac114f34a0}
-  - {name: 🇨🇳 甘肃省兰州市 3, server: 36.140.117.143, port: 42921, type: ss, cipher: chacha20-ietf-poly1305, password: c8d13d4f-10e5-47ff-8101-84ac114f34a0}
-  - {name: 🇨🇳 甘肃省兰州市 4, server: 36.140.117.143, port: 19533, type: ss, cipher: chacha20-ietf-poly1305, password: c8d13d4f-10e5-47ff-8101-84ac114f34a0}
-  - {name: 欧盟, server: 45.87.153.246, port: 6199, type: ss, cipher: chacha20-ietf-poly1305, password: f7EI0dGWQM42T8gwN9CZIj}
+  - {name: 🇨🇳 台湾省花莲县, server: 61.228.80.220, port: 42311, type: trojan, password: ac0a45fa-d23d-4c44-bfba-371cc52f8267, sni: 2hkmax02.170203.xyz}
+  - {name: 🇨🇦 加拿大, server: 142.171.116.232, port: 17891, type: ss, cipher: aes-256-gcm, password: pQDmgCrwBpsGzncYL0xz5Zj1Z0BYE8RlB8UykkTx9kHw}
+  - {name: 🇺🇸 美国 3, server: 64.110.85.44, port: 25002, type: trojan, password: e498c261-cabb-4b2c-810b-995d0bd8d049, sni: ip3691376078.mobgslb.tbcache.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 4, server: 120.232.234.221, port: 19582, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
+  - {name: 🇨🇳 广东省广州市 5, server: 120.232.234.221, port: 19591, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
+  - {name: 🇨🇳 广东省广州市 6, server: 120.232.234.221, port: 19521, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
+  - {name: 🇨🇳 广东省, server: 120.233.43.24, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
+  - {name: 🇨🇳 广东省广州市 7, server: 120.232.234.221, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
+  - {name: 🇨🇳 广东省广州市 8, server: 120.232.234.221, port: 19583, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
+  - {name: 🇨🇳 广东省广州市 9, server: 120.232.234.221, port: 19594, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
+  - {name: 🇨🇳 上海市, server: 218.78.30.245, port: 19451, type: vmess, uuid: c355f855-b92c-422e-928c-facf1bf96c21, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gzct2.xlb.lol}}}
+  - {name: 🇨🇳 上海市 2, server: 218.78.30.245, port: 43324, type: vmess, uuid: c355f855-b92c-422e-928c-facf1bf96c21, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gzct2.xlb.lol}}}
+  - {name: 🇨🇳 上海市 3, server: 218.78.30.245, port: 15618, type: vmess, uuid: c355f855-b92c-422e-928c-facf1bf96c21, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gzct2.xlb.lol}}}
+  - {name: 🇨🇳 广东省 2, server: 183.240.222.225, port: 19521, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
+  - {name: 🇨🇳 台湾省桃园市, server: 1.164.132.105, port: 5643, type: vmess, uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 湖北省武汉市, server: 119.96.222.11, port: 19521, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
+  - {name: 🇨🇳 广东省 3, server: 183.240.222.221, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
+  - {name: 🇨🇳 广东省 4, server: 183.240.222.223, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
+  - {name: 🇨🇳 广东省广州市 10, server: 116.63.79.132, port: 15413, type: ss, cipher: chacha20-ietf-poly1305, password: 31ef7e0d53114be0d480b351b899fcb8}
+  - {name: 🇨🇳 上海市 4, server: 218.78.30.245, port: 32205, type: vmess, uuid: 4b05ea31-f4bd-44a7-873f-94ebbe1ee941, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv1.m3u8, headers: {Host: free-relay.themars.top}}}
+  - {name: 🇨🇳 浙江省, server: 112.16.244.34, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
+  - {name: 🇨🇳 广东省 5, server: 183.240.222.223, port: 19591, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
+  - {name: 🇮🇳 印度, server: 49.13.10.50, port: 1194, type: ss, cipher: chacha20-ietf-poly1305, password: Uxm4ADwftKdXq5qRA4ZfHS}
+  - {name: 🇩🇪 德国杜塞尔多夫, server: 5.181.23.67, port: 80, type: vmess, uuid: 34d4f393-ead9-48df-9370-ca8b52e6aabd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇩🇪 德国杜塞尔多夫 2, server: 5.181.23.67, port: 8080, type: vmess, uuid: e1b896aa-bb87-4804-b5ba-c34493e9296b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇺🇸 美国 4, server: 45.159.249.231, port: 38584, type: ss, cipher: chacha20-ietf-poly1305, password: zIPjynKNVVaBnKK0UZ5zu2}
+  - {name: 🇫🇷 法国巴黎, server: 35.181.214.69, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true}
+  - {name: 🇬🇧 英国伦敦, server: 51.142.106.171, port: 13506, type: ss, cipher: chacha20-ietf-poly1305, password: YDSrXzv55YtU9EBtggpxV9}
+  - {name: 🇬🇧 英国威尔士加的夫, server: 51.141.100.112, port: 24007, type: ss, cipher: chacha20-ietf-poly1305, password: kYlKGnPRNwVk4RQEi7oqQs}
+  - {name: 🇬🇧 英国威尔士加的夫 2, server: 51.141.100.85, port: 28521, type: ss, cipher: chacha20-ietf-poly1305, password: NK4KTpH4GbWznkJywV7VmA}
+  - {name: 🇬🇧 英国威尔士加的夫 3, server: 51.141.101.197, port: 65167, type: ss, cipher: chacha20-ietf-poly1305, password: mpbNXygSyEFjShgMh7tWHX}
+  - {name: 🇬🇧 英国威尔士加的夫 4, server: 52.142.146.57, port: 50395, type: ss, cipher: chacha20-ietf-poly1305, password: zpgPBiYXEhOwgwpCTaoTui}
+  - {name: 🇨🇳 湖北省武汉市 2, server: 119.96.222.11, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
   - {name: 🇺🇦 乌克兰, server: 95.164.44.21, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: OTI5ZDhk}
-  - {name: 🇮🇳 印度, server: 103.70.115.113, port: 443, type: trojan, password: baa85f59-844b-4aa6-95e6-1747d9b78e8a, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 8, server: 62.60.131.238, port: 12888, type: vmess, uuid: 66214d78-b33c-459a-a7b9-e50ab19d16b9, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 印度 2, server: 103.70.115.113, port: 80, type: vmess, uuid: 78963859-0ad6-477e-86b8-ffa9b0b88f7c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpngiangon.com}}
+  - {name: 🇮🇳 印度 3, server: 103.113.68.57, port: 8443, type: vmess, uuid: 6b65926e-110d-4728-a807-5670d8829e09, alterId: 0, cipher: auto, tls: true, servername: ru-v2ray.ipracevpn.com}
   - {name: 🇮🇷 伊朗, server: 79.143.84.117, port: 24141, type: vmess, uuid: 46465bbe-628a-4988-ae3c-0c164237a039, alterId: 0, cipher: auto, tls: false}
   - {name: 🇮🇷 伊朗 2, server: 81.12.27.3, port: 20404, type: vmess, uuid: 2825cac3-6acc-4468-ad31-b6d3a3e8fe6e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇷 伊朗 3, server: 81.12.27.4, port: 20554, type: vmess, uuid: 5d0b61a0-64fc-4a9f-e4bc-50ecdbc37623, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 俄罗斯, server: 89.221.224.94, port: 80, type: trojan, password: 28c79056-ccfd-4cc1-93d4-c337cc782e65, sni: is2-t.sshmax.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 甘肃省兰州市 5, server: 36.140.117.143, port: 43250, type: ss, cipher: chacha20-ietf-poly1305, password: c8d13d4f-10e5-47ff-8101-84ac114f34a0}
-  - {name: 🇨🇳 甘肃省兰州市 6, server: 36.140.117.143, port: 10020, type: ss, cipher: chacha20-ietf-poly1305, password: c8d13d4f-10e5-47ff-8101-84ac114f34a0}
-  - {name: 🇨🇳 甘肃省兰州市 7, server: 36.140.117.143, port: 28320, type: ss, cipher: chacha20-ietf-poly1305, password: c8d13d4f-10e5-47ff-8101-84ac114f34a0}
-  - {name: 🇺🇸 美国 9, server: 54.184.55.9, port: 20230, type: trojan, password: 3869cf51-5c65-4dac-a4ef-33e49b6ebb4b, sni: 421421.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 5, server: 13.250.43.155, port: 20230, type: trojan, password: 3869cf51-5c65-4dac-a4ef-33e49b6ebb4b, sni: 421421.xyz, skip-cert-verify: true}
-  - {name: 🇪🇸 西班牙, server: 77.75.230.125, port: 2086, type: vmess, uuid: d466dd36-8b86-48b7-b0f0-67e7d128de6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇪🇸 西班牙 2, server: 77.75.230.125, port: 8080, type: vmess, uuid: d466dd36-8b86-48b7-b0f0-67e7d128de6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇳🇱 荷兰, server: 95.179.128.114, port: 80, type: vmess, uuid: a6292090-afe1-4640-97a7-4f1d1d877cf1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Av8czorIlYicU6D349brWUw6a, headers: {Host: hdfy8sub.foriran.nl}}}
-  - {name: 🇷🇺 俄罗斯 2, server: 91.194.161.7, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: OWJlYjYy}
-  - {name: 🇷🇺 俄罗斯 3, server: 46.151.29.2, port: 1165, type: ss, cipher: chacha20-ietf-poly1305, password: v1PgdpGO_fTTUCle68dhbw}
-  - {name: 🇩🇪 德国 4, server: 5.252.23.133, port: 80, type: vmess, uuid: 2892f8c0-c4bc-49ad-b31f-2146b67d4f6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇷🇺 俄罗斯 4, server: 89.221.224.93, port: 80, type: trojan, password: 9e77b491-73d4-4ea3-985b-cfe3ae583580, sni: is1-t.sshmax.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 6, server: 13.212.151.146, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡 7, server: 13.212.90.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 广东省广州市 11, server: 120.232.234.221, port: 19531, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
+  - {name: 🇨🇳 湖北省武汉市 3, server: 119.96.222.11, port: 19531, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
+  - {name: 🇨🇳 广东省 6, server: 183.240.222.225, port: 19531, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
+  - {name: 🇨🇳 广东省 7, server: 183.240.222.223, port: 19531, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
+  - {name: 🇯🇵 日本 5, server: 45.76.97.175, port: 80, type: vmess, uuid: b197f270-b86c-4df2-9d37-771968e980f7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v2japanvip01.csadata4g.me}}}
+  - {name: 🇯🇵 日本 6, server: 167.179.111.237, port: 14935, type: vmess, uuid: e961894f-8e90-472f-98d3-09402e4be453, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本 7, server: 43.201.253.32, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇱🇹 立陶宛, server: 80.209.228.242, port: 15172, type: ss, cipher: aes-128-gcm, password: rct9lNBCpv79OOcJmjIZ0mHxGSWnn0DXmMPgtBeQqztu}
+  - {name: 🇺🇸 美国 5, server: 45.133.216.209, port: 80, type: vmess, uuid: 638ab354-95da-4517-8714-3607683d8085, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇺🇸 美国 6, server: 45.133.216.209, port: 2082, type: vmess, uuid: 638ab354-95da-4517-8714-3607683d8085, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇺🇸 美国 7, server: 45.133.216.209, port: 8880, type: vmess, uuid: 638ab354-95da-4517-8714-3607683d8085, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇺🇸 美国 8, server: 45.133.216.209, port: 2086, type: vmess, uuid: 638ab354-95da-4517-8714-3607683d8085, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇺🇸 美国 9, server: 45.133.216.209, port: 8080, type: vmess, uuid: 638ab354-95da-4517-8714-3607683d8085, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇪🇸 西班牙, server: 77.75.230.125, port: 80, type: vmess, uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: cz1-vmess.sshmax.xyz}}}
+  - {name: 🇲🇾 马来西亚, server: 103.117.141.230, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: 1Embmoeeg6cmAFtlePOt8JMkd6a1iLOZQBpN6M4cgJCyTPh0}
+  - {name: 🇳🇱 荷兰, server: 95.179.128.114, port: 80, type: vmess, uuid: a6292090-afe1-4640-97a7-4f1d1d877cf1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Av8czorIlYicU6D349brWUw6a}}
+  - {name: 🇷🇺 俄罗斯, server: 46.151.29.2, port: 1165, type: ss, cipher: chacha20-ietf-poly1305, password: v1PgdpGO_fTTUCle68dhbw}
+  - {name: 🇷🇺 俄罗斯 2, server: 91.194.161.7, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: OWJlYjYy}
+  - {name: 🇷🇺 俄罗斯 3, server: 91.194.161.7, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: OWJlYjYy}
+  - {name: 欧盟, server: 45.8.146.35, port: 47413, type: ss, cipher: chacha20-ietf-poly1305, password: U1EYRQpU8rLGRKvDMfR6Fv}
+  - {name: 🇷🇺 俄罗斯 4, server: 89.221.224.92, port: 8080, type: vmess, uuid: aa50afd9-b48c-4381-a46e-41070f320451, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇩🇪 德国, server: 5.252.23.133, port: 80, type: vmess, uuid: 2892f8c0-c4bc-49ad-b31f-2146b67d4f6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇮🇷 伊朗 3, server: 81.12.27.7, port: 37975, type: vmess, uuid: b3c49b53-2d5d-4d13-d195-76d48aeccd11, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 10, server: 70.34.205.59, port: 443, type: vmess, uuid: 01596265-168b-46a7-bcb7-25662c7a9546, alterId: 0, cipher: auto, tls: true, servername: hdfy7c1.cpionline.co, network: ws, ws-opts: {path: /mrX5XBSsE4fQALebvMmvby47, headers: {Host: hdfy7c1.cpionline.co}}}
+  - {name: 🇸🇬 新加坡 7, server: 13.212.151.146, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 广东省广州市 12, server: 183.233.187.230, port: 20109, type: ss, cipher: chacha20-ietf-poly1305, password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6}
   - {name: 🇸🇬 新加坡 8, server: 13.213.1.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡 9, server: 13.250.55.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 中国 2, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡 10, server: 207.148.77.215, port: 2, type: trojan, password: uLMSiafRJ2, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾省桃园市, server: 220.141.144.78, port: 2203, type: ss, cipher: chacha20-ietf-poly1305, password: 88162ed0-5a4d-4d7b-8a5c-ed5b5fa70e0d}
-  - {name: 🇨🇳 台湾省台北市, server: 36.227.10.171, port: 4303, type: ss, cipher: chacha20-ietf-poly1305, password: 88162ed0-5a4d-4d7b-8a5c-ed5b5fa70e0d}
-  - {name: 🇨🇳 台湾省新北市, server: 36.226.138.217, port: 7773, type: ss, cipher: chacha20-ietf-poly1305, password: 88162ed0-5a4d-4d7b-8a5c-ed5b5fa70e0d}
-  - {name: 🇨🇳 台湾省台中市, server: 61.224.78.99, port: 9980, type: trojan, password: e8d23f6d-b1b3-3bec-a67a-b8b3df55aa95, sni: tj-tw02.yiyo2way.xyz, skip-cert-verify: true}
-  - {name: 🇺🇦 乌克兰 2, server: 193.0.61.96, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: 7yODRDBX8jWcqPrygj1RnEHJfPcD1LEAOb4yS7IE2gVONP9o}
-  - {name: 🇺🇦 乌克兰 3, server: 95.164.37.226, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NjJkZmYw}
-  - {name: 🇺🇸 美国俄勒冈州波特兰, server: 34.221.71.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国华盛顿 3, server: 38.91.107.37, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 美国华盛顿 4, server: 38.91.107.37, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇮🇷 伊朗 4, server: 5.78.45.213, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇷 伊朗 5, server: 5.78.74.72, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇷 伊朗 6, server: 5.161.127.110, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 10, server: 15.181.201.80, port: 443, type: trojan, password: pjdnqv, sni: aws-us-dallas-1.f1rocketnode.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 11, server: 50.114.159.250, port: 6666, type: ss, cipher: aes-256-gcm, password: bI51Uc7CL6}
-  - {name: 🇺🇸 美国华盛顿 5, server: 38.54.36.149, port: 25189, type: vmess, uuid: 3b9cc000-59ea-4cd2-f10e-91de3e69fe1c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 12, server: 64.176.37.216, port: 45930, type: vmess, uuid: b2930b0d-02b4-45dc-8025-a3c19879d4ab, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇦 乌克兰 4, server: 94.131.117.159, port: 80, type: vmess, uuid: 40f0217f-624b-4333-bc59-429477d58d30, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: es1-vmess.sshmax.xyz}}}
-  - {name: 🇺🇸 美国华盛顿 6, server: 38.180.98.215, port: 8080, type: vmess, uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 13, server: 64.176.39.31, port: 56262, type: vmess, uuid: 590f2744-e9d1-4f2c-a384-d35b736bca41, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国华盛顿 7, server: 38.54.36.181, port: 50674, type: vmess, uuid: 09a9bdf1-7584-4b52-e810-c1330396c2cb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇻🇳 越南, server: 103.82.21.6, port: 80, type: vmess, uuid: bfb9f927-eef3-4dfd-adbe-05bcc8279b41, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ongtrumdata.com}}
-  - {name: 🇻🇳 越南 2, server: 103.82.133.201, port: 443, type: trojan, password: bfb9f927-eef3-4dfd-adbe-05bcc8279b41, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
-  - {name: 亚太地区 2, server: 103.177.94.138, port: 22843, type: vmess, uuid: 009bae05-80bb-4e27-d2c1-efea629e95ae, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇳 印度 2, server: 103.197.185.161, port: 80, type: vmess, uuid: c95357eb-2869-4511-8940-f0dc5e1ec9b1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /5gsieutocdo.club, headers: {Host: hanoi4.5gsieutocdo.com}}}
-  - {name: 🇮🇳 印度 3, server: 103.197.185.161, port: 443, type: trojan, password: c95357eb-2869-4511-8940-f0dc5e1ec9b1, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
-  - {name: 🇮🇳 印度 4, server: 103.197.184.93, port: 443, type: trojan, password: baa85f59-844b-4aa6-95e6-1747d9b78e8a, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 6, server: 47.245.2.84, port: 80, type: vmess, uuid: cef51002-47b0-4e48-9d91-850e15ff95e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jpyx.651568.xyz}}}
-  - {name: 🇨🇳 广东省 3, server: 183.240.222.221, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
-  - {name: 🇨🇳 广东省 4, server: 183.240.222.221, port: 19584, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
-  - {name: 🇯🇵 日本东京, server: 13.115.27.76, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 广东省广州市 6, server: 120.232.234.221, port: 19541, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
-  - {name: 🇨🇳 广东省广州市 7, server: 120.232.234.221, port: 19584, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
-  - {name: 🇨🇳 广东省 5, server: 183.240.222.221, port: 19583, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
-  - {name: 🇨🇳 广东省 6, server: 183.240.222.225, port: 19521, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
-  - {name: 🇨🇳 湖北省武汉市, server: 119.96.222.11, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
-  - {name: 🇨🇳 广东省 7, server: 183.240.222.221, port: 19541, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
-  - {name: 🇨🇳 广东省 8, server: 183.240.222.225, port: 19561, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
-  - {name: 🇨🇳 广东省广州市 8, server: 120.232.234.221, port: 19591, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
-  - {name: 🇨🇳 湖北省武汉市 2, server: 119.96.222.11, port: 19531, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
-  - {name: 🇨🇳 湖北省武汉市 3, server: 119.96.222.11, port: 19541, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
-  - {name: 🇨🇳 广东省 9, server: 183.240.222.221, port: 19594, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
-  - {name: 🇨🇳 广东省 10, server: 183.240.222.221, port: 19591, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
-  - {name: 🇨🇳 广东省 11, server: 183.240.222.221, port: 19531, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
-  - {name: 🇨🇳 广东省 12, server: 183.240.222.225, port: 19531, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
-  - {name: 🇨🇳 广东省 13, server: 183.240.222.221, port: 19582, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
-  - {name: 🇨🇳 广东省 14, server: 183.240.222.225, port: 19541, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
-  - {name: 🇨🇳 广东省 15, server: 183.240.222.221, port: 19521, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
-  - {name: 🇨🇳 广东省 16, server: 183.240.222.221, port: 19561, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
+  - {name: 🇨🇳 广东省广州市 13, server: 183.233.187.235, port: 20109, type: ss, cipher: chacha20-ietf-poly1305, password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6}
+  - {name: 🇸🇬 新加坡 9, server: 13.212.90.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇹🇭 泰国, server: 103.253.74.94, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: 9DjvuaL43IdKUIh7asdOGOQv6iz9HheANtlsCWgErHlyBvlk}
+  - {name: 🇨🇳 台湾省南投县, server: 36.232.179.132, port: 6899, type: vmess, uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾省, server: 118.167.83.208, port: 2024, type: vmess, uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾省台中市, server: 61.224.96.234, port: 9980, type: trojan, password: e8d23f6d-b1b3-3bec-a67a-b8b3df55aa95, sni: tj-tw02.yiyo2way.xyz, skip-cert-verify: true}
+  - {name: 🇺🇦 乌克兰 2, server: 95.164.37.226, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NjJkZmYw}
   - {name: 🇨🇳 湖北省武汉市 4, server: 119.96.222.11, port: 19561, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
-  - {name: 🇨🇳 广东省广州市 9, server: 120.232.234.221, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
-  - {name: 🇺🇸 美国华盛顿 8, server: 38.75.136.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇸🇬 上海市浦东新区, server: 61.171.69.155, port: 31027, type: ss, cipher: chacha20-ietf-poly1305, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378}
-  - {name: 🇸🇬 上海市浦东新区 2, server: 61.171.69.155, port: 31016, type: ss, cipher: chacha20-ietf-poly1305, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378}
-  - {name: 🇸🇬 上海市浦东新区 3, server: 61.171.69.155, port: 31018, type: ss, cipher: chacha20-ietf-poly1305, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378}
-  - {name: 🇸🇬 上海市浦东新区 4, server: 61.171.69.155, port: 31026, type: ss, cipher: chacha20-ietf-poly1305, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378}
-  - {name: 🇸🇬 上海市浦东新区 5, server: 61.171.69.155, port: 31028, type: ss, cipher: chacha20-ietf-poly1305, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378}
-  - {name: 🇨🇳 湖北省武汉市 5, server: 119.96.132.44, port: 31022, type: ss, cipher: chacha20-ietf-poly1305, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378}
-  - {name: 🇸🇬 上海市浦东新区 6, server: 61.171.69.155, port: 31021, type: ss, cipher: chacha20-ietf-poly1305, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378}
-  - {name: 🇸🇬 上海市浦东新区 7, server: 61.171.69.155, port: 31017, type: ss, cipher: chacha20-ietf-poly1305, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378}
-  - {name: 🇨🇳 湖北省武汉市 6, server: 119.96.132.44, port: 31010, type: ss, cipher: chacha20-ietf-poly1305, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378}
-  - {name: 🇨🇳 湖北省武汉市 7, server: 119.96.132.44, port: 31020, type: ss, cipher: chacha20-ietf-poly1305, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378}
-  - {name: 🇸🇬 上海市浦东新区 8, server: 61.171.69.155, port: 31032, type: ss, cipher: chacha20-ietf-poly1305, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378}
-  - {name: 🇸🇬 上海市浦东新区 9, server: 61.171.69.155, port: 31030, type: ss, cipher: chacha20-ietf-poly1305, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378}
-  - {name: 🇸🇬 上海市浦东新区 10, server: 61.171.69.155, port: 31311, type: trojan, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378, sni: tw03.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 11, server: 61.171.69.155, port: 31211, type: trojan, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378, sni: sg03.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 12, server: 61.171.69.155, port: 31511, type: trojan, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378, sni: us03.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 湖北省武汉市 8, server: 119.96.132.44, port: 31206, type: trojan, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378, sni: sg02.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 13, server: 61.171.69.155, port: 31801, type: trojan, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378, sni: ph01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 14, server: 61.171.69.155, port: 31841, type: trojan, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378, sni: de01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 15, server: 61.171.69.155, port: 31116, type: trojan, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378, sni: jp01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 湖北省武汉市 9, server: 119.96.132.44, port: 31106, type: trojan, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378, sni: jp02.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 湖北省武汉市 10, server: 119.96.132.44, port: 31611, type: trojan, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378, sni: hk03.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 16, server: 61.171.69.155, port: 31601, type: trojan, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378, sni: hk01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 17, server: 61.171.69.155, port: 31887, type: trojan, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378, sni: my01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 18, server: 61.171.69.155, port: 31606, type: trojan, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378, sni: hk02.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 19, server: 61.171.69.155, port: 31811, type: trojan, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378, sni: uk01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 湖北省武汉市 11, server: 119.96.132.44, port: 31201, type: trojan, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378, sni: sg01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 湖北省武汉市 12, server: 119.96.132.44, port: 31884, type: trojan, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378, sni: es01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 湖北省武汉市 13, server: 119.96.132.44, port: 31111, type: trojan, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378, sni: jp03.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 20, server: 61.171.69.155, port: 31306, type: trojan, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378, sni: tw02.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 21, server: 61.171.69.155, port: 31506, type: trojan, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378, sni: us02.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 22, server: 61.171.69.155, port: 31831, type: trojan, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378, sni: in01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 湖北省武汉市 14, server: 119.96.132.44, port: 31401, type: trojan, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378, sni: kr01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 湖北省武汉市 15, server: 119.96.132.44, port: 31904, type: trojan, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378, sni: th01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 湖北省武汉市 16, server: 119.96.132.44, port: 31874, type: trojan, password: efc03d0d-34ba-4e1a-9b9d-5f0f9c259378, sni: vn01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 7, server: 43.201.53.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇬🇧 英国 2, server: 51.21.97.15, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 14, server: 120.232.234.221, port: 19561, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
+  - {name: 🇺🇸 美国华盛顿 2, server: 38.91.107.37, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇳 广东省 8, server: 183.240.222.225, port: 19561, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
+  - {name: 🇺🇸 美国华盛顿 3, server: 38.91.107.37, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇳 上海市 5, server: 218.78.30.245, port: 57746, type: vmess, uuid: c355f855-b92c-422e-928c-facf1bf96c21, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gzct2.xlb.lol}}}
+  - {name: 🇮🇷 伊朗 4, server: 5.161.127.110, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇷 伊朗 5, server: 5.78.45.213, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 上海市 6, server: 218.78.30.245, port: 49119, type: vmess, uuid: c355f855-b92c-422e-928c-facf1bf96c21, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gzct2.xlb.lol}}}
+  - {name: 🇨🇳 上海市 7, server: 218.78.30.245, port: 54997, type: vmess, uuid: c355f855-b92c-422e-928c-facf1bf96c21, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gzct2.xlb.lol}}}
+  - {name: 🇨🇳 上海市 8, server: 218.78.30.245, port: 53078, type: vmess, uuid: c355f855-b92c-422e-928c-facf1bf96c21, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gzct2.xlb.lol}}}
+  - {name: 🇮🇷 伊朗 6, server: 5.78.74.72, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false}
+  - {name: , server: 2604:2dc0:202:300::b08, port: 443, type: vmess, uuid: 3e1c1355-ffb5-48c3-8e7d-f6be7b8fece4, alterId: 0, cipher: auto, tls: true, servername: vps-837611db.vps.ovh.us}
+  - {name: 🇺🇸 美国 11, server: 15.181.201.80, port: 443, type: trojan, password: pjdnqv, sni: aws-us-dallas-1.f1rocketnode.com, skip-cert-verify: true}
+  - {name: 🇺🇦 乌克兰 3, server: 94.131.117.159, port: 80, type: vmess, uuid: 4c4eb1a2-4352-4b02-8d31-68fff24537a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: es1-vmess.sshmax.xyz}}}
+  - {name: 🇺🇸 美国得克萨斯州, server: 34.42.103.62, port: 443, type: vmess, uuid: cfac7cc6-c6b6-47b5-abff-0b307ac98148, alterId: 0, cipher: auto, tls: true, servername: tyoutre.gygjggf7654e.repl.co, network: ws, ws-opts: {path: "/cfac7cc6-c6b6-47b5-abff-0b307ac98148-vm?ed=2048", headers: {Host: tyoutre.gygjggf7654e.repl.co}}}
+  - {name: 🇺🇸 美国得克萨斯州 2, server: 34.73.150.160, port: 443, type: vmess, uuid: 0e42ab26-2273-4a85-9b47-bd11b9140d0d, alterId: 0, cipher: auto, tls: true, servername: goodbooks.gygjggf7654e1.repl.co, network: ws, ws-opts: {path: "/0e42ab26-2273-4a85-9b47-bd11b9140d0d-vm?ed=2048", headers: {Host: goodbooks.gygjggf7654e1.repl.co}}}
+  - {name: 🇺🇸 美国 12, server: 64.176.59.68, port: 59350, type: vmess, uuid: 5821ac21-8e3f-4c8b-832d-a55190c944e9, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 13, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国华盛顿 4, server: 38.180.33.136, port: 50104, type: vmess, uuid: 790f6802-7535-4109-de6d-15f676d5e3f7, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇦 乌克兰 4, server: 94.131.10.135, port: 80, type: vmess, uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇺🇸 美国 14, server: 68.183.159.199, port: 2092, type: vmess, uuid: 038e2714-5cbf-4812-fcfb-8726665c63b6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /telegram:@hkaa0, headers: {Host: Telegram-Channel.hkaa0_shop.66688888.xyz}}}
+  - {name: 🇺🇦 乌克兰 5, server: 94.131.96.137, port: 2082, type: vmess, uuid: 900fbb93-4dba-40c1-be96-9aef165a7c2e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇺🇦 乌克兰 6, server: 94.131.96.137, port: 80, type: vmess, uuid: 900fbb93-4dba-40c1-be96-9aef165a7c2e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇺🇸 美国 15, server: 172.233.188.217, port: 55579, type: vmess, uuid: 610f7b76-a4e2-4b5a-c458-96e69cbffb5e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇦 乌克兰 7, server: 94.131.96.137, port: 8080, type: vmess, uuid: 900fbb93-4dba-40c1-be96-9aef165a7c2e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇺🇦 乌克兰 8, server: 94.131.96.137, port: 2095, type: vmess, uuid: 900fbb93-4dba-40c1-be96-9aef165a7c2e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇺🇸 美国 16, server: 131.186.25.198, port: 20802, type: trojan, password: f3801cdd-2473-472a-8da4-77b1a17661c0, sni: 206.237.5.220, skip-cert-verify: true}
+  - {name: 🇻🇳 越南, server: 103.82.134.110, port: 80, type: vmess, uuid: bfb9f927-eef3-4dfd-adbe-05bcc8279b41, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ongtrumdata.com}}
+  - {name: 🇮🇳 印度 4, server: 103.197.185.161, port: 80, type: vmess, uuid: c95357eb-2869-4511-8940-f0dc5e1ec9b1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /5gsieutocdo.club, headers: {Host: hanoi4.5gsieutocdo.com}}}
+  - {name: 🇮🇳 印度 5, server: 103.197.184.41, port: 80, type: vmess, uuid: b379fd8e-75c6-4bd6-8a5b-88f3e64bb3fa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /speed4g.click, headers: {Host: hanoi4.speed4g.click}}}
+  - {name: 🇮🇳 印度 6, server: 103.197.184.41, port: 443, type: trojan, password: b379fd8e-75c6-4bd6-8a5b-88f3e64bb3fa, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
+  - {name: 🇮🇳 印度 7, server: 103.197.185.161, port: 443, type: trojan, password: c95357eb-2869-4511-8940-f0dc5e1ec9b1, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 8, server: 18.181.171.223, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国 17, server: 172.207.117.56, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: hk01.trojanyyds.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 15, server: 183.233.187.230, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6}
+  - {name: 🇨🇳 广东省广州市 16, server: 183.233.187.230, port: 50005, type: ss, cipher: chacha20-ietf-poly1305, password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6}
+  - {name: 🇨🇳 广东省广州市 17, server: 183.233.187.235, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6}
+  - {name: 🇯🇵 日本 9, server: 43.200.1.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡 10, server: 13.212.206.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇦 乌克兰 9, server: 94.131.96.137, port: 2086, type: vmess, uuid: 900fbb93-4dba-40c1-be96-9aef165a7c2e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇺🇸 美国华盛顿 5, server: 38.54.36.214, port: 31682, type: vmess, uuid: 217fdbc2-c062-4632-c440-36c3a4934713, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇦 乌克兰 10, server: 94.131.96.137, port: 8880, type: vmess, uuid: 900fbb93-4dba-40c1-be96-9aef165a7c2e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇺🇸 美国华盛顿 6, server: 38.75.136.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国华盛顿 7, server: 38.180.98.215, port: 8080, type: vmess, uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -236,915 +154,587 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇭🇰 香港_R_800
-      - 🇭🇰 香港_R_1103
-      - 🇭🇰 香港_R_1154
-      - 🇭🇰 香港_R_863
-      - 🇨🇳 台湾_R_1040
-      - 🇨🇳 台湾_R_821
-      - 🇨🇳 台湾_R_1170
-      - 🇹🇭 泰国_R_1013
-      - 🇮🇳 印度_R_867
-      - 🇮🇳 印度_R_1179
-      - 🇩🇪 德国_R_1174
-      - 🇫🇷 法国_R_1164
-      - 🇦🇺 澳大利亚_R_816
-      - 🇦🇺 澳大利亚_R_1169
-      - 🇻🇳 越南_R_1175
-      - 🇿🇦 南非_R_1034
-      - 🇪🇪 爱沙尼亚_R_905
-      - 🇦🇿 阿塞拜疆_R_899
-      - 🇯🇵 日本_R_1048
-      - 🇯🇵 日本_R_1129
-      - 🇨🇭 瑞士_R_1018
-      - 🇵🇭 菲律宾_R_810
-      - 🇵🇭 菲律宾_R_1168
-      - 🇰🇭 柬埔寨_R_992
-      - 🇦🇪 阿联酋_R_977
-      - 🇸🇬 新加坡_R_806
-      - 🇸🇬 新加坡_R_1166
-      - 🇸🇬 新加坡_R_826
-      - 🇸🇬 新加坡_R_1116
-      - 🇰🇷 韩国_R_1180
-      - 🇰🇷 韩国_R_877
-      - 🇺🇸 美国_R_1108
-      - 🇺🇸 美国_R_1159
-      - 🇬🇧 英国_R_1111
-      - 🇬🇧 英国_R_1162
-      - 🇷🇺 俄罗斯_R_982
-      - 🇳🇬 尼日利亚_R_921
-      - 🇹🇷 土耳其_R_841
-      - 🇭🇺 匈牙利_R_972
-      - 🇮🇱 以色列_R_952
-      - 🇺🇦 乌克兰_R_947
-      - 🇪🇸 西班牙_R_942
-      - 🇧🇬 保加利亚_R_937
-      - 🇮🇸 冰岛_R_932
-      - 🇳🇱 荷兰_R_794
-      - 🇦🇷 阿根廷_R_894
-      - 🇧🇷 巴西_R_1029
-      - 🇮🇩 印度尼西亚_R_962
-      - 🇰🇪 肯尼亚_R_1050
-      - 🇮🇹 意大利_R_967
       - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇺🇸 美国华盛顿
-      - 🇬🇧 英国
       - 🇺🇸 美国
-      - 🇨🇳 广东省广州市 3
-      - 🇨🇳 广东省广州市 4
-      - 🇯🇵 日本
-      - 亚太地区
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇯🇵 日本 2
-      - 中国
-      - 🇺🇸 美国华盛顿 2
-      - 🇯🇵 日本 3
-      - 🇸🇬 新加坡 3
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港
-      - 🇸🇬 新加坡 4
-      - 🇨🇳 台湾省花莲县
+      - 🇬🇧 英国
       - 🇺🇸 美国 2
-      - 🇯🇵 日本 5
-      - 🇳🇱 荷兰阿姆斯特丹
+      - 🇨🇳 广东省广州市 2
+      - 🇨🇳 广东省广州市 3
+      - 🇸🇬 新加坡
+      - 中国
+      - 🇸🇬 新加坡 2
+      - 🇰🇷 韩国首尔
+      - 🇫🇷 法国
+      - 🇰🇷 韩国首尔 2
+      - 🇸🇬 新加坡 3
+      - 🇯🇵 日本东京
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇺🇸 美国华盛顿
+      - 🇸🇬 新加坡 4
+      - 🇯🇵 日本
+      - 🇯🇵 日本 2
+      - 🇸🇬 新加坡 5
+      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡 6
+      - 🇯🇵 日本 4
+      - 🇨🇳 台湾省花莲县
+      - 🇨🇦 加拿大
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇨🇳 甘肃省兰州市
-      - 🇨🇳 江苏省
-      - 🇨🇳 江苏省 2
+      - 🇨🇳 广东省广州市 4
       - 🇨🇳 广东省广州市 5
-      - 🇨🇳 江苏省 3
-      - 🇨🇳 江苏省 4
-      - 🇨🇳 江苏省 5
-      - 🇨🇳 江苏省 6
-      - 🇨🇳 江苏省 7
+      - 🇨🇳 广东省广州市 6
       - 🇨🇳 广东省
+      - 🇨🇳 广东省广州市 7
+      - 🇨🇳 广东省广州市 8
+      - 🇨🇳 广东省广州市 9
+      - 🇨🇳 上海市
+      - 🇨🇳 上海市 2
+      - 🇨🇳 上海市 3
       - 🇨🇳 广东省 2
-      - 🇩🇪 德国
-      - 🇩🇪 德国 2
-      - 🇩🇪 德国 3
-      - 🇺🇸 美国 6
-      - 🇫🇷 法国上法兰西大区鲁贝
+      - 🇨🇳 台湾省桃园市
+      - 🇨🇳 湖北省武汉市
+      - 🇨🇳 广东省 3
+      - 🇨🇳 广东省 4
+      - 🇨🇳 广东省广州市 10
+      - 🇨🇳 上海市 4
+      - 🇨🇳 浙江省
+      - 🇨🇳 广东省 5
+      - 🇮🇳 印度
+      - 🇩🇪 德国杜塞尔多夫
+      - 🇩🇪 德国杜塞尔多夫 2
+      - 🇺🇸 美国 4
+      - 🇫🇷 法国巴黎
+      - 🇬🇧 英国伦敦
       - 🇬🇧 英国威尔士加的夫
       - 🇬🇧 英国威尔士加的夫 2
       - 🇬🇧 英国威尔士加的夫 3
       - 🇬🇧 英国威尔士加的夫 4
-      - 🇬🇧 英国威尔士加的夫 5
-      - 🇬🇧 英国威尔士加的夫 6
-      - 🇺🇸 美国 7
-      - 🇨🇳 甘肃省兰州市 2
-      - 🇨🇳 甘肃省兰州市 3
-      - 🇨🇳 甘肃省兰州市 4
-      - 欧盟
+      - 🇨🇳 湖北省武汉市 2
       - 🇺🇦 乌克兰
-      - 🇮🇳 印度
-      - 🇺🇸 美国 8
-      - 🇮🇷 伊朗
-      - 🇮🇷 伊朗 2
-      - 🇮🇷 伊朗 3
-      - 🇷🇺 俄罗斯
-      - 🇨🇳 甘肃省兰州市 5
-      - 🇨🇳 甘肃省兰州市 6
-      - 🇨🇳 甘肃省兰州市 7
-      - 🇺🇸 美国 9
-      - 🇸🇬 新加坡 5
-      - 🇪🇸 西班牙
-      - 🇪🇸 西班牙 2
-      - 🇳🇱 荷兰
-      - 🇷🇺 俄罗斯 2
-      - 🇷🇺 俄罗斯 3
-      - 🇩🇪 德国 4
-      - 🇷🇺 俄罗斯 4
-      - 🇸🇬 新加坡 6
-      - 🇸🇬 新加坡 7
-      - 🇸🇬 新加坡 8
-      - 🇸🇬 新加坡 9
-      - 🇨🇳 中国 2
-      - 🇸🇬 新加坡 10
-      - 🇨🇳 台湾省桃园市
-      - 🇨🇳 台湾省台北市
-      - 🇨🇳 台湾省新北市
-      - 🇨🇳 台湾省台中市
-      - 🇺🇦 乌克兰 2
-      - 🇺🇦 乌克兰 3
-      - 🇺🇸 美国俄勒冈州波特兰
-      - 🇺🇸 美国华盛顿 3
-      - 🇺🇸 美国华盛顿 4
-      - 🇮🇷 伊朗 4
-      - 🇮🇷 伊朗 5
-      - 🇮🇷 伊朗 6
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国华盛顿 5
-      - 🇺🇸 美国 12
-      - 🇺🇦 乌克兰 4
-      - 🇺🇸 美国华盛顿 6
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国华盛顿 7
-      - 🇻🇳 越南
-      - 🇻🇳 越南 2
-      - 亚太地区 2
       - 🇮🇳 印度 2
       - 🇮🇳 印度 3
-      - 🇮🇳 印度 4
-      - 🇯🇵 日本 6
-      - 🇨🇳 广东省 3
-      - 🇨🇳 广东省 4
-      - 🇯🇵 日本东京
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省 5
-      - 🇨🇳 广东省 6
-      - 🇨🇳 湖北省武汉市
-      - 🇨🇳 广东省 7
-      - 🇨🇳 广东省 8
-      - 🇨🇳 广东省广州市 8
-      - 🇨🇳 湖北省武汉市 2
+      - 🇮🇷 伊朗
+      - 🇮🇷 伊朗 2
+      - 🇨🇳 广东省广州市 11
       - 🇨🇳 湖北省武汉市 3
-      - 🇨🇳 广东省 9
-      - 🇨🇳 广东省 10
-      - 🇨🇳 广东省 11
-      - 🇨🇳 广东省 12
-      - 🇨🇳 广东省 13
-      - 🇨🇳 广东省 14
-      - 🇨🇳 广东省 15
-      - 🇨🇳 广东省 16
-      - 🇨🇳 湖北省武汉市 4
-      - 🇨🇳 广东省广州市 9
-      - 🇺🇸 美国华盛顿 8
-      - 🇸🇬 上海市浦东新区
-      - 🇸🇬 上海市浦东新区 2
-      - 🇸🇬 上海市浦东新区 3
-      - 🇸🇬 上海市浦东新区 4
-      - 🇸🇬 上海市浦东新区 5
-      - 🇨🇳 湖北省武汉市 5
-      - 🇸🇬 上海市浦东新区 6
-      - 🇸🇬 上海市浦东新区 7
-      - 🇨🇳 湖北省武汉市 6
-      - 🇨🇳 湖北省武汉市 7
-      - 🇸🇬 上海市浦东新区 8
-      - 🇸🇬 上海市浦东新区 9
-      - 🇸🇬 上海市浦东新区 10
-      - 🇸🇬 上海市浦东新区 11
-      - 🇸🇬 上海市浦东新区 12
-      - 🇨🇳 湖北省武汉市 8
-      - 🇸🇬 上海市浦东新区 13
-      - 🇸🇬 上海市浦东新区 14
-      - 🇸🇬 上海市浦东新区 15
-      - 🇨🇳 湖北省武汉市 9
-      - 🇨🇳 湖北省武汉市 10
-      - 🇸🇬 上海市浦东新区 16
-      - 🇸🇬 上海市浦东新区 17
-      - 🇸🇬 上海市浦东新区 18
-      - 🇸🇬 上海市浦东新区 19
-      - 🇨🇳 湖北省武汉市 11
-      - 🇨🇳 湖北省武汉市 12
-      - 🇨🇳 湖北省武汉市 13
-      - 🇸🇬 上海市浦东新区 20
-      - 🇸🇬 上海市浦东新区 21
-      - 🇸🇬 上海市浦东新区 22
-      - 🇨🇳 湖北省武汉市 14
-      - 🇨🇳 湖北省武汉市 15
-      - 🇨🇳 湖北省武汉市 16
+      - 🇨🇳 广东省 6
+      - 🇨🇳 广东省 7
+      - 🇯🇵 日本 5
+      - 🇯🇵 日本 6
       - 🇯🇵 日本 7
-      - 🇬🇧 英国 2
+      - 🇱🇹 立陶宛
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国 7
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
+      - 🇪🇸 西班牙
+      - 🇲🇾 马来西亚
+      - 🇳🇱 荷兰
+      - 🇷🇺 俄罗斯
+      - 🇷🇺 俄罗斯 2
+      - 🇷🇺 俄罗斯 3
+      - 欧盟
+      - 🇷🇺 俄罗斯 4
+      - 🇩🇪 德国
+      - 🇮🇷 伊朗 3
+      - 🇺🇸 美国 10
+      - 🇸🇬 新加坡 7
+      - 🇨🇳 广东省广州市 12
+      - 🇸🇬 新加坡 8
+      - 🇨🇳 广东省广州市 13
+      - 🇸🇬 新加坡 9
+      - 🇹🇭 泰国
+      - 🇨🇳 台湾省南投县
+      - 🇨🇳 台湾省
+      - 🇨🇳 台湾省台中市
+      - 🇺🇦 乌克兰 2
+      - 🇨🇳 湖北省武汉市 4
+      - 🇨🇳 广东省广州市 14
+      - 🇺🇸 美国华盛顿 2
+      - 🇨🇳 广东省 8
+      - 🇺🇸 美国华盛顿 3
+      - 🇨🇳 上海市 5
+      - 🇮🇷 伊朗 4
+      - 🇮🇷 伊朗 5
+      - 🇨🇳 上海市 6
+      - 🇨🇳 上海市 7
+      - 🇨🇳 上海市 8
+      - 🇮🇷 伊朗 6
+      - 
+      - 🇺🇸 美国 11
+      - 🇺🇦 乌克兰 3
+      - 🇺🇸 美国得克萨斯州
+      - 🇺🇸 美国得克萨斯州 2
+      - 🇺🇸 美国 12
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国华盛顿 4
+      - 🇺🇦 乌克兰 4
+      - 🇺🇸 美国 14
+      - 🇺🇦 乌克兰 5
+      - 🇺🇦 乌克兰 6
+      - 🇺🇸 美国 15
+      - 🇺🇦 乌克兰 7
+      - 🇺🇦 乌克兰 8
+      - 🇺🇸 美国 16
+      - 🇻🇳 越南
+      - 🇮🇳 印度 4
+      - 🇮🇳 印度 5
+      - 🇮🇳 印度 6
+      - 🇮🇳 印度 7
+      - 🇯🇵 日本 8
+      - 🇺🇸 美国 17
+      - 🇨🇳 广东省广州市 15
+      - 🇨🇳 广东省广州市 16
+      - 🇨🇳 广东省广州市 17
+      - 🇯🇵 日本 9
+      - 🇸🇬 新加坡 10
+      - 🇺🇦 乌克兰 9
+      - 🇺🇸 美国华盛顿 5
+      - 🇺🇦 乌克兰 10
+      - 🇺🇸 美国华盛顿 6
+      - 🇺🇸 美国华盛顿 7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇭🇰 香港_R_800
-      - 🇭🇰 香港_R_1103
-      - 🇭🇰 香港_R_1154
-      - 🇭🇰 香港_R_863
-      - 🇨🇳 台湾_R_1040
-      - 🇨🇳 台湾_R_821
-      - 🇨🇳 台湾_R_1170
-      - 🇹🇭 泰国_R_1013
-      - 🇮🇳 印度_R_867
-      - 🇮🇳 印度_R_1179
-      - 🇩🇪 德国_R_1174
-      - 🇫🇷 法国_R_1164
-      - 🇦🇺 澳大利亚_R_816
-      - 🇦🇺 澳大利亚_R_1169
-      - 🇻🇳 越南_R_1175
-      - 🇿🇦 南非_R_1034
-      - 🇪🇪 爱沙尼亚_R_905
-      - 🇦🇿 阿塞拜疆_R_899
-      - 🇯🇵 日本_R_1048
-      - 🇯🇵 日本_R_1129
-      - 🇨🇭 瑞士_R_1018
-      - 🇵🇭 菲律宾_R_810
-      - 🇵🇭 菲律宾_R_1168
-      - 🇰🇭 柬埔寨_R_992
-      - 🇦🇪 阿联酋_R_977
-      - 🇸🇬 新加坡_R_806
-      - 🇸🇬 新加坡_R_1166
-      - 🇸🇬 新加坡_R_826
-      - 🇸🇬 新加坡_R_1116
-      - 🇰🇷 韩国_R_1180
-      - 🇰🇷 韩国_R_877
-      - 🇺🇸 美国_R_1108
-      - 🇺🇸 美国_R_1159
-      - 🇬🇧 英国_R_1111
-      - 🇬🇧 英国_R_1162
-      - 🇷🇺 俄罗斯_R_982
-      - 🇳🇬 尼日利亚_R_921
-      - 🇹🇷 土耳其_R_841
-      - 🇭🇺 匈牙利_R_972
-      - 🇮🇱 以色列_R_952
-      - 🇺🇦 乌克兰_R_947
-      - 🇪🇸 西班牙_R_942
-      - 🇧🇬 保加利亚_R_937
-      - 🇮🇸 冰岛_R_932
-      - 🇳🇱 荷兰_R_794
-      - 🇦🇷 阿根廷_R_894
-      - 🇧🇷 巴西_R_1029
-      - 🇮🇩 印度尼西亚_R_962
-      - 🇰🇪 肯尼亚_R_1050
-      - 🇮🇹 意大利_R_967
       - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇺🇸 美国华盛顿
-      - 🇬🇧 英国
       - 🇺🇸 美国
-      - 🇨🇳 广东省广州市 3
-      - 🇨🇳 广东省广州市 4
-      - 🇯🇵 日本
-      - 亚太地区
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇯🇵 日本 2
-      - 中国
-      - 🇺🇸 美国华盛顿 2
-      - 🇯🇵 日本 3
-      - 🇸🇬 新加坡 3
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港
-      - 🇸🇬 新加坡 4
-      - 🇨🇳 台湾省花莲县
+      - 🇬🇧 英国
       - 🇺🇸 美国 2
-      - 🇯🇵 日本 5
-      - 🇳🇱 荷兰阿姆斯特丹
+      - 🇨🇳 广东省广州市 2
+      - 🇨🇳 广东省广州市 3
+      - 🇸🇬 新加坡
+      - 中国
+      - 🇸🇬 新加坡 2
+      - 🇰🇷 韩国首尔
+      - 🇫🇷 法国
+      - 🇰🇷 韩国首尔 2
+      - 🇸🇬 新加坡 3
+      - 🇯🇵 日本东京
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇺🇸 美国华盛顿
+      - 🇸🇬 新加坡 4
+      - 🇯🇵 日本
+      - 🇯🇵 日本 2
+      - 🇸🇬 新加坡 5
+      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡 6
+      - 🇯🇵 日本 4
+      - 🇨🇳 台湾省花莲县
+      - 🇨🇦 加拿大
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇨🇳 甘肃省兰州市
-      - 🇨🇳 江苏省
-      - 🇨🇳 江苏省 2
+      - 🇨🇳 广东省广州市 4
       - 🇨🇳 广东省广州市 5
-      - 🇨🇳 江苏省 3
-      - 🇨🇳 江苏省 4
-      - 🇨🇳 江苏省 5
-      - 🇨🇳 江苏省 6
-      - 🇨🇳 江苏省 7
+      - 🇨🇳 广东省广州市 6
       - 🇨🇳 广东省
+      - 🇨🇳 广东省广州市 7
+      - 🇨🇳 广东省广州市 8
+      - 🇨🇳 广东省广州市 9
+      - 🇨🇳 上海市
+      - 🇨🇳 上海市 2
+      - 🇨🇳 上海市 3
       - 🇨🇳 广东省 2
-      - 🇩🇪 德国
-      - 🇩🇪 德国 2
-      - 🇩🇪 德国 3
-      - 🇺🇸 美国 6
-      - 🇫🇷 法国上法兰西大区鲁贝
+      - 🇨🇳 台湾省桃园市
+      - 🇨🇳 湖北省武汉市
+      - 🇨🇳 广东省 3
+      - 🇨🇳 广东省 4
+      - 🇨🇳 广东省广州市 10
+      - 🇨🇳 上海市 4
+      - 🇨🇳 浙江省
+      - 🇨🇳 广东省 5
+      - 🇮🇳 印度
+      - 🇩🇪 德国杜塞尔多夫
+      - 🇩🇪 德国杜塞尔多夫 2
+      - 🇺🇸 美国 4
+      - 🇫🇷 法国巴黎
+      - 🇬🇧 英国伦敦
       - 🇬🇧 英国威尔士加的夫
       - 🇬🇧 英国威尔士加的夫 2
       - 🇬🇧 英国威尔士加的夫 3
       - 🇬🇧 英国威尔士加的夫 4
-      - 🇬🇧 英国威尔士加的夫 5
-      - 🇬🇧 英国威尔士加的夫 6
-      - 🇺🇸 美国 7
-      - 🇨🇳 甘肃省兰州市 2
-      - 🇨🇳 甘肃省兰州市 3
-      - 🇨🇳 甘肃省兰州市 4
-      - 欧盟
+      - 🇨🇳 湖北省武汉市 2
       - 🇺🇦 乌克兰
-      - 🇮🇳 印度
-      - 🇺🇸 美国 8
-      - 🇮🇷 伊朗
-      - 🇮🇷 伊朗 2
-      - 🇮🇷 伊朗 3
-      - 🇷🇺 俄罗斯
-      - 🇨🇳 甘肃省兰州市 5
-      - 🇨🇳 甘肃省兰州市 6
-      - 🇨🇳 甘肃省兰州市 7
-      - 🇺🇸 美国 9
-      - 🇸🇬 新加坡 5
-      - 🇪🇸 西班牙
-      - 🇪🇸 西班牙 2
-      - 🇳🇱 荷兰
-      - 🇷🇺 俄罗斯 2
-      - 🇷🇺 俄罗斯 3
-      - 🇩🇪 德国 4
-      - 🇷🇺 俄罗斯 4
-      - 🇸🇬 新加坡 6
-      - 🇸🇬 新加坡 7
-      - 🇸🇬 新加坡 8
-      - 🇸🇬 新加坡 9
-      - 🇨🇳 中国 2
-      - 🇸🇬 新加坡 10
-      - 🇨🇳 台湾省桃园市
-      - 🇨🇳 台湾省台北市
-      - 🇨🇳 台湾省新北市
-      - 🇨🇳 台湾省台中市
-      - 🇺🇦 乌克兰 2
-      - 🇺🇦 乌克兰 3
-      - 🇺🇸 美国俄勒冈州波特兰
-      - 🇺🇸 美国华盛顿 3
-      - 🇺🇸 美国华盛顿 4
-      - 🇮🇷 伊朗 4
-      - 🇮🇷 伊朗 5
-      - 🇮🇷 伊朗 6
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国华盛顿 5
-      - 🇺🇸 美国 12
-      - 🇺🇦 乌克兰 4
-      - 🇺🇸 美国华盛顿 6
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国华盛顿 7
-      - 🇻🇳 越南
-      - 🇻🇳 越南 2
-      - 亚太地区 2
       - 🇮🇳 印度 2
       - 🇮🇳 印度 3
-      - 🇮🇳 印度 4
-      - 🇯🇵 日本 6
-      - 🇨🇳 广东省 3
-      - 🇨🇳 广东省 4
-      - 🇯🇵 日本东京
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省 5
-      - 🇨🇳 广东省 6
-      - 🇨🇳 湖北省武汉市
-      - 🇨🇳 广东省 7
-      - 🇨🇳 广东省 8
-      - 🇨🇳 广东省广州市 8
-      - 🇨🇳 湖北省武汉市 2
+      - 🇮🇷 伊朗
+      - 🇮🇷 伊朗 2
+      - 🇨🇳 广东省广州市 11
       - 🇨🇳 湖北省武汉市 3
-      - 🇨🇳 广东省 9
-      - 🇨🇳 广东省 10
-      - 🇨🇳 广东省 11
-      - 🇨🇳 广东省 12
-      - 🇨🇳 广东省 13
-      - 🇨🇳 广东省 14
-      - 🇨🇳 广东省 15
-      - 🇨🇳 广东省 16
-      - 🇨🇳 湖北省武汉市 4
-      - 🇨🇳 广东省广州市 9
-      - 🇺🇸 美国华盛顿 8
-      - 🇸🇬 上海市浦东新区
-      - 🇸🇬 上海市浦东新区 2
-      - 🇸🇬 上海市浦东新区 3
-      - 🇸🇬 上海市浦东新区 4
-      - 🇸🇬 上海市浦东新区 5
-      - 🇨🇳 湖北省武汉市 5
-      - 🇸🇬 上海市浦东新区 6
-      - 🇸🇬 上海市浦东新区 7
-      - 🇨🇳 湖北省武汉市 6
-      - 🇨🇳 湖北省武汉市 7
-      - 🇸🇬 上海市浦东新区 8
-      - 🇸🇬 上海市浦东新区 9
-      - 🇸🇬 上海市浦东新区 10
-      - 🇸🇬 上海市浦东新区 11
-      - 🇸🇬 上海市浦东新区 12
-      - 🇨🇳 湖北省武汉市 8
-      - 🇸🇬 上海市浦东新区 13
-      - 🇸🇬 上海市浦东新区 14
-      - 🇸🇬 上海市浦东新区 15
-      - 🇨🇳 湖北省武汉市 9
-      - 🇨🇳 湖北省武汉市 10
-      - 🇸🇬 上海市浦东新区 16
-      - 🇸🇬 上海市浦东新区 17
-      - 🇸🇬 上海市浦东新区 18
-      - 🇸🇬 上海市浦东新区 19
-      - 🇨🇳 湖北省武汉市 11
-      - 🇨🇳 湖北省武汉市 12
-      - 🇨🇳 湖北省武汉市 13
-      - 🇸🇬 上海市浦东新区 20
-      - 🇸🇬 上海市浦东新区 21
-      - 🇸🇬 上海市浦东新区 22
-      - 🇨🇳 湖北省武汉市 14
-      - 🇨🇳 湖北省武汉市 15
-      - 🇨🇳 湖北省武汉市 16
+      - 🇨🇳 广东省 6
+      - 🇨🇳 广东省 7
+      - 🇯🇵 日本 5
+      - 🇯🇵 日本 6
       - 🇯🇵 日本 7
-      - 🇬🇧 英国 2
+      - 🇱🇹 立陶宛
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国 7
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
+      - 🇪🇸 西班牙
+      - 🇲🇾 马来西亚
+      - 🇳🇱 荷兰
+      - 🇷🇺 俄罗斯
+      - 🇷🇺 俄罗斯 2
+      - 🇷🇺 俄罗斯 3
+      - 欧盟
+      - 🇷🇺 俄罗斯 4
+      - 🇩🇪 德国
+      - 🇮🇷 伊朗 3
+      - 🇺🇸 美国 10
+      - 🇸🇬 新加坡 7
+      - 🇨🇳 广东省广州市 12
+      - 🇸🇬 新加坡 8
+      - 🇨🇳 广东省广州市 13
+      - 🇸🇬 新加坡 9
+      - 🇹🇭 泰国
+      - 🇨🇳 台湾省南投县
+      - 🇨🇳 台湾省
+      - 🇨🇳 台湾省台中市
+      - 🇺🇦 乌克兰 2
+      - 🇨🇳 湖北省武汉市 4
+      - 🇨🇳 广东省广州市 14
+      - 🇺🇸 美国华盛顿 2
+      - 🇨🇳 广东省 8
+      - 🇺🇸 美国华盛顿 3
+      - 🇨🇳 上海市 5
+      - 🇮🇷 伊朗 4
+      - 🇮🇷 伊朗 5
+      - 🇨🇳 上海市 6
+      - 🇨🇳 上海市 7
+      - 🇨🇳 上海市 8
+      - 🇮🇷 伊朗 6
+      - 
+      - 🇺🇸 美国 11
+      - 🇺🇦 乌克兰 3
+      - 🇺🇸 美国得克萨斯州
+      - 🇺🇸 美国得克萨斯州 2
+      - 🇺🇸 美国 12
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国华盛顿 4
+      - 🇺🇦 乌克兰 4
+      - 🇺🇸 美国 14
+      - 🇺🇦 乌克兰 5
+      - 🇺🇦 乌克兰 6
+      - 🇺🇸 美国 15
+      - 🇺🇦 乌克兰 7
+      - 🇺🇦 乌克兰 8
+      - 🇺🇸 美国 16
+      - 🇻🇳 越南
+      - 🇮🇳 印度 4
+      - 🇮🇳 印度 5
+      - 🇮🇳 印度 6
+      - 🇮🇳 印度 7
+      - 🇯🇵 日本 8
+      - 🇺🇸 美国 17
+      - 🇨🇳 广东省广州市 15
+      - 🇨🇳 广东省广州市 16
+      - 🇨🇳 广东省广州市 17
+      - 🇯🇵 日本 9
+      - 🇸🇬 新加坡 10
+      - 🇺🇦 乌克兰 9
+      - 🇺🇸 美国华盛顿 5
+      - 🇺🇦 乌克兰 10
+      - 🇺🇸 美国华盛顿 6
+      - 🇺🇸 美国华盛顿 7
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇭🇰 香港_R_800
-      - 🇭🇰 香港_R_1103
-      - 🇭🇰 香港_R_1154
-      - 🇭🇰 香港_R_863
-      - 🇨🇳 台湾_R_1040
-      - 🇨🇳 台湾_R_821
-      - 🇨🇳 台湾_R_1170
-      - 🇹🇭 泰国_R_1013
-      - 🇮🇳 印度_R_867
-      - 🇮🇳 印度_R_1179
-      - 🇩🇪 德国_R_1174
-      - 🇫🇷 法国_R_1164
-      - 🇦🇺 澳大利亚_R_816
-      - 🇦🇺 澳大利亚_R_1169
-      - 🇻🇳 越南_R_1175
-      - 🇿🇦 南非_R_1034
-      - 🇪🇪 爱沙尼亚_R_905
-      - 🇦🇿 阿塞拜疆_R_899
-      - 🇯🇵 日本_R_1048
-      - 🇯🇵 日本_R_1129
-      - 🇨🇭 瑞士_R_1018
-      - 🇵🇭 菲律宾_R_810
-      - 🇵🇭 菲律宾_R_1168
-      - 🇰🇭 柬埔寨_R_992
-      - 🇦🇪 阿联酋_R_977
-      - 🇸🇬 新加坡_R_806
-      - 🇸🇬 新加坡_R_1166
-      - 🇸🇬 新加坡_R_826
-      - 🇸🇬 新加坡_R_1116
-      - 🇰🇷 韩国_R_1180
-      - 🇰🇷 韩国_R_877
-      - 🇺🇸 美国_R_1108
-      - 🇺🇸 美国_R_1159
-      - 🇬🇧 英国_R_1111
-      - 🇬🇧 英国_R_1162
-      - 🇷🇺 俄罗斯_R_982
-      - 🇳🇬 尼日利亚_R_921
-      - 🇹🇷 土耳其_R_841
-      - 🇭🇺 匈牙利_R_972
-      - 🇮🇱 以色列_R_952
-      - 🇺🇦 乌克兰_R_947
-      - 🇪🇸 西班牙_R_942
-      - 🇧🇬 保加利亚_R_937
-      - 🇮🇸 冰岛_R_932
-      - 🇳🇱 荷兰_R_794
-      - 🇦🇷 阿根廷_R_894
-      - 🇧🇷 巴西_R_1029
-      - 🇮🇩 印度尼西亚_R_962
-      - 🇰🇪 肯尼亚_R_1050
-      - 🇮🇹 意大利_R_967
       - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇺🇸 美国华盛顿
-      - 🇬🇧 英国
       - 🇺🇸 美国
-      - 🇨🇳 广东省广州市 3
-      - 🇨🇳 广东省广州市 4
-      - 🇯🇵 日本
-      - 亚太地区
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇯🇵 日本 2
-      - 中国
-      - 🇺🇸 美国华盛顿 2
-      - 🇯🇵 日本 3
-      - 🇸🇬 新加坡 3
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港
-      - 🇸🇬 新加坡 4
-      - 🇨🇳 台湾省花莲县
+      - 🇬🇧 英国
       - 🇺🇸 美国 2
-      - 🇯🇵 日本 5
-      - 🇳🇱 荷兰阿姆斯特丹
+      - 🇨🇳 广东省广州市 2
+      - 🇨🇳 广东省广州市 3
+      - 🇸🇬 新加坡
+      - 中国
+      - 🇸🇬 新加坡 2
+      - 🇰🇷 韩国首尔
+      - 🇫🇷 法国
+      - 🇰🇷 韩国首尔 2
+      - 🇸🇬 新加坡 3
+      - 🇯🇵 日本东京
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇺🇸 美国华盛顿
+      - 🇸🇬 新加坡 4
+      - 🇯🇵 日本
+      - 🇯🇵 日本 2
+      - 🇸🇬 新加坡 5
+      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡 6
+      - 🇯🇵 日本 4
+      - 🇨🇳 台湾省花莲县
+      - 🇨🇦 加拿大
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇨🇳 甘肃省兰州市
-      - 🇨🇳 江苏省
-      - 🇨🇳 江苏省 2
+      - 🇨🇳 广东省广州市 4
       - 🇨🇳 广东省广州市 5
-      - 🇨🇳 江苏省 3
-      - 🇨🇳 江苏省 4
-      - 🇨🇳 江苏省 5
-      - 🇨🇳 江苏省 6
-      - 🇨🇳 江苏省 7
+      - 🇨🇳 广东省广州市 6
       - 🇨🇳 广东省
+      - 🇨🇳 广东省广州市 7
+      - 🇨🇳 广东省广州市 8
+      - 🇨🇳 广东省广州市 9
+      - 🇨🇳 上海市
+      - 🇨🇳 上海市 2
+      - 🇨🇳 上海市 3
       - 🇨🇳 广东省 2
-      - 🇩🇪 德国
-      - 🇩🇪 德国 2
-      - 🇩🇪 德国 3
-      - 🇺🇸 美国 6
-      - 🇫🇷 法国上法兰西大区鲁贝
+      - 🇨🇳 台湾省桃园市
+      - 🇨🇳 湖北省武汉市
+      - 🇨🇳 广东省 3
+      - 🇨🇳 广东省 4
+      - 🇨🇳 广东省广州市 10
+      - 🇨🇳 上海市 4
+      - 🇨🇳 浙江省
+      - 🇨🇳 广东省 5
+      - 🇮🇳 印度
+      - 🇩🇪 德国杜塞尔多夫
+      - 🇩🇪 德国杜塞尔多夫 2
+      - 🇺🇸 美国 4
+      - 🇫🇷 法国巴黎
+      - 🇬🇧 英国伦敦
       - 🇬🇧 英国威尔士加的夫
       - 🇬🇧 英国威尔士加的夫 2
       - 🇬🇧 英国威尔士加的夫 3
       - 🇬🇧 英国威尔士加的夫 4
-      - 🇬🇧 英国威尔士加的夫 5
-      - 🇬🇧 英国威尔士加的夫 6
-      - 🇺🇸 美国 7
-      - 🇨🇳 甘肃省兰州市 2
-      - 🇨🇳 甘肃省兰州市 3
-      - 🇨🇳 甘肃省兰州市 4
-      - 欧盟
+      - 🇨🇳 湖北省武汉市 2
       - 🇺🇦 乌克兰
-      - 🇮🇳 印度
-      - 🇺🇸 美国 8
-      - 🇮🇷 伊朗
-      - 🇮🇷 伊朗 2
-      - 🇮🇷 伊朗 3
-      - 🇷🇺 俄罗斯
-      - 🇨🇳 甘肃省兰州市 5
-      - 🇨🇳 甘肃省兰州市 6
-      - 🇨🇳 甘肃省兰州市 7
-      - 🇺🇸 美国 9
-      - 🇸🇬 新加坡 5
-      - 🇪🇸 西班牙
-      - 🇪🇸 西班牙 2
-      - 🇳🇱 荷兰
-      - 🇷🇺 俄罗斯 2
-      - 🇷🇺 俄罗斯 3
-      - 🇩🇪 德国 4
-      - 🇷🇺 俄罗斯 4
-      - 🇸🇬 新加坡 6
-      - 🇸🇬 新加坡 7
-      - 🇸🇬 新加坡 8
-      - 🇸🇬 新加坡 9
-      - 🇨🇳 中国 2
-      - 🇸🇬 新加坡 10
-      - 🇨🇳 台湾省桃园市
-      - 🇨🇳 台湾省台北市
-      - 🇨🇳 台湾省新北市
-      - 🇨🇳 台湾省台中市
-      - 🇺🇦 乌克兰 2
-      - 🇺🇦 乌克兰 3
-      - 🇺🇸 美国俄勒冈州波特兰
-      - 🇺🇸 美国华盛顿 3
-      - 🇺🇸 美国华盛顿 4
-      - 🇮🇷 伊朗 4
-      - 🇮🇷 伊朗 5
-      - 🇮🇷 伊朗 6
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国华盛顿 5
-      - 🇺🇸 美国 12
-      - 🇺🇦 乌克兰 4
-      - 🇺🇸 美国华盛顿 6
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国华盛顿 7
-      - 🇻🇳 越南
-      - 🇻🇳 越南 2
-      - 亚太地区 2
       - 🇮🇳 印度 2
       - 🇮🇳 印度 3
-      - 🇮🇳 印度 4
-      - 🇯🇵 日本 6
-      - 🇨🇳 广东省 3
-      - 🇨🇳 广东省 4
-      - 🇯🇵 日本东京
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省 5
-      - 🇨🇳 广东省 6
-      - 🇨🇳 湖北省武汉市
-      - 🇨🇳 广东省 7
-      - 🇨🇳 广东省 8
-      - 🇨🇳 广东省广州市 8
-      - 🇨🇳 湖北省武汉市 2
+      - 🇮🇷 伊朗
+      - 🇮🇷 伊朗 2
+      - 🇨🇳 广东省广州市 11
       - 🇨🇳 湖北省武汉市 3
-      - 🇨🇳 广东省 9
-      - 🇨🇳 广东省 10
-      - 🇨🇳 广东省 11
-      - 🇨🇳 广东省 12
-      - 🇨🇳 广东省 13
-      - 🇨🇳 广东省 14
-      - 🇨🇳 广东省 15
-      - 🇨🇳 广东省 16
-      - 🇨🇳 湖北省武汉市 4
-      - 🇨🇳 广东省广州市 9
-      - 🇺🇸 美国华盛顿 8
-      - 🇸🇬 上海市浦东新区
-      - 🇸🇬 上海市浦东新区 2
-      - 🇸🇬 上海市浦东新区 3
-      - 🇸🇬 上海市浦东新区 4
-      - 🇸🇬 上海市浦东新区 5
-      - 🇨🇳 湖北省武汉市 5
-      - 🇸🇬 上海市浦东新区 6
-      - 🇸🇬 上海市浦东新区 7
-      - 🇨🇳 湖北省武汉市 6
-      - 🇨🇳 湖北省武汉市 7
-      - 🇸🇬 上海市浦东新区 8
-      - 🇸🇬 上海市浦东新区 9
-      - 🇸🇬 上海市浦东新区 10
-      - 🇸🇬 上海市浦东新区 11
-      - 🇸🇬 上海市浦东新区 12
-      - 🇨🇳 湖北省武汉市 8
-      - 🇸🇬 上海市浦东新区 13
-      - 🇸🇬 上海市浦东新区 14
-      - 🇸🇬 上海市浦东新区 15
-      - 🇨🇳 湖北省武汉市 9
-      - 🇨🇳 湖北省武汉市 10
-      - 🇸🇬 上海市浦东新区 16
-      - 🇸🇬 上海市浦东新区 17
-      - 🇸🇬 上海市浦东新区 18
-      - 🇸🇬 上海市浦东新区 19
-      - 🇨🇳 湖北省武汉市 11
-      - 🇨🇳 湖北省武汉市 12
-      - 🇨🇳 湖北省武汉市 13
-      - 🇸🇬 上海市浦东新区 20
-      - 🇸🇬 上海市浦东新区 21
-      - 🇸🇬 上海市浦东新区 22
-      - 🇨🇳 湖北省武汉市 14
-      - 🇨🇳 湖北省武汉市 15
-      - 🇨🇳 湖北省武汉市 16
+      - 🇨🇳 广东省 6
+      - 🇨🇳 广东省 7
+      - 🇯🇵 日本 5
+      - 🇯🇵 日本 6
       - 🇯🇵 日本 7
-      - 🇬🇧 英国 2
+      - 🇱🇹 立陶宛
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国 7
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
+      - 🇪🇸 西班牙
+      - 🇲🇾 马来西亚
+      - 🇳🇱 荷兰
+      - 🇷🇺 俄罗斯
+      - 🇷🇺 俄罗斯 2
+      - 🇷🇺 俄罗斯 3
+      - 欧盟
+      - 🇷🇺 俄罗斯 4
+      - 🇩🇪 德国
+      - 🇮🇷 伊朗 3
+      - 🇺🇸 美国 10
+      - 🇸🇬 新加坡 7
+      - 🇨🇳 广东省广州市 12
+      - 🇸🇬 新加坡 8
+      - 🇨🇳 广东省广州市 13
+      - 🇸🇬 新加坡 9
+      - 🇹🇭 泰国
+      - 🇨🇳 台湾省南投县
+      - 🇨🇳 台湾省
+      - 🇨🇳 台湾省台中市
+      - 🇺🇦 乌克兰 2
+      - 🇨🇳 湖北省武汉市 4
+      - 🇨🇳 广东省广州市 14
+      - 🇺🇸 美国华盛顿 2
+      - 🇨🇳 广东省 8
+      - 🇺🇸 美国华盛顿 3
+      - 🇨🇳 上海市 5
+      - 🇮🇷 伊朗 4
+      - 🇮🇷 伊朗 5
+      - 🇨🇳 上海市 6
+      - 🇨🇳 上海市 7
+      - 🇨🇳 上海市 8
+      - 🇮🇷 伊朗 6
+      - 
+      - 🇺🇸 美国 11
+      - 🇺🇦 乌克兰 3
+      - 🇺🇸 美国得克萨斯州
+      - 🇺🇸 美国得克萨斯州 2
+      - 🇺🇸 美国 12
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国华盛顿 4
+      - 🇺🇦 乌克兰 4
+      - 🇺🇸 美国 14
+      - 🇺🇦 乌克兰 5
+      - 🇺🇦 乌克兰 6
+      - 🇺🇸 美国 15
+      - 🇺🇦 乌克兰 7
+      - 🇺🇦 乌克兰 8
+      - 🇺🇸 美国 16
+      - 🇻🇳 越南
+      - 🇮🇳 印度 4
+      - 🇮🇳 印度 5
+      - 🇮🇳 印度 6
+      - 🇮🇳 印度 7
+      - 🇯🇵 日本 8
+      - 🇺🇸 美国 17
+      - 🇨🇳 广东省广州市 15
+      - 🇨🇳 广东省广州市 16
+      - 🇨🇳 广东省广州市 17
+      - 🇯🇵 日本 9
+      - 🇸🇬 新加坡 10
+      - 🇺🇦 乌克兰 9
+      - 🇺🇸 美国华盛顿 5
+      - 🇺🇦 乌克兰 10
+      - 🇺🇸 美国华盛顿 6
+      - 🇺🇸 美国华盛顿 7
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇭🇰 香港_R_800
-      - 🇭🇰 香港_R_1103
-      - 🇭🇰 香港_R_1154
-      - 🇭🇰 香港_R_863
-      - 🇨🇳 台湾_R_1040
-      - 🇨🇳 台湾_R_821
-      - 🇨🇳 台湾_R_1170
-      - 🇹🇭 泰国_R_1013
-      - 🇮🇳 印度_R_867
-      - 🇮🇳 印度_R_1179
-      - 🇩🇪 德国_R_1174
-      - 🇫🇷 法国_R_1164
-      - 🇦🇺 澳大利亚_R_816
-      - 🇦🇺 澳大利亚_R_1169
-      - 🇻🇳 越南_R_1175
-      - 🇿🇦 南非_R_1034
-      - 🇪🇪 爱沙尼亚_R_905
-      - 🇦🇿 阿塞拜疆_R_899
-      - 🇯🇵 日本_R_1048
-      - 🇯🇵 日本_R_1129
-      - 🇨🇭 瑞士_R_1018
-      - 🇵🇭 菲律宾_R_810
-      - 🇵🇭 菲律宾_R_1168
-      - 🇰🇭 柬埔寨_R_992
-      - 🇦🇪 阿联酋_R_977
-      - 🇸🇬 新加坡_R_806
-      - 🇸🇬 新加坡_R_1166
-      - 🇸🇬 新加坡_R_826
-      - 🇸🇬 新加坡_R_1116
-      - 🇰🇷 韩国_R_1180
-      - 🇰🇷 韩国_R_877
-      - 🇺🇸 美国_R_1108
-      - 🇺🇸 美国_R_1159
-      - 🇬🇧 英国_R_1111
-      - 🇬🇧 英国_R_1162
-      - 🇷🇺 俄罗斯_R_982
-      - 🇳🇬 尼日利亚_R_921
-      - 🇹🇷 土耳其_R_841
-      - 🇭🇺 匈牙利_R_972
-      - 🇮🇱 以色列_R_952
-      - 🇺🇦 乌克兰_R_947
-      - 🇪🇸 西班牙_R_942
-      - 🇧🇬 保加利亚_R_937
-      - 🇮🇸 冰岛_R_932
-      - 🇳🇱 荷兰_R_794
-      - 🇦🇷 阿根廷_R_894
-      - 🇧🇷 巴西_R_1029
-      - 🇮🇩 印度尼西亚_R_962
-      - 🇰🇪 肯尼亚_R_1050
-      - 🇮🇹 意大利_R_967
       - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇺🇸 美国华盛顿
-      - 🇬🇧 英国
       - 🇺🇸 美国
-      - 🇨🇳 广东省广州市 3
-      - 🇨🇳 广东省广州市 4
-      - 🇯🇵 日本
-      - 亚太地区
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇯🇵 日本 2
-      - 中国
-      - 🇺🇸 美国华盛顿 2
-      - 🇯🇵 日本 3
-      - 🇸🇬 新加坡 3
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港
-      - 🇸🇬 新加坡 4
-      - 🇨🇳 台湾省花莲县
+      - 🇬🇧 英国
       - 🇺🇸 美国 2
-      - 🇯🇵 日本 5
-      - 🇳🇱 荷兰阿姆斯特丹
+      - 🇨🇳 广东省广州市 2
+      - 🇨🇳 广东省广州市 3
+      - 🇸🇬 新加坡
+      - 中国
+      - 🇸🇬 新加坡 2
+      - 🇰🇷 韩国首尔
+      - 🇫🇷 法国
+      - 🇰🇷 韩国首尔 2
+      - 🇸🇬 新加坡 3
+      - 🇯🇵 日本东京
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇺🇸 美国华盛顿
+      - 🇸🇬 新加坡 4
+      - 🇯🇵 日本
+      - 🇯🇵 日本 2
+      - 🇸🇬 新加坡 5
+      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡 6
+      - 🇯🇵 日本 4
+      - 🇨🇳 台湾省花莲县
+      - 🇨🇦 加拿大
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇨🇳 甘肃省兰州市
-      - 🇨🇳 江苏省
-      - 🇨🇳 江苏省 2
+      - 🇨🇳 广东省广州市 4
       - 🇨🇳 广东省广州市 5
-      - 🇨🇳 江苏省 3
-      - 🇨🇳 江苏省 4
-      - 🇨🇳 江苏省 5
-      - 🇨🇳 江苏省 6
-      - 🇨🇳 江苏省 7
+      - 🇨🇳 广东省广州市 6
       - 🇨🇳 广东省
+      - 🇨🇳 广东省广州市 7
+      - 🇨🇳 广东省广州市 8
+      - 🇨🇳 广东省广州市 9
+      - 🇨🇳 上海市
+      - 🇨🇳 上海市 2
+      - 🇨🇳 上海市 3
       - 🇨🇳 广东省 2
-      - 🇩🇪 德国
-      - 🇩🇪 德国 2
-      - 🇩🇪 德国 3
-      - 🇺🇸 美国 6
-      - 🇫🇷 法国上法兰西大区鲁贝
+      - 🇨🇳 台湾省桃园市
+      - 🇨🇳 湖北省武汉市
+      - 🇨🇳 广东省 3
+      - 🇨🇳 广东省 4
+      - 🇨🇳 广东省广州市 10
+      - 🇨🇳 上海市 4
+      - 🇨🇳 浙江省
+      - 🇨🇳 广东省 5
+      - 🇮🇳 印度
+      - 🇩🇪 德国杜塞尔多夫
+      - 🇩🇪 德国杜塞尔多夫 2
+      - 🇺🇸 美国 4
+      - 🇫🇷 法国巴黎
+      - 🇬🇧 英国伦敦
       - 🇬🇧 英国威尔士加的夫
       - 🇬🇧 英国威尔士加的夫 2
       - 🇬🇧 英国威尔士加的夫 3
       - 🇬🇧 英国威尔士加的夫 4
-      - 🇬🇧 英国威尔士加的夫 5
-      - 🇬🇧 英国威尔士加的夫 6
-      - 🇺🇸 美国 7
-      - 🇨🇳 甘肃省兰州市 2
-      - 🇨🇳 甘肃省兰州市 3
-      - 🇨🇳 甘肃省兰州市 4
-      - 欧盟
+      - 🇨🇳 湖北省武汉市 2
       - 🇺🇦 乌克兰
-      - 🇮🇳 印度
-      - 🇺🇸 美国 8
-      - 🇮🇷 伊朗
-      - 🇮🇷 伊朗 2
-      - 🇮🇷 伊朗 3
-      - 🇷🇺 俄罗斯
-      - 🇨🇳 甘肃省兰州市 5
-      - 🇨🇳 甘肃省兰州市 6
-      - 🇨🇳 甘肃省兰州市 7
-      - 🇺🇸 美国 9
-      - 🇸🇬 新加坡 5
-      - 🇪🇸 西班牙
-      - 🇪🇸 西班牙 2
-      - 🇳🇱 荷兰
-      - 🇷🇺 俄罗斯 2
-      - 🇷🇺 俄罗斯 3
-      - 🇩🇪 德国 4
-      - 🇷🇺 俄罗斯 4
-      - 🇸🇬 新加坡 6
-      - 🇸🇬 新加坡 7
-      - 🇸🇬 新加坡 8
-      - 🇸🇬 新加坡 9
-      - 🇨🇳 中国 2
-      - 🇸🇬 新加坡 10
-      - 🇨🇳 台湾省桃园市
-      - 🇨🇳 台湾省台北市
-      - 🇨🇳 台湾省新北市
-      - 🇨🇳 台湾省台中市
-      - 🇺🇦 乌克兰 2
-      - 🇺🇦 乌克兰 3
-      - 🇺🇸 美国俄勒冈州波特兰
-      - 🇺🇸 美国华盛顿 3
-      - 🇺🇸 美国华盛顿 4
-      - 🇮🇷 伊朗 4
-      - 🇮🇷 伊朗 5
-      - 🇮🇷 伊朗 6
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国华盛顿 5
-      - 🇺🇸 美国 12
-      - 🇺🇦 乌克兰 4
-      - 🇺🇸 美国华盛顿 6
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国华盛顿 7
-      - 🇻🇳 越南
-      - 🇻🇳 越南 2
-      - 亚太地区 2
       - 🇮🇳 印度 2
       - 🇮🇳 印度 3
-      - 🇮🇳 印度 4
-      - 🇯🇵 日本 6
-      - 🇨🇳 广东省 3
-      - 🇨🇳 广东省 4
-      - 🇯🇵 日本东京
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省 5
-      - 🇨🇳 广东省 6
-      - 🇨🇳 湖北省武汉市
-      - 🇨🇳 广东省 7
-      - 🇨🇳 广东省 8
-      - 🇨🇳 广东省广州市 8
-      - 🇨🇳 湖北省武汉市 2
+      - 🇮🇷 伊朗
+      - 🇮🇷 伊朗 2
+      - 🇨🇳 广东省广州市 11
       - 🇨🇳 湖北省武汉市 3
-      - 🇨🇳 广东省 9
-      - 🇨🇳 广东省 10
-      - 🇨🇳 广东省 11
-      - 🇨🇳 广东省 12
-      - 🇨🇳 广东省 13
-      - 🇨🇳 广东省 14
-      - 🇨🇳 广东省 15
-      - 🇨🇳 广东省 16
-      - 🇨🇳 湖北省武汉市 4
-      - 🇨🇳 广东省广州市 9
-      - 🇺🇸 美国华盛顿 8
-      - 🇸🇬 上海市浦东新区
-      - 🇸🇬 上海市浦东新区 2
-      - 🇸🇬 上海市浦东新区 3
-      - 🇸🇬 上海市浦东新区 4
-      - 🇸🇬 上海市浦东新区 5
-      - 🇨🇳 湖北省武汉市 5
-      - 🇸🇬 上海市浦东新区 6
-      - 🇸🇬 上海市浦东新区 7
-      - 🇨🇳 湖北省武汉市 6
-      - 🇨🇳 湖北省武汉市 7
-      - 🇸🇬 上海市浦东新区 8
-      - 🇸🇬 上海市浦东新区 9
-      - 🇸🇬 上海市浦东新区 10
-      - 🇸🇬 上海市浦东新区 11
-      - 🇸🇬 上海市浦东新区 12
-      - 🇨🇳 湖北省武汉市 8
-      - 🇸🇬 上海市浦东新区 13
-      - 🇸🇬 上海市浦东新区 14
-      - 🇸🇬 上海市浦东新区 15
-      - 🇨🇳 湖北省武汉市 9
-      - 🇨🇳 湖北省武汉市 10
-      - 🇸🇬 上海市浦东新区 16
-      - 🇸🇬 上海市浦东新区 17
-      - 🇸🇬 上海市浦东新区 18
-      - 🇸🇬 上海市浦东新区 19
-      - 🇨🇳 湖北省武汉市 11
-      - 🇨🇳 湖北省武汉市 12
-      - 🇨🇳 湖北省武汉市 13
-      - 🇸🇬 上海市浦东新区 20
-      - 🇸🇬 上海市浦东新区 21
-      - 🇸🇬 上海市浦东新区 22
-      - 🇨🇳 湖北省武汉市 14
-      - 🇨🇳 湖北省武汉市 15
-      - 🇨🇳 湖北省武汉市 16
+      - 🇨🇳 广东省 6
+      - 🇨🇳 广东省 7
+      - 🇯🇵 日本 5
+      - 🇯🇵 日本 6
       - 🇯🇵 日本 7
-      - 🇬🇧 英国 2
+      - 🇱🇹 立陶宛
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国 7
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
+      - 🇪🇸 西班牙
+      - 🇲🇾 马来西亚
+      - 🇳🇱 荷兰
+      - 🇷🇺 俄罗斯
+      - 🇷🇺 俄罗斯 2
+      - 🇷🇺 俄罗斯 3
+      - 欧盟
+      - 🇷🇺 俄罗斯 4
+      - 🇩🇪 德国
+      - 🇮🇷 伊朗 3
+      - 🇺🇸 美国 10
+      - 🇸🇬 新加坡 7
+      - 🇨🇳 广东省广州市 12
+      - 🇸🇬 新加坡 8
+      - 🇨🇳 广东省广州市 13
+      - 🇸🇬 新加坡 9
+      - 🇹🇭 泰国
+      - 🇨🇳 台湾省南投县
+      - 🇨🇳 台湾省
+      - 🇨🇳 台湾省台中市
+      - 🇺🇦 乌克兰 2
+      - 🇨🇳 湖北省武汉市 4
+      - 🇨🇳 广东省广州市 14
+      - 🇺🇸 美国华盛顿 2
+      - 🇨🇳 广东省 8
+      - 🇺🇸 美国华盛顿 3
+      - 🇨🇳 上海市 5
+      - 🇮🇷 伊朗 4
+      - 🇮🇷 伊朗 5
+      - 🇨🇳 上海市 6
+      - 🇨🇳 上海市 7
+      - 🇨🇳 上海市 8
+      - 🇮🇷 伊朗 6
+      - 
+      - 🇺🇸 美国 11
+      - 🇺🇦 乌克兰 3
+      - 🇺🇸 美国得克萨斯州
+      - 🇺🇸 美国得克萨斯州 2
+      - 🇺🇸 美国 12
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国华盛顿 4
+      - 🇺🇦 乌克兰 4
+      - 🇺🇸 美国 14
+      - 🇺🇦 乌克兰 5
+      - 🇺🇦 乌克兰 6
+      - 🇺🇸 美国 15
+      - 🇺🇦 乌克兰 7
+      - 🇺🇦 乌克兰 8
+      - 🇺🇸 美国 16
+      - 🇻🇳 越南
+      - 🇮🇳 印度 4
+      - 🇮🇳 印度 5
+      - 🇮🇳 印度 6
+      - 🇮🇳 印度 7
+      - 🇯🇵 日本 8
+      - 🇺🇸 美国 17
+      - 🇨🇳 广东省广州市 15
+      - 🇨🇳 广东省广州市 16
+      - 🇨🇳 广东省广州市 17
+      - 🇯🇵 日本 9
+      - 🇸🇬 新加坡 10
+      - 🇺🇦 乌克兰 9
+      - 🇺🇸 美国华盛顿 5
+      - 🇺🇦 乌克兰 10
+      - 🇺🇸 美国华盛顿 6
+      - 🇺🇸 美国华盛顿 7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1164,229 +754,147 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇭🇰 香港_R_800
-      - 🇭🇰 香港_R_1103
-      - 🇭🇰 香港_R_1154
-      - 🇭🇰 香港_R_863
-      - 🇨🇳 台湾_R_1040
-      - 🇨🇳 台湾_R_821
-      - 🇨🇳 台湾_R_1170
-      - 🇹🇭 泰国_R_1013
-      - 🇮🇳 印度_R_867
-      - 🇮🇳 印度_R_1179
-      - 🇩🇪 德国_R_1174
-      - 🇫🇷 法国_R_1164
-      - 🇦🇺 澳大利亚_R_816
-      - 🇦🇺 澳大利亚_R_1169
-      - 🇻🇳 越南_R_1175
-      - 🇿🇦 南非_R_1034
-      - 🇪🇪 爱沙尼亚_R_905
-      - 🇦🇿 阿塞拜疆_R_899
-      - 🇯🇵 日本_R_1048
-      - 🇯🇵 日本_R_1129
-      - 🇨🇭 瑞士_R_1018
-      - 🇵🇭 菲律宾_R_810
-      - 🇵🇭 菲律宾_R_1168
-      - 🇰🇭 柬埔寨_R_992
-      - 🇦🇪 阿联酋_R_977
-      - 🇸🇬 新加坡_R_806
-      - 🇸🇬 新加坡_R_1166
-      - 🇸🇬 新加坡_R_826
-      - 🇸🇬 新加坡_R_1116
-      - 🇰🇷 韩国_R_1180
-      - 🇰🇷 韩国_R_877
-      - 🇺🇸 美国_R_1108
-      - 🇺🇸 美国_R_1159
-      - 🇬🇧 英国_R_1111
-      - 🇬🇧 英国_R_1162
-      - 🇷🇺 俄罗斯_R_982
-      - 🇳🇬 尼日利亚_R_921
-      - 🇹🇷 土耳其_R_841
-      - 🇭🇺 匈牙利_R_972
-      - 🇮🇱 以色列_R_952
-      - 🇺🇦 乌克兰_R_947
-      - 🇪🇸 西班牙_R_942
-      - 🇧🇬 保加利亚_R_937
-      - 🇮🇸 冰岛_R_932
-      - 🇳🇱 荷兰_R_794
-      - 🇦🇷 阿根廷_R_894
-      - 🇧🇷 巴西_R_1029
-      - 🇮🇩 印度尼西亚_R_962
-      - 🇰🇪 肯尼亚_R_1050
-      - 🇮🇹 意大利_R_967
       - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇺🇸 美国华盛顿
-      - 🇬🇧 英国
       - 🇺🇸 美国
-      - 🇨🇳 广东省广州市 3
-      - 🇨🇳 广东省广州市 4
-      - 🇯🇵 日本
-      - 亚太地区
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇯🇵 日本 2
-      - 中国
-      - 🇺🇸 美国华盛顿 2
-      - 🇯🇵 日本 3
-      - 🇸🇬 新加坡 3
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港
-      - 🇸🇬 新加坡 4
-      - 🇨🇳 台湾省花莲县
+      - 🇬🇧 英国
       - 🇺🇸 美国 2
-      - 🇯🇵 日本 5
-      - 🇳🇱 荷兰阿姆斯特丹
+      - 🇨🇳 广东省广州市 2
+      - 🇨🇳 广东省广州市 3
+      - 🇸🇬 新加坡
+      - 中国
+      - 🇸🇬 新加坡 2
+      - 🇰🇷 韩国首尔
+      - 🇫🇷 法国
+      - 🇰🇷 韩国首尔 2
+      - 🇸🇬 新加坡 3
+      - 🇯🇵 日本东京
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇺🇸 美国华盛顿
+      - 🇸🇬 新加坡 4
+      - 🇯🇵 日本
+      - 🇯🇵 日本 2
+      - 🇸🇬 新加坡 5
+      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡 6
+      - 🇯🇵 日本 4
+      - 🇨🇳 台湾省花莲县
+      - 🇨🇦 加拿大
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇨🇳 甘肃省兰州市
-      - 🇨🇳 江苏省
-      - 🇨🇳 江苏省 2
+      - 🇨🇳 广东省广州市 4
       - 🇨🇳 广东省广州市 5
-      - 🇨🇳 江苏省 3
-      - 🇨🇳 江苏省 4
-      - 🇨🇳 江苏省 5
-      - 🇨🇳 江苏省 6
-      - 🇨🇳 江苏省 7
+      - 🇨🇳 广东省广州市 6
       - 🇨🇳 广东省
+      - 🇨🇳 广东省广州市 7
+      - 🇨🇳 广东省广州市 8
+      - 🇨🇳 广东省广州市 9
+      - 🇨🇳 上海市
+      - 🇨🇳 上海市 2
+      - 🇨🇳 上海市 3
       - 🇨🇳 广东省 2
-      - 🇩🇪 德国
-      - 🇩🇪 德国 2
-      - 🇩🇪 德国 3
-      - 🇺🇸 美国 6
-      - 🇫🇷 法国上法兰西大区鲁贝
+      - 🇨🇳 台湾省桃园市
+      - 🇨🇳 湖北省武汉市
+      - 🇨🇳 广东省 3
+      - 🇨🇳 广东省 4
+      - 🇨🇳 广东省广州市 10
+      - 🇨🇳 上海市 4
+      - 🇨🇳 浙江省
+      - 🇨🇳 广东省 5
+      - 🇮🇳 印度
+      - 🇩🇪 德国杜塞尔多夫
+      - 🇩🇪 德国杜塞尔多夫 2
+      - 🇺🇸 美国 4
+      - 🇫🇷 法国巴黎
+      - 🇬🇧 英国伦敦
       - 🇬🇧 英国威尔士加的夫
       - 🇬🇧 英国威尔士加的夫 2
       - 🇬🇧 英国威尔士加的夫 3
       - 🇬🇧 英国威尔士加的夫 4
-      - 🇬🇧 英国威尔士加的夫 5
-      - 🇬🇧 英国威尔士加的夫 6
-      - 🇺🇸 美国 7
-      - 🇨🇳 甘肃省兰州市 2
-      - 🇨🇳 甘肃省兰州市 3
-      - 🇨🇳 甘肃省兰州市 4
-      - 欧盟
+      - 🇨🇳 湖北省武汉市 2
       - 🇺🇦 乌克兰
-      - 🇮🇳 印度
-      - 🇺🇸 美国 8
-      - 🇮🇷 伊朗
-      - 🇮🇷 伊朗 2
-      - 🇮🇷 伊朗 3
-      - 🇷🇺 俄罗斯
-      - 🇨🇳 甘肃省兰州市 5
-      - 🇨🇳 甘肃省兰州市 6
-      - 🇨🇳 甘肃省兰州市 7
-      - 🇺🇸 美国 9
-      - 🇸🇬 新加坡 5
-      - 🇪🇸 西班牙
-      - 🇪🇸 西班牙 2
-      - 🇳🇱 荷兰
-      - 🇷🇺 俄罗斯 2
-      - 🇷🇺 俄罗斯 3
-      - 🇩🇪 德国 4
-      - 🇷🇺 俄罗斯 4
-      - 🇸🇬 新加坡 6
-      - 🇸🇬 新加坡 7
-      - 🇸🇬 新加坡 8
-      - 🇸🇬 新加坡 9
-      - 🇨🇳 中国 2
-      - 🇸🇬 新加坡 10
-      - 🇨🇳 台湾省桃园市
-      - 🇨🇳 台湾省台北市
-      - 🇨🇳 台湾省新北市
-      - 🇨🇳 台湾省台中市
-      - 🇺🇦 乌克兰 2
-      - 🇺🇦 乌克兰 3
-      - 🇺🇸 美国俄勒冈州波特兰
-      - 🇺🇸 美国华盛顿 3
-      - 🇺🇸 美国华盛顿 4
-      - 🇮🇷 伊朗 4
-      - 🇮🇷 伊朗 5
-      - 🇮🇷 伊朗 6
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国华盛顿 5
-      - 🇺🇸 美国 12
-      - 🇺🇦 乌克兰 4
-      - 🇺🇸 美国华盛顿 6
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国华盛顿 7
-      - 🇻🇳 越南
-      - 🇻🇳 越南 2
-      - 亚太地区 2
       - 🇮🇳 印度 2
       - 🇮🇳 印度 3
-      - 🇮🇳 印度 4
-      - 🇯🇵 日本 6
-      - 🇨🇳 广东省 3
-      - 🇨🇳 广东省 4
-      - 🇯🇵 日本东京
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省 5
-      - 🇨🇳 广东省 6
-      - 🇨🇳 湖北省武汉市
-      - 🇨🇳 广东省 7
-      - 🇨🇳 广东省 8
-      - 🇨🇳 广东省广州市 8
-      - 🇨🇳 湖北省武汉市 2
+      - 🇮🇷 伊朗
+      - 🇮🇷 伊朗 2
+      - 🇨🇳 广东省广州市 11
       - 🇨🇳 湖北省武汉市 3
-      - 🇨🇳 广东省 9
-      - 🇨🇳 广东省 10
-      - 🇨🇳 广东省 11
-      - 🇨🇳 广东省 12
-      - 🇨🇳 广东省 13
-      - 🇨🇳 广东省 14
-      - 🇨🇳 广东省 15
-      - 🇨🇳 广东省 16
-      - 🇨🇳 湖北省武汉市 4
-      - 🇨🇳 广东省广州市 9
-      - 🇺🇸 美国华盛顿 8
-      - 🇸🇬 上海市浦东新区
-      - 🇸🇬 上海市浦东新区 2
-      - 🇸🇬 上海市浦东新区 3
-      - 🇸🇬 上海市浦东新区 4
-      - 🇸🇬 上海市浦东新区 5
-      - 🇨🇳 湖北省武汉市 5
-      - 🇸🇬 上海市浦东新区 6
-      - 🇸🇬 上海市浦东新区 7
-      - 🇨🇳 湖北省武汉市 6
-      - 🇨🇳 湖北省武汉市 7
-      - 🇸🇬 上海市浦东新区 8
-      - 🇸🇬 上海市浦东新区 9
-      - 🇸🇬 上海市浦东新区 10
-      - 🇸🇬 上海市浦东新区 11
-      - 🇸🇬 上海市浦东新区 12
-      - 🇨🇳 湖北省武汉市 8
-      - 🇸🇬 上海市浦东新区 13
-      - 🇸🇬 上海市浦东新区 14
-      - 🇸🇬 上海市浦东新区 15
-      - 🇨🇳 湖北省武汉市 9
-      - 🇨🇳 湖北省武汉市 10
-      - 🇸🇬 上海市浦东新区 16
-      - 🇸🇬 上海市浦东新区 17
-      - 🇸🇬 上海市浦东新区 18
-      - 🇸🇬 上海市浦东新区 19
-      - 🇨🇳 湖北省武汉市 11
-      - 🇨🇳 湖北省武汉市 12
-      - 🇨🇳 湖北省武汉市 13
-      - 🇸🇬 上海市浦东新区 20
-      - 🇸🇬 上海市浦东新区 21
-      - 🇸🇬 上海市浦东新区 22
-      - 🇨🇳 湖北省武汉市 14
-      - 🇨🇳 湖北省武汉市 15
-      - 🇨🇳 湖北省武汉市 16
+      - 🇨🇳 广东省 6
+      - 🇨🇳 广东省 7
+      - 🇯🇵 日本 5
+      - 🇯🇵 日本 6
       - 🇯🇵 日本 7
-      - 🇬🇧 英国 2
+      - 🇱🇹 立陶宛
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国 7
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
+      - 🇪🇸 西班牙
+      - 🇲🇾 马来西亚
+      - 🇳🇱 荷兰
+      - 🇷🇺 俄罗斯
+      - 🇷🇺 俄罗斯 2
+      - 🇷🇺 俄罗斯 3
+      - 欧盟
+      - 🇷🇺 俄罗斯 4
+      - 🇩🇪 德国
+      - 🇮🇷 伊朗 3
+      - 🇺🇸 美国 10
+      - 🇸🇬 新加坡 7
+      - 🇨🇳 广东省广州市 12
+      - 🇸🇬 新加坡 8
+      - 🇨🇳 广东省广州市 13
+      - 🇸🇬 新加坡 9
+      - 🇹🇭 泰国
+      - 🇨🇳 台湾省南投县
+      - 🇨🇳 台湾省
+      - 🇨🇳 台湾省台中市
+      - 🇺🇦 乌克兰 2
+      - 🇨🇳 湖北省武汉市 4
+      - 🇨🇳 广东省广州市 14
+      - 🇺🇸 美国华盛顿 2
+      - 🇨🇳 广东省 8
+      - 🇺🇸 美国华盛顿 3
+      - 🇨🇳 上海市 5
+      - 🇮🇷 伊朗 4
+      - 🇮🇷 伊朗 5
+      - 🇨🇳 上海市 6
+      - 🇨🇳 上海市 7
+      - 🇨🇳 上海市 8
+      - 🇮🇷 伊朗 6
+      - 
+      - 🇺🇸 美国 11
+      - 🇺🇦 乌克兰 3
+      - 🇺🇸 美国得克萨斯州
+      - 🇺🇸 美国得克萨斯州 2
+      - 🇺🇸 美国 12
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国华盛顿 4
+      - 🇺🇦 乌克兰 4
+      - 🇺🇸 美国 14
+      - 🇺🇦 乌克兰 5
+      - 🇺🇦 乌克兰 6
+      - 🇺🇸 美国 15
+      - 🇺🇦 乌克兰 7
+      - 🇺🇦 乌克兰 8
+      - 🇺🇸 美国 16
+      - 🇻🇳 越南
+      - 🇮🇳 印度 4
+      - 🇮🇳 印度 5
+      - 🇮🇳 印度 6
+      - 🇮🇳 印度 7
+      - 🇯🇵 日本 8
+      - 🇺🇸 美国 17
+      - 🇨🇳 广东省广州市 15
+      - 🇨🇳 广东省广州市 16
+      - 🇨🇳 广东省广州市 17
+      - 🇯🇵 日本 9
+      - 🇸🇬 新加坡 10
+      - 🇺🇦 乌克兰 9
+      - 🇺🇸 美国华盛顿 5
+      - 🇺🇦 乌克兰 10
+      - 🇺🇸 美国华盛顿 6
+      - 🇺🇸 美国华盛顿 7
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
