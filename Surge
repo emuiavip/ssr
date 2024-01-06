@@ -150,6 +150,3 @@ RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDom
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,🎯 全球直连,update-interval=86400
 GEOIP,CN,🎯 全球直连
 FINAL,🐟 漏网之鱼
-
-
-
