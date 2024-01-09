@@ -5,192 +5,106 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 枭木iOS大本营 TG@Tmxios, server: 51.21.56.211, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
-  - {name: https://t.me/Tmxios, server: 13.112.247.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: P12证书 https://p12.tmxios.top, server: 54.248.151.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 号卡办理 https://10.tmxios.top/, server: 35.93.149.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 公众号：枭木iOS大本营, server: 54.251.138.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 全网低价个人证书, server: 47.243.108.41, port: 10841, type: ss, cipher: aes-256-gcm, password: rUx8mqUsI0}
-  - {name: iOS|轻松签|全能签|P12证书, server: 8.210.231.146, port: 1146, type: ss, cipher: aes-256-gcm, password: jmtgsmW40R}
-  - {name: 定制V信|应用分身|V信密友|破解软件, server: 47.57.232.119, port: 2119, type: ss, cipher: aes-256-gcm, password: 3B9vFTBSlp}
-  - {name: 🇰🇷 韩国, server: 222.112.15.135, port: 2212, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇯🇵 日本, server: 43.207.172.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇩🇪 德国, server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇯🇵 日本 2, server: 43.201.55.242, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 韩国首尔, server: 15.165.15.228, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 韩国, server: 211.201.169.70, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇰🇷 韩国首尔, server: 13.125.156.251, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本, server: 18.183.212.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡, server: 52.221.212.191, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本东京, server: 3.112.32.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇰🇷 韩国首尔 2, server: 3.35.131.11, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡, server: 54.169.114.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡 2, server: 13.212.206.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本 3, server: 54.95.21.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 韩国首尔 3, server: 13.124.93.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡 3, server: 46.137.227.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本东京, server: 13.231.210.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡 4, server: 18.139.228.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇫🇷 法国, server: 57.180.23.155, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡 5, server: 13.229.70.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本 2, server: 18.181.171.223, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡 2, server: 54.169.114.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本 3, server: 43.200.254.135, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡 3, server: 13.212.206.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本 4, server: 43.201.64.47, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本 5, server: 43.200.1.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本 6, server: 43.201.147.151, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇫🇷 法国, server: 57.180.13.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡 4, server: 46.137.227.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本东京 2, server: 13.231.210.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇺🇸 美国, server: 3.36.92.179, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 韩国首尔 4, server: 3.35.231.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本 4, server: 54.249.183.238, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国 2, server: 18.142.48.45, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本 5, server: 43.201.100.232, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡 6, server: 52.221.191.251, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本 6, server: 43.201.53.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本 7, server: 43.201.110.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本东京 2, server: 13.114.3.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡 7, server: 54.169.202.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 韩国 2, server: 52.79.193.91, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 韩国首尔 5, server: 13.125.198.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡 8, server: 54.251.150.231, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国 2, server: 13.215.209.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇫🇷 法国 2, server: 57.180.23.155, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 韩国首尔 3, server: 3.35.231.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本 7, server: 54.250.43.167, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 韩国首尔 4, server: 3.34.191.21, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡 5, server: 13.229.72.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 亚太地区, server: 103.172.116.79, port: 9044, type: ss, cipher: aes-256-cfb, password: KBGjZYcy4SyRShmA}
+  - {name: 🇸🇬 新加坡 6, server: 52.221.203.229, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本 8, server: 43.201.100.232, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡 7, server: 52.221.191.251, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本 9, server: 43.201.110.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 中国, server: 8.217.178.215, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+  - {name: 🇨🇦 加拿大, server: 47.128.247.139, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国 3, server: 13.215.184.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 日本东京 3, server: 35.77.105.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡 9, server: 13.250.25.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国 3, server: 104.18.8.215, port: 8880, type: vmess, uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mgthree_cdn.yunjisuan.cf}}}
-  - {name: 🇸🇬 上海市浦东新区, server: 61.171.69.155, port: 36018, type: ss, cipher: chacha20-ietf-poly1305, password: f3738867-03fc-4e33-bbe4-11f702ac98ca}
-  - {name: 🇸🇬 上海市浦东新区 2, server: 61.171.69.155, port: 36026, type: ss, cipher: chacha20-ietf-poly1305, password: f3738867-03fc-4e33-bbe4-11f702ac98ca}
-  - {name: 🇸🇬 上海市浦东新区 3, server: 61.171.69.155, port: 36030, type: ss, cipher: chacha20-ietf-poly1305, password: f3738867-03fc-4e33-bbe4-11f702ac98ca}
-  - {name: 🇸🇬 上海市浦东新区 4, server: 61.171.69.155, port: 36021, type: ss, cipher: chacha20-ietf-poly1305, password: f3738867-03fc-4e33-bbe4-11f702ac98ca}
-  - {name: 🇸🇬 上海市浦东新区 5, server: 61.171.69.155, port: 36022, type: ss, cipher: chacha20-ietf-poly1305, password: f3738867-03fc-4e33-bbe4-11f702ac98ca}
-  - {name: 🇸🇬 上海市浦东新区 6, server: 61.171.69.155, port: 36020, type: ss, cipher: chacha20-ietf-poly1305, password: f3738867-03fc-4e33-bbe4-11f702ac98ca}
-  - {name: 🇸🇬 上海市浦东新区 7, server: 61.171.69.155, port: 36010, type: ss, cipher: chacha20-ietf-poly1305, password: f3738867-03fc-4e33-bbe4-11f702ac98ca}
-  - {name: 🇸🇬 上海市浦东新区 8, server: 61.171.69.155, port: 36028, type: ss, cipher: chacha20-ietf-poly1305, password: f3738867-03fc-4e33-bbe4-11f702ac98ca}
-  - {name: 🇸🇬 上海市浦东新区 9, server: 61.171.69.155, port: 36031, type: ss, cipher: chacha20-ietf-poly1305, password: f3738867-03fc-4e33-bbe4-11f702ac98ca}
-  - {name: 🇸🇬 上海市浦东新区 10, server: 61.171.69.155, port: 36011, type: ss, cipher: chacha20-ietf-poly1305, password: f3738867-03fc-4e33-bbe4-11f702ac98ca}
-  - {name: 🇸🇬 上海市浦东新区 11, server: 61.171.69.155, port: 36601, type: trojan, password: f3738867-03fc-4e33-bbe4-11f702ac98ca, sni: hk01.abpilot.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 12, server: 61.171.69.155, port: 36831, type: trojan, password: f3738867-03fc-4e33-bbe4-11f702ac98ca, sni: in01.abpilot.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 湖北省武汉市, server: 119.96.132.44, port: 36506, type: trojan, password: f3738867-03fc-4e33-bbe4-11f702ac98ca, sni: us02.abpilot.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 13, server: 61.171.69.155, port: 36811, type: trojan, password: f3738867-03fc-4e33-bbe4-11f702ac98ca, sni: uk01.abpilot.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 14, server: 61.171.69.155, port: 36606, type: trojan, password: f3738867-03fc-4e33-bbe4-11f702ac98ca, sni: hk02.abpilot.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 15, server: 61.171.69.155, port: 36884, type: trojan, password: f3738867-03fc-4e33-bbe4-11f702ac98ca, sni: es01.abpilot.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 16, server: 61.171.69.155, port: 36501, type: trojan, password: f3738867-03fc-4e33-bbe4-11f702ac98ca, sni: us01.abpilot.xyz, skip-cert-verify: true}
-  - {name: 🇷🇺 俄罗斯, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ}
+  - {name: 🇨🇳 台湾省桃园市, server: 1.162.162.2, port: 22339, type: ss, cipher: aes-256-gcm, password: 5f6dc19a-ee81-4cda-aa30-6eeb0af71338}
+  - {name: 🇨🇳 江苏省宿迁市, server: 221.181.185.182, port: 44191, type: ss, cipher: chacha20-ietf-poly1305, password: b098ec55-ba4f-49d2-9e58-235cb25f0e6b}
   - {name: 🇮🇳 印度, server: 49.13.10.50, port: 1194, type: ss, cipher: chacha20-ietf-poly1305, password: Uxm4ADwftKdXq5qRA4ZfHS}
-  - {name: 🇫🇷 法国 2, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇷🇺 俄罗斯, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ}
   - {name: 🇫🇷 法国 3, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇫🇷 法国 4, server: 51.158.146.102, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇬🇧 英国, server: 51.195.127.36, port: 37816, type: vmess, uuid: eaabb468-c3aa-48c6-8e39-9246d89b1910, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 4, server: 13.43.153.82, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg}
+  - {name: 🇫🇷 法国 4, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇬🇧 英国, server: 51.91.39.11, port: 34140, type: vmess, uuid: ccfc884c-896e-4280-a11e-c6a3bb6e9fe9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kom5649l.sbs}}}
+  - {name: 🇺🇸 美国 4, server: 13.37.187.183, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true}
   - {name: 🇬🇧 英国威尔士加的夫, server: 51.142.159.112, port: 43849, type: ss, cipher: chacha20-ietf-poly1305, password: Y8qGa9JfjyCY46SKzbKgrl}
-  - {name: 🇬🇧 英国伦敦, server: 51.145.68.51, port: 29853, type: ss, cipher: chacha20-ietf-poly1305, password: FNAQhxQ1g37o4DYM54pn8f}
-  - {name: 🇬🇧 英国伦敦 2, server: 51.145.68.57, port: 13751, type: ss, cipher: chacha20-ietf-poly1305, password: KlJlXXe9KjQX4mh4xC05c9}
-  - {name: 🇬🇧 英国伦敦 3, server: 51.142.78.104, port: 34817, type: ss, cipher: chacha20-ietf-poly1305, password: 8Kjl37BExQuKSDgRhcFMC9}
-  - {name: 🇬🇧 英国伦敦 4, server: 51.142.73.20, port: 6961, type: ss, cipher: chacha20-ietf-poly1305, password: tAoWzuKvNOPrsLc4fAEOno}
-  - {name: 🇺🇦 乌克兰, server: 95.164.69.27, port: 80, type: vmess, uuid: cd4a6d0d-4b26-4ee1-8a42-c2878b5c3b2a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇭🇰 香港, server: 202.64.124.253, port: 80, type: vmess, uuid: caa995ed-86a9-4968-a332-9c11e7e13107, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 3ab83739-e995-4f97-9629-41faac2255c9.xn--9kq12xdq7a.com}}}
+  - {name: 🇬🇧 英国威尔士加的夫 2, server: 51.142.158.58, port: 63072, type: ss, cipher: chacha20-ietf-poly1305, password: 2qgjrMVVbwYdNd3FtvttsL}
+  - {name: 🇬🇧 英国伦敦, server: 3.9.234.83, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true}
   - {name: 🇮🇪 爱尔兰, server: 54.171.29.16, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: YRLEc4AxMgtwPOrnAr3Yoj}
+  - {name: 🇺🇸 美国 5, server: 62.60.131.238, port: 12888, type: vmess, uuid: 66214d78-b33c-459a-a7b9-e50ab19d16b9, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 安徽省, server: 112.26.46.223, port: 50003, type: ss, cipher: aes-128-gcm, password: 17198f9e-eeb9-41f3-bbb5-798e39031d13}
+  - {name: 🇨🇳 安徽省 2, server: 112.26.46.223, port: 50004, type: ss, cipher: aes-128-gcm, password: 17198f9e-eeb9-41f3-bbb5-798e39031d13}
   - {name: 🇯🇵 日本东京 4, server: 13.230.132.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国 5, server: 52.194.252.137, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本东京 5, server: 18.176.134.145, port: 36201, type: trojan, password: f3738867-03fc-4e33-bbe4-11f702ac98ca, sni: sg01.abpilot.xyz, skip-cert-verify: true}
-  - {name: 🇯🇵 日本东京 6, server: 18.176.134.145, port: 36116, type: trojan, password: f3738867-03fc-4e33-bbe4-11f702ac98ca, sni: jp01.abpilot.xyz, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国 3, server: 221.150.109.72, port: 59084, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇰🇷 韩国 4, server: 221.150.109.12, port: 2003, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇰🇷 韩国 5, server: 125.141.26.8, port: 57428, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇰🇷 韩国 6, server: 125.141.31.99, port: 34642, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇰🇷 韩国 7, server: 211.201.169.70, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇰🇷 韩国 8, server: 221.150.109.74, port: 4398, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇰🇷 韩国 9, server: 218.237.185.230, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇯🇵 日本 8, server: 43.201.255.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本 9, server: 43.201.253.32, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 韩国 10, server: 222.112.15.134, port: 59084, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇪🇸 西班牙, server: 77.75.230.125, port: 2082, type: vmess, uuid: d466dd36-8b86-48b7-b0f0-67e7d128de6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇪🇸 西班牙 2, server: 77.75.230.125, port: 8080, type: vmess, uuid: d466dd36-8b86-48b7-b0f0-67e7d128de6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇪🇸 西班牙 3, server: 77.75.230.125, port: 8880, type: vmess, uuid: d466dd36-8b86-48b7-b0f0-67e7d128de6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇪🇸 西班牙 4, server: 77.75.230.125, port: 2086, type: vmess, uuid: d466dd36-8b86-48b7-b0f0-67e7d128de6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇪🇸 西班牙 5, server: 77.75.230.125, port: 80, type: vmess, uuid: d466dd36-8b86-48b7-b0f0-67e7d128de6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇺🇸 美国 6, server: 52.194.252.137, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 韩国 2, server: 218.237.185.230, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇰🇷 韩国 3, server: 221.150.109.12, port: 2003, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇰🇷 韩国 4, server: 221.150.109.72, port: 59084, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇰🇷 韩国 5, server: 222.112.15.134, port: 59084, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
   - {name: 🇳🇱 荷兰, server: 31.40.216.204, port: 36140, type: ss, cipher: chacha20-ietf-poly1305, password: FkBrRfbL2xXy8CqyydvqJY}
-  - {name: 🇷🇺 俄罗斯 2, server: 217.30.10.68, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4}
-  - {name: 🇷🇺 俄罗斯 3, server: 217.30.10.68, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
-  - {name: 🇷🇺 俄罗斯 4, server: 217.30.10.68, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
-  - {name: 🇷🇺 俄罗斯 5, server: 217.30.10.68, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb}
-  - {name: 🇷🇺 俄罗斯 6, server: 217.30.10.68, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF}
-  - {name: 🇷🇺 俄罗斯 7, server: 217.30.10.68, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt}
-  - {name: 🇷🇺 俄罗斯 8, server: 217.30.10.68, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX}
-  - {name: 🇷🇺 俄罗斯 9, server: 217.30.10.68, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y}
-  - {name: 🇷🇺 俄罗斯 10, server: 217.30.10.68, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY}
-  - {name: 🇷🇺 俄罗斯 11, server: 217.30.10.68, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX}
-  - {name: 🇷🇺 俄罗斯 12, server: 217.30.10.68, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9}
-  - {name: 🇷🇺 俄罗斯 13, server: 217.30.10.68, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7}
-  - {name: 🇷🇺 俄罗斯 14, server: 217.30.10.68, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8}
-  - {name: 🇷🇺 俄罗斯 15, server: 89.221.224.12, port: 8080, type: vmess, uuid: 3bc3514c-cbcb-4b08-9797-c62850ae8bb4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇷🇺 俄罗斯 16, server: 89.221.224.12, port: 8880, type: vmess, uuid: 3bc3514c-cbcb-4b08-9797-c62850ae8bb4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇺🇸 美国 6, server: 54.188.25.27, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国俄勒冈州波特兰, server: 34.222.2.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国俄勒冈州波特兰 2, server: 34.221.71.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇮🇷 伊朗, server: 5.78.74.72, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇷 伊朗 2, server: 5.161.222.65, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国爱荷华州得梅因, server: 23.95.146.214, port: 26082, type: ss, cipher: aes-256-gcm, password: ou52kPPw9C}
-  - {name: 🇺🇸 美国 7, server: 45.58.39.13, port: 58428, type: ss, cipher: aes-256-gcm, password: 31LdYhP8Ae}
-  - {name: 🇸🇪 瑞典, server: 167.88.62.104, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国华盛顿, server: 38.68.134.202, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国华盛顿 2, server: 38.68.134.202, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 北美地区, server: 169.197.141.186, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: tvX1v#NSFP_LG_bJ}
-  - {name: 🇺🇸 美国 8, server: 18.133.206.198, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
-  - {name: 🇺🇸 美国俄亥俄州都柏林, server: 18.218.239.120, port: 36326, type: ss, cipher: chacha20-ietf-poly1305, password: H6cSTf8vDbVH1cpnrAxFj2}
-  - {name: 🇬🇧 英国 2, server: 167.172.251.46, port: 8880, type: vmess, uuid: 44ff85d0-e4e8-4f4b-c9d3-d87dd01a9890, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇦 乌克兰 2, server: 94.131.14.177, port: 8080, type: vmess, uuid: 2c5fee13-f08b-4ba8-86db-27dd51cb9781, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇺🇦 乌克兰 3, server: 94.131.13.110, port: 80, type: vmess, uuid: d3e40d59-b53c-4f4e-8867-bb598be864d2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: lt1-vmess.sshmax.xyz}}}
-  - {name: "", server: 2606:4700:3030::6815:20d7, port: 8880, type: vmess, uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a3.bcbot.in}}}
-  - {name: 🇺🇦 乌克兰 4, server: 94.131.117.159, port: 8080, type: vmess, uuid: 72b3b89a-30c5-4dc7-8b6e-f61218b95eda, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇯🇵 日本 10, server: 54.250.43.167, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国 9, server: 104.18.9.215, port: 8880, type: vmess, uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mgthree_cdn.yunjisuan.cf}}}
-  - {name: 🇨🇳 湖北省武汉市 2, server: 119.96.132.44, port: 36026, type: ss, cipher: chacha20-ietf-poly1305, password: f3738867-03fc-4e33-bbe4-11f702ac98ca}
-  - {name: 🇨🇳 湖北省武汉市 3, server: 119.96.132.44, port: 36022, type: ss, cipher: chacha20-ietf-poly1305, password: f3738867-03fc-4e33-bbe4-11f702ac98ca}
-  - {name: 🇸🇬 上海市浦东新区 17, server: 61.171.69.155, port: 36032, type: ss, cipher: chacha20-ietf-poly1305, password: f3738867-03fc-4e33-bbe4-11f702ac98ca}
-  - {name: 🇯🇵 日本东京 7, server: 13.230.96.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国 10, server: 35.90.10.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇮🇹 意大利, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
-  - {name: 🇸🇬 上海市浦东新区 18, server: 61.171.69.155, port: 31027, type: ss, cipher: chacha20-ietf-poly1305, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac}
-  - {name: 🇸🇬 上海市浦东新区 19, server: 61.171.69.155, port: 31030, type: ss, cipher: chacha20-ietf-poly1305, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac}
-  - {name: 🇸🇬 上海市浦东新区 20, server: 61.171.69.155, port: 31031, type: ss, cipher: chacha20-ietf-poly1305, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac}
+  - {name: 🇷🇺 俄罗斯 2, server: 78.153.139.8, port: 60820, type: ss, cipher: chacha20-ietf-poly1305, password: OQuXihlYyKmQOr5WLvsBdj}
+  - {name: 🇷🇺 俄罗斯 3, server: 217.30.10.68, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9}
+  - {name: 🇷🇺 俄罗斯 4, server: 217.30.10.68, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7}
+  - {name: 🇷🇺 俄罗斯 5, server: 217.30.10.68, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH}
+  - {name: 🇷🇺 俄罗斯 6, server: 217.30.10.68, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt}
+  - {name: 🇷🇺 俄罗斯 7, server: 217.30.10.68, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8}
+  - {name: 🇷🇺 俄罗斯 8, server: 217.30.10.68, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY}
+  - {name: 🇷🇺 俄罗斯 9, server: 217.30.10.68, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb}
+  - {name: 🇷🇺 俄罗斯 10, server: 217.30.10.68, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4}
+  - {name: 🇷🇺 俄罗斯 11, server: 217.30.10.68, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX}
+  - {name: 🇷🇺 俄罗斯 12, server: 217.30.10.68, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN}
+  - {name: 🇷🇺 俄罗斯 13, server: 217.30.10.68, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C}
+  - {name: 🇷🇺 俄罗斯 14, server: 217.30.10.68, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA}
+  - {name: 🇷🇺 俄罗斯 15, server: 217.30.10.68, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq}
+  - {name: 🇷🇺 俄罗斯 16, server: 217.30.10.68, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm}
+  - {name: 🇷🇺 俄罗斯 17, server: 217.30.10.68, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ}
+  - {name: 🇷🇺 俄罗斯 18, server: 217.30.10.68, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
+  - {name: 🇷🇺 俄罗斯 19, server: 217.30.10.68, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX}
+  - {name: 🇷🇺 俄罗斯 20, server: 185.221.153.52, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: 60YdJUHXeRYDUSqgXg433w3EB4ttY79H8KKBSqnJct6qFYJ5}
+  - {name: 🇸🇪 瑞典斯德哥尔摩, server: 13.49.119.109, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 8, server: 13.213.1.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡 9, server: 13.212.90.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 北京市, server: 116.148.229.33, port: 50006, type: ss, cipher: aes-128-gcm, password: 17198f9e-eeb9-41f3-bbb5-798e39031d13}
+  - {name: 🇨🇳 北京市 2, server: 116.148.229.33, port: 50005, type: ss, cipher: aes-128-gcm, password: 17198f9e-eeb9-41f3-bbb5-798e39031d13}
   - {name: 🇸🇬 新加坡 10, server: 13.250.55.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 上海市浦东新区 21, server: 61.171.69.155, port: 31311, type: trojan, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac, sni: tw03.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 22, server: 61.171.69.155, port: 31874, type: trojan, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac, sni: vn01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 湖北省武汉市 4, server: 119.96.132.44, port: 36017, type: ss, cipher: chacha20-ietf-poly1305, password: f3738867-03fc-4e33-bbe4-11f702ac98ca}
-  - {name: 🇨🇳 湖北省武汉市 5, server: 119.96.132.44, port: 31028, type: ss, cipher: chacha20-ietf-poly1305, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac}
-  - {name: 🇸🇬 上海市浦东新区 23, server: 61.171.69.155, port: 31018, type: ss, cipher: chacha20-ietf-poly1305, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac}
-  - {name: 🇨🇳 湖北省武汉市 6, server: 119.96.132.44, port: 31017, type: ss, cipher: chacha20-ietf-poly1305, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac}
-  - {name: 🇸🇬 上海市浦东新区 24, server: 61.171.69.155, port: 31021, type: ss, cipher: chacha20-ietf-poly1305, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac}
-  - {name: 🇨🇳 湖北省武汉市 7, server: 119.96.132.44, port: 31011, type: ss, cipher: chacha20-ietf-poly1305, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac}
-  - {name: 🇸🇬 上海市浦东新区 25, server: 61.171.69.155, port: 31010, type: ss, cipher: chacha20-ietf-poly1305, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac}
-  - {name: 🇨🇳 湖北省武汉市 8, server: 119.96.132.44, port: 31032, type: ss, cipher: chacha20-ietf-poly1305, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac}
-  - {name: 🇸🇬 上海市浦东新区 26, server: 61.171.69.155, port: 31111, type: trojan, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac, sni: jp03.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市, server: 183.236.51.6, port: 10805, type: trojan, password: 2ff00b6d-6921-4295-9dc9-36cf0c36a14f, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 2, server: 183.236.51.6, port: 10802, type: trojan, password: 2ff00b6d-6921-4295-9dc9-36cf0c36a14f, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 3, server: 183.236.51.6, port: 10806, type: trojan, password: 2ff00b6d-6921-4295-9dc9-36cf0c36a14f, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 27, server: 61.171.69.155, port: 31811, type: trojan, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac, sni: uk01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 28, server: 61.171.69.155, port: 31841, type: trojan, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac, sni: de01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 29, server: 61.171.69.155, port: 31884, type: trojan, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac, sni: es01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 湖北省武汉市 9, server: 119.96.132.44, port: 31831, type: trojan, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac, sni: in01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 30, server: 61.171.69.155, port: 31401, type: trojan, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac, sni: kr01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 31, server: 61.171.69.155, port: 31116, type: trojan, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac, sni: jp01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 湖北省武汉市 10, server: 119.96.132.44, port: 31106, type: trojan, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac, sni: jp02.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 4, server: 183.236.51.6, port: 10804, type: trojan, password: 2ff00b6d-6921-4295-9dc9-36cf0c36a14f, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 湖北省武汉市 11, server: 119.96.132.44, port: 31301, type: trojan, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac, sni: tw01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 32, server: 61.171.69.155, port: 31206, type: trojan, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac, sni: sg02.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 33, server: 61.171.69.155, port: 31887, type: trojan, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac, sni: my01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 湖北省武汉市 12, server: 119.96.132.44, port: 31211, type: trojan, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac, sni: sg03.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 34, server: 61.171.69.155, port: 31611, type: trojan, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac, sni: hk03.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 上海市浦东新区 35, server: 61.171.69.155, port: 31801, type: trojan, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac, sni: ph01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 湖北省武汉市 13, server: 119.96.132.44, port: 31306, type: trojan, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac, sni: tw02.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 5, server: 183.236.51.6, port: 10803, type: trojan, password: 2ff00b6d-6921-4295-9dc9-36cf0c36a14f, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 湖北省武汉市 14, server: 119.96.132.44, port: 31606, type: trojan, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac, sni: hk02.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 6, server: 183.236.51.6, port: 10801, type: trojan, password: 2ff00b6d-6921-4295-9dc9-36cf0c36a14f, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 湖北省武汉市 15, server: 119.96.132.44, port: 36011, type: ss, cipher: chacha20-ietf-poly1305, password: f3738867-03fc-4e33-bbe4-11f702ac98ca}
-  - {name: 🇸🇬 上海市浦东新区 36, server: 61.171.69.155, port: 31601, type: trojan, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac, sni: hk01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 11, server: 43.207.197.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本东京 8, server: 18.176.134.145, port: 31116, type: trojan, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac, sni: jp01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇯🇵 日本东京 9, server: 18.176.134.145, port: 31201, type: trojan, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac, sni: sg01.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 12, server: 43.200.254.135, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡 11, server: 54.254.132.42, port: 20230, type: trojan, password: 6536ad97-a4a9-443a-9488-6f7a0f280068, sni: 421421.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 美国华盛顿 3, server: 38.75.136.49, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇦 乌克兰 5, server: 94.131.14.177, port: 80, type: vmess, uuid: 2c5fee13-f08b-4ba8-86db-27dd51cb9781, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇺🇦 乌克兰 6, server: 94.131.14.177, port: 2082, type: vmess, uuid: 2c5fee13-f08b-4ba8-86db-27dd51cb9781, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇺🇦 乌克兰 7, server: 94.131.117.159, port: 80, type: vmess, uuid: 72b3b89a-30c5-4dc7-8b6e-f61218b95eda, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇨🇳 湖北省武汉市 16, server: 119.96.132.44, port: 36030, type: ss, cipher: chacha20-ietf-poly1305, password: f3738867-03fc-4e33-bbe4-11f702ac98ca}
-  - {name: 🇨🇳 湖北省武汉市 17, server: 119.96.132.44, port: 36010, type: ss, cipher: chacha20-ietf-poly1305, password: f3738867-03fc-4e33-bbe4-11f702ac98ca}
-  - {name: 🇨🇳 湖北省武汉市 18, server: 119.96.132.44, port: 36031, type: ss, cipher: chacha20-ietf-poly1305, password: f3738867-03fc-4e33-bbe4-11f702ac98ca}
-  - {name: 🇸🇬 上海市浦东新区 37, server: 61.171.69.155, port: 36027, type: ss, cipher: chacha20-ietf-poly1305, password: f3738867-03fc-4e33-bbe4-11f702ac98ca}
-  - {name: 欧盟, server: 45.87.153.246, port: 6199, type: ss, cipher: chacha20-ietf-poly1305, password: f7EI0dGWQM42T8gwN9CZIj}
-  - {name: 🇺🇦 乌克兰 8, server: 94.131.10.135, port: 80, type: vmess, uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇨🇳 湖北省武汉市 19, server: 119.96.132.44, port: 31401, type: trojan, password: e2fe0806-82ae-41f0-abb6-3685e3d905ac, sni: kr01.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇺🇦 乌克兰, server: 95.164.84.131, port: 80, type: vmess, uuid: c62693b0-547f-4028-8f46-544cc8d46a01, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇺🇸 美国俄勒冈州波特兰, server: 34.221.71.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 北京市 3, server: 116.148.229.33, port: 50008, type: ss, cipher: aes-128-gcm, password: 17198f9e-eeb9-41f3-bbb5-798e39031d13}
+  - {name: 🇺🇸 美国 7, server: 54.188.25.27, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 北京市 4, server: 116.148.229.33, port: 50007, type: ss, cipher: aes-128-gcm, password: 17198f9e-eeb9-41f3-bbb5-798e39031d13}
+  - {name: 🇮🇷 伊朗, server: 5.78.74.72, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国华盛顿, server: 38.91.101.11, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国华盛顿 2, server: 38.91.101.11, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国华盛顿 3, server: 38.54.108.110, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇸🇪 瑞典, server: 167.88.62.104, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国华盛顿 4, server: 38.91.101.42, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
+  - {name: 🇺🇸 美国俄亥俄州都柏林, server: 18.218.239.120, port: 36326, type: ss, cipher: chacha20-ietf-poly1305, password: H6cSTf8vDbVH1cpnrAxFj2}
+  - {name: 🇺🇸 美国华盛顿 5, server: 38.91.101.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国 8, server: 64.23.149.123, port: 8880, type: vmess, uuid: e4b9e7bb-80e6-4fb8-f547-ad1be3351577, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇬🇧 英国 2, server: 51.21.139.253, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
+  - {name: 🇺🇦 乌克兰 2, server: 91.242.229.69, port: 2086, type: vmess, uuid: 88c216b8-56c6-4f34-bcfd-e198ce11f7d6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇰🇷 韩国 6, server: 221.150.109.14, port: 58023, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇸🇬 上海市浦东新区, server: 61.171.69.155, port: 36031, type: ss, cipher: chacha20-ietf-poly1305, password: 21e1af95-391d-4be9-aba1-1434ebeda8a4}
+  - {name: 🇨🇳 湖北省武汉市, server: 119.96.132.44, port: 36018, type: ss, cipher: chacha20-ietf-poly1305, password: 21e1af95-391d-4be9-aba1-1434ebeda8a4}
+  - {name: 🇨🇳 湖北省武汉市 2, server: 119.96.132.44, port: 36021, type: ss, cipher: chacha20-ietf-poly1305, password: 21e1af95-391d-4be9-aba1-1434ebeda8a4}
+  - {name: , server: 2606:4700:3033::ac43:81f9, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /526-dekDP6Otf, headers: {Host: v118a.ai88888.top}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -199,96 +113,59 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
       - 🇰🇷 韩国
-      - 🇯🇵 日本
-      - 🇩🇪 德国
-      - 🇯🇵 日本 2
       - 🇰🇷 韩国首尔
-      - 🇰🇷 韩国首尔 2
+      - 🇯🇵 日本
       - 🇸🇬 新加坡
+      - 🇯🇵 日本东京
+      - 🇰🇷 韩国首尔 2
+      - 🇯🇵 日本 2
       - 🇸🇬 新加坡 2
       - 🇯🇵 日本 3
-      - 🇰🇷 韩国首尔 3
       - 🇸🇬 新加坡 3
-      - 🇯🇵 日本东京
-      - 🇸🇬 新加坡 4
-      - 🇫🇷 法国
-      - 🇸🇬 新加坡 5
-      - 🇺🇸 美国
-      - 🇰🇷 韩国首尔 4
       - 🇯🇵 日本 4
-      - 🇺🇸 美国 2
       - 🇯🇵 日本 5
-      - 🇸🇬 新加坡 6
       - 🇯🇵 日本 6
-      - 🇯🇵 日本 7
+      - 🇫🇷 法国
+      - 🇸🇬 新加坡 4
       - 🇯🇵 日本东京 2
-      - 🇸🇬 新加坡 7
-      - 🇰🇷 韩国 2
-      - 🇰🇷 韩国首尔 5
-      - 🇸🇬 新加坡 8
-      - 🇯🇵 日本东京 3
-      - 🇸🇬 新加坡 9
-      - 🇺🇸 美国 3
-      - 🇸🇬 上海市浦东新区
-      - 🇸🇬 上海市浦东新区 2
-      - 🇸🇬 上海市浦东新区 3
-      - 🇸🇬 上海市浦东新区 4
-      - 🇸🇬 上海市浦东新区 5
-      - 🇸🇬 上海市浦东新区 6
-      - 🇸🇬 上海市浦东新区 7
-      - 🇸🇬 上海市浦东新区 8
-      - 🇸🇬 上海市浦东新区 9
-      - 🇸🇬 上海市浦东新区 10
-      - 🇸🇬 上海市浦东新区 11
-      - 🇸🇬 上海市浦东新区 12
-      - 🇨🇳 湖北省武汉市
-      - 🇸🇬 上海市浦东新区 13
-      - 🇸🇬 上海市浦东新区 14
-      - 🇸🇬 上海市浦东新区 15
-      - 🇸🇬 上海市浦东新区 16
-      - 🇷🇺 俄罗斯
-      - 🇮🇳 印度
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
       - 🇫🇷 法国 2
+      - 🇰🇷 韩国首尔 3
+      - 🇯🇵 日本 7
+      - 🇰🇷 韩国首尔 4
+      - 🇸🇬 新加坡 5
+      - 亚太地区
+      - 🇸🇬 新加坡 6
+      - 🇯🇵 日本 8
+      - 🇸🇬 新加坡 7
+      - 🇯🇵 日本 9
+      - 中国
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 3
+      - 🇯🇵 日本东京 3
+      - 🇨🇳 台湾省桃园市
+      - 🇨🇳 江苏省宿迁市
+      - 🇮🇳 印度
+      - 🇷🇺 俄罗斯
       - 🇫🇷 法国 3
       - 🇫🇷 法国 4
       - 🇬🇧 英国
       - 🇺🇸 美国 4
       - 🇬🇧 英国威尔士加的夫
+      - 🇬🇧 英国威尔士加的夫 2
       - 🇬🇧 英国伦敦
-      - 🇬🇧 英国伦敦 2
-      - 🇬🇧 英国伦敦 3
-      - 🇬🇧 英国伦敦 4
-      - 🇺🇦 乌克兰
-      - 🇭🇰 香港
       - 🇮🇪 爱尔兰
-      - 🇯🇵 日本东京 4
       - 🇺🇸 美国 5
-      - 🇯🇵 日本东京 5
-      - 🇯🇵 日本东京 6
+      - 🇨🇳 安徽省
+      - 🇨🇳 安徽省 2
+      - 🇯🇵 日本东京 4
+      - 🇺🇸 美国 6
+      - 🇰🇷 韩国 2
       - 🇰🇷 韩国 3
       - 🇰🇷 韩国 4
       - 🇰🇷 韩国 5
-      - 🇰🇷 韩国 6
-      - 🇰🇷 韩国 7
-      - 🇰🇷 韩国 8
-      - 🇰🇷 韩国 9
-      - 🇯🇵 日本 8
-      - 🇯🇵 日本 9
-      - 🇰🇷 韩国 10
-      - 🇪🇸 西班牙
-      - 🇪🇸 西班牙 2
-      - 🇪🇸 西班牙 3
-      - 🇪🇸 西班牙 4
-      - 🇪🇸 西班牙 5
       - 🇳🇱 荷兰
       - 🇷🇺 俄罗斯 2
       - 🇷🇺 俄罗斯 3
@@ -305,182 +182,96 @@ proxy-groups:
       - 🇷🇺 俄罗斯 14
       - 🇷🇺 俄罗斯 15
       - 🇷🇺 俄罗斯 16
-      - 🇺🇸 美国 6
+      - 🇷🇺 俄罗斯 17
+      - 🇷🇺 俄罗斯 18
+      - 🇷🇺 俄罗斯 19
+      - 🇷🇺 俄罗斯 20
+      - 🇸🇪 瑞典斯德哥尔摩
+      - 🇸🇬 新加坡 8
+      - 🇸🇬 新加坡 9
+      - 🇨🇳 北京市
+      - 🇨🇳 北京市 2
+      - 🇸🇬 新加坡 10
+      - 🇺🇦 乌克兰
       - 🇺🇸 美国俄勒冈州波特兰
-      - 🇺🇸 美国俄勒冈州波特兰 2
-      - 🇮🇷 伊朗
-      - 🇮🇷 伊朗 2
-      - 🇺🇸 美国爱荷华州得梅因
+      - 🇨🇳 北京市 3
       - 🇺🇸 美国 7
-      - 🇸🇪 瑞典
+      - 🇨🇳 北京市 4
+      - 🇮🇷 伊朗
       - 🇺🇸 美国华盛顿
       - 🇺🇸 美国华盛顿 2
-      - 🇺🇸 北美地区
-      - 🇺🇸 美国 8
+      - 🇺🇸 美国华盛顿 3
+      - 🇸🇪 瑞典
+      - 🇺🇸 美国华盛顿 4
       - 🇺🇸 美国俄亥俄州都柏林
+      - 🇺🇸 美国华盛顿 5
+      - 🇺🇸 美国 8
       - 🇬🇧 英国 2
       - 🇺🇦 乌克兰 2
-      - 🇺🇦 乌克兰 3
-      - ""
-      - 🇺🇦 乌克兰 4
-      - 🇯🇵 日本 10
-      - 🇺🇸 美国 9
+      - 🇰🇷 韩国 6
+      - 🇸🇬 上海市浦东新区
+      - 🇨🇳 湖北省武汉市
       - 🇨🇳 湖北省武汉市 2
-      - 🇨🇳 湖北省武汉市 3
-      - 🇸🇬 上海市浦东新区 17
-      - 🇯🇵 日本东京 7
-      - 🇺🇸 美国 10
-      - 🇮🇹 意大利
-      - 🇸🇬 上海市浦东新区 18
-      - 🇸🇬 上海市浦东新区 19
-      - 🇸🇬 上海市浦东新区 20
-      - 🇸🇬 新加坡 10
-      - 🇸🇬 上海市浦东新区 21
-      - 🇸🇬 上海市浦东新区 22
-      - 🇨🇳 湖北省武汉市 4
-      - 🇨🇳 湖北省武汉市 5
-      - 🇸🇬 上海市浦东新区 23
-      - 🇨🇳 湖北省武汉市 6
-      - 🇸🇬 上海市浦东新区 24
-      - 🇨🇳 湖北省武汉市 7
-      - 🇸🇬 上海市浦东新区 25
-      - 🇨🇳 湖北省武汉市 8
-      - 🇸🇬 上海市浦东新区 26
-      - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇸🇬 上海市浦东新区 27
-      - 🇸🇬 上海市浦东新区 28
-      - 🇸🇬 上海市浦东新区 29
-      - 🇨🇳 湖北省武汉市 9
-      - 🇸🇬 上海市浦东新区 30
-      - 🇸🇬 上海市浦东新区 31
-      - 🇨🇳 湖北省武汉市 10
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 湖北省武汉市 11
-      - 🇸🇬 上海市浦东新区 32
-      - 🇸🇬 上海市浦东新区 33
-      - 🇨🇳 湖北省武汉市 12
-      - 🇸🇬 上海市浦东新区 34
-      - 🇸🇬 上海市浦东新区 35
-      - 🇨🇳 湖北省武汉市 13
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 湖北省武汉市 14
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 湖北省武汉市 15
-      - 🇸🇬 上海市浦东新区 36
-      - 🇯🇵 日本 11
-      - 🇯🇵 日本东京 8
-      - 🇯🇵 日本东京 9
-      - 🇯🇵 日本 12
-      - 🇸🇬 新加坡 11
-      - 🇺🇸 美国华盛顿 3
-      - 🇺🇦 乌克兰 5
-      - 🇺🇦 乌克兰 6
-      - 🇺🇦 乌克兰 7
-      - 🇨🇳 湖北省武汉市 16
-      - 🇨🇳 湖北省武汉市 17
-      - 🇨🇳 湖北省武汉市 18
-      - 🇸🇬 上海市浦东新区 37
-      - 欧盟
-      - 🇺🇦 乌克兰 8
-      - 🇨🇳 湖北省武汉市 19
+      - 
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
       - 🇰🇷 韩国
-      - 🇯🇵 日本
-      - 🇩🇪 德国
-      - 🇯🇵 日本 2
       - 🇰🇷 韩国首尔
-      - 🇰🇷 韩国首尔 2
+      - 🇯🇵 日本
       - 🇸🇬 新加坡
+      - 🇯🇵 日本东京
+      - 🇰🇷 韩国首尔 2
+      - 🇯🇵 日本 2
       - 🇸🇬 新加坡 2
       - 🇯🇵 日本 3
-      - 🇰🇷 韩国首尔 3
       - 🇸🇬 新加坡 3
-      - 🇯🇵 日本东京
-      - 🇸🇬 新加坡 4
-      - 🇫🇷 法国
-      - 🇸🇬 新加坡 5
-      - 🇺🇸 美国
-      - 🇰🇷 韩国首尔 4
       - 🇯🇵 日本 4
-      - 🇺🇸 美国 2
       - 🇯🇵 日本 5
-      - 🇸🇬 新加坡 6
       - 🇯🇵 日本 6
-      - 🇯🇵 日本 7
+      - 🇫🇷 法国
+      - 🇸🇬 新加坡 4
       - 🇯🇵 日本东京 2
-      - 🇸🇬 新加坡 7
-      - 🇰🇷 韩国 2
-      - 🇰🇷 韩国首尔 5
-      - 🇸🇬 新加坡 8
-      - 🇯🇵 日本东京 3
-      - 🇸🇬 新加坡 9
-      - 🇺🇸 美国 3
-      - 🇸🇬 上海市浦东新区
-      - 🇸🇬 上海市浦东新区 2
-      - 🇸🇬 上海市浦东新区 3
-      - 🇸🇬 上海市浦东新区 4
-      - 🇸🇬 上海市浦东新区 5
-      - 🇸🇬 上海市浦东新区 6
-      - 🇸🇬 上海市浦东新区 7
-      - 🇸🇬 上海市浦东新区 8
-      - 🇸🇬 上海市浦东新区 9
-      - 🇸🇬 上海市浦东新区 10
-      - 🇸🇬 上海市浦东新区 11
-      - 🇸🇬 上海市浦东新区 12
-      - 🇨🇳 湖北省武汉市
-      - 🇸🇬 上海市浦东新区 13
-      - 🇸🇬 上海市浦东新区 14
-      - 🇸🇬 上海市浦东新区 15
-      - 🇸🇬 上海市浦东新区 16
-      - 🇷🇺 俄罗斯
-      - 🇮🇳 印度
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
       - 🇫🇷 法国 2
+      - 🇰🇷 韩国首尔 3
+      - 🇯🇵 日本 7
+      - 🇰🇷 韩国首尔 4
+      - 🇸🇬 新加坡 5
+      - 亚太地区
+      - 🇸🇬 新加坡 6
+      - 🇯🇵 日本 8
+      - 🇸🇬 新加坡 7
+      - 🇯🇵 日本 9
+      - 中国
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 3
+      - 🇯🇵 日本东京 3
+      - 🇨🇳 台湾省桃园市
+      - 🇨🇳 江苏省宿迁市
+      - 🇮🇳 印度
+      - 🇷🇺 俄罗斯
       - 🇫🇷 法国 3
       - 🇫🇷 法国 4
       - 🇬🇧 英国
       - 🇺🇸 美国 4
       - 🇬🇧 英国威尔士加的夫
+      - 🇬🇧 英国威尔士加的夫 2
       - 🇬🇧 英国伦敦
-      - 🇬🇧 英国伦敦 2
-      - 🇬🇧 英国伦敦 3
-      - 🇬🇧 英国伦敦 4
-      - 🇺🇦 乌克兰
-      - 🇭🇰 香港
       - 🇮🇪 爱尔兰
-      - 🇯🇵 日本东京 4
       - 🇺🇸 美国 5
-      - 🇯🇵 日本东京 5
-      - 🇯🇵 日本东京 6
+      - 🇨🇳 安徽省
+      - 🇨🇳 安徽省 2
+      - 🇯🇵 日本东京 4
+      - 🇺🇸 美国 6
+      - 🇰🇷 韩国 2
       - 🇰🇷 韩国 3
       - 🇰🇷 韩国 4
       - 🇰🇷 韩国 5
-      - 🇰🇷 韩国 6
-      - 🇰🇷 韩国 7
-      - 🇰🇷 韩国 8
-      - 🇰🇷 韩国 9
-      - 🇯🇵 日本 8
-      - 🇯🇵 日本 9
-      - 🇰🇷 韩国 10
-      - 🇪🇸 西班牙
-      - 🇪🇸 西班牙 2
-      - 🇪🇸 西班牙 3
-      - 🇪🇸 西班牙 4
-      - 🇪🇸 西班牙 5
       - 🇳🇱 荷兰
       - 🇷🇺 俄罗斯 2
       - 🇷🇺 俄罗斯 3
@@ -497,181 +288,95 @@ proxy-groups:
       - 🇷🇺 俄罗斯 14
       - 🇷🇺 俄罗斯 15
       - 🇷🇺 俄罗斯 16
-      - 🇺🇸 美国 6
+      - 🇷🇺 俄罗斯 17
+      - 🇷🇺 俄罗斯 18
+      - 🇷🇺 俄罗斯 19
+      - 🇷🇺 俄罗斯 20
+      - 🇸🇪 瑞典斯德哥尔摩
+      - 🇸🇬 新加坡 8
+      - 🇸🇬 新加坡 9
+      - 🇨🇳 北京市
+      - 🇨🇳 北京市 2
+      - 🇸🇬 新加坡 10
+      - 🇺🇦 乌克兰
       - 🇺🇸 美国俄勒冈州波特兰
-      - 🇺🇸 美国俄勒冈州波特兰 2
-      - 🇮🇷 伊朗
-      - 🇮🇷 伊朗 2
-      - 🇺🇸 美国爱荷华州得梅因
+      - 🇨🇳 北京市 3
       - 🇺🇸 美国 7
-      - 🇸🇪 瑞典
+      - 🇨🇳 北京市 4
+      - 🇮🇷 伊朗
       - 🇺🇸 美国华盛顿
       - 🇺🇸 美国华盛顿 2
-      - 🇺🇸 北美地区
-      - 🇺🇸 美国 8
+      - 🇺🇸 美国华盛顿 3
+      - 🇸🇪 瑞典
+      - 🇺🇸 美国华盛顿 4
       - 🇺🇸 美国俄亥俄州都柏林
+      - 🇺🇸 美国华盛顿 5
+      - 🇺🇸 美国 8
       - 🇬🇧 英国 2
       - 🇺🇦 乌克兰 2
-      - 🇺🇦 乌克兰 3
-      - ""
-      - 🇺🇦 乌克兰 4
-      - 🇯🇵 日本 10
-      - 🇺🇸 美国 9
+      - 🇰🇷 韩国 6
+      - 🇸🇬 上海市浦东新区
+      - 🇨🇳 湖北省武汉市
       - 🇨🇳 湖北省武汉市 2
-      - 🇨🇳 湖北省武汉市 3
-      - 🇸🇬 上海市浦东新区 17
-      - 🇯🇵 日本东京 7
-      - 🇺🇸 美国 10
-      - 🇮🇹 意大利
-      - 🇸🇬 上海市浦东新区 18
-      - 🇸🇬 上海市浦东新区 19
-      - 🇸🇬 上海市浦东新区 20
-      - 🇸🇬 新加坡 10
-      - 🇸🇬 上海市浦东新区 21
-      - 🇸🇬 上海市浦东新区 22
-      - 🇨🇳 湖北省武汉市 4
-      - 🇨🇳 湖北省武汉市 5
-      - 🇸🇬 上海市浦东新区 23
-      - 🇨🇳 湖北省武汉市 6
-      - 🇸🇬 上海市浦东新区 24
-      - 🇨🇳 湖北省武汉市 7
-      - 🇸🇬 上海市浦东新区 25
-      - 🇨🇳 湖北省武汉市 8
-      - 🇸🇬 上海市浦东新区 26
-      - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇸🇬 上海市浦东新区 27
-      - 🇸🇬 上海市浦东新区 28
-      - 🇸🇬 上海市浦东新区 29
-      - 🇨🇳 湖北省武汉市 9
-      - 🇸🇬 上海市浦东新区 30
-      - 🇸🇬 上海市浦东新区 31
-      - 🇨🇳 湖北省武汉市 10
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 湖北省武汉市 11
-      - 🇸🇬 上海市浦东新区 32
-      - 🇸🇬 上海市浦东新区 33
-      - 🇨🇳 湖北省武汉市 12
-      - 🇸🇬 上海市浦东新区 34
-      - 🇸🇬 上海市浦东新区 35
-      - 🇨🇳 湖北省武汉市 13
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 湖北省武汉市 14
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 湖北省武汉市 15
-      - 🇸🇬 上海市浦东新区 36
-      - 🇯🇵 日本 11
-      - 🇯🇵 日本东京 8
-      - 🇯🇵 日本东京 9
-      - 🇯🇵 日本 12
-      - 🇸🇬 新加坡 11
-      - 🇺🇸 美国华盛顿 3
-      - 🇺🇦 乌克兰 5
-      - 🇺🇦 乌克兰 6
-      - 🇺🇦 乌克兰 7
-      - 🇨🇳 湖北省武汉市 16
-      - 🇨🇳 湖北省武汉市 17
-      - 🇨🇳 湖北省武汉市 18
-      - 🇸🇬 上海市浦东新区 37
-      - 欧盟
-      - 🇺🇦 乌克兰 8
-      - 🇨🇳 湖北省武汉市 19
+      - 
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
       - 🇰🇷 韩国
-      - 🇯🇵 日本
-      - 🇩🇪 德国
-      - 🇯🇵 日本 2
       - 🇰🇷 韩国首尔
-      - 🇰🇷 韩国首尔 2
+      - 🇯🇵 日本
       - 🇸🇬 新加坡
+      - 🇯🇵 日本东京
+      - 🇰🇷 韩国首尔 2
+      - 🇯🇵 日本 2
       - 🇸🇬 新加坡 2
       - 🇯🇵 日本 3
-      - 🇰🇷 韩国首尔 3
       - 🇸🇬 新加坡 3
-      - 🇯🇵 日本东京
-      - 🇸🇬 新加坡 4
-      - 🇫🇷 法国
-      - 🇸🇬 新加坡 5
-      - 🇺🇸 美国
-      - 🇰🇷 韩国首尔 4
       - 🇯🇵 日本 4
-      - 🇺🇸 美国 2
       - 🇯🇵 日本 5
-      - 🇸🇬 新加坡 6
       - 🇯🇵 日本 6
-      - 🇯🇵 日本 7
+      - 🇫🇷 法国
+      - 🇸🇬 新加坡 4
       - 🇯🇵 日本东京 2
-      - 🇸🇬 新加坡 7
-      - 🇰🇷 韩国 2
-      - 🇰🇷 韩国首尔 5
-      - 🇸🇬 新加坡 8
-      - 🇯🇵 日本东京 3
-      - 🇸🇬 新加坡 9
-      - 🇺🇸 美国 3
-      - 🇸🇬 上海市浦东新区
-      - 🇸🇬 上海市浦东新区 2
-      - 🇸🇬 上海市浦东新区 3
-      - 🇸🇬 上海市浦东新区 4
-      - 🇸🇬 上海市浦东新区 5
-      - 🇸🇬 上海市浦东新区 6
-      - 🇸🇬 上海市浦东新区 7
-      - 🇸🇬 上海市浦东新区 8
-      - 🇸🇬 上海市浦东新区 9
-      - 🇸🇬 上海市浦东新区 10
-      - 🇸🇬 上海市浦东新区 11
-      - 🇸🇬 上海市浦东新区 12
-      - 🇨🇳 湖北省武汉市
-      - 🇸🇬 上海市浦东新区 13
-      - 🇸🇬 上海市浦东新区 14
-      - 🇸🇬 上海市浦东新区 15
-      - 🇸🇬 上海市浦东新区 16
-      - 🇷🇺 俄罗斯
-      - 🇮🇳 印度
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
       - 🇫🇷 法国 2
+      - 🇰🇷 韩国首尔 3
+      - 🇯🇵 日本 7
+      - 🇰🇷 韩国首尔 4
+      - 🇸🇬 新加坡 5
+      - 亚太地区
+      - 🇸🇬 新加坡 6
+      - 🇯🇵 日本 8
+      - 🇸🇬 新加坡 7
+      - 🇯🇵 日本 9
+      - 中国
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 3
+      - 🇯🇵 日本东京 3
+      - 🇨🇳 台湾省桃园市
+      - 🇨🇳 江苏省宿迁市
+      - 🇮🇳 印度
+      - 🇷🇺 俄罗斯
       - 🇫🇷 法国 3
       - 🇫🇷 法国 4
       - 🇬🇧 英国
       - 🇺🇸 美国 4
       - 🇬🇧 英国威尔士加的夫
+      - 🇬🇧 英国威尔士加的夫 2
       - 🇬🇧 英国伦敦
-      - 🇬🇧 英国伦敦 2
-      - 🇬🇧 英国伦敦 3
-      - 🇬🇧 英国伦敦 4
-      - 🇺🇦 乌克兰
-      - 🇭🇰 香港
       - 🇮🇪 爱尔兰
-      - 🇯🇵 日本东京 4
       - 🇺🇸 美国 5
-      - 🇯🇵 日本东京 5
-      - 🇯🇵 日本东京 6
+      - 🇨🇳 安徽省
+      - 🇨🇳 安徽省 2
+      - 🇯🇵 日本东京 4
+      - 🇺🇸 美国 6
+      - 🇰🇷 韩国 2
       - 🇰🇷 韩国 3
       - 🇰🇷 韩国 4
       - 🇰🇷 韩国 5
-      - 🇰🇷 韩国 6
-      - 🇰🇷 韩国 7
-      - 🇰🇷 韩国 8
-      - 🇰🇷 韩国 9
-      - 🇯🇵 日本 8
-      - 🇯🇵 日本 9
-      - 🇰🇷 韩国 10
-      - 🇪🇸 西班牙
-      - 🇪🇸 西班牙 2
-      - 🇪🇸 西班牙 3
-      - 🇪🇸 西班牙 4
-      - 🇪🇸 西班牙 5
       - 🇳🇱 荷兰
       - 🇷🇺 俄罗斯 2
       - 🇷🇺 俄罗斯 3
@@ -688,182 +393,96 @@ proxy-groups:
       - 🇷🇺 俄罗斯 14
       - 🇷🇺 俄罗斯 15
       - 🇷🇺 俄罗斯 16
-      - 🇺🇸 美国 6
+      - 🇷🇺 俄罗斯 17
+      - 🇷🇺 俄罗斯 18
+      - 🇷🇺 俄罗斯 19
+      - 🇷🇺 俄罗斯 20
+      - 🇸🇪 瑞典斯德哥尔摩
+      - 🇸🇬 新加坡 8
+      - 🇸🇬 新加坡 9
+      - 🇨🇳 北京市
+      - 🇨🇳 北京市 2
+      - 🇸🇬 新加坡 10
+      - 🇺🇦 乌克兰
       - 🇺🇸 美国俄勒冈州波特兰
-      - 🇺🇸 美国俄勒冈州波特兰 2
-      - 🇮🇷 伊朗
-      - 🇮🇷 伊朗 2
-      - 🇺🇸 美国爱荷华州得梅因
+      - 🇨🇳 北京市 3
       - 🇺🇸 美国 7
-      - 🇸🇪 瑞典
+      - 🇨🇳 北京市 4
+      - 🇮🇷 伊朗
       - 🇺🇸 美国华盛顿
       - 🇺🇸 美国华盛顿 2
-      - 🇺🇸 北美地区
-      - 🇺🇸 美国 8
+      - 🇺🇸 美国华盛顿 3
+      - 🇸🇪 瑞典
+      - 🇺🇸 美国华盛顿 4
       - 🇺🇸 美国俄亥俄州都柏林
+      - 🇺🇸 美国华盛顿 5
+      - 🇺🇸 美国 8
       - 🇬🇧 英国 2
       - 🇺🇦 乌克兰 2
-      - 🇺🇦 乌克兰 3
-      - ""
-      - 🇺🇦 乌克兰 4
-      - 🇯🇵 日本 10
-      - 🇺🇸 美国 9
+      - 🇰🇷 韩国 6
+      - 🇸🇬 上海市浦东新区
+      - 🇨🇳 湖北省武汉市
       - 🇨🇳 湖北省武汉市 2
-      - 🇨🇳 湖北省武汉市 3
-      - 🇸🇬 上海市浦东新区 17
-      - 🇯🇵 日本东京 7
-      - 🇺🇸 美国 10
-      - 🇮🇹 意大利
-      - 🇸🇬 上海市浦东新区 18
-      - 🇸🇬 上海市浦东新区 19
-      - 🇸🇬 上海市浦东新区 20
-      - 🇸🇬 新加坡 10
-      - 🇸🇬 上海市浦东新区 21
-      - 🇸🇬 上海市浦东新区 22
-      - 🇨🇳 湖北省武汉市 4
-      - 🇨🇳 湖北省武汉市 5
-      - 🇸🇬 上海市浦东新区 23
-      - 🇨🇳 湖北省武汉市 6
-      - 🇸🇬 上海市浦东新区 24
-      - 🇨🇳 湖北省武汉市 7
-      - 🇸🇬 上海市浦东新区 25
-      - 🇨🇳 湖北省武汉市 8
-      - 🇸🇬 上海市浦东新区 26
-      - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇸🇬 上海市浦东新区 27
-      - 🇸🇬 上海市浦东新区 28
-      - 🇸🇬 上海市浦东新区 29
-      - 🇨🇳 湖北省武汉市 9
-      - 🇸🇬 上海市浦东新区 30
-      - 🇸🇬 上海市浦东新区 31
-      - 🇨🇳 湖北省武汉市 10
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 湖北省武汉市 11
-      - 🇸🇬 上海市浦东新区 32
-      - 🇸🇬 上海市浦东新区 33
-      - 🇨🇳 湖北省武汉市 12
-      - 🇸🇬 上海市浦东新区 34
-      - 🇸🇬 上海市浦东新区 35
-      - 🇨🇳 湖北省武汉市 13
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 湖北省武汉市 14
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 湖北省武汉市 15
-      - 🇸🇬 上海市浦东新区 36
-      - 🇯🇵 日本 11
-      - 🇯🇵 日本东京 8
-      - 🇯🇵 日本东京 9
-      - 🇯🇵 日本 12
-      - 🇸🇬 新加坡 11
-      - 🇺🇸 美国华盛顿 3
-      - 🇺🇦 乌克兰 5
-      - 🇺🇦 乌克兰 6
-      - 🇺🇦 乌克兰 7
-      - 🇨🇳 湖北省武汉市 16
-      - 🇨🇳 湖北省武汉市 17
-      - 🇨🇳 湖北省武汉市 18
-      - 🇸🇬 上海市浦东新区 37
-      - 欧盟
-      - 🇺🇦 乌克兰 8
-      - 🇨🇳 湖北省武汉市 19
+      - 
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
       - 🇰🇷 韩国
-      - 🇯🇵 日本
-      - 🇩🇪 德国
-      - 🇯🇵 日本 2
       - 🇰🇷 韩国首尔
-      - 🇰🇷 韩国首尔 2
+      - 🇯🇵 日本
       - 🇸🇬 新加坡
+      - 🇯🇵 日本东京
+      - 🇰🇷 韩国首尔 2
+      - 🇯🇵 日本 2
       - 🇸🇬 新加坡 2
       - 🇯🇵 日本 3
-      - 🇰🇷 韩国首尔 3
       - 🇸🇬 新加坡 3
-      - 🇯🇵 日本东京
-      - 🇸🇬 新加坡 4
-      - 🇫🇷 法国
-      - 🇸🇬 新加坡 5
-      - 🇺🇸 美国
-      - 🇰🇷 韩国首尔 4
       - 🇯🇵 日本 4
-      - 🇺🇸 美国 2
       - 🇯🇵 日本 5
-      - 🇸🇬 新加坡 6
       - 🇯🇵 日本 6
-      - 🇯🇵 日本 7
+      - 🇫🇷 法国
+      - 🇸🇬 新加坡 4
       - 🇯🇵 日本东京 2
-      - 🇸🇬 新加坡 7
-      - 🇰🇷 韩国 2
-      - 🇰🇷 韩国首尔 5
-      - 🇸🇬 新加坡 8
-      - 🇯🇵 日本东京 3
-      - 🇸🇬 新加坡 9
-      - 🇺🇸 美国 3
-      - 🇸🇬 上海市浦东新区
-      - 🇸🇬 上海市浦东新区 2
-      - 🇸🇬 上海市浦东新区 3
-      - 🇸🇬 上海市浦东新区 4
-      - 🇸🇬 上海市浦东新区 5
-      - 🇸🇬 上海市浦东新区 6
-      - 🇸🇬 上海市浦东新区 7
-      - 🇸🇬 上海市浦东新区 8
-      - 🇸🇬 上海市浦东新区 9
-      - 🇸🇬 上海市浦东新区 10
-      - 🇸🇬 上海市浦东新区 11
-      - 🇸🇬 上海市浦东新区 12
-      - 🇨🇳 湖北省武汉市
-      - 🇸🇬 上海市浦东新区 13
-      - 🇸🇬 上海市浦东新区 14
-      - 🇸🇬 上海市浦东新区 15
-      - 🇸🇬 上海市浦东新区 16
-      - 🇷🇺 俄罗斯
-      - 🇮🇳 印度
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
       - 🇫🇷 法国 2
+      - 🇰🇷 韩国首尔 3
+      - 🇯🇵 日本 7
+      - 🇰🇷 韩国首尔 4
+      - 🇸🇬 新加坡 5
+      - 亚太地区
+      - 🇸🇬 新加坡 6
+      - 🇯🇵 日本 8
+      - 🇸🇬 新加坡 7
+      - 🇯🇵 日本 9
+      - 中国
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 3
+      - 🇯🇵 日本东京 3
+      - 🇨🇳 台湾省桃园市
+      - 🇨🇳 江苏省宿迁市
+      - 🇮🇳 印度
+      - 🇷🇺 俄罗斯
       - 🇫🇷 法国 3
       - 🇫🇷 法国 4
       - 🇬🇧 英国
       - 🇺🇸 美国 4
       - 🇬🇧 英国威尔士加的夫
+      - 🇬🇧 英国威尔士加的夫 2
       - 🇬🇧 英国伦敦
-      - 🇬🇧 英国伦敦 2
-      - 🇬🇧 英国伦敦 3
-      - 🇬🇧 英国伦敦 4
-      - 🇺🇦 乌克兰
-      - 🇭🇰 香港
       - 🇮🇪 爱尔兰
-      - 🇯🇵 日本东京 4
       - 🇺🇸 美国 5
-      - 🇯🇵 日本东京 5
-      - 🇯🇵 日本东京 6
+      - 🇨🇳 安徽省
+      - 🇨🇳 安徽省 2
+      - 🇯🇵 日本东京 4
+      - 🇺🇸 美国 6
+      - 🇰🇷 韩国 2
       - 🇰🇷 韩国 3
       - 🇰🇷 韩国 4
       - 🇰🇷 韩国 5
-      - 🇰🇷 韩国 6
-      - 🇰🇷 韩国 7
-      - 🇰🇷 韩国 8
-      - 🇰🇷 韩国 9
-      - 🇯🇵 日本 8
-      - 🇯🇵 日本 9
-      - 🇰🇷 韩国 10
-      - 🇪🇸 西班牙
-      - 🇪🇸 西班牙 2
-      - 🇪🇸 西班牙 3
-      - 🇪🇸 西班牙 4
-      - 🇪🇸 西班牙 5
       - 🇳🇱 荷兰
       - 🇷🇺 俄罗斯 2
       - 🇷🇺 俄罗斯 3
@@ -880,86 +499,37 @@ proxy-groups:
       - 🇷🇺 俄罗斯 14
       - 🇷🇺 俄罗斯 15
       - 🇷🇺 俄罗斯 16
-      - 🇺🇸 美国 6
+      - 🇷🇺 俄罗斯 17
+      - 🇷🇺 俄罗斯 18
+      - 🇷🇺 俄罗斯 19
+      - 🇷🇺 俄罗斯 20
+      - 🇸🇪 瑞典斯德哥尔摩
+      - 🇸🇬 新加坡 8
+      - 🇸🇬 新加坡 9
+      - 🇨🇳 北京市
+      - 🇨🇳 北京市 2
+      - 🇸🇬 新加坡 10
+      - 🇺🇦 乌克兰
       - 🇺🇸 美国俄勒冈州波特兰
-      - 🇺🇸 美国俄勒冈州波特兰 2
-      - 🇮🇷 伊朗
-      - 🇮🇷 伊朗 2
-      - 🇺🇸 美国爱荷华州得梅因
+      - 🇨🇳 北京市 3
       - 🇺🇸 美国 7
-      - 🇸🇪 瑞典
+      - 🇨🇳 北京市 4
+      - 🇮🇷 伊朗
       - 🇺🇸 美国华盛顿
       - 🇺🇸 美国华盛顿 2
-      - 🇺🇸 北美地区
-      - 🇺🇸 美国 8
+      - 🇺🇸 美国华盛顿 3
+      - 🇸🇪 瑞典
+      - 🇺🇸 美国华盛顿 4
       - 🇺🇸 美国俄亥俄州都柏林
+      - 🇺🇸 美国华盛顿 5
+      - 🇺🇸 美国 8
       - 🇬🇧 英国 2
       - 🇺🇦 乌克兰 2
-      - 🇺🇦 乌克兰 3
-      - ""
-      - 🇺🇦 乌克兰 4
-      - 🇯🇵 日本 10
-      - 🇺🇸 美国 9
+      - 🇰🇷 韩国 6
+      - 🇸🇬 上海市浦东新区
+      - 🇨🇳 湖北省武汉市
       - 🇨🇳 湖北省武汉市 2
-      - 🇨🇳 湖北省武汉市 3
-      - 🇸🇬 上海市浦东新区 17
-      - 🇯🇵 日本东京 7
-      - 🇺🇸 美国 10
-      - 🇮🇹 意大利
-      - 🇸🇬 上海市浦东新区 18
-      - 🇸🇬 上海市浦东新区 19
-      - 🇸🇬 上海市浦东新区 20
-      - 🇸🇬 新加坡 10
-      - 🇸🇬 上海市浦东新区 21
-      - 🇸🇬 上海市浦东新区 22
-      - 🇨🇳 湖北省武汉市 4
-      - 🇨🇳 湖北省武汉市 5
-      - 🇸🇬 上海市浦东新区 23
-      - 🇨🇳 湖北省武汉市 6
-      - 🇸🇬 上海市浦东新区 24
-      - 🇨🇳 湖北省武汉市 7
-      - 🇸🇬 上海市浦东新区 25
-      - 🇨🇳 湖北省武汉市 8
-      - 🇸🇬 上海市浦东新区 26
-      - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇸🇬 上海市浦东新区 27
-      - 🇸🇬 上海市浦东新区 28
-      - 🇸🇬 上海市浦东新区 29
-      - 🇨🇳 湖北省武汉市 9
-      - 🇸🇬 上海市浦东新区 30
-      - 🇸🇬 上海市浦东新区 31
-      - 🇨🇳 湖北省武汉市 10
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 湖北省武汉市 11
-      - 🇸🇬 上海市浦东新区 32
-      - 🇸🇬 上海市浦东新区 33
-      - 🇨🇳 湖北省武汉市 12
-      - 🇸🇬 上海市浦东新区 34
-      - 🇸🇬 上海市浦东新区 35
-      - 🇨🇳 湖北省武汉市 13
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 湖北省武汉市 14
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 湖北省武汉市 15
-      - 🇸🇬 上海市浦东新区 36
-      - 🇯🇵 日本 11
-      - 🇯🇵 日本东京 8
-      - 🇯🇵 日本东京 9
-      - 🇯🇵 日本 12
-      - 🇸🇬 新加坡 11
-      - 🇺🇸 美国华盛顿 3
-      - 🇺🇦 乌克兰 5
-      - 🇺🇦 乌克兰 6
-      - 🇺🇦 乌克兰 7
-      - 🇨🇳 湖北省武汉市 16
-      - 🇨🇳 湖北省武汉市 17
-      - 🇨🇳 湖北省武汉市 18
-      - 🇸🇬 上海市浦东新区 37
-      - 欧盟
-      - 🇺🇦 乌克兰 8
-      - 🇨🇳 湖北省武汉市 19
+      - 
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -979,96 +549,59 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
       - 🇰🇷 韩国
-      - 🇯🇵 日本
-      - 🇩🇪 德国
-      - 🇯🇵 日本 2
       - 🇰🇷 韩国首尔
-      - 🇰🇷 韩国首尔 2
+      - 🇯🇵 日本
       - 🇸🇬 新加坡
+      - 🇯🇵 日本东京
+      - 🇰🇷 韩国首尔 2
+      - 🇯🇵 日本 2
       - 🇸🇬 新加坡 2
       - 🇯🇵 日本 3
-      - 🇰🇷 韩国首尔 3
       - 🇸🇬 新加坡 3
-      - 🇯🇵 日本东京
-      - 🇸🇬 新加坡 4
-      - 🇫🇷 法国
-      - 🇸🇬 新加坡 5
-      - 🇺🇸 美国
-      - 🇰🇷 韩国首尔 4
       - 🇯🇵 日本 4
-      - 🇺🇸 美国 2
       - 🇯🇵 日本 5
-      - 🇸🇬 新加坡 6
       - 🇯🇵 日本 6
-      - 🇯🇵 日本 7
+      - 🇫🇷 法国
+      - 🇸🇬 新加坡 4
       - 🇯🇵 日本东京 2
-      - 🇸🇬 新加坡 7
-      - 🇰🇷 韩国 2
-      - 🇰🇷 韩国首尔 5
-      - 🇸🇬 新加坡 8
-      - 🇯🇵 日本东京 3
-      - 🇸🇬 新加坡 9
-      - 🇺🇸 美国 3
-      - 🇸🇬 上海市浦东新区
-      - 🇸🇬 上海市浦东新区 2
-      - 🇸🇬 上海市浦东新区 3
-      - 🇸🇬 上海市浦东新区 4
-      - 🇸🇬 上海市浦东新区 5
-      - 🇸🇬 上海市浦东新区 6
-      - 🇸🇬 上海市浦东新区 7
-      - 🇸🇬 上海市浦东新区 8
-      - 🇸🇬 上海市浦东新区 9
-      - 🇸🇬 上海市浦东新区 10
-      - 🇸🇬 上海市浦东新区 11
-      - 🇸🇬 上海市浦东新区 12
-      - 🇨🇳 湖北省武汉市
-      - 🇸🇬 上海市浦东新区 13
-      - 🇸🇬 上海市浦东新区 14
-      - 🇸🇬 上海市浦东新区 15
-      - 🇸🇬 上海市浦东新区 16
-      - 🇷🇺 俄罗斯
-      - 🇮🇳 印度
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
       - 🇫🇷 法国 2
+      - 🇰🇷 韩国首尔 3
+      - 🇯🇵 日本 7
+      - 🇰🇷 韩国首尔 4
+      - 🇸🇬 新加坡 5
+      - 亚太地区
+      - 🇸🇬 新加坡 6
+      - 🇯🇵 日本 8
+      - 🇸🇬 新加坡 7
+      - 🇯🇵 日本 9
+      - 中国
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 3
+      - 🇯🇵 日本东京 3
+      - 🇨🇳 台湾省桃园市
+      - 🇨🇳 江苏省宿迁市
+      - 🇮🇳 印度
+      - 🇷🇺 俄罗斯
       - 🇫🇷 法国 3
       - 🇫🇷 法国 4
       - 🇬🇧 英国
       - 🇺🇸 美国 4
       - 🇬🇧 英国威尔士加的夫
+      - 🇬🇧 英国威尔士加的夫 2
       - 🇬🇧 英国伦敦
-      - 🇬🇧 英国伦敦 2
-      - 🇬🇧 英国伦敦 3
-      - 🇬🇧 英国伦敦 4
-      - 🇺🇦 乌克兰
-      - 🇭🇰 香港
       - 🇮🇪 爱尔兰
-      - 🇯🇵 日本东京 4
       - 🇺🇸 美国 5
-      - 🇯🇵 日本东京 5
-      - 🇯🇵 日本东京 6
+      - 🇨🇳 安徽省
+      - 🇨🇳 安徽省 2
+      - 🇯🇵 日本东京 4
+      - 🇺🇸 美国 6
+      - 🇰🇷 韩国 2
       - 🇰🇷 韩国 3
       - 🇰🇷 韩国 4
       - 🇰🇷 韩国 5
-      - 🇰🇷 韩国 6
-      - 🇰🇷 韩国 7
-      - 🇰🇷 韩国 8
-      - 🇰🇷 韩国 9
-      - 🇯🇵 日本 8
-      - 🇯🇵 日本 9
-      - 🇰🇷 韩国 10
-      - 🇪🇸 西班牙
-      - 🇪🇸 西班牙 2
-      - 🇪🇸 西班牙 3
-      - 🇪🇸 西班牙 4
-      - 🇪🇸 西班牙 5
       - 🇳🇱 荷兰
       - 🇷🇺 俄罗斯 2
       - 🇷🇺 俄罗斯 3
@@ -1085,86 +618,37 @@ proxy-groups:
       - 🇷🇺 俄罗斯 14
       - 🇷🇺 俄罗斯 15
       - 🇷🇺 俄罗斯 16
-      - 🇺🇸 美国 6
+      - 🇷🇺 俄罗斯 17
+      - 🇷🇺 俄罗斯 18
+      - 🇷🇺 俄罗斯 19
+      - 🇷🇺 俄罗斯 20
+      - 🇸🇪 瑞典斯德哥尔摩
+      - 🇸🇬 新加坡 8
+      - 🇸🇬 新加坡 9
+      - 🇨🇳 北京市
+      - 🇨🇳 北京市 2
+      - 🇸🇬 新加坡 10
+      - 🇺🇦 乌克兰
       - 🇺🇸 美国俄勒冈州波特兰
-      - 🇺🇸 美国俄勒冈州波特兰 2
-      - 🇮🇷 伊朗
-      - 🇮🇷 伊朗 2
-      - 🇺🇸 美国爱荷华州得梅因
+      - 🇨🇳 北京市 3
       - 🇺🇸 美国 7
-      - 🇸🇪 瑞典
+      - 🇨🇳 北京市 4
+      - 🇮🇷 伊朗
       - 🇺🇸 美国华盛顿
       - 🇺🇸 美国华盛顿 2
-      - 🇺🇸 北美地区
-      - 🇺🇸 美国 8
+      - 🇺🇸 美国华盛顿 3
+      - 🇸🇪 瑞典
+      - 🇺🇸 美国华盛顿 4
       - 🇺🇸 美国俄亥俄州都柏林
+      - 🇺🇸 美国华盛顿 5
+      - 🇺🇸 美国 8
       - 🇬🇧 英国 2
       - 🇺🇦 乌克兰 2
-      - 🇺🇦 乌克兰 3
-      - ""
-      - 🇺🇦 乌克兰 4
-      - 🇯🇵 日本 10
-      - 🇺🇸 美国 9
+      - 🇰🇷 韩国 6
+      - 🇸🇬 上海市浦东新区
+      - 🇨🇳 湖北省武汉市
       - 🇨🇳 湖北省武汉市 2
-      - 🇨🇳 湖北省武汉市 3
-      - 🇸🇬 上海市浦东新区 17
-      - 🇯🇵 日本东京 7
-      - 🇺🇸 美国 10
-      - 🇮🇹 意大利
-      - 🇸🇬 上海市浦东新区 18
-      - 🇸🇬 上海市浦东新区 19
-      - 🇸🇬 上海市浦东新区 20
-      - 🇸🇬 新加坡 10
-      - 🇸🇬 上海市浦东新区 21
-      - 🇸🇬 上海市浦东新区 22
-      - 🇨🇳 湖北省武汉市 4
-      - 🇨🇳 湖北省武汉市 5
-      - 🇸🇬 上海市浦东新区 23
-      - 🇨🇳 湖北省武汉市 6
-      - 🇸🇬 上海市浦东新区 24
-      - 🇨🇳 湖北省武汉市 7
-      - 🇸🇬 上海市浦东新区 25
-      - 🇨🇳 湖北省武汉市 8
-      - 🇸🇬 上海市浦东新区 26
-      - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇸🇬 上海市浦东新区 27
-      - 🇸🇬 上海市浦东新区 28
-      - 🇸🇬 上海市浦东新区 29
-      - 🇨🇳 湖北省武汉市 9
-      - 🇸🇬 上海市浦东新区 30
-      - 🇸🇬 上海市浦东新区 31
-      - 🇨🇳 湖北省武汉市 10
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 湖北省武汉市 11
-      - 🇸🇬 上海市浦东新区 32
-      - 🇸🇬 上海市浦东新区 33
-      - 🇨🇳 湖北省武汉市 12
-      - 🇸🇬 上海市浦东新区 34
-      - 🇸🇬 上海市浦东新区 35
-      - 🇨🇳 湖北省武汉市 13
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 湖北省武汉市 14
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 湖北省武汉市 15
-      - 🇸🇬 上海市浦东新区 36
-      - 🇯🇵 日本 11
-      - 🇯🇵 日本东京 8
-      - 🇯🇵 日本东京 9
-      - 🇯🇵 日本 12
-      - 🇸🇬 新加坡 11
-      - 🇺🇸 美国华盛顿 3
-      - 🇺🇦 乌克兰 5
-      - 🇺🇦 乌克兰 6
-      - 🇺🇦 乌克兰 7
-      - 🇨🇳 湖北省武汉市 16
-      - 🇨🇳 湖北省武汉市 17
-      - 🇨🇳 湖北省武汉市 18
-      - 🇸🇬 上海市浦东新区 37
-      - 欧盟
-      - 🇺🇦 乌克兰 8
-      - 🇨🇳 湖北省武汉市 19
+      - 
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
