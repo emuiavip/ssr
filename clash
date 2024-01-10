@@ -5,32 +5,51 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 枭木iOS大本营 TG@Tmxios, server: 51.21.56.211, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
-  - {name: https://t.me/Tmxios, server: 13.112.247.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: P12证书 https://p12.tmxios.top, server: 54.248.151.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 号卡办理 https://10.tmxios.top/, server: 35.93.149.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 公众号：枭木iOS大本营, server: 54.251.138.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 全网低价个人证书, server: 47.243.108.41, port: 10841, type: ss, cipher: aes-256-gcm, password: rUx8mqUsI0}
-  - {name: iOS|轻松签|全能签|P12证书, server: 8.210.231.146, port: 1146, type: ss, cipher: aes-256-gcm, password: jmtgsmW40R}
-  - {name: 定制V信|应用分身|V信密友|破解软件, server: 47.57.232.119, port: 2119, type: ss, cipher: aes-256-gcm, password: 3B9vFTBSlp}
-  - {name: "", server: 2604:2dc0:202:300::b08, port: 443, type: vmess, uuid: 3e1c1355-ffb5-48c3-8e7d-f6be7b8fece4, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇺🇦 乌克兰, server: 94.131.10.135, port: 80, type: vmess, uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
   - {name: 🇨🇳 台湾省彰化县, server: 61.224.107.28, port: 81, type: ss, cipher: aes-128-gcm, password: oiwym4ovI4Yb}
-  - {name: 🇮🇷 伊朗, server: 5.78.74.72, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇹 意大利, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
   - {name: 🇯🇵 日本, server: 43.206.228.166, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本东京, server: 18.176.134.145, port: 36201, type: trojan, password: 565bcb52-5140-457f-8058-dbe9ea8415a1, sni: sg01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本东京 2, server: 18.176.134.145, port: 36116, type: trojan, password: 565bcb52-5140-457f-8058-dbe9ea8415a1, sni: jp01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国, server: 222.112.15.135, port: 2212, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇷🇺 俄罗斯, server: 217.30.10.68, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH}
-  - {name: 🇷🇺 俄罗斯 2, server: 217.30.10.68, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ}
-  - {name: 🇷🇺 俄罗斯 3, server: 217.30.10.68, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9}
-  - {name: 🇸🇪 瑞典, server: 167.88.62.104, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇸🇪 瑞典 2, server: 167.88.62.30, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国, server: 47.236.140.139, port: 8443, type: trojan, password: 28c41bff-d1d0-451f-850e-bdb64412aea2, sni: global.download.synology.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 2, server: 13.43.252.93, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
-  - {name: 🇺🇸 美国 3, server: 64.176.80.213, port: 5001, type: trojan, password: 28c41bff-d1d0-451f-850e-bdb64412aea2, sni: global.download.synology.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 2, server: 43.201.55.242, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 广东省中山市, server: 120.238.118.215, port: 30026, type: ss, cipher: chacha20-ietf-poly1305, password: W2FCCtHLRdyNv54D}
+  - {name: 🇨🇳 广东省江门市, server: 183.240.113.235, port: 30017, type: ss, cipher: chacha20-ietf-poly1305, password: W2FCCtHLRdyNv54D}
+  - {name: 🇨🇳 广东省广州市, server: 120.232.154.190, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: W2FCCtHLRdyNv54D}
+  - {name: 🇨🇳 广东省江门市 2, server: 183.240.113.235, port: 30021, type: ss, cipher: chacha20-ietf-poly1305, password: W2FCCtHLRdyNv54D}
+  - {name: 🇨🇳 广东省中山市 2, server: 120.238.118.215, port: 30028, type: ss, cipher: chacha20-ietf-poly1305, password: W2FCCtHLRdyNv54D}
+  - {name: 🇨🇳 广东省江门市 3, server: 183.240.113.235, port: 30018, type: ss, cipher: chacha20-ietf-poly1305, password: W2FCCtHLRdyNv54D}
+  - {name: 🇨🇳 广东省中山市 3, server: 120.238.118.215, port: 30012, type: ss, cipher: chacha20-ietf-poly1305, password: W2FCCtHLRdyNv54D}
+  - {name: 🇨🇳 广东省中山市 4, server: 120.238.118.215, port: 30031, type: ss, cipher: chacha20-ietf-poly1305, password: W2FCCtHLRdyNv54D}
+  - {name: 🇨🇳 广东省中山市 5, server: 120.238.118.215, port: 30022, type: ss, cipher: chacha20-ietf-poly1305, password: W2FCCtHLRdyNv54D}
+  - {name: 🇬🇧 英国威尔士加的夫, server: 51.142.142.155, port: 5957, type: ss, cipher: chacha20-ietf-poly1305, password: rEFFUsg4pUiF5Olu5VeB3F}
+  - {name: 🇬🇧 英国, server: 158.180.233.211, port: 39052, type: ss, cipher: chacha20-ietf-poly1305, password: af56e507-06a0-4151-b2bc-eb44d4480b4b}
+  - {name: 🇬🇧 英国威尔士加的夫 2, server: 51.142.158.58, port: 63072, type: ss, cipher: chacha20-ietf-poly1305, password: 2qgjrMVVbwYdNd3FtvttsL}
+  - {name: 🇨🇳 浙江省, server: 220.195.133.223, port: 19901, type: vmess, uuid: 47a6b26b-f575-32e9-91e7-759c961c3a99, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国, server: 203.234.238.136, port: 58023, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇷🇺 俄罗斯, server: 217.30.10.68, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
+  - {name: 🇷🇺 俄罗斯 2, server: 217.30.10.68, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX}
+  - {name: 🇷🇺 俄罗斯 3, server: 217.30.10.68, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY}
+  - {name: 🇷🇺 俄罗斯 4, server: 217.30.10.68, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y}
+  - {name: 🇷🇺 俄罗斯 5, server: 217.30.10.68, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
+  - {name: 🇺🇸 美国俄勒冈州波特兰, server: 34.222.2.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇮🇷 伊朗, server: 5.78.74.72, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国, server: 13.43.252.93, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
+  - {name: 🇺🇸 美国华盛顿, server: 38.54.108.110, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇸🇪 瑞典, server: 167.88.62.30, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇺🇸 美国俄亥俄州都柏林, server: 18.218.239.120, port: 36326, type: ss, cipher: chacha20-ietf-poly1305, password: H6cSTf8vDbVH1cpnrAxFj2}
+  - {name: 🇸🇪 瑞典 2, server: 167.88.62.104, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇯🇵 日本 3, server: 43.201.253.222, port: 26540, type: vmess, uuid: c841c903-7657-41f7-bf55-b41dd9456179, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /c841c903-7657-41f7-bf55-b41dd9456179}}
+  - {name: 🇺🇸 美国 2, server: 172.233.198.31, port: 80, type: vmess, uuid: 63fea823-33d5-457b-9189-133efacbbcd4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇯🇵 日本 4, server: 43.201.103.12, port: 29930, type: vmess, uuid: f46b2e2a-e02c-437a-833c-023410840a80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /f46b2e2a-e02c-437a-833c-023410840a80}}
+  - {name: , server: 2606:4700:3033::6815:4758, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v149-dskds65, headers: {Host: us4e-swapspace.v2freevpn.com}}}
+  - {name: 🇺🇸 美国 3, server: 47.236.140.139, port: 8443, type: trojan, password: 28c41bff-d1d0-451f-850e-bdb64412aea2, sni: global.download.synology.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省江门市 4, server: 183.240.113.235, port: 30020, type: ss, cipher: chacha20-ietf-poly1305, password: W2FCCtHLRdyNv54D}
+  - {name: 🇮🇹 意大利, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+  - {name:  2, server: 2604:2dc0:202:300::b08, port: 443, type: vmess, uuid: 3e1c1355-ffb5-48c3-8e7d-f6be7b8fece4, alterId: 0, cipher: auto, tls: true, servername: vps-837611db.vps.ovh.us}
+  - {name: 🇨🇳 广东省广州市 2, server: 183.236.51.6, port: 10808, type: trojan, password: 4d975328-dc7d-4434-a7db-e23188cf9589, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 3, server: 183.236.51.7, port: 10827, type: trojan, password: 4d975328-dc7d-4434-a7db-e23188cf9589, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 4, server: 183.236.51.7, port: 10834, type: trojan, password: 4d975328-dc7d-4434-a7db-e23188cf9589, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 5, server: 183.236.51.7, port: 10840, type: trojan, password: 4d975328-dc7d-4434-a7db-e23188cf9589, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 6, server: 183.236.51.7, port: 10829, type: trojan, password: 4d975328-dc7d-4434-a7db-e23188cf9589, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 7, server: 183.236.51.6, port: 10801, type: trojan, password: 4d975328-dc7d-4434-a7db-e23188cf9589, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇦 乌克兰, server: 94.131.10.135, port: 80, type: vmess, uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇸🇬 新加坡, server: 13.212.206.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -39,127 +58,203 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - ""
-      - 🇺🇦 乌克兰
       - 🇨🇳 台湾省彰化县
-      - 🇮🇷 伊朗
-      - 🇮🇹 意大利
       - 🇯🇵 日本
-      - 🇯🇵 日本东京
-      - 🇯🇵 日本东京 2
+      - 🇯🇵 日本 2
+      - 🇨🇳 广东省中山市
+      - 🇨🇳 广东省江门市
+      - 🇨🇳 广东省广州市
+      - 🇨🇳 广东省江门市 2
+      - 🇨🇳 广东省中山市 2
+      - 🇨🇳 广东省江门市 3
+      - 🇨🇳 广东省中山市 3
+      - 🇨🇳 广东省中山市 4
+      - 🇨🇳 广东省中山市 5
+      - 🇬🇧 英国威尔士加的夫
+      - 🇬🇧 英国
+      - 🇬🇧 英国威尔士加的夫 2
+      - 🇨🇳 浙江省
       - 🇰🇷 韩国
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
       - 🇷🇺 俄罗斯 3
-      - 🇸🇪 瑞典
-      - 🇸🇪 瑞典 2
+      - 🇷🇺 俄罗斯 4
+      - 🇷🇺 俄罗斯 5
+      - 🇺🇸 美国俄勒冈州波特兰
+      - 🇮🇷 伊朗
       - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
+      - 🇺🇸 美国华盛顿
+      - 🇸🇪 瑞典
       - 🇺🇸 美国俄亥俄州都柏林
+      - 🇸🇪 瑞典 2
+      - 🇯🇵 日本 3
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本 4
+      - 
+      - 🇺🇸 美国 3
+      - 🇨🇳 广东省江门市 4
+      - 🇮🇹 意大利
+      -  2
+      - 🇨🇳 广东省广州市 2
+      - 🇨🇳 广东省广州市 3
+      - 🇨🇳 广东省广州市 4
+      - 🇨🇳 广东省广州市 5
+      - 🇨🇳 广东省广州市 6
+      - 🇨🇳 广东省广州市 7
+      - 🇺🇦 乌克兰
+      - 🇸🇬 新加坡
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - ""
-      - 🇺🇦 乌克兰
       - 🇨🇳 台湾省彰化县
-      - 🇮🇷 伊朗
-      - 🇮🇹 意大利
       - 🇯🇵 日本
-      - 🇯🇵 日本东京
-      - 🇯🇵 日本东京 2
+      - 🇯🇵 日本 2
+      - 🇨🇳 广东省中山市
+      - 🇨🇳 广东省江门市
+      - 🇨🇳 广东省广州市
+      - 🇨🇳 广东省江门市 2
+      - 🇨🇳 广东省中山市 2
+      - 🇨🇳 广东省江门市 3
+      - 🇨🇳 广东省中山市 3
+      - 🇨🇳 广东省中山市 4
+      - 🇨🇳 广东省中山市 5
+      - 🇬🇧 英国威尔士加的夫
+      - 🇬🇧 英国
+      - 🇬🇧 英国威尔士加的夫 2
+      - 🇨🇳 浙江省
       - 🇰🇷 韩国
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
       - 🇷🇺 俄罗斯 3
-      - 🇸🇪 瑞典
-      - 🇸🇪 瑞典 2
+      - 🇷🇺 俄罗斯 4
+      - 🇷🇺 俄罗斯 5
+      - 🇺🇸 美国俄勒冈州波特兰
+      - 🇮🇷 伊朗
       - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
+      - 🇺🇸 美国华盛顿
+      - 🇸🇪 瑞典
       - 🇺🇸 美国俄亥俄州都柏林
+      - 🇸🇪 瑞典 2
+      - 🇯🇵 日本 3
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本 4
+      - 
+      - 🇺🇸 美国 3
+      - 🇨🇳 广东省江门市 4
+      - 🇮🇹 意大利
+      -  2
+      - 🇨🇳 广东省广州市 2
+      - 🇨🇳 广东省广州市 3
+      - 🇨🇳 广东省广州市 4
+      - 🇨🇳 广东省广州市 5
+      - 🇨🇳 广东省广州市 6
+      - 🇨🇳 广东省广州市 7
+      - 🇺🇦 乌克兰
+      - 🇸🇬 新加坡
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - ""
-      - 🇺🇦 乌克兰
       - 🇨🇳 台湾省彰化县
-      - 🇮🇷 伊朗
-      - 🇮🇹 意大利
       - 🇯🇵 日本
-      - 🇯🇵 日本东京
-      - 🇯🇵 日本东京 2
+      - 🇯🇵 日本 2
+      - 🇨🇳 广东省中山市
+      - 🇨🇳 广东省江门市
+      - 🇨🇳 广东省广州市
+      - 🇨🇳 广东省江门市 2
+      - 🇨🇳 广东省中山市 2
+      - 🇨🇳 广东省江门市 3
+      - 🇨🇳 广东省中山市 3
+      - 🇨🇳 广东省中山市 4
+      - 🇨🇳 广东省中山市 5
+      - 🇬🇧 英国威尔士加的夫
+      - 🇬🇧 英国
+      - 🇬🇧 英国威尔士加的夫 2
+      - 🇨🇳 浙江省
       - 🇰🇷 韩国
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
       - 🇷🇺 俄罗斯 3
-      - 🇸🇪 瑞典
-      - 🇸🇪 瑞典 2
+      - 🇷🇺 俄罗斯 4
+      - 🇷🇺 俄罗斯 5
+      - 🇺🇸 美国俄勒冈州波特兰
+      - 🇮🇷 伊朗
       - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
+      - 🇺🇸 美国华盛顿
+      - 🇸🇪 瑞典
       - 🇺🇸 美国俄亥俄州都柏林
+      - 🇸🇪 瑞典 2
+      - 🇯🇵 日本 3
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本 4
+      - 
+      - 🇺🇸 美国 3
+      - 🇨🇳 广东省江门市 4
+      - 🇮🇹 意大利
+      -  2
+      - 🇨🇳 广东省广州市 2
+      - 🇨🇳 广东省广州市 3
+      - 🇨🇳 广东省广州市 4
+      - 🇨🇳 广东省广州市 5
+      - 🇨🇳 广东省广州市 6
+      - 🇨🇳 广东省广州市 7
+      - 🇺🇦 乌克兰
+      - 🇸🇬 新加坡
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - ""
-      - 🇺🇦 乌克兰
       - 🇨🇳 台湾省彰化县
-      - 🇮🇷 伊朗
-      - 🇮🇹 意大利
       - 🇯🇵 日本
-      - 🇯🇵 日本东京
-      - 🇯🇵 日本东京 2
+      - 🇯🇵 日本 2
+      - 🇨🇳 广东省中山市
+      - 🇨🇳 广东省江门市
+      - 🇨🇳 广东省广州市
+      - 🇨🇳 广东省江门市 2
+      - 🇨🇳 广东省中山市 2
+      - 🇨🇳 广东省江门市 3
+      - 🇨🇳 广东省中山市 3
+      - 🇨🇳 广东省中山市 4
+      - 🇨🇳 广东省中山市 5
+      - 🇬🇧 英国威尔士加的夫
+      - 🇬🇧 英国
+      - 🇬🇧 英国威尔士加的夫 2
+      - 🇨🇳 浙江省
       - 🇰🇷 韩国
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
       - 🇷🇺 俄罗斯 3
-      - 🇸🇪 瑞典
-      - 🇸🇪 瑞典 2
+      - 🇷🇺 俄罗斯 4
+      - 🇷🇺 俄罗斯 5
+      - 🇺🇸 美国俄勒冈州波特兰
+      - 🇮🇷 伊朗
       - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
+      - 🇺🇸 美国华盛顿
+      - 🇸🇪 瑞典
       - 🇺🇸 美国俄亥俄州都柏林
+      - 🇸🇪 瑞典 2
+      - 🇯🇵 日本 3
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本 4
+      - 
+      - 🇺🇸 美国 3
+      - 🇨🇳 广东省江门市 4
+      - 🇮🇹 意大利
+      -  2
+      - 🇨🇳 广东省广州市 2
+      - 🇨🇳 广东省广州市 3
+      - 🇨🇳 广东省广州市 4
+      - 🇨🇳 广东省广州市 5
+      - 🇨🇳 广东省广州市 6
+      - 🇨🇳 广东省广州市 7
+      - 🇺🇦 乌克兰
+      - 🇸🇬 新加坡
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -179,32 +274,51 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - ""
-      - 🇺🇦 乌克兰
       - 🇨🇳 台湾省彰化县
-      - 🇮🇷 伊朗
-      - 🇮🇹 意大利
       - 🇯🇵 日本
-      - 🇯🇵 日本东京
-      - 🇯🇵 日本东京 2
+      - 🇯🇵 日本 2
+      - 🇨🇳 广东省中山市
+      - 🇨🇳 广东省江门市
+      - 🇨🇳 广东省广州市
+      - 🇨🇳 广东省江门市 2
+      - 🇨🇳 广东省中山市 2
+      - 🇨🇳 广东省江门市 3
+      - 🇨🇳 广东省中山市 3
+      - 🇨🇳 广东省中山市 4
+      - 🇨🇳 广东省中山市 5
+      - 🇬🇧 英国威尔士加的夫
+      - 🇬🇧 英国
+      - 🇬🇧 英国威尔士加的夫 2
+      - 🇨🇳 浙江省
       - 🇰🇷 韩国
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
       - 🇷🇺 俄罗斯 3
-      - 🇸🇪 瑞典
-      - 🇸🇪 瑞典 2
+      - 🇷🇺 俄罗斯 4
+      - 🇷🇺 俄罗斯 5
+      - 🇺🇸 美国俄勒冈州波特兰
+      - 🇮🇷 伊朗
       - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
+      - 🇺🇸 美国华盛顿
+      - 🇸🇪 瑞典
       - 🇺🇸 美国俄亥俄州都柏林
+      - 🇸🇪 瑞典 2
+      - 🇯🇵 日本 3
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本 4
+      - 
+      - 🇺🇸 美国 3
+      - 🇨🇳 广东省江门市 4
+      - 🇮🇹 意大利
+      -  2
+      - 🇨🇳 广东省广州市 2
+      - 🇨🇳 广东省广州市 3
+      - 🇨🇳 广东省广州市 4
+      - 🇨🇳 广东省广州市 5
+      - 🇨🇳 广东省广州市 6
+      - 🇨🇳 广东省广州市 7
+      - 🇺🇦 乌克兰
+      - 🇸🇬 新加坡
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
