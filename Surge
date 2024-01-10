@@ -21,62 +21,59 @@ P12证书 https://p12.tmxios.top = ss, 54.248.151.131, 443, encrypt-method=aes-2
 全网低价个人证书 = ss, 47.243.108.41, 10841, encrypt-method=aes-256-gcm, password=rUx8mqUsI0
 iOS|轻松签|全能签|P12证书 = ss, 8.210.231.146, 1146, encrypt-method=aes-256-gcm, password=jmtgsmW40R
 定制V信|应用分身|V信密友|破解软件 = ss, 47.57.232.119, 2119, encrypt-method=aes-256-gcm, password=3B9vFTBSlp
-🇯🇵 日本 = ss, 43.201.64.47, 443, encrypt-method=aes-256-cfb, password=amazonskr05
-🇸🇬 新加坡 = ss, 13.212.206.130, 443, encrypt-method=aes-256-cfb, password=amazonskr05
-🇨🇳 台湾省 = ss, 118.165.34.124, 9443, encrypt-method=chacha20-ietf-poly1305, password=d3f5c39d-610c-4b98-9b01-d5b847033cf9
-🇨🇳 台湾省 2 = ss, 125.224.144.202, 3234, encrypt-method=chacha20-ietf-poly1305, password=d3f5c39d-610c-4b98-9b01-d5b847033cf9
-🇸🇬 上海市浦东新区 = ss, 61.171.69.155, 30011, encrypt-method=chacha20-ietf-poly1305, password=hmJnptZXmGBLeYIM
-🇸🇬 上海市浦东新区 2 = ss, 61.171.69.155, 30030, encrypt-method=chacha20-ietf-poly1305, password=hmJnptZXmGBLeYIM
-🇷🇺 俄罗斯 = ss, 80.92.204.106, 9094, encrypt-method=aes-256-cfb, password=rpgbNnU9rDDU4aWZ
-🇫🇷 法国 = ss, 195.154.169.198, 989, encrypt-method=aes-256-cfb, password=f8f7aCzcPKbsF8p3
-🇫🇷 法国 2 = ss, 195.154.185.174, 989, encrypt-method=aes-256-cfb, password=f8f7aCzcPKbsF8p3
-🇺🇸 美国 = ss, 18.171.194.178, 443, encrypt-method=chacha20-ietf-poly1305, password=Bog0ELmMM9DSxDdQ
-🇺🇸 美国 2 = ss, 64.227.144.190, 50690, encrypt-method=chacha20-ietf-poly1305, password=GWLjDp55ASoP82uSP0Ec8n
-🇺🇸 美国 3 = vmess, 62.60.131.238, 12888, username=66214d78-b33c-459a-a7b9-e50ab19d16b9, tls=false, vmess-aead=true
-🇰🇷 韩国 = ss, 221.150.109.14, 58023, encrypt-method=aes-256-cfb, password=qwerREWQ@@
-🇰🇷 韩国 2 = ss, 125.141.26.10, 59084, encrypt-method=aes-256-cfb, password=qwerREWQ@@
+🇯🇵 日本 = ss, 43.202.52.93, 443, encrypt-method=aes-256-cfb, password=amazonskr05
+🇯🇵 日本 2 = ss, 43.201.64.47, 443, encrypt-method=aes-256-cfb, password=amazonskr05
+🇸🇬 新加坡 = ss, 13.250.25.60, 443, encrypt-method=aes-256-cfb, password=amazonskr05
+🇯🇵 日本 3 = ss, 43.200.254.135, 443, encrypt-method=aes-256-cfb, password=amazonskr05
+🇨🇳 台湾省南投县 = ss, 36.232.152.189, 3234, encrypt-method=chacha20-ietf-poly1305, password=d3f5c39d-610c-4b98-9b01-d5b847033cf9
+🇨🇳 台湾省 = ss, 118.165.35.2, 6543, encrypt-method=chacha20-ietf-poly1305, password=d3f5c39d-610c-4b98-9b01-d5b847033cf9
+🇩🇪 德国 = ss, 5.252.25.138, 43056, encrypt-method=aes-256-gcm, password=vBu488RJrA
+🇩🇪 德国 2 = ss, 5.252.25.138, 13916, encrypt-method=aes-256-gcm, password=52qV8DLPVB
+🇬🇧 英国威尔士加的夫 = ss, 51.142.158.58, 63072, encrypt-method=chacha20-ietf-poly1305, password=2qgjrMVVbwYdNd3FtvttsL
+🇮🇪 爱尔兰 = ss, 54.171.29.16, 443, encrypt-method=chacha20-ietf-poly1305, password=YRLEc4AxMgtwPOrnAr3Yoj
+🇺🇸 美国 = ss, 52.194.252.137, 443, encrypt-method=aes-256-cfb, password=amazonskr05
+🇯🇵 日本 4 = ss, 43.201.255.57, 443, encrypt-method=aes-256-cfb, password=amazonskr05
+🇰🇷 韩国 = ss, 221.150.109.74, 4398, encrypt-method=aes-256-cfb, password=qwerREWQ@@
+🇰🇷 韩国 2 = ss, 221.150.109.12, 2003, encrypt-method=aes-256-cfb, password=qwerREWQ@@
 🇰🇷 韩国 3 = ss, 221.150.109.72, 59084, encrypt-method=aes-256-cfb, password=qwerREWQ@@
-🇷🇺 俄罗斯 2 = ss, 78.153.139.8, 60820, encrypt-method=chacha20-ietf-poly1305, password=OQuXihlYyKmQOr5WLvsBdj
-🇷🇺 俄罗斯 3 = ss, 217.30.10.68, 9053, encrypt-method=aes-256-cfb, password=SBM7R883jBmnqe6C
-🇷🇺 俄罗斯 4 = ss, 217.30.10.68, 9097, encrypt-method=aes-256-cfb, password=Sn5B7jTqr76aCJT8
-🇷🇺 俄罗斯 5 = ss, 217.30.10.68, 9038, encrypt-method=aes-256-cfb, password=gYCYXfkUQEs2TaJQ
-🇷🇺 俄罗斯 6 = ss, 217.30.10.68, 9007, encrypt-method=aes-256-cfb, password=kSPmvwdFzGMMW5pY
+🇷🇺 俄罗斯 = ss, 217.30.10.68, 9019, encrypt-method=aes-256-cfb, password=GA9KzeEgvfxNrgmM
+🇷🇺 俄罗斯 2 = ss, 217.30.10.68, 9026, encrypt-method=aes-256-cfb, password=QWDDvVE9npNurQfA
+🇷🇺 俄罗斯 3 = ss, 217.30.10.68, 9005, encrypt-method=aes-256-cfb, password=ZET59LF6DvCC8KVt
+🇷🇺 俄罗斯 4 = ss, 217.30.10.68, 9010, encrypt-method=aes-256-cfb, password=f63gg8EruDnUrmz4
+🇷🇺 俄罗斯 5 = ss, 217.30.10.68, 9043, encrypt-method=aes-256-cfb, password=HSZuyJQcWe8dxNdF
+🇷🇺 俄罗斯 6 = ss, 217.30.10.68, 9031, encrypt-method=aes-256-cfb, password=BwcAUZk8hUFAkDGN
 🇷🇺 俄罗斯 7 = ss, 217.30.10.68, 9073, encrypt-method=aes-256-cfb, password=daFYagqDdBdA6VTX
-🇷🇺 俄罗斯 8 = ss, 217.30.10.68, 9027, encrypt-method=aes-256-cfb, password=EXN3S3eQpjE7EJu8
-🇷🇺 俄罗斯 9 = ss, 217.30.10.68, 9000, encrypt-method=aes-256-cfb, password=a3GFYt36Sm82Vys9
-🇷🇺 俄罗斯 10 = ss, 185.221.153.52, 51348, encrypt-method=chacha20-ietf-poly1305, password=60YdJUHXeRYDUSqgXg433w3EB4ttY79H8KKBSqnJct6qFYJ5
-🇺🇸 美国华盛顿 = ss, 38.68.135.112, 5500, encrypt-method=aes-256-gcm, password=KixLvKzwjekG00rm
-🇺🇸 美国华盛顿 2 = ss, 38.68.135.112, 9101, encrypt-method=aes-256-gcm, password=e4FCWrgpkji3QY
+🇷🇺 俄罗斯 8 = ss, 217.30.10.68, 9093, encrypt-method=aes-256-cfb, password=wfLC2y7rzZyCmuyt
+🇷🇺 俄罗斯 9 = ss, 217.30.10.68, 9070, encrypt-method=aes-256-cfb, password=bf7v334KKDV3YDhH
+🇷🇺 俄罗斯 10 = ss, 217.30.10.68, 9038, encrypt-method=aes-256-cfb, password=gYCYXfkUQEs2TaJQ
+🇷🇺 俄罗斯 11 = ss, 217.30.10.68, 9007, encrypt-method=aes-256-cfb, password=kSPmvwdFzGMMW5pY
+🇷🇺 俄罗斯 12 = ss, 217.30.10.68, 9057, encrypt-method=aes-256-cfb, password=wjTugX3ZtHMB9c3Z
+🇸🇬 新加坡 2 = ss, 13.213.1.132, 443, encrypt-method=aes-256-cfb, password=amazonskr05
+🇸🇬 新加坡 3 = ss, 13.212.90.5, 443, encrypt-method=aes-256-cfb, password=amazonskr05
+🇨🇳 台湾省彰化县 = vmess, 36.233.233.240, 6122, username=d3f5c39d-610c-4b98-9b01-d5b847033cf9, tls=false, vmess-aead=true
+🇺🇸 美国俄勒冈州波特兰 = ss, 34.222.2.189, 443, encrypt-method=aes-256-cfb, password=amazonskr05
+🇺🇸 美国 2 = vmess, 35.87.209.22, 13489, username=61761e55-dff5-4f94-f75f-b0a4718bba98, tls=false, vmess-aead=true
 🇮🇷 伊朗 = vmess, 5.78.74.72, 3389, username=9c050a86-d612-48f1-ec32-e573df08a1b7, tls=false, vmess-aead=true
-🇺🇸 美国 4 = ss, 13.43.148.188, 443, encrypt-method=chacha20-ietf-poly1305, password=Bog0ELmMM9DSxDdQ
+🇸🇪 瑞典 = ss, 167.88.62.30, 8090, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27
+🇸🇪 瑞典 2 = ss, 167.88.62.104, 2376, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7
 🇺🇸 美国俄亥俄州都柏林 = ss, 18.218.239.120, 36326, encrypt-method=chacha20-ietf-poly1305, password=H6cSTf8vDbVH1cpnrAxFj2
-🇻🇳 越南 = vmess, 125.212.231.79, 80, username=bb4170c1-509b-4bb8-ac94-37f90f90b84d, tls=false, vmess-aead=true, ws=true, ws-path=/VPNDATA.xYx, sni=125.212.231.79
+🇺🇸 美国华盛顿 = ss, 38.54.108.110, 6679, encrypt-method=aes-256-gcm, password=TEzjfAYq2IjtuoS
+🇺🇸 美国 3 = trojan, 47.236.140.139, 8443, password=28c41bff-d1d0-451f-850e-bdb64412aea2, sni=global.download.synology.com, skip-cert-verify=true
+🇯🇵 日本东京 = ss, 13.230.96.57, 443, encrypt-method=aes-256-cfb, password=amazonskr05
 🇮🇹 意大利 = ss, 212.102.47.198, 443, encrypt-method=aes-128-cfb, password=shadowsocks
-🇨🇳 广东省广州市 = trojan, 183.236.51.6, 10807, password=c31aa3bd-148f-47cd-a8f2-f5e1ca84f649, sni=cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify=true
-🇨🇳 广东省广州市 2 = trojan, 183.236.51.6, 10804, password=ab008897-edfa-41e4-9122-e56b9464c08e, sni=cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify=true
-🇨🇳 广东省广州市 3 = trojan, 183.236.51.6, 10811, password=ab008897-edfa-41e4-9122-e56b9464c08e, sni=cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify=true
-🇨🇳 广东省广州市 4 = trojan, 183.236.51.6, 10808, password=c31aa3bd-148f-47cd-a8f2-f5e1ca84f649, sni=cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify=true
-🇨🇳 广东省广州市 5 = trojan, 183.236.51.6, 10829, password=c31aa3bd-148f-47cd-a8f2-f5e1ca84f649, sni=cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify=true
-🇨🇳 广东省广州市 6 = trojan, 183.236.51.6, 10802, password=c31aa3bd-148f-47cd-a8f2-f5e1ca84f649, sni=cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify=true
-🇨🇳 广东省广州市 7 = trojan, 183.236.51.6, 10806, password=c31aa3bd-148f-47cd-a8f2-f5e1ca84f649, sni=cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify=true
-🇨🇳 广东省广州市 8 = trojan, 183.236.51.6, 10820, password=ab008897-edfa-41e4-9122-e56b9464c08e, sni=cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify=true
-🇨🇳 广东省广州市 9 = trojan, 183.236.51.7, 10840, password=ab008897-edfa-41e4-9122-e56b9464c08e, sni=cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify=true
-🇨🇳 广东省广州市 10 = trojan, 183.236.51.6, 10822, password=c31aa3bd-148f-47cd-a8f2-f5e1ca84f649, sni=cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify=true
-🇨🇳 广东省广州市 11 = trojan, 183.236.51.6, 10827, password=c31aa3bd-148f-47cd-a8f2-f5e1ca84f649, sni=cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify=true
-🇨🇳 广东省广州市 12 = trojan, 183.236.51.6, 10828, password=c31aa3bd-148f-47cd-a8f2-f5e1ca84f649, sni=cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify=true
-🇯🇵 日本东京 = ss, 13.231.210.254, 443, encrypt-method=aes-256-cfb, password=amazonskr05
-🇯🇵 日本 2 = ss, 43.200.254.135, 443, encrypt-method=aes-256-cfb, password=amazonskr05
-🇺🇸 美国 5 = vmess, 15.204.245.168, 51574, username=c0393889-0a0f-47d6-ba43-fe38a7f23d92, tls=false, vmess-aead=true
+ = vmess, 2604:2dc0:202:300::b08, 443, username=3e1c1355-ffb5-48c3-8e7d-f6be7b8fece4, tls=true, vmess-aead=true
+🇯🇵 日本 5 = trojan, 54.199.149.136, 20230, password=ad9a59fe-b588-47ae-b55a-634ac0eeea79, sni=421421.xyz, skip-cert-verify=true
 🇰🇷 韩国 4 = ss, 125.141.31.99, 34642, encrypt-method=aes-256-cfb, password=qwerREWQ@@
+🇺🇦 乌克兰 = vmess, 94.131.10.135, 80, username=099b5b7a-9d71-43cd-80e3-b8fbe1cc2695, tls=false, vmess-aead=true, ws=true, ws-path=/vmess, sni=94.131.10.135
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,🔯 故障转移,🔮 负载均衡,DIRECT,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇯🇵 日本,🇸🇬 新加坡,🇨🇳 台湾省,🇨🇳 台湾省 2,🇸🇬 上海市浦东新区,🇸🇬 上海市浦东新区 2,🇷🇺 俄罗斯,🇫🇷 法国,🇫🇷 法国 2,🇺🇸 美国,🇺🇸 美国 2,🇺🇸 美国 3,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇷🇺 俄罗斯 2,🇷🇺 俄罗斯 3,🇷🇺 俄罗斯 4,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇷🇺 俄罗斯 8,🇷🇺 俄罗斯 9,🇷🇺 俄罗斯 10,🇺🇸 美国华盛顿,🇺🇸 美国华盛顿 2,🇮🇷 伊朗,🇺🇸 美国 4,🇺🇸 美国俄亥俄州都柏林,🇻🇳 越南,🇮🇹 意大利,🇨🇳 广东省广州市,🇨🇳 广东省广州市 2,🇨🇳 广东省广州市 3,🇨🇳 广东省广州市 4,🇨🇳 广东省广州市 5,🇨🇳 广东省广州市 6,🇨🇳 广东省广州市 7,🇨🇳 广东省广州市 8,🇨🇳 广东省广州市 9,🇨🇳 广东省广州市 10,🇨🇳 广东省广州市 11,🇨🇳 广东省广州市 12,🇯🇵 日本东京,🇯🇵 日本 2,🇺🇸 美国 5,🇰🇷 韩国 4
-♻️ 自动选择 = url-test,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇯🇵 日本,🇸🇬 新加坡,🇨🇳 台湾省,🇨🇳 台湾省 2,🇸🇬 上海市浦东新区,🇸🇬 上海市浦东新区 2,🇷🇺 俄罗斯,🇫🇷 法国,🇫🇷 法国 2,🇺🇸 美国,🇺🇸 美国 2,🇺🇸 美国 3,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇷🇺 俄罗斯 2,🇷🇺 俄罗斯 3,🇷🇺 俄罗斯 4,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇷🇺 俄罗斯 8,🇷🇺 俄罗斯 9,🇷🇺 俄罗斯 10,🇺🇸 美国华盛顿,🇺🇸 美国华盛顿 2,🇮🇷 伊朗,🇺🇸 美国 4,🇺🇸 美国俄亥俄州都柏林,🇻🇳 越南,🇮🇹 意大利,🇨🇳 广东省广州市,🇨🇳 广东省广州市 2,🇨🇳 广东省广州市 3,🇨🇳 广东省广州市 4,🇨🇳 广东省广州市 5,🇨🇳 广东省广州市 6,🇨🇳 广东省广州市 7,🇨🇳 广东省广州市 8,🇨🇳 广东省广州市 9,🇨🇳 广东省广州市 10,🇨🇳 广东省广州市 11,🇨🇳 广东省广州市 12,🇯🇵 日本东京,🇯🇵 日本 2,🇺🇸 美国 5,🇰🇷 韩国 4,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
-🔯 故障转移 = fallback,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇯🇵 日本,🇸🇬 新加坡,🇨🇳 台湾省,🇨🇳 台湾省 2,🇸🇬 上海市浦东新区,🇸🇬 上海市浦东新区 2,🇷🇺 俄罗斯,🇫🇷 法国,🇫🇷 法国 2,🇺🇸 美国,🇺🇸 美国 2,🇺🇸 美国 3,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇷🇺 俄罗斯 2,🇷🇺 俄罗斯 3,🇷🇺 俄罗斯 4,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇷🇺 俄罗斯 8,🇷🇺 俄罗斯 9,🇷🇺 俄罗斯 10,🇺🇸 美国华盛顿,🇺🇸 美国华盛顿 2,🇮🇷 伊朗,🇺🇸 美国 4,🇺🇸 美国俄亥俄州都柏林,🇻🇳 越南,🇮🇹 意大利,🇨🇳 广东省广州市,🇨🇳 广东省广州市 2,🇨🇳 广东省广州市 3,🇨🇳 广东省广州市 4,🇨🇳 广东省广州市 5,🇨🇳 广东省广州市 6,🇨🇳 广东省广州市 7,🇨🇳 广东省广州市 8,🇨🇳 广东省广州市 9,🇨🇳 广东省广州市 10,🇨🇳 广东省广州市 11,🇨🇳 广东省广州市 12,🇯🇵 日本东京,🇯🇵 日本 2,🇺🇸 美国 5,🇰🇷 韩国 4,url=http://www.gstatic.com/generate_204,interval=180
-🔮 负载均衡 = load-balance,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇯🇵 日本,🇸🇬 新加坡,🇨🇳 台湾省,🇨🇳 台湾省 2,🇸🇬 上海市浦东新区,🇸🇬 上海市浦东新区 2,🇷🇺 俄罗斯,🇫🇷 法国,🇫🇷 法国 2,🇺🇸 美国,🇺🇸 美国 2,🇺🇸 美国 3,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇷🇺 俄罗斯 2,🇷🇺 俄罗斯 3,🇷🇺 俄罗斯 4,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇷🇺 俄罗斯 8,🇷🇺 俄罗斯 9,🇷🇺 俄罗斯 10,🇺🇸 美国华盛顿,🇺🇸 美国华盛顿 2,🇮🇷 伊朗,🇺🇸 美国 4,🇺🇸 美国俄亥俄州都柏林,🇻🇳 越南,🇮🇹 意大利,🇨🇳 广东省广州市,🇨🇳 广东省广州市 2,🇨🇳 广东省广州市 3,🇨🇳 广东省广州市 4,🇨🇳 广东省广州市 5,🇨🇳 广东省广州市 6,🇨🇳 广东省广州市 7,🇨🇳 广东省广州市 8,🇨🇳 广东省广州市 9,🇨🇳 广东省广州市 10,🇨🇳 广东省广州市 11,🇨🇳 广东省广州市 12,🇯🇵 日本东京,🇯🇵 日本 2,🇺🇸 美国 5,🇰🇷 韩国 4,url=http://www.gstatic.com/generate_204,interval=180
+🚀 节点选择 = select,♻️ 自动选择,🔯 故障转移,🔮 负载均衡,DIRECT,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇯🇵 日本,🇯🇵 日本 2,🇸🇬 新加坡,🇯🇵 日本 3,🇨🇳 台湾省南投县,🇨🇳 台湾省,🇩🇪 德国,🇩🇪 德国 2,🇬🇧 英国威尔士加的夫,🇮🇪 爱尔兰,🇺🇸 美国,🇯🇵 日本 4,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇷🇺 俄罗斯,🇷🇺 俄罗斯 2,🇷🇺 俄罗斯 3,🇷🇺 俄罗斯 4,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇷🇺 俄罗斯 8,🇷🇺 俄罗斯 9,🇷🇺 俄罗斯 10,🇷🇺 俄罗斯 11,🇷🇺 俄罗斯 12,🇸🇬 新加坡 2,🇸🇬 新加坡 3,🇨🇳 台湾省彰化县,🇺🇸 美国俄勒冈州波特兰,🇺🇸 美国 2,🇮🇷 伊朗,🇸🇪 瑞典,🇸🇪 瑞典 2,🇺🇸 美国俄亥俄州都柏林,🇺🇸 美国华盛顿,🇺🇸 美国 3,🇯🇵 日本东京,🇮🇹 意大利,,🇯🇵 日本 5,🇰🇷 韩国 4,🇺🇦 乌克兰
+♻️ 自动选择 = url-test,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇯🇵 日本,🇯🇵 日本 2,🇸🇬 新加坡,🇯🇵 日本 3,🇨🇳 台湾省南投县,🇨🇳 台湾省,🇩🇪 德国,🇩🇪 德国 2,🇬🇧 英国威尔士加的夫,🇮🇪 爱尔兰,🇺🇸 美国,🇯🇵 日本 4,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇷🇺 俄罗斯,🇷🇺 俄罗斯 2,🇷🇺 俄罗斯 3,🇷🇺 俄罗斯 4,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇷🇺 俄罗斯 8,🇷🇺 俄罗斯 9,🇷🇺 俄罗斯 10,🇷🇺 俄罗斯 11,🇷🇺 俄罗斯 12,🇸🇬 新加坡 2,🇸🇬 新加坡 3,🇨🇳 台湾省彰化县,🇺🇸 美国俄勒冈州波特兰,🇺🇸 美国 2,🇮🇷 伊朗,🇸🇪 瑞典,🇸🇪 瑞典 2,🇺🇸 美国俄亥俄州都柏林,🇺🇸 美国华盛顿,🇺🇸 美国 3,🇯🇵 日本东京,🇮🇹 意大利,,🇯🇵 日本 5,🇰🇷 韩国 4,🇺🇦 乌克兰,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🔯 故障转移 = fallback,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇯🇵 日本,🇯🇵 日本 2,🇸🇬 新加坡,🇯🇵 日本 3,🇨🇳 台湾省南投县,🇨🇳 台湾省,🇩🇪 德国,🇩🇪 德国 2,🇬🇧 英国威尔士加的夫,🇮🇪 爱尔兰,🇺🇸 美国,🇯🇵 日本 4,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇷🇺 俄罗斯,🇷🇺 俄罗斯 2,🇷🇺 俄罗斯 3,🇷🇺 俄罗斯 4,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇷🇺 俄罗斯 8,🇷🇺 俄罗斯 9,🇷🇺 俄罗斯 10,🇷🇺 俄罗斯 11,🇷🇺 俄罗斯 12,🇸🇬 新加坡 2,🇸🇬 新加坡 3,🇨🇳 台湾省彰化县,🇺🇸 美国俄勒冈州波特兰,🇺🇸 美国 2,🇮🇷 伊朗,🇸🇪 瑞典,🇸🇪 瑞典 2,🇺🇸 美国俄亥俄州都柏林,🇺🇸 美国华盛顿,🇺🇸 美国 3,🇯🇵 日本东京,🇮🇹 意大利,,🇯🇵 日本 5,🇰🇷 韩国 4,🇺🇦 乌克兰,url=http://www.gstatic.com/generate_204,interval=180
+🔮 负载均衡 = load-balance,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇯🇵 日本,🇯🇵 日本 2,🇸🇬 新加坡,🇯🇵 日本 3,🇨🇳 台湾省南投县,🇨🇳 台湾省,🇩🇪 德国,🇩🇪 德国 2,🇬🇧 英国威尔士加的夫,🇮🇪 爱尔兰,🇺🇸 美国,🇯🇵 日本 4,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇷🇺 俄罗斯,🇷🇺 俄罗斯 2,🇷🇺 俄罗斯 3,🇷🇺 俄罗斯 4,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇷🇺 俄罗斯 8,🇷🇺 俄罗斯 9,🇷🇺 俄罗斯 10,🇷🇺 俄罗斯 11,🇷🇺 俄罗斯 12,🇸🇬 新加坡 2,🇸🇬 新加坡 3,🇨🇳 台湾省彰化县,🇺🇸 美国俄勒冈州波特兰,🇺🇸 美国 2,🇮🇷 伊朗,🇸🇪 瑞典,🇸🇪 瑞典 2,🇺🇸 美国俄亥俄州都柏林,🇺🇸 美国华盛顿,🇺🇸 美国 3,🇯🇵 日本东京,🇮🇹 意大利,,🇯🇵 日本 5,🇰🇷 韩国 4,🇺🇦 乌克兰,url=http://www.gstatic.com/generate_204,interval=180
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🔯 故障转移,🔮 负载均衡,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇯🇵 日本,🇸🇬 新加坡,🇨🇳 台湾省,🇨🇳 台湾省 2,🇸🇬 上海市浦东新区,🇸🇬 上海市浦东新区 2,🇷🇺 俄罗斯,🇫🇷 法国,🇫🇷 法国 2,🇺🇸 美国,🇺🇸 美国 2,🇺🇸 美国 3,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇷🇺 俄罗斯 2,🇷🇺 俄罗斯 3,🇷🇺 俄罗斯 4,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇷🇺 俄罗斯 8,🇷🇺 俄罗斯 9,🇷🇺 俄罗斯 10,🇺🇸 美国华盛顿,🇺🇸 美国华盛顿 2,🇮🇷 伊朗,🇺🇸 美国 4,🇺🇸 美国俄亥俄州都柏林,🇻🇳 越南,🇮🇹 意大利,🇨🇳 广东省广州市,🇨🇳 广东省广州市 2,🇨🇳 广东省广州市 3,🇨🇳 广东省广州市 4,🇨🇳 广东省广州市 5,🇨🇳 广东省广州市 6,🇨🇳 广东省广州市 7,🇨🇳 广东省广州市 8,🇨🇳 广东省广州市 9,🇨🇳 广东省广州市 10,🇨🇳 广东省广州市 11,🇨🇳 广东省广州市 12,🇯🇵 日本东京,🇯🇵 日本 2,🇺🇸 美国 5,🇰🇷 韩国 4
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🔯 故障转移,🔮 负载均衡,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇯🇵 日本,🇯🇵 日本 2,🇸🇬 新加坡,🇯🇵 日本 3,🇨🇳 台湾省南投县,🇨🇳 台湾省,🇩🇪 德国,🇩🇪 德国 2,🇬🇧 英国威尔士加的夫,🇮🇪 爱尔兰,🇺🇸 美国,🇯🇵 日本 4,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇷🇺 俄罗斯,🇷🇺 俄罗斯 2,🇷🇺 俄罗斯 3,🇷🇺 俄罗斯 4,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇷🇺 俄罗斯 8,🇷🇺 俄罗斯 9,🇷🇺 俄罗斯 10,🇷🇺 俄罗斯 11,🇷🇺 俄罗斯 12,🇸🇬 新加坡 2,🇸🇬 新加坡 3,🇨🇳 台湾省彰化县,🇺🇸 美国俄勒冈州波特兰,🇺🇸 美国 2,🇮🇷 伊朗,🇸🇪 瑞典,🇸🇪 瑞典 2,🇺🇸 美国俄亥俄州都柏林,🇺🇸 美国华盛顿,🇺🇸 美国 3,🇯🇵 日本东京,🇮🇹 意大利,,🇯🇵 日本 5,🇰🇷 韩国 4,🇺🇦 乌克兰
 
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连,update-interval=86400
