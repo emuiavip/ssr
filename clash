@@ -5,89 +5,64 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 枭木iOS大本营 TG@Tmxios, server: 51.21.56.211, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
-  - {name: https://t.me/Tmxios, server: 13.112.247.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: P12证书 https://p12.tmxios.top, server: 54.248.151.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 号卡办理 https://10.tmxios.top/, server: 35.93.149.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 公众号：枭木iOS大本营, server: 54.251.138.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 全网低价个人证书, server: 47.243.108.41, port: 10841, type: ss, cipher: aes-256-gcm, password: rUx8mqUsI0}
-  - {name: iOS|轻松签|全能签|P12证书, server: 8.210.231.146, port: 1146, type: ss, cipher: aes-256-gcm, password: jmtgsmW40R}
-  - {name: 定制V信|应用分身|V信密友|破解软件, server: 47.57.232.119, port: 2119, type: ss, cipher: aes-256-gcm, password: 3B9vFTBSlp}
-  - {name: 🇯🇵 日本, server: 43.200.254.135, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 台湾省, server: 118.167.77.5, port: 4443, type: vmess, uuid: d20b031e-a477-45f1-8bfc-4cbea413a44e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾省 2, server: 125.224.144.24, port: 6122, type: vmess, uuid: d20b031e-a477-45f1-8bfc-4cbea413a44e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾省新竹市, server: 114.37.139.157, port: 2024, type: vmess, uuid: d20b031e-a477-45f1-8bfc-4cbea413a44e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 甘肃省兰州市, server: 36.139.0.111, port: 32309, type: ss, cipher: chacha20-ietf-poly1305, password: 7a33609f-2e83-415e-b826-b4a71063e9dd}
-  - {name: 🇨🇳 广东省广州市, server: 183.236.51.6, port: 10818, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: undefined, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 2, server: 183.236.51.7, port: 10807, type: trojan, password: 4a345be8-428e-4e95-8f2b-8933a564d1d9, sni: tiananmen.19890604.day, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 3, server: 183.236.51.7, port: 10808, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: undefined, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 4, server: 183.236.51.7, port: 10810, type: trojan, password: 4a345be8-428e-4e95-8f2b-8933a564d1d9, sni: tiananmen.19890604.day, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 5, server: 183.236.51.7, port: 10824, type: trojan, password: 4a345be8-428e-4e95-8f2b-8933a564d1d9, sni: undefined, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 6, server: 183.236.51.7, port: 10804, type: trojan, password: 4a345be8-428e-4e95-8f2b-8933a564d1d9, sni: tiananmen.19890604.day, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 7, server: 183.236.51.6, port: 10813, type: trojan, password: 4a345be8-428e-4e95-8f2b-8933a564d1d9, sni: xijinping.19890604.day, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 8, server: 183.236.51.6, port: 10829, type: trojan, password: 4a345be8-428e-4e95-8f2b-8933a564d1d9, sni: tank.19890604.day, skip-cert-verify: true}
-  - {name: 🇨🇳 甘肃省兰州市 2, server: 36.139.3.149, port: 10027, type: ss, cipher: aes-128-gcm, password: 91491792-77B1-4ED6-BD01-52DC46B81AD0}
-  - {name: 🇨🇳 甘肃省兰州市 3, server: 36.139.3.149, port: 10028, type: ss, cipher: aes-128-gcm, password: 91491792-77B1-4ED6-BD01-52DC46B81AD0}
-  - {name: 🇨🇳 甘肃省兰州市 4, server: 36.139.3.149, port: 10029, type: ss, cipher: aes-128-gcm, password: 91491792-77B1-4ED6-BD01-52DC46B81AD0}
-  - {name: 🇨🇳 河北省, server: 36.212.148.208, port: 10024, type: ss, cipher: aes-128-gcm, password: 91491792-77B1-4ED6-BD01-52DC46B81AD0}
-  - {name: 🇨🇳 河北省 2, server: 36.212.148.208, port: 10023, type: ss, cipher: aes-128-gcm, password: 91491792-77B1-4ED6-BD01-52DC46B81AD0}
-  - {name: 🇨🇳 甘肃省兰州市 5, server: 36.139.3.149, port: 10026, type: ss, cipher: aes-128-gcm, password: 91491792-77B1-4ED6-BD01-52DC46B81AD0}
-  - {name: 🇨🇳 河北省 3, server: 36.212.148.208, port: 10021, type: ss, cipher: aes-128-gcm, password: 91491792-77B1-4ED6-BD01-52DC46B81AD0}
-  - {name: 🇨🇳 河北省 4, server: 36.212.148.208, port: 10022, type: ss, cipher: aes-128-gcm, password: 91491792-77B1-4ED6-BD01-52DC46B81AD0}
-  - {name: 🇨🇳 甘肃省兰州市 6, server: 36.139.3.149, port: 10030, type: ss, cipher: aes-128-gcm, password: 91491792-77B1-4ED6-BD01-52DC46B81AD0}
-  - {name: 🇨🇳 河北省 5, server: 36.212.148.208, port: 10025, type: ss, cipher: aes-128-gcm, password: 91491792-77B1-4ED6-BD01-52DC46B81AD0}
-  - {name: 🇺🇦 乌克兰, server: 94.131.97.123, port: 80, type: vmess, uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇫🇷 法国, server: 163.172.64.22, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇦 乌克兰 2, server: 95.164.69.152, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: MzFiY}
-  - {name: 🇬🇧 英国伦敦, server: 3.9.41.110, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡, server: 13.212.204.117, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇦 乌克兰 3, server: 95.164.69.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: MzFiY}
-  - {name: "", server: 2606:4700:3034::6815:59fc, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}}
-  - {name: 🇺🇸 美国, server: 198.58.100.185, port: 443, type: trojan, password: 1c9b5b23-3b58-44b7-907d-2c27f2a9af7a, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾省 3, server: 103.118.29.229, port: 443, type: trojan, password: eb9e8a52-0fec-4a10-8d16-af3b32874933, sni: 3sao.5gtocdocao.com, skip-cert-verify: true}
-  - {name: 2, server: 2606:4700:3032::ac43:d767, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}}
-  - {name: 亚太地区, server: 103.172.116.90, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr}
-  - {name: 亚太地区 2, server: 103.172.116.90, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH}
-  - {name: 亚太地区 3, server: 103.172.116.90, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN}
-  - {name: 亚太地区 4, server: 103.172.116.90, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ}
-  - {name: 亚太地区 5, server: 103.172.116.90, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX}
-  - {name: 亚太地区 6, server: 103.172.116.90, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y}
-  - {name: 亚太地区 7, server: 103.172.116.90, port: 9058, type: ss, cipher: aes-256-cfb, password: dML2sfhbVwvtfNPe}
-  - {name: 亚太地区 8, server: 103.172.116.90, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8}
-  - {name: 亚太地区 9, server: 103.172.116.90, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
-  - {name: 亚太地区 10, server: 103.172.116.90, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE}
-  - {name: 亚太地区 11, server: 103.172.116.90, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb}
-  - {name: 亚太地区 12, server: 103.172.116.90, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq}
-  - {name: 亚太地区 13, server: 103.172.116.90, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7}
-  - {name: 亚太地区 14, server: 103.172.116.90, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL}
-  - {name: 亚太地区 15, server: 103.172.116.90, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ}
-  - {name: 亚太地区 16, server: 103.172.116.90, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ}
-  - {name: 亚太地区 17, server: 103.172.116.90, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt}
-  - {name: 亚太地区 18, server: 103.172.116.90, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ}
-  - {name: 亚太地区 19, server: 103.172.116.90, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ}
-  - {name: 亚太地区 20, server: 103.172.116.90, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP}
-  - {name: 亚太地区 21, server: 103.172.116.90, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga}
-  - {name: 亚太地区 22, server: 103.172.116.90, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB}
-  - {name: 亚太地区 23, server: 103.172.116.90, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq}
-  - {name: 亚太地区 24, server: 103.172.116.90, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf}
-  - {name: 亚太地区 25, server: 103.172.116.90, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
-  - {name: 亚太地区 26, server: 103.172.116.90, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4}
-  - {name: 亚太地区 27, server: 103.172.116.90, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX}
-  - {name: 亚太地区 28, server: 103.172.116.90, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z}
-  - {name: 亚太地区 29, server: 103.172.116.90, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C}
-  - {name: 亚太地区 30, server: 103.172.116.90, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY}
-  - {name: 亚太地区 31, server: 103.172.116.90, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm}
-  - {name: 亚太地区 32, server: 103.172.116.90, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY}
-  - {name: 亚太地区 33, server: 103.172.116.90, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
-  - {name: 亚太地区 34, server: 103.172.116.90, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c}
-  - {name: 亚太地区 35, server: 103.172.116.90, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk}
-  - {name: 亚太地区 36, server: 103.172.116.90, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8}
-  - {name: 亚太地区 37, server: 103.172.116.90, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
-  - {name: 亚太地区 38, server: 103.172.116.90, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ}
-  - {name: 亚太地区 39, server: 103.172.116.90, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH}
-  - {name: 亚太地区 40, server: 103.172.116.90, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA}
-  - {name: 🇺🇸 美国 2, server: 64.176.162.24, port: 443, type: trojan, password: wkmY1R4EcP, skip-cert-verify: true}
-  - {name: 3, server: 2606:4700:3030::ac43:a6be, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}}
+  - {name: 🇨🇳 台湾省, server: 125.224.144.24, port: 6122, type: vmess, uuid: f4595480-44d4-4d55-a37e-a5b1e0ec64d6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇦🇺 澳大利亚, server: 103.20.198.51, port: 43713, type: vmess, uuid: 5d3a1ace-4288-4442-98f2-50ff8795797a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本, server: 43.201.100.232, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国马萨诸塞州埃塞克斯县安多弗镇, server: 207.211.186.144, port: 20552, type: ss, cipher: chacha20-ietf-poly1305, password: 21815be9-aae7-479b-8e78-6905e00e1db8}
+  - {name: 🇨🇳 台湾省 2, server: 125.224.142.176, port: 3234, type: ss, cipher: chacha20-ietf-poly1305, password: 7baddf37-f8bb-4744-bd9d-88d42dda603a}
+  - {name: 🇨🇳 台湾省 3, server: 118.167.70.229, port: 12002, type: vmess, uuid: 7baddf37-f8bb-4744-bd9d-88d42dda603a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国巴黎, server: 15.188.32.160, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk}
+  - {name: 🇬🇧 英国伦敦, server: 51.104.230.134, port: 60156, type: ss, cipher: chacha20-ietf-poly1305, password: cWKqgZ2YrNWTOLhDMtJn2R}
+  - {name: 🇰🇷 韩国, server: 203.234.238.145, port: 51194, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇺🇸 美国, server: 172.232.54.100, port: 443, type: trojan, password: 96ea621b-0747-4fa3-a092-3feda33983dd, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 2, server: 52.38.4.81, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 3, server: 3.20.1.164, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 4, server: 172.232.217.155, port: 443, type: trojan, password: 67d1e419-4811-4d30-9396-d79093c6524a, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省江门市, server: 183.240.113.235, port: 31026, type: ss, cipher: chacha20-ietf-poly1305, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3}
+  - {name: 🇨🇳 甘肃省兰州市, server: 36.139.104.222, port: 31030, type: ss, cipher: chacha20-ietf-poly1305, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3}
+  - {name: 🇨🇳 广东省江门市 2, server: 183.240.113.235, port: 31010, type: ss, cipher: chacha20-ietf-poly1305, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3}
+  - {name: 🇨🇳 广东省江门市 3, server: 183.240.113.235, port: 31028, type: ss, cipher: chacha20-ietf-poly1305, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3}
+  - {name: 🇨🇳 广东省江门市 4, server: 183.240.113.235, port: 31027, type: ss, cipher: chacha20-ietf-poly1305, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3}
+  - {name: 🇨🇳 广东省江门市 5, server: 183.240.113.235, port: 31016, type: ss, cipher: chacha20-ietf-poly1305, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3}
+  - {name: 🇨🇳 甘肃省兰州市 2, server: 36.139.104.222, port: 31020, type: ss, cipher: chacha20-ietf-poly1305, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3}
+  - {name: 🇨🇳 广东省江门市 6, server: 183.240.113.235, port: 31022, type: ss, cipher: chacha20-ietf-poly1305, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3}
+  - {name: 🇨🇳 甘肃省兰州市 3, server: 36.139.104.222, port: 31012, type: ss, cipher: chacha20-ietf-poly1305, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3}
+  - {name: 🇨🇳 甘肃省兰州市 4, server: 36.139.104.222, port: 31401, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: kr01.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省江门市 7, server: 183.240.113.235, port: 31206, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: sg02.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 甘肃省兰州市 5, server: 36.139.104.222, port: 31116, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: jp01.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省江门市 8, server: 183.240.113.235, port: 31211, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: sg03.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省江门市 9, server: 183.240.113.235, port: 31106, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: jp02.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省江门市 10, server: 183.240.113.235, port: 31506, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: us02.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 甘肃省兰州市 6, server: 36.139.104.222, port: 31887, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: my01.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省江门市 11, server: 183.240.113.235, port: 31874, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: vn01.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省江门市 12, server: 183.240.113.235, port: 31821, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: au01.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 甘肃省兰州市 7, server: 36.139.104.222, port: 31611, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: hk03.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省江门市 13, server: 183.240.113.235, port: 31301, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: tw01.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省江门市 14, server: 183.240.113.235, port: 31841, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: de01.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 甘肃省兰州市 8, server: 36.139.104.222, port: 31606, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: hk02.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省江门市 15, server: 183.240.113.235, port: 31501, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: us01.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省江门市 16, server: 183.240.113.235, port: 31831, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: in01.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省江门市 17, server: 183.240.113.235, port: 31884, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: es01.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 甘肃省兰州市 9, server: 36.139.104.222, port: 31871, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: ua01.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 甘肃省兰州市 10, server: 36.139.104.222, port: 31811, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: uk01.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 甘肃省兰州市 11, server: 36.139.104.222, port: 31801, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: ph01.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 甘肃省兰州市 12, server: 36.139.104.222, port: 31311, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: tw03.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 甘肃省兰州市 13, server: 36.139.104.222, port: 31701, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: ca01.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省江门市 18, server: 183.240.113.235, port: 31851, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: ru01.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 甘肃省兰州市 14, server: 36.139.104.222, port: 31868, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: tr01.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 甘肃省兰州市 15, server: 36.139.104.222, port: 31306, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: tw02.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省江门市 19, server: 183.240.113.235, port: 31601, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: hk01.lovemc.xyz, skip-cert-verify: true}
+  - {name: 亚太地区, server: 103.172.116.79, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
+  - {name: 亚太地区 2, server: 103.172.116.79, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8}
+  - {name: 亚太地区 3, server: 103.172.116.79, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9}
+  - {name: , server: 2001:19f0:5000:16ec:5400:4ff:fea3:f9fb, port: 443, type: vmess, uuid: dfbbc8de-8a4f-407d-8069-6de38d83c4e1, alterId: 0, cipher: auto, tls: true, servername: hdfy4s2d1.foriran.trade, network: ws, ws-opts: {path: /WgCmp8pxRWBtLTlTL, headers: {Host: hdfy4s2d1.foriran.trade}}}
+  - {name: 🇨🇳 甘肃省兰州市 16, server: 36.139.104.222, port: 31011, type: ss, cipher: chacha20-ietf-poly1305, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3}
+  - {name: 🇨🇳 甘肃省兰州市 17, server: 36.139.104.222, port: 31021, type: ss, cipher: chacha20-ietf-poly1305, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3}
+  - {name: 🇨🇳 广东省江门市 20, server: 183.240.113.235, port: 31031, type: ss, cipher: chacha20-ietf-poly1305, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3}
+  - {name: 🇨🇳 甘肃省兰州市 18, server: 36.139.104.222, port: 31018, type: ss, cipher: chacha20-ietf-poly1305, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3}
+  - {name: 🇨🇳 广东省江门市 21, server: 183.240.113.235, port: 31111, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: jp03.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 甘肃省兰州市 19, server: 36.139.104.222, port: 31511, type: trojan, password: 86ff6c01-f63d-498d-b920-47ed1161d7a3, sni: us03.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 5, server: 13.51.245.154, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -96,355 +71,255 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇯🇵 日本
       - 🇨🇳 台湾省
+      - 🇦🇺 澳大利亚
+      - 🇯🇵 日本
+      - 🇺🇸 美国马萨诸塞州埃塞克斯县安多弗镇
       - 🇨🇳 台湾省 2
-      - 🇨🇳 台湾省新竹市
+      - 🇨🇳 台湾省 3
+      - 🇫🇷 法国巴黎
+      - 🇬🇧 英国伦敦
+      - 🇰🇷 韩国
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇺🇸 美国 4
+      - 🇨🇳 广东省江门市
       - 🇨🇳 甘肃省兰州市
-      - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省广州市 8
+      - 🇨🇳 广东省江门市 2
+      - 🇨🇳 广东省江门市 3
+      - 🇨🇳 广东省江门市 4
+      - 🇨🇳 广东省江门市 5
       - 🇨🇳 甘肃省兰州市 2
+      - 🇨🇳 广东省江门市 6
       - 🇨🇳 甘肃省兰州市 3
       - 🇨🇳 甘肃省兰州市 4
-      - 🇨🇳 河北省
-      - 🇨🇳 河北省 2
+      - 🇨🇳 广东省江门市 7
       - 🇨🇳 甘肃省兰州市 5
-      - 🇨🇳 河北省 3
-      - 🇨🇳 河北省 4
+      - 🇨🇳 广东省江门市 8
+      - 🇨🇳 广东省江门市 9
+      - 🇨🇳 广东省江门市 10
       - 🇨🇳 甘肃省兰州市 6
-      - 🇨🇳 河北省 5
-      - 🇺🇦 乌克兰
-      - 🇫🇷 法国
-      - 🇺🇦 乌克兰 2
-      - 🇬🇧 英国伦敦
-      - 🇸🇬 新加坡
-      - 🇺🇦 乌克兰 3
-      - ""
-      - 🇺🇸 美国
-      - 🇨🇳 台湾省 3
-      - 2
+      - 🇨🇳 广东省江门市 11
+      - 🇨🇳 广东省江门市 12
+      - 🇨🇳 甘肃省兰州市 7
+      - 🇨🇳 广东省江门市 13
+      - 🇨🇳 广东省江门市 14
+      - 🇨🇳 甘肃省兰州市 8
+      - 🇨🇳 广东省江门市 15
+      - 🇨🇳 广东省江门市 16
+      - 🇨🇳 广东省江门市 17
+      - 🇨🇳 甘肃省兰州市 9
+      - 🇨🇳 甘肃省兰州市 10
+      - 🇨🇳 甘肃省兰州市 11
+      - 🇨🇳 甘肃省兰州市 12
+      - 🇨🇳 甘肃省兰州市 13
+      - 🇨🇳 广东省江门市 18
+      - 🇨🇳 甘肃省兰州市 14
+      - 🇨🇳 甘肃省兰州市 15
+      - 🇨🇳 广东省江门市 19
       - 亚太地区
       - 亚太地区 2
       - 亚太地区 3
-      - 亚太地区 4
-      - 亚太地区 5
-      - 亚太地区 6
-      - 亚太地区 7
-      - 亚太地区 8
-      - 亚太地区 9
-      - 亚太地区 10
-      - 亚太地区 11
-      - 亚太地区 12
-      - 亚太地区 13
-      - 亚太地区 14
-      - 亚太地区 15
-      - 亚太地区 16
-      - 亚太地区 17
-      - 亚太地区 18
-      - 亚太地区 19
-      - 亚太地区 20
-      - 亚太地区 21
-      - 亚太地区 22
-      - 亚太地区 23
-      - 亚太地区 24
-      - 亚太地区 25
-      - 亚太地区 26
-      - 亚太地区 27
-      - 亚太地区 28
-      - 亚太地区 29
-      - 亚太地区 30
-      - 亚太地区 31
-      - 亚太地区 32
-      - 亚太地区 33
-      - 亚太地区 34
-      - 亚太地区 35
-      - 亚太地区 36
-      - 亚太地区 37
-      - 亚太地区 38
-      - 亚太地区 39
-      - 亚太地区 40
-      - 🇺🇸 美国 2
-      - 3
+      - 
+      - 🇨🇳 甘肃省兰州市 16
+      - 🇨🇳 甘肃省兰州市 17
+      - 🇨🇳 广东省江门市 20
+      - 🇨🇳 甘肃省兰州市 18
+      - 🇨🇳 广东省江门市 21
+      - 🇨🇳 甘肃省兰州市 19
+      - 🇺🇸 美国 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇯🇵 日本
       - 🇨🇳 台湾省
+      - 🇦🇺 澳大利亚
+      - 🇯🇵 日本
+      - 🇺🇸 美国马萨诸塞州埃塞克斯县安多弗镇
       - 🇨🇳 台湾省 2
-      - 🇨🇳 台湾省新竹市
+      - 🇨🇳 台湾省 3
+      - 🇫🇷 法国巴黎
+      - 🇬🇧 英国伦敦
+      - 🇰🇷 韩国
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇺🇸 美国 4
+      - 🇨🇳 广东省江门市
       - 🇨🇳 甘肃省兰州市
-      - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省广州市 8
+      - 🇨🇳 广东省江门市 2
+      - 🇨🇳 广东省江门市 3
+      - 🇨🇳 广东省江门市 4
+      - 🇨🇳 广东省江门市 5
       - 🇨🇳 甘肃省兰州市 2
+      - 🇨🇳 广东省江门市 6
       - 🇨🇳 甘肃省兰州市 3
       - 🇨🇳 甘肃省兰州市 4
-      - 🇨🇳 河北省
-      - 🇨🇳 河北省 2
+      - 🇨🇳 广东省江门市 7
       - 🇨🇳 甘肃省兰州市 5
-      - 🇨🇳 河北省 3
-      - 🇨🇳 河北省 4
+      - 🇨🇳 广东省江门市 8
+      - 🇨🇳 广东省江门市 9
+      - 🇨🇳 广东省江门市 10
       - 🇨🇳 甘肃省兰州市 6
-      - 🇨🇳 河北省 5
-      - 🇺🇦 乌克兰
-      - 🇫🇷 法国
-      - 🇺🇦 乌克兰 2
-      - 🇬🇧 英国伦敦
-      - 🇸🇬 新加坡
-      - 🇺🇦 乌克兰 3
-      - ""
-      - 🇺🇸 美国
-      - 🇨🇳 台湾省 3
-      - 2
+      - 🇨🇳 广东省江门市 11
+      - 🇨🇳 广东省江门市 12
+      - 🇨🇳 甘肃省兰州市 7
+      - 🇨🇳 广东省江门市 13
+      - 🇨🇳 广东省江门市 14
+      - 🇨🇳 甘肃省兰州市 8
+      - 🇨🇳 广东省江门市 15
+      - 🇨🇳 广东省江门市 16
+      - 🇨🇳 广东省江门市 17
+      - 🇨🇳 甘肃省兰州市 9
+      - 🇨🇳 甘肃省兰州市 10
+      - 🇨🇳 甘肃省兰州市 11
+      - 🇨🇳 甘肃省兰州市 12
+      - 🇨🇳 甘肃省兰州市 13
+      - 🇨🇳 广东省江门市 18
+      - 🇨🇳 甘肃省兰州市 14
+      - 🇨🇳 甘肃省兰州市 15
+      - 🇨🇳 广东省江门市 19
       - 亚太地区
       - 亚太地区 2
       - 亚太地区 3
-      - 亚太地区 4
-      - 亚太地区 5
-      - 亚太地区 6
-      - 亚太地区 7
-      - 亚太地区 8
-      - 亚太地区 9
-      - 亚太地区 10
-      - 亚太地区 11
-      - 亚太地区 12
-      - 亚太地区 13
-      - 亚太地区 14
-      - 亚太地区 15
-      - 亚太地区 16
-      - 亚太地区 17
-      - 亚太地区 18
-      - 亚太地区 19
-      - 亚太地区 20
-      - 亚太地区 21
-      - 亚太地区 22
-      - 亚太地区 23
-      - 亚太地区 24
-      - 亚太地区 25
-      - 亚太地区 26
-      - 亚太地区 27
-      - 亚太地区 28
-      - 亚太地区 29
-      - 亚太地区 30
-      - 亚太地区 31
-      - 亚太地区 32
-      - 亚太地区 33
-      - 亚太地区 34
-      - 亚太地区 35
-      - 亚太地区 36
-      - 亚太地区 37
-      - 亚太地区 38
-      - 亚太地区 39
-      - 亚太地区 40
-      - 🇺🇸 美国 2
-      - 3
+      - 
+      - 🇨🇳 甘肃省兰州市 16
+      - 🇨🇳 甘肃省兰州市 17
+      - 🇨🇳 广东省江门市 20
+      - 🇨🇳 甘肃省兰州市 18
+      - 🇨🇳 广东省江门市 21
+      - 🇨🇳 甘肃省兰州市 19
+      - 🇺🇸 美国 5
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇯🇵 日本
       - 🇨🇳 台湾省
+      - 🇦🇺 澳大利亚
+      - 🇯🇵 日本
+      - 🇺🇸 美国马萨诸塞州埃塞克斯县安多弗镇
       - 🇨🇳 台湾省 2
-      - 🇨🇳 台湾省新竹市
+      - 🇨🇳 台湾省 3
+      - 🇫🇷 法国巴黎
+      - 🇬🇧 英国伦敦
+      - 🇰🇷 韩国
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇺🇸 美国 4
+      - 🇨🇳 广东省江门市
       - 🇨🇳 甘肃省兰州市
-      - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省广州市 8
+      - 🇨🇳 广东省江门市 2
+      - 🇨🇳 广东省江门市 3
+      - 🇨🇳 广东省江门市 4
+      - 🇨🇳 广东省江门市 5
       - 🇨🇳 甘肃省兰州市 2
+      - 🇨🇳 广东省江门市 6
       - 🇨🇳 甘肃省兰州市 3
       - 🇨🇳 甘肃省兰州市 4
-      - 🇨🇳 河北省
-      - 🇨🇳 河北省 2
+      - 🇨🇳 广东省江门市 7
       - 🇨🇳 甘肃省兰州市 5
-      - 🇨🇳 河北省 3
-      - 🇨🇳 河北省 4
+      - 🇨🇳 广东省江门市 8
+      - 🇨🇳 广东省江门市 9
+      - 🇨🇳 广东省江门市 10
       - 🇨🇳 甘肃省兰州市 6
-      - 🇨🇳 河北省 5
-      - 🇺🇦 乌克兰
-      - 🇫🇷 法国
-      - 🇺🇦 乌克兰 2
-      - 🇬🇧 英国伦敦
-      - 🇸🇬 新加坡
-      - 🇺🇦 乌克兰 3
-      - ""
-      - 🇺🇸 美国
-      - 🇨🇳 台湾省 3
-      - 2
+      - 🇨🇳 广东省江门市 11
+      - 🇨🇳 广东省江门市 12
+      - 🇨🇳 甘肃省兰州市 7
+      - 🇨🇳 广东省江门市 13
+      - 🇨🇳 广东省江门市 14
+      - 🇨🇳 甘肃省兰州市 8
+      - 🇨🇳 广东省江门市 15
+      - 🇨🇳 广东省江门市 16
+      - 🇨🇳 广东省江门市 17
+      - 🇨🇳 甘肃省兰州市 9
+      - 🇨🇳 甘肃省兰州市 10
+      - 🇨🇳 甘肃省兰州市 11
+      - 🇨🇳 甘肃省兰州市 12
+      - 🇨🇳 甘肃省兰州市 13
+      - 🇨🇳 广东省江门市 18
+      - 🇨🇳 甘肃省兰州市 14
+      - 🇨🇳 甘肃省兰州市 15
+      - 🇨🇳 广东省江门市 19
       - 亚太地区
       - 亚太地区 2
       - 亚太地区 3
-      - 亚太地区 4
-      - 亚太地区 5
-      - 亚太地区 6
-      - 亚太地区 7
-      - 亚太地区 8
-      - 亚太地区 9
-      - 亚太地区 10
-      - 亚太地区 11
-      - 亚太地区 12
-      - 亚太地区 13
-      - 亚太地区 14
-      - 亚太地区 15
-      - 亚太地区 16
-      - 亚太地区 17
-      - 亚太地区 18
-      - 亚太地区 19
-      - 亚太地区 20
-      - 亚太地区 21
-      - 亚太地区 22
-      - 亚太地区 23
-      - 亚太地区 24
-      - 亚太地区 25
-      - 亚太地区 26
-      - 亚太地区 27
-      - 亚太地区 28
-      - 亚太地区 29
-      - 亚太地区 30
-      - 亚太地区 31
-      - 亚太地区 32
-      - 亚太地区 33
-      - 亚太地区 34
-      - 亚太地区 35
-      - 亚太地区 36
-      - 亚太地区 37
-      - 亚太地区 38
-      - 亚太地区 39
-      - 亚太地区 40
-      - 🇺🇸 美国 2
-      - 3
+      - 
+      - 🇨🇳 甘肃省兰州市 16
+      - 🇨🇳 甘肃省兰州市 17
+      - 🇨🇳 广东省江门市 20
+      - 🇨🇳 甘肃省兰州市 18
+      - 🇨🇳 广东省江门市 21
+      - 🇨🇳 甘肃省兰州市 19
+      - 🇺🇸 美国 5
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇯🇵 日本
       - 🇨🇳 台湾省
+      - 🇦🇺 澳大利亚
+      - 🇯🇵 日本
+      - 🇺🇸 美国马萨诸塞州埃塞克斯县安多弗镇
       - 🇨🇳 台湾省 2
-      - 🇨🇳 台湾省新竹市
+      - 🇨🇳 台湾省 3
+      - 🇫🇷 法国巴黎
+      - 🇬🇧 英国伦敦
+      - 🇰🇷 韩国
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇺🇸 美国 4
+      - 🇨🇳 广东省江门市
       - 🇨🇳 甘肃省兰州市
-      - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省广州市 8
+      - 🇨🇳 广东省江门市 2
+      - 🇨🇳 广东省江门市 3
+      - 🇨🇳 广东省江门市 4
+      - 🇨🇳 广东省江门市 5
       - 🇨🇳 甘肃省兰州市 2
+      - 🇨🇳 广东省江门市 6
       - 🇨🇳 甘肃省兰州市 3
       - 🇨🇳 甘肃省兰州市 4
-      - 🇨🇳 河北省
-      - 🇨🇳 河北省 2
+      - 🇨🇳 广东省江门市 7
       - 🇨🇳 甘肃省兰州市 5
-      - 🇨🇳 河北省 3
-      - 🇨🇳 河北省 4
+      - 🇨🇳 广东省江门市 8
+      - 🇨🇳 广东省江门市 9
+      - 🇨🇳 广东省江门市 10
       - 🇨🇳 甘肃省兰州市 6
-      - 🇨🇳 河北省 5
-      - 🇺🇦 乌克兰
-      - 🇫🇷 法国
-      - 🇺🇦 乌克兰 2
-      - 🇬🇧 英国伦敦
-      - 🇸🇬 新加坡
-      - 🇺🇦 乌克兰 3
-      - ""
-      - 🇺🇸 美国
-      - 🇨🇳 台湾省 3
-      - 2
+      - 🇨🇳 广东省江门市 11
+      - 🇨🇳 广东省江门市 12
+      - 🇨🇳 甘肃省兰州市 7
+      - 🇨🇳 广东省江门市 13
+      - 🇨🇳 广东省江门市 14
+      - 🇨🇳 甘肃省兰州市 8
+      - 🇨🇳 广东省江门市 15
+      - 🇨🇳 广东省江门市 16
+      - 🇨🇳 广东省江门市 17
+      - 🇨🇳 甘肃省兰州市 9
+      - 🇨🇳 甘肃省兰州市 10
+      - 🇨🇳 甘肃省兰州市 11
+      - 🇨🇳 甘肃省兰州市 12
+      - 🇨🇳 甘肃省兰州市 13
+      - 🇨🇳 广东省江门市 18
+      - 🇨🇳 甘肃省兰州市 14
+      - 🇨🇳 甘肃省兰州市 15
+      - 🇨🇳 广东省江门市 19
       - 亚太地区
       - 亚太地区 2
       - 亚太地区 3
-      - 亚太地区 4
-      - 亚太地区 5
-      - 亚太地区 6
-      - 亚太地区 7
-      - 亚太地区 8
-      - 亚太地区 9
-      - 亚太地区 10
-      - 亚太地区 11
-      - 亚太地区 12
-      - 亚太地区 13
-      - 亚太地区 14
-      - 亚太地区 15
-      - 亚太地区 16
-      - 亚太地区 17
-      - 亚太地区 18
-      - 亚太地区 19
-      - 亚太地区 20
-      - 亚太地区 21
-      - 亚太地区 22
-      - 亚太地区 23
-      - 亚太地区 24
-      - 亚太地区 25
-      - 亚太地区 26
-      - 亚太地区 27
-      - 亚太地区 28
-      - 亚太地区 29
-      - 亚太地区 30
-      - 亚太地区 31
-      - 亚太地区 32
-      - 亚太地区 33
-      - 亚太地区 34
-      - 亚太地区 35
-      - 亚太地区 36
-      - 亚太地区 37
-      - 亚太地区 38
-      - 亚太地区 39
-      - 亚太地区 40
-      - 🇺🇸 美国 2
-      - 3
+      - 
+      - 🇨🇳 甘肃省兰州市 16
+      - 🇨🇳 甘肃省兰州市 17
+      - 🇨🇳 广东省江门市 20
+      - 🇨🇳 甘肃省兰州市 18
+      - 🇨🇳 广东省江门市 21
+      - 🇨🇳 甘肃省兰州市 19
+      - 🇺🇸 美国 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -464,89 +339,64 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇯🇵 日本
       - 🇨🇳 台湾省
+      - 🇦🇺 澳大利亚
+      - 🇯🇵 日本
+      - 🇺🇸 美国马萨诸塞州埃塞克斯县安多弗镇
       - 🇨🇳 台湾省 2
-      - 🇨🇳 台湾省新竹市
+      - 🇨🇳 台湾省 3
+      - 🇫🇷 法国巴黎
+      - 🇬🇧 英国伦敦
+      - 🇰🇷 韩国
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇺🇸 美国 4
+      - 🇨🇳 广东省江门市
       - 🇨🇳 甘肃省兰州市
-      - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省广州市 8
+      - 🇨🇳 广东省江门市 2
+      - 🇨🇳 广东省江门市 3
+      - 🇨🇳 广东省江门市 4
+      - 🇨🇳 广东省江门市 5
       - 🇨🇳 甘肃省兰州市 2
+      - 🇨🇳 广东省江门市 6
       - 🇨🇳 甘肃省兰州市 3
       - 🇨🇳 甘肃省兰州市 4
-      - 🇨🇳 河北省
-      - 🇨🇳 河北省 2
+      - 🇨🇳 广东省江门市 7
       - 🇨🇳 甘肃省兰州市 5
-      - 🇨🇳 河北省 3
-      - 🇨🇳 河北省 4
+      - 🇨🇳 广东省江门市 8
+      - 🇨🇳 广东省江门市 9
+      - 🇨🇳 广东省江门市 10
       - 🇨🇳 甘肃省兰州市 6
-      - 🇨🇳 河北省 5
-      - 🇺🇦 乌克兰
-      - 🇫🇷 法国
-      - 🇺🇦 乌克兰 2
-      - 🇬🇧 英国伦敦
-      - 🇸🇬 新加坡
-      - 🇺🇦 乌克兰 3
-      - ""
-      - 🇺🇸 美国
-      - 🇨🇳 台湾省 3
-      - 2
+      - 🇨🇳 广东省江门市 11
+      - 🇨🇳 广东省江门市 12
+      - 🇨🇳 甘肃省兰州市 7
+      - 🇨🇳 广东省江门市 13
+      - 🇨🇳 广东省江门市 14
+      - 🇨🇳 甘肃省兰州市 8
+      - 🇨🇳 广东省江门市 15
+      - 🇨🇳 广东省江门市 16
+      - 🇨🇳 广东省江门市 17
+      - 🇨🇳 甘肃省兰州市 9
+      - 🇨🇳 甘肃省兰州市 10
+      - 🇨🇳 甘肃省兰州市 11
+      - 🇨🇳 甘肃省兰州市 12
+      - 🇨🇳 甘肃省兰州市 13
+      - 🇨🇳 广东省江门市 18
+      - 🇨🇳 甘肃省兰州市 14
+      - 🇨🇳 甘肃省兰州市 15
+      - 🇨🇳 广东省江门市 19
       - 亚太地区
       - 亚太地区 2
       - 亚太地区 3
-      - 亚太地区 4
-      - 亚太地区 5
-      - 亚太地区 6
-      - 亚太地区 7
-      - 亚太地区 8
-      - 亚太地区 9
-      - 亚太地区 10
-      - 亚太地区 11
-      - 亚太地区 12
-      - 亚太地区 13
-      - 亚太地区 14
-      - 亚太地区 15
-      - 亚太地区 16
-      - 亚太地区 17
-      - 亚太地区 18
-      - 亚太地区 19
-      - 亚太地区 20
-      - 亚太地区 21
-      - 亚太地区 22
-      - 亚太地区 23
-      - 亚太地区 24
-      - 亚太地区 25
-      - 亚太地区 26
-      - 亚太地区 27
-      - 亚太地区 28
-      - 亚太地区 29
-      - 亚太地区 30
-      - 亚太地区 31
-      - 亚太地区 32
-      - 亚太地区 33
-      - 亚太地区 34
-      - 亚太地区 35
-      - 亚太地区 36
-      - 亚太地区 37
-      - 亚太地区 38
-      - 亚太地区 39
-      - 亚太地区 40
-      - 🇺🇸 美国 2
-      - 3
+      - 
+      - 🇨🇳 甘肃省兰州市 16
+      - 🇨🇳 甘肃省兰州市 17
+      - 🇨🇳 广东省江门市 20
+      - 🇨🇳 甘肃省兰州市 18
+      - 🇨🇳 广东省江门市 21
+      - 🇨🇳 甘肃省兰州市 19
+      - 🇺🇸 美国 5
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -3850,5 +3700,3 @@ rules:
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
-
-
