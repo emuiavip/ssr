@@ -5,77 +5,69 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 枭木iOS大本营 TG@Tmxios, server: 51.21.56.211, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
-  - {name: https://t.me/Tmxios, server: 13.112.247.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: P12证书 https://p12.tmxios.top, server: 54.248.151.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 号卡办理 https://10.tmxios.top/, server: 35.93.149.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 公众号：枭木iOS大本营, server: 54.251.138.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 全网低价个人证书, server: 47.243.108.41, port: 10841, type: ss, cipher: aes-256-gcm, password: rUx8mqUsI0}
-  - {name: iOS|轻松签|全能签|P12证书, server: 8.210.231.146, port: 1146, type: ss, cipher: aes-256-gcm, password: jmtgsmW40R}
-  - {name: 定制V信|应用分身|V信密友|破解软件, server: 47.57.232.119, port: 2119, type: ss, cipher: aes-256-gcm, password: 3B9vFTBSlp}
-  - {name: 🇨🇳 广东省江门市, server: 120.238.122.160, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: f665c5d0-77c0-4196-bc8d-f0450e9c665b}
-  - {name: 🇺🇸 美国华盛顿, server: 38.147.191.185, port: 10241, type: vmess, uuid: e820d6f7-57ef-4575-99da-bcd7d318c742, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇦🇺 澳大利亚, server: 103.20.198.51, port: 43713, type: vmess, uuid: 5d3a1ace-4288-4442-98f2-50ff8795797a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大, server: 158.69.0.27, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: KVcdcsJT6f0OWL5sEyM38A}
-  - {name: 🇨🇳 广东省广州市, server: 183.236.51.7, port: 10825, type: trojan, password: a90d42bc-7200-4241-b604-79771919a3f7, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 2, server: 183.236.51.7, port: 10822, type: trojan, password: a90d42bc-7200-4241-b604-79771919a3f7, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 3, server: 183.236.51.7, port: 10810, type: trojan, password: a90d42bc-7200-4241-b604-79771919a3f7, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 4, server: 183.236.51.6, port: 10809, type: trojan, password: a90d42bc-7200-4241-b604-79771919a3f7, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 5, server: 183.236.51.6, port: 10833, type: trojan, password: a90d42bc-7200-4241-b604-79771919a3f7, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 6, server: 183.236.51.6, port: 10804, type: trojan, password: a90d42bc-7200-4241-b604-79771919a3f7, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 7, server: 183.236.51.7, port: 10823, type: trojan, password: a90d42bc-7200-4241-b604-79771919a3f7, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 8, server: 183.236.51.6, port: 10828, type: trojan, password: a90d42bc-7200-4241-b604-79771919a3f7, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 9, server: 183.236.51.7, port: 10819, type: trojan, password: a90d42bc-7200-4241-b604-79771919a3f7, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 10, server: 183.236.51.6, port: 10846, type: trojan, password: a90d42bc-7200-4241-b604-79771919a3f7, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 11, server: 183.236.51.6, port: 10839, type: trojan, password: a90d42bc-7200-4241-b604-79771919a3f7, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 12, server: 183.236.51.6, port: 10831, type: trojan, password: a90d42bc-7200-4241-b604-79771919a3f7, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 13, server: 183.236.51.6, port: 10832, type: trojan, password: a90d42bc-7200-4241-b604-79771919a3f7, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 14, server: 183.236.51.7, port: 10812, type: trojan, password: a90d42bc-7200-4241-b604-79771919a3f7, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾省新竹市, server: 114.37.134.116, port: 4443, type: vmess, uuid: 847bfa48-992d-4634-904f-be77beb390ce, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 英国, server: 51.210.182.170, port: 443, type: trojan, password: 4eab6db0-c059-11ee-ae88-1239d0255272, sni: fr1.test3.net, skip-cert-verify: true}
-  - {name: 🇫🇷 法国, server: 51.75.77.237, port: 443, type: trojan, password: ebecf1d2-6db1-4caa-9fa4-f4504b0328e5, skip-cert-verify: true}
-  - {name: 🇫🇷 法国 2, server: 51.38.65.155, port: 443, type: trojan, password: 62313560-c059-11ee-b43c-1239d0255272, sni: uk1.test3.net, skip-cert-verify: true}
-  - {name: 🇺🇸 美国, server: 64.227.153.43, port: 443, type: trojan, password: jrKkWeksAL, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国, server: 221.150.109.16, port: 2003, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇯🇵 日本, server: 43.201.255.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 广东省广州市 15, server: 183.236.51.6, port: 10834, type: trojan, password: a90d42bc-7200-4241-b604-79771919a3f7, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 16, server: 183.236.51.7, port: 10826, type: trojan, password: a90d42bc-7200-4241-b604-79771919a3f7, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 2, server: 15.204.240.119, port: 443, type: trojan, password: 760da1d0-c059-11ee-89b2-1239d0255272, sni: us1.test3.net, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 17, server: 183.236.51.7, port: 10828, type: trojan, password: a90d42bc-7200-4241-b604-79771919a3f7, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 18, server: 183.236.51.6, port: 10829, type: trojan, password: 1afd5861-727d-42de-9985-9202b1c2c011, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
-  - {name: 🇨🇳 广东省广州市 19, server: 183.236.51.6, port: 10815, type: trojan, password: 1afd5861-727d-42de-9985-9202b1c2c011, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
-  - {name: 🇨🇳 广东省广州市 20, server: 183.236.51.7, port: 10836, type: trojan, password: 1afd5861-727d-42de-9985-9202b1c2c011, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
-  - {name: 🇨🇳 广东省广州市 21, server: 183.236.51.6, port: 10813, type: trojan, password: 1afd5861-727d-42de-9985-9202b1c2c011, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
-  - {name: 🇨🇳 广东省广州市 22, server: 183.236.51.6, port: 10817, type: trojan, password: 1afd5861-727d-42de-9985-9202b1c2c011, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省江门市 2, server: 120.238.122.159, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: f665c5d0-77c0-4196-bc8d-f0450e9c665b}
-  - {name: 🇨🇳 广东省广州市 23, server: 183.236.51.6, port: 10807, type: trojan, password: d99bce0f-a2ad-41ab-a85e-0786dd4ccdac, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 24, server: 183.236.51.7, port: 10820, type: trojan, password: 6a890de6-3c92-46fc-9d6d-284b5962d8cf, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 25, server: 183.236.51.6, port: 10825, type: trojan, password: d99bce0f-a2ad-41ab-a85e-0786dd4ccdac, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 26, server: 183.236.51.7, port: 10824, type: trojan, password: d99bce0f-a2ad-41ab-a85e-0786dd4ccdac, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 27, server: 183.236.51.6, port: 10808, type: trojan, password: d99bce0f-a2ad-41ab-a85e-0786dd4ccdac, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 28, server: 183.236.51.6, port: 10803, type: trojan, password: 6a890de6-3c92-46fc-9d6d-284b5962d8cf, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 29, server: 183.236.51.6, port: 10811, type: trojan, password: 6a890de6-3c92-46fc-9d6d-284b5962d8cf, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 30, server: 183.236.51.7, port: 10841, type: trojan, password: d99bce0f-a2ad-41ab-a85e-0786dd4ccdac, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 31, server: 183.236.51.6, port: 10816, type: trojan, password: d99bce0f-a2ad-41ab-a85e-0786dd4ccdac, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 32, server: 183.236.51.6, port: 10812, type: trojan, password: d99bce0f-a2ad-41ab-a85e-0786dd4ccdac, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 33, server: 183.236.51.6, port: 10801, type: trojan, password: 6a890de6-3c92-46fc-9d6d-284b5962d8cf, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 34, server: 183.236.51.6, port: 10819, type: trojan, password: 6a890de6-3c92-46fc-9d6d-284b5962d8cf, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 35, server: 183.236.51.6, port: 10821, type: trojan, password: 6a890de6-3c92-46fc-9d6d-284b5962d8cf, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 36, server: 183.236.51.6, port: 10802, type: trojan, password: 6a890de6-3c92-46fc-9d6d-284b5962d8cf, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 37, server: 183.236.51.6, port: 10826, type: trojan, password: 6a890de6-3c92-46fc-9d6d-284b5962d8cf, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 38, server: 183.236.51.6, port: 10827, type: trojan, password: 6a890de6-3c92-46fc-9d6d-284b5962d8cf, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 39, server: 183.236.51.6, port: 10830, type: trojan, password: 6a890de6-3c92-46fc-9d6d-284b5962d8cf, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 40, server: 183.236.51.6, port: 10805, type: trojan, password: 6a890de6-3c92-46fc-9d6d-284b5962d8cf, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 41, server: 183.236.51.6, port: 10810, type: trojan, password: 6a890de6-3c92-46fc-9d6d-284b5962d8cf, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 42, server: 183.236.51.6, port: 10822, type: trojan, password: 6a890de6-3c92-46fc-9d6d-284b5962d8cf, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 43, server: 183.236.51.6, port: 10820, type: trojan, password: d99bce0f-a2ad-41ab-a85e-0786dd4ccdac, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 44, server: 183.236.51.7, port: 10840, type: trojan, password: 6a890de6-3c92-46fc-9d6d-284b5962d8cf, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 45, server: 183.236.51.6, port: 10806, type: trojan, password: 6a890de6-3c92-46fc-9d6d-284b5962d8cf, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 46, server: 183.236.51.6, port: 10823, type: trojan, password: d99bce0f-a2ad-41ab-a85e-0786dd4ccdac, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 47, server: 183.236.51.6, port: 10814, type: trojan, password: d99bce0f-a2ad-41ab-a85e-0786dd4ccdac, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 48, server: 183.236.51.6, port: 10818, type: trojan, password: d99bce0f-a2ad-41ab-a85e-0786dd4ccdac, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 49, server: 183.236.51.6, port: 10824, type: trojan, password: 6a890de6-3c92-46fc-9d6d-284b5962d8cf, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 50, server: 183.236.51.7, port: 10846, type: trojan, password: da3f89e3-5676-4ca9-8f06-d51cb1ffbe96, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省江门市, server: 120.238.122.160, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: f665c5d0-77c0-4196-bc8d-f0450e9c665b}
+  - {name: 🇺🇸 美国, server: 172.64.86.235, port: 2052, type: vmess, uuid: 58ecb66f-8b55-4b2a-97c9-7b87e189d2f7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/QXjZG5u4F2, headers: {Host: us3AJ8biuQx.fzbqfrse.xyz}}}
+  - {name: 🇺🇸 美国 2, server: 172.64.86.235, port: 2095, type: vmess, uuid: bdede9d3-68c4-4bb1-8ad1-9a8eb07ff76f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/qYZue4zaWS, headers: {Host: us82pRzxDMb.fzbqfrse.xyz}}}
+  - {name: 🇯🇵 日本, server: 43.201.116.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇧🇩 孟加拉, server: 103.116.52.165, port: 443, type: trojan, password: 8c754298-ded9-4061-8c8a-8e2103468959, sni: jp2.4gmienphi.asia, skip-cert-verify: true}
+  - {name: 🇨🇳 河北省, server: 36.212.152.13, port: 19444, type: ss, cipher: chacha20-ietf-poly1305, password: 432fe02f-b649-4bdc-91d8-f91ae87002f7}
+  - {name: 🇨🇳 河北省 2, server: 36.212.152.13, port: 19094, type: ss, cipher: chacha20-ietf-poly1305, password: 23101db9-ab1e-42d5-b934-6f23d83b6064}
+  - {name: 🇨🇳 河北省 3, server: 36.212.152.13, port: 57691, type: ss, cipher: chacha20-ietf-poly1305, password: 23101db9-ab1e-42d5-b934-6f23d83b6064}
+  - {name: 🇨🇳 河北省 4, server: 36.212.152.13, port: 20373, type: ss, cipher: chacha20-ietf-poly1305, password: 23101db9-ab1e-42d5-b934-6f23d83b6064}
+  - {name: 🇨🇳 广东省广州市, server: 183.236.51.6, port: 10808, type: trojan, password: 061014c2-9214-450a-83af-84a1429b18bb, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 2, server: 183.236.51.6, port: 10803, type: trojan, password: 061014c2-9214-450a-83af-84a1429b18bb, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇷🇺 俄罗斯, server: 92.38.171.215, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: pxREQjgjPGjSKoXLEnt6nyzhZUhi7So1JlsSSRWYMi4M4iXD}
+  - {name: 🇮🇷 伊朗, server: 81.12.27.108, port: 16767, type: vmess, uuid: d30a1c51-d37c-4cb8-bee6-8f5cd746f9d7, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本 2, server: 18.181.87.18, port: 21583, type: vmess, uuid: 65cdb2a2-ac65-3dc6-992d-a58b8cb996b9, alterId: 1, cipher: auto, tls: true, servername: jp03-alt-vm0.entry.srthdw.art}
+  - {name: 🇷🇺 俄罗斯 2, server: 77.246.106.242, port: 10220, type: ss, cipher: chacha20-ietf-poly1305, password: B5JoPritUlCbuFoPzjpHuR}
+  - {name: 🇨🇳 广东省广州市 3, server: 183.236.51.7, port: 10812, type: trojan, password: 061014c2-9214-450a-83af-84a1429b18bb, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇬🇧 英国, server: 213.35.111.58, port: 20053, type: ss, cipher: chacha20-ietf-poly1305, password: 100da7b6-366b-4cd7-9d65-6fd15a32c09e}
+  - {name: 🇨🇳 广东省广州市 4, server: 183.236.51.7, port: 10808, type: trojan, password: 061014c2-9214-450a-83af-84a1429b18bb, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 北京市, server: 36.133.75.140, port: 38127, type: ss, cipher: chacha20-ietf-poly1305, password: c8e1a97e-0e69-4c1b-9fad-edbf30ab9bfb}
+  - {name: 🇨🇳 广东省广州市 5, server: 183.236.51.6, port: 10822, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 6, server: 183.236.51.6, port: 10816, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 7, server: 183.236.51.6, port: 10809, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 8, server: 183.236.51.7, port: 10806, type: trojan, password: 0ee97fff-3bcf-496f-a7ea-1ff6496baac0, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 9, server: 183.236.51.7, port: 10815, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 10, server: 183.236.51.6, port: 10804, type: trojan, password: 0ee97fff-3bcf-496f-a7ea-1ff6496baac0, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 11, server: 183.236.51.6, port: 10818, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 12, server: 183.236.51.6, port: 10821, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 13, server: 183.236.51.7, port: 10817, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 14, server: 183.236.51.6, port: 10820, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 15, server: 183.236.51.6, port: 10819, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 16, server: 183.236.51.6, port: 10824, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 17, server: 183.236.51.7, port: 10846, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 18, server: 183.236.51.6, port: 10826, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 19, server: 183.236.51.7, port: 10836, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 20, server: 183.236.51.7, port: 10831, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 21, server: 183.236.51.7, port: 10804, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 22, server: 183.236.51.7, port: 10829, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 23, server: 183.236.51.7, port: 10828, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 24, server: 183.236.51.7, port: 10814, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 25, server: 183.236.51.7, port: 10813, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 26, server: 183.236.51.7, port: 10811, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 27, server: 183.236.51.6, port: 10825, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 28, server: 183.236.51.6, port: 10830, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 29, server: 183.236.51.6, port: 10832, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 30, server: 183.236.51.6, port: 10823, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 31, server: 183.236.51.7, port: 10839, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 32, server: 183.236.51.6, port: 10827, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 亚太地区, server: 103.172.116.94, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj}
+  - {name: 🇨🇳 台湾省台北市, server: 36.226.132.249, port: 12002, type: vmess, uuid: e6967991-7b0a-4d1a-a37b-5eb3b78d4c15, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾省新竹市, server: 114.37.132.46, port: 2024, type: vmess, uuid: e6967991-7b0a-4d1a-a37b-5eb3b78d4c15, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 广东省广州市 33, server: 183.236.51.7, port: 10801, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 34, server: 183.236.51.7, port: 10835, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 35, server: 183.236.51.7, port: 10803, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 36, server: 183.236.51.7, port: 10805, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 37, server: 183.236.51.7, port: 10810, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 38, server: 183.236.51.7, port: 10834, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 39, server: 183.236.51.6, port: 10833, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 40, server: 183.236.51.7, port: 10840, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 41, server: 183.236.51.7, port: 10807, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 42, server: 183.236.51.7, port: 10841, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 43, server: 183.236.51.7, port: 10802, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 3, server: 198.244.190.189, port: 443, type: trojan, password: 81dfb458-9a26-486a-a0da-914c380459c6, skip-cert-verify: true}
+  - {name: 亚太地区 2, server: 103.172.116.94, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -84,22 +76,25 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
       - 🇨🇳 广东省江门市
-      - 🇺🇸 美国华盛顿
-      - 🇦🇺 澳大利亚
-      - 🇨🇦 加拿大
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本
+      - 🇧🇩 孟加拉
+      - 🇨🇳 河北省
+      - 🇨🇳 河北省 2
+      - 🇨🇳 河北省 3
+      - 🇨🇳 河北省 4
       - 🇨🇳 广东省广州市
       - 🇨🇳 广东省广州市 2
+      - 🇷🇺 俄罗斯
+      - 🇮🇷 伊朗
+      - 🇯🇵 日本 2
+      - 🇷🇺 俄罗斯 2
       - 🇨🇳 广东省广州市 3
+      - 🇬🇧 英国
       - 🇨🇳 广东省广州市 4
+      - 🇨🇳 北京市
       - 🇨🇳 广东省广州市 5
       - 🇨🇳 广东省广州市 6
       - 🇨🇳 广东省广州市 7
@@ -110,23 +105,14 @@ proxy-groups:
       - 🇨🇳 广东省广州市 12
       - 🇨🇳 广东省广州市 13
       - 🇨🇳 广东省广州市 14
-      - 🇨🇳 台湾省新竹市
-      - 🇬🇧 英国
-      - 🇫🇷 法国
-      - 🇫🇷 法国 2
-      - 🇺🇸 美国
-      - 🇰🇷 韩国
-      - 🇯🇵 日本
       - 🇨🇳 广东省广州市 15
       - 🇨🇳 广东省广州市 16
-      - 🇺🇸 美国 2
       - 🇨🇳 广东省广州市 17
       - 🇨🇳 广东省广州市 18
       - 🇨🇳 广东省广州市 19
       - 🇨🇳 广东省广州市 20
       - 🇨🇳 广东省广州市 21
       - 🇨🇳 广东省广州市 22
-      - 🇨🇳 广东省江门市 2
       - 🇨🇳 广东省广州市 23
       - 🇨🇳 广东省广州市 24
       - 🇨🇳 广东省广州市 25
@@ -137,6 +123,9 @@ proxy-groups:
       - 🇨🇳 广东省广州市 30
       - 🇨🇳 广东省广州市 31
       - 🇨🇳 广东省广州市 32
+      - 亚太地区
+      - 🇨🇳 台湾省台北市
+      - 🇨🇳 台湾省新竹市
       - 🇨🇳 广东省广州市 33
       - 🇨🇳 广东省广州市 34
       - 🇨🇳 广东省广州市 35
@@ -148,35 +137,33 @@ proxy-groups:
       - 🇨🇳 广东省广州市 41
       - 🇨🇳 广东省广州市 42
       - 🇨🇳 广东省广州市 43
-      - 🇨🇳 广东省广州市 44
-      - 🇨🇳 广东省广州市 45
-      - 🇨🇳 广东省广州市 46
-      - 🇨🇳 广东省广州市 47
-      - 🇨🇳 广东省广州市 48
-      - 🇨🇳 广东省广州市 49
-      - 🇨🇳 广东省广州市 50
+      - 🇺🇸 美国 3
+      - 亚太地区 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
       - 🇨🇳 广东省江门市
-      - 🇺🇸 美国华盛顿
-      - 🇦🇺 澳大利亚
-      - 🇨🇦 加拿大
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本
+      - 🇧🇩 孟加拉
+      - 🇨🇳 河北省
+      - 🇨🇳 河北省 2
+      - 🇨🇳 河北省 3
+      - 🇨🇳 河北省 4
       - 🇨🇳 广东省广州市
       - 🇨🇳 广东省广州市 2
+      - 🇷🇺 俄罗斯
+      - 🇮🇷 伊朗
+      - 🇯🇵 日本 2
+      - 🇷🇺 俄罗斯 2
       - 🇨🇳 广东省广州市 3
+      - 🇬🇧 英国
       - 🇨🇳 广东省广州市 4
+      - 🇨🇳 北京市
       - 🇨🇳 广东省广州市 5
       - 🇨🇳 广东省广州市 6
       - 🇨🇳 广东省广州市 7
@@ -187,23 +174,14 @@ proxy-groups:
       - 🇨🇳 广东省广州市 12
       - 🇨🇳 广东省广州市 13
       - 🇨🇳 广东省广州市 14
-      - 🇨🇳 台湾省新竹市
-      - 🇬🇧 英国
-      - 🇫🇷 法国
-      - 🇫🇷 法国 2
-      - 🇺🇸 美国
-      - 🇰🇷 韩国
-      - 🇯🇵 日本
       - 🇨🇳 广东省广州市 15
       - 🇨🇳 广东省广州市 16
-      - 🇺🇸 美国 2
       - 🇨🇳 广东省广州市 17
       - 🇨🇳 广东省广州市 18
       - 🇨🇳 广东省广州市 19
       - 🇨🇳 广东省广州市 20
       - 🇨🇳 广东省广州市 21
       - 🇨🇳 广东省广州市 22
-      - 🇨🇳 广东省江门市 2
       - 🇨🇳 广东省广州市 23
       - 🇨🇳 广东省广州市 24
       - 🇨🇳 广东省广州市 25
@@ -214,6 +192,9 @@ proxy-groups:
       - 🇨🇳 广东省广州市 30
       - 🇨🇳 广东省广州市 31
       - 🇨🇳 广东省广州市 32
+      - 亚太地区
+      - 🇨🇳 台湾省台北市
+      - 🇨🇳 台湾省新竹市
       - 🇨🇳 广东省广州市 33
       - 🇨🇳 广东省广州市 34
       - 🇨🇳 广东省广州市 35
@@ -225,34 +206,32 @@ proxy-groups:
       - 🇨🇳 广东省广州市 41
       - 🇨🇳 广东省广州市 42
       - 🇨🇳 广东省广州市 43
-      - 🇨🇳 广东省广州市 44
-      - 🇨🇳 广东省广州市 45
-      - 🇨🇳 广东省广州市 46
-      - 🇨🇳 广东省广州市 47
-      - 🇨🇳 广东省广州市 48
-      - 🇨🇳 广东省广州市 49
-      - 🇨🇳 广东省广州市 50
+      - 🇺🇸 美国 3
+      - 亚太地区 2
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
       - 🇨🇳 广东省江门市
-      - 🇺🇸 美国华盛顿
-      - 🇦🇺 澳大利亚
-      - 🇨🇦 加拿大
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本
+      - 🇧🇩 孟加拉
+      - 🇨🇳 河北省
+      - 🇨🇳 河北省 2
+      - 🇨🇳 河北省 3
+      - 🇨🇳 河北省 4
       - 🇨🇳 广东省广州市
       - 🇨🇳 广东省广州市 2
+      - 🇷🇺 俄罗斯
+      - 🇮🇷 伊朗
+      - 🇯🇵 日本 2
+      - 🇷🇺 俄罗斯 2
       - 🇨🇳 广东省广州市 3
+      - 🇬🇧 英国
       - 🇨🇳 广东省广州市 4
+      - 🇨🇳 北京市
       - 🇨🇳 广东省广州市 5
       - 🇨🇳 广东省广州市 6
       - 🇨🇳 广东省广州市 7
@@ -263,23 +242,14 @@ proxy-groups:
       - 🇨🇳 广东省广州市 12
       - 🇨🇳 广东省广州市 13
       - 🇨🇳 广东省广州市 14
-      - 🇨🇳 台湾省新竹市
-      - 🇬🇧 英国
-      - 🇫🇷 法国
-      - 🇫🇷 法国 2
-      - 🇺🇸 美国
-      - 🇰🇷 韩国
-      - 🇯🇵 日本
       - 🇨🇳 广东省广州市 15
       - 🇨🇳 广东省广州市 16
-      - 🇺🇸 美国 2
       - 🇨🇳 广东省广州市 17
       - 🇨🇳 广东省广州市 18
       - 🇨🇳 广东省广州市 19
       - 🇨🇳 广东省广州市 20
       - 🇨🇳 广东省广州市 21
       - 🇨🇳 广东省广州市 22
-      - 🇨🇳 广东省江门市 2
       - 🇨🇳 广东省广州市 23
       - 🇨🇳 广东省广州市 24
       - 🇨🇳 广东省广州市 25
@@ -290,6 +260,9 @@ proxy-groups:
       - 🇨🇳 广东省广州市 30
       - 🇨🇳 广东省广州市 31
       - 🇨🇳 广东省广州市 32
+      - 亚太地区
+      - 🇨🇳 台湾省台北市
+      - 🇨🇳 台湾省新竹市
       - 🇨🇳 广东省广州市 33
       - 🇨🇳 广东省广州市 34
       - 🇨🇳 广东省广州市 35
@@ -301,35 +274,33 @@ proxy-groups:
       - 🇨🇳 广东省广州市 41
       - 🇨🇳 广东省广州市 42
       - 🇨🇳 广东省广州市 43
-      - 🇨🇳 广东省广州市 44
-      - 🇨🇳 广东省广州市 45
-      - 🇨🇳 广东省广州市 46
-      - 🇨🇳 广东省广州市 47
-      - 🇨🇳 广东省广州市 48
-      - 🇨🇳 广东省广州市 49
-      - 🇨🇳 广东省广州市 50
+      - 🇺🇸 美国 3
+      - 亚太地区 2
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
       - 🇨🇳 广东省江门市
-      - 🇺🇸 美国华盛顿
-      - 🇦🇺 澳大利亚
-      - 🇨🇦 加拿大
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本
+      - 🇧🇩 孟加拉
+      - 🇨🇳 河北省
+      - 🇨🇳 河北省 2
+      - 🇨🇳 河北省 3
+      - 🇨🇳 河北省 4
       - 🇨🇳 广东省广州市
       - 🇨🇳 广东省广州市 2
+      - 🇷🇺 俄罗斯
+      - 🇮🇷 伊朗
+      - 🇯🇵 日本 2
+      - 🇷🇺 俄罗斯 2
       - 🇨🇳 广东省广州市 3
+      - 🇬🇧 英国
       - 🇨🇳 广东省广州市 4
+      - 🇨🇳 北京市
       - 🇨🇳 广东省广州市 5
       - 🇨🇳 广东省广州市 6
       - 🇨🇳 广东省广州市 7
@@ -340,23 +311,14 @@ proxy-groups:
       - 🇨🇳 广东省广州市 12
       - 🇨🇳 广东省广州市 13
       - 🇨🇳 广东省广州市 14
-      - 🇨🇳 台湾省新竹市
-      - 🇬🇧 英国
-      - 🇫🇷 法国
-      - 🇫🇷 法国 2
-      - 🇺🇸 美国
-      - 🇰🇷 韩国
-      - 🇯🇵 日本
       - 🇨🇳 广东省广州市 15
       - 🇨🇳 广东省广州市 16
-      - 🇺🇸 美国 2
       - 🇨🇳 广东省广州市 17
       - 🇨🇳 广东省广州市 18
       - 🇨🇳 广东省广州市 19
       - 🇨🇳 广东省广州市 20
       - 🇨🇳 广东省广州市 21
       - 🇨🇳 广东省广州市 22
-      - 🇨🇳 广东省江门市 2
       - 🇨🇳 广东省广州市 23
       - 🇨🇳 广东省广州市 24
       - 🇨🇳 广东省广州市 25
@@ -367,6 +329,9 @@ proxy-groups:
       - 🇨🇳 广东省广州市 30
       - 🇨🇳 广东省广州市 31
       - 🇨🇳 广东省广州市 32
+      - 亚太地区
+      - 🇨🇳 台湾省台北市
+      - 🇨🇳 台湾省新竹市
       - 🇨🇳 广东省广州市 33
       - 🇨🇳 广东省广州市 34
       - 🇨🇳 广东省广州市 35
@@ -378,13 +343,8 @@ proxy-groups:
       - 🇨🇳 广东省广州市 41
       - 🇨🇳 广东省广州市 42
       - 🇨🇳 广东省广州市 43
-      - 🇨🇳 广东省广州市 44
-      - 🇨🇳 广东省广州市 45
-      - 🇨🇳 广东省广州市 46
-      - 🇨🇳 广东省广州市 47
-      - 🇨🇳 广东省广州市 48
-      - 🇨🇳 广东省广州市 49
-      - 🇨🇳 广东省广州市 50
+      - 🇺🇸 美国 3
+      - 亚太地区 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -404,22 +364,25 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
       - 🇨🇳 广东省江门市
-      - 🇺🇸 美国华盛顿
-      - 🇦🇺 澳大利亚
-      - 🇨🇦 加拿大
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本
+      - 🇧🇩 孟加拉
+      - 🇨🇳 河北省
+      - 🇨🇳 河北省 2
+      - 🇨🇳 河北省 3
+      - 🇨🇳 河北省 4
       - 🇨🇳 广东省广州市
       - 🇨🇳 广东省广州市 2
+      - 🇷🇺 俄罗斯
+      - 🇮🇷 伊朗
+      - 🇯🇵 日本 2
+      - 🇷🇺 俄罗斯 2
       - 🇨🇳 广东省广州市 3
+      - 🇬🇧 英国
       - 🇨🇳 广东省广州市 4
+      - 🇨🇳 北京市
       - 🇨🇳 广东省广州市 5
       - 🇨🇳 广东省广州市 6
       - 🇨🇳 广东省广州市 7
@@ -430,23 +393,14 @@ proxy-groups:
       - 🇨🇳 广东省广州市 12
       - 🇨🇳 广东省广州市 13
       - 🇨🇳 广东省广州市 14
-      - 🇨🇳 台湾省新竹市
-      - 🇬🇧 英国
-      - 🇫🇷 法国
-      - 🇫🇷 法国 2
-      - 🇺🇸 美国
-      - 🇰🇷 韩国
-      - 🇯🇵 日本
       - 🇨🇳 广东省广州市 15
       - 🇨🇳 广东省广州市 16
-      - 🇺🇸 美国 2
       - 🇨🇳 广东省广州市 17
       - 🇨🇳 广东省广州市 18
       - 🇨🇳 广东省广州市 19
       - 🇨🇳 广东省广州市 20
       - 🇨🇳 广东省广州市 21
       - 🇨🇳 广东省广州市 22
-      - 🇨🇳 广东省江门市 2
       - 🇨🇳 广东省广州市 23
       - 🇨🇳 广东省广州市 24
       - 🇨🇳 广东省广州市 25
@@ -457,6 +411,9 @@ proxy-groups:
       - 🇨🇳 广东省广州市 30
       - 🇨🇳 广东省广州市 31
       - 🇨🇳 广东省广州市 32
+      - 亚太地区
+      - 🇨🇳 台湾省台北市
+      - 🇨🇳 台湾省新竹市
       - 🇨🇳 广东省广州市 33
       - 🇨🇳 广东省广州市 34
       - 🇨🇳 广东省广州市 35
@@ -468,13 +425,8 @@ proxy-groups:
       - 🇨🇳 广东省广州市 41
       - 🇨🇳 广东省广州市 42
       - 🇨🇳 广东省广州市 43
-      - 🇨🇳 广东省广州市 44
-      - 🇨🇳 广东省广州市 45
-      - 🇨🇳 广东省广州市 46
-      - 🇨🇳 广东省广州市 47
-      - 🇨🇳 广东省广州市 48
-      - 🇨🇳 广东省广州市 49
-      - 🇨🇳 广东省广州市 50
+      - 🇺🇸 美国 3
+      - 亚太地区 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
