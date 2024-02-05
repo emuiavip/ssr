@@ -5,13 +5,21 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 枭木iOS大本营 TG@Tmxios, server: 51.21.56.211, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
+  - {name: https://t.me/Tmxios, server: 13.112.247.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: P12证书 https://p12.tmxios.top, server: 54.248.151.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 号卡办理 https://10.tmxios.top/, server: 35.93.149.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 公众号：枭木iOS大本营, server: 54.251.138.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 全网低价个人证书, server: 47.243.108.41, port: 10841, type: ss, cipher: aes-256-gcm, password: rUx8mqUsI0}
+  - {name: iOS|轻松签|全能签|P12证书, server: 8.210.231.146, port: 1146, type: ss, cipher: aes-256-gcm, password: jmtgsmW40R}
+  - {name: 定制V信|应用分身|V信密友|破解软件, server: 47.57.232.119, port: 2119, type: ss, cipher: aes-256-gcm, password: 3B9vFTBSlp}
   - {name: 🇸🇬 新加坡, server: 52.221.203.229, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 亚太地区, server: 103.172.116.94, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH}
   - {name: 亚太地区 2, server: 103.172.116.94, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE}
   - {name: 🇰🇷 韩国, server: 221.150.109.83, port: 4398, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
   - {name: 🇺🇸 美国, server: 138.2.100.60, port: 20152, type: ss, cipher: chacha20-ietf-poly1305, password: 2f0346e2-59e5-4aa2-a718-80281da388f8}
   - {name: 亚太地区 3, server: 103.172.116.94, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk}
-  - {name: , server: 2600:1f14:54:9002:2967:e35c:6c5a:f092, port: 9, type: vmess, uuid: 8c5c667f-8537-45b1-ac35-9c76ee9a4bbb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/08/25/20230825_18a2a2ac897_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: "", server: 2600:1f14:54:9002:2967:e35c:6c5a:f092, port: 9, type: vmess, uuid: 8c5c667f-8537-45b1-ac35-9c76ee9a4bbb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/08/25/20230825_18a2a2ac897_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
   - {name: 🇰🇷 韩国 2, server: 125.141.31.72, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
   - {name: 🇸🇬 新加坡 2, server: 13.213.1.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 亚太地区 4, server: 103.172.116.90, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB}
@@ -73,13 +81,21 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
       - 🇸🇬 新加坡
       - 亚太地区
       - 亚太地区 2
       - 🇰🇷 韩国
       - 🇺🇸 美国
       - 亚太地区 3
-      - 
+      - ""
       - 🇰🇷 韩国 2
       - 🇸🇬 新加坡 2
       - 亚太地区 4
@@ -139,13 +155,21 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
       - 🇸🇬 新加坡
       - 亚太地区
       - 亚太地区 2
       - 🇰🇷 韩国
       - 🇺🇸 美国
       - 亚太地区 3
-      - 
+      - ""
       - 🇰🇷 韩国 2
       - 🇸🇬 新加坡 2
       - 亚太地区 4
@@ -204,13 +228,21 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
       - 🇸🇬 新加坡
       - 亚太地区
       - 亚太地区 2
       - 🇰🇷 韩国
       - 🇺🇸 美国
       - 亚太地区 3
-      - 
+      - ""
       - 🇰🇷 韩国 2
       - 🇸🇬 新加坡 2
       - 亚太地区 4
@@ -270,13 +302,21 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
       - 🇸🇬 新加坡
       - 亚太地区
       - 亚太地区 2
       - 🇰🇷 韩国
       - 🇺🇸 美国
       - 亚太地区 3
-      - 
+      - ""
       - 🇰🇷 韩国 2
       - 🇸🇬 新加坡 2
       - 亚太地区 4
@@ -349,13 +389,21 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
       - 🇸🇬 新加坡
       - 亚太地区
       - 亚太地区 2
       - 🇰🇷 韩国
       - 🇺🇸 美国
       - 亚太地区 3
-      - 
+      - ""
       - 🇰🇷 韩国 2
       - 🇸🇬 新加坡 2
       - 亚太地区 4
