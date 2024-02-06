@@ -5,33 +5,33 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 baipaovpn广东省江门市, server: 120.238.122.160, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
-  - {name: 🇨🇳 baipaovpn广东省江门市 2, server: 120.238.122.159, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
-  - {name: 🇨🇳 baipaovpn广东省江门市 3, server: 120.238.122.159, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
-  - {name: 🇨🇳 baipaovpn广东省, server: 183.237.20.149, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 baipaovpn安徽省, server: 112.28.208.18, port: 54137, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 baipaovpn美国, server: 151.145.70.133, port: 21853, type: ss, cipher: chacha20-ietf-poly1305, password: 97fff88f-df54-4950-b479-b4529b5a56ce}
-  - {name: 🇺🇸 baipaovpn美国 2, server: 172.233.83.6, port: 443, type: trojan, password: 04e9db00-a1af-4a88-bda9-2be0095036d1, skip-cert-verify: true}
-  - {name: 🇺🇸 baipaovpn美国 3, server: 52.194.226.65, port: 12299, type: trojan, password: WYb)spOtMulS, sni: www.myethblog.com, skip-cert-verify: true}
-  - {name: 🇯🇵 baipaovpn日本东京, server: 18.177.139.125, port: 12308, type: trojan, password: kFNK)(WRtfHi, sni: www.myethblog.com, skip-cert-verify: true}
-  - {name: 🇰🇷 baipaovpn韩国首尔, server: 13.124.230.99, port: 12307, type: trojan, password: 46A(Agf9I)3e, sni: www.myethblog.com, skip-cert-verify: true}
-  - {name: 🇸🇬 baipaovpn新加坡, server: 13.212.229.196, port: 12304, type: trojan, password: L(s12NMft79V, sni: www.myethblog.com, skip-cert-verify: true}
-  - {name: 🇬🇧 baipaovpn英国, server: 213.35.113.150, port: 80, type: vmess, uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 baipaovpn美国俄勒冈州波特兰, server: 18.236.247.217, port: 12296, type: trojan, password: jgC4qFRc2NPF, sni: www.myethblog.com, skip-cert-verify: true}
-  - {name: 🇺🇸 baipaovpn美国俄勒冈州波特兰 2, server: 34.220.0.65, port: 12297, type: trojan, password: ReiDYlad8vJM, sni: www.myethblog.com, skip-cert-verify: true}
-  - {name: 🇺🇸 baipaovpn美国俄勒冈州波特兰 3, server: 34.222.156.90, port: 12303, type: trojan, password: )4sPylJqIOgo, sni: www.myethblog.com, skip-cert-verify: true}
-  - {name: 🇨🇳 baipaovpn广东省江门市 4, server: 120.238.122.159, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
-  - {name: baipaovpn亚太地区, server: 103.172.116.79, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
-  - {name: baipaovpn亚太地区 2, server: 103.172.116.79, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm}
-  - {name: baipaovpn亚太地区 3, server: 103.172.116.79, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
-  - {name: baipaovpn亚太地区 4, server: 103.172.116.79, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF}
-  - {name: baipaovpn亚太地区 5, server: 103.172.116.79, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX}
-  - {name: baipaovpn亚太地区 6, server: 103.172.116.79, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf}
-  - {name: baipaovpn亚太地区 7, server: 103.172.116.79, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL}
-  - {name: baipaovpn亚太地区 8, server: 103.172.116.79, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX}
-  - {name: baipaovpn亚太地区 9, server: 103.172.116.79, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ}
-  - {name: 🇺🇸 baipaovpn美国 4, server: 172.232.217.155, port: 443, type: trojan, password: a8ffca96-a47d-4fa4-a62d-6625b5346aa4, skip-cert-verify: true}
-  - {name: 🇬🇧 baipaovpn英国伦敦, server: 35.179.4.167, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2LVVFxxHJSBMdGdl}
+  - {name: 🇨🇳 广东省江门市, server: 120.238.122.160, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
+  - {name: 🇨🇳 广东省江门市 2, server: 120.238.122.159, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
+  - {name: 🇨🇳 广东省江门市 3, server: 120.238.122.159, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
+  - {name: 🇨🇳 广东省, server: 183.237.20.149, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 安徽省, server: 112.28.208.18, port: 54137, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国, server: 151.145.70.133, port: 21853, type: ss, cipher: chacha20-ietf-poly1305, password: 97fff88f-df54-4950-b479-b4529b5a56ce}
+  - {name: 🇺🇸 美国 2, server: 172.233.83.6, port: 443, type: trojan, password: 04e9db00-a1af-4a88-bda9-2be0095036d1, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 3, server: 52.194.226.65, port: 12299, type: trojan, password: WYb)spOtMulS, sni: www.myethblog.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本东京, server: 18.177.139.125, port: 12308, type: trojan, password: kFNK)(WRtfHi, sni: www.myethblog.com, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国首尔, server: 13.124.230.99, port: 12307, type: trojan, password: 46A(Agf9I)3e, sni: www.myethblog.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡, server: 13.212.229.196, port: 12304, type: trojan, password: L(s12NMft79V, sni: www.myethblog.com, skip-cert-verify: true}
+  - {name: 🇬🇧 英国, server: 213.35.113.150, port: 80, type: vmess, uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国俄勒冈州波特兰, server: 18.236.247.217, port: 12296, type: trojan, password: jgC4qFRc2NPF, sni: www.myethblog.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国俄勒冈州波特兰 2, server: 34.220.0.65, port: 12297, type: trojan, password: ReiDYlad8vJM, sni: www.myethblog.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国俄勒冈州波特兰 3, server: 34.222.156.90, port: 12303, type: trojan, password: )4sPylJqIOgo, sni: www.myethblog.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省江门市 4, server: 120.238.122.159, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
+  - {name: 亚太地区, server: 103.172.116.79, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
+  - {name: 亚太地区 2, server: 103.172.116.79, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm}
+  - {name: 亚太地区 3, server: 103.172.116.79, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
+  - {name: 亚太地区 4, server: 103.172.116.79, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF}
+  - {name: 亚太地区 5, server: 103.172.116.79, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX}
+  - {name: 亚太地区 6, server: 103.172.116.79, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf}
+  - {name: 亚太地区 7, server: 103.172.116.79, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL}
+  - {name: 亚太地区 8, server: 103.172.116.79, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX}
+  - {name: 亚太地区 9, server: 103.172.116.79, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ}
+  - {name: 🇺🇸 美国 4, server: 172.232.217.155, port: 443, type: trojan, password: a8ffca96-a47d-4fa4-a62d-6625b5346aa4, skip-cert-verify: true}
+  - {name: 🇬🇧 英国伦敦, server: 35.179.4.167, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2LVVFxxHJSBMdGdl}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -40,131 +40,131 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇨🇳 baipaovpn广东省江门市
-      - 🇨🇳 baipaovpn广东省江门市 2
-      - 🇨🇳 baipaovpn广东省江门市 3
-      - 🇨🇳 baipaovpn广东省
-      - 🇨🇳 baipaovpn安徽省
-      - 🇺🇸 baipaovpn美国
-      - 🇺🇸 baipaovpn美国 2
-      - 🇺🇸 baipaovpn美国 3
-      - 🇯🇵 baipaovpn日本东京
-      - 🇰🇷 baipaovpn韩国首尔
-      - 🇸🇬 baipaovpn新加坡
-      - 🇬🇧 baipaovpn英国
-      - 🇺🇸 baipaovpn美国俄勒冈州波特兰
-      - 🇺🇸 baipaovpn美国俄勒冈州波特兰 2
-      - 🇺🇸 baipaovpn美国俄勒冈州波特兰 3
-      - 🇨🇳 baipaovpn广东省江门市 4
-      - baipaovpn亚太地区
-      - baipaovpn亚太地区 2
-      - baipaovpn亚太地区 3
-      - baipaovpn亚太地区 4
-      - baipaovpn亚太地区 5
-      - baipaovpn亚太地区 6
-      - baipaovpn亚太地区 7
-      - baipaovpn亚太地区 8
-      - baipaovpn亚太地区 9
-      - 🇺🇸 baipaovpn美国 4
-      - 🇬🇧 baipaovpn英国伦敦
+      - 🇨🇳 广东省江门市
+      - 🇨🇳 广东省江门市 2
+      - 🇨🇳 广东省江门市 3
+      - 🇨🇳 广东省
+      - 🇨🇳 安徽省
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇯🇵 日本东京
+      - 🇰🇷 韩国首尔
+      - 🇸🇬 新加坡
+      - 🇬🇧 英国
+      - 🇺🇸 美国俄勒冈州波特兰
+      - 🇺🇸 美国俄勒冈州波特兰 2
+      - 🇺🇸 美国俄勒冈州波特兰 3
+      - 🇨🇳 广东省江门市 4
+      - 亚太地区
+      - 亚太地区 2
+      - 亚太地区 3
+      - 亚太地区 4
+      - 亚太地区 5
+      - 亚太地区 6
+      - 亚太地区 7
+      - 亚太地区 8
+      - 亚太地区 9
+      - 🇺🇸 美国 4
+      - 🇬🇧 英国伦敦
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 baipaovpn广东省江门市
-      - 🇨🇳 baipaovpn广东省江门市 2
-      - 🇨🇳 baipaovpn广东省江门市 3
-      - 🇨🇳 baipaovpn广东省
-      - 🇨🇳 baipaovpn安徽省
-      - 🇺🇸 baipaovpn美国
-      - 🇺🇸 baipaovpn美国 2
-      - 🇺🇸 baipaovpn美国 3
-      - 🇯🇵 baipaovpn日本东京
-      - 🇰🇷 baipaovpn韩国首尔
-      - 🇸🇬 baipaovpn新加坡
-      - 🇬🇧 baipaovpn英国
-      - 🇺🇸 baipaovpn美国俄勒冈州波特兰
-      - 🇺🇸 baipaovpn美国俄勒冈州波特兰 2
-      - 🇺🇸 baipaovpn美国俄勒冈州波特兰 3
-      - 🇨🇳 baipaovpn广东省江门市 4
-      - baipaovpn亚太地区
-      - baipaovpn亚太地区 2
-      - baipaovpn亚太地区 3
-      - baipaovpn亚太地区 4
-      - baipaovpn亚太地区 5
-      - baipaovpn亚太地区 6
-      - baipaovpn亚太地区 7
-      - baipaovpn亚太地区 8
-      - baipaovpn亚太地区 9
-      - 🇺🇸 baipaovpn美国 4
-      - 🇬🇧 baipaovpn英国伦敦
+      - 🇨🇳 广东省江门市
+      - 🇨🇳 广东省江门市 2
+      - 🇨🇳 广东省江门市 3
+      - 🇨🇳 广东省
+      - 🇨🇳 安徽省
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇯🇵 日本东京
+      - 🇰🇷 韩国首尔
+      - 🇸🇬 新加坡
+      - 🇬🇧 英国
+      - 🇺🇸 美国俄勒冈州波特兰
+      - 🇺🇸 美国俄勒冈州波特兰 2
+      - 🇺🇸 美国俄勒冈州波特兰 3
+      - 🇨🇳 广东省江门市 4
+      - 亚太地区
+      - 亚太地区 2
+      - 亚太地区 3
+      - 亚太地区 4
+      - 亚太地区 5
+      - 亚太地区 6
+      - 亚太地区 7
+      - 亚太地区 8
+      - 亚太地区 9
+      - 🇺🇸 美国 4
+      - 🇬🇧 英国伦敦
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇨🇳 baipaovpn广东省江门市
-      - 🇨🇳 baipaovpn广东省江门市 2
-      - 🇨🇳 baipaovpn广东省江门市 3
-      - 🇨🇳 baipaovpn广东省
-      - 🇨🇳 baipaovpn安徽省
-      - 🇺🇸 baipaovpn美国
-      - 🇺🇸 baipaovpn美国 2
-      - 🇺🇸 baipaovpn美国 3
-      - 🇯🇵 baipaovpn日本东京
-      - 🇰🇷 baipaovpn韩国首尔
-      - 🇸🇬 baipaovpn新加坡
-      - 🇬🇧 baipaovpn英国
-      - 🇺🇸 baipaovpn美国俄勒冈州波特兰
-      - 🇺🇸 baipaovpn美国俄勒冈州波特兰 2
-      - 🇺🇸 baipaovpn美国俄勒冈州波特兰 3
-      - 🇨🇳 baipaovpn广东省江门市 4
-      - baipaovpn亚太地区
-      - baipaovpn亚太地区 2
-      - baipaovpn亚太地区 3
-      - baipaovpn亚太地区 4
-      - baipaovpn亚太地区 5
-      - baipaovpn亚太地区 6
-      - baipaovpn亚太地区 7
-      - baipaovpn亚太地区 8
-      - baipaovpn亚太地区 9
-      - 🇺🇸 baipaovpn美国 4
-      - 🇬🇧 baipaovpn英国伦敦
+      - 🇨🇳 广东省江门市
+      - 🇨🇳 广东省江门市 2
+      - 🇨🇳 广东省江门市 3
+      - 🇨🇳 广东省
+      - 🇨🇳 安徽省
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇯🇵 日本东京
+      - 🇰🇷 韩国首尔
+      - 🇸🇬 新加坡
+      - 🇬🇧 英国
+      - 🇺🇸 美国俄勒冈州波特兰
+      - 🇺🇸 美国俄勒冈州波特兰 2
+      - 🇺🇸 美国俄勒冈州波特兰 3
+      - 🇨🇳 广东省江门市 4
+      - 亚太地区
+      - 亚太地区 2
+      - 亚太地区 3
+      - 亚太地区 4
+      - 亚太地区 5
+      - 亚太地区 6
+      - 亚太地区 7
+      - 亚太地区 8
+      - 亚太地区 9
+      - 🇺🇸 美国 4
+      - 🇬🇧 英国伦敦
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇨🇳 baipaovpn广东省江门市
-      - 🇨🇳 baipaovpn广东省江门市 2
-      - 🇨🇳 baipaovpn广东省江门市 3
-      - 🇨🇳 baipaovpn广东省
-      - 🇨🇳 baipaovpn安徽省
-      - 🇺🇸 baipaovpn美国
-      - 🇺🇸 baipaovpn美国 2
-      - 🇺🇸 baipaovpn美国 3
-      - 🇯🇵 baipaovpn日本东京
-      - 🇰🇷 baipaovpn韩国首尔
-      - 🇸🇬 baipaovpn新加坡
-      - 🇬🇧 baipaovpn英国
-      - 🇺🇸 baipaovpn美国俄勒冈州波特兰
-      - 🇺🇸 baipaovpn美国俄勒冈州波特兰 2
-      - 🇺🇸 baipaovpn美国俄勒冈州波特兰 3
-      - 🇨🇳 baipaovpn广东省江门市 4
-      - baipaovpn亚太地区
-      - baipaovpn亚太地区 2
-      - baipaovpn亚太地区 3
-      - baipaovpn亚太地区 4
-      - baipaovpn亚太地区 5
-      - baipaovpn亚太地区 6
-      - baipaovpn亚太地区 7
-      - baipaovpn亚太地区 8
-      - baipaovpn亚太地区 9
-      - 🇺🇸 baipaovpn美国 4
-      - 🇬🇧 baipaovpn英国伦敦
+      - 🇨🇳 广东省江门市
+      - 🇨🇳 广东省江门市 2
+      - 🇨🇳 广东省江门市 3
+      - 🇨🇳 广东省
+      - 🇨🇳 安徽省
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇯🇵 日本东京
+      - 🇰🇷 韩国首尔
+      - 🇸🇬 新加坡
+      - 🇬🇧 英国
+      - 🇺🇸 美国俄勒冈州波特兰
+      - 🇺🇸 美国俄勒冈州波特兰 2
+      - 🇺🇸 美国俄勒冈州波特兰 3
+      - 🇨🇳 广东省江门市 4
+      - 亚太地区
+      - 亚太地区 2
+      - 亚太地区 3
+      - 亚太地区 4
+      - 亚太地区 5
+      - 亚太地区 6
+      - 亚太地区 7
+      - 亚太地区 8
+      - 亚太地区 9
+      - 🇺🇸 美国 4
+      - 🇬🇧 英国伦敦
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -184,33 +184,33 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇨🇳 baipaovpn广东省江门市
-      - 🇨🇳 baipaovpn广东省江门市 2
-      - 🇨🇳 baipaovpn广东省江门市 3
-      - 🇨🇳 baipaovpn广东省
-      - 🇨🇳 baipaovpn安徽省
-      - 🇺🇸 baipaovpn美国
-      - 🇺🇸 baipaovpn美国 2
-      - 🇺🇸 baipaovpn美国 3
-      - 🇯🇵 baipaovpn日本东京
-      - 🇰🇷 baipaovpn韩国首尔
-      - 🇸🇬 baipaovpn新加坡
-      - 🇬🇧 baipaovpn英国
-      - 🇺🇸 baipaovpn美国俄勒冈州波特兰
-      - 🇺🇸 baipaovpn美国俄勒冈州波特兰 2
-      - 🇺🇸 baipaovpn美国俄勒冈州波特兰 3
-      - 🇨🇳 baipaovpn广东省江门市 4
-      - baipaovpn亚太地区
-      - baipaovpn亚太地区 2
-      - baipaovpn亚太地区 3
-      - baipaovpn亚太地区 4
-      - baipaovpn亚太地区 5
-      - baipaovpn亚太地区 6
-      - baipaovpn亚太地区 7
-      - baipaovpn亚太地区 8
-      - baipaovpn亚太地区 9
-      - 🇺🇸 baipaovpn美国 4
-      - 🇬🇧 baipaovpn英国伦敦
+      - 🇨🇳 广东省江门市
+      - 🇨🇳 广东省江门市 2
+      - 🇨🇳 广东省江门市 3
+      - 🇨🇳 广东省
+      - 🇨🇳 安徽省
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇯🇵 日本东京
+      - 🇰🇷 韩国首尔
+      - 🇸🇬 新加坡
+      - 🇬🇧 英国
+      - 🇺🇸 美国俄勒冈州波特兰
+      - 🇺🇸 美国俄勒冈州波特兰 2
+      - 🇺🇸 美国俄勒冈州波特兰 3
+      - 🇨🇳 广东省江门市 4
+      - 亚太地区
+      - 亚太地区 2
+      - 亚太地区 3
+      - 亚太地区 4
+      - 亚太地区 5
+      - 亚太地区 6
+      - 亚太地区 7
+      - 亚太地区 8
+      - 亚太地区 9
+      - 🇺🇸 美国 4
+      - 🇬🇧 英国伦敦
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
