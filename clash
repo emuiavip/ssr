@@ -5,6 +5,14 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 枭木iOS大本营 TG@Tmxios, server: 51.21.56.211, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
+  - {name: https://t.me/Tmxios, server: 13.112.247.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: P12证书 https://p12.tmxios.top, server: 54.248.151.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 号卡办理 https://10.tmxios.top/, server: 35.93.149.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 公众号：枭木iOS大本营, server: 54.251.138.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 全网低价个人证书, server: 47.243.108.41, port: 10841, type: ss, cipher: aes-256-gcm, password: rUx8mqUsI0}
+  - {name: iOS|轻松签|全能签|P12证书, server: 8.210.231.146, port: 1146, type: ss, cipher: aes-256-gcm, password: jmtgsmW40R}
+  - {name: 定制V信|应用分身|V信密友|破解软件, server: 47.57.232.119, port: 2119, type: ss, cipher: aes-256-gcm, password: 3B9vFTBSlp}
   - {name: 🇷🇴 罗马尼亚, server: 185.244.208.61, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾省花莲县, server: 1.164.154.78, port: 9123, type: ss, cipher: chacha20-ietf-poly1305, password: 49fd0bd0-cb02-4545-97f3-28e74acfc3b4}
   - {name: 🇨🇳 台湾省南投县, server: 36.233.211.220, port: 16711, type: ss, cipher: chacha20-ietf-poly1305, password: 49fd0bd0-cb02-4545-97f3-28e74acfc3b4}
@@ -60,7 +68,7 @@ proxies:
   - {name: 🇺🇸 美国 5, server: 172.233.49.58, port: 443, type: trojan, password: 839d3cf6-eea3-4f1b-ab33-4fb669cc951d, skip-cert-verify: true}
   - {name: 亚太地区 9, server: 103.172.116.103, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9}
   - {name: 亚太地区 10, server: 103.172.116.103, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
-  - {name: , server: 2606:4700:3036::6815:36fc, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}}
+  - {name: "", server: 2606:4700:3036::6815:36fc, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}}
   - {name: 🇯🇵 日本, server: 54.199.241.201, port: 15385, type: trojan, password: jEyHLLmlhl8n, sni: www.myethblog.com, skip-cert-verify: true}
   - {name: 🇺🇸 美国 6, server: 3.38.178.233, port: 15394, type: trojan, password: 0CNd)9wLZaZK, sni: www.myethblog.com, skip-cert-verify: true}
   - {name: 🇰🇷 韩国首尔, server: 3.34.51.177, port: 15395, type: trojan, password: Yq)5p5cd9Wln, sni: www.myethblog.com, skip-cert-verify: true}
@@ -73,6 +81,14 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
       - 🇷🇴 罗马尼亚
       - 🇨🇳 台湾省花莲县
       - 🇨🇳 台湾省南投县
@@ -128,7 +144,7 @@ proxy-groups:
       - 🇺🇸 美国 5
       - 亚太地区 9
       - 亚太地区 10
-      - 
+      - ""
       - 🇯🇵 日本
       - 🇺🇸 美国 6
       - 🇰🇷 韩国首尔
@@ -139,6 +155,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
       - 🇷🇴 罗马尼亚
       - 🇨🇳 台湾省花莲县
       - 🇨🇳 台湾省南投县
@@ -194,7 +218,7 @@ proxy-groups:
       - 🇺🇸 美国 5
       - 亚太地区 9
       - 亚太地区 10
-      - 
+      - ""
       - 🇯🇵 日本
       - 🇺🇸 美国 6
       - 🇰🇷 韩国首尔
@@ -204,6 +228,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
       - 🇷🇴 罗马尼亚
       - 🇨🇳 台湾省花莲县
       - 🇨🇳 台湾省南投县
@@ -259,7 +291,7 @@ proxy-groups:
       - 🇺🇸 美国 5
       - 亚太地区 9
       - 亚太地区 10
-      - 
+      - ""
       - 🇯🇵 日本
       - 🇺🇸 美国 6
       - 🇰🇷 韩国首尔
@@ -270,6 +302,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
       - 🇷🇴 罗马尼亚
       - 🇨🇳 台湾省花莲县
       - 🇨🇳 台湾省南投县
@@ -325,7 +365,7 @@ proxy-groups:
       - 🇺🇸 美国 5
       - 亚太地区 9
       - 亚太地区 10
-      - 
+      - ""
       - 🇯🇵 日本
       - 🇺🇸 美国 6
       - 🇰🇷 韩国首尔
@@ -349,6 +389,14 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
       - 🇷🇴 罗马尼亚
       - 🇨🇳 台湾省花莲县
       - 🇨🇳 台湾省南投县
@@ -404,7 +452,7 @@ proxy-groups:
       - 🇺🇸 美国 5
       - 亚太地区 9
       - 亚太地区 10
-      - 
+      - ""
       - 🇯🇵 日本
       - 🇺🇸 美国 6
       - 🇰🇷 韩国首尔
