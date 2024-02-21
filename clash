@@ -5,12 +5,20 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 枭木iOS大本营 TG@Tmxios, server: 51.21.56.211, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
+  - {name: https://t.me/Tmxios, server: 13.112.247.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: P12证书 https://p12.tmxios.top, server: 54.248.151.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 号卡办理 https://10.tmxios.top/, server: 35.93.149.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 公众号：枭木iOS大本营, server: 54.251.138.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 全网低价个人证书, server: 47.243.108.41, port: 10841, type: ss, cipher: aes-256-gcm, password: rUx8mqUsI0}
+  - {name: iOS|轻松签|全能签|P12证书, server: 8.210.231.146, port: 1146, type: ss, cipher: aes-256-gcm, password: jmtgsmW40R}
+  - {name: 定制V信|应用分身|V信密友|破解软件, server: 47.57.232.119, port: 2119, type: ss, cipher: aes-256-gcm, password: 3B9vFTBSlp}
   - {name: 🇨🇳 山东省, server: 120.220.182.84, port: 45611, type: ss, cipher: aes-256-gcm, password: 1e381f55-4ee9-48fe-a939-0aa75d0d463d}
   - {name: 🇨🇳 台湾省新竹市, server: 114.37.144.148, port: 5681, type: vmess, uuid: 3bd62189-aebd-4b36-9dfd-335457d70420, alterId: 0, cipher: auto, tls: false}
   - {name: 🇰🇷 韩国, server: 27.255.82.42, port: 7818, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
   - {name: 🇨🇳 广东省江门市, server: 120.238.122.159, port: 26602, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123}
   - {name: 🇨🇳 广东省江门市 2, server: 120.238.122.159, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123}
-  - {name: , server: 2606:4700:3031::6815:184a, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.xyz}}}
+  - {name: "", server: 2606:4700:3031::6815:184a, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.xyz}}}
   - {name: 🇨🇳 广东省江门市 3, server: 120.238.122.159, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123}
   - {name: 🇸🇬 新加坡, server: 18.136.120.154, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇺🇸 美国, server: 45.154.14.165, port: 13593, type: vmess, uuid: 0764e6b0-3241-4962-a483-956bcc3612a5, alterId: 0, cipher: auto, tls: false}
@@ -69,12 +77,20 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
       - 🇨🇳 山东省
       - 🇨🇳 台湾省新竹市
       - 🇰🇷 韩国
       - 🇨🇳 广东省江门市
       - 🇨🇳 广东省江门市 2
-      - 
+      - ""
       - 🇨🇳 广东省江门市 3
       - 🇸🇬 新加坡
       - 🇺🇸 美国
@@ -131,12 +147,20 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
       - 🇨🇳 山东省
       - 🇨🇳 台湾省新竹市
       - 🇰🇷 韩国
       - 🇨🇳 广东省江门市
       - 🇨🇳 广东省江门市 2
-      - 
+      - ""
       - 🇨🇳 广东省江门市 3
       - 🇸🇬 新加坡
       - 🇺🇸 美国
@@ -192,12 +216,20 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
       - 🇨🇳 山东省
       - 🇨🇳 台湾省新竹市
       - 🇰🇷 韩国
       - 🇨🇳 广东省江门市
       - 🇨🇳 广东省江门市 2
-      - 
+      - ""
       - 🇨🇳 广东省江门市 3
       - 🇸🇬 新加坡
       - 🇺🇸 美国
@@ -254,12 +286,20 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
       - 🇨🇳 山东省
       - 🇨🇳 台湾省新竹市
       - 🇰🇷 韩国
       - 🇨🇳 广东省江门市
       - 🇨🇳 广东省江门市 2
-      - 
+      - ""
       - 🇨🇳 广东省江门市 3
       - 🇸🇬 新加坡
       - 🇺🇸 美国
@@ -329,12 +369,20 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
       - 🇨🇳 山东省
       - 🇨🇳 台湾省新竹市
       - 🇰🇷 韩国
       - 🇨🇳 广东省江门市
       - 🇨🇳 广东省江门市 2
-      - 
+      - ""
       - 🇨🇳 广东省江门市 3
       - 🇸🇬 新加坡
       - 🇺🇸 美国
