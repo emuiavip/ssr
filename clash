@@ -5,54 +5,22 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 枭木iOS大本营 TG@Tmxios, server: 51.21.56.211, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
-  - {name: https://t.me/Tmxios, server: 13.112.247.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: P12证书 https://p12.tmxios.top, server: 54.248.151.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 号卡办理 https://10.tmxios.top/, server: 35.93.149.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 公众号：枭木iOS大本营, server: 54.251.138.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 全网低价个人证书, server: 47.243.108.41, port: 10841, type: ss, cipher: aes-256-gcm, password: rUx8mqUsI0}
-  - {name: iOS|轻松签|全能签|P12证书, server: 8.210.231.146, port: 1146, type: ss, cipher: aes-256-gcm, password: jmtgsmW40R}
-  - {name: 定制V信|应用分身|V信密友|破解软件, server: 47.57.232.119, port: 2119, type: ss, cipher: aes-256-gcm, password: 3B9vFTBSlp}
-  - {name: 🇨🇳 广东省江门市, server: 120.238.122.160, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123}
-  - {name: 🇨🇳 安徽省合肥市, server: 112.29.215.8, port: 35001, type: trojan, password: bca4a421-67bf-48c4-a21a-199365bb16f6, sni: updates.sub-nthu.com, skip-cert-verify: true}
-  - {name: 🇨🇳 安徽省合肥市 2, server: 112.29.215.8, port: 35002, type: trojan, password: bca4a421-67bf-48c4-a21a-199365bb16f6, sni: updates.sub-nthu.com, skip-cert-verify: true}
-  - {name: 🇨🇳 安徽省合肥市 3, server: 112.29.215.8, port: 35003, type: trojan, password: bca4a421-67bf-48c4-a21a-199365bb16f6, sni: updates.sub-nthu.com, skip-cert-verify: true}
-  - {name: 🇨🇳 安徽省合肥市 4, server: 112.29.215.8, port: 35005, type: trojan, password: bca4a421-67bf-48c4-a21a-199365bb16f6, sni: updates.sub-nthu.com, skip-cert-verify: true}
-  - {name: 🇨🇳 安徽省合肥市 5, server: 112.29.215.8, port: 35007, type: trojan, password: bca4a421-67bf-48c4-a21a-199365bb16f6, sni: updates.sub-nthu.com, skip-cert-verify: true}
-  - {name: 🇨🇳 安徽省合肥市 6, server: 112.29.215.8, port: 35010, type: trojan, password: bca4a421-67bf-48c4-a21a-199365bb16f6, sni: data.sub-nthu.com, skip-cert-verify: true}
-  - {name: 中国, server: 8.222.225.211, port: 44339, type: vmess, uuid: d998034a-a407-498f-8e2f-591510f77dad, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国, server: 138.2.110.74, port: 54952, type: trojan, password: bcc28591-8fb3-4c3a-a24b-550c619da37c, sni: sg02.bsawc.shop, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 2, server: 131.186.18.36, port: 34952, type: trojan, password: bcc28591-8fb3-4c3a-a24b-550c619da37c, sni: kr01.bsawc.shop, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省江门市 2, server: 120.238.122.160, port: 50002, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123}
-  - {name: 🇨🇳 广东省广州市, server: 183.236.51.7, port: 10804, type: trojan, password: f1fedda8-0fb1-4d88-a504-aa23928e348f, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 3, server: 45.78.61.189, port: 32173, type: vmess, uuid: b62fc520-d9a4-4c07-80c1-bb0276a40ba4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾省台北市, server: 61.228.166.29, port: 3271, type: trojan, password: ff0a98ef-e829-4a62-b625-998593df5249, sni: b24.ntbq.dynu.net, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 4, server: 45.158.171.66, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 🇺🇸 美国 5, server: 35.92.244.248, port: 32645, type: vmess, uuid: e67b4113-9a75-4f75-bbad-9c2a2b850d4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
-  - {name: 🇺🇦 乌克兰, server: 94.131.118.246, port: 80, type: vmess, uuid: 48bc6709-06c0-4e77-81a6-8c908999ca1e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇨🇳 台湾省桃园市, server: 220.141.144.171, port: 13761, type: trojan, password: 02819b45-a79f-41e6-8cac-c23371c25cb3, sni: ty11t.twty.dynu.net, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾省新竹市, server: 114.37.144.110, port: 9489, type: trojan, password: 02819b45-a79f-41e6-8cac-c23371c25cb3, sni: b13.ntbq.dynu.net, skip-cert-verify: false}
-  - {name: 🇯🇵 日本东京, server: 35.76.233.110, port: 39268, type: vmess, uuid: c22cfec1-7ce8-4fc4-9b2c-05a68ec60a81, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
-  - {name: 🇺🇸 美国 6, server: 64.110.88.74, port: 57602, type: trojan, password: bcc28591-8fb3-4c3a-a24b-550c619da37c, sni: kr02.bsawc.shop, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾省台中市, server: 36.232.132.177, port: 14431, type: vmess, uuid: ff0a98ef-e829-4a62-b625-998593df5249, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇷 伊朗, server: 188.253.6.232, port: 50520, type: vmess, uuid: b636176c-acff-464b-f37a-f0b202c8906e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾省新竹市 2, server: 36.226.155.245, port: 5681, type: vmess, uuid: ff0a98ef-e829-4a62-b625-998593df5249, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾省台北市 2, server: 114.43.134.60, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, sni: 4ebc180e-s9kps0-0-zzkl.tw3.p5pv.com, skip-cert-verify: true}
-  - {name: "", server: 2606:4700:3033::ac43:880c, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.ywnouvbale.biz}}}
-  - {name: 🇺🇸 美国俄勒冈州波特兰, server: 34.215.214.155, port: 46095, type: vmess, uuid: 6aba6cc7-4eb8-4524-a8ae-a5efbde8d848, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
-  - {name: 🇺🇸 美国 7, server: 35.83.19.250, port: 5184, type: vmess, uuid: ec60df7a-6641-432c-8432-5431b822ba88, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
-  - {name: 🇺🇸 美国 8, server: 35.94.150.44, port: 28203, type: vmess, uuid: deb103bc-e98f-4918-a14f-08c2b501d46e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
-  - {name: 🇺🇸 美国 9, server: 35.83.19.250, port: 24743, type: vmess, uuid: 46b3fe81-22e6-43c0-b0ea-b1f979b4956e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
-  - {name: 🇺🇸 美国 10, server: 35.83.19.250, port: 45149, type: vmess, uuid: b7e23e1f-7723-4649-aae8-e572c51ae012, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
-  - {name: 🇺🇸 美国得克萨斯州, server: 34.168.188.131, port: 16806, type: vmess, uuid: 9acc3bcd-84a8-49fc-b3a4-e2687ed6ed6b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
-  - {name: 🇺🇸 美国得克萨斯州 2, server: 34.168.188.131, port: 5316, type: vmess, uuid: 199d91a1-3c8a-4cd1-a4de-854cc70b432e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
-  - {name: 🇺🇸 北美地区, server: 23.142.200.175, port: 443, type: trojan, password: 27876_t7d7f4e3f, sni: los16.ttddd.xyz, skip-cert-verify: true}
-  - {name: 2, server: 2606:4700:3035::ac43:8fc0, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}}
-  - {name: 3, server: "[2a00:b700::4:3b7]", port: 30005, type: trojan, password: bcc28591-8fb3-4c3a-a24b-550c619da37c, sni: ru01.bsawc.shop, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 11, server: 65.109.241.20, port: 25365, type: ss, cipher: aes-128-gcm, password: TELEGRAM:@ZEDMODEON-TELEGRAM:@ZEDMODEON-TELEGRAM:@ZEDMODEON}
-  - {name: 🇫🇷 法国巴黎, server: 35.180.199.174, port: 11275, type: vmess, uuid: 8b938e92-c30b-42bd-8f86-3cda381126ea, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
-  - {name: 🇬🇧 英国伦敦, server: 51.143.138.181, port: 25664, type: ss, cipher: chacha20-ietf-poly1305, password: T53sUVc6QhOja2R5CZPGCd}
-  - {name: 🇺🇦 乌克兰 2, server: 95.164.46.235, port: 443, type: trojan, password: 915dc116-70c6-403b-8a03-18d885c311bf, skip-cert-verify: true}
+  - {name: 🇫🇮 芬兰, server: 95.216.158.77, port: 17425, type: vmess, uuid: 3bd8b1a7-244e-40b1-8686-e262c2cb239f, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾省台北市, server: 61.228.179.198, port: 12002, type: vmess, uuid: 46a8c6ce-0095-4229-9e35-238d6634feca, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 广东省, server: 120.233.43.4, port: 16110, type: vmess, uuid: 1534454e-13c1-332c-a1f6-dffb2e51f778, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国, server: 45.158.171.66, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇺🇸 美国 2, server: 165.232.78.169, port: 80, type: vmess, uuid: 22b502a4-0886-4c97-9538-49faa23d2912, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 重庆市, server: 183.230.82.41, port: 54800, type: vmess, uuid: 1498fed2-b33d-4466-d685-40fd71de8c13, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /FreeVPNTG@WSBVPN}}
+  - {name: 🇯🇵 日本东京, server: 13.230.225.104, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇷🇺 俄罗斯, server: 192.124.176.154, port: 56949, type: vmess, uuid: 196c6b72-2bdc-4336-8e74-0f983a23282d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾省, server: 118.167.70.36, port: 5681, type: vmess, uuid: c0aeab85-0e75-48bb-98a5-65092b120e64, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾省 2, server: 125.224.142.242, port: 14431, type: vmess, uuid: c0aeab85-0e75-48bb-98a5-65092b120e64, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾省桃园市, server: 220.141.145.234, port: 13761, type: trojan, password: c0aeab85-0e75-48bb-98a5-65092b120e64, sni: ty11t.twty.dynu.net, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾省 3, server: 118.167.76.163, port: 9489, type: trojan, password: 5d9d54c4-8c6d-4b77-b9f7-33735b5de7c4, sni: b13.ntbq.dynu.net}
+  - {name: 🇨🇳 台湾省新北市, server: 114.37.108.103, port: 3271, type: trojan, password: 5d9d54c4-8c6d-4b77-b9f7-33735b5de7c4, sni: b24.ntbq.dynu.net}
+  - {name: 🇨🇳 台湾省台北市 2, server: 1.164.140.147, port: 9755, type: trojan, password: 5d9d54c4-8c6d-4b77-b9f7-33735b5de7c4, sni: b12.ntbq.dynu.net}
+  - {name: 🇨🇳 台湾省台北市 3, server: 114.45.76.8, port: 18912, type: trojan, password: c0aeab85-0e75-48bb-98a5-65092b120e64, sni: ty12t.twty.dynu.net, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 3, server: 129.213.25.87, port: 80, type: vmess, uuid: 491a3df6-e24e-48ba-bcb5-449d1ae1a776, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -61,215 +29,87 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇨🇳 广东省江门市
-      - 🇨🇳 安徽省合肥市
-      - 🇨🇳 安徽省合肥市 2
-      - 🇨🇳 安徽省合肥市 3
-      - 🇨🇳 安徽省合肥市 4
-      - 🇨🇳 安徽省合肥市 5
-      - 🇨🇳 安徽省合肥市 6
-      - 中国
+      - 🇫🇮 芬兰
+      - 🇨🇳 台湾省台北市
+      - 🇨🇳 广东省
       - 🇺🇸 美国
       - 🇺🇸 美国 2
-      - 🇨🇳 广东省江门市 2
-      - 🇨🇳 广东省广州市
-      - 🇺🇸 美国 3
-      - 🇨🇳 台湾省台北市
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇦 乌克兰
-      - 🇨🇳 台湾省桃园市
-      - 🇨🇳 台湾省新竹市
+      - 重庆市
       - 🇯🇵 日本东京
-      - 🇺🇸 美国 6
-      - 🇨🇳 台湾省台中市
-      - 🇮🇷 伊朗
-      - 🇨🇳 台湾省新竹市 2
+      - 🇷🇺 俄罗斯
+      - 🇨🇳 台湾省
+      - 🇨🇳 台湾省 2
+      - 🇨🇳 台湾省桃园市
+      - 🇨🇳 台湾省 3
+      - 🇨🇳 台湾省新北市
       - 🇨🇳 台湾省台北市 2
-      - ""
-      - 🇺🇸 美国俄勒冈州波特兰
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国得克萨斯州
-      - 🇺🇸 美国得克萨斯州 2
-      - 🇺🇸 北美地区
-      - 2
-      - 3
-      - 🇺🇸 美国 11
-      - 🇫🇷 法国巴黎
-      - 🇬🇧 英国伦敦
-      - 🇺🇦 乌克兰 2
+      - 🇨🇳 台湾省台北市 3
+      - 🇺🇸 美国 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇨🇳 广东省江门市
-      - 🇨🇳 安徽省合肥市
-      - 🇨🇳 安徽省合肥市 2
-      - 🇨🇳 安徽省合肥市 3
-      - 🇨🇳 安徽省合肥市 4
-      - 🇨🇳 安徽省合肥市 5
-      - 🇨🇳 安徽省合肥市 6
-      - 中国
+      - 🇫🇮 芬兰
+      - 🇨🇳 台湾省台北市
+      - 🇨🇳 广东省
       - 🇺🇸 美国
       - 🇺🇸 美国 2
-      - 🇨🇳 广东省江门市 2
-      - 🇨🇳 广东省广州市
-      - 🇺🇸 美国 3
-      - 🇨🇳 台湾省台北市
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇦 乌克兰
-      - 🇨🇳 台湾省桃园市
-      - 🇨🇳 台湾省新竹市
+      - 重庆市
       - 🇯🇵 日本东京
-      - 🇺🇸 美国 6
-      - 🇨🇳 台湾省台中市
-      - 🇮🇷 伊朗
-      - 🇨🇳 台湾省新竹市 2
+      - 🇷🇺 俄罗斯
+      - 🇨🇳 台湾省
+      - 🇨🇳 台湾省 2
+      - 🇨🇳 台湾省桃园市
+      - 🇨🇳 台湾省 3
+      - 🇨🇳 台湾省新北市
       - 🇨🇳 台湾省台北市 2
-      - ""
-      - 🇺🇸 美国俄勒冈州波特兰
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国得克萨斯州
-      - 🇺🇸 美国得克萨斯州 2
-      - 🇺🇸 北美地区
-      - 2
-      - 3
-      - 🇺🇸 美国 11
-      - 🇫🇷 法国巴黎
-      - 🇬🇧 英国伦敦
-      - 🇺🇦 乌克兰 2
+      - 🇨🇳 台湾省台北市 3
+      - 🇺🇸 美国 3
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇨🇳 广东省江门市
-      - 🇨🇳 安徽省合肥市
-      - 🇨🇳 安徽省合肥市 2
-      - 🇨🇳 安徽省合肥市 3
-      - 🇨🇳 安徽省合肥市 4
-      - 🇨🇳 安徽省合肥市 5
-      - 🇨🇳 安徽省合肥市 6
-      - 中国
+      - 🇫🇮 芬兰
+      - 🇨🇳 台湾省台北市
+      - 🇨🇳 广东省
       - 🇺🇸 美国
       - 🇺🇸 美国 2
-      - 🇨🇳 广东省江门市 2
-      - 🇨🇳 广东省广州市
-      - 🇺🇸 美国 3
-      - 🇨🇳 台湾省台北市
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇦 乌克兰
-      - 🇨🇳 台湾省桃园市
-      - 🇨🇳 台湾省新竹市
+      - 重庆市
       - 🇯🇵 日本东京
-      - 🇺🇸 美国 6
-      - 🇨🇳 台湾省台中市
-      - 🇮🇷 伊朗
-      - 🇨🇳 台湾省新竹市 2
+      - 🇷🇺 俄罗斯
+      - 🇨🇳 台湾省
+      - 🇨🇳 台湾省 2
+      - 🇨🇳 台湾省桃园市
+      - 🇨🇳 台湾省 3
+      - 🇨🇳 台湾省新北市
       - 🇨🇳 台湾省台北市 2
-      - ""
-      - 🇺🇸 美国俄勒冈州波特兰
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国得克萨斯州
-      - 🇺🇸 美国得克萨斯州 2
-      - 🇺🇸 北美地区
-      - 2
-      - 3
-      - 🇺🇸 美国 11
-      - 🇫🇷 法国巴黎
-      - 🇬🇧 英国伦敦
-      - 🇺🇦 乌克兰 2
+      - 🇨🇳 台湾省台北市 3
+      - 🇺🇸 美国 3
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇨🇳 广东省江门市
-      - 🇨🇳 安徽省合肥市
-      - 🇨🇳 安徽省合肥市 2
-      - 🇨🇳 安徽省合肥市 3
-      - 🇨🇳 安徽省合肥市 4
-      - 🇨🇳 安徽省合肥市 5
-      - 🇨🇳 安徽省合肥市 6
-      - 中国
+      - 🇫🇮 芬兰
+      - 🇨🇳 台湾省台北市
+      - 🇨🇳 广东省
       - 🇺🇸 美国
       - 🇺🇸 美国 2
-      - 🇨🇳 广东省江门市 2
-      - 🇨🇳 广东省广州市
-      - 🇺🇸 美国 3
-      - 🇨🇳 台湾省台北市
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇦 乌克兰
-      - 🇨🇳 台湾省桃园市
-      - 🇨🇳 台湾省新竹市
+      - 重庆市
       - 🇯🇵 日本东京
-      - 🇺🇸 美国 6
-      - 🇨🇳 台湾省台中市
-      - 🇮🇷 伊朗
-      - 🇨🇳 台湾省新竹市 2
+      - 🇷🇺 俄罗斯
+      - 🇨🇳 台湾省
+      - 🇨🇳 台湾省 2
+      - 🇨🇳 台湾省桃园市
+      - 🇨🇳 台湾省 3
+      - 🇨🇳 台湾省新北市
       - 🇨🇳 台湾省台北市 2
-      - ""
-      - 🇺🇸 美国俄勒冈州波特兰
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国得克萨斯州
-      - 🇺🇸 美国得克萨斯州 2
-      - 🇺🇸 北美地区
-      - 2
-      - 3
-      - 🇺🇸 美国 11
-      - 🇫🇷 法国巴黎
-      - 🇬🇧 英国伦敦
-      - 🇺🇦 乌克兰 2
+      - 🇨🇳 台湾省台北市 3
+      - 🇺🇸 美国 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -289,54 +129,22 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇨🇳 广东省江门市
-      - 🇨🇳 安徽省合肥市
-      - 🇨🇳 安徽省合肥市 2
-      - 🇨🇳 安徽省合肥市 3
-      - 🇨🇳 安徽省合肥市 4
-      - 🇨🇳 安徽省合肥市 5
-      - 🇨🇳 安徽省合肥市 6
-      - 中国
+      - 🇫🇮 芬兰
+      - 🇨🇳 台湾省台北市
+      - 🇨🇳 广东省
       - 🇺🇸 美国
       - 🇺🇸 美国 2
-      - 🇨🇳 广东省江门市 2
-      - 🇨🇳 广东省广州市
-      - 🇺🇸 美国 3
-      - 🇨🇳 台湾省台北市
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇦 乌克兰
-      - 🇨🇳 台湾省桃园市
-      - 🇨🇳 台湾省新竹市
+      - 重庆市
       - 🇯🇵 日本东京
-      - 🇺🇸 美国 6
-      - 🇨🇳 台湾省台中市
-      - 🇮🇷 伊朗
-      - 🇨🇳 台湾省新竹市 2
+      - 🇷🇺 俄罗斯
+      - 🇨🇳 台湾省
+      - 🇨🇳 台湾省 2
+      - 🇨🇳 台湾省桃园市
+      - 🇨🇳 台湾省 3
+      - 🇨🇳 台湾省新北市
       - 🇨🇳 台湾省台北市 2
-      - ""
-      - 🇺🇸 美国俄勒冈州波特兰
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国得克萨斯州
-      - 🇺🇸 美国得克萨斯州 2
-      - 🇺🇸 北美地区
-      - 2
-      - 3
-      - 🇺🇸 美国 11
-      - 🇫🇷 法国巴黎
-      - 🇬🇧 英国伦敦
-      - 🇺🇦 乌克兰 2
+      - 🇨🇳 台湾省台北市 3
+      - 🇺🇸 美国 3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
