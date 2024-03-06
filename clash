@@ -5,30 +5,30 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 枭木iOS大本营 TG@Tmxios, server: 51.21.56.211, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
-  - {name: https://t.me/Tmxios, server: 13.112.247.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: P12证书 https://p12.tmxios.top, server: 54.248.151.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 号卡办理 https://10.tmxios.top/, server: 35.93.149.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 公众号：枭木iOS大本营, server: 54.251.138.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 全网低价个人证书, server: 47.243.108.41, port: 10841, type: ss, cipher: aes-256-gcm, password: rUx8mqUsI0}
-  - {name: iOS|轻松签|全能签|P12证书, server: 8.210.231.146, port: 1146, type: ss, cipher: aes-256-gcm, password: jmtgsmW40R}
-  - {name: 定制V信|应用分身|V信密友|破解软件, server: 47.57.232.119, port: 2119, type: ss, cipher: aes-256-gcm, password: 3B9vFTBSlp}
-  - {name: 🇭🇰 香港, server: 47.76.185.99, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
-  - {name: 🇺🇸 美国, server: 104.21.54.252, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}}
-  - {name: 🇨🇳 上海市, server: 101.91.164.138, port: 29126, type: ss, cipher: aes-256-gcm, password: f3b7ba7a-e0ae-4b81-8e26-29369bb4958d}
-  - {name: 🇯🇵 日本, server: 18.179.17.59, port: 21583, type: vmess, uuid: 65cdb2a2-ac65-3dc6-992d-a58b8cb996b9, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇺🇸 美国俄勒冈州波特兰, server: 18.246.228.56, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国 2, server: 45.158.171.66, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 🇨🇳 上海市 2, server: 101.91.164.138, port: 29108, type: ss, cipher: aes-256-gcm, password: eeda494f-e4ea-43b1-8930-9226c58082a3}
-  - {name: 🇺🇸 美国 3, server: 45.158.171.10, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 🇯🇵 日本东京, server: 141.147.180.214, port: 33003, type: vmess, uuid: f3f3df6b-2f64-4728-cf2b-dd814a72cdf7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@dns68提供技术支持, headers: {Host: jp-tokyo-oracle-dc8895.ip1.shop}}}
-  - {name: 🇨🇳 台湾省, server: 118.165.37.183, port: 9755, type: trojan, password: 351ec5ba-6dda-4716-aa52-1d6482071417, sni: b12.ntbq.dynu.net, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾省新竹市, server: 114.37.157.170, port: 19489, type: trojan, password: 351ec5ba-6dda-4716-aa52-1d6482071417, sni: b22.ntbq.dynu.net, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾省台北市, server: 114.45.82.23, port: 18912, type: trojan, password: 351ec5ba-6dda-4716-aa52-1d6482071417, sni: ty12t.twty.dynu.net, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾省桃园市, server: 220.141.154.183, port: 13761, type: trojan, password: 351ec5ba-6dda-4716-aa52-1d6482071417, sni: ty11t.twty.dynu.net, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 4, server: 54.212.35.121, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国 5, server: 18.135.155.90, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2LVVFxxHJSBMdGdl}
-  - {name: 🇺🇸 美国 6, server: 13.42.237.80, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
+  - {name: , server: 2a04:4e42:600::313, port: 80, type: vmess, uuid: 66ccb11f-75a7-4282-8a60-31fed447401d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: nmsl.kp}}}
+  - {name: 🇨🇳 江苏省, server: 223.113.130.58, port: 2095, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /db00, headers: {Host: data-hk-3.cn-db.top}}}
+  - {name: 🇨🇳 江苏省 2, server: 223.113.130.58, port: 58080, type: vmess, uuid: c7395784-c77d-390a-9db6-67152462b95b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-1.cn-db.top}}}
+  - {name: 🇺🇸 美国, server: 45.158.171.66, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇺🇸 美国 2, server: 150.230.213.126, port: 33003, type: vmess, uuid: f3f3df6b-2f64-4728-cf2b-dd814a72cdf7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@dns68提供技术支持, headers: {Host: jp-tokyo-oracle-dc8895.ip1.shop}}}
+  - {name:  2, server: 2606:4700:3033::ac43:a9f5, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}}
+  - {name: 🇺🇸 美国 3, server: 18.168.121.103, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2LVVFxxHJSBMdGdl}
+  - {name: 🇷🇺 俄罗斯, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ}
+  - {name: 🇮🇷 伊朗, server: 37.27.38.90, port: 21842, type: vmess, uuid: aef9a73e-072e-4fe0-b86f-0788f58c47e1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇮🇪 爱尔兰都柏林, server: 52.178.198.18, port: 56702, type: ss, cipher: chacha20-ietf-poly1305, password: VFoO6khsxjRAkRvNleB1sI}
+  - {name: 🇰🇿 哈萨克斯坦, server: 188.94.155.82, port: 35152, type: ss, cipher: chacha20-ietf-poly1305, password: JnWcDWOl0rlfZiV0DiwGhU}
+  - {name: 🇷🇺 俄罗斯 2, server: 212.113.106.76, port: 61992, type: ss, cipher: chacha20-ietf-poly1305, password: tzVdCTsDxWKwHdS48Wznih}
+  - {name: 🇬🇧 英国, server: 51.21.33.246, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk}
+  - {name: 欧盟, server: 45.89.52.197, port: 32058, type: ss, cipher: chacha20-ietf-poly1305, password: Fgltbpm6cD9eHSFhKI6maC}
+  - {name: 🇯🇵 日本, server: 54.168.34.136, port: 17375, type: trojan, password: MjlidJoL4QUX, sni: appsvs.shop, skip-cert-verify: true}
+  - {name: 🇯🇵 日本东京, server: 3.112.229.227, port: 17383, type: trojan, password: eZUdQEGF7azi, sni: appsvs.shop, skip-cert-verify: true}
+  - {name: 🇯🇵 日本东京 2, server: 13.114.102.77, port: 17385, type: trojan, password: AWu0EqXqwNlC, sni: appsvs.shop, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 2, server: 18.179.21.160, port: 17390, type: trojan, password: 2eoe5GLmeucT, sni: appsvs.shop, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国首尔, server: 13.124.78.86, port: 17372, type: trojan, password: lNyZlT(Q0jxe, sni: appsvs.shop, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国首尔 2, server: 13.124.57.245, port: 17390, type: trojan, password: 1iBKjtPZfiCu, sni: appsvs.shop, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国首尔 3, server: 13.124.111.233, port: 17385, type: trojan, password: OAPtbrddOh2q, sni: appsvs.shop, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡, server: 13.228.183.196, port: 17384, type: trojan, password: KpYfix9LczXd, sni: appsvs.shop, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 2, server: 13.229.87.199, port: 17372, type: trojan, password: GTcOSUD77grY, sni: appsvs.shop, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 4, server: 18.143.150.95, port: 17384, type: trojan, password: YMyF2wUyFTg5, sni: appsvs.shop, skip-cert-verify: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -37,119 +37,119 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇭🇰 香港
+      - 
+      - 🇨🇳 江苏省
+      - 🇨🇳 江苏省 2
       - 🇺🇸 美国
-      - 🇨🇳 上海市
-      - 🇯🇵 日本
-      - 🇺🇸 美国俄勒冈州波特兰
       - 🇺🇸 美国 2
-      - 🇨🇳 上海市 2
+      -  2
       - 🇺🇸 美国 3
+      - 🇷🇺 俄罗斯
+      - 🇮🇷 伊朗
+      - 🇮🇪 爱尔兰都柏林
+      - 🇰🇿 哈萨克斯坦
+      - 🇷🇺 俄罗斯 2
+      - 🇬🇧 英国
+      - 欧盟
+      - 🇯🇵 日本
       - 🇯🇵 日本东京
-      - 🇨🇳 台湾省
-      - 🇨🇳 台湾省新竹市
-      - 🇨🇳 台湾省台北市
-      - 🇨🇳 台湾省桃园市
+      - 🇯🇵 日本东京 2
+      - 🇯🇵 日本 2
+      - 🇰🇷 韩国首尔
+      - 🇰🇷 韩国首尔 2
+      - 🇰🇷 韩国首尔 3
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
       - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇭🇰 香港
+      - 
+      - 🇨🇳 江苏省
+      - 🇨🇳 江苏省 2
       - 🇺🇸 美国
-      - 🇨🇳 上海市
-      - 🇯🇵 日本
-      - 🇺🇸 美国俄勒冈州波特兰
       - 🇺🇸 美国 2
-      - 🇨🇳 上海市 2
+      -  2
       - 🇺🇸 美国 3
+      - 🇷🇺 俄罗斯
+      - 🇮🇷 伊朗
+      - 🇮🇪 爱尔兰都柏林
+      - 🇰🇿 哈萨克斯坦
+      - 🇷🇺 俄罗斯 2
+      - 🇬🇧 英国
+      - 欧盟
+      - 🇯🇵 日本
       - 🇯🇵 日本东京
-      - 🇨🇳 台湾省
-      - 🇨🇳 台湾省新竹市
-      - 🇨🇳 台湾省台北市
-      - 🇨🇳 台湾省桃园市
+      - 🇯🇵 日本东京 2
+      - 🇯🇵 日本 2
+      - 🇰🇷 韩国首尔
+      - 🇰🇷 韩国首尔 2
+      - 🇰🇷 韩国首尔 3
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
       - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇭🇰 香港
+      - 
+      - 🇨🇳 江苏省
+      - 🇨🇳 江苏省 2
       - 🇺🇸 美国
-      - 🇨🇳 上海市
-      - 🇯🇵 日本
-      - 🇺🇸 美国俄勒冈州波特兰
       - 🇺🇸 美国 2
-      - 🇨🇳 上海市 2
+      -  2
       - 🇺🇸 美国 3
+      - 🇷🇺 俄罗斯
+      - 🇮🇷 伊朗
+      - 🇮🇪 爱尔兰都柏林
+      - 🇰🇿 哈萨克斯坦
+      - 🇷🇺 俄罗斯 2
+      - 🇬🇧 英国
+      - 欧盟
+      - 🇯🇵 日本
       - 🇯🇵 日本东京
-      - 🇨🇳 台湾省
-      - 🇨🇳 台湾省新竹市
-      - 🇨🇳 台湾省台北市
-      - 🇨🇳 台湾省桃园市
+      - 🇯🇵 日本东京 2
+      - 🇯🇵 日本 2
+      - 🇰🇷 韩国首尔
+      - 🇰🇷 韩国首尔 2
+      - 🇰🇷 韩国首尔 3
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
       - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇭🇰 香港
+      - 
+      - 🇨🇳 江苏省
+      - 🇨🇳 江苏省 2
       - 🇺🇸 美国
-      - 🇨🇳 上海市
-      - 🇯🇵 日本
-      - 🇺🇸 美国俄勒冈州波特兰
       - 🇺🇸 美国 2
-      - 🇨🇳 上海市 2
+      -  2
       - 🇺🇸 美国 3
+      - 🇷🇺 俄罗斯
+      - 🇮🇷 伊朗
+      - 🇮🇪 爱尔兰都柏林
+      - 🇰🇿 哈萨克斯坦
+      - 🇷🇺 俄罗斯 2
+      - 🇬🇧 英国
+      - 欧盟
+      - 🇯🇵 日本
       - 🇯🇵 日本东京
-      - 🇨🇳 台湾省
-      - 🇨🇳 台湾省新竹市
-      - 🇨🇳 台湾省台北市
-      - 🇨🇳 台湾省桃园市
+      - 🇯🇵 日本东京 2
+      - 🇯🇵 日本 2
+      - 🇰🇷 韩国首尔
+      - 🇰🇷 韩国首尔 2
+      - 🇰🇷 韩国首尔 3
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
       - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -169,30 +169,30 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 枭木iOS大本营 TG@Tmxios
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇭🇰 香港
+      - 
+      - 🇨🇳 江苏省
+      - 🇨🇳 江苏省 2
       - 🇺🇸 美国
-      - 🇨🇳 上海市
-      - 🇯🇵 日本
-      - 🇺🇸 美国俄勒冈州波特兰
       - 🇺🇸 美国 2
-      - 🇨🇳 上海市 2
+      -  2
       - 🇺🇸 美国 3
+      - 🇷🇺 俄罗斯
+      - 🇮🇷 伊朗
+      - 🇮🇪 爱尔兰都柏林
+      - 🇰🇿 哈萨克斯坦
+      - 🇷🇺 俄罗斯 2
+      - 🇬🇧 英国
+      - 欧盟
+      - 🇯🇵 日本
       - 🇯🇵 日本东京
-      - 🇨🇳 台湾省
-      - 🇨🇳 台湾省新竹市
-      - 🇨🇳 台湾省台北市
-      - 🇨🇳 台湾省桃园市
+      - 🇯🇵 日本东京 2
+      - 🇯🇵 日本 2
+      - 🇰🇷 韩国首尔
+      - 🇰🇷 韩国首尔 2
+      - 🇰🇷 韩国首尔 3
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
       - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
