@@ -27,35 +27,33 @@ P12证书 https://p12.tmxios.top = Shadowsocks,54.248.151.131,443,aes-256-cfb,"a
 全网低价个人证书 = Shadowsocks,47.243.108.41,10841,aes-256-gcm,"rUx8mqUsI0"
 iOS|轻松签|全能签|P12证书 = Shadowsocks,8.210.231.146,1146,aes-256-gcm,"jmtgsmW40R"
 定制V信|应用分身|V信密友|破解软件 = Shadowsocks,47.57.232.119,2119,aes-256-gcm,"3B9vFTBSlp"
-🇭🇰 香港 = Shadowsocks,47.76.185.99,80,aes-128-gcm,"a-wym4ovY4Yw",http
-🇺🇸 美国 = vmess,104.21.54.252,8080,chacha20-ietf-poly1305,"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",over-tls=false,transport=ws,path=/,host=www.velvetmountain.shop
-🇨🇳 上海市 = Shadowsocks,101.91.164.138,29126,aes-256-gcm,"f3b7ba7a-e0ae-4b81-8e26-29369bb4958d"
-🇯🇵 日本 = vmess,18.179.17.59,21583,chacha20-ietf-poly1305,"65cdb2a2-ac65-3dc6-992d-a58b8cb996b9",over-tls=true,tls-name=www.velvetmountain.shop,transport=tcp
-🇺🇸 美国俄勒冈州波特兰 = Shadowsocks,18.246.228.56,443,aes-256-cfb,"amazonskr05"
-🇺🇸 美国 2 = Shadowsocks,45.158.171.66,8080,chacha20-ietf-poly1305,"oZIoA69Q8yhcQV8ka3Pa3A"
-🇨🇳 上海市 2 = Shadowsocks,101.91.164.138,29108,aes-256-gcm,"eeda494f-e4ea-43b1-8930-9226c58082a3"
-🇺🇸 美国 3 = Shadowsocks,45.158.171.10,8080,chacha20-ietf-poly1305,"oZIoA69Q8yhcQV8ka3Pa3A"
-🇯🇵 日本东京 = vmess,141.147.180.214,33003,chacha20-ietf-poly1305,"f3f3df6b-2f64-4728-cf2b-dd814a72cdf7",over-tls=false,transport=ws,path=/TG:@dns68提供技术支持,host=jp-tokyo-oracle-dc8895.ip1.shop
-🇨🇳 台湾省 = trojan,118.165.37.183,9755,"351ec5ba-6dda-4716-aa52-1d6482071417",tls-name=b12.ntbq.dynu.net,skip-cert-verify=true
-🇨🇳 台湾省新竹市 = trojan,114.37.157.170,19489,"351ec5ba-6dda-4716-aa52-1d6482071417",tls-name=b22.ntbq.dynu.net,skip-cert-verify=true
-🇨🇳 台湾省台北市 = trojan,114.45.82.23,18912,"351ec5ba-6dda-4716-aa52-1d6482071417",tls-name=ty12t.twty.dynu.net,skip-cert-verify=true
-🇨🇳 台湾省桃园市 = trojan,220.141.154.183,13761,"351ec5ba-6dda-4716-aa52-1d6482071417",tls-name=ty11t.twty.dynu.net,skip-cert-verify=true
-🇺🇸 美国 4 = Shadowsocks,54.212.35.121,443,aes-256-cfb,"amazonskr05"
-🇺🇸 美国 5 = Shadowsocks,18.135.155.90,443,chacha20-ietf-poly1305,"2LVVFxxHJSBMdGdl"
-🇺🇸 美国 6 = Shadowsocks,13.42.237.80,443,chacha20-ietf-poly1305,"Bog0ELmMM9DSxDdQ"
+ = vmess,2a04:4e42:600::313,80,chacha20-ietf-poly1305,"66ccb11f-75a7-4282-8a60-31fed447401d",over-tls=false,transport=ws,path=/aries?ed=2048,host=nmsl.kp
+🇨🇳 江苏省 = vmess,223.113.130.58,2095,chacha20-ietf-poly1305,"75a68200-4d76-3eb6-b510-39b8e63b7823",over-tls=false,transport=ws,path=/db00,host=data-hk-3.cn-db.top
+🇨🇳 江苏省 2 = vmess,223.113.130.58,58080,chacha20-ietf-poly1305,"c7395784-c77d-390a-9db6-67152462b95b",over-tls=false,transport=ws,path=/db00,host=cache-hk-1.cn-db.top
+🇺🇸 美国 = Shadowsocks,45.158.171.66,8080,chacha20-ietf-poly1305,"oZIoA69Q8yhcQV8ka3Pa3A"
+🇺🇸 美国 2 = vmess,150.230.213.126,33003,chacha20-ietf-poly1305,"f3f3df6b-2f64-4728-cf2b-dd814a72cdf7",over-tls=false,transport=ws,path=/TG:@dns68提供技术支持,host=jp-tokyo-oracle-dc8895.ip1.shop
+2 = vmess,2606:4700:3033::ac43:a9f5,80,chacha20-ietf-poly1305,"60f12435-bb55-4da2-cb7d-4fea34ecfa37",over-tls=false,transport=ws,path=/,host=us65.netfilx.live
+🇺🇸 美国 3 = Shadowsocks,18.168.121.103,443,chacha20-ietf-poly1305,"2LVVFxxHJSBMdGdl"
+🇷🇺 俄罗斯 = Shadowsocks,80.92.204.106,9094,aes-256-cfb,"rpgbNnU9rDDU4aWZ"
+🇮🇷 伊朗 = vmess,37.27.38.90,21842,chacha20-ietf-poly1305,"aef9a73e-072e-4fe0-b86f-0788f58c47e1",over-tls=false,transport=ws,path=/,host=
+🇮🇪 爱尔兰都柏林 = Shadowsocks,52.178.198.18,56702,chacha20-ietf-poly1305,"VFoO6khsxjRAkRvNleB1sI"
+🇰🇿 哈萨克斯坦 = Shadowsocks,188.94.155.82,35152,chacha20-ietf-poly1305,"JnWcDWOl0rlfZiV0DiwGhU"
+🇷🇺 俄罗斯 2 = Shadowsocks,212.113.106.76,61992,chacha20-ietf-poly1305,"tzVdCTsDxWKwHdS48Wznih"
+🇬🇧 英国 = trojan,51.21.33.246,22222,"telegram-id-privatevpns",tls-name=trojan.miwan.co.uk,skip-cert-verify=false
+欧盟 = Shadowsocks,45.89.52.197,32058,chacha20-ietf-poly1305,"Fgltbpm6cD9eHSFhKI6maC"
 
 [Remote Proxy]
 
 [Remote Filter]
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,🔯 故障转移,🔮 负载均衡,DIRECT,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇭🇰 香港,🇺🇸 美国,🇨🇳 上海市,🇯🇵 日本,🇺🇸 美国俄勒冈州波特兰,🇺🇸 美国 2,🇨🇳 上海市 2,🇺🇸 美国 3,🇯🇵 日本东京,🇨🇳 台湾省,🇨🇳 台湾省新竹市,🇨🇳 台湾省台北市,🇨🇳 台湾省桃园市,🇺🇸 美国 4,🇺🇸 美国 5,🇺🇸 美国 6
-♻️ 自动选择 = url-test,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇭🇰 香港,🇺🇸 美国,🇨🇳 上海市,🇯🇵 日本,🇺🇸 美国俄勒冈州波特兰,🇺🇸 美国 2,🇨🇳 上海市 2,🇺🇸 美国 3,🇯🇵 日本东京,🇨🇳 台湾省,🇨🇳 台湾省新竹市,🇨🇳 台湾省台北市,🇨🇳 台湾省桃园市,🇺🇸 美国 4,🇺🇸 美国 5,🇺🇸 美国 6,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
-🔯 故障转移 = fallback,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇭🇰 香港,🇺🇸 美国,🇨🇳 上海市,🇯🇵 日本,🇺🇸 美国俄勒冈州波特兰,🇺🇸 美国 2,🇨🇳 上海市 2,🇺🇸 美国 3,🇯🇵 日本东京,🇨🇳 台湾省,🇨🇳 台湾省新竹市,🇨🇳 台湾省台北市,🇨🇳 台湾省桃园市,🇺🇸 美国 4,🇺🇸 美国 5,🇺🇸 美国 6,url=http://www.gstatic.com/generate_204,interval=180,max-timeout=0
-🔮 负载均衡 = load-balance,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇭🇰 香港,🇺🇸 美国,🇨🇳 上海市,🇯🇵 日本,🇺🇸 美国俄勒冈州波特兰,🇺🇸 美国 2,🇨🇳 上海市 2,🇺🇸 美国 3,🇯🇵 日本东京,🇨🇳 台湾省,🇨🇳 台湾省新竹市,🇨🇳 台湾省台北市,🇨🇳 台湾省桃园市,🇺🇸 美国 4,🇺🇸 美国 5,🇺🇸 美国 6,url=http://www.gstatic.com/generate_204,interval=180,algorithm=pcc
+🚀 节点选择 = select,♻️ 自动选择,🔯 故障转移,🔮 负载均衡,DIRECT,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,,🇨🇳 江苏省,🇨🇳 江苏省 2,🇺🇸 美国,🇺🇸 美国 2,2,🇺🇸 美国 3,🇷🇺 俄罗斯,🇮🇷 伊朗,🇮🇪 爱尔兰都柏林,🇰🇿 哈萨克斯坦,🇷🇺 俄罗斯 2,🇬🇧 英国,欧盟
+♻️ 自动选择 = url-test,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,,🇨🇳 江苏省,🇨🇳 江苏省 2,🇺🇸 美国,🇺🇸 美国 2,2,🇺🇸 美国 3,🇷🇺 俄罗斯,🇮🇷 伊朗,🇮🇪 爱尔兰都柏林,🇰🇿 哈萨克斯坦,🇷🇺 俄罗斯 2,🇬🇧 英国,欧盟,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🔯 故障转移 = fallback,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,,🇨🇳 江苏省,🇨🇳 江苏省 2,🇺🇸 美国,🇺🇸 美国 2,2,🇺🇸 美国 3,🇷🇺 俄罗斯,🇮🇷 伊朗,🇮🇪 爱尔兰都柏林,🇰🇿 哈萨克斯坦,🇷🇺 俄罗斯 2,🇬🇧 英国,欧盟,url=http://www.gstatic.com/generate_204,interval=180,max-timeout=0
+🔮 负载均衡 = load-balance,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,,🇨🇳 江苏省,🇨🇳 江苏省 2,🇺🇸 美国,🇺🇸 美国 2,2,🇺🇸 美国 3,🇷🇺 俄罗斯,🇮🇷 伊朗,🇮🇪 爱尔兰都柏林,🇰🇿 哈萨克斯坦,🇷🇺 俄罗斯 2,🇬🇧 英国,欧盟,url=http://www.gstatic.com/generate_204,interval=180,algorithm=pcc
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
 🛑 全球拦截 = select,REJECT,DIRECT,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🔯 故障转移,🔮 负载均衡,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇭🇰 香港,🇺🇸 美国,🇨🇳 上海市,🇯🇵 日本,🇺🇸 美国俄勒冈州波特兰,🇺🇸 美国 2,🇨🇳 上海市 2,🇺🇸 美国 3,🇯🇵 日本东京,🇨🇳 台湾省,🇨🇳 台湾省新竹市,🇨🇳 台湾省台北市,🇨🇳 台湾省桃园市,🇺🇸 美国 4,🇺🇸 美国 5,🇺🇸 美国 6,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🔯 故障转移,🔮 负载均衡,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,,🇨🇳 江苏省,🇨🇳 江苏省 2,🇺🇸 美国,🇺🇸 美国 2,2,🇺🇸 美国 3,🇷🇺 俄罗斯,🇮🇷 伊朗,🇮🇪 爱尔兰都柏林,🇰🇿 哈萨克斯坦,🇷🇺 俄罗斯 2,🇬🇧 英国,欧盟,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
 
 [Rule]
 GEOIP,CN,🎯 全球直连
