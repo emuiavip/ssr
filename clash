@@ -5,34 +5,34 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 baipaovpn广东省江门市, server: 120.238.122.208, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: 6f932057-ffd9-4426-8ca7-f0654babf84f}
-  - {name: 🇮🇳 baipaovpn印度, server: 139.59.24.215, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 baipaovpn广东省, server: 120.233.70.200, port: 44214, type: ss, cipher: aes-256-gcm, password: fade2b35-7872-442e-a54e-6ccf9b970476}
-  - {name: 🇨🇳 baipaovpn广东省 2, server: 120.233.70.200, port: 44209, type: ss, cipher: aes-256-gcm, password: fade2b35-7872-442e-a54e-6ccf9b970476}
-  - {name: 🇭🇰 baipaovpn香港, server: 47.76.35.246, port: 24101, type: vmess, uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 baipaovpn美国, server: 50.114.157.61, port: 80, type: vmess, uuid: 5ed4d00e-25a5-4f8a-a56e-c0aa23dfdffd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /stream}}
-  - {name: 🇨🇳 baipaovpn台湾省桃园市, server: 1.164.128.171, port: 9755, type: trojan, password: 7c252929-6ac0-4681-a835-e52af701f151, sni: b12.ntbq.dynu.net, skip-cert-verify: true}
-  - {name: 🇨🇳 baipaovpn台湾省新北市, server: 61.228.158.144, port: 9489, type: trojan, password: 7c252929-6ac0-4681-a835-e52af701f151, sni: b13.ntbq.dynu.net, skip-cert-verify: true}
-  - {name: 🇨🇳 baipaovpn台湾省, server: 114.37.118.245, port: 19489, type: trojan, password: 7c252929-6ac0-4681-a835-e52af701f151, sni: b22.ntbq.dynu.net, skip-cert-verify: true}
-  - {name: 🇨🇳 baipaovpn台湾省台北市, server: 36.226.137.40, port: 3271, type: trojan, password: 5d9d54c4-8c6d-4b77-b9f7-33735b5de7c4, sni: b24.ntbq.dynu.net, skip-cert-verify: true}
-  - {name: 🇨🇳 baipaovpn台湾省新北市 2, server: 114.45.68.187, port: 18912, type: trojan, password: 534b846f-d7cd-4990-bf8f-34e278a7cad6, sni: ty12t.twty.dynu.net, skip-cert-verify: true}
-  - {name: 🇫🇷 baipaovpn法国, server: 51.159.155.52, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false}
-  - {name: baipaovpn欧盟, server: 45.82.31.164, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 baipaovpn广东省佛山市, server: 183.232.175.187, port: 10002, type: vmess, uuid: 0927b72f-8f1c-38f7-8a86-cb977dba6b83, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇨🇳 baipaovpn广东省佛山市 2, server: 183.232.175.187, port: 30026, type: vmess, uuid: 0927b72f-8f1c-38f7-8a86-cb977dba6b83, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇨🇳 baipaovpn广东省佛山市 3, server: 183.232.175.187, port: 58000, type: vmess, uuid: 0927b72f-8f1c-38f7-8a86-cb977dba6b83, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇷🇺 baipaovpn俄罗斯, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ}
-  - {name: 🇮🇪 baipaovpn爱尔兰都柏林, server: 52.169.6.50, port: 26396, type: ss, cipher: chacha20-ietf-poly1305, password: AX3dBHFCyWsryCOz7TtZJ6}
-  - {name: baipaovpn, server: 2a03:90c0:999c::12, port: 443, type: vmess, uuid: f3dc9e24-5ae9-4d33-808c-db113d2ff331, alterId: 0, cipher: auto, tls: true, servername: sazgar55.servecounterstrike.com, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: sazgar55.servecounterstrike.com}}}
-  - {name: baipaovpn 2, server: 2a03:90c0:999c::12, port: 80, type: vmess, uuid: f3dc9e24-5ae9-4d33-808c-db113d2ff331, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: sazgar55.servecounterstrike.com}}}
-  - {name: 🇯🇵 baipaovpn日本, server: 18.183.89.215, port: 17379, type: trojan, password: 0JnfIkEgQ0Nk, sni: appsvs.shop, skip-cert-verify: true}
-  - {name: 🇺🇸 baipaovpn美国 2, server: 52.195.185.191, port: 17375, type: trojan, password: gNoKzsgaGS8J, sni: appsvs.shop, skip-cert-verify: true}
-  - {name: 🇯🇵 baipaovpn日本 2, server: 54.65.67.36, port: 17378, type: trojan, password: CV3QoEsPypw), sni: appsvs.shop, skip-cert-verify: true}
-  - {name: 🇸🇬 baipaovpn新加坡, server: 52.221.225.40, port: 17390, type: trojan, password: PR5WwHcfH0qd, sni: appsvs.shop, skip-cert-verify: true}
-  - {name: 🇸🇬 baipaovpn新加坡 2, server: 54.255.175.123, port: 17370, type: trojan, password: UNfM)s7RZD8e, sni: appsvs.shop, skip-cert-verify: true}
-  - {name: 🇸🇬 baipaovpn新加坡 3, server: 13.212.57.4, port: 17390, type: trojan, password: RS8G4boWlNzS, sni: appsvs.shop, skip-cert-verify: true}
-  - {name: 🇯🇵 baipaovpn日本 3, server: 43.203.219.131, port: 17387, type: trojan, password: duSFWSZjdoiB, sni: appsvs.shop, skip-cert-verify: true}
-  - {name: 🇯🇵 baipaovpn日本 4, server: 43.207.85.206, port: 17389, type: trojan, password: jefkEguTIW(h, sni: appsvs.shop, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省江门市, server: 120.238.122.208, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: 6f932057-ffd9-4426-8ca7-f0654babf84f}
+  - {name: 🇮🇳 印度, server: 139.59.24.215, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 广东省, server: 120.233.70.200, port: 44214, type: ss, cipher: aes-256-gcm, password: fade2b35-7872-442e-a54e-6ccf9b970476}
+  - {name: 🇨🇳 广东省 2, server: 120.233.70.200, port: 44209, type: ss, cipher: aes-256-gcm, password: fade2b35-7872-442e-a54e-6ccf9b970476}
+  - {name: 🇭🇰 香港, server: 47.76.35.246, port: 24101, type: vmess, uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国, server: 50.114.157.61, port: 80, type: vmess, uuid: 5ed4d00e-25a5-4f8a-a56e-c0aa23dfdffd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /stream}}
+  - {name: 🇨🇳 台湾省桃园市, server: 1.164.128.171, port: 9755, type: trojan, password: 7c252929-6ac0-4681-a835-e52af701f151, sni: b12.ntbq.dynu.net, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾省新北市, server: 61.228.158.144, port: 9489, type: trojan, password: 7c252929-6ac0-4681-a835-e52af701f151, sni: b13.ntbq.dynu.net, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾省, server: 114.37.118.245, port: 19489, type: trojan, password: 7c252929-6ac0-4681-a835-e52af701f151, sni: b22.ntbq.dynu.net, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾省台北市, server: 36.226.137.40, port: 3271, type: trojan, password: 5d9d54c4-8c6d-4b77-b9f7-33735b5de7c4, sni: b24.ntbq.dynu.net, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾省新北市 2, server: 114.45.68.187, port: 18912, type: trojan, password: 534b846f-d7cd-4990-bf8f-34e278a7cad6, sni: ty12t.twty.dynu.net, skip-cert-verify: true}
+  - {name: 🇫🇷 法国, server: 51.159.155.52, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false}
+  - {name: 欧盟, server: 45.82.31.164, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 广东省佛山市, server: 183.232.175.187, port: 10002, type: vmess, uuid: 0927b72f-8f1c-38f7-8a86-cb977dba6b83, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇨🇳 广东省佛山市 2, server: 183.232.175.187, port: 30026, type: vmess, uuid: 0927b72f-8f1c-38f7-8a86-cb977dba6b83, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇨🇳 广东省佛山市 3, server: 183.232.175.187, port: 58000, type: vmess, uuid: 0927b72f-8f1c-38f7-8a86-cb977dba6b83, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇷🇺 俄罗斯, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ}
+  - {name: 🇮🇪 爱尔兰都柏林, server: 52.169.6.50, port: 26396, type: ss, cipher: chacha20-ietf-poly1305, password: AX3dBHFCyWsryCOz7TtZJ6}
+  - {name: , server: 2a03:90c0:999c::12, port: 443, type: vmess, uuid: f3dc9e24-5ae9-4d33-808c-db113d2ff331, alterId: 0, cipher: auto, tls: true, servername: sazgar55.servecounterstrike.com, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: sazgar55.servecounterstrike.com}}}
+  - {name:  2, server: 2a03:90c0:999c::12, port: 80, type: vmess, uuid: f3dc9e24-5ae9-4d33-808c-db113d2ff331, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: sazgar55.servecounterstrike.com}}}
+  - {name: 🇯🇵 日本, server: 18.183.89.215, port: 17379, type: trojan, password: 0JnfIkEgQ0Nk, sni: appsvs.shop, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 2, server: 52.195.185.191, port: 17375, type: trojan, password: gNoKzsgaGS8J, sni: appsvs.shop, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 2, server: 54.65.67.36, port: 17378, type: trojan, password: CV3QoEsPypw), sni: appsvs.shop, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡, server: 52.221.225.40, port: 17390, type: trojan, password: PR5WwHcfH0qd, sni: appsvs.shop, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 2, server: 54.255.175.123, port: 17370, type: trojan, password: UNfM)s7RZD8e, sni: appsvs.shop, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 3, server: 13.212.57.4, port: 17390, type: trojan, password: RS8G4boWlNzS, sni: appsvs.shop, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 3, server: 43.203.219.131, port: 17387, type: trojan, password: duSFWSZjdoiB, sni: appsvs.shop, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 4, server: 43.207.85.206, port: 17389, type: trojan, password: jefkEguTIW(h, sni: appsvs.shop, skip-cert-verify: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -41,135 +41,135 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇨🇳 baipaovpn广东省江门市
-      - 🇮🇳 baipaovpn印度
-      - 🇨🇳 baipaovpn广东省
-      - 🇨🇳 baipaovpn广东省 2
-      - 🇭🇰 baipaovpn香港
-      - 🇺🇸 baipaovpn美国
-      - 🇨🇳 baipaovpn台湾省桃园市
-      - 🇨🇳 baipaovpn台湾省新北市
-      - 🇨🇳 baipaovpn台湾省
-      - 🇨🇳 baipaovpn台湾省台北市
-      - 🇨🇳 baipaovpn台湾省新北市 2
-      - 🇫🇷 baipaovpn法国
-      - baipaovpn欧盟
-      - 🇨🇳 baipaovpn广东省佛山市
-      - 🇨🇳 baipaovpn广东省佛山市 2
-      - 🇨🇳 baipaovpn广东省佛山市 3
-      - 🇷🇺 baipaovpn俄罗斯
-      - 🇮🇪 baipaovpn爱尔兰都柏林
-      - baipaovpn
-      - baipaovpn 2
-      - 🇯🇵 baipaovpn日本
-      - 🇺🇸 baipaovpn美国 2
-      - 🇯🇵 baipaovpn日本 2
-      - 🇸🇬 baipaovpn新加坡
-      - 🇸🇬 baipaovpn新加坡 2
-      - 🇸🇬 baipaovpn新加坡 3
-      - 🇯🇵 baipaovpn日本 3
-      - 🇯🇵 baipaovpn日本 4
+      - 🇨🇳 广东省江门市
+      - 🇮🇳 印度
+      - 🇨🇳 广东省
+      - 🇨🇳 广东省 2
+      - 🇭🇰 香港
+      - 🇺🇸 美国
+      - 🇨🇳 台湾省桃园市
+      - 🇨🇳 台湾省新北市
+      - 🇨🇳 台湾省
+      - 🇨🇳 台湾省台北市
+      - 🇨🇳 台湾省新北市 2
+      - 🇫🇷 法国
+      - 欧盟
+      - 🇨🇳 广东省佛山市
+      - 🇨🇳 广东省佛山市 2
+      - 🇨🇳 广东省佛山市 3
+      - 🇷🇺 俄罗斯
+      - 🇮🇪 爱尔兰都柏林
+      - 
+      -  2
+      - 🇯🇵 日本
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本 2
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 baipaovpn广东省江门市
-      - 🇮🇳 baipaovpn印度
-      - 🇨🇳 baipaovpn广东省
-      - 🇨🇳 baipaovpn广东省 2
-      - 🇭🇰 baipaovpn香港
-      - 🇺🇸 baipaovpn美国
-      - 🇨🇳 baipaovpn台湾省桃园市
-      - 🇨🇳 baipaovpn台湾省新北市
-      - 🇨🇳 baipaovpn台湾省
-      - 🇨🇳 baipaovpn台湾省台北市
-      - 🇨🇳 baipaovpn台湾省新北市 2
-      - 🇫🇷 baipaovpn法国
-      - baipaovpn欧盟
-      - 🇨🇳 baipaovpn广东省佛山市
-      - 🇨🇳 baipaovpn广东省佛山市 2
-      - 🇨🇳 baipaovpn广东省佛山市 3
-      - 🇷🇺 baipaovpn俄罗斯
-      - 🇮🇪 baipaovpn爱尔兰都柏林
-      - baipaovpn
-      - baipaovpn 2
-      - 🇯🇵 baipaovpn日本
-      - 🇺🇸 baipaovpn美国 2
-      - 🇯🇵 baipaovpn日本 2
-      - 🇸🇬 baipaovpn新加坡
-      - 🇸🇬 baipaovpn新加坡 2
-      - 🇸🇬 baipaovpn新加坡 3
-      - 🇯🇵 baipaovpn日本 3
-      - 🇯🇵 baipaovpn日本 4
+      - 🇨🇳 广东省江门市
+      - 🇮🇳 印度
+      - 🇨🇳 广东省
+      - 🇨🇳 广东省 2
+      - 🇭🇰 香港
+      - 🇺🇸 美国
+      - 🇨🇳 台湾省桃园市
+      - 🇨🇳 台湾省新北市
+      - 🇨🇳 台湾省
+      - 🇨🇳 台湾省台北市
+      - 🇨🇳 台湾省新北市 2
+      - 🇫🇷 法国
+      - 欧盟
+      - 🇨🇳 广东省佛山市
+      - 🇨🇳 广东省佛山市 2
+      - 🇨🇳 广东省佛山市 3
+      - 🇷🇺 俄罗斯
+      - 🇮🇪 爱尔兰都柏林
+      - 
+      -  2
+      - 🇯🇵 日本
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本 2
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇨🇳 baipaovpn广东省江门市
-      - 🇮🇳 baipaovpn印度
-      - 🇨🇳 baipaovpn广东省
-      - 🇨🇳 baipaovpn广东省 2
-      - 🇭🇰 baipaovpn香港
-      - 🇺🇸 baipaovpn美国
-      - 🇨🇳 baipaovpn台湾省桃园市
-      - 🇨🇳 baipaovpn台湾省新北市
-      - 🇨🇳 baipaovpn台湾省
-      - 🇨🇳 baipaovpn台湾省台北市
-      - 🇨🇳 baipaovpn台湾省新北市 2
-      - 🇫🇷 baipaovpn法国
-      - baipaovpn欧盟
-      - 🇨🇳 baipaovpn广东省佛山市
-      - 🇨🇳 baipaovpn广东省佛山市 2
-      - 🇨🇳 baipaovpn广东省佛山市 3
-      - 🇷🇺 baipaovpn俄罗斯
-      - 🇮🇪 baipaovpn爱尔兰都柏林
-      - baipaovpn
-      - baipaovpn 2
-      - 🇯🇵 baipaovpn日本
-      - 🇺🇸 baipaovpn美国 2
-      - 🇯🇵 baipaovpn日本 2
-      - 🇸🇬 baipaovpn新加坡
-      - 🇸🇬 baipaovpn新加坡 2
-      - 🇸🇬 baipaovpn新加坡 3
-      - 🇯🇵 baipaovpn日本 3
-      - 🇯🇵 baipaovpn日本 4
+      - 🇨🇳 广东省江门市
+      - 🇮🇳 印度
+      - 🇨🇳 广东省
+      - 🇨🇳 广东省 2
+      - 🇭🇰 香港
+      - 🇺🇸 美国
+      - 🇨🇳 台湾省桃园市
+      - 🇨🇳 台湾省新北市
+      - 🇨🇳 台湾省
+      - 🇨🇳 台湾省台北市
+      - 🇨🇳 台湾省新北市 2
+      - 🇫🇷 法国
+      - 欧盟
+      - 🇨🇳 广东省佛山市
+      - 🇨🇳 广东省佛山市 2
+      - 🇨🇳 广东省佛山市 3
+      - 🇷🇺 俄罗斯
+      - 🇮🇪 爱尔兰都柏林
+      - 
+      -  2
+      - 🇯🇵 日本
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本 2
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇨🇳 baipaovpn广东省江门市
-      - 🇮🇳 baipaovpn印度
-      - 🇨🇳 baipaovpn广东省
-      - 🇨🇳 baipaovpn广东省 2
-      - 🇭🇰 baipaovpn香港
-      - 🇺🇸 baipaovpn美国
-      - 🇨🇳 baipaovpn台湾省桃园市
-      - 🇨🇳 baipaovpn台湾省新北市
-      - 🇨🇳 baipaovpn台湾省
-      - 🇨🇳 baipaovpn台湾省台北市
-      - 🇨🇳 baipaovpn台湾省新北市 2
-      - 🇫🇷 baipaovpn法国
-      - baipaovpn欧盟
-      - 🇨🇳 baipaovpn广东省佛山市
-      - 🇨🇳 baipaovpn广东省佛山市 2
-      - 🇨🇳 baipaovpn广东省佛山市 3
-      - 🇷🇺 baipaovpn俄罗斯
-      - 🇮🇪 baipaovpn爱尔兰都柏林
-      - baipaovpn
-      - baipaovpn 2
-      - 🇯🇵 baipaovpn日本
-      - 🇺🇸 baipaovpn美国 2
-      - 🇯🇵 baipaovpn日本 2
-      - 🇸🇬 baipaovpn新加坡
-      - 🇸🇬 baipaovpn新加坡 2
-      - 🇸🇬 baipaovpn新加坡 3
-      - 🇯🇵 baipaovpn日本 3
-      - 🇯🇵 baipaovpn日本 4
+      - 🇨🇳 广东省江门市
+      - 🇮🇳 印度
+      - 🇨🇳 广东省
+      - 🇨🇳 广东省 2
+      - 🇭🇰 香港
+      - 🇺🇸 美国
+      - 🇨🇳 台湾省桃园市
+      - 🇨🇳 台湾省新北市
+      - 🇨🇳 台湾省
+      - 🇨🇳 台湾省台北市
+      - 🇨🇳 台湾省新北市 2
+      - 🇫🇷 法国
+      - 欧盟
+      - 🇨🇳 广东省佛山市
+      - 🇨🇳 广东省佛山市 2
+      - 🇨🇳 广东省佛山市 3
+      - 🇷🇺 俄罗斯
+      - 🇮🇪 爱尔兰都柏林
+      - 
+      -  2
+      - 🇯🇵 日本
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本 2
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -189,34 +189,34 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇨🇳 baipaovpn广东省江门市
-      - 🇮🇳 baipaovpn印度
-      - 🇨🇳 baipaovpn广东省
-      - 🇨🇳 baipaovpn广东省 2
-      - 🇭🇰 baipaovpn香港
-      - 🇺🇸 baipaovpn美国
-      - 🇨🇳 baipaovpn台湾省桃园市
-      - 🇨🇳 baipaovpn台湾省新北市
-      - 🇨🇳 baipaovpn台湾省
-      - 🇨🇳 baipaovpn台湾省台北市
-      - 🇨🇳 baipaovpn台湾省新北市 2
-      - 🇫🇷 baipaovpn法国
-      - baipaovpn欧盟
-      - 🇨🇳 baipaovpn广东省佛山市
-      - 🇨🇳 baipaovpn广东省佛山市 2
-      - 🇨🇳 baipaovpn广东省佛山市 3
-      - 🇷🇺 baipaovpn俄罗斯
-      - 🇮🇪 baipaovpn爱尔兰都柏林
-      - baipaovpn
-      - baipaovpn 2
-      - 🇯🇵 baipaovpn日本
-      - 🇺🇸 baipaovpn美国 2
-      - 🇯🇵 baipaovpn日本 2
-      - 🇸🇬 baipaovpn新加坡
-      - 🇸🇬 baipaovpn新加坡 2
-      - 🇸🇬 baipaovpn新加坡 3
-      - 🇯🇵 baipaovpn日本 3
-      - 🇯🇵 baipaovpn日本 4
+      - 🇨🇳 广东省江门市
+      - 🇮🇳 印度
+      - 🇨🇳 广东省
+      - 🇨🇳 广东省 2
+      - 🇭🇰 香港
+      - 🇺🇸 美国
+      - 🇨🇳 台湾省桃园市
+      - 🇨🇳 台湾省新北市
+      - 🇨🇳 台湾省
+      - 🇨🇳 台湾省台北市
+      - 🇨🇳 台湾省新北市 2
+      - 🇫🇷 法国
+      - 欧盟
+      - 🇨🇳 广东省佛山市
+      - 🇨🇳 广东省佛山市 2
+      - 🇨🇳 广东省佛山市 3
+      - 🇷🇺 俄罗斯
+      - 🇮🇪 爱尔兰都柏林
+      - 
+      -  2
+      - 🇯🇵 日本
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本 2
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
