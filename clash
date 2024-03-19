@@ -5,6 +5,14 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 枭木iOS大本营 TG@Tmxios, server: 51.21.56.211, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
+  - {name: https://t.me/Tmxios, server: 13.112.247.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: P12证书 https://p12.tmxios.top, server: 54.248.151.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 号卡办理 https://10.tmxios.top/, server: 35.93.149.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 公众号：枭木iOS大本营, server: 54.251.138.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 全网低价个人证书, server: 47.243.108.41, port: 10841, type: ss, cipher: aes-256-gcm, password: rUx8mqUsI0}
+  - {name: iOS|轻松签|全能签|P12证书, server: 8.210.231.146, port: 1146, type: ss, cipher: aes-256-gcm, password: jmtgsmW40R}
+  - {name: 定制V信|应用分身|V信密友|破解软件, server: 47.57.232.119, port: 2119, type: ss, cipher: aes-256-gcm, password: 3B9vFTBSlp}
   - {name: 🇨🇳 广东省佛山市, server: 183.232.170.157, port: 20301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-jp-v1.usabooks.com.cn}}}
   - {name: 🇨🇳 广东省江门市, server: 120.238.122.207, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 6f932057-ffd9-4426-8ca7-f0654babf84f}
   - {name: 🇮🇳 印度, server: 139.59.24.215, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false}
@@ -92,7 +100,7 @@ proxies:
   - {name: 亚太地区 31, server: 103.172.116.79, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP}
   - {name: 亚太地区 32, server: 103.172.116.79, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ}
   - {name: 🇨🇳 台湾省台北市 2, server: 1.164.143.79, port: 9755, type: trojan, password: 534b846f-d7cd-4990-bf8f-34e278a7cad6, sni: b12.ntbq.dynu.net, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾省新北市 2, server: 61.228.144.166, port: 3271, type: trojan, password: 534b846f-d7cd-4990-bf8f-34e278a7cad6, sni: b24.ntbq.dynu.net}
+  - {name: 🇨🇳 台湾省新北市 2, server: 61.228.144.166, port: 3271, type: trojan, password: 534b846f-d7cd-4990-bf8f-34e278a7cad6, sni: b24.ntbq.dynu.net, skip-cert-verify: false}
   - {name: 🇯🇵 日本 5, server: 43.207.103.82, port: 13374, type: trojan, password: gStJP(43sup6, sni: appsvs.shop, skip-cert-verify: true}
   - {name: 🇯🇵 日本 6, server: 43.203.221.185, port: 13383, type: trojan, password: y(8VquFuhHoS, sni: appsvs.shop, skip-cert-verify: true}
   - {name: 🇯🇵 日本 7, server: 43.203.122.138, port: 13388, type: trojan, password: z6PCiNOs6fyH, sni: appsvs.shop, skip-cert-verify: true}
@@ -104,6 +112,14 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
       - 🇨🇳 广东省佛山市
       - 🇨🇳 广东省江门市
       - 🇮🇳 印度
@@ -201,6 +217,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
       - 🇨🇳 广东省佛山市
       - 🇨🇳 广东省江门市
       - 🇮🇳 印度
@@ -297,6 +321,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
       - 🇨🇳 广东省佛山市
       - 🇨🇳 广东省江门市
       - 🇮🇳 印度
@@ -394,6 +426,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
       - 🇨🇳 广东省佛山市
       - 🇨🇳 广东省江门市
       - 🇮🇳 印度
@@ -504,6 +544,14 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
       - 🇨🇳 广东省佛山市
       - 🇨🇳 广东省江门市
       - 🇮🇳 印度
@@ -1716,4 +1764,108 @@ rules:
   - DOMAIN-SUFFIX,ebook.res.meizu.com,🛑 全球拦截
   - DOMAIN-SUFFIX,game-res.meizu.com,🛑 全球拦截
   - DOMAIN-SUFFIX,game.res.meizu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,infoce
+  - DOMAIN-SUFFIX,infocenter.meizu.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,openapi-news.meizu.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,push.res.meizu.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,reader.meizu.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,reader.res.meizu.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,t-e.flyme.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,t-flow.flyme.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,tongji-res1.meizu.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,tongji.meizu.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,umid.orion.meizu.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,upush.res.meizu.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,uxip.meizu.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,a.koudai.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adui.tg.meitu.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,corp.meitu.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,dc.meitustat.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,gg.meitu.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,mdc.meitustat.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,meitubeauty.meitudata.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,message.meitu.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,rabbit.meitustat.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,rabbit.tg.meitu.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,tuiguang.meitu.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,xiuxiu.android.dl.meitu.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,xiuxiu.mobile.meitudata.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,a.market.xiaomi.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,ad.xiaomi.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,ad1.xiaomi.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adv.sec.intl.miui.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adv.sec.miui.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,bss.pandora.xiaomi.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,d.g.mi.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,data.mistat.xiaomi.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,de.pandora.xiaomi.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,dvb.pandora.xiaomi.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,jellyfish.pandora.xiaomi.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,migc.g.mi.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,migcreport.g.mi.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,notice.game.xiaomi.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,ppurifier.game.xiaomi.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,r.browser.miui.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,security.browser.miui.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,shenghuo.xiaomi.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,stat.pandora.xiaomi.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,union.mi.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,wtradv.market.xiaomi.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,ad.api.moji.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,app.moji001.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,cdn.moji002.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,cdn2.moji002.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,fds.api.moji.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,log.moji.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,stat.moji.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,ugc.moji001.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,ad.qingting.fm,🛑 全球拦截
+  - DOMAIN-SUFFIX,admgr.qingting.fm,🛑 全球拦截
+  - DOMAIN-SUFFIX,dload.qd.qingting.fm,🛑 全球拦截
+  - DOMAIN-SUFFIX,logger.qingting.fm,🛑 全球拦截
+  - DOMAIN-SUFFIX,s.qd.qingting.fm,🛑 全球拦截
+  - DOMAIN-SUFFIX,s.qd.qingtingfm.com,🛑 全球拦截
+  - DOMAIN-KEYWORD,omgmtaw,🛑 全球拦截
+  - DOMAIN,adsmind.apdcdn.tc.qq.com,🛑 全球拦截
+  - DOMAIN,adsmind.gdtimg.com,🛑 全球拦截
+  - DOMAIN,adsmind.tc.qq.com,🛑 全球拦截
+  - DOMAIN,pgdt.gtimg.cn,🛑 全球拦截
+  - DOMAIN,pgdt.gtimg.com,🛑 全球拦截
+  - DOMAIN,pgdt.ugdtimg.com,🛑 全球拦截
+  - DOMAIN,splashqqlive.gtimg.com,🛑 全球拦截
+  - DOMAIN,wa.gtimg.com,🛑 全球拦截
+  - DOMAIN,wxsnsdy.wxs.qq.com,🛑 全球拦截
+  - DOMAIN,wxsnsdythumb.wxs.qq.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,act.qq.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,ad.qun.qq.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adsfile.qq.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,bugly.qq.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,buluo.qq.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,e.qq.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,gdt.qq.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,l.qq.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,monitor.qq.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,pingma.qq.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,pingtcss.qq.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,report.qq.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,tajs.qq.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,tcss.qq.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,uu.qq.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,ebp.renren.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,jebe.renren.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,jebe.xnimg.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,ad.sina.com.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,adbox.sina.com.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,add.sina.com.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,adimg.mobile.sina.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,adm.sina.com.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,alitui.weibo.com.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,biz.weibo.com.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,cre.dp.sina.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,dcads.sina.com.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,dd.sina.com.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,dmp.sina.com.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,game.weibo.com.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,gw5.push.mcp.weibo.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,leju.sina.com.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,log.mix.sina.com.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,mobilead
