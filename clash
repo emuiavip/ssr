@@ -5,112 +5,94 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 枭木iOS大本营 TG@Tmxios, server: 51.21.56.211, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
-  - {name: 官网 https://tmxios.top, server: 3.65.180.210, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
-  - {name: https://t.me/Tmxios, server: 13.112.247.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: P12证书 https://p12.tmxios.top, server: 54.248.151.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 号卡办理 https://10.tmxios.top/, server: 35.93.149.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 公众号：枭木iOS大本营, server: 54.251.138.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 全网低价个人证书, server: 47.243.108.41, port: 10841, type: ss, cipher: aes-256-gcm, password: rUx8mqUsI0, udp: true}
-  - {name: iOS|轻松签|全能签|P12证书, server: 8.210.231.146, port: 1146, type: ss, cipher: aes-256-gcm, password: jmtgsmW40R, udp: true}
-  - {name: 定制V信|应用分身|V信密友|破解软件, server: 47.57.232.119, port: 2119, type: ss, cipher: aes-256-gcm, password: 3B9vFTBSlp, udp: true}
-  - {name: 🇭🇰 香港, server: 216.83.41.85, port: 24136, type: trojan, password: 36acffd6bb2fd049%40525113083387973, sni: node.kgvsogr.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省, server: 120.233.42.83, port: 20207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /debian, headers: {Host: data-hk-v1.shwjfkw.cn}}, udp: true}
-  - {name: 🇨🇳 广东省汕头市, server: 183.240.187.197, port: 20301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /debian, headers: {Host: data-jp-v1.usabooks.com.cn}}, udp: true}
-  - {name: 🇨🇳 广东省广州市, server: 120.232.159.101, port: 28894, type: ss, cipher: chacha20-ietf-poly1305, password: 9bc1eddf-1674-40f1-ad64-00a6fc5c2054, udp: true}
-  - {name: 🇨🇦 加拿大, server: 47.128.72.85, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇬🇧 英国伦敦, server: 51.140.32.78, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: gevxg7mpES2FXZY1Q7B8FM, udp: true}
+  - {name: 🇹🇼 台湾省台北市, server: 61.228.178.3, port: 9489, type: trojan, password: 74dc1ab2-cd8e-4c51-9d64-64e83ee1367c, sni: b13.ntbq.dynu.net, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省江门市, server: 120.238.122.207, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 55a021e6-30f6-46c5-8297-a2b74d0b3031, udp: true}
   - {name: 欧盟, server: 45.82.31.164, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国首尔, server: 3.34.200.94, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇹🇼 台湾省台北市 2, server: 61.228.163.98, port: 19489, type: trojan, password: 08c8768a-31ee-447e-81aa-845399553dbf, sni: b22.ntbq.dynu.net, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省广州市, server: 14.18.91.151, port: 50004, type: vmess, uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国, server: 211.201.169.70, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 🇰🇷 韩国 2, server: 54.180.156.133, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇹🇼 台湾省台北市 3, server: 1.164.149.119, port: 9755, type: trojan, password: 6152dab2-5a09-44fe-9c14-3ece9dbbc4b8, sni: b12.ntbq.dynu.net, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾省桃园市, server: 220.141.145.215, port: 13761, type: trojan, password: 04b694b2-7022-4767-801b-6d21611f548b, sni: ty11t.twty.dynu.net, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本, server: 43.201.56.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇺🇸 美国俄勒冈州波特兰, server: 34.219.76.253, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇺🇸 美国, server: 3.36.96.75, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇯🇵 日本, server: 43.203.201.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇺🇸 美国 2, server: 52.195.225.184, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇰🇷 韩国首尔 2, server: 13.209.11.98, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇺🇸 美国 3, server: 35.87.36.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇨🇦 加拿大 2, server: 47.128.77.190, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇺🇸 美国 4, server: 154.9.205.214, port: 16899, type: ss, cipher: aes-128-gcm, password: Yc2CtrIz8L, udp: true}
-  - {name: 🇯🇵 日本 2, server: 54.249.1.223, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇺🇸 美国 5, server: 174.136.205.47, port: 16899, type: ss, cipher: aes-128-gcm, password: Yc2CtrIz8L, udp: true}
-  - {name: 🇺🇸 美国 6, server: 107.186.16.181, port: 16899, type: ss, cipher: aes-128-gcm, password: Yc2CtrIz8L, udp: true}
-  - {name: 🇨🇿 捷克, server: 185.189.32.56, port: 16899, type: ss, cipher: aes-128-gcm, password: Yc2CtrIz8L, udp: true}
-  - {name: 🇺🇸 美国 7, server: 65.75.192.30, port: 16899, type: ss, cipher: aes-128-gcm, password: Yc2CtrIz8L, udp: true}
-  - {name: 🇺🇸 美国 8, server: 45.59.184.71, port: 16899, type: ss, cipher: aes-128-gcm, password: Yc2CtrIz8L, udp: true}
-  - {name: 🇺🇸 美国 9, server: 154.9.205.214, port: 30129, type: ss, cipher: aes-128-gcm, password: Yc2CtrIz8L, udp: true}
-  - {name: 🇺🇸 美国 10, server: 45.32.75.248, port: 37523, type: vmess, uuid: 0e7becc2-e807-4b44-c97d-806d094064c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 11, server: 134.122.41.160, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇷 土耳其, server: 78.111.102.232, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 12, server: 174.136.207.168, port: 12842, type: vmess, uuid: d7e439a8-9cb4-4c62-9a6a-d36824689a04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 13, server: 66.135.4.63, port: 15074, type: vmess, uuid: 9cab2f40-9f7c-48c2-95ed-7518be0fb0f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 14, server: 45.59.184.71, port: 35546, type: vmess, uuid: be1d713f-a0ea-4093-814b-1300ee93b2e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇱🇹 立陶宛, server: 89.117.12.88, port: 45979, type: vmess, uuid: 23bdf6df-c482-46d0-c0f4-5a98d534ea11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /test}, udp: true}
-  - {name: 🇺🇸 美国 15, server: 45.77.101.35, port: 16219, type: vmess, uuid: d08d2216-5801-448f-ff37-ca82ca42d03c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 16, server: 104.21.237.70, port: 80, type: vmess, uuid: d31c39e0-e614-11ee-b333-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hDIgP.cnbete.life}}, udp: true}
-  - {name: 🇹🇼 台湾省台北市, server: 61.228.163.98, port: 19489, type: trojan, password: 8258210b-4b61-4d96-be4f-4e6be911a6e7, sni: b22.ntbq.dynu.net, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国华盛顿, server: 38.59.245.114, port: 15981, type: trojan, password: onBbMV6Bt9, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 17, server: 205.234.244.76, port: 12998, type: trojan, password: IRXZlmUZwX, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 俄罗斯, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 🇩🇪 德国黑森州法兰克福, server: 35.158.168.105, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 3, server: 18.183.226.32, port: 13092, type: trojan, password: eVzfPC6J1(6J, sni: appsvs.shop, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本东京, server: 52.198.165.52, port: 13055, type: trojan, password: 29MGtv59z7wx, sni: appsvs.shop, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本东京 2, server: 35.77.96.157, port: 13061, type: trojan, password: 2arHHIblSvt4, sni: appsvs.shop, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国, server: 52.78.111.228, port: 13089, type: trojan, password: c(DJhtH2JVTC, sni: appsvs.shop, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国 2, server: 103.214.68.57, port: 10003, type: trojan, password: 6x8HcghsjS, sni: yes998.chickenkiller.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡, server: 54.179.163.106, port: 13057, type: trojan, password: 7Jx65sNQro1X, sni: appsvs.shop, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 2, server: 13.212.82.126, port: 13061, type: trojan, password: 9s(SOMfb1U6D, sni: appsvs.shop, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 3, server: 52.221.211.255, port: 13085, type: trojan, password: mJWla15Qnx)i, sni: appsvs.shop, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾省新竹市, server: 36.227.7.118, port: 18912, type: trojan, password: 8258210b-4b61-4d96-be4f-4e6be911a6e7, sni: ty12t.twty.dynu.net, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 2, server: 111.45.22.129, port: 36027, type: ss, cipher: chacha20-ietf-poly1305, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, udp: true}
-  - {name: 🇨🇳 广东省广州市 3, server: 111.45.22.129, port: 36031, type: ss, cipher: chacha20-ietf-poly1305, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, udp: true}
-  - {name: 🇨🇳 广东省广州市 4, server: 111.45.22.129, port: 36030, type: ss, cipher: chacha20-ietf-poly1305, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, udp: true}
-  - {name: 🇨🇳 广东省广州市 5, server: 111.45.22.129, port: 36022, type: ss, cipher: chacha20-ietf-poly1305, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, udp: true}
-  - {name: 🇨🇳 广东省广州市 6, server: 111.45.22.129, port: 36012, type: ss, cipher: chacha20-ietf-poly1305, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, udp: true}
-  - {name: 🇨🇳 广东省深圳市, server: 119.23.104.213, port: 8474, type: ss, cipher: chacha20-ietf-poly1305, password: a501c82c72d790b8, udp: true}
-  - {name: 🇨🇳 广东省佛山市, server: 183.232.175.189, port: 36028, type: ss, cipher: chacha20-ietf-poly1305, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, udp: true}
-  - {name: 🇨🇳 广东省广州市 7, server: 111.45.22.129, port: 36011, type: ss, cipher: chacha20-ietf-poly1305, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, udp: true}
-  - {name: 🇨🇳 广东省广州市 8, server: 111.45.22.129, port: 36010, type: ss, cipher: chacha20-ietf-poly1305, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, udp: true}
-  - {name: 🇨🇳 广东省佛山市 2, server: 183.232.175.189, port: 36026, type: ss, cipher: chacha20-ietf-poly1305, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, udp: true}
-  - {name: 🇨🇳 广东省广州市 9, server: 111.45.22.129, port: 36017, type: ss, cipher: chacha20-ietf-poly1305, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, udp: true}
-  - {name: 🇨🇳 广东省江门市, server: 183.240.113.229, port: 36016, type: ss, cipher: chacha20-ietf-poly1305, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, udp: true}
-  - {name: 🇨🇳 广东省佛山市 3, server: 183.232.175.189, port: 36020, type: ss, cipher: chacha20-ietf-poly1305, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, udp: true}
-  - {name: 🇨🇳 广东省江门市 2, server: 183.240.113.229, port: 36874, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: vn01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 10, server: 111.45.22.129, port: 36206, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: sg02.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 11, server: 111.45.22.129, port: 36841, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: de01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省江门市 3, server: 183.240.113.229, port: 36701, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: ca01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 12, server: 111.45.22.129, port: 36506, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: us02.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省佛山市 4, server: 183.232.175.189, port: 36821, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: au01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省江门市 4, server: 183.240.113.229, port: 36511, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: us03.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 13, server: 111.45.22.129, port: 36501, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: us01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 14, server: 111.45.22.129, port: 36831, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: in01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 15, server: 111.45.22.129, port: 36401, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: kr01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省佛山市 5, server: 183.232.175.189, port: 36201, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: sg01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省佛山市 6, server: 183.232.175.189, port: 36901, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: nl01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 16, server: 111.45.22.129, port: 36801, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: ph01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 17, server: 111.45.22.129, port: 36606, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: hk02.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省江门市 5, server: 183.240.113.229, port: 36601, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: hk01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 18, server: 111.45.22.129, port: 36611, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: hk03.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省江门市 6, server: 183.240.113.229, port: 36887, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: my01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 19, server: 111.45.22.129, port: 36106, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: jp02.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 20, server: 111.45.22.129, port: 36116, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: jp01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 21, server: 111.45.22.129, port: 36111, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: jp03.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省江门市 7, server: 183.240.113.229, port: 36306, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: tw02.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 22, server: 111.45.22.129, port: 36211, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: sg03.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省佛山市 7, server: 183.232.175.189, port: 36301, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: tw01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本东京 3, server: 13.112.216.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇨🇦 加拿大, server: 47.128.72.85, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 日本 2, server: 43.207.80.176, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 日本东京, server: 13.112.216.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 日本 3, server: 18.183.101.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 日本 4, server: 18.183.180.49, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 日本 5, server: 54.238.182.167, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 日本 6, server: 54.249.1.223, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 日本 7, server: 183.181.36.194, port: 41597, type: vmess, uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国, server: 172.207.224.198, port: 443, type: trojan, password: d0774966-fb63-4aca-9478-16c3f32be220, sni: vn.mjt000.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 3, server: 54.180.138.72, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇰🇷 韩国首尔, server: 13.125.127.101, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇸🇬 新加坡, server: 54.179.101.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇸🇬 新加坡 2, server: 13.250.63.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇸🇬 新加坡 3, server: 13.229.184.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 美国 2, server: 18.142.56.221, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇸🇬 新加坡 4, server: 18.141.207.80, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇸🇬 新加坡 5, server: 13.229.57.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇺🇸 美国 18, server: 54.218.30.121, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇺🇸 美国 19, server: 54.187.81.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇯🇵 日本 4, server: 18.183.101.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇹🇼 台湾省, server: 118.167.73.179, port: 3271, type: trojan, password: de521ccd-0b3b-4616-a04f-c06cc4b3b077, sni: b24.ntbq.dynu.net, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾省桃园市, server: 220.141.141.193, port: 13761, type: trojan, password: 8258210b-4b61-4d96-be4f-4e6be911a6e7, sni: ty11t.twty.dynu.net, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 5, server: 43.203.170.195, port: 13064, type: trojan, password: W1CO4jpci2Zo, sni: appsvs.shop, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 6, server: 43.207.111.196, port: 13066, type: trojan, password: YMpLvIfbIkNk, sni: appsvs.shop, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 7, server: 43.206.236.55, port: 13092, type: trojan, password: 0fkhRyl3PAYT, sni: appsvs.shop, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 20, server: 155.248.177.122, port: 44402, type: trojan, password: 043e1451-0751-40d0-a577-70b74b4b9d45, sni: jp01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 23, server: 111.45.22.129, port: 36018, type: ss, cipher: chacha20-ietf-poly1305, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, udp: true}
-  - {name: 🇨🇳 广东省江门市 8, server: 183.240.113.229, port: 36904, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: th01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省佛山市 8, server: 183.232.175.189, port: 36311, type: trojan, password: 29d1ed41-e602-4e2d-8625-07e4bd19ba51, sni: tw03.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 5, server: 103.253.146.230, port: 80, type: vmess, uuid: duniavpn-freeebosss, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: sgfreenicuy.duniavpn.me}}, udp: true}
+  - {name: 🇹🇼 台湾省彰化县, server: 36.233.224.101, port: 14656, type: trojan, password: 7170dcdc-7866-4bb6-957d-a5aa046e7c0f, sni: nc12.twtc.dynu.net, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾省新北市, server: 61.228.159.5, port: 3271, type: trojan, password: 08c8768a-31ee-447e-81aa-845399553dbf, sni: b24.ntbq.dynu.net, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾省新竹市, server: 36.227.7.118, port: 18912, type: trojan, password: 88bc7d94-8e1f-4d80-9549-ace0d0d98db2, sni: ty12t.twty.dynu.net, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾省苗栗县, server: 36.233.228.57, port: 13989, type: trojan, password: 6152dab2-5a09-44fe-9c14-3ece9dbbc4b8, sni: c11.twtc.dynu.net, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 3, server: 35.86.136.148, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇨🇳 广东省江门市 2, server: 183.240.113.229, port: 36106, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: jp02.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 4, server: 35.87.1.148, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 美国华盛顿, server: 38.114.114.225, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 美国 5, server: 172.67.218.101, port: 2053, type: vmess, uuid: 855eb0a7-03de-468d-ab1c-d5a97069e62e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 12k002.nnaotexiongditkgroup.top, network: ws, ws-opts: {path: /12k002, headers: {Host: 12k002.nnaotexiongditkgroup.top}}, udp: true}
+  - {name: 🇺🇸 美国 6, server: 104.21.94.20, port: 2053, type: vmess, uuid: 9e649329-c23a-4b57-a6b2-41d9aee8ed8e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: GK0005.nnaotexiongditkgroup.top, network: ws, ws-opts: {path: /GK0005, headers: {Host: GK0005.nnaotexiongditkgroup.top}}, udp: true}
+  - {name: 🇫🇷 法国, server: 213.32.63.176, port: 3586, type: vmess, uuid: 763d2999-6321-4e4a-9eea-574820d0a547, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 7, server: 134.122.41.160, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国, server: 51.210.182.170, port: 443, type: trojan, password: a750aac0-e992-11ee-ba66-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 波斯尼亚和黑塞哥维那, server: 80.71.157.105, port: 80, type: vmess, uuid: b656b441-2cfd-44b8-9b2e-646e9925f8f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
+  - {name: 🇯🇵 日本东京 2, server: 52.198.165.52, port: 15387, type: trojan, password: kjR0RhS0buzO, sni: appsvs.shop, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 4, server: 52.78.111.228, port: 15381, type: trojan, password: GDjYTuaEDGxi, sni: appsvs.shop, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国首尔 2, server: 13.125.197.109, port: 15386, type: trojan, password: 5tTBKIeAWRCu, sni: appsvs.shop, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 6, server: 13.213.19.238, port: 15384, type: trojan, password: 65STWOAb2kCR, sni: appsvs.shop, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省佛山市, server: 183.232.175.189, port: 36021, type: ss, cipher: chacha20-ietf-poly1305, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, udp: true}
+  - {name: 🇨🇳 广东省广州市 2, server: 111.45.22.129, port: 36031, type: ss, cipher: chacha20-ietf-poly1305, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, udp: true}
+  - {name: 🇨🇳 广东省广州市 3, server: 111.45.22.129, port: 36030, type: ss, cipher: chacha20-ietf-poly1305, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, udp: true}
+  - {name: 🇨🇳 广东省广州市 4, server: 111.45.22.129, port: 36032, type: ss, cipher: chacha20-ietf-poly1305, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, udp: true}
+  - {name: 🇨🇳 广东省佛山市 2, server: 183.232.175.189, port: 36022, type: ss, cipher: chacha20-ietf-poly1305, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, udp: true}
+  - {name: 🇨🇳 广东省佛山市 3, server: 183.232.175.189, port: 36011, type: ss, cipher: chacha20-ietf-poly1305, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, udp: true}
+  - {name: 🇨🇳 广东省佛山市 4, server: 183.232.175.189, port: 36020, type: ss, cipher: chacha20-ietf-poly1305, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, udp: true}
+  - {name: 🇨🇳 广东省佛山市 5, server: 183.232.175.189, port: 36010, type: ss, cipher: chacha20-ietf-poly1305, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, udp: true}
+  - {name: 🇨🇳 广东省广州市 5, server: 111.45.22.129, port: 36016, type: ss, cipher: chacha20-ietf-poly1305, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, udp: true}
+  - {name: 🇨🇳 广东省广州市 6, server: 111.45.22.129, port: 36018, type: ss, cipher: chacha20-ietf-poly1305, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, udp: true}
+  - {name: 🇨🇳 广东省广州市 7, server: 111.45.22.129, port: 36904, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: th01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省广州市 8, server: 111.45.22.129, port: 36306, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: tw02.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省广州市 9, server: 111.45.22.129, port: 36506, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: us02.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省广州市 10, server: 111.45.22.129, port: 36871, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: ua01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省广州市 11, server: 111.45.22.129, port: 36501, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: us01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省广州市 12, server: 111.45.22.129, port: 36511, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: us03.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省江门市 3, server: 183.240.113.229, port: 36874, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: vn01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省佛山市 6, server: 183.232.175.189, port: 36831, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: in01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省佛山市 7, server: 183.232.175.189, port: 36901, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: nl01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省佛山市 8, server: 183.232.175.189, port: 36206, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: sg02.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省广州市 13, server: 111.45.22.129, port: 36864, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: hu01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省佛山市 9, server: 183.232.175.189, port: 36311, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: tw03.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省广州市 14, server: 111.45.22.129, port: 36401, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: kr01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省广州市 15, server: 111.45.22.129, port: 36601, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: hk01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省佛山市 10, server: 183.232.175.189, port: 36116, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: jp01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省佛山市 11, server: 183.232.175.189, port: 36201, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: sg01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省广州市 16, server: 111.45.22.129, port: 36801, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: ph01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省佛山市 12, server: 183.232.175.189, port: 36211, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: sg03.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省广州市 17, server: 111.45.22.129, port: 36887, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: my01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省江门市 4, server: 183.240.113.229, port: 36821, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: au01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省江门市 5, server: 183.240.113.229, port: 36301, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: tw01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本东京 3, server: 13.231.154.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 美国 8, server: 52.195.225.184, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 日本 8, server: 54.248.173.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇨🇳 广东省佛山市 13, server: 183.232.175.189, port: 36028, type: ss, cipher: chacha20-ietf-poly1305, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, udp: true}
+  - {name: 🇨🇳 广东省江门市 6, server: 183.240.113.229, port: 36012, type: ss, cipher: chacha20-ietf-poly1305, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, udp: true}
+  - {name: 🇨🇳 广东省江门市 7, server: 183.240.113.229, port: 36026, type: ss, cipher: chacha20-ietf-poly1305, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, udp: true}
+  - {name: 🇨🇳 广东省佛山市 14, server: 183.232.175.189, port: 36017, type: ss, cipher: chacha20-ietf-poly1305, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, udp: true}
+  - {name: 🇨🇳 广东省广州市 18, server: 111.45.22.129, port: 36851, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: ru01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省广州市 19, server: 111.45.22.129, port: 36611, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: hk03.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省佛山市 15, server: 183.232.175.189, port: 36606, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: hk02.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省江门市 8, server: 183.240.113.229, port: 36111, type: trojan, password: 7876dac2-e550-44bd-a97c-2b9331fc1c03, sni: jp03.abpilot.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -119,447 +101,375 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 枭木iOS大本营 TG@Tmxios
-      - 官网 https://tmxios.top
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇭🇰 香港
-      - 🇨🇳 广东省
-      - 🇨🇳 广东省汕头市
-      - 🇨🇳 广东省广州市
-      - 🇨🇦 加拿大
-      - 🇬🇧 英国伦敦
-      - 欧盟
-      - 🇰🇷 韩国首尔
-      - 🇺🇸 美国俄勒冈州波特兰
-      - 🇺🇸 美国
-      - 🇯🇵 日本
-      - 🇺🇸 美国 2
-      - 🇰🇷 韩国首尔 2
-      - 🇺🇸 美国 3
-      - 🇨🇦 加拿大 2
-      - 🇺🇸 美国 4
-      - 🇯🇵 日本 2
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇨🇿 捷克
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇹🇷 土耳其
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇱🇹 立陶宛
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
       - 🇹🇼 台湾省台北市
-      - 🇺🇸 美国华盛顿
-      - 🇺🇸 美国 17
-      - 🇷🇺 俄罗斯
-      - 🇩🇪 德国黑森州法兰克福
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本东京
-      - 🇯🇵 日本东京 2
+      - 🇨🇳 广东省江门市
+      - 欧盟
+      - 🇹🇼 台湾省台北市 2
+      - 🇨🇳 广东省广州市
       - 🇰🇷 韩国
       - 🇰🇷 韩国 2
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇸🇬 新加坡 3
-      - 🇹🇼 台湾省新竹市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省深圳市
-      - 🇨🇳 广东省佛山市
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省广州市 8
-      - 🇨🇳 广东省佛山市 2
-      - 🇨🇳 广东省广州市 9
-      - 🇨🇳 广东省江门市
-      - 🇨🇳 广东省佛山市 3
-      - 🇨🇳 广东省江门市 2
-      - 🇨🇳 广东省广州市 10
-      - 🇨🇳 广东省广州市 11
-      - 🇨🇳 广东省江门市 3
-      - 🇨🇳 广东省广州市 12
-      - 🇨🇳 广东省佛山市 4
-      - 🇨🇳 广东省江门市 4
-      - 🇨🇳 广东省广州市 13
-      - 🇨🇳 广东省广州市 14
-      - 🇨🇳 广东省广州市 15
-      - 🇨🇳 广东省佛山市 5
-      - 🇨🇳 广东省佛山市 6
-      - 🇨🇳 广东省广州市 16
-      - 🇨🇳 广东省广州市 17
-      - 🇨🇳 广东省江门市 5
-      - 🇨🇳 广东省广州市 18
-      - 🇨🇳 广东省江门市 6
-      - 🇨🇳 广东省广州市 19
-      - 🇨🇳 广东省广州市 20
-      - 🇨🇳 广东省广州市 21
-      - 🇨🇳 广东省江门市 7
-      - 🇨🇳 广东省广州市 22
-      - 🇨🇳 广东省佛山市 7
-      - 🇯🇵 日本东京 3
-      - 🇸🇬 新加坡 4
-      - 🇸🇬 新加坡 5
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇯🇵 日本 4
-      - 🇹🇼 台湾省
+      - 🇹🇼 台湾省台北市 3
       - 🇹🇼 台湾省桃园市
+      - 🇯🇵 日本
+      - 🇺🇸 美国俄勒冈州波特兰
+      - 🇨🇦 加拿大
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
       - 🇯🇵 日本 5
       - 🇯🇵 日本 6
       - 🇯🇵 日本 7
-      - 🇺🇸 美国 20
-      - 🇨🇳 广东省广州市 23
-      - 🇨🇳 广东省江门市 8
+      - 🇺🇸 美国
+      - 🇰🇷 韩国 3
+      - 🇰🇷 韩国首尔
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
+      - 🇺🇸 美国 2
+      - 🇸🇬 新加坡 4
+      - 🇸🇬 新加坡 5
+      - 🇹🇼 台湾省彰化县
+      - 🇹🇼 台湾省新北市
+      - 🇹🇼 台湾省新竹市
+      - 🇹🇼 台湾省苗栗县
+      - 🇺🇸 美国 3
+      - 🇨🇳 广东省江门市 2
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国华盛顿
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇫🇷 法国
+      - 🇺🇸 美国 7
+      - 🇬🇧 英国
+      - 波斯尼亚和黑塞哥维那
+      - 🇯🇵 日本东京 2
+      - 🇰🇷 韩国 4
+      - 🇰🇷 韩国首尔 2
+      - 🇸🇬 新加坡 6
+      - 🇨🇳 广东省佛山市
+      - 🇨🇳 广东省广州市 2
+      - 🇨🇳 广东省广州市 3
+      - 🇨🇳 广东省广州市 4
+      - 🇨🇳 广东省佛山市 2
+      - 🇨🇳 广东省佛山市 3
+      - 🇨🇳 广东省佛山市 4
+      - 🇨🇳 广东省佛山市 5
+      - 🇨🇳 广东省广州市 5
+      - 🇨🇳 广东省广州市 6
+      - 🇨🇳 广东省广州市 7
+      - 🇨🇳 广东省广州市 8
+      - 🇨🇳 广东省广州市 9
+      - 🇨🇳 广东省广州市 10
+      - 🇨🇳 广东省广州市 11
+      - 🇨🇳 广东省广州市 12
+      - 🇨🇳 广东省江门市 3
+      - 🇨🇳 广东省佛山市 6
+      - 🇨🇳 广东省佛山市 7
       - 🇨🇳 广东省佛山市 8
+      - 🇨🇳 广东省广州市 13
+      - 🇨🇳 广东省佛山市 9
+      - 🇨🇳 广东省广州市 14
+      - 🇨🇳 广东省广州市 15
+      - 🇨🇳 广东省佛山市 10
+      - 🇨🇳 广东省佛山市 11
+      - 🇨🇳 广东省广州市 16
+      - 🇨🇳 广东省佛山市 12
+      - 🇨🇳 广东省广州市 17
+      - 🇨🇳 广东省江门市 4
+      - 🇨🇳 广东省江门市 5
+      - 🇯🇵 日本东京 3
+      - 🇺🇸 美国 8
+      - 🇯🇵 日本 8
+      - 🇨🇳 广东省佛山市 13
+      - 🇨🇳 广东省江门市 6
+      - 🇨🇳 广东省江门市 7
+      - 🇨🇳 广东省佛山市 14
+      - 🇨🇳 广东省广州市 18
+      - 🇨🇳 广东省广州市 19
+      - 🇨🇳 广东省佛山市 15
+      - 🇨🇳 广东省江门市 8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - 官网 https://tmxios.top
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇭🇰 香港
-      - 🇨🇳 广东省
-      - 🇨🇳 广东省汕头市
-      - 🇨🇳 广东省广州市
-      - 🇨🇦 加拿大
-      - 🇬🇧 英国伦敦
-      - 欧盟
-      - 🇰🇷 韩国首尔
-      - 🇺🇸 美国俄勒冈州波特兰
-      - 🇺🇸 美国
-      - 🇯🇵 日本
-      - 🇺🇸 美国 2
-      - 🇰🇷 韩国首尔 2
-      - 🇺🇸 美国 3
-      - 🇨🇦 加拿大 2
-      - 🇺🇸 美国 4
-      - 🇯🇵 日本 2
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇨🇿 捷克
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇹🇷 土耳其
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇱🇹 立陶宛
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
       - 🇹🇼 台湾省台北市
-      - 🇺🇸 美国华盛顿
-      - 🇺🇸 美国 17
-      - 🇷🇺 俄罗斯
-      - 🇩🇪 德国黑森州法兰克福
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本东京
-      - 🇯🇵 日本东京 2
+      - 🇨🇳 广东省江门市
+      - 欧盟
+      - 🇹🇼 台湾省台北市 2
+      - 🇨🇳 广东省广州市
       - 🇰🇷 韩国
       - 🇰🇷 韩国 2
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇸🇬 新加坡 3
-      - 🇹🇼 台湾省新竹市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省深圳市
-      - 🇨🇳 广东省佛山市
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省广州市 8
-      - 🇨🇳 广东省佛山市 2
-      - 🇨🇳 广东省广州市 9
-      - 🇨🇳 广东省江门市
-      - 🇨🇳 广东省佛山市 3
-      - 🇨🇳 广东省江门市 2
-      - 🇨🇳 广东省广州市 10
-      - 🇨🇳 广东省广州市 11
-      - 🇨🇳 广东省江门市 3
-      - 🇨🇳 广东省广州市 12
-      - 🇨🇳 广东省佛山市 4
-      - 🇨🇳 广东省江门市 4
-      - 🇨🇳 广东省广州市 13
-      - 🇨🇳 广东省广州市 14
-      - 🇨🇳 广东省广州市 15
-      - 🇨🇳 广东省佛山市 5
-      - 🇨🇳 广东省佛山市 6
-      - 🇨🇳 广东省广州市 16
-      - 🇨🇳 广东省广州市 17
-      - 🇨🇳 广东省江门市 5
-      - 🇨🇳 广东省广州市 18
-      - 🇨🇳 广东省江门市 6
-      - 🇨🇳 广东省广州市 19
-      - 🇨🇳 广东省广州市 20
-      - 🇨🇳 广东省广州市 21
-      - 🇨🇳 广东省江门市 7
-      - 🇨🇳 广东省广州市 22
-      - 🇨🇳 广东省佛山市 7
-      - 🇯🇵 日本东京 3
-      - 🇸🇬 新加坡 4
-      - 🇸🇬 新加坡 5
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇯🇵 日本 4
-      - 🇹🇼 台湾省
+      - 🇹🇼 台湾省台北市 3
       - 🇹🇼 台湾省桃园市
+      - 🇯🇵 日本
+      - 🇺🇸 美国俄勒冈州波特兰
+      - 🇨🇦 加拿大
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
       - 🇯🇵 日本 5
       - 🇯🇵 日本 6
       - 🇯🇵 日本 7
-      - 🇺🇸 美国 20
-      - 🇨🇳 广东省广州市 23
-      - 🇨🇳 广东省江门市 8
+      - 🇺🇸 美国
+      - 🇰🇷 韩国 3
+      - 🇰🇷 韩国首尔
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
+      - 🇺🇸 美国 2
+      - 🇸🇬 新加坡 4
+      - 🇸🇬 新加坡 5
+      - 🇹🇼 台湾省彰化县
+      - 🇹🇼 台湾省新北市
+      - 🇹🇼 台湾省新竹市
+      - 🇹🇼 台湾省苗栗县
+      - 🇺🇸 美国 3
+      - 🇨🇳 广东省江门市 2
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国华盛顿
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇫🇷 法国
+      - 🇺🇸 美国 7
+      - 🇬🇧 英国
+      - 波斯尼亚和黑塞哥维那
+      - 🇯🇵 日本东京 2
+      - 🇰🇷 韩国 4
+      - 🇰🇷 韩国首尔 2
+      - 🇸🇬 新加坡 6
+      - 🇨🇳 广东省佛山市
+      - 🇨🇳 广东省广州市 2
+      - 🇨🇳 广东省广州市 3
+      - 🇨🇳 广东省广州市 4
+      - 🇨🇳 广东省佛山市 2
+      - 🇨🇳 广东省佛山市 3
+      - 🇨🇳 广东省佛山市 4
+      - 🇨🇳 广东省佛山市 5
+      - 🇨🇳 广东省广州市 5
+      - 🇨🇳 广东省广州市 6
+      - 🇨🇳 广东省广州市 7
+      - 🇨🇳 广东省广州市 8
+      - 🇨🇳 广东省广州市 9
+      - 🇨🇳 广东省广州市 10
+      - 🇨🇳 广东省广州市 11
+      - 🇨🇳 广东省广州市 12
+      - 🇨🇳 广东省江门市 3
+      - 🇨🇳 广东省佛山市 6
+      - 🇨🇳 广东省佛山市 7
       - 🇨🇳 广东省佛山市 8
+      - 🇨🇳 广东省广州市 13
+      - 🇨🇳 广东省佛山市 9
+      - 🇨🇳 广东省广州市 14
+      - 🇨🇳 广东省广州市 15
+      - 🇨🇳 广东省佛山市 10
+      - 🇨🇳 广东省佛山市 11
+      - 🇨🇳 广东省广州市 16
+      - 🇨🇳 广东省佛山市 12
+      - 🇨🇳 广东省广州市 17
+      - 🇨🇳 广东省江门市 4
+      - 🇨🇳 广东省江门市 5
+      - 🇯🇵 日本东京 3
+      - 🇺🇸 美国 8
+      - 🇯🇵 日本 8
+      - 🇨🇳 广东省佛山市 13
+      - 🇨🇳 广东省江门市 6
+      - 🇨🇳 广东省江门市 7
+      - 🇨🇳 广东省佛山市 14
+      - 🇨🇳 广东省广州市 18
+      - 🇨🇳 广东省广州市 19
+      - 🇨🇳 广东省佛山市 15
+      - 🇨🇳 广东省江门市 8
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - 官网 https://tmxios.top
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇭🇰 香港
-      - 🇨🇳 广东省
-      - 🇨🇳 广东省汕头市
-      - 🇨🇳 广东省广州市
-      - 🇨🇦 加拿大
-      - 🇬🇧 英国伦敦
-      - 欧盟
-      - 🇰🇷 韩国首尔
-      - 🇺🇸 美国俄勒冈州波特兰
-      - 🇺🇸 美国
-      - 🇯🇵 日本
-      - 🇺🇸 美国 2
-      - 🇰🇷 韩国首尔 2
-      - 🇺🇸 美国 3
-      - 🇨🇦 加拿大 2
-      - 🇺🇸 美国 4
-      - 🇯🇵 日本 2
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇨🇿 捷克
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇹🇷 土耳其
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇱🇹 立陶宛
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
       - 🇹🇼 台湾省台北市
-      - 🇺🇸 美国华盛顿
-      - 🇺🇸 美国 17
-      - 🇷🇺 俄罗斯
-      - 🇩🇪 德国黑森州法兰克福
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本东京
-      - 🇯🇵 日本东京 2
+      - 🇨🇳 广东省江门市
+      - 欧盟
+      - 🇹🇼 台湾省台北市 2
+      - 🇨🇳 广东省广州市
       - 🇰🇷 韩国
       - 🇰🇷 韩国 2
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇸🇬 新加坡 3
-      - 🇹🇼 台湾省新竹市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省深圳市
-      - 🇨🇳 广东省佛山市
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省广州市 8
-      - 🇨🇳 广东省佛山市 2
-      - 🇨🇳 广东省广州市 9
-      - 🇨🇳 广东省江门市
-      - 🇨🇳 广东省佛山市 3
-      - 🇨🇳 广东省江门市 2
-      - 🇨🇳 广东省广州市 10
-      - 🇨🇳 广东省广州市 11
-      - 🇨🇳 广东省江门市 3
-      - 🇨🇳 广东省广州市 12
-      - 🇨🇳 广东省佛山市 4
-      - 🇨🇳 广东省江门市 4
-      - 🇨🇳 广东省广州市 13
-      - 🇨🇳 广东省广州市 14
-      - 🇨🇳 广东省广州市 15
-      - 🇨🇳 广东省佛山市 5
-      - 🇨🇳 广东省佛山市 6
-      - 🇨🇳 广东省广州市 16
-      - 🇨🇳 广东省广州市 17
-      - 🇨🇳 广东省江门市 5
-      - 🇨🇳 广东省广州市 18
-      - 🇨🇳 广东省江门市 6
-      - 🇨🇳 广东省广州市 19
-      - 🇨🇳 广东省广州市 20
-      - 🇨🇳 广东省广州市 21
-      - 🇨🇳 广东省江门市 7
-      - 🇨🇳 广东省广州市 22
-      - 🇨🇳 广东省佛山市 7
-      - 🇯🇵 日本东京 3
-      - 🇸🇬 新加坡 4
-      - 🇸🇬 新加坡 5
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇯🇵 日本 4
-      - 🇹🇼 台湾省
+      - 🇹🇼 台湾省台北市 3
       - 🇹🇼 台湾省桃园市
+      - 🇯🇵 日本
+      - 🇺🇸 美国俄勒冈州波特兰
+      - 🇨🇦 加拿大
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
       - 🇯🇵 日本 5
       - 🇯🇵 日本 6
       - 🇯🇵 日本 7
-      - 🇺🇸 美国 20
-      - 🇨🇳 广东省广州市 23
-      - 🇨🇳 广东省江门市 8
+      - 🇺🇸 美国
+      - 🇰🇷 韩国 3
+      - 🇰🇷 韩国首尔
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
+      - 🇺🇸 美国 2
+      - 🇸🇬 新加坡 4
+      - 🇸🇬 新加坡 5
+      - 🇹🇼 台湾省彰化县
+      - 🇹🇼 台湾省新北市
+      - 🇹🇼 台湾省新竹市
+      - 🇹🇼 台湾省苗栗县
+      - 🇺🇸 美国 3
+      - 🇨🇳 广东省江门市 2
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国华盛顿
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇫🇷 法国
+      - 🇺🇸 美国 7
+      - 🇬🇧 英国
+      - 波斯尼亚和黑塞哥维那
+      - 🇯🇵 日本东京 2
+      - 🇰🇷 韩国 4
+      - 🇰🇷 韩国首尔 2
+      - 🇸🇬 新加坡 6
+      - 🇨🇳 广东省佛山市
+      - 🇨🇳 广东省广州市 2
+      - 🇨🇳 广东省广州市 3
+      - 🇨🇳 广东省广州市 4
+      - 🇨🇳 广东省佛山市 2
+      - 🇨🇳 广东省佛山市 3
+      - 🇨🇳 广东省佛山市 4
+      - 🇨🇳 广东省佛山市 5
+      - 🇨🇳 广东省广州市 5
+      - 🇨🇳 广东省广州市 6
+      - 🇨🇳 广东省广州市 7
+      - 🇨🇳 广东省广州市 8
+      - 🇨🇳 广东省广州市 9
+      - 🇨🇳 广东省广州市 10
+      - 🇨🇳 广东省广州市 11
+      - 🇨🇳 广东省广州市 12
+      - 🇨🇳 广东省江门市 3
+      - 🇨🇳 广东省佛山市 6
+      - 🇨🇳 广东省佛山市 7
       - 🇨🇳 广东省佛山市 8
+      - 🇨🇳 广东省广州市 13
+      - 🇨🇳 广东省佛山市 9
+      - 🇨🇳 广东省广州市 14
+      - 🇨🇳 广东省广州市 15
+      - 🇨🇳 广东省佛山市 10
+      - 🇨🇳 广东省佛山市 11
+      - 🇨🇳 广东省广州市 16
+      - 🇨🇳 广东省佛山市 12
+      - 🇨🇳 广东省广州市 17
+      - 🇨🇳 广东省江门市 4
+      - 🇨🇳 广东省江门市 5
+      - 🇯🇵 日本东京 3
+      - 🇺🇸 美国 8
+      - 🇯🇵 日本 8
+      - 🇨🇳 广东省佛山市 13
+      - 🇨🇳 广东省江门市 6
+      - 🇨🇳 广东省江门市 7
+      - 🇨🇳 广东省佛山市 14
+      - 🇨🇳 广东省广州市 18
+      - 🇨🇳 广东省广州市 19
+      - 🇨🇳 广东省佛山市 15
+      - 🇨🇳 广东省江门市 8
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - 官网 https://tmxios.top
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇭🇰 香港
-      - 🇨🇳 广东省
-      - 🇨🇳 广东省汕头市
-      - 🇨🇳 广东省广州市
-      - 🇨🇦 加拿大
-      - 🇬🇧 英国伦敦
-      - 欧盟
-      - 🇰🇷 韩国首尔
-      - 🇺🇸 美国俄勒冈州波特兰
-      - 🇺🇸 美国
-      - 🇯🇵 日本
-      - 🇺🇸 美国 2
-      - 🇰🇷 韩国首尔 2
-      - 🇺🇸 美国 3
-      - 🇨🇦 加拿大 2
-      - 🇺🇸 美国 4
-      - 🇯🇵 日本 2
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇨🇿 捷克
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇹🇷 土耳其
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇱🇹 立陶宛
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
       - 🇹🇼 台湾省台北市
-      - 🇺🇸 美国华盛顿
-      - 🇺🇸 美国 17
-      - 🇷🇺 俄罗斯
-      - 🇩🇪 德国黑森州法兰克福
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本东京
-      - 🇯🇵 日本东京 2
+      - 🇨🇳 广东省江门市
+      - 欧盟
+      - 🇹🇼 台湾省台北市 2
+      - 🇨🇳 广东省广州市
       - 🇰🇷 韩国
       - 🇰🇷 韩国 2
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇸🇬 新加坡 3
-      - 🇹🇼 台湾省新竹市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省深圳市
-      - 🇨🇳 广东省佛山市
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省广州市 8
-      - 🇨🇳 广东省佛山市 2
-      - 🇨🇳 广东省广州市 9
-      - 🇨🇳 广东省江门市
-      - 🇨🇳 广东省佛山市 3
-      - 🇨🇳 广东省江门市 2
-      - 🇨🇳 广东省广州市 10
-      - 🇨🇳 广东省广州市 11
-      - 🇨🇳 广东省江门市 3
-      - 🇨🇳 广东省广州市 12
-      - 🇨🇳 广东省佛山市 4
-      - 🇨🇳 广东省江门市 4
-      - 🇨🇳 广东省广州市 13
-      - 🇨🇳 广东省广州市 14
-      - 🇨🇳 广东省广州市 15
-      - 🇨🇳 广东省佛山市 5
-      - 🇨🇳 广东省佛山市 6
-      - 🇨🇳 广东省广州市 16
-      - 🇨🇳 广东省广州市 17
-      - 🇨🇳 广东省江门市 5
-      - 🇨🇳 广东省广州市 18
-      - 🇨🇳 广东省江门市 6
-      - 🇨🇳 广东省广州市 19
-      - 🇨🇳 广东省广州市 20
-      - 🇨🇳 广东省广州市 21
-      - 🇨🇳 广东省江门市 7
-      - 🇨🇳 广东省广州市 22
-      - 🇨🇳 广东省佛山市 7
-      - 🇯🇵 日本东京 3
-      - 🇸🇬 新加坡 4
-      - 🇸🇬 新加坡 5
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇯🇵 日本 4
-      - 🇹🇼 台湾省
+      - 🇹🇼 台湾省台北市 3
       - 🇹🇼 台湾省桃园市
+      - 🇯🇵 日本
+      - 🇺🇸 美国俄勒冈州波特兰
+      - 🇨🇦 加拿大
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
       - 🇯🇵 日本 5
       - 🇯🇵 日本 6
       - 🇯🇵 日本 7
-      - 🇺🇸 美国 20
-      - 🇨🇳 广东省广州市 23
-      - 🇨🇳 广东省江门市 8
+      - 🇺🇸 美国
+      - 🇰🇷 韩国 3
+      - 🇰🇷 韩国首尔
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
+      - 🇺🇸 美国 2
+      - 🇸🇬 新加坡 4
+      - 🇸🇬 新加坡 5
+      - 🇹🇼 台湾省彰化县
+      - 🇹🇼 台湾省新北市
+      - 🇹🇼 台湾省新竹市
+      - 🇹🇼 台湾省苗栗县
+      - 🇺🇸 美国 3
+      - 🇨🇳 广东省江门市 2
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国华盛顿
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇫🇷 法国
+      - 🇺🇸 美国 7
+      - 🇬🇧 英国
+      - 波斯尼亚和黑塞哥维那
+      - 🇯🇵 日本东京 2
+      - 🇰🇷 韩国 4
+      - 🇰🇷 韩国首尔 2
+      - 🇸🇬 新加坡 6
+      - 🇨🇳 广东省佛山市
+      - 🇨🇳 广东省广州市 2
+      - 🇨🇳 广东省广州市 3
+      - 🇨🇳 广东省广州市 4
+      - 🇨🇳 广东省佛山市 2
+      - 🇨🇳 广东省佛山市 3
+      - 🇨🇳 广东省佛山市 4
+      - 🇨🇳 广东省佛山市 5
+      - 🇨🇳 广东省广州市 5
+      - 🇨🇳 广东省广州市 6
+      - 🇨🇳 广东省广州市 7
+      - 🇨🇳 广东省广州市 8
+      - 🇨🇳 广东省广州市 9
+      - 🇨🇳 广东省广州市 10
+      - 🇨🇳 广东省广州市 11
+      - 🇨🇳 广东省广州市 12
+      - 🇨🇳 广东省江门市 3
+      - 🇨🇳 广东省佛山市 6
+      - 🇨🇳 广东省佛山市 7
       - 🇨🇳 广东省佛山市 8
+      - 🇨🇳 广东省广州市 13
+      - 🇨🇳 广东省佛山市 9
+      - 🇨🇳 广东省广州市 14
+      - 🇨🇳 广东省广州市 15
+      - 🇨🇳 广东省佛山市 10
+      - 🇨🇳 广东省佛山市 11
+      - 🇨🇳 广东省广州市 16
+      - 🇨🇳 广东省佛山市 12
+      - 🇨🇳 广东省广州市 17
+      - 🇨🇳 广东省江门市 4
+      - 🇨🇳 广东省江门市 5
+      - 🇯🇵 日本东京 3
+      - 🇺🇸 美国 8
+      - 🇯🇵 日本 8
+      - 🇨🇳 广东省佛山市 13
+      - 🇨🇳 广东省江门市 6
+      - 🇨🇳 广东省江门市 7
+      - 🇨🇳 广东省佛山市 14
+      - 🇨🇳 广东省广州市 18
+      - 🇨🇳 广东省广州市 19
+      - 🇨🇳 广东省佛山市 15
+      - 🇨🇳 广东省江门市 8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -579,112 +489,94 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 枭木iOS大本营 TG@Tmxios
-      - 官网 https://tmxios.top
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
-      - 🇭🇰 香港
-      - 🇨🇳 广东省
-      - 🇨🇳 广东省汕头市
-      - 🇨🇳 广东省广州市
-      - 🇨🇦 加拿大
-      - 🇬🇧 英国伦敦
-      - 欧盟
-      - 🇰🇷 韩国首尔
-      - 🇺🇸 美国俄勒冈州波特兰
-      - 🇺🇸 美国
-      - 🇯🇵 日本
-      - 🇺🇸 美国 2
-      - 🇰🇷 韩国首尔 2
-      - 🇺🇸 美国 3
-      - 🇨🇦 加拿大 2
-      - 🇺🇸 美国 4
-      - 🇯🇵 日本 2
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇨🇿 捷克
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇹🇷 土耳其
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇱🇹 立陶宛
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
       - 🇹🇼 台湾省台北市
-      - 🇺🇸 美国华盛顿
-      - 🇺🇸 美国 17
-      - 🇷🇺 俄罗斯
-      - 🇩🇪 德国黑森州法兰克福
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本东京
-      - 🇯🇵 日本东京 2
+      - 🇨🇳 广东省江门市
+      - 欧盟
+      - 🇹🇼 台湾省台北市 2
+      - 🇨🇳 广东省广州市
       - 🇰🇷 韩国
       - 🇰🇷 韩国 2
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇸🇬 新加坡 3
-      - 🇹🇼 台湾省新竹市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省深圳市
-      - 🇨🇳 广东省佛山市
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省广州市 8
-      - 🇨🇳 广东省佛山市 2
-      - 🇨🇳 广东省广州市 9
-      - 🇨🇳 广东省江门市
-      - 🇨🇳 广东省佛山市 3
-      - 🇨🇳 广东省江门市 2
-      - 🇨🇳 广东省广州市 10
-      - 🇨🇳 广东省广州市 11
-      - 🇨🇳 广东省江门市 3
-      - 🇨🇳 广东省广州市 12
-      - 🇨🇳 广东省佛山市 4
-      - 🇨🇳 广东省江门市 4
-      - 🇨🇳 广东省广州市 13
-      - 🇨🇳 广东省广州市 14
-      - 🇨🇳 广东省广州市 15
-      - 🇨🇳 广东省佛山市 5
-      - 🇨🇳 广东省佛山市 6
-      - 🇨🇳 广东省广州市 16
-      - 🇨🇳 广东省广州市 17
-      - 🇨🇳 广东省江门市 5
-      - 🇨🇳 广东省广州市 18
-      - 🇨🇳 广东省江门市 6
-      - 🇨🇳 广东省广州市 19
-      - 🇨🇳 广东省广州市 20
-      - 🇨🇳 广东省广州市 21
-      - 🇨🇳 广东省江门市 7
-      - 🇨🇳 广东省广州市 22
-      - 🇨🇳 广东省佛山市 7
-      - 🇯🇵 日本东京 3
-      - 🇸🇬 新加坡 4
-      - 🇸🇬 新加坡 5
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇯🇵 日本 4
-      - 🇹🇼 台湾省
+      - 🇹🇼 台湾省台北市 3
       - 🇹🇼 台湾省桃园市
+      - 🇯🇵 日本
+      - 🇺🇸 美国俄勒冈州波特兰
+      - 🇨🇦 加拿大
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
       - 🇯🇵 日本 5
       - 🇯🇵 日本 6
       - 🇯🇵 日本 7
-      - 🇺🇸 美国 20
-      - 🇨🇳 广东省广州市 23
-      - 🇨🇳 广东省江门市 8
+      - 🇺🇸 美国
+      - 🇰🇷 韩国 3
+      - 🇰🇷 韩国首尔
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
+      - 🇺🇸 美国 2
+      - 🇸🇬 新加坡 4
+      - 🇸🇬 新加坡 5
+      - 🇹🇼 台湾省彰化县
+      - 🇹🇼 台湾省新北市
+      - 🇹🇼 台湾省新竹市
+      - 🇹🇼 台湾省苗栗县
+      - 🇺🇸 美国 3
+      - 🇨🇳 广东省江门市 2
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国华盛顿
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇫🇷 法国
+      - 🇺🇸 美国 7
+      - 🇬🇧 英国
+      - 波斯尼亚和黑塞哥维那
+      - 🇯🇵 日本东京 2
+      - 🇰🇷 韩国 4
+      - 🇰🇷 韩国首尔 2
+      - 🇸🇬 新加坡 6
+      - 🇨🇳 广东省佛山市
+      - 🇨🇳 广东省广州市 2
+      - 🇨🇳 广东省广州市 3
+      - 🇨🇳 广东省广州市 4
+      - 🇨🇳 广东省佛山市 2
+      - 🇨🇳 广东省佛山市 3
+      - 🇨🇳 广东省佛山市 4
+      - 🇨🇳 广东省佛山市 5
+      - 🇨🇳 广东省广州市 5
+      - 🇨🇳 广东省广州市 6
+      - 🇨🇳 广东省广州市 7
+      - 🇨🇳 广东省广州市 8
+      - 🇨🇳 广东省广州市 9
+      - 🇨🇳 广东省广州市 10
+      - 🇨🇳 广东省广州市 11
+      - 🇨🇳 广东省广州市 12
+      - 🇨🇳 广东省江门市 3
+      - 🇨🇳 广东省佛山市 6
+      - 🇨🇳 广东省佛山市 7
       - 🇨🇳 广东省佛山市 8
+      - 🇨🇳 广东省广州市 13
+      - 🇨🇳 广东省佛山市 9
+      - 🇨🇳 广东省广州市 14
+      - 🇨🇳 广东省广州市 15
+      - 🇨🇳 广东省佛山市 10
+      - 🇨🇳 广东省佛山市 11
+      - 🇨🇳 广东省广州市 16
+      - 🇨🇳 广东省佛山市 12
+      - 🇨🇳 广东省广州市 17
+      - 🇨🇳 广东省江门市 4
+      - 🇨🇳 广东省江门市 5
+      - 🇯🇵 日本东京 3
+      - 🇺🇸 美国 8
+      - 🇯🇵 日本 8
+      - 🇨🇳 广东省佛山市 13
+      - 🇨🇳 广东省江门市 6
+      - 🇨🇳 广东省江门市 7
+      - 🇨🇳 广东省佛山市 14
+      - 🇨🇳 广东省广州市 18
+      - 🇨🇳 广东省广州市 19
+      - 🇨🇳 广东省佛山市 15
+      - 🇨🇳 广东省江门市 8
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -3988,5 +3880,4 @@ rules:
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
-
 
