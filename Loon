@@ -28,71 +28,84 @@ P12证书 https://p12.tmxios.top = Shadowsocks,54.248.151.131,443,aes-256-cfb,"a
 全网低价个人证书 = Shadowsocks,47.243.108.41,10841,aes-256-gcm,"rUx8mqUsI0",udp=true
 iOS|轻松签|全能签|P12证书 = Shadowsocks,8.210.231.146,1146,aes-256-gcm,"jmtgsmW40R",udp=true
 定制V信|应用分身|V信密友|破解软件 = Shadowsocks,47.57.232.119,2119,aes-256-gcm,"3B9vFTBSlp",udp=true
-🇰🇷 韩国 = Shadowsocks,221.150.109.87,43926,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国 2 = Shadowsocks,203.234.238.145,4005,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国 3 = Shadowsocks,125.141.26.8,10218,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国 4 = Shadowsocks,221.150.109.18,42839,aes-256-cfb,"qwerREWQ@@",udp=true
-🇩🇪 德国 = vmess,194.195.245.204,18100,chacha20-ietf-poly1305,"1d98567647cd11ee8469f23c93ff01cb",over-tls=false,transport=tcp,skip-cert-verify=true,udp=true
-🇺🇸 美国 = Shadowsocks,18.142.225.182,443,aes-256-cfb,"amazonskr05",udp=true
-🇺🇸 美国 2 = Shadowsocks,13.215.156.208,443,aes-256-cfb,"amazonskr05",udp=true
-🇺🇸 美国 3 = Shadowsocks,52.195.10.194,443,aes-256-cfb,"amazonskr05",udp=true
-🇯🇵 日本东京 = Shadowsocks,35.77.92.181,443,aes-256-cfb,"amazonskr05",udp=true
-🇯🇵 日本 = Shadowsocks,54.199.15.70,443,aes-256-cfb,"amazonskr05",udp=true
-🇰🇷 韩国 5 = Shadowsocks,125.141.26.8,10218,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国 6 = Shadowsocks,221.150.109.11,57743,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国 7 = Shadowsocks,221.150.109.18,42839,aes-256-cfb,"qwerREWQ@@",udp=true
+🇰🇷 韩国 = Shadowsocks,203.234.238.140,58449,aes-256-cfb,"qwerREWQ@@",udp=true
+🇰🇷 韩国 2 = Shadowsocks,221.150.109.87,43926,aes-256-cfb,"qwerREWQ@@",udp=true
+🇰🇷 韩国 3 = Shadowsocks,125.141.31.99,49032,aes-256-cfb,"qwerREWQ@@",udp=true
+🇰🇷 韩国 4 = Shadowsocks,221.150.109.11,57743,aes-256-cfb,"qwerREWQ@@",udp=true
+🇺🇸 美国 = Shadowsocks,3.67.70.16,23456,chacha20-ietf-poly1305,"2ql6YkDqgDP8TCf2HFFMFT",udp=true
+🇩🇪 德国 = trojan,195.201.227.140,443,"Mirza",tls-name=di.rmzs.xyz,skip-cert-verify=true,udp=true
+🇯🇵 日本 = Shadowsocks,54.248.173.222,443,aes-256-cfb,"amazonskr05",udp=true
+🇨🇳 广东省广州市 = vmess,36.133.177.91,10163,chacha20-ietf-poly1305,"b1553abe-6f1f-3288-bfc2-908b2f9fc4fc",over-tls=false,transport=ws,path=/v2ray,host=hk.lalayunssl.xyz,skip-cert-verify=true,udp=true
+🇰🇷 韩国 5 = Shadowsocks,221.150.109.11,57743,aes-256-cfb,"qwerREWQ@@",udp=true
+🇩🇪 德国 2 = trojan,195.201.227.140,443,"Mirza",tls-name=di.rmzs.xyz,skip-cert-verify=true,udp=true
+🇯🇵 日本东京 = Shadowsocks,13.231.229.48,443,aes-256-cfb,"amazonskr05",udp=true
+🇯🇵 日本 2 = Shadowsocks,54.248.173.222,443,aes-256-cfb,"amazonskr05",udp=true
+🇰🇷 韩国 6 = Shadowsocks,203.234.238.140,58449,aes-256-cfb,"qwerREWQ@@",udp=true
+🇸🇬 新加坡 = Shadowsocks,54.254.167.160,443,aes-256-cfb,"amazonskr05",udp=true
+🇸🇬 新加坡 2 = Shadowsocks,13.250.63.15,443,aes-256-cfb,"amazonskr05",udp=true
+🇯🇵 日本 3 = Shadowsocks,54.250.24.227,443,aes-256-cfb,"amazonskr05",udp=true
+🇯🇵 日本 4 = Shadowsocks,54.250.24.227,443,aes-256-cfb,"amazonskr05",udp=true
+🇩🇪 德国 3 = trojan,195.201.227.140,443,"Mirza",tls-name=di.rmzs.xyz,skip-cert-verify=true,udp=true
+🇰🇷 韩国 7 = Shadowsocks,221.150.109.11,57743,aes-256-cfb,"qwerREWQ@@",udp=true
 🇰🇷 韩国 8 = Shadowsocks,221.150.109.87,43926,aes-256-cfb,"qwerREWQ@@",udp=true
-🇺🇸 美国 4 = Shadowsocks,18.142.225.182,443,aes-256-cfb,"amazonskr05",udp=true
-🇰🇷 韩国 9 = Shadowsocks,221.150.109.11,57743,aes-256-cfb,"qwerREWQ@@",udp=true
+🇰🇷 韩国 9 = Shadowsocks,203.234.238.140,58449,aes-256-cfb,"qwerREWQ@@",udp=true
+🇸🇬 新加坡 3 = Shadowsocks,54.254.167.160,443,aes-256-cfb,"amazonskr05",udp=true
 🇰🇷 韩国 10 = Shadowsocks,203.234.238.145,4005,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国 11 = Shadowsocks,222.112.15.140,58449,aes-256-cfb,"qwerREWQ@@",udp=true
-🇸🇬 新加坡 = Shadowsocks,54.179.101.194,443,aes-256-cfb,"amazonskr05",udp=true
-🇰🇷 韩国 12 = Shadowsocks,221.150.109.81,42978,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国 13 = Shadowsocks,54.180.156.133,443,aes-256-cfb,"amazonskr05",udp=true
-🇺🇸 美国 5 = Shadowsocks,3.36.96.75,443,aes-256-cfb,"amazonskr05",udp=true
-🇰🇷 韩国 14 = Shadowsocks,125.141.31.73,42185,aes-256-cfb,"qwerREWQ@@",udp=true
-🇨🇳 广东省广州市 = vmess,183.236.51.59,54100,chacha20-ietf-poly1305,"418048af-a293-4b99-9b0c-98ca3580dd24",over-tls=false,transport=tcp,skip-cert-verify=true,udp=true
-🇰🇷 韩国 15 = Shadowsocks,221.150.109.85,51472,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国首尔 = Shadowsocks,13.124.212.29,443,aes-256-cfb,"amazonskr05",udp=true
-🇯🇵 日本 2 = Shadowsocks,43.201.34.246,443,aes-256-cfb,"amazonskr05",udp=true
-🇯🇵 日本 3 = Shadowsocks,43.201.34.246,443,aes-256-cfb,"amazonskr05",udp=true
-🇰🇷 韩国首尔 2 = Shadowsocks,13.124.212.29,443,aes-256-cfb,"amazonskr05",udp=true
-🇰🇷 韩国 16 = Shadowsocks,125.141.31.72,51472,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国 17 = Shadowsocks,222.112.15.134,50942,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国 18 = Shadowsocks,125.141.31.73,42185,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国 19 = Shadowsocks,203.234.238.140,58449,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国 20 = Shadowsocks,222.112.15.140,58449,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国 21 = Shadowsocks,203.234.238.140,58449,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国首尔 3 = Shadowsocks,13.124.212.29,443,aes-256-cfb,"amazonskr05",udp=true
-🇰🇷 韩国 22 = vmess,103.214.68.57,10001,chacha20-ietf-poly1305,"ebca5f68-bf59-4081-e658-f158839c2f5c",over-tls=true,tls-name=,transport=tcp,skip-cert-verify=true,udp=true
-🇰🇷 韩国 23 = trojan,103.214.68.57,10003,"6x8HcghsjS",tls-name=yes998.chickenkiller.com,skip-cert-verify=true,udp=true
+🇯🇵 日本 5 = Shadowsocks,54.250.24.227,443,aes-256-cfb,"amazonskr05",udp=true
+🇬🇧 英国 = trojan,193.123.251.77,21702,"de4efbe1-69fe-49db-9e36-0a4c0f534024",tls-name=kr02.freeflyingcloud.xyz,skip-cert-verify=true,udp=true
+🇸🇬 新加坡 4 = Shadowsocks,54.169.147.64,443,aes-256-cfb,"amazonskr05",udp=true
+🇰🇷 韩国 11 = Shadowsocks,54.180.156.133,443,aes-256-cfb,"amazonskr05",udp=true
+🇸🇬 新加坡 5 = Shadowsocks,13.250.63.15,443,aes-256-cfb,"amazonskr05",udp=true
+🇺🇸 美国 2 = Shadowsocks,18.142.225.182,443,aes-256-cfb,"amazonskr05",udp=true
+🇰🇷 韩国首尔 = Shadowsocks,3.34.200.94,443,aes-256-cfb,"amazonskr05",udp=true
+🇰🇷 韩国首尔 2 = Shadowsocks,3.34.200.94,443,aes-256-cfb,"amazonskr05",udp=true
+🇺🇸 美国 3 = Shadowsocks,18.142.56.221,443,aes-256-cfb,"amazonskr05",udp=true
+🇯🇵 日本 6 = Shadowsocks,54.199.15.70,443,aes-256-cfb,"amazonskr05",udp=true
+🇸🇬 新加坡 6 = Shadowsocks,13.250.57.60,443,aes-256-cfb,"amazonskr05",udp=true
+🇸🇬 新加坡 7 = Shadowsocks,13.250.57.60,443,aes-256-cfb,"amazonskr05",udp=true
+🇰🇷 韩国首尔 3 = trojan,193.122.116.227,24852,"de4efbe1-69fe-49db-9e36-0a4c0f534024",tls-name=kr01.freeflyingcloud.xyz,skip-cert-verify=true,udp=true
+🇰🇷 韩国 12 = Shadowsocks,125.141.31.72,51472,aes-256-cfb,"qwerREWQ@@",udp=true
+🇯🇵 日本 7 = Shadowsocks,43.203.233.33,443,aes-256-cfb,"amazonskr05",udp=true
+🇭🇰 香港 = vmess,42.3.168.183,80,chacha20-ietf-poly1305,"f0d23e27-d3cf-4476-b75b-87552f9eee1a",over-tls=false,transport=tcp,skip-cert-verify=true,udp=true
+🇯🇵 日本东京 2 = Shadowsocks,35.77.89.124,443,aes-256-cfb,"amazonskr05",udp=true
+🇯🇵 日本东京 3 = Shadowsocks,35.77.92.181,443,aes-256-cfb,"amazonskr05",udp=true
+🇸🇬 新加坡 8 = Shadowsocks,54.179.101.194,443,aes-256-cfb,"amazonskr05",udp=true
+🇰🇷 韩国 13 = Shadowsocks,221.150.109.87,43926,aes-256-cfb,"qwerREWQ@@",udp=true
+🇰🇷 韩国 14 = Shadowsocks,125.141.31.72,51472,aes-256-cfb,"qwerREWQ@@",udp=true
+🇯🇵 日本 8 = Shadowsocks,54.250.24.227,443,aes-256-cfb,"amazonskr05",udp=true
+🇰🇷 韩国首尔 4 = Shadowsocks,13.124.212.29,443,aes-256-cfb,"amazonskr05",udp=true
+🇰🇷 韩国 15 = Shadowsocks,125.141.31.99,49032,aes-256-cfb,"qwerREWQ@@",udp=true
+🇰🇷 韩国 16 = Shadowsocks,125.141.26.8,10218,aes-256-cfb,"qwerREWQ@@",udp=true
+🇰🇷 韩国 17 = Shadowsocks,203.234.238.145,4005,aes-256-cfb,"qwerREWQ@@",udp=true
+🇰🇷 韩国 18 = Shadowsocks,222.112.15.134,50942,aes-256-cfb,"qwerREWQ@@",udp=true
+🇰🇷 韩国 19 = Shadowsocks,222.112.15.140,58449,aes-256-cfb,"qwerREWQ@@",udp=true
+🇰🇷 韩国 20 = Shadowsocks,221.150.109.81,42978,aes-256-cfb,"qwerREWQ@@",udp=true
+🇰🇷 韩国 21 = Shadowsocks,222.112.15.134,50942,aes-256-cfb,"qwerREWQ@@",udp=true
+🇰🇷 韩国 22 = Shadowsocks,221.150.109.81,42978,aes-256-cfb,"qwerREWQ@@",udp=true
+🇰🇷 韩国 23 = Shadowsocks,222.112.15.140,58449,aes-256-cfb,"qwerREWQ@@",udp=true
 🇰🇷 韩国 24 = Shadowsocks,125.141.31.73,42185,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国 25 = Shadowsocks,221.150.109.85,51472,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国 26 = Shadowsocks,221.150.109.11,57743,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国 27 = Shadowsocks,221.150.109.18,42839,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国 28 = Shadowsocks,222.112.15.134,50942,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国 29 = Shadowsocks,222.112.15.140,58449,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国 30 = Shadowsocks,203.234.238.145,4005,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国 31 = Shadowsocks,125.141.26.8,10218,aes-256-cfb,"qwerREWQ@@",udp=true
-🇩🇪 德国 2 = vmess,194.195.245.204,18100,chacha20-ietf-poly1305,"1d98567647cd11ee8469f23c93ff01cb",over-tls=false,transport=tcp,skip-cert-verify=true,udp=true
-🇯🇵 日本东京 2 = Shadowsocks,13.230.190.100,443,aes-256-cfb,"amazonskr05",udp=true
-🇰🇷 韩国 32 = Shadowsocks,54.180.156.133,443,aes-256-cfb,"amazonskr05",udp=true
-🇰🇷 韩国 33 = Shadowsocks,221.150.109.87,43926,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国 34 = Shadowsocks,203.234.238.140,58449,aes-256-cfb,"qwerREWQ@@",udp=true
-🇰🇷 韩国 35 = trojan,103.214.68.57,10003,"6x8HcghsjS",tls-name=yes998.chickenkiller.com,skip-cert-verify=true,udp=true
+🇰🇷 韩国首尔 5 = Shadowsocks,13.124.212.29,443,aes-256-cfb,"amazonskr05",udp=true
+🇰🇷 韩国 25 = Shadowsocks,125.141.31.72,51472,aes-256-cfb,"qwerREWQ@@",udp=true
+🇸🇬 新加坡 9 = Shadowsocks,54.254.167.160,443,aes-256-cfb,"amazonskr05",udp=true
+🇰🇷 韩国 26 = Shadowsocks,221.150.109.81,42978,aes-256-cfb,"qwerREWQ@@",udp=true
+🇯🇵 日本 9 = trojan,43.207.118.18,20230,"0bfa2050-b165-4156-859c-70f36d300dce",tls-name=421421.xyz,skip-cert-verify=true,udp=true
+🇰🇷 韩国 27 = Shadowsocks,203.234.238.145,4005,aes-256-cfb,"qwerREWQ@@",udp=true
+🇰🇷 韩国 28 = Shadowsocks,221.150.109.88,51472,aes-256-cfb,"qwerREWQ@@",udp=true
+🇰🇷 韩国 29 = Shadowsocks,222.112.15.134,50942,aes-256-cfb,"qwerREWQ@@",udp=true
+🇰🇷 韩国首尔 6 = Shadowsocks,13.124.212.29,443,aes-256-cfb,"amazonskr05",udp=true
 
 [Remote Proxy]
 
 [Remote Filter]
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,🔯 故障转移,🔮 负载均衡,DIRECT,枭木iOS大本营 TG@Tmxios,官网 https://tmxios.top,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇰🇷 韩国 4,🇩🇪 德国,🇺🇸 美国,🇺🇸 美国 2,🇺🇸 美国 3,🇯🇵 日本东京,🇯🇵 日本,🇰🇷 韩国 5,🇰🇷 韩国 6,🇰🇷 韩国 7,🇰🇷 韩国 8,🇺🇸 美国 4,🇰🇷 韩国 9,🇰🇷 韩国 10,🇰🇷 韩国 11,🇸🇬 新加坡,🇰🇷 韩国 12,🇰🇷 韩国 13,🇺🇸 美国 5,🇰🇷 韩国 14,🇨🇳 广东省广州市,🇰🇷 韩国 15,🇰🇷 韩国首尔,🇯🇵 日本 2,🇯🇵 日本 3,🇰🇷 韩国首尔 2,🇰🇷 韩国 16,🇰🇷 韩国 17,🇰🇷 韩国 18,🇰🇷 韩国 19,🇰🇷 韩国 20,🇰🇷 韩国 21,🇰🇷 韩国首尔 3,🇰🇷 韩国 22,🇰🇷 韩国 23,🇰🇷 韩国 24,🇰🇷 韩国 25,🇰🇷 韩国 26,🇰🇷 韩国 27,🇰🇷 韩国 28,🇰🇷 韩国 29,🇰🇷 韩国 30,🇰🇷 韩国 31,🇩🇪 德国 2,🇯🇵 日本东京 2,🇰🇷 韩国 32,🇰🇷 韩国 33,🇰🇷 韩国 34,🇰🇷 韩国 35
-♻️ 自动选择 = url-test,枭木iOS大本营 TG@Tmxios,官网 https://tmxios.top,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇰🇷 韩国 4,🇩🇪 德国,🇺🇸 美国,🇺🇸 美国 2,🇺🇸 美国 3,🇯🇵 日本东京,🇯🇵 日本,🇰🇷 韩国 5,🇰🇷 韩国 6,🇰🇷 韩国 7,🇰🇷 韩国 8,🇺🇸 美国 4,🇰🇷 韩国 9,🇰🇷 韩国 10,🇰🇷 韩国 11,🇸🇬 新加坡,🇰🇷 韩国 12,🇰🇷 韩国 13,🇺🇸 美国 5,🇰🇷 韩国 14,🇨🇳 广东省广州市,🇰🇷 韩国 15,🇰🇷 韩国首尔,🇯🇵 日本 2,🇯🇵 日本 3,🇰🇷 韩国首尔 2,🇰🇷 韩国 16,🇰🇷 韩国 17,🇰🇷 韩国 18,🇰🇷 韩国 19,🇰🇷 韩国 20,🇰🇷 韩国 21,🇰🇷 韩国首尔 3,🇰🇷 韩国 22,🇰🇷 韩国 23,🇰🇷 韩国 24,🇰🇷 韩国 25,🇰🇷 韩国 26,🇰🇷 韩国 27,🇰🇷 韩国 28,🇰🇷 韩国 29,🇰🇷 韩国 30,🇰🇷 韩国 31,🇩🇪 德国 2,🇯🇵 日本东京 2,🇰🇷 韩国 32,🇰🇷 韩国 33,🇰🇷 韩国 34,🇰🇷 韩国 35,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
-🔯 故障转移 = fallback,枭木iOS大本营 TG@Tmxios,官网 https://tmxios.top,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇰🇷 韩国 4,🇩🇪 德国,🇺🇸 美国,🇺🇸 美国 2,🇺🇸 美国 3,🇯🇵 日本东京,🇯🇵 日本,🇰🇷 韩国 5,🇰🇷 韩国 6,🇰🇷 韩国 7,🇰🇷 韩国 8,🇺🇸 美国 4,🇰🇷 韩国 9,🇰🇷 韩国 10,🇰🇷 韩国 11,🇸🇬 新加坡,🇰🇷 韩国 12,🇰🇷 韩国 13,🇺🇸 美国 5,🇰🇷 韩国 14,🇨🇳 广东省广州市,🇰🇷 韩国 15,🇰🇷 韩国首尔,🇯🇵 日本 2,🇯🇵 日本 3,🇰🇷 韩国首尔 2,🇰🇷 韩国 16,🇰🇷 韩国 17,🇰🇷 韩国 18,🇰🇷 韩国 19,🇰🇷 韩国 20,🇰🇷 韩国 21,🇰🇷 韩国首尔 3,🇰🇷 韩国 22,🇰🇷 韩国 23,🇰🇷 韩国 24,🇰🇷 韩国 25,🇰🇷 韩国 26,🇰🇷 韩国 27,🇰🇷 韩国 28,🇰🇷 韩国 29,🇰🇷 韩国 30,🇰🇷 韩国 31,🇩🇪 德国 2,🇯🇵 日本东京 2,🇰🇷 韩国 32,🇰🇷 韩国 33,🇰🇷 韩国 34,🇰🇷 韩国 35,url=http://www.gstatic.com/generate_204,interval=180,max-timeout=0
-🔮 负载均衡 = load-balance,枭木iOS大本营 TG@Tmxios,官网 https://tmxios.top,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇰🇷 韩国 4,🇩🇪 德国,🇺🇸 美国,🇺🇸 美国 2,🇺🇸 美国 3,🇯🇵 日本东京,🇯🇵 日本,🇰🇷 韩国 5,🇰🇷 韩国 6,🇰🇷 韩国 7,🇰🇷 韩国 8,🇺🇸 美国 4,🇰🇷 韩国 9,🇰🇷 韩国 10,🇰🇷 韩国 11,🇸🇬 新加坡,🇰🇷 韩国 12,🇰🇷 韩国 13,🇺🇸 美国 5,🇰🇷 韩国 14,🇨🇳 广东省广州市,🇰🇷 韩国 15,🇰🇷 韩国首尔,🇯🇵 日本 2,🇯🇵 日本 3,🇰🇷 韩国首尔 2,🇰🇷 韩国 16,🇰🇷 韩国 17,🇰🇷 韩国 18,🇰🇷 韩国 19,🇰🇷 韩国 20,🇰🇷 韩国 21,🇰🇷 韩国首尔 3,🇰🇷 韩国 22,🇰🇷 韩国 23,🇰🇷 韩国 24,🇰🇷 韩国 25,🇰🇷 韩国 26,🇰🇷 韩国 27,🇰🇷 韩国 28,🇰🇷 韩国 29,🇰🇷 韩国 30,🇰🇷 韩国 31,🇩🇪 德国 2,🇯🇵 日本东京 2,🇰🇷 韩国 32,🇰🇷 韩国 33,🇰🇷 韩国 34,🇰🇷 韩国 35,url=http://www.gstatic.com/generate_204,interval=180,algorithm=pcc
+🚀 节点选择 = select,♻️ 自动选择,🔯 故障转移,🔮 负载均衡,DIRECT,枭木iOS大本营 TG@Tmxios,官网 https://tmxios.top,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇰🇷 韩国 4,🇺🇸 美国,🇩🇪 德国,🇯🇵 日本,🇨🇳 广东省广州市,🇰🇷 韩国 5,🇩🇪 德国 2,🇯🇵 日本东京,🇯🇵 日本 2,🇰🇷 韩国 6,🇸🇬 新加坡,🇸🇬 新加坡 2,🇯🇵 日本 3,🇯🇵 日本 4,🇩🇪 德国 3,🇰🇷 韩国 7,🇰🇷 韩国 8,🇰🇷 韩国 9,🇸🇬 新加坡 3,🇰🇷 韩国 10,🇯🇵 日本 5,🇬🇧 英国,🇸🇬 新加坡 4,🇰🇷 韩国 11,🇸🇬 新加坡 5,🇺🇸 美国 2,🇰🇷 韩国首尔,🇰🇷 韩国首尔 2,🇺🇸 美国 3,🇯🇵 日本 6,🇸🇬 新加坡 6,🇸🇬 新加坡 7,🇰🇷 韩国首尔 3,🇰🇷 韩国 12,🇯🇵 日本 7,🇭🇰 香港,🇯🇵 日本东京 2,🇯🇵 日本东京 3,🇸🇬 新加坡 8,🇰🇷 韩国 13,🇰🇷 韩国 14,🇯🇵 日本 8,🇰🇷 韩国首尔 4,🇰🇷 韩国 15,🇰🇷 韩国 16,🇰🇷 韩国 17,🇰🇷 韩国 18,🇰🇷 韩国 19,🇰🇷 韩国 20,🇰🇷 韩国 21,🇰🇷 韩国 22,🇰🇷 韩国 23,🇰🇷 韩国 24,🇰🇷 韩国首尔 5,🇰🇷 韩国 25,🇸🇬 新加坡 9,🇰🇷 韩国 26,🇯🇵 日本 9,🇰🇷 韩国 27,🇰🇷 韩国 28,🇰🇷 韩国 29,🇰🇷 韩国首尔 6
+♻️ 自动选择 = url-test,枭木iOS大本营 TG@Tmxios,官网 https://tmxios.top,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇰🇷 韩国 4,🇺🇸 美国,🇩🇪 德国,🇯🇵 日本,🇨🇳 广东省广州市,🇰🇷 韩国 5,🇩🇪 德国 2,🇯🇵 日本东京,🇯🇵 日本 2,🇰🇷 韩国 6,🇸🇬 新加坡,🇸🇬 新加坡 2,🇯🇵 日本 3,🇯🇵 日本 4,🇩🇪 德国 3,🇰🇷 韩国 7,🇰🇷 韩国 8,🇰🇷 韩国 9,🇸🇬 新加坡 3,🇰🇷 韩国 10,🇯🇵 日本 5,🇬🇧 英国,🇸🇬 新加坡 4,🇰🇷 韩国 11,🇸🇬 新加坡 5,🇺🇸 美国 2,🇰🇷 韩国首尔,🇰🇷 韩国首尔 2,🇺🇸 美国 3,🇯🇵 日本 6,🇸🇬 新加坡 6,🇸🇬 新加坡 7,🇰🇷 韩国首尔 3,🇰🇷 韩国 12,🇯🇵 日本 7,🇭🇰 香港,🇯🇵 日本东京 2,🇯🇵 日本东京 3,🇸🇬 新加坡 8,🇰🇷 韩国 13,🇰🇷 韩国 14,🇯🇵 日本 8,🇰🇷 韩国首尔 4,🇰🇷 韩国 15,🇰🇷 韩国 16,🇰🇷 韩国 17,🇰🇷 韩国 18,🇰🇷 韩国 19,🇰🇷 韩国 20,🇰🇷 韩国 21,🇰🇷 韩国 22,🇰🇷 韩国 23,🇰🇷 韩国 24,🇰🇷 韩国首尔 5,🇰🇷 韩国 25,🇸🇬 新加坡 9,🇰🇷 韩国 26,🇯🇵 日本 9,🇰🇷 韩国 27,🇰🇷 韩国 28,🇰🇷 韩国 29,🇰🇷 韩国首尔 6,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🔯 故障转移 = fallback,枭木iOS大本营 TG@Tmxios,官网 https://tmxios.top,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇰🇷 韩国 4,🇺🇸 美国,🇩🇪 德国,🇯🇵 日本,🇨🇳 广东省广州市,🇰🇷 韩国 5,🇩🇪 德国 2,🇯🇵 日本东京,🇯🇵 日本 2,🇰🇷 韩国 6,🇸🇬 新加坡,🇸🇬 新加坡 2,🇯🇵 日本 3,🇯🇵 日本 4,🇩🇪 德国 3,🇰🇷 韩国 7,🇰🇷 韩国 8,🇰🇷 韩国 9,🇸🇬 新加坡 3,🇰🇷 韩国 10,🇯🇵 日本 5,🇬🇧 英国,🇸🇬 新加坡 4,🇰🇷 韩国 11,🇸🇬 新加坡 5,🇺🇸 美国 2,🇰🇷 韩国首尔,🇰🇷 韩国首尔 2,🇺🇸 美国 3,🇯🇵 日本 6,🇸🇬 新加坡 6,🇸🇬 新加坡 7,🇰🇷 韩国首尔 3,🇰🇷 韩国 12,🇯🇵 日本 7,🇭🇰 香港,🇯🇵 日本东京 2,🇯🇵 日本东京 3,🇸🇬 新加坡 8,🇰🇷 韩国 13,🇰🇷 韩国 14,🇯🇵 日本 8,🇰🇷 韩国首尔 4,🇰🇷 韩国 15,🇰🇷 韩国 16,🇰🇷 韩国 17,🇰🇷 韩国 18,🇰🇷 韩国 19,🇰🇷 韩国 20,🇰🇷 韩国 21,🇰🇷 韩国 22,🇰🇷 韩国 23,🇰🇷 韩国 24,🇰🇷 韩国首尔 5,🇰🇷 韩国 25,🇸🇬 新加坡 9,🇰🇷 韩国 26,🇯🇵 日本 9,🇰🇷 韩国 27,🇰🇷 韩国 28,🇰🇷 韩国 29,🇰🇷 韩国首尔 6,url=http://www.gstatic.com/generate_204,interval=180,max-timeout=0
+🔮 负载均衡 = load-balance,枭木iOS大本营 TG@Tmxios,官网 https://tmxios.top,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇰🇷 韩国 4,🇺🇸 美国,🇩🇪 德国,🇯🇵 日本,🇨🇳 广东省广州市,🇰🇷 韩国 5,🇩🇪 德国 2,🇯🇵 日本东京,🇯🇵 日本 2,🇰🇷 韩国 6,🇸🇬 新加坡,🇸🇬 新加坡 2,🇯🇵 日本 3,🇯🇵 日本 4,🇩🇪 德国 3,🇰🇷 韩国 7,🇰🇷 韩国 8,🇰🇷 韩国 9,🇸🇬 新加坡 3,🇰🇷 韩国 10,🇯🇵 日本 5,🇬🇧 英国,🇸🇬 新加坡 4,🇰🇷 韩国 11,🇸🇬 新加坡 5,🇺🇸 美国 2,🇰🇷 韩国首尔,🇰🇷 韩国首尔 2,🇺🇸 美国 3,🇯🇵 日本 6,🇸🇬 新加坡 6,🇸🇬 新加坡 7,🇰🇷 韩国首尔 3,🇰🇷 韩国 12,🇯🇵 日本 7,🇭🇰 香港,🇯🇵 日本东京 2,🇯🇵 日本东京 3,🇸🇬 新加坡 8,🇰🇷 韩国 13,🇰🇷 韩国 14,🇯🇵 日本 8,🇰🇷 韩国首尔 4,🇰🇷 韩国 15,🇰🇷 韩国 16,🇰🇷 韩国 17,🇰🇷 韩国 18,🇰🇷 韩国 19,🇰🇷 韩国 20,🇰🇷 韩国 21,🇰🇷 韩国 22,🇰🇷 韩国 23,🇰🇷 韩国 24,🇰🇷 韩国首尔 5,🇰🇷 韩国 25,🇸🇬 新加坡 9,🇰🇷 韩国 26,🇯🇵 日本 9,🇰🇷 韩国 27,🇰🇷 韩国 28,🇰🇷 韩国 29,🇰🇷 韩国首尔 6,url=http://www.gstatic.com/generate_204,interval=180,algorithm=pcc
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
 🛑 全球拦截 = select,REJECT,DIRECT,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🔯 故障转移,🔮 负载均衡,枭木iOS大本营 TG@Tmxios,官网 https://tmxios.top,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇰🇷 韩国 4,🇩🇪 德国,🇺🇸 美国,🇺🇸 美国 2,🇺🇸 美国 3,🇯🇵 日本东京,🇯🇵 日本,🇰🇷 韩国 5,🇰🇷 韩国 6,🇰🇷 韩国 7,🇰🇷 韩国 8,🇺🇸 美国 4,🇰🇷 韩国 9,🇰🇷 韩国 10,🇰🇷 韩国 11,🇸🇬 新加坡,🇰🇷 韩国 12,🇰🇷 韩国 13,🇺🇸 美国 5,🇰🇷 韩国 14,🇨🇳 广东省广州市,🇰🇷 韩国 15,🇰🇷 韩国首尔,🇯🇵 日本 2,🇯🇵 日本 3,🇰🇷 韩国首尔 2,🇰🇷 韩国 16,🇰🇷 韩国 17,🇰🇷 韩国 18,🇰🇷 韩国 19,🇰🇷 韩国 20,🇰🇷 韩国 21,🇰🇷 韩国首尔 3,🇰🇷 韩国 22,🇰🇷 韩国 23,🇰🇷 韩国 24,🇰🇷 韩国 25,🇰🇷 韩国 26,🇰🇷 韩国 27,🇰🇷 韩国 28,🇰🇷 韩国 29,🇰🇷 韩国 30,🇰🇷 韩国 31,🇩🇪 德国 2,🇯🇵 日本东京 2,🇰🇷 韩国 32,🇰🇷 韩国 33,🇰🇷 韩国 34,🇰🇷 韩国 35,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🔯 故障转移,🔮 负载均衡,枭木iOS大本营 TG@Tmxios,官网 https://tmxios.top,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇰🇷 韩国 4,🇺🇸 美国,🇩🇪 德国,🇯🇵 日本,🇨🇳 广东省广州市,🇰🇷 韩国 5,🇩🇪 德国 2,🇯🇵 日本东京,🇯🇵 日本 2,🇰🇷 韩国 6,🇸🇬 新加坡,🇸🇬 新加坡 2,🇯🇵 日本 3,🇯🇵 日本 4,🇩🇪 德国 3,🇰🇷 韩国 7,🇰🇷 韩国 8,🇰🇷 韩国 9,🇸🇬 新加坡 3,🇰🇷 韩国 10,🇯🇵 日本 5,🇬🇧 英国,🇸🇬 新加坡 4,🇰🇷 韩国 11,🇸🇬 新加坡 5,🇺🇸 美国 2,🇰🇷 韩国首尔,🇰🇷 韩国首尔 2,🇺🇸 美国 3,🇯🇵 日本 6,🇸🇬 新加坡 6,🇸🇬 新加坡 7,🇰🇷 韩国首尔 3,🇰🇷 韩国 12,🇯🇵 日本 7,🇭🇰 香港,🇯🇵 日本东京 2,🇯🇵 日本东京 3,🇸🇬 新加坡 8,🇰🇷 韩国 13,🇰🇷 韩国 14,🇯🇵 日本 8,🇰🇷 韩国首尔 4,🇰🇷 韩国 15,🇰🇷 韩国 16,🇰🇷 韩国 17,🇰🇷 韩国 18,🇰🇷 韩国 19,🇰🇷 韩国 20,🇰🇷 韩国 21,🇰🇷 韩国 22,🇰🇷 韩国 23,🇰🇷 韩国 24,🇰🇷 韩国首尔 5,🇰🇷 韩国 25,🇸🇬 新加坡 9,🇰🇷 韩国 26,🇯🇵 日本 9,🇰🇷 韩国 27,🇰🇷 韩国 28,🇰🇷 韩国 29,🇰🇷 韩国首尔 6,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
 
 [Rule]
 GEOIP,CN,🎯 全球直连
