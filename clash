@@ -5,48 +5,43 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 枭木iOS大本营 TG@Tmxios, server: 51.21.56.211, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
-  - {name: 官网 https://tmxios.top, server: 3.65.180.210, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
-  - {name: https://t.me/Tmxios, server: 13.112.247.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: P12证书 https://p12.tmxios.top, server: 54.248.151.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 号卡办理 https://10.tmxios.top/, server: 35.93.149.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 公众号：枭木iOS大本营, server: 54.251.138.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 全网低价个人证书, server: 47.243.108.41, port: 10841, type: ss, cipher: aes-256-gcm, password: rUx8mqUsI0, udp: true}
-  - {name: iOS|轻松签|全能签|P12证书, server: 8.210.231.146, port: 1146, type: ss, cipher: aes-256-gcm, password: jmtgsmW40R, udp: true}
-  - {name: 定制V信|应用分身|V信密友|破解软件, server: 47.57.232.119, port: 2119, type: ss, cipher: aes-256-gcm, password: 3B9vFTBSlp, udp: true}
-  - {name: 🇨🇳 广东省, server: 183.240.220.199, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: aad1fddb-1962-4d1a-908d-da60d0c3ff4a, udp: true}
-  - {name: 🇨🇳 广东省 2, server: 183.240.220.199, port: 56011, type: ss, cipher: chacha20-ietf-poly1305, password: aad1fddb-1962-4d1a-908d-da60d0c3ff4a, udp: true}
-  - {name: 🇨🇳 广东省 3, server: 183.240.220.199, port: 42414, type: ss, cipher: chacha20-ietf-poly1305, password: aad1fddb-1962-4d1a-908d-da60d0c3ff4a, udp: true}
-  - {name: 🇹🇼 台湾省台北市, server: 61.228.188.71, port: 19489, type: trojan, password: 5d08e412-5c5d-449b-a3af-f0545885a09d, sni: b22.ntbq.dynu.net, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国, server: 18.142.225.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇨🇳 广东省 4, server: 183.240.220.199, port: 58159, type: ss, cipher: chacha20-ietf-poly1305, password: aad1fddb-1962-4d1a-908d-da60d0c3ff4a, udp: true}
-  - {name: 🇯🇵 日本东京, server: 3.112.214.89, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇨🇳 广东省 5, server: 183.240.220.199, port: 5417, type: ss, cipher: chacha20-ietf-poly1305, password: aad1fddb-1962-4d1a-908d-da60d0c3ff4a, udp: true}
-  - {name: 🇸🇬 新加坡, server: 54.179.167.94, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇸🇬 新加坡 2, server: 54.179.167.94, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇨🇳 广东省 6, server: 183.240.220.199, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: aad1fddb-1962-4d1a-908d-da60d0c3ff4a, udp: true}
-  - {name: 🇯🇵 日本东京 2, server: 3.112.218.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇯🇵 日本东京 3, server: 52.198.245.28, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇯🇵 日本东京 4, server: 13.113.218.2, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇯🇵 日本, server: 18.183.168.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇰🇷 韩国首尔, server: 3.34.95.205, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇸🇬 新加坡 3, server: 54.179.167.94, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇹🇼 台湾省台北市 2, server: 61.228.188.71, port: 19489, type: trojan, password: 5d08e412-5c5d-449b-a3af-f0545885a09d, sni: b22.ntbq.dynu.net, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省 7, server: 183.240.220.199, port: 21515, type: ss, cipher: chacha20-ietf-poly1305, password: aad1fddb-1962-4d1a-908d-da60d0c3ff4a, udp: true}
-  - {name: 🇯🇵 日本 2, server: 54.199.167.157, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇸🇬 新加坡 4, server: 13.250.57.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇺🇸 美国 2, server: 13.215.162.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇸🇬 新加坡 5, server: 13.250.63.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇸🇬 新加坡 6, server: 157.230.43.93, port: 45238, type: ss, cipher: chacha20-ietf-poly1305, password: RZDcjwNCCdxtV3M4MPV7kT, udp: true}
-  - {name: 🇯🇵 日本东京 5, server: 13.113.218.2, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇯🇵 日本东京 6, server: 13.231.229.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇨🇳 广东省, server: 183.240.220.199, port: 56011, type: ss, cipher: chacha20-ietf-poly1305, password: 414bfc83-47bd-4b67-b082-63f5918dd4ea, udp: true}
+  - {name: 🇨🇳 广东省 2, server: 183.240.220.199, port: 58159, type: ss, cipher: chacha20-ietf-poly1305, password: 414bfc83-47bd-4b67-b082-63f5918dd4ea, udp: true}
+  - {name: 🇨🇳 广东省 3, server: 183.240.220.199, port: 42414, type: ss, cipher: chacha20-ietf-poly1305, password: 414bfc83-47bd-4b67-b082-63f5918dd4ea, udp: true}
+  - {name: 🇯🇵 日本东京, server: 3.112.218.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 美国, server: 13.215.208.103, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇨🇳 广东省 4, server: 183.240.220.199, port: 53086, type: ss, cipher: chacha20-ietf-poly1305, password: 414bfc83-47bd-4b67-b082-63f5918dd4ea, udp: true}
+  - {name: 🇯🇵 日本, server: 54.199.167.157, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇨🇳 广东省 5, server: 183.240.220.199, port: 5417, type: ss, cipher: chacha20-ietf-poly1305, password: 414bfc83-47bd-4b67-b082-63f5918dd4ea, udp: true}
+  - {name: 🇸🇬 新加坡, server: 18.139.225.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇸🇬 新加坡 2, server: 13.250.57.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 美国 2, server: 172.64.104.182, port: 80, type: vmess, uuid: f0f067fe-8e6d-4d95-816b-601038fd5876, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: fr.grpc.gay}}, udp: true}
+  - {name: 🇯🇵 日本 2, server: 52.69.81.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 日本东京 2, server: 52.198.245.28, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 日本东京 3, server: 13.231.229.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 日本东京 4, server: 52.199.117.47, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 日本东京 5, server: 13.114.108.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 日本东京 6, server: 3.113.0.133, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇰🇷 韩国首尔, server: 13.125.25.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇰🇷 韩国, server: 54.180.156.133, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇰🇷 韩国 2, server: 125.141.26.7, port: 49032, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: 🇯🇵 日本 3, server: 54.168.200.34, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇯🇵 日本东京 7, server: 13.231.229.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇰🇷 韩国 3, server: 54.180.156.133, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇸🇬 新加坡 7, server: 18.141.207.80, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇰🇷 韩国 4, server: 125.141.31.73, port: 42185, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 🇰🇷 韩国首尔 2, server: 13.124.178.1, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇸🇬 新加坡 3, server: 13.229.115.125, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇰🇷 韩国 2, server: 140.238.11.73, port: 24852, type: trojan, password: 5171dd01-9a30-4d56-bec1-2fe0808310a8, sni: kr01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 4, server: 54.169.189.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 日本东京 7, server: 13.114.90.225, port: 20230, type: trojan, password: 4aa9ee7a-ffee-4ca4-a588-f5fa9e979c38, sni: 421421.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本东京 8, server: 52.198.245.28, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 日本东京 9, server: 35.77.94.142, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 美国 3, server: 13.214.212.171, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇸🇬 新加坡 5, server: 13.250.63.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 亚太地区, server: 103.172.116.79, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: 🇸🇬 新加坡 6, server: 13.229.115.125, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 北美地区, server: 23.158.56.229, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 23.158.56.229, network: ws, ws-opts: {path: /linkvws, headers: {Host: 23.158.56.229}}, udp: true}
+  - {name: 🇯🇵 日本 3, server: 54.199.167.157, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 美国 4, server: 52.195.189.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 日本东京 10, server: 13.231.229.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 亚太地区 2, server: 103.172.116.79, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: 🇸🇬 新加坡 7, server: 54.179.167.94, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇸🇬 新加坡 8, server: 13.250.42.222, port: 20230, type: trojan, password: 0bfa2050-b165-4156-859c-70f36d300dce, sni: 421421.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -55,191 +50,171 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 枭木iOS大本营 TG@Tmxios
-      - 官网 https://tmxios.top
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
       - 🇨🇳 广东省
       - 🇨🇳 广东省 2
       - 🇨🇳 广东省 3
-      - 🇹🇼 台湾省台北市
+      - 🇯🇵 日本东京
       - 🇺🇸 美国
       - 🇨🇳 广东省 4
-      - 🇯🇵 日本东京
+      - 🇯🇵 日本
       - 🇨🇳 广东省 5
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 2
-      - 🇨🇳 广东省 6
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本 2
       - 🇯🇵 日本东京 2
       - 🇯🇵 日本东京 3
       - 🇯🇵 日本东京 4
-      - 🇯🇵 日本
-      - 🇰🇷 韩国首尔
-      - 🇸🇬 新加坡 3
-      - 🇹🇼 台湾省台北市 2
-      - 🇨🇳 广东省 7
-      - 🇯🇵 日本 2
-      - 🇸🇬 新加坡 4
-      - 🇺🇸 美国 2
-      - 🇸🇬 新加坡 5
-      - 🇸🇬 新加坡 6
       - 🇯🇵 日本东京 5
       - 🇯🇵 日本东京 6
+      - 🇰🇷 韩国首尔
       - 🇰🇷 韩国
+      - 🇰🇷 韩国首尔 2
+      - 🇸🇬 新加坡 3
       - 🇰🇷 韩国 2
-      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡 4
       - 🇯🇵 日本东京 7
-      - 🇰🇷 韩国 3
+      - 🇯🇵 日本东京 8
+      - 🇯🇵 日本东京 9
+      - 🇺🇸 美国 3
+      - 🇸🇬 新加坡 5
+      - 亚太地区
+      - 🇸🇬 新加坡 6
+      - 🇺🇸 北美地区
+      - 🇯🇵 日本 3
+      - 🇺🇸 美国 4
+      - 🇯🇵 日本东京 10
+      - 亚太地区 2
       - 🇸🇬 新加坡 7
-      - 🇰🇷 韩国 4
+      - 🇸🇬 新加坡 8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - 官网 https://tmxios.top
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
       - 🇨🇳 广东省
       - 🇨🇳 广东省 2
       - 🇨🇳 广东省 3
-      - 🇹🇼 台湾省台北市
+      - 🇯🇵 日本东京
       - 🇺🇸 美国
       - 🇨🇳 广东省 4
-      - 🇯🇵 日本东京
+      - 🇯🇵 日本
       - 🇨🇳 广东省 5
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 2
-      - 🇨🇳 广东省 6
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本 2
       - 🇯🇵 日本东京 2
       - 🇯🇵 日本东京 3
       - 🇯🇵 日本东京 4
-      - 🇯🇵 日本
-      - 🇰🇷 韩国首尔
-      - 🇸🇬 新加坡 3
-      - 🇹🇼 台湾省台北市 2
-      - 🇨🇳 广东省 7
-      - 🇯🇵 日本 2
-      - 🇸🇬 新加坡 4
-      - 🇺🇸 美国 2
-      - 🇸🇬 新加坡 5
-      - 🇸🇬 新加坡 6
       - 🇯🇵 日本东京 5
       - 🇯🇵 日本东京 6
+      - 🇰🇷 韩国首尔
       - 🇰🇷 韩国
+      - 🇰🇷 韩国首尔 2
+      - 🇸🇬 新加坡 3
       - 🇰🇷 韩国 2
-      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡 4
       - 🇯🇵 日本东京 7
-      - 🇰🇷 韩国 3
+      - 🇯🇵 日本东京 8
+      - 🇯🇵 日本东京 9
+      - 🇺🇸 美国 3
+      - 🇸🇬 新加坡 5
+      - 亚太地区
+      - 🇸🇬 新加坡 6
+      - 🇺🇸 北美地区
+      - 🇯🇵 日本 3
+      - 🇺🇸 美国 4
+      - 🇯🇵 日本东京 10
+      - 亚太地区 2
       - 🇸🇬 新加坡 7
-      - 🇰🇷 韩国 4
+      - 🇸🇬 新加坡 8
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - 官网 https://tmxios.top
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
       - 🇨🇳 广东省
       - 🇨🇳 广东省 2
       - 🇨🇳 广东省 3
-      - 🇹🇼 台湾省台北市
+      - 🇯🇵 日本东京
       - 🇺🇸 美国
       - 🇨🇳 广东省 4
-      - 🇯🇵 日本东京
+      - 🇯🇵 日本
       - 🇨🇳 广东省 5
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 2
-      - 🇨🇳 广东省 6
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本 2
       - 🇯🇵 日本东京 2
       - 🇯🇵 日本东京 3
       - 🇯🇵 日本东京 4
-      - 🇯🇵 日本
-      - 🇰🇷 韩国首尔
-      - 🇸🇬 新加坡 3
-      - 🇹🇼 台湾省台北市 2
-      - 🇨🇳 广东省 7
-      - 🇯🇵 日本 2
-      - 🇸🇬 新加坡 4
-      - 🇺🇸 美国 2
-      - 🇸🇬 新加坡 5
-      - 🇸🇬 新加坡 6
       - 🇯🇵 日本东京 5
       - 🇯🇵 日本东京 6
+      - 🇰🇷 韩国首尔
       - 🇰🇷 韩国
+      - 🇰🇷 韩国首尔 2
+      - 🇸🇬 新加坡 3
       - 🇰🇷 韩国 2
-      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡 4
       - 🇯🇵 日本东京 7
-      - 🇰🇷 韩国 3
+      - 🇯🇵 日本东京 8
+      - 🇯🇵 日本东京 9
+      - 🇺🇸 美国 3
+      - 🇸🇬 新加坡 5
+      - 亚太地区
+      - 🇸🇬 新加坡 6
+      - 🇺🇸 北美地区
+      - 🇯🇵 日本 3
+      - 🇺🇸 美国 4
+      - 🇯🇵 日本东京 10
+      - 亚太地区 2
       - 🇸🇬 新加坡 7
-      - 🇰🇷 韩国 4
+      - 🇸🇬 新加坡 8
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 枭木iOS大本营 TG@Tmxios
-      - 官网 https://tmxios.top
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
       - 🇨🇳 广东省
       - 🇨🇳 广东省 2
       - 🇨🇳 广东省 3
-      - 🇹🇼 台湾省台北市
+      - 🇯🇵 日本东京
       - 🇺🇸 美国
       - 🇨🇳 广东省 4
-      - 🇯🇵 日本东京
+      - 🇯🇵 日本
       - 🇨🇳 广东省 5
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 2
-      - 🇨🇳 广东省 6
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本 2
       - 🇯🇵 日本东京 2
       - 🇯🇵 日本东京 3
       - 🇯🇵 日本东京 4
-      - 🇯🇵 日本
-      - 🇰🇷 韩国首尔
-      - 🇸🇬 新加坡 3
-      - 🇹🇼 台湾省台北市 2
-      - 🇨🇳 广东省 7
-      - 🇯🇵 日本 2
-      - 🇸🇬 新加坡 4
-      - 🇺🇸 美国 2
-      - 🇸🇬 新加坡 5
-      - 🇸🇬 新加坡 6
       - 🇯🇵 日本东京 5
       - 🇯🇵 日本东京 6
+      - 🇰🇷 韩国首尔
       - 🇰🇷 韩国
+      - 🇰🇷 韩国首尔 2
+      - 🇸🇬 新加坡 3
       - 🇰🇷 韩国 2
-      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡 4
       - 🇯🇵 日本东京 7
-      - 🇰🇷 韩国 3
+      - 🇯🇵 日本东京 8
+      - 🇯🇵 日本东京 9
+      - 🇺🇸 美国 3
+      - 🇸🇬 新加坡 5
+      - 亚太地区
+      - 🇸🇬 新加坡 6
+      - 🇺🇸 北美地区
+      - 🇯🇵 日本 3
+      - 🇺🇸 美国 4
+      - 🇯🇵 日本东京 10
+      - 亚太地区 2
       - 🇸🇬 新加坡 7
-      - 🇰🇷 韩国 4
+      - 🇸🇬 新加坡 8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -259,48 +234,43 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 枭木iOS大本营 TG@Tmxios
-      - 官网 https://tmxios.top
-      - https://t.me/Tmxios
-      - P12证书 https://p12.tmxios.top
-      - 号卡办理 https://10.tmxios.top/
-      - 公众号：枭木iOS大本营
-      - 全网低价个人证书
-      - iOS|轻松签|全能签|P12证书
-      - 定制V信|应用分身|V信密友|破解软件
       - 🇨🇳 广东省
       - 🇨🇳 广东省 2
       - 🇨🇳 广东省 3
-      - 🇹🇼 台湾省台北市
+      - 🇯🇵 日本东京
       - 🇺🇸 美国
       - 🇨🇳 广东省 4
-      - 🇯🇵 日本东京
+      - 🇯🇵 日本
       - 🇨🇳 广东省 5
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 2
-      - 🇨🇳 广东省 6
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本 2
       - 🇯🇵 日本东京 2
       - 🇯🇵 日本东京 3
       - 🇯🇵 日本东京 4
-      - 🇯🇵 日本
-      - 🇰🇷 韩国首尔
-      - 🇸🇬 新加坡 3
-      - 🇹🇼 台湾省台北市 2
-      - 🇨🇳 广东省 7
-      - 🇯🇵 日本 2
-      - 🇸🇬 新加坡 4
-      - 🇺🇸 美国 2
-      - 🇸🇬 新加坡 5
-      - 🇸🇬 新加坡 6
       - 🇯🇵 日本东京 5
       - 🇯🇵 日本东京 6
+      - 🇰🇷 韩国首尔
       - 🇰🇷 韩国
+      - 🇰🇷 韩国首尔 2
+      - 🇸🇬 新加坡 3
       - 🇰🇷 韩国 2
-      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡 4
       - 🇯🇵 日本东京 7
-      - 🇰🇷 韩国 3
+      - 🇯🇵 日本东京 8
+      - 🇯🇵 日本东京 9
+      - 🇺🇸 美国 3
+      - 🇸🇬 新加坡 5
+      - 亚太地区
+      - 🇸🇬 新加坡 6
+      - 🇺🇸 北美地区
+      - 🇯🇵 日本 3
+      - 🇺🇸 美国 4
+      - 🇯🇵 日本东京 10
+      - 亚太地区 2
       - 🇸🇬 新加坡 7
-      - 🇰🇷 韩国 4
+      - 🇸🇬 新加坡 8
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
