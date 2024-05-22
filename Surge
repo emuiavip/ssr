@@ -22,103 +22,86 @@ P12证书 https://p12.tmxios.top = ss, 54.248.151.131, 443, encrypt-method=aes-2
 iOS|轻松签|全能签|P12证书 = ss, 8.210.231.146, 1146, encrypt-method=aes-256-gcm, password=jmtgsmW40R, tfo=false
 定制V信|应用分身|V信密友|破解软件 = ss, 47.57.232.119, 2119, encrypt-method=aes-256-gcm, password=3B9vFTBSlp, tfo=false
 [2606:4700:3031::ac43:a314]:443 = trojan, [2606:4700:3031::ac43:a314], 443, password=4c8fa06b-881d-4835-a3b0-9b76113b34d1, sni=trojan.freeargo.eu.org, skip-cert-verify=false, tfo=false
-🇺🇸 美国 = ss, 192.248.182.42, 1080, encrypt-method=aes-128-gcm, password=w09UIjz06BYfmqpFpDLWfA, tfo=false
-🇺🇸 美国 2 = ss, 18.143.159.186, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇰🇷 韩国 = trojan, 103.214.68.57, 10003, password=6x8HcghsjS, sni=yes998.chickenkiller.com, skip-cert-verify=false, tfo=false
+🇰🇷 韩国 2 = vmess, 103.214.68.57, 10001, username=ebca5f68-bf59-4081-e658-f158839c2f5c, tls=true, vmess-aead=true, skip-cert-verify=false, tfo=false
+🇰🇷 韩国 3 = trojan, 103.214.68.57, 10003, password=6x8HcghsjS, sni=yes998.chickenkiller.com, skip-cert-verify=false, tfo=false
 🇸🇬 新加坡 = ss, 13.212.91.18, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇯🇵 日本 = ss, 18.182.6.181, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇸🇬 新加坡 2 = ss, 13.229.54.243, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇨🇳 甘肃省兰州市 = ss, 36.140.180.31, 19112, encrypt-method=aes-128-gcm, password=b73b8dd6-0fab-4343-824f-bdd81c739585, tfo=false
-🇨🇳 浙江省宁波市 = ss, 120.199.84.158, 30019, encrypt-method=chacha20-ietf-poly1305, password=7171131e-1e4b-46e8-bae4-28dea688f453, tfo=false
-🇨🇳 广东省 = ss, 183.240.220.68, 20009, encrypt-method=chacha20-ietf-poly1305, password=7171131e-1e4b-46e8-bae4-28dea688f453, tfo=false
-🇺🇸 美国 3 = trojan, 18.199.221.139, 17408, password=umqibYs2())7, sni=appsvs.shop, skip-cert-verify=false, tfo=false
-🇯🇵 日本东京 = trojan, 35.77.85.109, 17407, password=IRGRz28zJWUU, sni=appsvs.shop, skip-cert-verify=false, tfo=false
-🇺🇦 乌克兰 = ss, 95.164.47.219, 8388, encrypt-method=chacha20-ietf-poly1305, password=ZmRiM, tfo=false
-🇫🇷 法国 = trojan, 57.180.57.88, 17425, password=Tmg)VNGP5Afg, sni=appsvs.shop, skip-cert-verify=false, tfo=false
-🇺🇸 美国 4 = ss, 192.248.182.42, 1080, encrypt-method=aes-128-gcm, password=w09UIjz06BYfmqpFpDLWfA, tfo=false
-🇯🇵 日本东京 2 = ss, 35.77.99.126, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇯🇵 日本 2 = ss, 18.181.198.10, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇯🇵 日本东京 3 = ss, 3.112.189.248, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇸🇬 新加坡 3 = ss, 46.137.236.48, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇸🇬 新加坡 4 = ss, 54.151.216.148, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇨🇳 台湾省台北市 = trojan, 36.227.10.215, 18912, password=4437b55a-bf7e-4f14-9214-2701e44d88bf, sni=ty12t.twty.dynu.net, skip-cert-verify=false, tfo=false
-🇨🇳 台湾省新竹市 = trojan, 114.37.131.189, 3271, password=4437b55a-bf7e-4f14-9214-2701e44d88bf, sni=b24.ntbq.dynu.net, skip-cert-verify=false, tfo=false
-🇨🇳 台湾省台北市 2 = trojan, 36.226.134.231, 19489, password=4437b55a-bf7e-4f14-9214-2701e44d88bf, sni=b22.ntbq.dynu.net, skip-cert-verify=false, tfo=false
-🇰🇷 韩国首尔 = ss, 3.34.95.205, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇸🇬 新加坡 5 = ss, 54.151.216.148, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇸🇬 新加坡 6 = ss, 54.254.225.115, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇺🇸 美国 = trojan, 167.71.209.134, 443, password=j0GM8nFJVq, sni=aka.ms, skip-cert-verify=false, tfo=false
+🇨🇳 台湾省台南市 = vmess, 61.227.204.69, 443, username=4ccc923e-8452-418c-9222-87ee8f295e14, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=61.227.204.69, ws-headers=Host:tms.dingtalk.com, skip-cert-verify=false, tfo=false
+🇯🇵 日本 = ss, 43.201.47.36, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇺🇸 美国 2 = ss, 18.143.159.186, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
 2 = vmess, 2a09:8280:1:4e0a:6cbc:f7ad:a162:7663, 443, username=35379219-6535-4f2e-a4fe-3e44f61e0eee, tls=true, vmess-aead=false, ws=true, ws-path=/vc, sni=2a09:8280:1:4e0a:6cbc:f7ad:a162:7663, ws-headers=Host:vc.fly.dev, skip-cert-verify=false, tfo=false
-🇨🇳 广东省 2 = ss, 183.240.220.229, 20014, encrypt-method=chacha20-ietf-poly1305, password=f6e72e98-34b2-4a93-8252-80f875ebbcfa, tfo=false
-🇷🇺 俄罗斯 = ss, 80.92.204.106, 9094, encrypt-method=aes-256-cfb, password=rpgbNnU9rDDU4aWZ, tfo=false
-亚太地区 = ss, 103.172.116.79, 9044, encrypt-method=aes-256-cfb, password=KBGjZYcy4SyRShmA, tfo=false
-🇷🇺 俄罗斯 2 = ss, 80.92.204.106, 9037, encrypt-method=aes-256-cfb, password=TN2YqghxeFDKZfLU, tfo=false
-🇷🇺 俄罗斯 3 = ss, 80.92.204.106, 9084, encrypt-method=aes-256-cfb, password=c3NtHJ5ujV2tGDfj, tfo=false
-🇷🇺 俄罗斯 4 = ss, 80.92.204.106, 9010, encrypt-method=aes-256-cfb, password=f63gg8EruDnUrmz4, tfo=false
-🇷🇺 俄罗斯 5 = ss, 80.92.204.106, 9046, encrypt-method=aes-256-cfb, password=NvS8N4Vf8qAGPSCL, tfo=false
-🇷🇺 俄罗斯 6 = ss, 80.92.204.106, 9025, encrypt-method=aes-256-cfb, password=XPtzA9sCug3SPR4c, tfo=false
-🇷🇺 俄罗斯 7 = ss, 80.92.204.106, 9098, encrypt-method=aes-256-cfb, password=aLpQtfEZe445QyHk, tfo=false
+🇯🇵 日本东京 = ss, 3.112.189.248, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇯🇵 日本 2 = ss, 18.183.73.152, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇨🇳 山东省 = ss, 120.220.84.3, 20013, encrypt-method=chacha20-ietf-poly1305, password=3b344977-0c22-4610-abd9-43eb53e81a85, tfo=false
+🇸🇬 新加坡 2 = ss, 54.179.9.170, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇸🇬 新加坡 3 = ss, 54.179.9.170, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇸🇬 新加坡 4 = ss, 54.254.62.209, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇨🇳 台湾省台南市 2 = vmess, 61.227.204.69, 443, username=4ccc923e-8452-418c-9222-87ee8f295e14, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=61.227.204.69, skip-cert-verify=false, tfo=false
+🇨🇳 广东省 = ss, 183.240.220.229, 30004, encrypt-method=chacha20-ietf-poly1305, password=3b344977-0c22-4610-abd9-43eb53e81a85, tfo=false
+🇯🇵 日本东京 2 = ss, 13.231.229.48, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇯🇵 日本东京 3 = ss, 3.112.218.182, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇺🇸 美国 3 = ss, 154.47.20.240, 443, encrypt-method=aes-128-gcm, password=shadowsocks, tfo=false
+🇰🇷 韩国 4 = trojan, 103.214.68.57, 10003, password=6x8HcghsjS, sni=yes998.chickenkiller.com, skip-cert-verify=false, tfo=false
+🇨🇦 加拿大 = ss, 47.129.9.69, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇺🇸 美国 4 = ss, 18.143.93.163, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇸🇬 新加坡 5 = ss, 13.212.91.18, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇸🇬 新加坡 6 = ss, 54.254.62.209, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇺🇸 美国 5 = trojan, 167.71.209.134, 443, password=j0GM8nFJVq, sni=aka.ms, skip-cert-verify=false, tfo=false
+🇨🇳 广东省 2 = vmess, 120.233.42.83, 20206, username=b1478e24-4916-3abe-8f17-15931012ecbe, tls=false, vmess-aead=true, ws=true, ws-path=/debian, sni=120.233.42.83, ws-headers=Host:data-hk-v1.usabooks.com.cn, skip-cert-verify=false, tfo=false
+🇷🇺 俄罗斯 = ss, 80.92.204.106, 9037, encrypt-method=aes-256-cfb, password=TN2YqghxeFDKZfLU, tfo=false
+🇷🇺 俄罗斯 2 = ss, 80.92.204.106, 9084, encrypt-method=aes-256-cfb, password=c3NtHJ5ujV2tGDfj, tfo=false
+🇨🇳 广东省汕头市 = vmess, 183.240.179.207, 30127, username=5bd5899a-4b78-4d75-8570-4d21b43422c4, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false
+🇨🇳 广东省汕头市 2 = vmess, 183.240.179.207, 30013, username=5bd5899a-4b78-4d75-8570-4d21b43422c4, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false
+🇷🇺 俄罗斯 3 = ss, 80.92.204.106, 9027, encrypt-method=aes-256-cfb, password=EXN3S3eQpjE7EJu8, tfo=false
+🇺🇸 美国 6 = trojan, 3.76.45.183, 13405, password=iFf4Mk8cUWn2, sni=appsvs.shop, skip-cert-verify=false, tfo=false
 🇯🇵 日本 3 = ss, 54.95.163.121, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇨🇳 广东省 3 = ss, 120.233.42.89, 61001, encrypt-method=chacha20-ietf-poly1305, password=127e812d-4f78-4eb4-8c3c-4ae7ffe0368c, tfo=false
-亚太地区 2 = ss, 103.172.116.79, 9030, encrypt-method=aes-256-cfb, password=GeregetR8cvQHzYr, tfo=false
-亚太地区 3 = ss, 103.172.116.79, 9073, encrypt-method=aes-256-cfb, password=daFYagqDdBdA6VTX, tfo=false
-亚太地区 4 = ss, 103.172.116.79, 9044, encrypt-method=aes-256-cfb, password=KBGjZYcy4SyRShmA, tfo=false
-🇸🇬 新加坡 7 = ss, 54.254.225.115, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇷🇺 俄罗斯 8 = ss, 80.92.204.106, 9031, encrypt-method=aes-256-cfb, password=BwcAUZk8hUFAkDGN, tfo=false
-🇸🇬 新加坡 8 = ss, 46.137.236.48, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇺🇸 美国 5 = ss, 13.214.214.197, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇸🇬 新加坡 9 = trojan, 52.221.183.75, 17426, password=A99kVjOEamyz, sni=appsvs.shop, skip-cert-verify=false, tfo=false
-🇸🇬 新加坡 10 = trojan, 13.229.78.69, 20230, password=0f408453-2589-4fc2-bf9d-22e0cef8b8d2, sni=sg08.421421.xyz, skip-cert-verify=false, tfo=false
-🇯🇵 日本 4 = ss, 18.183.73.152, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇯🇵 日本东京 4 = ss, 3.112.219.236, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇷🇺 俄罗斯 9 = ss, 80.92.204.106, 9094, encrypt-method=aes-256-cfb, password=rpgbNnU9rDDU4aWZ, tfo=false
-🇷🇺 俄罗斯 10 = ss, 80.92.204.106, 9000, encrypt-method=aes-256-cfb, password=a3GFYt36Sm82Vys9, tfo=false
-🇷🇺 俄罗斯 11 = ss, 80.92.204.106, 9011, encrypt-method=aes-256-cfb, password=M3t2ZEQcMGRWBjRa, tfo=false
-🇷🇺 俄罗斯 12 = ss, 80.92.204.106, 9064, encrypt-method=aes-256-cfb, password=cp8pRSUAyLhTfVWH, tfo=false
-🇷🇺 俄罗斯 13 = ss, 80.92.204.106, 9042, encrypt-method=aes-256-cfb, password=S7KwUu7yBy58S3Ga, tfo=false
-🇷🇺 俄罗斯 14 = ss, 80.92.204.106, 9005, encrypt-method=aes-256-cfb, password=ZET59LF6DvCC8KVt, tfo=false
-🇷🇺 俄罗斯 15 = ss, 80.92.204.106, 9024, encrypt-method=aes-256-cfb, password=BejrQvtu9sqUeNuZ, tfo=false
-🇷🇺 俄罗斯 16 = ss, 80.92.204.106, 9015, encrypt-method=aes-256-cfb, password=ZpNDDKRu9MagNvaf, tfo=false
-🇷🇺 俄罗斯 17 = ss, 80.92.204.106, 9097, encrypt-method=aes-256-cfb, password=Sn5B7jTqr76aCJT8, tfo=false
-🇷🇺 俄罗斯 18 = ss, 80.92.204.106, 9061, encrypt-method=aes-256-cfb, password=4R3hUfZ2FHhDmNcP, tfo=false
-🇷🇺 俄罗斯 19 = ss, 80.92.204.106, 9006, encrypt-method=aes-256-cfb, password=FAdUvMJUq5vDgKEq, tfo=false
-🇷🇺 俄罗斯 20 = ss, 80.92.204.106, 9020, encrypt-method=aes-256-cfb, password=BNmAXXxAHYpTRdzu, tfo=false
-🇯🇵 日本东京 5 = ss, 13.231.105.129, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇯🇵 日本 5 = vmess, 139.162.113.144, 18100, username=a1825e6847c911eeba2df23c93ff01cc, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false
-🇯🇵 日本东京都 = trojan, 176.32.66.151, 20230, password=4aa9ee7a-ffee-4ca4-a588-f5fa9e979c38, sni=421421.xyz, skip-cert-verify=false, tfo=false
-🇯🇵 日本东京 6 = ss, 3.112.219.236, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇯🇵 日本东京 7 = ss, 13.231.105.129, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇸🇬 新加坡 12 = ss, 18.141.186.136, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇸🇬 新加坡 13 = ss, 54.179.9.170, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇨🇳 广东省江门市 = ss, 120.238.122.159, 20007, encrypt-method=chacha20-ietf-poly1305, password=99301d55-a41f-4919-986b-1435996533aa, tfo=false
-亚太地区 41 = ss, 103.172.116.79, 9031, encrypt-method=aes-256-cfb, password=BwcAUZk8hUFAkDGN, tfo=false
-🇷🇺 俄罗斯 21 = ss, 80.92.204.106, 9080, encrypt-method=aes-256-cfb, password=VP8ZPxQpJtZRCjfZ, tfo=false
-🇯🇵 日本 6 = ss, 43.201.47.36, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇺🇸 美国 7 = ss, 13.214.211.185, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇯🇵 日本 7 = ss, 43.206.232.102, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇯🇵 日本 8 = ss, 18.182.6.181, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇯🇵 日本东京 8 = ss, 35.77.99.126, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇯🇵 日本 9 = ss, 18.181.198.10, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇯🇵 日本 10 = ss, 54.95.163.121, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇯🇵 日本东京 9 = ss, 3.112.189.248, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇯🇵 日本东京 10 = ss, 13.231.105.129, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇰🇷 韩国首尔 2 = ss, 13.124.178.1, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇯🇵 日本 11 = ss, 43.201.47.36, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇰🇷 韩国首尔 3 = ss, 3.34.95.205, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
-🇺🇸 美国 8 = ss, 13.214.211.185, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇯🇵 日本 4 = ss, 18.181.198.10, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇩🇪 德国 = trojan, 52.58.172.78, 22222, password=telegram-id-directvpn, sni=trojan.burgerip.co.uk, skip-cert-verify=false, tfo=false
+🇯🇵 日本东京 4 = ss, 13.231.229.48, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇯🇵 日本 5 = trojan, 43.207.0.211, 13394, password=Ridd9ORtrbEI, sni=appsvs.shop, skip-cert-verify=false, tfo=false
+🇰🇷 韩国 5 = trojan, 52.79.76.65, 13424, password=3MfyE3AZBcza, sni=appsvs.shop, skip-cert-verify=false, tfo=false
+🇯🇵 日本东京 5 = ss, 3.112.219.236, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇸🇬 新加坡 7 = ss, 18.141.186.136, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇯🇵 日本 6 = ss, 43.203.201.192, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇸🇬 新加坡 8 = ss, 18.141.186.136, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇸🇬 新加坡 9 = ss, 18.141.186.136, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇨🇳 台湾省新北市 = trojan, 114.37.103.107, 3271, password=73de327c-3206-4128-8189-4e08fd8a540b, sni=b24.ntbq.dynu.net, skip-cert-verify=false, tfo=false
+🇨🇳 广东省佛山市 = ss, 183.232.170.131, 38999, encrypt-method=chacha20-ietf-poly1305, password=dffc697a-2535-470c-bb6a-8157b6c157a7, tfo=false
+🇨🇳 广东省江门市 = vmess, 120.238.122.243, 35601, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=false, tfo=false
+🇨🇳 浙江省宁波市 = ss, 120.199.84.158, 10007, encrypt-method=chacha20-ietf-poly1305, password=3b344977-0c22-4610-abd9-43eb53e81a85, tfo=false
+🇷🇺 俄罗斯 4 = ss, 80.92.204.106, 9031, encrypt-method=aes-256-cfb, password=BwcAUZk8hUFAkDGN, tfo=false
+🇨🇳 广东省 3 = ss, 183.240.220.229, 50001, encrypt-method=chacha20-ietf-poly1305, password=3b344977-0c22-4610-abd9-43eb53e81a85, tfo=false
+🇷🇺 俄罗斯 5 = ss, 80.92.204.106, 9006, encrypt-method=aes-256-cfb, password=FAdUvMJUq5vDgKEq, tfo=false
+🇷🇺 俄罗斯 6 = ss, 80.92.204.106, 9010, encrypt-method=aes-256-cfb, password=f63gg8EruDnUrmz4, tfo=false
+🇷🇺 俄罗斯 7 = ss, 80.92.204.106, 9005, encrypt-method=aes-256-cfb, password=ZET59LF6DvCC8KVt, tfo=false
+🇯🇵 日本 7 = ss, 18.181.198.10, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇩🇪 德国 2 = trojan, 52.58.172.78, 22222, password=telegram-id-directvpn, sni=trojan.burgerip.co.uk, skip-cert-verify=false, tfo=false
+🇯🇵 日本 8 = ss, 18.181.198.10, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇯🇵 日本 9 = ss, 43.206.232.102, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇸🇬 新加坡 10 = ss, 54.151.219.143, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇯🇵 日本 10 = ss, 43.207.72.91, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇰🇷 韩国 6 = ss, 125.141.26.7, 49032, encrypt-method=aes-256-cfb, password=qwerREWQ@@, tfo=false
+🇸🇬 新加坡 11 = ss, 54.151.219.143, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇺🇸 美国 7 = ss, 13.214.214.197, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇸🇬 新加坡 12 = ss, 13.229.54.243, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇸🇬 新加坡 13 = ss, 54.151.216.148, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
 🇸🇬 新加坡 14 = ss, 13.229.54.243, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false
+🇷🇺 俄罗斯 8 = ss, 80.92.204.106, 9000, encrypt-method=aes-256-cfb, password=a3GFYt36Sm82Vys9, tfo=false
 🇯🇵 JP = vmess, 158.51.111.113, 33379, username=2686f9b8-4522-458b-bb44-9d670a6e8aab, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,DIRECT,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,[2606:4700:3031::ac43:a314]:443,🇺🇸 美国,🇺🇸 美国 2,🇸🇬 新加坡,🇯🇵 日本,🇸🇬 新加坡 2,🇨🇳 甘肃省兰州市,🇨🇳 浙江省宁波市,🇨🇳 广东省,🇺🇸 美国 3,🇯🇵 日本东京,🇺🇦 乌克兰,🇫🇷 法国,🇺🇸 美国 4,🇯🇵 日本东京 2,🇯🇵 日本 2,🇯🇵 日本东京 3,🇸🇬 新加坡 3,🇸🇬 新加坡 4,🇨🇳 台湾省台北市,🇨🇳 台湾省新竹市,🇨🇳 台湾省台北市 2,🇰🇷 韩国首尔,🇸🇬 新加坡 5,🇸🇬 新加坡 6,2,🇨🇳 广东省 2,🇷🇺 俄罗斯,亚太地区,🇷🇺 俄罗斯 2,🇷🇺 俄罗斯 3,🇷🇺 俄罗斯 4,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇯🇵 日本 3,🇨🇳 广东省 3,亚太地区 2,亚太地区 3,亚太地区 4,🇸🇬 新加坡 7,🇷🇺 俄罗斯 8,🇸🇬 新加坡 8,🇺🇸 美国 5,🇸🇬 新加坡 9,🇸🇬 新加坡 10,🇯🇵 日本 4,🇯🇵 日本东京 4,🇷🇺 俄罗斯 9,🇷🇺 俄罗斯 10,🇷🇺 俄罗斯 11,🇷🇺 俄罗斯 12,🇷🇺 俄罗斯 13,🇷🇺 俄罗斯 14,🇷🇺 俄罗斯 15,🇷🇺 俄罗斯 16,🇷🇺 俄罗斯 17,🇷🇺 俄罗斯 18,🇷🇺 俄罗斯 19,🇷🇺 俄罗斯 20,🇯🇵 日本东京 5,🇯🇵 日本 5,🇯🇵 日本东京都,🇯🇵 日本东京 6,🇯🇵 日本东京 7,🇸🇬 新加坡 12,🇸🇬 新加坡 13,🇨🇳 广东省江门市,亚太地区 41,🇷🇺 俄罗斯 21,🇯🇵 日本 6,🇺🇸 美国 7,🇯🇵 日本 7,🇯🇵 日本 8,🇯🇵 日本东京 8,🇯🇵 日本 9,🇯🇵 日本 10,🇯🇵 日本东京 9,🇯🇵 日本东京 10,🇰🇷 韩国首尔 2,🇯🇵 日本 11,🇰🇷 韩国首尔 3,🇺🇸 美国 8,🇸🇬 新加坡 14,🇯🇵 JP
-♻️ 自动选择 = url-test,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,[2606:4700:3031::ac43:a314]:443,🇺🇸 美国,🇺🇸 美国 2,🇸🇬 新加坡,🇯🇵 日本,🇸🇬 新加坡 2,🇨🇳 甘肃省兰州市,🇨🇳 浙江省宁波市,🇨🇳 广东省,🇺🇸 美国 3,🇯🇵 日本东京,🇺🇦 乌克兰,🇫🇷 法国,🇺🇸 美国 4,🇯🇵 日本东京 2,🇯🇵 日本 2,🇯🇵 日本东京 3,🇸🇬 新加坡 3,🇸🇬 新加坡 4,🇨🇳 台湾省台北市,🇨🇳 台湾省新竹市,🇨🇳 台湾省台北市 2,🇰🇷 韩国首尔,🇸🇬 新加坡 5,🇸🇬 新加坡 6,2,🇨🇳 广东省 2,🇷🇺 俄罗斯,亚太地区,🇷🇺 俄罗斯 2,🇷🇺 俄罗斯 3,🇷🇺 俄罗斯 4,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇯🇵 日本 3,🇨🇳 广东省 3,亚太地区 2,亚太地区 3,亚太地区 4,🇸🇬 新加坡 7,🇷🇺 俄罗斯 8,🇸🇬 新加坡 8,🇺🇸 美国 5,🇸🇬 新加坡 9,🇸🇬 新加坡 10,🇯🇵 日本 4,🇯🇵 日本东京 4,🇷🇺 俄罗斯 9,🇷🇺 俄罗斯 10,🇷🇺 俄罗斯 11,🇷🇺 俄罗斯 12,🇷🇺 俄罗斯 13,🇷🇺 俄罗斯 14,🇷🇺 俄罗斯 15,🇷🇺 俄罗斯 16,🇷🇺 俄罗斯 17,🇷🇺 俄罗斯 18,🇷🇺 俄罗斯 19,🇷🇺 俄罗斯 20,🇯🇵 日本东京 5,🇯🇵 日本 5,🇯🇵 日本东京都,🇯🇵 日本东京 6,🇯🇵 日本东京 7,🇸🇬 新加坡 12,🇸🇬 新加坡 13,🇨🇳 广东省江门市,亚太地区 41,🇷🇺 俄罗斯 21,🇯🇵 日本 6,🇺🇸 美国 7,🇯🇵 日本 7,🇯🇵 日本 8,🇯🇵 日本东京 8,🇯🇵 日本 9,🇯🇵 日本 10,🇯🇵 日本东京 9,🇯🇵 日本东京 10,🇰🇷 韩国首尔 2,🇯🇵 日本 11,🇰🇷 韩国首尔 3,🇺🇸 美国 8,🇸🇬 新加坡 14,🇯🇵 JP,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
-🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,[2606:4700:3031::ac43:a314]:443,🇺🇸 美国,🇺🇸 美国 2,🇸🇬 新加坡,🇯🇵 日本,🇸🇬 新加坡 2,🇨🇳 甘肃省兰州市,🇨🇳 浙江省宁波市,🇨🇳 广东省,🇺🇸 美国 3,🇯🇵 日本东京,🇺🇦 乌克兰,🇫🇷 法国,🇺🇸 美国 4,🇯🇵 日本东京 2,🇯🇵 日本 2,🇯🇵 日本东京 3,🇸🇬 新加坡 3,🇸🇬 新加坡 4,🇨🇳 台湾省台北市,🇨🇳 台湾省新竹市,🇨🇳 台湾省台北市 2,🇰🇷 韩国首尔,🇸🇬 新加坡 5,🇸🇬 新加坡 6,2,🇨🇳 广东省 2,🇷🇺 俄罗斯,亚太地区,🇷🇺 俄罗斯 2,🇷🇺 俄罗斯 3,🇷🇺 俄罗斯 4,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇯🇵 日本 3,🇨🇳 广东省 3,亚太地区 2,亚太地区 3,亚太地区 4,🇸🇬 新加坡 7,🇷🇺 俄罗斯 8,🇸🇬 新加坡 8,🇺🇸 美国 5,🇸🇬 新加坡 9,🇸🇬 新加坡 10,🇯🇵 日本 4,🇯🇵 日本东京 4,🇷🇺 俄罗斯 9,🇷🇺 俄罗斯 10,🇷🇺 俄罗斯 11,🇷🇺 俄罗斯 12,🇷🇺 俄罗斯 13,🇷🇺 俄罗斯 14,🇷🇺 俄罗斯 15,🇷🇺 俄罗斯 16,🇷🇺 俄罗斯 17,🇷🇺 俄罗斯 18,🇷🇺 俄罗斯 19,🇷🇺 俄罗斯 20,🇯🇵 日本东京 5,🇯🇵 日本 5,🇯🇵 日本东京都,🇯🇵 日本东京 6,🇯🇵 日本东京 7,🇸🇬 新加坡 12,🇸🇬 新加坡 13,🇨🇳 广东省江门市,亚太地区 41,🇷🇺 俄罗斯 21,🇯🇵 日本 6,🇺🇸 美国 7,🇯🇵 日本 7,🇯🇵 日本 8,🇯🇵 日本东京 8,🇯🇵 日本 9,🇯🇵 日本 10,🇯🇵 日本东京 9,🇯🇵 日本东京 10,🇰🇷 韩国首尔 2,🇯🇵 日本 11,🇰🇷 韩国首尔 3,🇺🇸 美国 8,🇸🇬 新加坡 14,🇯🇵 JP
-📲 电报信息 = select,🚀 节点选择,🎯 全球直连,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,[2606:4700:3031::ac43:a314]:443,🇺🇸 美国,🇺🇸 美国 2,🇸🇬 新加坡,🇯🇵 日本,🇸🇬 新加坡 2,🇨🇳 甘肃省兰州市,🇨🇳 浙江省宁波市,🇨🇳 广东省,🇺🇸 美国 3,🇯🇵 日本东京,🇺🇦 乌克兰,🇫🇷 法国,🇺🇸 美国 4,🇯🇵 日本东京 2,🇯🇵 日本 2,🇯🇵 日本东京 3,🇸🇬 新加坡 3,🇸🇬 新加坡 4,🇨🇳 台湾省台北市,🇨🇳 台湾省新竹市,🇨🇳 台湾省台北市 2,🇰🇷 韩国首尔,🇸🇬 新加坡 5,🇸🇬 新加坡 6,2,🇨🇳 广东省 2,🇷🇺 俄罗斯,亚太地区,🇷🇺 俄罗斯 2,🇷🇺 俄罗斯 3,🇷🇺 俄罗斯 4,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇯🇵 日本 3,🇨🇳 广东省 3,亚太地区 2,亚太地区 3,亚太地区 4,🇸🇬 新加坡 7,🇷🇺 俄罗斯 8,🇸🇬 新加坡 8,🇺🇸 美国 5,🇸🇬 新加坡 9,🇸🇬 新加坡 10,🇯🇵 日本 4,🇯🇵 日本东京 4,🇷🇺 俄罗斯 9,🇷🇺 俄罗斯 10,🇷🇺 俄罗斯 11,🇷🇺 俄罗斯 12,🇷🇺 俄罗斯 13,🇷🇺 俄罗斯 14,🇷🇺 俄罗斯 15,🇷🇺 俄罗斯 16,🇷🇺 俄罗斯 17,🇷🇺 俄罗斯 18,🇷🇺 俄罗斯 19,🇷🇺 俄罗斯 20,🇯🇵 日本东京 5,🇯🇵 日本 5,🇯🇵 日本东京都,🇯🇵 日本东京 6,🇯🇵 日本东京 7,🇸🇬 新加坡 12,🇸🇬 新加坡 13,🇨🇳 广东省江门市,亚太地区 41,🇷🇺 俄罗斯 21,🇯🇵 日本 6,🇺🇸 美国 7,🇯🇵 日本 7,🇯🇵 日本 8,🇯🇵 日本东京 8,🇯🇵 日本 9,🇯🇵 日本 10,🇯🇵 日本东京 9,🇯🇵 日本东京 10,🇰🇷 韩国首尔 2,🇯🇵 日本 11,🇰🇷 韩国首尔 3,🇺🇸 美国 8,🇸🇬 新加坡 14,🇯🇵 JP
-Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,[2606:4700:3031::ac43:a314]:443,🇺🇸 美国,🇺🇸 美国 2,🇸🇬 新加坡,🇯🇵 日本,🇸🇬 新加坡 2,🇨🇳 甘肃省兰州市,🇨🇳 浙江省宁波市,🇨🇳 广东省,🇺🇸 美国 3,🇯🇵 日本东京,🇺🇦 乌克兰,🇫🇷 法国,🇺🇸 美国 4,🇯🇵 日本东京 2,🇯🇵 日本 2,🇯🇵 日本东京 3,🇸🇬 新加坡 3,🇸🇬 新加坡 4,🇨🇳 台湾省台北市,🇨🇳 台湾省新竹市,🇨🇳 台湾省台北市 2,🇰🇷 韩国首尔,🇸🇬 新加坡 5,🇸🇬 新加坡 6,2,🇨🇳 广东省 2,🇷🇺 俄罗斯,亚太地区,🇷🇺 俄罗斯 2,🇷🇺 俄罗斯 3,🇷🇺 俄罗斯 4,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇯🇵 日本 3,🇨🇳 广东省 3,亚太地区 2,亚太地区 3,亚太地区 4,🇸🇬 新加坡 7,🇷🇺 俄罗斯 8,🇸🇬 新加坡 8,🇺🇸 美国 5,🇸🇬 新加坡 9,🇸🇬 新加坡 10,🇯🇵 日本 4,🇯🇵 日本东京 4,🇷🇺 俄罗斯 9,🇷🇺 俄罗斯 10,🇷🇺 俄罗斯 11,🇷🇺 俄罗斯 12,🇷🇺 俄罗斯 13,🇷🇺 俄罗斯 14,🇷🇺 俄罗斯 15,🇷🇺 俄罗斯 16,🇷🇺 俄罗斯 17,🇷🇺 俄罗斯 18,🇷🇺 俄罗斯 19,🇷🇺 俄罗斯 20,🇯🇵 日本东京 5,🇯🇵 日本 5,🇯🇵 日本东京都,🇯🇵 日本东京 6,🇯🇵 日本东京 7,🇸🇬 新加坡 12,🇸🇬 新加坡 13,🇨🇳 广东省江门市,亚太地区 41,🇷🇺 俄罗斯 21,🇯🇵 日本 6,🇺🇸 美国 7,🇯🇵 日本 7,🇯🇵 日本 8,🇯🇵 日本东京 8,🇯🇵 日本 9,🇯🇵 日本 10,🇯🇵 日本东京 9,🇯🇵 日本东京 10,🇰🇷 韩国首尔 2,🇯🇵 日本 11,🇰🇷 韩国首尔 3,🇺🇸 美国 8,🇸🇬 新加坡 14,🇯🇵 JP
-🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,[2606:4700:3031::ac43:a314]:443,🇺🇸 美国,🇺🇸 美国 2,🇸🇬 新加坡,🇯🇵 日本,🇸🇬 新加坡 2,🇨🇳 甘肃省兰州市,🇨🇳 浙江省宁波市,🇨🇳 广东省,🇺🇸 美国 3,🇯🇵 日本东京,🇺🇦 乌克兰,🇫🇷 法国,🇺🇸 美国 4,🇯🇵 日本东京 2,🇯🇵 日本 2,🇯🇵 日本东京 3,🇸🇬 新加坡 3,🇸🇬 新加坡 4,🇨🇳 台湾省台北市,🇨🇳 台湾省新竹市,🇨🇳 台湾省台北市 2,🇰🇷 韩国首尔,🇸🇬 新加坡 5,🇸🇬 新加坡 6,2,🇨🇳 广东省 2,🇷🇺 俄罗斯,亚太地区,🇷🇺 俄罗斯 2,🇷🇺 俄罗斯 3,🇷🇺 俄罗斯 4,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇯🇵 日本 3,🇨🇳 广东省 3,亚太地区 2,亚太地区 3,亚太地区 4,🇸🇬 新加坡 7,🇷🇺 俄罗斯 8,🇸🇬 新加坡 8,🇺🇸 美国 5,🇸🇬 新加坡 9,🇸🇬 新加坡 10,🇯🇵 日本 4,🇯🇵 日本东京 4,🇷🇺 俄罗斯 9,🇷🇺 俄罗斯 10,🇷🇺 俄罗斯 11,🇷🇺 俄罗斯 12,🇷🇺 俄罗斯 13,🇷🇺 俄罗斯 14,🇷🇺 俄罗斯 15,🇷🇺 俄罗斯 16,🇷🇺 俄罗斯 17,🇷🇺 俄罗斯 18,🇷🇺 俄罗斯 19,🇷🇺 俄罗斯 20,🇯🇵 日本东京 5,🇯🇵 日本 5,🇯🇵 日本东京都,🇯🇵 日本东京 6,🇯🇵 日本东京 7,🇸🇬 新加坡 12,🇸🇬 新加坡 13,🇨🇳 广东省江门市,亚太地区 41,🇷🇺 俄罗斯 21,🇯🇵 日本 6,🇺🇸 美国 7,🇯🇵 日本 7,🇯🇵 日本 8,🇯🇵 日本东京 8,🇯🇵 日本 9,🇯🇵 日本 10,🇯🇵 日本东京 9,🇯🇵 日本东京 10,🇰🇷 韩国首尔 2,🇯🇵 日本 11,🇰🇷 韩国首尔 3,🇺🇸 美国 8,🇸🇬 新加坡 14,🇯🇵 JP
-📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,[2606:4700:3031::ac43:a314]:443,🇺🇸 美国,🇺🇸 美国 2,🇸🇬 新加坡,🇯🇵 日本,🇸🇬 新加坡 2,🇨🇳 甘肃省兰州市,🇨🇳 浙江省宁波市,🇨🇳 广东省,🇺🇸 美国 3,🇯🇵 日本东京,🇺🇦 乌克兰,🇫🇷 法国,🇺🇸 美国 4,🇯🇵 日本东京 2,🇯🇵 日本 2,🇯🇵 日本东京 3,🇸🇬 新加坡 3,🇸🇬 新加坡 4,🇨🇳 台湾省台北市,🇨🇳 台湾省新竹市,🇨🇳 台湾省台北市 2,🇰🇷 韩国首尔,🇸🇬 新加坡 5,🇸🇬 新加坡 6,2,🇨🇳 广东省 2,🇷🇺 俄罗斯,亚太地区,🇷🇺 俄罗斯 2,🇷🇺 俄罗斯 3,🇷🇺 俄罗斯 4,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇯🇵 日本 3,🇨🇳 广东省 3,亚太地区 2,亚太地区 3,亚太地区 4,🇸🇬 新加坡 7,🇷🇺 俄罗斯 8,🇸🇬 新加坡 8,🇺🇸 美国 5,🇸🇬 新加坡 9,🇸🇬 新加坡 10,🇯🇵 日本 4,🇯🇵 日本东京 4,🇷🇺 俄罗斯 9,🇷🇺 俄罗斯 10,🇷🇺 俄罗斯 11,🇷🇺 俄罗斯 12,🇷🇺 俄罗斯 13,🇷🇺 俄罗斯 14,🇷🇺 俄罗斯 15,🇷🇺 俄罗斯 16,🇷🇺 俄罗斯 17,🇷🇺 俄罗斯 18,🇷🇺 俄罗斯 19,🇷🇺 俄罗斯 20,🇯🇵 日本东京 5,🇯🇵 日本 5,🇯🇵 日本东京都,🇯🇵 日本东京 6,🇯🇵 日本东京 7,🇸🇬 新加坡 12,🇸🇬 新加坡 13,🇨🇳 广东省江门市,亚太地区 41,🇷🇺 俄罗斯 21,🇯🇵 日本 6,🇺🇸 美国 7,🇯🇵 日本 7,🇯🇵 日本 8,🇯🇵 日本东京 8,🇯🇵 日本 9,🇯🇵 日本 10,🇯🇵 日本东京 9,🇯🇵 日本东京 10,🇰🇷 韩国首尔 2,🇯🇵 日本 11,🇰🇷 韩国首尔 3,🇺🇸 美国 8,🇸🇬 新加坡 14,🇯🇵 JP
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,[2606:4700:3031::ac43:a314]:443,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇸🇬 新加坡,🇺🇸 美国,🇨🇳 台湾省台南市,🇯🇵 日本,🇺🇸 美国 2,2,🇯🇵 日本东京,🇯🇵 日本 2,🇨🇳 山东省,🇸🇬 新加坡 2,🇸🇬 新加坡 3,🇸🇬 新加坡 4,🇨🇳 台湾省台南市 2,🇨🇳 广东省,🇯🇵 日本东京 2,🇯🇵 日本东京 3,🇺🇸 美国 3,🇰🇷 韩国 4,🇨🇦 加拿大,🇺🇸 美国 4,🇸🇬 新加坡 5,🇸🇬 新加坡 6,🇺🇸 美国 5,🇨🇳 广东省 2,🇷🇺 俄罗斯,🇷🇺 俄罗斯 2,🇨🇳 广东省汕头市,🇨🇳 广东省汕头市 2,🇷🇺 俄罗斯 3,🇺🇸 美国 6,🇯🇵 日本 3,🇯🇵 日本 4,🇩🇪 德国,🇯🇵 日本东京 4,🇯🇵 日本 5,🇰🇷 韩国 5,🇯🇵 日本东京 5,🇸🇬 新加坡 7,🇯🇵 日本 6,🇸🇬 新加坡 8,🇸🇬 新加坡 9,🇨🇳 台湾省新北市,🇨🇳 广东省佛山市,🇨🇳 广东省江门市,🇨🇳 浙江省宁波市,🇷🇺 俄罗斯 4,🇨🇳 广东省 3,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇯🇵 日本 7,🇩🇪 德国 2,🇯🇵 日本 8,🇯🇵 日本 9,🇸🇬 新加坡 10,🇯🇵 日本 10,🇰🇷 韩国 6,🇸🇬 新加坡 11,🇺🇸 美国 7,🇸🇬 新加坡 12,🇸🇬 新加坡 13,🇸🇬 新加坡 14,🇷🇺 俄罗斯 8,🇯🇵 JP
+♻️ 自动选择 = url-test,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,[2606:4700:3031::ac43:a314]:443,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇸🇬 新加坡,🇺🇸 美国,🇨🇳 台湾省台南市,🇯🇵 日本,🇺🇸 美国 2,2,🇯🇵 日本东京,🇯🇵 日本 2,🇨🇳 山东省,🇸🇬 新加坡 2,🇸🇬 新加坡 3,🇸🇬 新加坡 4,🇨🇳 台湾省台南市 2,🇨🇳 广东省,🇯🇵 日本东京 2,🇯🇵 日本东京 3,🇺🇸 美国 3,🇰🇷 韩国 4,🇨🇦 加拿大,🇺🇸 美国 4,🇸🇬 新加坡 5,🇸🇬 新加坡 6,🇺🇸 美国 5,🇨🇳 广东省 2,🇷🇺 俄罗斯,🇷🇺 俄罗斯 2,🇨🇳 广东省汕头市,🇨🇳 广东省汕头市 2,🇷🇺 俄罗斯 3,🇺🇸 美国 6,🇯🇵 日本 3,🇯🇵 日本 4,🇩🇪 德国,🇯🇵 日本东京 4,🇯🇵 日本 5,🇰🇷 韩国 5,🇯🇵 日本东京 5,🇸🇬 新加坡 7,🇯🇵 日本 6,🇸🇬 新加坡 8,🇸🇬 新加坡 9,🇨🇳 台湾省新北市,🇨🇳 广东省佛山市,🇨🇳 广东省江门市,🇨🇳 浙江省宁波市,🇷🇺 俄罗斯 4,🇨🇳 广东省 3,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇯🇵 日本 7,🇩🇪 德国 2,🇯🇵 日本 8,🇯🇵 日本 9,🇸🇬 新加坡 10,🇯🇵 日本 10,🇰🇷 韩国 6,🇸🇬 新加坡 11,🇺🇸 美国 7,🇸🇬 新加坡 12,🇸🇬 新加坡 13,🇸🇬 新加坡 14,🇷🇺 俄罗斯 8,🇯🇵 JP,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,[2606:4700:3031::ac43:a314]:443,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇸🇬 新加坡,🇺🇸 美国,🇨🇳 台湾省台南市,🇯🇵 日本,🇺🇸 美国 2,2,🇯🇵 日本东京,🇯🇵 日本 2,🇨🇳 山东省,🇸🇬 新加坡 2,🇸🇬 新加坡 3,🇸🇬 新加坡 4,🇨🇳 台湾省台南市 2,🇨🇳 广东省,🇯🇵 日本东京 2,🇯🇵 日本东京 3,🇺🇸 美国 3,🇰🇷 韩国 4,🇨🇦 加拿大,🇺🇸 美国 4,🇸🇬 新加坡 5,🇸🇬 新加坡 6,🇺🇸 美国 5,🇨🇳 广东省 2,🇷🇺 俄罗斯,🇷🇺 俄罗斯 2,🇨🇳 广东省汕头市,🇨🇳 广东省汕头市 2,🇷🇺 俄罗斯 3,🇺🇸 美国 6,🇯🇵 日本 3,🇯🇵 日本 4,🇩🇪 德国,🇯🇵 日本东京 4,🇯🇵 日本 5,🇰🇷 韩国 5,🇯🇵 日本东京 5,🇸🇬 新加坡 7,🇯🇵 日本 6,🇸🇬 新加坡 8,🇸🇬 新加坡 9,🇨🇳 台湾省新北市,🇨🇳 广东省佛山市,🇨🇳 广东省江门市,🇨🇳 浙江省宁波市,🇷🇺 俄罗斯 4,🇨🇳 广东省 3,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇯🇵 日本 7,🇩🇪 德国 2,🇯🇵 日本 8,🇯🇵 日本 9,🇸🇬 新加坡 10,🇯🇵 日本 10,🇰🇷 韩国 6,🇸🇬 新加坡 11,🇺🇸 美国 7,🇸🇬 新加坡 12,🇸🇬 新加坡 13,🇸🇬 新加坡 14,🇷🇺 俄罗斯 8,🇯🇵 JP
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,[2606:4700:3031::ac43:a314]:443,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇸🇬 新加坡,🇺🇸 美国,🇨🇳 台湾省台南市,🇯🇵 日本,🇺🇸 美国 2,2,🇯🇵 日本东京,🇯🇵 日本 2,🇨🇳 山东省,🇸🇬 新加坡 2,🇸🇬 新加坡 3,🇸🇬 新加坡 4,🇨🇳 台湾省台南市 2,🇨🇳 广东省,🇯🇵 日本东京 2,🇯🇵 日本东京 3,🇺🇸 美国 3,🇰🇷 韩国 4,🇨🇦 加拿大,🇺🇸 美国 4,🇸🇬 新加坡 5,🇸🇬 新加坡 6,🇺🇸 美国 5,🇨🇳 广东省 2,🇷🇺 俄罗斯,🇷🇺 俄罗斯 2,🇨🇳 广东省汕头市,🇨🇳 广东省汕头市 2,🇷🇺 俄罗斯 3,🇺🇸 美国 6,🇯🇵 日本 3,🇯🇵 日本 4,🇩🇪 德国,🇯🇵 日本东京 4,🇯🇵 日本 5,🇰🇷 韩国 5,🇯🇵 日本东京 5,🇸🇬 新加坡 7,🇯🇵 日本 6,🇸🇬 新加坡 8,🇸🇬 新加坡 9,🇨🇳 台湾省新北市,🇨🇳 广东省佛山市,🇨🇳 广东省江门市,🇨🇳 浙江省宁波市,🇷🇺 俄罗斯 4,🇨🇳 广东省 3,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇯🇵 日本 7,🇩🇪 德国 2,🇯🇵 日本 8,🇯🇵 日本 9,🇸🇬 新加坡 10,🇯🇵 日本 10,🇰🇷 韩国 6,🇸🇬 新加坡 11,🇺🇸 美国 7,🇸🇬 新加坡 12,🇸🇬 新加坡 13,🇸🇬 新加坡 14,🇷🇺 俄罗斯 8,🇯🇵 JP
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,[2606:4700:3031::ac43:a314]:443,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇸🇬 新加坡,🇺🇸 美国,🇨🇳 台湾省台南市,🇯🇵 日本,🇺🇸 美国 2,2,🇯🇵 日本东京,🇯🇵 日本 2,🇨🇳 山东省,🇸🇬 新加坡 2,🇸🇬 新加坡 3,🇸🇬 新加坡 4,🇨🇳 台湾省台南市 2,🇨🇳 广东省,🇯🇵 日本东京 2,🇯🇵 日本东京 3,🇺🇸 美国 3,🇰🇷 韩国 4,🇨🇦 加拿大,🇺🇸 美国 4,🇸🇬 新加坡 5,🇸🇬 新加坡 6,🇺🇸 美国 5,🇨🇳 广东省 2,🇷🇺 俄罗斯,🇷🇺 俄罗斯 2,🇨🇳 广东省汕头市,🇨🇳 广东省汕头市 2,🇷🇺 俄罗斯 3,🇺🇸 美国 6,🇯🇵 日本 3,🇯🇵 日本 4,🇩🇪 德国,🇯🇵 日本东京 4,🇯🇵 日本 5,🇰🇷 韩国 5,🇯🇵 日本东京 5,🇸🇬 新加坡 7,🇯🇵 日本 6,🇸🇬 新加坡 8,🇸🇬 新加坡 9,🇨🇳 台湾省新北市,🇨🇳 广东省佛山市,🇨🇳 广东省江门市,🇨🇳 浙江省宁波市,🇷🇺 俄罗斯 4,🇨🇳 广东省 3,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇯🇵 日本 7,🇩🇪 德国 2,🇯🇵 日本 8,🇯🇵 日本 9,🇸🇬 新加坡 10,🇯🇵 日本 10,🇰🇷 韩国 6,🇸🇬 新加坡 11,🇺🇸 美国 7,🇸🇬 新加坡 12,🇸🇬 新加坡 13,🇸🇬 新加坡 14,🇷🇺 俄罗斯 8,🇯🇵 JP
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,[2606:4700:3031::ac43:a314]:443,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇸🇬 新加坡,🇺🇸 美国,🇨🇳 台湾省台南市,🇯🇵 日本,🇺🇸 美国 2,2,🇯🇵 日本东京,🇯🇵 日本 2,🇨🇳 山东省,🇸🇬 新加坡 2,🇸🇬 新加坡 3,🇸🇬 新加坡 4,🇨🇳 台湾省台南市 2,🇨🇳 广东省,🇯🇵 日本东京 2,🇯🇵 日本东京 3,🇺🇸 美国 3,🇰🇷 韩国 4,🇨🇦 加拿大,🇺🇸 美国 4,🇸🇬 新加坡 5,🇸🇬 新加坡 6,🇺🇸 美国 5,🇨🇳 广东省 2,🇷🇺 俄罗斯,🇷🇺 俄罗斯 2,🇨🇳 广东省汕头市,🇨🇳 广东省汕头市 2,🇷🇺 俄罗斯 3,🇺🇸 美国 6,🇯🇵 日本 3,🇯🇵 日本 4,🇩🇪 德国,🇯🇵 日本东京 4,🇯🇵 日本 5,🇰🇷 韩国 5,🇯🇵 日本东京 5,🇸🇬 新加坡 7,🇯🇵 日本 6,🇸🇬 新加坡 8,🇸🇬 新加坡 9,🇨🇳 台湾省新北市,🇨🇳 广东省佛山市,🇨🇳 广东省江门市,🇨🇳 浙江省宁波市,🇷🇺 俄罗斯 4,🇨🇳 广东省 3,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇯🇵 日本 7,🇩🇪 德国 2,🇯🇵 日本 8,🇯🇵 日本 9,🇸🇬 新加坡 10,🇯🇵 日本 10,🇰🇷 韩国 6,🇸🇬 新加坡 11,🇺🇸 美国 7,🇸🇬 新加坡 12,🇸🇬 新加坡 13,🇸🇬 新加坡 14,🇷🇺 俄罗斯 8,🇯🇵 JP
+📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,[2606:4700:3031::ac43:a314]:443,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇸🇬 新加坡,🇺🇸 美国,🇨🇳 台湾省台南市,🇯🇵 日本,🇺🇸 美国 2,2,🇯🇵 日本东京,🇯🇵 日本 2,🇨🇳 山东省,🇸🇬 新加坡 2,🇸🇬 新加坡 3,🇸🇬 新加坡 4,🇨🇳 台湾省台南市 2,🇨🇳 广东省,🇯🇵 日本东京 2,🇯🇵 日本东京 3,🇺🇸 美国 3,🇰🇷 韩国 4,🇨🇦 加拿大,🇺🇸 美国 4,🇸🇬 新加坡 5,🇸🇬 新加坡 6,🇺🇸 美国 5,🇨🇳 广东省 2,🇷🇺 俄罗斯,🇷🇺 俄罗斯 2,🇨🇳 广东省汕头市,🇨🇳 广东省汕头市 2,🇷🇺 俄罗斯 3,🇺🇸 美国 6,🇯🇵 日本 3,🇯🇵 日本 4,🇩🇪 德国,🇯🇵 日本东京 4,🇯🇵 日本 5,🇰🇷 韩国 5,🇯🇵 日本东京 5,🇸🇬 新加坡 7,🇯🇵 日本 6,🇸🇬 新加坡 8,🇸🇬 新加坡 9,🇨🇳 台湾省新北市,🇨🇳 广东省佛山市,🇨🇳 广东省江门市,🇨🇳 浙江省宁波市,🇷🇺 俄罗斯 4,🇨🇳 广东省 3,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇯🇵 日本 7,🇩🇪 德国 2,🇯🇵 日本 8,🇯🇵 日本 9,🇸🇬 新加坡 10,🇯🇵 日本 10,🇰🇷 韩国 6,🇸🇬 新加坡 11,🇺🇸 美国 7,🇸🇬 新加坡 12,🇸🇬 新加坡 13,🇸🇬 新加坡 14,🇷🇺 俄罗斯 8,🇯🇵 JP
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,[2606:4700:3031::ac43:a314]:443,🇺🇸 美国,🇺🇸 美国 2,🇸🇬 新加坡,🇯🇵 日本,🇸🇬 新加坡 2,🇨🇳 甘肃省兰州市,🇨🇳 浙江省宁波市,🇨🇳 广东省,🇺🇸 美国 3,🇯🇵 日本东京,🇺🇦 乌克兰,🇫🇷 法国,🇺🇸 美国 4,🇯🇵 日本东京 2,🇯🇵 日本 2,🇯🇵 日本东京 3,🇸🇬 新加坡 3,🇸🇬 新加坡 4,🇨🇳 台湾省台北市,🇨🇳 台湾省新竹市,🇨🇳 台湾省台北市 2,🇰🇷 韩国首尔,🇸🇬 新加坡 5,🇸🇬 新加坡 6,2,🇨🇳 广东省 2,🇷🇺 俄罗斯,亚太地区,🇷🇺 俄罗斯 2,🇷🇺 俄罗斯 3,🇷🇺 俄罗斯 4,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇯🇵 日本 3,🇨🇳 广东省 3,亚太地区 2,亚太地区 3,亚太地区 4,🇸🇬 新加坡 7,🇷🇺 俄罗斯 8,🇸🇬 新加坡 8,🇺🇸 美国 5,🇸🇬 新加坡 9,🇸🇬 新加坡 10,🇯🇵 日本 4,🇯🇵 日本东京 4,🇷🇺 俄罗斯 9,🇷🇺 俄罗斯 10,🇷🇺 俄罗斯 11,🇷🇺 俄罗斯 12,🇷🇺 俄罗斯 13,🇷🇺 俄罗斯 14,🇷🇺 俄罗斯 15,🇷🇺 俄罗斯 16,🇷🇺 俄罗斯 17,🇷🇺 俄罗斯 18,🇷🇺 俄罗斯 19,🇷🇺 俄罗斯 20,🇯🇵 日本东京 5,🇯🇵 日本 5,🇯🇵 日本东京都,🇯🇵 日本东京 6,🇯🇵 日本东京 7,🇸🇬 新加坡 12,🇸🇬 新加坡 13,🇨🇳 广东省江门市,亚太地区 41,🇷🇺 俄罗斯 21,🇯🇵 日本 6,🇺🇸 美国 7,🇯🇵 日本 7,🇯🇵 日本 8,🇯🇵 日本东京 8,🇯🇵 日本 9,🇯🇵 日本 10,🇯🇵 日本东京 9,🇯🇵 日本东京 10,🇰🇷 韩国首尔 2,🇯🇵 日本 11,🇰🇷 韩国首尔 3,🇺🇸 美国 8,🇸🇬 新加坡 14,🇯🇵 JP
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,枭木iOS大本营 TG@Tmxios,https://t.me/Tmxios,P12证书 https://p12.tmxios.top,号卡办理 https://10.tmxios.top/,公众号：枭木iOS大本营,全网低价个人证书,iOS|轻松签|全能签|P12证书,定制V信|应用分身|V信密友|破解软件,[2606:4700:3031::ac43:a314]:443,🇰🇷 韩国,🇰🇷 韩国 2,🇰🇷 韩国 3,🇸🇬 新加坡,🇺🇸 美国,🇨🇳 台湾省台南市,🇯🇵 日本,🇺🇸 美国 2,2,🇯🇵 日本东京,🇯🇵 日本 2,🇨🇳 山东省,🇸🇬 新加坡 2,🇸🇬 新加坡 3,🇸🇬 新加坡 4,🇨🇳 台湾省台南市 2,🇨🇳 广东省,🇯🇵 日本东京 2,🇯🇵 日本东京 3,🇺🇸 美国 3,🇰🇷 韩国 4,🇨🇦 加拿大,🇺🇸 美国 4,🇸🇬 新加坡 5,🇸🇬 新加坡 6,🇺🇸 美国 5,🇨🇳 广东省 2,🇷🇺 俄罗斯,🇷🇺 俄罗斯 2,🇨🇳 广东省汕头市,🇨🇳 广东省汕头市 2,🇷🇺 俄罗斯 3,🇺🇸 美国 6,🇯🇵 日本 3,🇯🇵 日本 4,🇩🇪 德国,🇯🇵 日本东京 4,🇯🇵 日本 5,🇰🇷 韩国 5,🇯🇵 日本东京 5,🇸🇬 新加坡 7,🇯🇵 日本 6,🇸🇬 新加坡 8,🇸🇬 新加坡 9,🇨🇳 台湾省新北市,🇨🇳 广东省佛山市,🇨🇳 广东省江门市,🇨🇳 浙江省宁波市,🇷🇺 俄罗斯 4,🇨🇳 广东省 3,🇷🇺 俄罗斯 5,🇷🇺 俄罗斯 6,🇷🇺 俄罗斯 7,🇯🇵 日本 7,🇩🇪 德国 2,🇯🇵 日本 8,🇯🇵 日本 9,🇸🇬 新加坡 10,🇯🇵 日本 10,🇰🇷 韩国 6,🇸🇬 新加坡 11,🇺🇸 美国 7,🇸🇬 新加坡 12,🇸🇬 新加坡 13,🇸🇬 新加坡 14,🇷🇺 俄罗斯 8,🇯🇵 JP
 
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连,update-interval=86400
