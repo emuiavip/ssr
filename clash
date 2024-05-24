@@ -5,7 +5,15 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: , server: "[2606:4700:3031::ac43:a314]", port: 443, type: trojan, password: 4c8fa06b-881d-4835-a3b0-9b76113b34d1, sni: trojan.freeargo.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.freeargo.eu.org}}}
+  - {name: 枭木iOS大本营 TG@Tmxios, server: 51.21.56.211, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: false}
+  - {name: https://t.me/Tmxios, server: 13.112.247.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: P12证书 https://p12.tmxios.top, server: 54.248.151.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 号卡办理 https://10.tmxios.top/, server: 35.93.149.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 公众号：枭木iOS大本营, server: 54.251.138.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 全网低价个人证书, server: 47.243.108.41, port: 10841, type: ss, cipher: aes-256-gcm, password: rUx8mqUsI0}
+  - {name: iOS|轻松签|全能签|P12证书, server: 8.210.231.146, port: 1146, type: ss, cipher: aes-256-gcm, password: jmtgsmW40R}
+  - {name: 定制V信|应用分身|V信密友|破解软件, server: 47.57.232.119, port: 2119, type: ss, cipher: aes-256-gcm, password: 3B9vFTBSlp}
+  - {name: "[2606:4700:3031::ac43:a314]:443", server: "[2606:4700:3031::ac43:a314]", port: 443, type: trojan, password: 4c8fa06b-881d-4835-a3b0-9b76113b34d1, sni: trojan.freeargo.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: "%2F%3Fed%3D2560", headers: {Host: trojan.freeargo.eu.org}}}
   - {name: 🇰🇷 韩国, server: 103.214.68.57, port: 10001, type: vmess, uuid: ebca5f68-bf59-4081-e658-f158839c2f5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
   - {name: 🇰🇷 韩国 2, server: 103.214.68.57, port: 10003, type: trojan, password: 6x8HcghsjS, sni: yes998.chickenkiller.com, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡, server: 54.179.9.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
@@ -44,13 +52,30 @@ proxies:
   - {name: 🇸🇬 新加坡 10, server: 13.229.54.243, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇸🇬 新加坡 11, server: 18.141.186.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇸🇬 新加坡 12, server: 54.254.225.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 JP, server: 158.51.111.113, port: 33379, type: vmess, uuid: 2686f9b8-4522-458b-bb44-9d670a6e8aab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇲🇾 MY, server: 210.186.12.244, port: 443, type: trojan, password: auto, sni: vip.123789.pp.ua, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vip.123789.pp.ua}}}
+  - {name: CT, server: 185.193.29.127, port: 443, type: trojan, password: auto, sni: vip.123789.pp.ua, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vip.123789.pp.ua}}}
+  - {name: 🇺🇸 US, server: 45.77.127.229, port: 448, type: trojan, password: auto, sni: vip.123789.pp.ua, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vip.123789.pp.ua}}}
+  - {name: 🇺🇸 US 2, server: 23.94.233.169, port: 62224, type: trojan, password: auto, sni: vip.123789.pp.ua, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vip.123789.pp.ua}}}
+  - {name: 🇯🇵 JP 2, server: 132.226.10.65, port: 443, type: trojan, password: auto, sni: vip.123789.pp.ua, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vip.123789.pp.ua}}}
+  - {name: 🇯🇵 JP 3, server: 103.170.233.243, port: 5772, type: trojan, password: auto, sni: vip.123789.pp.ua, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vip.123789.pp.ua}}}
+  - {name: CT 2, server: 159.246.55.132, port: 443, type: trojan, password: auto, sni: vip.123789.pp.ua, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vip.123789.pp.ua}}}
+  - {name: 🇯🇵 JP 4, server: 131.186.60.210, port: 443, type: trojan, password: auto, sni: vip.123789.pp.ua, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vip.123789.pp.ua}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
+      - "[2606:4700:3031::ac43:a314]:443"
       - 🇰🇷 韩国
       - 🇰🇷 韩国 2
       - 🇸🇬 新加坡
@@ -89,13 +114,30 @@ proxy-groups:
       - 🇸🇬 新加坡 10
       - 🇸🇬 新加坡 11
       - 🇸🇬 新加坡 12
+      - 🇯🇵 JP
+      - 🇲🇾 MY
+      - CT
+      - 🇺🇸 US
+      - 🇺🇸 US 2
+      - 🇯🇵 JP 2
+      - 🇯🇵 JP 3
+      - CT 2
+      - 🇯🇵 JP 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
+      - "[2606:4700:3031::ac43:a314]:443"
       - 🇰🇷 韩国
       - 🇰🇷 韩国 2
       - 🇸🇬 新加坡
@@ -134,13 +176,30 @@ proxy-groups:
       - 🇸🇬 新加坡 10
       - 🇸🇬 新加坡 11
       - 🇸🇬 新加坡 12
+      - 🇯🇵 JP
+      - 🇲🇾 MY
+      - CT
+      - 🇺🇸 US
+      - 🇺🇸 US 2
+      - 🇯🇵 JP 2
+      - 🇯🇵 JP 3
+      - CT 2
+      - 🇯🇵 JP 4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
+      - "[2606:4700:3031::ac43:a314]:443"
       - 🇰🇷 韩国
       - 🇰🇷 韩国 2
       - 🇸🇬 新加坡
@@ -179,12 +238,29 @@ proxy-groups:
       - 🇸🇬 新加坡 10
       - 🇸🇬 新加坡 11
       - 🇸🇬 新加坡 12
+      - 🇯🇵 JP
+      - 🇲🇾 MY
+      - CT
+      - 🇺🇸 US
+      - 🇺🇸 US 2
+      - 🇯🇵 JP 2
+      - 🇯🇵 JP 3
+      - CT 2
+      - 🇯🇵 JP 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
+      - "[2606:4700:3031::ac43:a314]:443"
       - 🇰🇷 韩国
       - 🇰🇷 韩国 2
       - 🇸🇬 新加坡
@@ -223,12 +299,29 @@ proxy-groups:
       - 🇸🇬 新加坡 10
       - 🇸🇬 新加坡 11
       - 🇸🇬 新加坡 12
+      - 🇯🇵 JP
+      - 🇲🇾 MY
+      - CT
+      - 🇺🇸 US
+      - 🇺🇸 US 2
+      - 🇯🇵 JP 2
+      - 🇯🇵 JP 3
+      - CT 2
+      - 🇯🇵 JP 4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
+      - "[2606:4700:3031::ac43:a314]:443"
       - 🇰🇷 韩国
       - 🇰🇷 韩国 2
       - 🇸🇬 新加坡
@@ -267,12 +360,29 @@ proxy-groups:
       - 🇸🇬 新加坡 10
       - 🇸🇬 新加坡 11
       - 🇸🇬 新加坡 12
+      - 🇯🇵 JP
+      - 🇲🇾 MY
+      - CT
+      - 🇺🇸 US
+      - 🇺🇸 US 2
+      - 🇯🇵 JP 2
+      - 🇯🇵 JP 3
+      - CT 2
+      - 🇯🇵 JP 4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
+      - "[2606:4700:3031::ac43:a314]:443"
       - 🇰🇷 韩国
       - 🇰🇷 韩国 2
       - 🇸🇬 新加坡
@@ -311,13 +421,30 @@ proxy-groups:
       - 🇸🇬 新加坡 10
       - 🇸🇬 新加坡 11
       - 🇸🇬 新加坡 12
+      - 🇯🇵 JP
+      - 🇲🇾 MY
+      - CT
+      - 🇺🇸 US
+      - 🇺🇸 US 2
+      - 🇯🇵 JP 2
+      - 🇯🇵 JP 3
+      - CT 2
+      - 🇯🇵 JP 4
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
+      - "[2606:4700:3031::ac43:a314]:443"
       - 🇰🇷 韩国
       - 🇰🇷 韩国 2
       - 🇸🇬 新加坡
@@ -356,6 +483,15 @@ proxy-groups:
       - 🇸🇬 新加坡 10
       - 🇸🇬 新加坡 11
       - 🇸🇬 新加坡 12
+      - 🇯🇵 JP
+      - 🇲🇾 MY
+      - CT
+      - 🇺🇸 US
+      - 🇺🇸 US 2
+      - 🇯🇵 JP 2
+      - 🇯🇵 JP 3
+      - CT 2
+      - 🇯🇵 JP 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -378,7 +514,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 
+      - 枭木iOS大本营 TG@Tmxios
+      - https://t.me/Tmxios
+      - P12证书 https://p12.tmxios.top
+      - 号卡办理 https://10.tmxios.top/
+      - 公众号：枭木iOS大本营
+      - 全网低价个人证书
+      - iOS|轻松签|全能签|P12证书
+      - 定制V信|应用分身|V信密友|破解软件
+      - "[2606:4700:3031::ac43:a314]:443"
       - 🇰🇷 韩国
       - 🇰🇷 韩国 2
       - 🇸🇬 新加坡
@@ -417,6 +561,15 @@ proxy-groups:
       - 🇸🇬 新加坡 10
       - 🇸🇬 新加坡 11
       - 🇸🇬 新加坡 12
+      - 🇯🇵 JP
+      - 🇲🇾 MY
+      - CT
+      - 🇺🇸 US
+      - 🇺🇸 US 2
+      - 🇯🇵 JP 2
+      - 🇯🇵 JP 3
+      - CT 2
+      - 🇯🇵 JP 4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
