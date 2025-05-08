@@ -1,0 +1,84 @@
+[general]
+excluded_routes=192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://github.com/KOP-XIAO/QuantumultX/raw/master/Scripts/IP_API.js
+network_check_url=http://www.baidu.com/
+server_check_url=http://www.gstatic.com/generate_204
+
+[dns]
+server=119.29.29.29
+server=223.5.5.5
+server=1.0.0.1
+server=8.8.8.8
+
+[policy]
+static=🚀 节点选择, ♻️ 自动选择, 🔯 故障转移, 🔮 负载均衡, DIRECT, 🇭🇰 香港, 🇭🇰 香港 2, 🇭🇰 香港 3, 🇭🇰 香港 4, 🇭🇰 香港 5, 🇭🇰 香港 6, 🇭🇰 香港 7, 🇭🇰 香港 8, 🇭🇰 香港 9, 🇭🇰 香港 10, 🇭🇰 香港 11, 🇭🇰 香港 12, 🇭🇰 香港 13, 🇭🇰 香港 14, 🇭🇰 香港 15, 🇭🇰 香港 16, 🇭🇰 香港 17, 🇭🇰 香港 18, 🇯🇵 日本, 🇯🇵 日本 2, 🇺🇸 美国, 🇺🇸 美国 2, 🇺🇸 美国 3, 🇺🇸 美国 4, 🇺🇸 美国 5, 🇺🇸 美国 6, 🇺🇸 美国 7, 🇺🇸 美国 8, 🇺🇸 美国 9, 🇺🇸 美国 10, 🇺🇸 美国 11, 🇩🇪 德国, 公众号：枭木iOS大本营, 枭木iOS大本营, TG频道_https://t.me/Msskymu 2
+url-latency-benchmark=♻️ 自动选择, 🇭🇰 香港, 🇭🇰 香港 2, 🇭🇰 香港 3, 🇭🇰 香港 4, 🇭🇰 香港 5, 🇭🇰 香港 6, 🇭🇰 香港 7, 🇭🇰 香港 8, 🇭🇰 香港 9, 🇭🇰 香港 10, 🇭🇰 香港 11, 🇭🇰 香港 12, 🇭🇰 香港 13, 🇭🇰 香港 14, 🇭🇰 香港 15, 🇭🇰 香港 16, 🇭🇰 香港 17, 🇭🇰 香港 18, 🇯🇵 日本, 🇯🇵 日本 2, 🇺🇸 美国, 🇺🇸 美国 2, 🇺🇸 美国 3, 🇺🇸 美国 4, 🇺🇸 美国 5, 🇺🇸 美国 6, 🇺🇸 美国 7, 🇺🇸 美国 8, 🇺🇸 美国 9, 🇺🇸 美国 10, 🇺🇸 美国 11, 🇩🇪 德国, 公众号：枭木iOS大本营, 枭木iOS大本营, TG频道_https://t.me/Msskymu 2, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png, check-interval=300, tolerance=50
+available=🔯 故障转移, 🇭🇰 香港, 🇭🇰 香港 2, 🇭🇰 香港 3, 🇭🇰 香港 4, 🇭🇰 香港 5, 🇭🇰 香港 6, 🇭🇰 香港 7, 🇭🇰 香港 8, 🇭🇰 香港 9, 🇭🇰 香港 10, 🇭🇰 香港 11, 🇭🇰 香港 12, 🇭🇰 香港 13, 🇭🇰 香港 14, 🇭🇰 香港 15, 🇭🇰 香港 16, 🇭🇰 香港 17, 🇭🇰 香港 18, 🇯🇵 日本, 🇯🇵 日本 2, 🇺🇸 美国, 🇺🇸 美国 2, 🇺🇸 美国 3, 🇺🇸 美国 4, 🇺🇸 美国 5, 🇺🇸 美国 6, 🇺🇸 美国 7, 🇺🇸 美国 8, 🇺🇸 美国 9, 🇺🇸 美国 10, 🇺🇸 美国 11, 🇩🇪 德国, 公众号：枭木iOS大本营, 枭木iOS大本营, TG频道_https://t.me/Msskymu 2, check-interval=180
+round-robin=🔮 负载均衡, 🇭🇰 香港, 🇭🇰 香港 2, 🇭🇰 香港 3, 🇭🇰 香港 4, 🇭🇰 香港 5, 🇭🇰 香港 6, 🇭🇰 香港 7, 🇭🇰 香港 8, 🇭🇰 香港 9, 🇭🇰 香港 10, 🇭🇰 香港 11, 🇭🇰 香港 12, 🇭🇰 香港 13, 🇭🇰 香港 14, 🇭🇰 香港 15, 🇭🇰 香港 16, 🇭🇰 香港 17, 🇭🇰 香港 18, 🇯🇵 日本, 🇯🇵 日本 2, 🇺🇸 美国, 🇺🇸 美国 2, 🇺🇸 美国 3, 🇺🇸 美国 4, 🇺🇸 美国 5, 🇺🇸 美国 6, 🇺🇸 美国 7, 🇺🇸 美国 8, 🇺🇸 美国 9, 🇺🇸 美国 10, 🇺🇸 美国 11, 🇩🇪 德国, 公众号：枭木iOS大本营, 枭木iOS大本营, TG频道_https://t.me/Msskymu 2, check-interval=180
+static=🎯 全球直连, DIRECT, 🚀 节点选择, ♻️ 自动选择, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
+static=🛑 全球拦截, REJECT, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
+static=🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, 🔯 故障转移, 🔮 负载均衡, 🇭🇰 香港, 🇭🇰 香港 2, 🇭🇰 香港 3, 🇭🇰 香港 4, 🇭🇰 香港 5, 🇭🇰 香港 6, 🇭🇰 香港 7, 🇭🇰 香港 8, 🇭🇰 香港 9, 🇭🇰 香港 10, 🇭🇰 香港 11, 🇭🇰 香港 12, 🇭🇰 香港 13, 🇭🇰 香港 14, 🇭🇰 香港 15, 🇭🇰 香港 16, 🇭🇰 香港 17, 🇭🇰 香港 18, 🇯🇵 日本, 🇯🇵 日本 2, 🇺🇸 美国, 🇺🇸 美国 2, 🇺🇸 美国 3, 🇺🇸 美国 4, 🇺🇸 美国 5, 🇺🇸 美国 6, 🇺🇸 美国 7, 🇺🇸 美国 8, 🇺🇸 美国 9, 🇺🇸 美国 10, 🇺🇸 美国 11, 🇩🇪 德国, 公众号：枭木iOS大本营, 枭木iOS大本营, TG频道_https://t.me/Msskymu 2, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+
+[server_remote]
+
+[filter_remote]
+http://127.0.0.1:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvTG9jYWxBcmVhTmV0d29yay5saXN0&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+http://127.0.0.1:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvVW5CYW4ubGlzdA&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+http://127.0.0.1:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuQUQubGlzdA&group=8J-bkSDlhajnkIPmi6bmiKo, tag=🛑 全球拦截, enabled=true
+http://127.0.0.1:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuUHJvZ3JhbUFELmxpc3Q&group=8J-bkSDlhajnkIPmi6bmiKo, tag=🛑 全球拦截, enabled=true
+http://127.0.0.1:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvR29vZ2xlQ04ubGlzdA&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+http://127.0.0.1:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9TdGVhbUNOLmxpc3Q&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+http://127.0.0.1:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvVGVsZWdyYW0ubGlzdA&group=8J-agCDoioLngrnpgInmi6k, tag=🚀 节点选择, enabled=true
+http://127.0.0.1:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlNZWRpYS5saXN0&group=8J-agCDoioLngrnpgInmi6k, tag=🚀 节点选择, enabled=true
+http://127.0.0.1:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlMaXRlLmxpc3Q&group=8J-agCDoioLngrnpgInmi6k, tag=🚀 节点选择, enabled=true
+http://127.0.0.1:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQ2hpbmFEb21haW4ubGlzdA&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+http://127.0.0.1:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQ2hpbmFDb21wYW55SXAubGlzdA&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+
+[rewrite_remote]
+
+[server_local]
+trojan = 183.240.116.224:27102, password=d64c2ba8-0ae4-4299-8af7-8c5046e3c1c1, over-tls=true, tls-host=, fast-open=false, tls-verification=false, tag=🇭🇰 香港
+trojan = 58.254.186.222:27401, password=ce44b416-2d7e-49af-aa40-5a61d45f6fcc, over-tls=true, tls-host=, fast-open=false, tls-verification=false, tag=🇭🇰 香港 2
+trojan = 183.2.150.64:27301, password=a8093ea8-f02e-4ffc-8a13-d068a62971bf, over-tls=true, tls-host=, fast-open=false, tls-verification=false, tag=🇭🇰 香港 3
+trojan = 183.240.196.93:39001, password=b6200af42ccadea353f5b5856dd20d70, over-tls=true, tls-host=, fast-open=false, tls-verification=false, tag=🇭🇰 香港 4
+shadowsocks = cdn-p1-us.youku-dns.com:11511, method=aes-256-gcm, password=77a12a3d-6df0-48c8-a189-b071fcda1456, fast-open=false, tag=🇭🇰 香港 5
+shadowsocks = cn01.efan8867801.xyz:8766, method=rc4-md5, password=efanccyun, obfs=http, obfs-host=202505061413967-ARiTaH7btE.download.microsoft.com, fast-open=false, tag=🇭🇰 香港 6
+shadowsocks = cn01.efan8867801.xyz:8774, method=rc4-md5, password=efanccyun, obfs=http, obfs-host=202505061413967-ARiTaH7btE.download.microsoft.com, fast-open=false, tag=🇭🇰 香港 7
+shadowsocks = 154.90.63.193:990, method=chacha20-ietf-poly1305, password=f8f7aCzcPKbsF8p3, fast-open=false, tag=🇭🇰 香港 8
+vmess = 47.92.152.169:50002, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, fast-open=false, tag=🇭🇰 香港 9
+vmess = 47.116.166.178:50002, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, fast-open=false, tag=🇭🇰 香港 10
+vmess = 47.104.186.133:50002, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, fast-open=false, tag=🇭🇰 香港 11
+vmess = 120.26.55.225:50002, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, fast-open=false, tag=🇭🇰 香港 12
+vmess = 120.232.17.9:45269, method=chacha20-ietf-poly1305, password=469e0b31-30c3-4dab-800d-711232634ce1, fast-open=false, tag=🇭🇰 香港 13
+vmess = 183.236.51.38:41024, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, fast-open=false, tag=🇭🇰 香港 14
+vmess = 120.210.205.59:50002, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, fast-open=false, tag=🇭🇰 香港 15
+vmess = jp3.g2.moonbase.life:35213, method=chacha20-ietf-poly1305, password=46a539d2-d3ba-4a6e-aedb-b727d2fc60f8, obfs=wss, obfs-host=web.xcjs.info, obfs-uri=/home, fast-open=false, tls-verification=false, tag=🇭🇰 香港 16
+vmess = jp3.vip2.g2.moonbase.life:35243, method=chacha20-ietf-poly1305, password=46a539d2-d3ba-4a6e-aedb-b727d2fc60f8, obfs=wss, obfs-host=web.xcjs.info, obfs-uri=/home, fast-open=false, tls-verification=false, tag=🇭🇰 香港 17
+shadowsocks = 103.186.155.19:38388, method=aes-256-cfb, password=Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, fast-open=false, tag=🇭🇰 香港 18
+shadowsocks = 18.183.184.244:443, method=aes-256-cfb, password=awsps0501, fast-open=false, tag=🇯🇵 日本
+shadowsocks = 54.199.249.6:443, method=aes-256-cfb, password=awsps0501, fast-open=false, tag=🇯🇵 日本 2
+trojan = beseech.homeofbrave.net:443, password=SaujZeOR2F6eDD09KnxFcl3CY8laTXAyYOyCEI5qgwRSDp4ZCp33ASxN738zBa, over-tls=true, tls-host=, fast-open=false, tls-verification=false, tag=🇺🇸 美国
+shadowsocks = 52.41.154.89:443, method=aes-256-cfb, password=awsps0501, fast-open=false, tag=🇺🇸 美国 2
+shadowsocks = 34.220.227.172:443, method=aes-256-cfb, password=awsps0501, fast-open=false, tag=🇺🇸 美国 3
+shadowsocks = 66.151.41.89:33133, method=chacha20-ietf-poly1305, password=67dYfi1uAv2ZTxXvLoek39, fast-open=false, tag=🇺🇸 美国 4
+vmess = lt.fxlcn.com:45231, method=chacha20-ietf-poly1305, password=469e0b31-30c3-4dab-800d-711232634ce1, fast-open=false, tag=🇺🇸 美国 5
+vmess = lt.fxlcn.com:45291, method=chacha20-ietf-poly1305, password=469e0b31-30c3-4dab-800d-711232634ce1, fast-open=false, tag=🇺🇸 美国 6
+vmess = fa.fxlcn.com:45247, method=chacha20-ietf-poly1305, password=469e0b31-30c3-4dab-800d-711232634ce1, fast-open=false, tag=🇺🇸 美国 7
+vmess = ora2.aihi.uk:3306, method=chacha20-ietf-poly1305, password=6b414f6a-9cfd-46c3-bcc8-af2c3447871d, obfs=wss, obfs-host=ora2.aihi.uk, obfs-uri=/ray, fast-open=false, tls-verification=false, tag=🇺🇸 美国 8
+vmess = fa.fxlcn.com:45215, method=chacha20-ietf-poly1305, password=469e0b31-30c3-4dab-800d-711232634ce1, fast-open=false, tag=🇺🇸 美国 9
+vmess = ye.fxlcn.com:45245, method=chacha20-ietf-poly1305, password=469e0b31-30c3-4dab-800d-711232634ce1, fast-open=false, tag=🇺🇸 美国 10
+vmess = yal.fxlcn.com:45266, method=chacha20-ietf-poly1305, password=469e0b31-30c3-4dab-800d-711232634ce1, fast-open=false, tag=🇺🇸 美国 11
+trojan = 139.162.158.172:443, password=665c944d-047d-4659-80d5-3eaac70241a9, over-tls=true, tls-host=de2-full.privateip.net, fast-open=false, tls-verification=false, tag=🇩🇪 德国
+shadowsocks = 57.180.41.89:443, method=aes-256-cfb, password=awsps0501, fast-open=false, tag=公众号：枭木iOS大本营
+trojan = terture.meijireform.com:443, password=0FaYIOcSy4lBg38yRxnj7RlR3RZYSq3pC9OaSDAAOw6Oe8FCpy08u8pzx3eKZacDz3XE3, over-tls=true, tls-host=, fast-open=false, tls-verification=false, tag=枭木iOS大本营
+shadowsocks = 103.151.57.123:38388, method=aes-256-cfb, password=Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, fast-open=false, tag=TG频道_https://t.me/Msskymu 2
+
+[filter_local]
+GEOIP,CN,🎯 全球直连
+FINAL,🐟 漏网之鱼
+
+[rewrite_local]
+
+[mitm]
+
+
