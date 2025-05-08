@@ -1,0 +1,110 @@
+[General]
+allow-wifi-access=false
+bypass-tun=10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.88.99.0/24, 192.168.0.0/16, 198.51.100.0/24, 203.0.113.0/24, 224.0.0.0/4, 239.255.255.250/32, 255.255.255.255/32
+disable-stun=true
+disconnect-on-policy-change=true
+dns-server=119.29.29.29, 223.5.5.5
+doh-server=https://223.5.5.5/resolve, https://sm2.doh.pub/dns-query
+geoip-url=https://gitlab.com/Masaiki/GeoIP2-CN/-/raw/release/Country.mmdb
+interface-mode=auto
+ipv6=false
+proxy-test-url=http://connectivitycheck.gstatic.com
+resource-parser=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Sub-Store/sub-store-parser_for_loon.js
+skip-proxy=192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local, captive.apple.com, e.crashlynatics.com
+sni-sniffing=true
+ssid-trigger="Ccccccc":DIRECT,"cellular":RULE,"default":RULE
+switch-node-after-failure-times=3
+test-timeout=2
+wifi-access-http-port=7222
+wifi-access-socks5-port=7221
+
+[Proxy]
+🇭🇰 香港 = trojan,183.240.116.224,27102,"d64c2ba8-0ae4-4299-8af7-8c5046e3c1c1",skip-cert-verify=true
+🇭🇰 香港 2 = trojan,58.254.186.222,27401,"ce44b416-2d7e-49af-aa40-5a61d45f6fcc",skip-cert-verify=true
+🇭🇰 香港 3 = trojan,183.2.150.64,27301,"a8093ea8-f02e-4ffc-8a13-d068a62971bf",skip-cert-verify=true
+🇭🇰 香港 4 = trojan,183.240.196.93,39001,"b6200af42ccadea353f5b5856dd20d70",skip-cert-verify=true
+🇭🇰 香港 5 = Shadowsocks,cdn-p1-us.youku-dns.com,11511,aes-256-gcm,"77a12a3d-6df0-48c8-a189-b071fcda1456"
+🇭🇰 香港 6 = Shadowsocks,cn01.efan8867801.xyz,8766,rc4-md5,"efanccyun",http,202505061413967-ARiTaH7btE.download.microsoft.com
+🇭🇰 香港 7 = Shadowsocks,cn01.efan8867801.xyz,8774,rc4-md5,"efanccyun",http,202505061413967-ARiTaH7btE.download.microsoft.com
+🇭🇰 香港 8 = Shadowsocks,154.90.63.193,990,chacha20-ietf-poly1305,"f8f7aCzcPKbsF8p3"
+🇭🇰 香港 9 = vmess,47.92.152.169,50002,chacha20-ietf-poly1305,"418048af-a293-4b99-9b0c-98ca3580dd24",over-tls=false,transport=tcp,skip-cert-verify=true
+🇭🇰 香港 10 = vmess,47.116.166.178,50002,chacha20-ietf-poly1305,"418048af-a293-4b99-9b0c-98ca3580dd24",over-tls=false,transport=tcp,skip-cert-verify=true
+🇭🇰 香港 11 = vmess,47.104.186.133,50002,chacha20-ietf-poly1305,"418048af-a293-4b99-9b0c-98ca3580dd24",over-tls=false,transport=tcp,skip-cert-verify=true
+🇭🇰 香港 12 = vmess,120.26.55.225,50002,chacha20-ietf-poly1305,"418048af-a293-4b99-9b0c-98ca3580dd24",over-tls=false,transport=tcp,skip-cert-verify=true
+🇭🇰 香港 13 = vmess,120.232.17.9,45269,chacha20-ietf-poly1305,"469e0b31-30c3-4dab-800d-711232634ce1",over-tls=false,transport=tcp,skip-cert-verify=true
+🇭🇰 香港 14 = vmess,183.236.51.38,41024,chacha20-ietf-poly1305,"418048af-a293-4b99-9b0c-98ca3580dd24",over-tls=false,transport=tcp,skip-cert-verify=true
+🇭🇰 香港 15 = vmess,120.210.205.59,50002,chacha20-ietf-poly1305,"418048af-a293-4b99-9b0c-98ca3580dd24",over-tls=false,transport=tcp,skip-cert-verify=true
+🇭🇰 香港 16 = vmess,jp3.g2.moonbase.life,35213,chacha20-ietf-poly1305,"46a539d2-d3ba-4a6e-aedb-b727d2fc60f8",over-tls=true,tls-name=web.xcjs.info,transport=ws,path=/home,host=web.xcjs.info,skip-cert-verify=true
+🇭🇰 香港 17 = vmess,jp3.vip2.g2.moonbase.life,35243,chacha20-ietf-poly1305,"46a539d2-d3ba-4a6e-aedb-b727d2fc60f8",over-tls=true,tls-name=web.xcjs.info,transport=ws,path=/home,host=web.xcjs.info,skip-cert-verify=true
+🇭🇰 香港 18 = Shadowsocks,103.186.155.19,38388,aes-256-cfb,"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+🇯🇵 日本 = Shadowsocks,18.183.184.244,443,aes-256-cfb,"awsps0501"
+🇯🇵 日本 2 = Shadowsocks,54.199.249.6,443,aes-256-cfb,"awsps0501"
+🇺🇸 美国 = trojan,beseech.homeofbrave.net,443,"SaujZeOR2F6eDD09KnxFcl3CY8laTXAyYOyCEI5qgwRSDp4ZCp33ASxN738zBa",skip-cert-verify=true
+🇺🇸 美国 2 = Shadowsocks,52.41.154.89,443,aes-256-cfb,"awsps0501"
+🇺🇸 美国 3 = Shadowsocks,34.220.227.172,443,aes-256-cfb,"awsps0501"
+🇺🇸 美国 4 = Shadowsocks,66.151.41.89,33133,chacha20-ietf-poly1305,"67dYfi1uAv2ZTxXvLoek39"
+🇺🇸 美国 5 = vmess,lt.fxlcn.com,45231,chacha20-ietf-poly1305,"469e0b31-30c3-4dab-800d-711232634ce1",over-tls=false,transport=tcp,skip-cert-verify=true
+🇺🇸 美国 6 = vmess,lt.fxlcn.com,45291,chacha20-ietf-poly1305,"469e0b31-30c3-4dab-800d-711232634ce1",over-tls=false,transport=tcp,skip-cert-verify=true
+🇺🇸 美国 7 = vmess,fa.fxlcn.com,45247,chacha20-ietf-poly1305,"469e0b31-30c3-4dab-800d-711232634ce1",over-tls=false,transport=tcp,skip-cert-verify=true
+🇺🇸 美国 8 = vmess,ora2.aihi.uk,3306,chacha20-ietf-poly1305,"6b414f6a-9cfd-46c3-bcc8-af2c3447871d",over-tls=true,tls-name=ora2.aihi.uk,transport=ws,path=/ray,host=ora2.aihi.uk,skip-cert-verify=true
+🇺🇸 美国 9 = vmess,fa.fxlcn.com,45215,chacha20-ietf-poly1305,"469e0b31-30c3-4dab-800d-711232634ce1",over-tls=false,transport=tcp,skip-cert-verify=true
+🇺🇸 美国 10 = vmess,ye.fxlcn.com,45245,chacha20-ietf-poly1305,"469e0b31-30c3-4dab-800d-711232634ce1",over-tls=false,transport=tcp,skip-cert-verify=true
+🇺🇸 美国 11 = vmess,yal.fxlcn.com,45266,chacha20-ietf-poly1305,"469e0b31-30c3-4dab-800d-711232634ce1",over-tls=false,transport=tcp,skip-cert-verify=true
+🇩🇪 德国 = trojan,139.162.158.172,443,"665c944d-047d-4659-80d5-3eaac70241a9",tls-name=de2-full.privateip.net,skip-cert-verify=true
+公众号：枭木iOS大本营 = Shadowsocks,57.180.41.89,443,aes-256-cfb,"awsps0501"
+枭木iOS大本营 = trojan,terture.meijireform.com,443,"0FaYIOcSy4lBg38yRxnj7RlR3RZYSq3pC9OaSDAAOw6Oe8FCpy08u8pzx3eKZacDz3XE3",skip-cert-verify=true
+TG频道_https://t.me/Msskymu 2 = Shadowsocks,103.151.57.123,38388,aes-256-cfb,"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+[Remote Proxy]
+
+[Remote Filter]
+
+[Proxy Group]
+🚀 节点选择 = select,♻️ 自动选择,🔯 故障转移,🔮 负载均衡,DIRECT,🇭🇰 香港,🇭🇰 香港 2,🇭🇰 香港 3,🇭🇰 香港 4,🇭🇰 香港 5,🇭🇰 香港 6,🇭🇰 香港 7,🇭🇰 香港 8,🇭🇰 香港 9,🇭🇰 香港 10,🇭🇰 香港 11,🇭🇰 香港 12,🇭🇰 香港 13,🇭🇰 香港 14,🇭🇰 香港 15,🇭🇰 香港 16,🇭🇰 香港 17,🇭🇰 香港 18,🇯🇵 日本,🇯🇵 日本 2,🇺🇸 美国,🇺🇸 美国 2,🇺🇸 美国 3,🇺🇸 美国 4,🇺🇸 美国 5,🇺🇸 美国 6,🇺🇸 美国 7,🇺🇸 美国 8,🇺🇸 美国 9,🇺🇸 美国 10,🇺🇸 美国 11,🇩🇪 德国,公众号：枭木iOS大本营,枭木iOS大本营,TG频道_https://t.me/Msskymu 2
+♻️ 自动选择 = url-test,🇭🇰 香港,🇭🇰 香港 2,🇭🇰 香港 3,🇭🇰 香港 4,🇭🇰 香港 5,🇭🇰 香港 6,🇭🇰 香港 7,🇭🇰 香港 8,🇭🇰 香港 9,🇭🇰 香港 10,🇭🇰 香港 11,🇭🇰 香港 12,🇭🇰 香港 13,🇭🇰 香港 14,🇭🇰 香港 15,🇭🇰 香港 16,🇭🇰 香港 17,🇭🇰 香港 18,🇯🇵 日本,🇯🇵 日本 2,🇺🇸 美国,🇺🇸 美国 2,🇺🇸 美国 3,🇺🇸 美国 4,🇺🇸 美国 5,🇺🇸 美国 6,🇺🇸 美国 7,🇺🇸 美国 8,🇺🇸 美国 9,🇺🇸 美国 10,🇺🇸 美国 11,🇩🇪 德国,公众号：枭木iOS大本营,枭木iOS大本营,TG频道_https://t.me/Msskymu 2,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🔯 故障转移 = fallback,🇭🇰 香港,🇭🇰 香港 2,🇭🇰 香港 3,🇭🇰 香港 4,🇭🇰 香港 5,🇭🇰 香港 6,🇭🇰 香港 7,🇭🇰 香港 8,🇭🇰 香港 9,🇭🇰 香港 10,🇭🇰 香港 11,🇭🇰 香港 12,🇭🇰 香港 13,🇭🇰 香港 14,🇭🇰 香港 15,🇭🇰 香港 16,🇭🇰 香港 17,🇭🇰 香港 18,🇯🇵 日本,🇯🇵 日本 2,🇺🇸 美国,🇺🇸 美国 2,🇺🇸 美国 3,🇺🇸 美国 4,🇺🇸 美国 5,🇺🇸 美国 6,🇺🇸 美国 7,🇺🇸 美国 8,🇺🇸 美国 9,🇺🇸 美国 10,🇺🇸 美国 11,🇩🇪 德国,公众号：枭木iOS大本营,枭木iOS大本营,TG频道_https://t.me/Msskymu 2,url=http://www.gstatic.com/generate_204,interval=180,max-timeout=0
+🔮 负载均衡 = load-balance,🇭🇰 香港,🇭🇰 香港 2,🇭🇰 香港 3,🇭🇰 香港 4,🇭🇰 香港 5,🇭🇰 香港 6,🇭🇰 香港 7,🇭🇰 香港 8,🇭🇰 香港 9,🇭🇰 香港 10,🇭🇰 香港 11,🇭🇰 香港 12,🇭🇰 香港 13,🇭🇰 香港 14,🇭🇰 香港 15,🇭🇰 香港 16,🇭🇰 香港 17,🇭🇰 香港 18,🇯🇵 日本,🇯🇵 日本 2,🇺🇸 美国,🇺🇸 美国 2,🇺🇸 美国 3,🇺🇸 美国 4,🇺🇸 美国 5,🇺🇸 美国 6,🇺🇸 美国 7,🇺🇸 美国 8,🇺🇸 美国 9,🇺🇸 美国 10,🇺🇸 美国 11,🇩🇪 德国,公众号：枭木iOS大本营,枭木iOS大本营,TG频道_https://t.me/Msskymu 2,url=http://www.gstatic.com/generate_204,interval=180,algorithm=pcc
+🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
+🛑 全球拦截 = select,REJECT,DIRECT,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🔯 故障转移,🔮 负载均衡,🇭🇰 香港,🇭🇰 香港 2,🇭🇰 香港 3,🇭🇰 香港 4,🇭🇰 香港 5,🇭🇰 香港 6,🇭🇰 香港 7,🇭🇰 香港 8,🇭🇰 香港 9,🇭🇰 香港 10,🇭🇰 香港 11,🇭🇰 香港 12,🇭🇰 香港 13,🇭🇰 香港 14,🇭🇰 香港 15,🇭🇰 香港 16,🇭🇰 香港 17,🇭🇰 香港 18,🇯🇵 日本,🇯🇵 日本 2,🇺🇸 美国,🇺🇸 美国 2,🇺🇸 美国 3,🇺🇸 美国 4,🇺🇸 美国 5,🇺🇸 美国 6,🇺🇸 美国 7,🇺🇸 美国 8,🇺🇸 美国 9,🇺🇸 美国 10,🇺🇸 美国 11,🇩🇪 德国,公众号：枭木iOS大本营,枭木iOS大本营,TG频道_https://t.me/Msskymu 2,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+
+[Rule]
+GEOIP,CN,🎯 全球直连
+FINAL,🐟 漏网之鱼
+
+[Remote Rule]
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,🎯 全球直连
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list,🛑 全球拦截
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list,🛑 全球拦截
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list,🎯 全球直连
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list,🎯 全球直连
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list,🚀 节点选择
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list,🚀 节点选择
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list,🚀 节点选择
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,🎯 全球直连
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,🎯 全球直连
+
+[Rewrite]
+
+[Host]
+
+[Script]
+cron "16 9 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js, tag=多看阅读
+cron "17 9 * * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.js,tag=飞客茶馆
+cron "18 9 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=中国联通
+cron "19 9 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js, tag=万达电影
+http-request ^https:\/\/user-api-prd-mx\.wandafilm\.com script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.cookie.js, tag=万达电影_cookie
+http-request ^https:\/\/www\.duokan\.com\/checkin\/v0\/status script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.cookie.js, requires-body=true, tag=多看_cookie
+http-request ^https:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=getdata&.* script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.cookie.js, tag=飞客茶馆_cookie
+http-request ^https?:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js, tag=中国联通_cookie2
+http-request ^https?:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js, tag=中国联通_cookie1
+http-request ^https?:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js, tag=中国联通_cookie3
+
+[MITM]
+ca-p12=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
+ca-passphrase=FA1A9849
+hostname=m.client.10010.com, act.10010.com, www.flyertea.com, www.duokan.com, tieba.baidu.com
+skip-server-cert-verify=false
+
+
