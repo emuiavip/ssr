@@ -1,0 +1,76 @@
+#!MANAGED-CONFIG http://127.0.0.1:25500/sub?config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Mini_MultiMode.ini&emoji=true&exclude=%E6%B5%81%E9%87%8F%7C%E8%BF%87%E6%9C%9F%7C%E5%AE%98%E7%BD%91%7C%E8%90%BD%E5%9C%B0%7C%E5%9B%9E%E5%9B%BD%7C%E6%9C%AC%E7%AB%99%7C%E7%94%A8%E6%88%B7%7C%E8%8B%A5%7C%E7%BB%AD%E8%B4%B9%7C%E9%82%AE%E7%AE%B1%7C%E8%AE%A2%E9%98%85&fdn=false&insert=false&list=false&scv=true&sort=false&target=surge&tfo=false&url=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2Femuiavip%2Fssr%40main%2FClash&ver=4 interval=86400 strict=false
+
+[General]
+loglevel = notify
+bypass-system = true
+skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
+#DNS设置或根据自己网络情况进行相应设置
+bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
+dns-server = 119.29.29.29,223.5.5.5
+
+[Script]
+http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+
+[Proxy]
+DIRECT = direct
+🇭🇰 香港 = trojan, 183.240.116.224, 27102, password=d64c2ba8-0ae4-4299-8af7-8c5046e3c1c1, skip-cert-verify=true, tfo=false
+🇭🇰 香港 2 = trojan, 58.254.186.222, 27401, password=ce44b416-2d7e-49af-aa40-5a61d45f6fcc, skip-cert-verify=true, tfo=false
+🇭🇰 香港 3 = trojan, 183.2.150.64, 27301, password=a8093ea8-f02e-4ffc-8a13-d068a62971bf, skip-cert-verify=true, tfo=false
+🇭🇰 香港 4 = trojan, 183.240.196.93, 39001, password=b6200af42ccadea353f5b5856dd20d70, skip-cert-verify=true, tfo=false
+🇭🇰 香港 5 = ss, cdn-p1-us.youku-dns.com, 11511, encrypt-method=aes-256-gcm, password=77a12a3d-6df0-48c8-a189-b071fcda1456, tfo=false
+🇭🇰 香港 6 = ss, cn01.efan8867801.xyz, 8766, encrypt-method=rc4-md5, password=efanccyun,obfs=http,obfs-host=202505061413967-ARiTaH7btE.download.microsoft.com, tfo=false
+🇭🇰 香港 7 = ss, cn01.efan8867801.xyz, 8774, encrypt-method=rc4-md5, password=efanccyun,obfs=http,obfs-host=202505061413967-ARiTaH7btE.download.microsoft.com, tfo=false
+🇭🇰 香港 8 = ss, 154.90.63.193, 990, encrypt-method=chacha20-ietf-poly1305, password=f8f7aCzcPKbsF8p3, tfo=false
+🇭🇰 香港 9 = vmess, 47.92.152.169, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false
+🇭🇰 香港 10 = vmess, 47.116.166.178, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false
+🇭🇰 香港 11 = vmess, 47.104.186.133, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false
+🇭🇰 香港 12 = vmess, 120.26.55.225, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false
+🇭🇰 香港 13 = vmess, 120.232.17.9, 45269, username=469e0b31-30c3-4dab-800d-711232634ce1, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false
+🇭🇰 香港 14 = vmess, 183.236.51.38, 41024, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false
+🇭🇰 香港 15 = vmess, 120.210.205.59, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false
+🇭🇰 香港 16 = vmess, jp3.g2.moonbase.life, 35213, username=46a539d2-d3ba-4a6e-aedb-b727d2fc60f8, tls=true, vmess-aead=true, ws=true, ws-path=/home, sni=web.xcjs.info, ws-headers=Host:web.xcjs.info, skip-cert-verify=true, tfo=false
+🇭🇰 香港 17 = vmess, jp3.vip2.g2.moonbase.life, 35243, username=46a539d2-d3ba-4a6e-aedb-b727d2fc60f8, tls=true, vmess-aead=true, ws=true, ws-path=/home, sni=web.xcjs.info, ws-headers=Host:web.xcjs.info, skip-cert-verify=true, tfo=false
+🇭🇰 香港 18 = ss, 103.186.155.19, 38388, encrypt-method=aes-256-cfb, password=Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo=false
+🇯🇵 日本 = ss, 18.183.184.244, 443, encrypt-method=aes-256-cfb, password=awsps0501, tfo=false
+🇯🇵 日本 2 = ss, 54.199.249.6, 443, encrypt-method=aes-256-cfb, password=awsps0501, tfo=false
+🇺🇸 美国 = trojan, beseech.homeofbrave.net, 443, password=SaujZeOR2F6eDD09KnxFcl3CY8laTXAyYOyCEI5qgwRSDp4ZCp33ASxN738zBa, skip-cert-verify=true, tfo=false
+🇺🇸 美国 2 = ss, 52.41.154.89, 443, encrypt-method=aes-256-cfb, password=awsps0501, tfo=false
+🇺🇸 美国 3 = ss, 34.220.227.172, 443, encrypt-method=aes-256-cfb, password=awsps0501, tfo=false
+🇺🇸 美国 4 = ss, 66.151.41.89, 33133, encrypt-method=chacha20-ietf-poly1305, password=67dYfi1uAv2ZTxXvLoek39, tfo=false
+🇺🇸 美国 5 = vmess, lt.fxlcn.com, 45231, username=469e0b31-30c3-4dab-800d-711232634ce1, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false
+🇺🇸 美国 6 = vmess, lt.fxlcn.com, 45291, username=469e0b31-30c3-4dab-800d-711232634ce1, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false
+🇺🇸 美国 7 = vmess, fa.fxlcn.com, 45247, username=469e0b31-30c3-4dab-800d-711232634ce1, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false
+🇺🇸 美国 8 = vmess, ora2.aihi.uk, 3306, username=6b414f6a-9cfd-46c3-bcc8-af2c3447871d, tls=true, vmess-aead=true, ws=true, ws-path=/ray, sni=ora2.aihi.uk, ws-headers=Host:ora2.aihi.uk, skip-cert-verify=true, tfo=false
+🇺🇸 美国 9 = vmess, fa.fxlcn.com, 45215, username=469e0b31-30c3-4dab-800d-711232634ce1, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false
+🇺🇸 美国 10 = vmess, ye.fxlcn.com, 45245, username=469e0b31-30c3-4dab-800d-711232634ce1, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false
+🇺🇸 美国 11 = vmess, yal.fxlcn.com, 45266, username=469e0b31-30c3-4dab-800d-711232634ce1, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false
+🇩🇪 德国 = trojan, 139.162.158.172, 443, password=665c944d-047d-4659-80d5-3eaac70241a9, sni=de2-full.privateip.net, skip-cert-verify=true, tfo=false
+公众号：枭木iOS大本营 = ss, 57.180.41.89, 443, encrypt-method=aes-256-cfb, password=awsps0501, tfo=false
+枭木iOS大本营 = trojan, terture.meijireform.com, 443, password=0FaYIOcSy4lBg38yRxnj7RlR3RZYSq3pC9OaSDAAOw6Oe8FCpy08u8pzx3eKZacDz3XE3, skip-cert-verify=true, tfo=false
+TG频道_https://t.me/Msskymu 2 = ss, 103.151.57.123, 38388, encrypt-method=aes-256-cfb, password=Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo=false
+
+[Proxy Group]
+🚀 节点选择 = select,♻️ 自动选择,🔯 故障转移,🔮 负载均衡,DIRECT,🇭🇰 香港,🇭🇰 香港 2,🇭🇰 香港 3,🇭🇰 香港 4,🇭🇰 香港 5,🇭🇰 香港 6,🇭🇰 香港 7,🇭🇰 香港 8,🇭🇰 香港 9,🇭🇰 香港 10,🇭🇰 香港 11,🇭🇰 香港 12,🇭🇰 香港 13,🇭🇰 香港 14,🇭🇰 香港 15,🇭🇰 香港 16,🇭🇰 香港 17,🇭🇰 香港 18,🇯🇵 日本,🇯🇵 日本 2,🇺🇸 美国,🇺🇸 美国 2,🇺🇸 美国 3,🇺🇸 美国 4,🇺🇸 美国 5,🇺🇸 美国 6,🇺🇸 美国 7,🇺🇸 美国 8,🇺🇸 美国 9,🇺🇸 美国 10,🇺🇸 美国 11,🇩🇪 德国,公众号：枭木iOS大本营,枭木iOS大本营,TG频道_https://t.me/Msskymu 2
+♻️ 自动选择 = url-test,🇭🇰 香港,🇭🇰 香港 2,🇭🇰 香港 3,🇭🇰 香港 4,🇭🇰 香港 5,🇭🇰 香港 6,🇭🇰 香港 7,🇭🇰 香港 8,🇭🇰 香港 9,🇭🇰 香港 10,🇭🇰 香港 11,🇭🇰 香港 12,🇭🇰 香港 13,🇭🇰 香港 14,🇭🇰 香港 15,🇭🇰 香港 16,🇭🇰 香港 17,🇭🇰 香港 18,🇯🇵 日本,🇯🇵 日本 2,🇺🇸 美国,🇺🇸 美国 2,🇺🇸 美国 3,🇺🇸 美国 4,🇺🇸 美国 5,🇺🇸 美国 6,🇺🇸 美国 7,🇺🇸 美国 8,🇺🇸 美国 9,🇺🇸 美国 10,🇺🇸 美国 11,🇩🇪 德国,公众号：枭木iOS大本营,枭木iOS大本营,TG频道_https://t.me/Msskymu 2,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🔯 故障转移 = fallback,🇭🇰 香港,🇭🇰 香港 2,🇭🇰 香港 3,🇭🇰 香港 4,🇭🇰 香港 5,🇭🇰 香港 6,🇭🇰 香港 7,🇭🇰 香港 8,🇭🇰 香港 9,🇭🇰 香港 10,🇭🇰 香港 11,🇭🇰 香港 12,🇭🇰 香港 13,🇭🇰 香港 14,🇭🇰 香港 15,🇭🇰 香港 16,🇭🇰 香港 17,🇭🇰 香港 18,🇯🇵 日本,🇯🇵 日本 2,🇺🇸 美国,🇺🇸 美国 2,🇺🇸 美国 3,🇺🇸 美国 4,🇺🇸 美国 5,🇺🇸 美国 6,🇺🇸 美国 7,🇺🇸 美国 8,🇺🇸 美国 9,🇺🇸 美国 10,🇺🇸 美国 11,🇩🇪 德国,公众号：枭木iOS大本营,枭木iOS大本营,TG频道_https://t.me/Msskymu 2,url=http://www.gstatic.com/generate_204,interval=180
+🔮 负载均衡 = load-balance,🇭🇰 香港,🇭🇰 香港 2,🇭🇰 香港 3,🇭🇰 香港 4,🇭🇰 香港 5,🇭🇰 香港 6,🇭🇰 香港 7,🇭🇰 香港 8,🇭🇰 香港 9,🇭🇰 香港 10,🇭🇰 香港 11,🇭🇰 香港 12,🇭🇰 香港 13,🇭🇰 香港 14,🇭🇰 香港 15,🇭🇰 香港 16,🇭🇰 香港 17,🇭🇰 香港 18,🇯🇵 日本,🇯🇵 日本 2,🇺🇸 美国,🇺🇸 美国 2,🇺🇸 美国 3,🇺🇸 美国 4,🇺🇸 美国 5,🇺🇸 美国 6,🇺🇸 美国 7,🇺🇸 美国 8,🇺🇸 美国 9,🇺🇸 美国 10,🇺🇸 美国 11,🇩🇪 德国,公众号：枭木iOS大本营,枭木iOS大本营,TG频道_https://t.me/Msskymu 2,url=http://www.gstatic.com/generate_204,interval=180
+🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
+🛑 全球拦截 = select,REJECT,DIRECT
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🔯 故障转移,🔮 负载均衡,🇭🇰 香港,🇭🇰 香港 2,🇭🇰 香港 3,🇭🇰 香港 4,🇭🇰 香港 5,🇭🇰 香港 6,🇭🇰 香港 7,🇭🇰 香港 8,🇭🇰 香港 9,🇭🇰 香港 10,🇭🇰 香港 11,🇭🇰 香港 12,🇭🇰 香港 13,🇭🇰 香港 14,🇭🇰 香港 15,🇭🇰 香港 16,🇭🇰 香港 17,🇭🇰 香港 18,🇯🇵 日本,🇯🇵 日本 2,🇺🇸 美国,🇺🇸 美国 2,🇺🇸 美国 3,🇺🇸 美国 4,🇺🇸 美国 5,🇺🇸 美国 6,🇺🇸 美国 7,🇺🇸 美国 8,🇺🇸 美国 9,🇺🇸 美国 10,🇺🇸 美国 11,🇩🇪 德国,公众号：枭木iOS大本营,枭木iOS大本营,TG频道_https://t.me/Msskymu 2
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list,🛑 全球拦截,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list,🛑 全球拦截,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list,🚀 节点选择,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list,🚀 节点选择,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list,🚀 节点选择,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,🎯 全球直连,update-interval=86400
+GEOIP,CN,🎯 全球直连
+FINAL,🐟 漏网之鱼
+
+
