@@ -5,57 +5,52 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇬🇧 英国_https://t.me/Msskymu, server: de.vmess.comnpmjs.com, port: 443, type: vmess, uuid: ceaaf653-9874-58c6-b100-092c01a1f73d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: de.vmess.comnpmjs.com, grpc-opts: {grpc-service-name: vmess-grpc}, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu, server: 120.198.71.216, port: 35921, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 2, server: cdn-p1-us.youku-dns.com, port: 11511, type: ss, cipher: aes-256-gcm, password: 77a12a3d-6df0-48c8-a189-b071fcda1456, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 3, server: 120.232.153.40, port: 40292, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 4, server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, port: 15229, type: trojan, password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d, sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 5, server: f1e4e0ee-swin40-t12cnj-1ol97.cu.plebai.net, port: 15229, type: trojan, password: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, sni: f1e4e0ee-swin40-t12cnj-1ol97.cu.plebai.net, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 6, server: 0ce06474-swin40-tba9vx-1qlps.cu.plebai.net, port: 15229, type: trojan, password: d30d2718-91d5-11ef-b635-f23c9164ca5d, sni: 0ce06474-swin40-tba9vx-1qlps.cu.plebai.net, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 7, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: aes-256-gcm, password: ENYGONDU94UW1G6X, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 8, server: 120.232.153.40, port: 31609, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 9, server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 10, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 11, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 12, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 13, server: 120.26.55.225, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 14, server: 120.198.71.219, port: 49355, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 15, server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 16, server: dozo01.flztjc.top, port: 8313, type: trojan, password: 2c605663-b89a-5734-a9d6-97d4743d72cf, sni: dozo01.flztjc.top, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 17, server: 36.151.251.59, port: 7815, type: trojan, password: RlzoEILU, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 18, server: 183.232.235.2, port: 8313, type: trojan, password: 2c605663-b89a-5734-a9d6-97d4743d72cf, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 19, server: 36.151.251.61, port: 33097, type: trojan, password: RlzoEILU, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 20, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 21, server: 43b5a616-sw04g0-swasv3-luwe.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 43b5a616-sw04g0-swasv3-luwe.hgc1.tcpbbr.net}}, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 22, server: 103.186.154.24, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 23, server: 103.186.154.29, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 24, server: 103.186.154.31, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/Msskymu 25, server: 103.186.154.35, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇺🇸 美国_https://t.me/Msskymu, server: toward.taiwanesefood.link, port: 443, type: trojan, password: 5Z3RglCCyER3pjlSe0gSyqOOeExx4qTpwKxBR63XjIa8eNzaaO84pDDBA2DlZYI2n37CX, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国_https://t.me/Msskymu 2, server: fa.fxlcn.com, port: 45215, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国_https://t.me/Msskymu 3, server: ye.fxlcn.com, port: 45245, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国_https://t.me/Msskymu 4, server: yal.fxlcn.com, port: 45273, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国_https://t.me/Msskymu 5, server: yal.fxlcn.com, port: 45263, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国_https://t.me/Msskymu 6, server: lt.fxlcn.com, port: 45294, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国_https://t.me/Msskymu 7, server: lt.fxlcn.com, port: 45276, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国_https://t.me/Msskymu 8, server: lt.fxlcn.com, port: 45291, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国_https://t.me/Msskymu 9, server: ysl.fxlcn.com, port: 45229, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国_https://t.me/Msskymu 10, server: ysl.fxlcn.com, port: 45419, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国_https://t.me/Msskymu 11, server: lt.fxlcn.com, port: 45235, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国_https://t.me/Msskymu 12, server: lt.fxlcn.com, port: 45417, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国_https://t.me/Msskymu 13, server: lt.fxlcn.com, port: 45271, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国_https://t.me/Msskymu 14, server: yal.fxlcn.com, port: 45266, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国_https://t.me/Msskymu 15, server: lt.fxlcn.com, port: 45231, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国_https://t.me/Msskymu 16, server: fa.fxlcn.com, port: 45247, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国_https://t.me/Msskymu 17, server: beseech.homeofbrave.net, port: 443, type: trojan, password: SaujZeOR2F6eDD09KnxFcl3CY8laTXAyYOyCEI5qgwRSDp4ZCp33ASxN738zBa, skip-cert-verify: true, tfo: false}
-  - {name: 🇳🇱 荷兰_https://t.me/Msskymu, server: se.vmess.comnpmjs.com, port: 443, type: vmess, uuid: d955cf75-5206-5bd4-beff-3b9ce6db67b0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.COM-TO-KEEP-THIS-SERVER-ALIVE, headers: {Host: se.vmess.comnpmjs.com}}, tfo: false}
-  - {name: 🇰🇷 韩国_https://t.me/Msskymu, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: 🇰🇷 韩国_https://t.me/Msskymu 2, server: 154.223.20.79, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: 🇷🇺 俄罗斯_https://t.me/Msskymu, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: 🇩🇪 免费申请办理手机卡, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, tfo: false}
-  - {name: 🇩🇪 出售P12证书 2, server: 139.162.158.172, port: 443, type: trojan, password: 665c944d-047d-4659-80d5-3eaac70241a9, sni: de2-full.privateip.net, skip-cert-verify: true, tfo: false}
-  - {name: 🇮🇸 枭木iOS大本营, server: 37.235.49.152, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: 🇦🇺 流量卡全国包邮, server: 103.151.57.123, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇬🇧 英国_https://t.me/Msskymu, server: 51.38.65.155, port: 443, type: trojan, password: 255a0a50-3f10-11f0-b0d6-1239d0255272, skip-cert-verify: true, tfo: false}
+  - {name: 🇮🇷 伊朗_https://t.me/Msskymu, server: 178.22.121.98, port: 1091, type: vmess, uuid: 6ef3b433-eea7-4e5d-95a5-c5f742ce2fb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇸🇬 新加坡_https://t.me/Msskymu, server: 206.189.34.134, port: 443, type: trojan, password: 21246bde-fab7-424c-9723-d311acce3f34, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu, server: 36.151.251.61, port: 33097, type: trojan, password: RlzoEILU, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 2, server: 36.151.251.60, port: 28296, type: trojan, password: RlzoEILU, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 3, server: 36.151.251.62, port: 13542, type: trojan, password: RlzoEILU, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 4, server: 36.151.251.62, port: 3330, type: trojan, password: RlzoEILU, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 5, server: ddd0977f-sxaf40-t3b4w3-ywms.cm5.cnkuaishou.com, port: 27231, type: trojan, password: bf109e1a-2b99-11ed-bb74-f23c9164ca5d, sni: ddd0977f-sxaf40-t3b4w3-ywms.cm5.cnkuaishou.com, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 6, server: cache-giver-wife.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 7, server: guy-trace-lyric.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 8, server: chop-wrist-bud.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 9, server: bats-paper-chump.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: bats-paper-chump.stark-industries.solutions, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 10, server: bring-glove-shine.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: bring-glove-shine.stark-industries.solutions, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 11, server: strut-brisk-scope.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: strut-brisk-scope.stark-industries.solutions, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 12, server: gdgs.tarioblink.me, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: 4619d5a0-258a-48f4-98bf-88843d5d7a83, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 13, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18008, type: ss, cipher: aes-256-gcm, password: 6EZ5QKFX60AVSUYT, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 14, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15003, type: ss, cipher: aes-256-gcm, password: 4KGHWKCKQAJOVPHO, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 15, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202505282364048-i8kTAe6y0O.download.microsoft.com}, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 16, server: 103.186.154.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 17, server: 103.186.154.37, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 18, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 19, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 20, server: 120.26.55.225, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 21, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 22, server: 120.210.205.59, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 23, server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 24, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 25, server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com, port: 17232, type: vmess, uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 26, server: aa715e82-sunz40-t1tfcf-1o3sh.cm5.p5pv.com, port: 17233, type: vmess, uuid: 96b3f2ee-5f66-11ee-804b-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港_https://t.me/Msskymu 27, server: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com, port: 17233, type: vmess, uuid: b806b388-5f97-11ee-8014-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国_https://t.me/Msskymu, server: yal.fxlcn.com, port: 45273, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国_https://t.me/Msskymu 2, server: ye.fxlcn.com, port: 45245, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国_https://t.me/Msskymu 3, server: yal.fxlcn.com, port: 45263, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国_https://t.me/Msskymu 4, server: lt.fxlcn.com, port: 45276, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国_https://t.me/Msskymu 5, server: lt.fxlcn.com, port: 45291, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国_https://t.me/Msskymu 6, server: ysl.fxlcn.com, port: 45229, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国_https://t.me/Msskymu 7, server: ysl.fxlcn.com, port: 45419, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国_https://t.me/Msskymu 8, server: lt.fxlcn.com, port: 45417, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国_https://t.me/Msskymu 9, server: lt.fxlcn.com, port: 45271, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国_https://t.me/Msskymu 10, server: yal.fxlcn.com, port: 45266, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国_https://t.me/Msskymu 11, server: lt.fxlcn.com, port: 45231, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国_https://t.me/Msskymu 12, server: fa.fxlcn.com, port: 45247, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国_https://t.me/Msskymu 13, server: fa.fxlcn.com, port: 45215, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国_https://t.me/Msskymu 14, server: 198.251.83.208, port: 45294, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇰🇷 韩国_https://t.me/Msskymu, server: 3.34.131.22, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503, tfo: false}
+  - {name: 🇰🇷 韩国_https://t.me/Msskymu 2, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -63,6 +58,8 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇬🇧 英国_https://t.me/Msskymu
+      - 🇮🇷 伊朗_https://t.me/Msskymu
+      - 🇸🇬 新加坡_https://t.me/Msskymu
       - 🇭🇰 香港_https://t.me/Msskymu
       - 🇭🇰 香港_https://t.me/Msskymu 2
       - 🇭🇰 香港_https://t.me/Msskymu 3
@@ -88,6 +85,8 @@ proxy-groups:
       - 🇭🇰 香港_https://t.me/Msskymu 23
       - 🇭🇰 香港_https://t.me/Msskymu 24
       - 🇭🇰 香港_https://t.me/Msskymu 25
+      - 🇭🇰 香港_https://t.me/Msskymu 26
+      - 🇭🇰 香港_https://t.me/Msskymu 27
       - 🇺🇸 美国_https://t.me/Msskymu
       - 🇺🇸 美国_https://t.me/Msskymu 2
       - 🇺🇸 美国_https://t.me/Msskymu 3
@@ -102,17 +101,8 @@ proxy-groups:
       - 🇺🇸 美国_https://t.me/Msskymu 12
       - 🇺🇸 美国_https://t.me/Msskymu 13
       - 🇺🇸 美国_https://t.me/Msskymu 14
-      - 🇺🇸 美国_https://t.me/Msskymu 15
-      - 🇺🇸 美国_https://t.me/Msskymu 16
-      - 🇺🇸 美国_https://t.me/Msskymu 17
-      - 🇳🇱 荷兰_https://t.me/Msskymu
       - 🇰🇷 韩国_https://t.me/Msskymu
       - 🇰🇷 韩国_https://t.me/Msskymu 2
-      - 🇷🇺 俄罗斯_https://t.me/Msskymu
-      - 🇩🇪 德国_https://t.me/Msskymu
-      - 🇩🇪 德国_https://t.me/Msskymu 2
-      - 🇮🇸 冰岛_https://t.me/Msskymu
-      - 🇦🇺 澳大利亚_https://t.me/Msskymu
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -120,6 +110,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇬🇧 英国_https://t.me/Msskymu
+      - 🇮🇷 伊朗_https://t.me/Msskymu
+      - 🇸🇬 新加坡_https://t.me/Msskymu
       - 🇭🇰 香港_https://t.me/Msskymu
       - 🇭🇰 香港_https://t.me/Msskymu 2
       - 🇭🇰 香港_https://t.me/Msskymu 3
@@ -145,6 +137,8 @@ proxy-groups:
       - 🇭🇰 香港_https://t.me/Msskymu 23
       - 🇭🇰 香港_https://t.me/Msskymu 24
       - 🇭🇰 香港_https://t.me/Msskymu 25
+      - 🇭🇰 香港_https://t.me/Msskymu 26
+      - 🇭🇰 香港_https://t.me/Msskymu 27
       - 🇺🇸 美国_https://t.me/Msskymu
       - 🇺🇸 美国_https://t.me/Msskymu 2
       - 🇺🇸 美国_https://t.me/Msskymu 3
@@ -159,17 +153,8 @@ proxy-groups:
       - 🇺🇸 美国_https://t.me/Msskymu 12
       - 🇺🇸 美国_https://t.me/Msskymu 13
       - 🇺🇸 美国_https://t.me/Msskymu 14
-      - 🇺🇸 美国_https://t.me/Msskymu 15
-      - 🇺🇸 美国_https://t.me/Msskymu 16
-      - 🇺🇸 美国_https://t.me/Msskymu 17
-      - 🇳🇱 荷兰_https://t.me/Msskymu
       - 🇰🇷 韩国_https://t.me/Msskymu
       - 🇰🇷 韩国_https://t.me/Msskymu 2
-      - 🇷🇺 俄罗斯_https://t.me/Msskymu
-      - 🇩🇪 德国_https://t.me/Msskymu
-      - 🇩🇪 德国_https://t.me/Msskymu 2
-      - 🇮🇸 冰岛_https://t.me/Msskymu
-      - 🇦🇺 澳大利亚_https://t.me/Msskymu
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -177,6 +162,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇬🇧 英国_https://t.me/Msskymu
+      - 🇮🇷 伊朗_https://t.me/Msskymu
+      - 🇸🇬 新加坡_https://t.me/Msskymu
       - 🇭🇰 香港_https://t.me/Msskymu
       - 🇭🇰 香港_https://t.me/Msskymu 2
       - 🇭🇰 香港_https://t.me/Msskymu 3
@@ -202,6 +189,8 @@ proxy-groups:
       - 🇭🇰 香港_https://t.me/Msskymu 23
       - 🇭🇰 香港_https://t.me/Msskymu 24
       - 🇭🇰 香港_https://t.me/Msskymu 25
+      - 🇭🇰 香港_https://t.me/Msskymu 26
+      - 🇭🇰 香港_https://t.me/Msskymu 27
       - 🇺🇸 美国_https://t.me/Msskymu
       - 🇺🇸 美国_https://t.me/Msskymu 2
       - 🇺🇸 美国_https://t.me/Msskymu 3
@@ -216,23 +205,16 @@ proxy-groups:
       - 🇺🇸 美国_https://t.me/Msskymu 12
       - 🇺🇸 美国_https://t.me/Msskymu 13
       - 🇺🇸 美国_https://t.me/Msskymu 14
-      - 🇺🇸 美国_https://t.me/Msskymu 15
-      - 🇺🇸 美国_https://t.me/Msskymu 16
-      - 🇺🇸 美国_https://t.me/Msskymu 17
-      - 🇳🇱 荷兰_https://t.me/Msskymu
       - 🇰🇷 韩国_https://t.me/Msskymu
       - 🇰🇷 韩国_https://t.me/Msskymu 2
-      - 🇷🇺 俄罗斯_https://t.me/Msskymu
-      - 🇩🇪 德国_https://t.me/Msskymu
-      - 🇩🇪 德国_https://t.me/Msskymu 2
-      - 🇮🇸 冰岛_https://t.me/Msskymu
-      - 🇦🇺 澳大利亚_https://t.me/Msskymu
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇬🇧 英国_https://t.me/Msskymu
+      - 🇮🇷 伊朗_https://t.me/Msskymu
+      - 🇸🇬 新加坡_https://t.me/Msskymu
       - 🇭🇰 香港_https://t.me/Msskymu
       - 🇭🇰 香港_https://t.me/Msskymu 2
       - 🇭🇰 香港_https://t.me/Msskymu 3
@@ -258,6 +240,8 @@ proxy-groups:
       - 🇭🇰 香港_https://t.me/Msskymu 23
       - 🇭🇰 香港_https://t.me/Msskymu 24
       - 🇭🇰 香港_https://t.me/Msskymu 25
+      - 🇭🇰 香港_https://t.me/Msskymu 26
+      - 🇭🇰 香港_https://t.me/Msskymu 27
       - 🇺🇸 美国_https://t.me/Msskymu
       - 🇺🇸 美国_https://t.me/Msskymu 2
       - 🇺🇸 美国_https://t.me/Msskymu 3
@@ -272,23 +256,16 @@ proxy-groups:
       - 🇺🇸 美国_https://t.me/Msskymu 12
       - 🇺🇸 美国_https://t.me/Msskymu 13
       - 🇺🇸 美国_https://t.me/Msskymu 14
-      - 🇺🇸 美国_https://t.me/Msskymu 15
-      - 🇺🇸 美国_https://t.me/Msskymu 16
-      - 🇺🇸 美国_https://t.me/Msskymu 17
-      - 🇳🇱 荷兰_https://t.me/Msskymu
       - 🇰🇷 韩国_https://t.me/Msskymu
       - 🇰🇷 韩国_https://t.me/Msskymu 2
-      - 🇷🇺 俄罗斯_https://t.me/Msskymu
-      - 🇩🇪 德国_https://t.me/Msskymu
-      - 🇩🇪 德国_https://t.me/Msskymu 2
-      - 🇮🇸 冰岛_https://t.me/Msskymu
-      - 🇦🇺 澳大利亚_https://t.me/Msskymu
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇬🇧 英国_https://t.me/Msskymu
+      - 🇮🇷 伊朗_https://t.me/Msskymu
+      - 🇸🇬 新加坡_https://t.me/Msskymu
       - 🇭🇰 香港_https://t.me/Msskymu
       - 🇭🇰 香港_https://t.me/Msskymu 2
       - 🇭🇰 香港_https://t.me/Msskymu 3
@@ -314,6 +291,8 @@ proxy-groups:
       - 🇭🇰 香港_https://t.me/Msskymu 23
       - 🇭🇰 香港_https://t.me/Msskymu 24
       - 🇭🇰 香港_https://t.me/Msskymu 25
+      - 🇭🇰 香港_https://t.me/Msskymu 26
+      - 🇭🇰 香港_https://t.me/Msskymu 27
       - 🇺🇸 美国_https://t.me/Msskymu
       - 🇺🇸 美国_https://t.me/Msskymu 2
       - 🇺🇸 美国_https://t.me/Msskymu 3
@@ -328,23 +307,16 @@ proxy-groups:
       - 🇺🇸 美国_https://t.me/Msskymu 12
       - 🇺🇸 美国_https://t.me/Msskymu 13
       - 🇺🇸 美国_https://t.me/Msskymu 14
-      - 🇺🇸 美国_https://t.me/Msskymu 15
-      - 🇺🇸 美国_https://t.me/Msskymu 16
-      - 🇺🇸 美国_https://t.me/Msskymu 17
-      - 🇳🇱 荷兰_https://t.me/Msskymu
       - 🇰🇷 韩国_https://t.me/Msskymu
       - 🇰🇷 韩国_https://t.me/Msskymu 2
-      - 🇷🇺 俄罗斯_https://t.me/Msskymu
-      - 🇩🇪 德国_https://t.me/Msskymu
-      - 🇩🇪 德国_https://t.me/Msskymu 2
-      - 🇮🇸 冰岛_https://t.me/Msskymu
-      - 🇦🇺 澳大利亚_https://t.me/Msskymu
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇬🇧 英国_https://t.me/Msskymu
+      - 🇮🇷 伊朗_https://t.me/Msskymu
+      - 🇸🇬 新加坡_https://t.me/Msskymu
       - 🇭🇰 香港_https://t.me/Msskymu
       - 🇭🇰 香港_https://t.me/Msskymu 2
       - 🇭🇰 香港_https://t.me/Msskymu 3
@@ -370,6 +342,8 @@ proxy-groups:
       - 🇭🇰 香港_https://t.me/Msskymu 23
       - 🇭🇰 香港_https://t.me/Msskymu 24
       - 🇭🇰 香港_https://t.me/Msskymu 25
+      - 🇭🇰 香港_https://t.me/Msskymu 26
+      - 🇭🇰 香港_https://t.me/Msskymu 27
       - 🇺🇸 美国_https://t.me/Msskymu
       - 🇺🇸 美国_https://t.me/Msskymu 2
       - 🇺🇸 美国_https://t.me/Msskymu 3
@@ -384,17 +358,8 @@ proxy-groups:
       - 🇺🇸 美国_https://t.me/Msskymu 12
       - 🇺🇸 美国_https://t.me/Msskymu 13
       - 🇺🇸 美国_https://t.me/Msskymu 14
-      - 🇺🇸 美国_https://t.me/Msskymu 15
-      - 🇺🇸 美国_https://t.me/Msskymu 16
-      - 🇺🇸 美国_https://t.me/Msskymu 17
-      - 🇳🇱 荷兰_https://t.me/Msskymu
       - 🇰🇷 韩国_https://t.me/Msskymu
       - 🇰🇷 韩国_https://t.me/Msskymu 2
-      - 🇷🇺 俄罗斯_https://t.me/Msskymu
-      - 🇩🇪 德国_https://t.me/Msskymu
-      - 🇩🇪 德国_https://t.me/Msskymu 2
-      - 🇮🇸 冰岛_https://t.me/Msskymu
-      - 🇦🇺 澳大利亚_https://t.me/Msskymu
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -402,6 +367,8 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇬🇧 英国_https://t.me/Msskymu
+      - 🇮🇷 伊朗_https://t.me/Msskymu
+      - 🇸🇬 新加坡_https://t.me/Msskymu
       - 🇭🇰 香港_https://t.me/Msskymu
       - 🇭🇰 香港_https://t.me/Msskymu 2
       - 🇭🇰 香港_https://t.me/Msskymu 3
@@ -427,6 +394,8 @@ proxy-groups:
       - 🇭🇰 香港_https://t.me/Msskymu 23
       - 🇭🇰 香港_https://t.me/Msskymu 24
       - 🇭🇰 香港_https://t.me/Msskymu 25
+      - 🇭🇰 香港_https://t.me/Msskymu 26
+      - 🇭🇰 香港_https://t.me/Msskymu 27
       - 🇺🇸 美国_https://t.me/Msskymu
       - 🇺🇸 美国_https://t.me/Msskymu 2
       - 🇺🇸 美国_https://t.me/Msskymu 3
@@ -441,17 +410,8 @@ proxy-groups:
       - 🇺🇸 美国_https://t.me/Msskymu 12
       - 🇺🇸 美国_https://t.me/Msskymu 13
       - 🇺🇸 美国_https://t.me/Msskymu 14
-      - 🇺🇸 美国_https://t.me/Msskymu 15
-      - 🇺🇸 美国_https://t.me/Msskymu 16
-      - 🇺🇸 美国_https://t.me/Msskymu 17
-      - 🇳🇱 荷兰_https://t.me/Msskymu
       - 🇰🇷 韩国_https://t.me/Msskymu
       - 🇰🇷 韩国_https://t.me/Msskymu 2
-      - 🇷🇺 俄罗斯_https://t.me/Msskymu
-      - 🇩🇪 德国_https://t.me/Msskymu
-      - 🇩🇪 德国_https://t.me/Msskymu 2
-      - 🇮🇸 冰岛_https://t.me/Msskymu
-      - 🇦🇺 澳大利亚_https://t.me/Msskymu
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -475,6 +435,8 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇬🇧 英国_https://t.me/Msskymu
+      - 🇮🇷 伊朗_https://t.me/Msskymu
+      - 🇸🇬 新加坡_https://t.me/Msskymu
       - 🇭🇰 香港_https://t.me/Msskymu
       - 🇭🇰 香港_https://t.me/Msskymu 2
       - 🇭🇰 香港_https://t.me/Msskymu 3
@@ -500,6 +462,8 @@ proxy-groups:
       - 🇭🇰 香港_https://t.me/Msskymu 23
       - 🇭🇰 香港_https://t.me/Msskymu 24
       - 🇭🇰 香港_https://t.me/Msskymu 25
+      - 🇭🇰 香港_https://t.me/Msskymu 26
+      - 🇭🇰 香港_https://t.me/Msskymu 27
       - 🇺🇸 美国_https://t.me/Msskymu
       - 🇺🇸 美国_https://t.me/Msskymu 2
       - 🇺🇸 美国_https://t.me/Msskymu 3
@@ -514,17 +478,8 @@ proxy-groups:
       - 🇺🇸 美国_https://t.me/Msskymu 12
       - 🇺🇸 美国_https://t.me/Msskymu 13
       - 🇺🇸 美国_https://t.me/Msskymu 14
-      - 🇺🇸 美国_https://t.me/Msskymu 15
-      - 🇺🇸 美国_https://t.me/Msskymu 16
-      - 🇺🇸 美国_https://t.me/Msskymu 17
-      - 🇳🇱 荷兰_https://t.me/Msskymu
       - 🇰🇷 韩国_https://t.me/Msskymu
       - 🇰🇷 韩国_https://t.me/Msskymu 2
-      - 🇷🇺 俄罗斯_https://t.me/Msskymu
-      - 🇩🇪 德国_https://t.me/Msskymu
-      - 🇩🇪 德国_https://t.me/Msskymu 2
-      - 🇮🇸 冰岛_https://t.me/Msskymu
-      - 🇦🇺 澳大利亚_https://t.me/Msskymu
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
